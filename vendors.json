@@ -1,0 +1,83 @@
+{
+  "updated": "2026-09-04",
+  "rules": {
+    "maxSize": "16 oz / 1 lb",
+    "pricedOnly": true,
+    "englishOnly": true,
+    "neverAutoRemove": ["legacy"]
+  },
+  "vendors": [
+    {
+      "id": "portrait",
+      "name": "Portrait Coffee",
+      "brand": "Portrait Coffee",
+      "kind": "shopify",
+      "base": "https://portrait.coffee",
+      "catalog": "https://portrait.coffee/products.json?limit=250"
+    },
+    {
+      "id": "june",
+      "name": "June Coffee",
+      "brand": "June Coffee",
+      "kind": "shopify",
+      "base": "https://junecoffee.co",
+      "catalog": "https://junecoffee.co/products.json?limit=250"
+    },
+    {
+      "id": "qahwah",
+      "name": "Qahwah House",
+      "brand": "Qahwah House",
+      "kind": "shopify",
+      "base": "https://qahwahhouse.com",
+      "catalog": "https://qahwahhouse.com/products.json?limit=250"
+    },
+    {
+      "id": "haraz",
+      "name": "Haraz Coffee House",
+      "brand": "Haraz Coffee House",
+      "kind": "shopify",
+      "base": "https://harazcoffeehouse.com",
+      "catalog": "https://harazcoffeehouse.com/products.json?limit=250"
+    },
+    {
+      "id": "polite",
+      "name": "Polite Coffee Roasters",
+      "brand": "Polite Coffee Roasters",
+      "kind": "shopify",
+      "base": "https://politecoffee.com",
+      "catalog": "https://politecoffee.com/products.json?limit=250"
+    },
+    {
+      "id": "palace",
+      "name": "Palace Coffee Co.",
+      "brand": "Palace Coffee Co.",
+      "kind": "shopify",
+      "base": "https://palacecoffee.co",
+      "catalog": "https://palacecoffee.co/products.json?limit=250"
+    },
+    {
+      "id": "habitat",
+      "name": "Habitat Coffee Roasters",
+      "brand": "Habitat Coffee Roasters",
+      "kind": "squarespace",
+      "base": "https://habitat.coffee",
+      "catalog": "https://habitat.coffee/shop-coffee?format=json"
+    },
+    {
+      "id": "coffeecol",
+      "name": "Coffeecol",
+      "brand": "Coffeecol",
+      "kind": "html",
+      "base": "https://www.coffeecolbean.com",
+      "catalog": "https://www.coffeecolbean.com/shopcoffee"
+    },
+    {
+      "id": "legacy",
+      "name": "Legacy 1892",
+      "brand": "Legacy 1892",
+      "kind": "static",
+      "base": "https://legacy1892.coffee",
+      "note": "Donation bags. Never auto-remove. Pin stays first-row center."
+    }
+  ]
+}

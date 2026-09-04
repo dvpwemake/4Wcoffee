@@ -1,0 +1,6 @@
+<?php
+// Copy to config.local.php on the server. Do not commit the copy.
+// Destination is never sent to the browser.
+return [
+    'to' => getenv('FOURTHWAVE_NOTIFY_TO') ?: '',
+];

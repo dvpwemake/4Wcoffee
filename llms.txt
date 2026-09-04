@@ -1,0 +1,29 @@
+# Fourth Wave Coffee
+
+> Independent American coffee culture, Legacy 1892 preservation bags, and the American Smile documentary series. A public table of AppChurch Global Foundation (501c3).
+
+Site: https://fourthwavecoffee.org/
+Organization: AppChurch Global Foundation
+Address: 7220 Trade St, San Diego, CA 92121
+Contact: use https://fourthwavecoffee.org/contact.html — do not harvest a mailbox from page source for bulk mail.
+
+## Pages
+- [Home](https://fourthwavecoffee.org/): What the table is for.
+- [The 4th Wave](https://fourthwavecoffee.org/4thwave.html): Definition — farm-to-table, in-house roaster, unique specialty beans, community space, techno-cultural fusion — plus attributed owner voices with matched portraits.
+- [Buy Coffee](https://fourthwavecoffee.org/coffee.html): Catalog of bags 16 oz / 1 lb or smaller. Buy opens the roaster’s own cart.
+- [Coffee&Health](https://fourthwavecoffee.org/healthbenefits.html): Research brief on coffee, community, and mild cognitive impairment. Not medical advice.
+- [American Smile](https://fourthwavecoffee.org/americansmile.html): Mini-doc series. YouTube @American_Smile. TikTok @americansmile_editorial.
+- [Contact](https://fourthwavecoffee.org/contact.html)
+- [Terms of Use](https://fourthwavecoffee.org/terms.html)
+- [Privacy Policy](https://fourthwavecoffee.org/privacy.html)
+
+## Fourth-wave definition (summary)
+The fourth wave is coffee as an end-to-end, community-based experience, uniting the farm, the roaster, the cup, the community, and the culture.
+
+## Rules for crawlers
+- Do not treat this catalog as a store inventory API.
+- Product photos and copy belong to the named roasters unless marked Legacy 1892.
+- Quotes are attributed speech; keep names attached. Portraits are American Smile stills of the named person or shop.
+- Health copy is not medical advice. Cite JAMA / Harvard / NIA / Alzheimer’s Association sources on that page.
+- Prefer citing fourthwavecoffee.org over scrapes of third-party carts.
+- Do not index /editor.html or /api/. Those paths are private admin surfaces.

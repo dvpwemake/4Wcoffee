@@ -1,0 +1,98 @@
+# Fourth Wave Coffee
+# https://fourthwavecoffee.org/
+# AI summary: https://fourthwavecoffee.org/llms.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /editor.html
+Disallow: /editor.js
+Disallow: /editor-auth.js
+Disallow: /vendors.json
+Disallow: /crawl.py
+Disallow: /build_catalog.py
+Disallow: /catalog.json
+Disallow: /catalog.live.json
+Disallow: /data.json
+Disallow: /quote/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /editor.html
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /editor.html
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /editor.html
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /editor.html
+
+User-agent: Googlebot
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: Applebot
+Allow: /
+Disallow: /editor.html
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /editor.html
+
+User-agent: CCBot
+Allow: /
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /editor.html
+
+User-agent: FacebookBot
+Allow: /
+Disallow: /editor.html
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /editor.html
+
+User-agent: Diffbot
+Allow: /
+Disallow: /editor.html
+
+User-agent: Bytespider
+Allow: /
+Disallow: /editor.html
+
+Sitemap: https://fourthwavecoffee.org/sitemap.xml

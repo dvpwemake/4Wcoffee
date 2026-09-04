@@ -1,0 +1,18 @@
+schema: it-team.ui_lock/v1
+project: 4thwavecoffee
+updated: 2026-09-04
+status: locked
+locked_ui: ferrari-cinematic
+source: 3.html
+production_page: coffee.html
+stylesheet: site.css
+domain: fourthwavecoffee.org
+owners:
+  design: IT Team Design desk
+  web: Web / Site Engineering Lead
+note: >
+  Principal locked the Ferrari cinematic UI (near-black canvas, Rosso Corsa
+  CTAs, sharp corners, Inter as FerrariSans stand-in). coffee.html is the
+  catalog. Do not restyle production without a new lock. 2026-09-04 copy/nav
+  and new pages are allowed; token/chrome restyle is not. Canonical path is
+  /Users/kingofthehill/Documents/Repo/4wave.
