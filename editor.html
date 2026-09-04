@@ -117,8 +117,10 @@ button,input,select,textarea{font:inherit}
       <p class="side-note" id="catMeta">—</p>
       <button class="btn btn-p" onclick="applyDiff()" style="width:100%;margin-bottom:.4rem">Apply checked changes</button>
       <button class="btn" onclick="exportCatalog()" style="width:100%;margin-bottom:.4rem">Download catalog.data.js</button>
+      <label class="sec-t" for="ghPat" style="display:block;margin:0.85rem 0 0.4rem">GitHub PAT</label>
+      <input id="ghPat" type="password" autocomplete="off" spellcheck="false" placeholder="ghp_… or github_pat_…" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
       <button class="btn btn-s" onclick="publishCatalog()" style="width:100%">Publish to GitHub</button>
-      <p class="side-note">GitHub publish needs a PAT with contents:write. Replace the live file, then refresh coffee.html.</p>
+      <p class="side-note">Publishes <code>catalog.data.js</code> to <code>dvpwemake/4Wcoffee</code> on <code>main</code>. Paste a fine-grained PAT with Contents: Read and write. It stays in this tab only — never in the page source.</p>
     </div>
     <div class="sec">
       <button class="btn" onclick="showLog()" style="width:100%">Scan log</button>

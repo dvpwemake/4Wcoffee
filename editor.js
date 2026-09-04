@@ -372,6 +372,7 @@
         this.vendors = [];
       }
       this.renderVendors();
+      this.bindPatField();
       this.log("inf", "Loaded " + this.products.length + " catalog items.");
     }
 
@@ -558,55 +559,133 @@
       this.log("ok", "Downloaded catalog.data.js (" + this.working.length + " items).");
     }
 
+    ghHeaders(token, withJson) {
+      var h = {
+        Accept: "application/vnd.github+json",
+        Authorization: "Bearer " + token,
+        "X-GitHub-Api-Version": "2022-11-28",
+      };
+      if (withJson) h["Content-Type"] = "application/json";
+      return h;
+    }
+
+    b64Utf8(str) {
+      var bytes = new TextEncoder().encode(str);
+      var bin = "";
+      bytes.forEach(function (b) {
+        bin += String.fromCharCode(b);
+      });
+      return btoa(bin);
+    }
+
+    readPat() {
+      var input = document.getElementById("ghPat");
+      var typed = input && input.value ? String(input.value).trim() : "";
+      if (typed) {
+        try {
+          sessionStorage.setItem("fw_gh_pat", typed);
+        } catch (e) {
+          /* private mode */
+        }
+        return typed;
+      }
+      try {
+        return sessionStorage.getItem("fw_gh_pat") || "";
+      } catch (e) {
+        return "";
+      }
+    }
+
+    bindPatField() {
+      var input = document.getElementById("ghPat");
+      if (!input) return;
+      try {
+        var saved = sessionStorage.getItem("fw_gh_pat") || "";
+        if (saved && !input.value) input.value = saved;
+      } catch (e) {
+        /* ignore */
+      }
+      input.addEventListener("change", function () {
+        var v = String(input.value || "").trim();
+        try {
+          if (v) sessionStorage.setItem("fw_gh_pat", v);
+          else sessionStorage.removeItem("fw_gh_pat");
+        } catch (e2) {
+          /* ignore */
+        }
+      });
+    }
+
     async publishGithub() {
-      var token = sessionStorage.getItem("fw_gh_pat") || window.prompt("GitHub PAT with contents:write (stored in this tab only)");
-      if (!token) return;
-      sessionStorage.setItem("fw_gh_pat", token);
-      var owner = window.prompt("GitHub owner", sessionStorage.getItem("fw_gh_owner") || "");
-      var repo = window.prompt("GitHub repo", sessionStorage.getItem("fw_gh_repo") || "4wave");
-      if (!owner || !repo) return;
-      sessionStorage.setItem("fw_gh_owner", owner);
-      sessionStorage.setItem("fw_gh_repo", repo);
+      var owner = "dvpwemake";
+      var repo = "4Wcoffee";
+      var branch = "main";
       var path = "catalog.data.js";
+      var token = this.readPat();
+      if (!token) {
+        var field = document.getElementById("ghPat");
+        if (field) field.focus();
+        this.toast("Paste a GitHub PAT with Contents write on dvpwemake/4Wcoffee.", "error");
+        this.log("err", "Publish cancelled — no PAT.");
+        return;
+      }
       var payload = { itemCount: this.working.length, products: this.working };
       var content =
         "/* generated catalog — priced bags 16 oz or less */\nwindow.CATALOG = " +
         JSON.stringify(payload) +
         ";\n";
-      var b64 = btoa(unescape(encodeURIComponent(content)));
-      var api = "https://api.github.com/repos/" + owner + "/" + repo + "/contents/" + path;
+      var api =
+        "https://api.github.com/repos/" +
+        owner +
+        "/" +
+        repo +
+        "/contents/" +
+        encodeURI(path);
+      this.status("Publishing…", true);
       var sha = null;
       try {
-        var cur = await fetch(api, { headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" } });
+        var cur = await fetch(api + "?ref=" + encodeURIComponent(branch), {
+          headers: this.ghHeaders(token, false),
+        });
+        if (cur.status === 401 || cur.status === 403) {
+          try {
+            sessionStorage.removeItem("fw_gh_pat");
+          } catch (e) {
+            /* ignore */
+          }
+          var bad = document.getElementById("ghPat");
+          if (bad) bad.value = "";
+          this.status("Idle", false);
+          this.log("err", "GitHub rejected the PAT (" + cur.status + ").");
+          this.toast("Token rejected. Paste a valid PAT and try again.", "error");
+          return;
+        }
         if (cur.ok) {
           var curJ = await cur.json();
           sha = curJ.sha;
         }
       } catch (e) {
-        /* new file */
+        /* treat as new file */
       }
       var body = {
         message: "catalog rescan " + new Date().toISOString().slice(0, 10),
-        content: b64,
-        branch: "main",
+        content: this.b64Utf8(content),
+        branch: branch,
       };
       if (sha) body.sha = sha;
       var put = await fetch(api, {
         method: "PUT",
-        headers: {
-          Authorization: "Bearer " + token,
-          Accept: "application/vnd.github+json",
-          "Content-Type": "application/json",
-        },
+        headers: this.ghHeaders(token, true),
         body: JSON.stringify(body),
       });
+      this.status("Idle", false);
       if (!put.ok) {
         var errT = await put.text();
         this.log("err", "GitHub publish failed: " + put.status + " " + errT.slice(0, 180));
         this.toast("GitHub publish failed.", "error");
         return;
       }
-      this.log("ok", "Published catalog.data.js to " + owner + "/" + repo);
+      this.log("ok", "Published catalog.data.js to " + owner + "/" + repo + "@" + branch);
       this.toast("Published to GitHub.", "success");
     }
 
