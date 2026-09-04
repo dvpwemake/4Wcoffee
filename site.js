@@ -118,25 +118,71 @@
   }
 
   class ContactForm {
+    static mailbox() {
+      return ["info", "appchurchglobal.org"].join("@");
+    }
+
+    static endpoint() {
+      return "https://formsubmit.co/ajax/" + ContactForm.mailbox();
+    }
+
+    static setStatus(text) {
+      const note = document.getElementById("contact-status");
+      if (note) note.textContent = text;
+    }
+
     static bind() {
       const form = document.getElementById("contact-form");
       if (!form) return;
       form.addEventListener("submit", function (ev) {
         ev.preventDefault();
         const trap = form.querySelector('[name="company"]');
-        if (trap && trap.value) return;
-        const name = (form.querySelector('[name="name"]') || {}).value || "";
-        const message = (form.querySelector('[name="message"]') || {}).value || "";
-        BuyNotifier.notify({
-          type: "contact",
-          id: "contact",
-          name: name.slice(0, 80),
-          url: "https://fourthwavecoffee.org/contact.html",
-          note: message.slice(0, 400),
-        });
-        const note = document.getElementById("contact-status");
-        if (note) note.textContent = "Message sent. We will reply as we are able.";
-        form.reset();
+        if (trap && trap.value) {
+          ContactForm.setStatus("Message sent. We will reply as we are able.");
+          form.reset();
+          return;
+        }
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+        const name = ((form.querySelector('[name="name"]') || {}).value || "").trim().slice(0, 80);
+        const email = ((form.querySelector('[name="email"]') || {}).value || "").trim().slice(0, 120);
+        const message = ((form.querySelector('[name="message"]') || {}).value || "").trim().slice(0, 400);
+        const btn = form.querySelector('button[type="submit"]');
+        if (btn) btn.disabled = true;
+        ContactForm.setStatus("Sending…");
+        const payload = new FormData();
+        payload.append("name", name);
+        payload.append("email", email);
+        payload.append("_replyto", email);
+        payload.append("message", message);
+        payload.append("_subject", "Fourth Wave Coffee contact");
+        payload.append("_template", "table");
+        payload.append("_captcha", "false");
+        fetch(ContactForm.endpoint(), {
+          method: "POST",
+          headers: { Accept: "application/json" },
+          body: payload,
+        })
+          .then(function (res) {
+            return res.json().then(function (data) {
+              return { ok: res.ok, data: data };
+            });
+          })
+          .then(function (result) {
+            if (!result.ok) {
+              throw new Error((result.data && result.data.message) || "send failed");
+            }
+            ContactForm.setStatus("Message sent. We will reply as we are able.");
+            form.reset();
+          })
+          .catch(function () {
+            ContactForm.setStatus("Could not send. Please try again in a moment.");
+          })
+          .then(function () {
+            if (btn) btn.disabled = false;
+          });
       });
     }
   }
