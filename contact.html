@@ -21,22 +21,23 @@
     <h1>Write to us.</h1>
   </header>
   <main class="wrap">
-    <form class="form" id="contact-form" novalidate>
+    <form class="form" id="contact-form" action="https://formspree.io/f/mqeggedw" method="POST">
+      <input type="hidden" name="_subject" value="Fourth Wave Coffee contact">
       <label for="name">Name</label>
       <input id="name" name="name" maxlength="80" autocomplete="name" required>
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" maxlength="120" autocomplete="email" required>
+      <label for="email">Your email address</label>
+      <input id="email" name="email" type="email" maxlength="120" autocomplete="email" required placeholder="name@example.com">
       <label for="message">Message</label>
       <textarea id="message" name="message" maxlength="400" required></textarea>
       <div class="hp" aria-hidden="true">
         <label>Company</label>
-        <input type="text" name="company" tabindex="-1" autocomplete="off">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
       </div>
-      <button class="btn" type="submit">Send</button>
+      <button class="btn" type="submit" id="contact-send">Send</button>
       <p class="form-note" id="contact-status">We read every note. Please do not include passwords, medical records, or payment numbers.</p>
     </form>
   </main>
   <footer data-footer></footer>
-  <script src="site.js"></script>
+  <script src="site.js?v=20260904c"></script>
 </body>
 </html>

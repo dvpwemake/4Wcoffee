@@ -118,14 +118,6 @@
   }
 
   class ContactForm {
-    static mailbox() {
-      return ["info", "appchurchglobal.org"].join("@");
-    }
-
-    static endpoint() {
-      return "https://formsubmit.co/ajax/" + ContactForm.mailbox();
-    }
-
     static setStatus(text) {
       const note = document.getElementById("contact-status");
       if (note) note.textContent = text;
@@ -136,49 +128,60 @@
       if (!form) return;
       form.addEventListener("submit", function (ev) {
         ev.preventDefault();
-        const trap = form.querySelector('[name="company"]');
+        const trap = form.querySelector('[name="_gotcha"]');
         if (trap && trap.value) {
           ContactForm.setStatus("Message sent. We will reply as we are able.");
           form.reset();
           return;
         }
-        if (!form.checkValidity()) {
-          form.reportValidity();
+        const name = ((form.querySelector('[name="name"]') || {}).value || "").trim();
+        const email = ((form.querySelector('[name="email"]') || {}).value || "").trim();
+        const message = ((form.querySelector('[name="message"]') || {}).value || "").trim();
+        if (!name || !email || !message) {
+          ContactForm.setStatus("Please enter your name, email address, and message.");
           return;
         }
-        const name = ((form.querySelector('[name="name"]') || {}).value || "").trim().slice(0, 80);
-        const email = ((form.querySelector('[name="email"]') || {}).value || "").trim().slice(0, 120);
-        const message = ((form.querySelector('[name="message"]') || {}).value || "").trim().slice(0, 400);
-        const btn = form.querySelector('button[type="submit"]');
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          ContactForm.setStatus("Please enter a valid email address so we can reply.");
+          const emailEl = form.querySelector('[name="email"]');
+          if (emailEl) emailEl.focus();
+          return;
+        }
+        const btn = form.querySelector("#contact-send") || form.querySelector('button[type="submit"]');
         if (btn) btn.disabled = true;
         ContactForm.setStatus("Sending…");
-        const payload = new FormData();
-        payload.append("name", name);
-        payload.append("email", email);
-        payload.append("_replyto", email);
-        payload.append("message", message);
-        payload.append("_subject", "Fourth Wave Coffee contact");
-        payload.append("_template", "table");
-        payload.append("_captcha", "false");
-        fetch(ContactForm.endpoint(), {
-          method: "POST",
-          headers: { Accept: "application/json" },
-          body: payload,
-        })
-          .then(function (res) {
-            return res.json().then(function (data) {
-              return { ok: res.ok, data: data };
+        function pack() {
+          const data = new FormData();
+          data.set("name", name);
+          data.set("email", email);
+          data.set("_replyto", email);
+          data.set("message", message);
+          data.set("_subject", "Fourth Wave Coffee contact from " + name);
+          return data;
+        }
+        const posts = [
+          fetch(form.action, {
+            method: "POST",
+            body: pack(),
+            headers: { Accept: "application/json" },
+          }),
+          fetch("https://formsubmit.co/ajax/" + ["info", "appchurchglobal.org"].join("@"), {
+            method: "POST",
+            body: pack(),
+            headers: { Accept: "application/json" },
+          }),
+        ];
+        Promise.allSettled(posts)
+          .then(function (results) {
+            var delivered = results.some(function (r) {
+              return r.status === "fulfilled" && r.value && r.value.ok;
             });
-          })
-          .then(function (result) {
-            if (!result.ok) {
-              throw new Error((result.data && result.data.message) || "send failed");
-            }
+            if (!delivered) throw new Error("send failed");
             ContactForm.setStatus("Message sent. We will reply as we are able.");
             form.reset();
           })
           .catch(function () {
-            ContactForm.setStatus("Could not send. Please try again in a moment.");
+            form.submit();
           })
           .then(function () {
             if (btn) btn.disabled = false;
