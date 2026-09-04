@@ -130,8 +130,7 @@
         ev.preventDefault();
         const trap = form.querySelector('[name="_gotcha"]');
         if (trap && trap.value) {
-          ContactForm.setStatus("Message sent. We will reply as we are able.");
-          form.reset();
+          location.replace("sent.html");
           return;
         }
         const name = ((form.querySelector('[name="name"]') || {}).value || "").trim();
@@ -177,8 +176,7 @@
               return r.status === "fulfilled" && r.value && r.value.ok;
             });
             if (!delivered) throw new Error("send failed");
-            ContactForm.setStatus("Message sent. We will reply as we are able.");
-            form.reset();
+            location.replace("sent.html");
           })
           .catch(function () {
             form.submit();
