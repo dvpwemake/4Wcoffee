@@ -414,6 +414,11 @@
             return "<p>" + HomeEditorial.esc(p) + "</p>";
           })
           .join("") +
+        '<p class="ed-sign">' +
+        HomeEditorial.esc(ed.authorName || "Dr. Wallace Lynch") +
+        " · " +
+        HomeEditorial.esc(ed.authorTitle || "Editor in Chief") +
+        "</p>" +
         '<p><a class="btn btn-outline" href="latestbeat.html#editorial">Latest Beat</a></p>' +
         "</div>";
     }

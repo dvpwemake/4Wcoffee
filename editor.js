@@ -390,6 +390,79 @@
       });
     }
 
+    thumbProxy(u) {
+      if (!u) return "";
+      return (
+        "https://images.weserv.nl/?url=" +
+        encodeURIComponent(String(u).replace(/^https?:\/\//, "")) +
+        "&w=192&h=144&fit=cover&we&output=jpg"
+      );
+    }
+
+    parseOgImage(html) {
+      var pats = [
+        /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i,
+        /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::secure_url)?["']/i,
+        /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]+content=["']([^"']+)["']/i,
+        /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image(?::src)?["']/i,
+      ];
+      for (var i = 0; i < pats.length; i++) {
+        var m = html.match(pats[i]);
+        if (m) return m[1].replace(/&amp;/g, "&").trim();
+      }
+      return "";
+    }
+
+    async fetchOgImage(url) {
+      if (!url || url === "#") return "";
+      var proxies = [
+        "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
+        "https://corsproxy.io/?" + encodeURIComponent(url),
+      ];
+      for (var i = 0; i < proxies.length; i++) {
+        try {
+          var r = await fetch(proxies[i]);
+          if (!r.ok) continue;
+          var og = this.parseOgImage(await r.text());
+          if (og) return og;
+        } catch (e) {
+          /* next proxy */
+        }
+      }
+      return "";
+    }
+
+    confirmCover(img, url) {
+      var st = img.parentElement && img.parentElement.querySelector(".cover-st");
+      function set(ok, msg) {
+        if (!st) return;
+        st.textContent = msg;
+        st.className = "cover-st " + (ok ? "ok" : "er");
+      }
+      if (!url) {
+        img.removeAttribute("src");
+        img.classList.add("fail");
+        set(false, "No URL");
+        return;
+      }
+      img.classList.remove("fail");
+      delete img.dataset.proxy;
+      img.dataset.orig = url;
+      img.onload = function () {
+        set(true, "URL loads");
+      };
+      img.onerror = function () {
+        if (!img.dataset.proxy) {
+          img.dataset.proxy = "1";
+          img.src = app.thumbProxy(url);
+          return;
+        }
+        img.classList.add("fail");
+        set(false, "URL failed");
+      };
+      img.src = url;
+    }
+
     renderSignals() {
       var host = document.getElementById("signalList");
       if (!host) return;
@@ -399,23 +472,101 @@
         host.innerHTML = '<p class="empty">No signals. Run scripts/crawl-signals.py.</p>';
         return;
       }
+      var self = this;
       host.innerHTML = items
         .map(function (it, i) {
+          var img = it.image || "";
           return (
             '<div class="sig-row" data-i="' +
             i +
-            '"><span class="sec-t">' +
-            this.esc(it.categoryLabel || it.category) +
+            '"><div><img class="sig-thumb" alt="" referrerpolicy="no-referrer"><p class="cover-st">Checking…</p></div><div>' +
+            '<span class="sec-t">' +
+            self.esc(it.categoryLabel || it.category) +
             "</span><b>" +
-            this.esc(it.title) +
+            self.esc(it.title) +
             "</b><i>" +
-            this.esc(it.source) +
-            "</i><label class=\"sec-t\">Summary</label><textarea class=\"fi sig-sum\">" +
-            this.esc(it.summary) +
-            "</textarea></div>"
+            self.esc(it.source) +
+            "</i>" +
+            '<label class="sec-t">Cover image URL</label>' +
+            '<input type="url" class="fi sig-img" value="' +
+            self.esc(img) +
+            '" placeholder="https://…">' +
+            '<div class="sig-actions">' +
+            '<button type="button" class="btn btn-p" data-act="apply">Apply image</button>' +
+            '<button type="button" class="btn" data-act="fetch">From article</button>' +
+            (it.sourceUrl
+              ? '<a class="btn" href="' + self.esc(it.sourceUrl) + '" target="_blank" rel="noopener">Article</a>'
+              : "") +
+            "</div></div></div>"
           );
-        }, this)
+        })
         .join("");
+      host.querySelectorAll(".sig-row").forEach(function (row) {
+        var inp = row.querySelector(".sig-img");
+        var thumb = row.querySelector(".sig-thumb");
+        self.confirmCover(thumb, inp.value.trim());
+        inp.addEventListener("input", function () {
+          self.confirmCover(thumb, inp.value.trim());
+        });
+      });
+      if (!host.dataset.bound) {
+        host.dataset.bound = "1";
+        host.addEventListener("click", function (ev) {
+          var btn = ev.target.closest("[data-act]");
+          if (!btn) return;
+          var row = btn.closest(".sig-row");
+          if (!row) return;
+          var act = btn.getAttribute("data-act");
+          if (act === "apply") self.applyCover(row);
+          if (act === "fetch") self.pullCover(row, btn);
+        });
+      }
+    }
+
+    applyCover(row) {
+      var i = parseInt(row.getAttribute("data-i"), 10);
+      var inp = row.querySelector(".sig-img");
+      var url = inp ? inp.value.trim() : "";
+      var data = global.SIGNALS || { items: [] };
+      if (!data.items[i]) return;
+      data.items[i].image = url;
+      this.confirmCover(row.querySelector(".sig-thumb"), url);
+      this.toast("Cover URL saved", "success");
+    }
+
+    async pullCover(row, btn) {
+      var i = parseInt(row.getAttribute("data-i"), 10);
+      var data = global.SIGNALS || { items: [] };
+      var it = data.items[i];
+      if (!it || !it.sourceUrl) {
+        this.toast("No article URL on this item.", "error");
+        return;
+      }
+      if (btn) btn.disabled = true;
+      this.toast("Fetching og:image…", "info");
+      var og = await this.fetchOgImage(it.sourceUrl);
+      if (btn) btn.disabled = false;
+      if (!og) {
+        this.toast("No og:image found.", "error");
+        return;
+      }
+      var inp = row.querySelector(".sig-img");
+      if (inp) inp.value = og;
+      this.confirmCover(row.querySelector(".sig-thumb"), og);
+      this.toast("Image URL loaded — click Apply to save.", "info");
+    }
+
+    async fetchAllCovers() {
+      var data = global.SIGNALS || { items: [] };
+      var items = data.items || [];
+      this.toast("Fetching covers…", "info");
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].image) continue;
+        var og = await this.fetchOgImage(items[i].sourceUrl);
+        if (og) items[i].image = og;
+      }
+      this.renderSignals();
+      this.toast("Cover pass finished.", "success");
     }
 
     collectSignals() {
@@ -423,8 +574,8 @@
       var rows = document.querySelectorAll("#signalList .sig-row");
       rows.forEach(function (row) {
         var i = parseInt(row.getAttribute("data-i"), 10);
-        var ta = row.querySelector(".sig-sum");
-        if (data.items[i] && ta) data.items[i].summary = ta.value.trim();
+        var inp = row.querySelector(".sig-img");
+        if (data.items[i] && inp) data.items[i].image = inp.value.trim();
       });
       return data;
     }
@@ -463,8 +614,8 @@
         dek: (document.getElementById("edDek") || {}).value || "",
         heroImage: (document.getElementById("edHero") || {}).value || "",
         heroCredit: (document.getElementById("edCredit") || {}).value || "",
-        authorName: "Fourth Wave Coffee",
-        authorTitle: "Daily desk",
+        authorName: "Dr. Wallace Lynch",
+        authorTitle: "Editor in Chief",
         body: body.trim(),
         paragraphs: paras,
         wordCount: body.trim().split(/\s+/).filter(Boolean).length,
@@ -821,6 +972,9 @@
       p.hidden = !on;
       p.style.display = on ? "grid" : "none";
     });
+  };
+  global.fetchAllCovers = function () {
+    app.fetchAllCovers();
   };
   global.showLog = function () {
     var p = document.getElementById("logP");

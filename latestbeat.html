@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="site.css?v=20260906">
+  <link rel="stylesheet" href="site.css?v=20260906e">
 </head>
 <body>
   <div data-nav></div>
@@ -28,7 +28,7 @@
   <footer data-footer></footer>
   <script src="signals.data.js"></script>
   <script src="editorial.data.js"></script>
-  <script src="site.js?v=20260906"></script>
+  <script src="site.js?v=20260906e"></script>
   <script>
   (function () {
     var FALLBACK = {
@@ -115,6 +115,11 @@
         '<div class="prose" style="margin-top:24px">' +
         (ed.dek ? '<p class="dek">' + esc(ed.dek) + "</p>" : "") +
         paras.map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") +
+        '<p class="ed-sign">' +
+        esc(ed.authorName || "Dr. Wallace Lynch") +
+        " · " +
+        esc(ed.authorTitle || "Editor in Chief") +
+        "</p>" +
         "</div>";
     }
 

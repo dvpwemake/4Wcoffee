@@ -85,8 +85,16 @@ button,input,select,textarea{font:inherit}
 [data-panel][hidden]{display:none!important}
 .fi{width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin:0 0 .65rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)}
 textarea.fi{min-height:12rem;resize:vertical}
-.sig-row{display:grid;gap:.45rem;padding:.85rem;border:1px solid var(--border);background:var(--bg-input);margin-bottom:.55rem}
-.sig-row b{font-size:.95rem}
+.sig-row{display:grid;grid-template-columns:112px 1fr;gap:.85rem;padding:.85rem;border:1px solid var(--border);background:var(--bg-input);margin-bottom:.55rem;align-items:start}
+.sig-row b{font-size:.95rem;display:block}
+.sig-row i{display:block;font-style:normal;color:var(--text-dim);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;margin:.2rem 0 .5rem}
+.sig-thumb{width:112px;height:84px;object-fit:cover;background:var(--bg);border:1px solid var(--border);display:block}
+.sig-thumb.fail{opacity:.35}
+.cover-st{font-size:.75rem;margin-top:.3rem;color:var(--text-dim)}
+.cover-st.ok{color:var(--success)}
+.cover-st.er{color:var(--danger)}
+.sig-actions{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.45rem}
+@media(max-width:720px){.sig-row{grid-template-columns:1fr}.sig-thumb{width:100%;height:160px}}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;max-height:48vh}.main{padding:1.25rem}.drow{grid-template-columns:auto 1fr}}
 </style>
 </head>
@@ -162,13 +170,14 @@ textarea.fi{min-height:12rem;resize:vertical}
   <aside class="side">
     <div class="sec">
       <div class="sec-t">Latest Beat</div>
-      <p class="side-note">Two stories per desk. Crawl writes <code>signals.data.js</code>. Edit copy here, then download.</p>
-      <button class="btn" onclick="exportSignals()" style="width:100%;margin-top:.5rem">Download signals.data.js</button>
+      <p class="side-note">Two stories per desk. Confirm cover URLs (load / fetch og:image from the article). Outlines are not edited here.</p>
+      <button class="btn" onclick="fetchAllCovers()" style="width:100%;margin-top:.5rem">Fetch covers from articles</button>
+      <button class="btn btn-p" onclick="exportSignals()" style="width:100%;margin-top:.4rem">Download signals.data.js</button>
     </div>
   </aside>
   <main class="main">
     <h2 class="pt">Daily signal</h2>
-    <p class="hint">Industry · Science · Reviews · Origin. Two prominent items each from the listed coffee sources.</p>
+    <p class="hint">Industry · Science · Reviews · Origin. Paste or fetch a cover URL, confirm it loads, then Apply.</p>
     <div id="signalList"></div>
   </main>
 </div>
@@ -183,7 +192,7 @@ textarea.fi{min-height:12rem;resize:vertical}
   </aside>
   <main class="main">
     <h2 class="pt">Daily editorial</h2>
-    <p class="hint">~280–320 words. CoC voice: short sentences, named rooms, one pressure, a close. Not a listicle.</p>
+    <p class="hint">~280–320 words. Signed Dr. Wallace Lynch, Editor in Chief.</p>
     <label class="sec-t" for="edTitle">Title</label>
     <input class="fi" id="edTitle">
     <label class="sec-t" for="edDek">Dek</label>
