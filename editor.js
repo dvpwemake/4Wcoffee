@@ -381,17 +381,12 @@
 
     bindTabs() {
       var root = document.getElementById("editorApp");
-      if (!root) return;
-      root.querySelectorAll(".tabs [data-tab]").forEach(function (btn) {
-        btn.addEventListener("click", function () {
-          var id = btn.getAttribute("data-tab");
-          root.querySelectorAll(".tabs [data-tab]").forEach(function (b) {
-            b.classList.toggle("is-on", b === btn);
-          });
-          root.querySelectorAll("[data-panel]").forEach(function (p) {
-            p.hidden = p.getAttribute("data-panel") !== id;
-          });
-        });
+      if (!root || root.dataset.tabsBound) return;
+      root.dataset.tabsBound = "1";
+      root.addEventListener("click", function (ev) {
+        var btn = ev.target.closest("[data-tab]");
+        if (!btn || !root.contains(btn)) return;
+        global.showEditorTab(btn.getAttribute("data-tab"));
       });
     }
 
@@ -814,6 +809,18 @@
   };
   global.publishCatalog = function () {
     app.publishGithub();
+  };
+  global.showEditorTab = function (id) {
+    var root = document.getElementById("editorApp");
+    if (!root || !id) return;
+    root.querySelectorAll(".tabs [data-tab]").forEach(function (b) {
+      b.classList.toggle("is-on", b.getAttribute("data-tab") === id);
+    });
+    root.querySelectorAll("[data-panel]").forEach(function (p) {
+      var on = p.getAttribute("data-panel") === id;
+      p.hidden = !on;
+      p.style.display = on ? "grid" : "none";
+    });
   };
   global.showLog = function () {
     var p = document.getElementById("logP");

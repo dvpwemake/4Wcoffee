@@ -81,7 +81,8 @@ button,input,select,textarea{font:inherit}
 .tabs{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--border);background:var(--bg-card)}
 .tabs button{min-height:var(--touch-min);padding:0 1rem;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--text-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.75rem;cursor:pointer}
 .tabs button.is-on{color:var(--text);border-bottom-color:var(--accent)}
-.panel[hidden]{display:none!important}
+.layout[hidden],
+[data-panel][hidden]{display:none!important}
 .fi{width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin:0 0 .65rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)}
 textarea.fi{min-height:12rem;resize:vertical}
 .sig-row{display:grid;gap:.45rem;padding:.85rem;border:1px solid var(--border);background:var(--bg-input);margin-bottom:.55rem}
@@ -106,9 +107,9 @@ textarea.fi{min-height:12rem;resize:vertical}
 
 <div id="editorApp" hidden>
 <div class="tabs" role="tablist" aria-label="Editor sections">
-  <button type="button" class="is-on" data-tab="coffee">Coffee items</button>
-  <button type="button" data-tab="signal">Daily signal</button>
-  <button type="button" data-tab="editorial">Editorial</button>
+  <button type="button" class="is-on" data-tab="coffee" onclick="showEditorTab('coffee')">Coffee items</button>
+  <button type="button" data-tab="signal" onclick="showEditorTab('signal')">Daily signal</button>
+  <button type="button" data-tab="editorial" onclick="showEditorTab('editorial')">Editorial</button>
 </div>
 <div class="layout" data-panel="coffee">
   <aside class="side">
