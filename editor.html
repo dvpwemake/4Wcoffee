@@ -94,6 +94,13 @@ textarea.fi{min-height:12rem;resize:vertical}
 .cover-st.ok{color:var(--success)}
 .cover-st.er{color:var(--danger)}
 .sig-actions{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.45rem}
+.ed-preview{margin:0 0 1.4rem;padding:1rem;border:1px solid var(--border);background:var(--bg-input)}
+.ed-preview .ed-hit{padding:.55rem 0;border-bottom:1px solid var(--border)}
+.ed-preview .ed-hit:last-child{border-bottom:0}
+.ed-preview .ed-hit b{display:block;font-size:.9rem}
+.ed-preview .ed-hit i{display:block;font-style:normal;color:var(--text-dim);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}
+.ed-urls{margin:.4rem 0 0;padding-left:1.1rem;font-size:.82rem;line-height:1.55;word-break:break-all}
+.ed-urls a{color:var(--text);text-decoration:underline;text-underline-offset:2px}
 @media(max-width:720px){.sig-row{grid-template-columns:1fr}.sig-thumb{width:100%;height:160px}}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;max-height:48vh}.main{padding:1.25rem}.drow{grid-template-columns:auto 1fr}}
 </style>
@@ -170,7 +177,7 @@ textarea.fi{min-height:12rem;resize:vertical}
   <aside class="side">
     <div class="sec">
       <div class="sec-t">Latest Beat</div>
-      <p class="side-note">Two stories per desk. Scan the listed coffee feeds, then confirm cover URLs. Outlines are not edited here.</p>
+      <p class="side-note">Automatic scan 9:00 AM New York, once a day. Manual scan is also available. Confirm cover URLs after a scan.</p>
       <button class="btn btn-scan" id="sigScanBtn" onclick="scanSignals()" style="width:100%;margin-top:.5rem"><span class="sp"></span><span class="bl">Scan feeds</span></button>
       <p class="side-note" id="sigScanMeta">—</p>
       <button class="btn" onclick="fetchAllCovers()" style="width:100%;margin-top:.5rem">Fetch covers from articles</button>
@@ -195,6 +202,12 @@ textarea.fi{min-height:12rem;resize:vertical}
   <main class="main">
     <h2 class="pt">Daily editorial</h2>
     <p class="hint">~280–320 words. Signed Dr. Wallace Lynch, Editor in Chief.</p>
+    <div id="edSignalPreview" class="ed-preview">
+      <h3 class="sec-t">Daily signal preview</h3>
+      <div id="edSignalCards"></div>
+      <h3 class="sec-t">Selected news URLs</h3>
+      <ul id="edSignalUrls" class="ed-urls"></ul>
+    </div>
     <label class="sec-t" for="edTitle">Title</label>
     <input class="fi" id="edTitle">
     <label class="sec-t" for="edDek">Dek</label>

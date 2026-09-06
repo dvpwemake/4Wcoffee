@@ -687,6 +687,7 @@
         byCategory: byCategory,
       };
       this.renderSignals();
+      this.renderEditorialPreview();
       if (btn) btn.classList.remove("ld");
       var msg = items.length + " beats from " + logN + " feed items";
       if (meta) meta.textContent = msg;
@@ -719,6 +720,45 @@
       if (b) b.value = ed.body || (ed.paragraphs || []).join("\n\n");
       this.countEditorial();
       if (b) b.addEventListener("input", this.countEditorial.bind(this));
+      this.renderEditorialPreview();
+    }
+
+    renderEditorialPreview() {
+      var cards = document.getElementById("edSignalCards");
+      var urls = document.getElementById("edSignalUrls");
+      if (!cards || !urls) return;
+      var items = (global.SIGNALS && global.SIGNALS.items) || [];
+      if (!items.length) {
+        cards.innerHTML = '<p class="empty">No daily signal yet. Run Scan feeds or wait for 9:00 AM New York.</p>';
+        urls.innerHTML = "";
+        return;
+      }
+      cards.innerHTML = items
+        .map(function (it) {
+          return (
+            '<div class="ed-hit"><i>' +
+            this.esc(it.categoryLabel || it.category) +
+            " · " +
+            this.esc(it.source) +
+            "</i><b>" +
+            this.esc(it.title) +
+            "</b></div>"
+          );
+        }, this)
+        .join("");
+      urls.innerHTML = items
+        .map(function (it) {
+          var u = it.sourceUrl || "";
+          if (!u) return "";
+          return (
+            "<li><a href=\"" +
+            this.esc(u) +
+            '" target="_blank" rel="noopener">' +
+            this.esc(u) +
+            "</a></li>"
+          );
+        }, this)
+        .join("");
     }
 
     countEditorial() {

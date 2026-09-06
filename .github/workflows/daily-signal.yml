@@ -1,0 +1,54 @@
+name: Daily signal scan
+
+on:
+  schedule:
+    # 9:05 AM America/New_York — EDT is 13:00 UTC, EST is 14:00 UTC
+    - cron: "5 13 * * *"
+    - cron: "5 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-signal
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run only at 9 AM New York
+        id: gate
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import os
+          now = datetime.now(ZoneInfo("America/New_York"))
+          print("New York now:", now.isoformat())
+          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and now.hour != 9:
+              print("Not 9 AM New York — skip")
+              open(os.environ["GITHUB_OUTPUT"], "a").write("skip=1\n")
+          else:
+              open(os.environ["GITHUB_OUTPUT"], "a").write("skip=0\n")
+          PY
+      - name: Crawl coffee feeds
+        if: steps.gate.outputs.skip != '1'
+        run: python3 scripts/crawl-signals.py --once-a-day
+      - name: Commit if changed
+        if: steps.gate.outputs.skip != '1'
+        run: |
+          git config user.name "4wave-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/signals.json signals.data.js
+          if git diff --cached --quiet; then
+            echo "No signal changes"
+            exit 0
+          fi
+          git commit -m "Daily signal scan $(date -u +%Y-%m-%d) (9 AM New York)"
+          git push

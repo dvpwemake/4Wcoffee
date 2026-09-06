@@ -194,10 +194,46 @@ def crawl() -> dict:
     return batch
 
 
+def ny_now():
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/New_York"))
+    except Exception:
+        return datetime.now(timezone.utc)
+
+
+def already_scanned_today(path: Path) -> bool:
+    if not path.exists():
+        return False
+    try:
+        prev = json.loads(path.read_text())
+        raw = prev.get("scannedAt") or ""
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        try:
+            from zoneinfo import ZoneInfo
+            dt = dt.astimezone(ZoneInfo("America/New_York"))
+            today = ny_now().date()
+        except Exception:
+            today = datetime.now(timezone.utc).date()
+            dt = dt.astimezone(timezone.utc)
+        return dt.date() == today
+    except Exception:
+        return False
+
+
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--once-a-day", action="store_true", help="Skip if already scanned today in New York time")
+    ap.add_argument("--force", action="store_true")
+    args = ap.parse_args()
+    out_json = ROOT / "data" / "signals.json"
+    if args.once_a_day and not args.force and already_scanned_today(out_json):
+        print("already scanned today (America/New_York); skip")
+        return
     batch = crawl()
     (ROOT / "data").mkdir(exist_ok=True)
-    (ROOT / "data" / "signals.json").write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
+    out_json.write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
     js = "window.SIGNALS = " + json.dumps(batch, ensure_ascii=False) + ";\n"
     (ROOT / "signals.data.js").write_text(js)
     print("wrote", len(batch["items"]), "items")
