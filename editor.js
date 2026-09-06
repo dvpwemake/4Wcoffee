@@ -569,6 +569,131 @@
       this.toast("Cover pass finished.", "success");
     }
 
+    parseRss(xml, source) {
+      var items = [];
+      var doc;
+      try {
+        doc = new DOMParser().parseFromString(xml, "text/xml");
+      } catch (e) {
+        return items;
+      }
+      var nodes = doc.querySelectorAll("item, entry");
+      nodes.forEach(function (node) {
+        var title = (node.querySelector("title") && node.querySelector("title").textContent) || "";
+        var linkEl = node.querySelector("link");
+        var link = "";
+        if (linkEl) {
+          link = linkEl.getAttribute("href") || linkEl.textContent || "";
+        }
+        var guid = node.querySelector("guid");
+        if (!link && guid) link = guid.textContent || "";
+        var descEl = node.querySelector("description, summary, content");
+        var desc = descEl ? descEl.textContent : "";
+        var dateEl = node.querySelector("pubDate, published, updated");
+        var dateRaw = dateEl ? dateEl.textContent : "";
+        var img = "";
+        var enc = node.querySelector("enclosure, content");
+        if (enc && enc.getAttribute("url") && /image/i.test(enc.getAttribute("type") || "image")) {
+          img = enc.getAttribute("url");
+        }
+        var media = node.getElementsByTagName("media:content")[0] || node.querySelector("content");
+        if (!img && media && media.getAttribute("url")) img = media.getAttribute("url");
+        var im = desc.match(/<img[^>]+src=["']([^"']+)/i);
+        if (!img && im) img = im[1];
+        title = title.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+        desc = desc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 280);
+        if (!title || !link || link.indexOf("http") !== 0) return;
+        var ts = Date.parse(dateRaw) || 0;
+        items.push({
+          title: title,
+          source: source,
+          sourceUrl: link.split("?")[0],
+          summary: desc,
+          image: img,
+          publishedAt: ts ? new Date(ts).toISOString() : "",
+          _ts: ts,
+        });
+      });
+      return items;
+    }
+
+    async scanSignals() {
+      var btn = document.getElementById("sigScanBtn");
+      var meta = document.getElementById("sigScanMeta");
+      if (btn) btn.classList.add("ld");
+      this.toast("Scanning coffee feeds…", "info");
+      if (meta) meta.textContent = "Scanning…";
+      var src;
+      try {
+        var res = await fetch("data/sources.json", { credentials: "same-origin" });
+        src = await res.json();
+      } catch (e) {
+        if (btn) btn.classList.remove("ld");
+        this.toast("Could not load data/sources.json", "error");
+        return;
+      }
+      var skip = ["shipping update", "check your email", "sponsored"];
+      var cats = src.categories || {};
+      var pick = src.pickCount || 2;
+      var byCategory = {};
+      var labels = {};
+      var logN = 0;
+      var catIds = Object.keys(cats);
+      for (var c = 0; c < catIds.length; c++) {
+        var catId = catIds[c];
+        var cat = cats[catId];
+        labels[catId] = cat.label;
+        var pool = [];
+        var feeds = cat.feeds || [];
+        for (var f = 0; f < feeds.length; f++) {
+          var feed = feeds[f];
+          try {
+            var got = await Http.get(feed.url);
+            var parsed = this.parseRss(got.text, feed.name);
+            pool = pool.concat(parsed);
+            logN += parsed.length;
+            this.log("ok", feed.name + ": " + parsed.length + " items");
+          } catch (err) {
+            this.log("err", feed.name + " failed: " + (err.message || err));
+          }
+        }
+        pool.sort(function (a, b) {
+          return (b._ts || 0) - (a._ts || 0);
+        });
+        var seen = {};
+        var top = [];
+        for (var i = 0; i < pool.length && top.length < pick; i++) {
+          var it = pool[i];
+          var key = String(it.title || "").toLowerCase().slice(0, 80);
+          if (seen[key]) continue;
+          if (skip.some(function (s) { return key.indexOf(s) !== -1; })) continue;
+          seen[key] = true;
+          delete it._ts;
+          it.id = catId + "-" + (top.length + 1);
+          it.category = catId;
+          it.categoryLabel = cat.label;
+          top.push(it);
+        }
+        byCategory[catId] = top;
+      }
+      var items = [];
+      catIds.forEach(function (id) {
+        items = items.concat(byCategory[id] || []);
+      });
+      global.SIGNALS = {
+        scannedAt: new Date().toISOString(),
+        categories: labels,
+        items: items,
+        byCategory: byCategory,
+      };
+      this.renderSignals();
+      if (btn) btn.classList.remove("ld");
+      var msg = items.length + " beats from " + logN + " feed items";
+      if (meta) meta.textContent = msg;
+      this.toast(msg, "success");
+      this.log("ok", "Signal scan: " + msg);
+    }
+
     collectSignals() {
       var data = global.SIGNALS || { items: [], categories: {} };
       var rows = document.querySelectorAll("#signalList .sig-row");
@@ -972,6 +1097,9 @@
       p.hidden = !on;
       p.style.display = on ? "grid" : "none";
     });
+  };
+  global.scanSignals = function () {
+    app.scanSignals();
   };
   global.fetchAllCovers = function () {
     app.fetchAllCovers();

@@ -170,7 +170,9 @@ textarea.fi{min-height:12rem;resize:vertical}
   <aside class="side">
     <div class="sec">
       <div class="sec-t">Latest Beat</div>
-      <p class="side-note">Two stories per desk. Confirm cover URLs (load / fetch og:image from the article). Outlines are not edited here.</p>
+      <p class="side-note">Two stories per desk. Scan the listed coffee feeds, then confirm cover URLs. Outlines are not edited here.</p>
+      <button class="btn btn-scan" id="sigScanBtn" onclick="scanSignals()" style="width:100%;margin-top:.5rem"><span class="sp"></span><span class="bl">Scan feeds</span></button>
+      <p class="side-note" id="sigScanMeta">—</p>
       <button class="btn" onclick="fetchAllCovers()" style="width:100%;margin-top:.5rem">Fetch covers from articles</button>
       <button class="btn btn-p" onclick="exportSignals()" style="width:100%;margin-top:.4rem">Download signals.data.js</button>
     </div>
