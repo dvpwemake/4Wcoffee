@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latest Beat | Fourth Wave Coffee</title>
+  <meta name="description" content="Daily coffee desk: editorial first, then industry, science, reviews, and origin signals.">
+  <link rel="canonical" href="https://fourthwavecoffee.org/latestbeat.html">
+  <meta property="og:title" content="Latest Beat | Fourth Wave Coffee">
+  <meta property="og:url" content="https://fourthwavecoffee.org/latestbeat.html">
+  <meta name="robots" content="index,follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <div data-nav></div>
+  <header class="page-hero wrap">
+    <h1>Latest Beat.</h1>
+    <p>Daily coffee desk. Editorial first, then two stories from each signal: industry, science, reviews, origin.</p>
+  </header>
+  <main class="wrap">
+    <section class="ed-block" id="editorial" aria-label="Editorial"></section>
+    <div class="beat-filters" id="beat-filters" role="tablist" aria-label="Beat categories"></div>
+    <div class="beat-grid" id="beat-grid"></div>
+  </main>
+  <footer data-footer></footer>
+  <script src="signals.data.js"></script>
+  <script src="editorial.data.js"></script>
+  <script src="site.js"></script>
+  <script>
+  (function () {
+    var FALLBACK = {
+      industry: "image/carosal/cafe-scene-6887.jpg",
+      science: "image/carosal/cafe-scene-7252.jpg",
+      reviews: "image/carosal/cafe-scene-7473.jpg",
+      origin: "image/carosal/cafe-scene-7378.jpg",
+      editorial: "image/carosal/cafe-scene-8167.png"
+    };
+    function esc(s) {
+      return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+    }
+    function proxyUrl(url) {
+      if (!url || url.indexOf("image/") === 0) return "";
+      return "https://images.weserv.nl/?url=" + encodeURIComponent(String(url).replace(/^https?:\/\//, "")) + "&w=640&h=400&fit=cover&we&output=jpg";
+    }
+    function coverSrc(it) {
+      return it.image || FALLBACK[it.category] || FALLBACK.editorial;
+    }
+    function thumbFail(img) {
+      if (img.dataset.proxy && !img.dataset.triedProxy) {
+        img.dataset.triedProxy = "1";
+        img.src = img.dataset.proxy;
+        return;
+      }
+      if (img.dataset.fallback && img.src.indexOf(img.dataset.fallback) === -1) {
+        img.src = img.dataset.fallback;
+        img.removeAttribute("data-proxy");
+        return;
+      }
+      var wrap = img.parentElement;
+      img.remove();
+      var f = document.createElement("div");
+      f.className = "fallback";
+      f.textContent = img.dataset.cat || "Beat";
+      wrap.appendChild(f);
+    }
+    window.beatThumbFail = thumbFail;
+    function coverHtml(it) {
+      var raw = it.image || "";
+      var local = FALLBACK[it.category] || FALLBACK.editorial;
+      var src = raw || local;
+      var proxy = proxyUrl(raw);
+      return (
+        '<div class="n-img"><img src="' + esc(src) + '" alt="" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-proxy="' +
+        esc(proxy) + '" data-fallback="' + esc(local) + '" data-cat="' + esc(it.categoryLabel || it.category) +
+        '" onerror="beatThumbFail(this)"></div>'
+      );
+    }
+    function card(it, extraClass) {
+      var href = it.sourceUrl || "#";
+      var internal = it.category === "editorial";
+      var tgt = internal ? "" : ' target="_blank" rel="noopener"';
+      var srcLabel = internal ? "Read full editorial" : (it.source || "Source");
+      return (
+        '<a class="beat-card' + (extraClass ? " " + extraClass : "") + '" href="' + esc(href) + '"' + tgt + ">" +
+        coverHtml(it) +
+        '<div class="beat-body">' +
+        '<span class="tag ' + esc(it.category || "") + '">' + esc(it.category === "editorial" ? "Editorial" : (it.categoryLabel || it.category)) + "</span>" +
+        "<h3>" + esc(it.title) + "</h3>" +
+        "<p>" + esc(it.summary || it.dek || "") + "</p>" +
+        '<p class="beat-src">' + esc(srcLabel) + "</p>" +
+        "</div></a>"
+      );
+    }
+
+    var ed = window.EDITORIAL || {};
+    var edHost = document.getElementById("editorial");
+    if (ed && ed.title) {
+      var paras = ed.paragraphs && ed.paragraphs.length ? ed.paragraphs : String(ed.body || "").split(/\n\n+/);
+      var summary = ed.dek || paras[0] || "";
+      var edItem = {
+        title: ed.title,
+        summary: summary,
+        dek: ed.dek,
+        image: ed.heroImage || "",
+        category: "editorial",
+        categoryLabel: "Editorial",
+        source: "Fourth Wave Coffee",
+        sourceUrl: "#editorial"
+      };
+      edHost.innerHTML =
+        card(edItem) +
+        '<div class="prose" style="margin-top:24px">' +
+        (ed.dek ? '<p class="dek">' + esc(ed.dek) + "</p>" : "") +
+        paras.map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") +
+        "</div>";
+    }
+
+    var data = window.SIGNALS || { items: [] };
+    var items = data.items || [];
+    var cats = [
+      { id: "all", label: "All" },
+      { id: "editorial", label: "Editorial" },
+      { id: "industry", label: "Industry" },
+      { id: "science", label: "Science" },
+      { id: "reviews", label: "Reviews" },
+      { id: "origin", label: "Origin" }
+    ];
+    var current = "all";
+    var filters = document.getElementById("beat-filters");
+    var grid = document.getElementById("beat-grid");
+    function draw() {
+      filters.innerHTML = cats.map(function (c) {
+        return '<button type="button" data-cat="' + c.id + '"' + (c.id === current ? ' class="is-on"' : "") + ">" + c.label + "</button>";
+      }).join("");
+      if (edHost) edHost.hidden = current !== "all" && current !== "editorial";
+      if (current === "editorial") {
+        grid.innerHTML = "";
+        return;
+      }
+      var list = items.filter(function (it) {
+        return current === "all" || it.category === current;
+      });
+      grid.innerHTML = list.length
+        ? list.map(function (it) { return card(it); }).join("")
+        : '<p class="empty">No beats yet.</p>';
+    }
+    filters.addEventListener("click", function (ev) {
+      var btn = ev.target.closest("[data-cat]");
+      if (!btn) return;
+      current = btn.getAttribute("data-cat");
+      draw();
+      if (current === "editorial") {
+        var el = document.getElementById("editorial");
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+    draw();
+  })();
+  </script>
+</body>
+</html>

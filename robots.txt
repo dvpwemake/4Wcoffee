@@ -15,6 +15,8 @@ Disallow: /catalog.json
 Disallow: /catalog.live.json
 Disallow: /data.json
 Disallow: /quote/
+Disallow: /data/
+Disallow: /scripts/
 
 User-agent: GPTBot
 Allow: /

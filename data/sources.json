@@ -1,0 +1,46 @@
+{
+  "pickCount": 2,
+  "categories": {
+    "industry": {
+      "label": "Coffee Industry News & Trade Journals",
+      "feeds": [
+        { "name": "Sprudge", "url": "https://sprudge.com/feed" },
+        { "name": "Daily Coffee News", "url": "https://dailycoffeenews.com/feed" },
+        { "name": "Perfect Daily Grind", "url": "https://perfectdailygrind.com/feed" },
+        { "name": "Roast Magazine", "url": "https://roastmagazine.com/feed" },
+        { "name": "Standart", "url": "https://standartmag.com/blogs/journal.atom" }
+      ]
+    },
+    "science": {
+      "label": "Coffee Science & Technical",
+      "feeds": [
+        { "name": "Barista Hustle", "url": "https://www.baristahustle.com/feed/" },
+        { "name": "Coffee Ad Astra", "url": "https://coffeeadastra.com/feed/" },
+        { "name": "Scott Rao", "url": "https://www.scottrao.com/blog?format=rss" },
+        { "name": "Jim Seven", "url": "https://www.jimseven.com/feed/" },
+        { "name": "World Coffee Research", "url": "https://worldcoffeeresearch.org/feed" }
+      ]
+    },
+    "reviews": {
+      "label": "Coffee Reviews, Gear & Enthusiast Communities",
+      "feeds": [
+        { "name": "Coffee Review", "url": "https://www.coffeereview.com/feed/" },
+        { "name": "CoffeeGeek", "url": "https://coffeegeek.com/feed/" },
+        { "name": "Home-Barista", "url": "https://www.home-barista.com/rss.xml" },
+        { "name": "Coffee Chronicler", "url": "https://coffeechronicler.com/feed/" },
+        { "name": "Espresso My Espresso", "url": "https://espressomyespresso.com/feed/" }
+      ]
+    },
+    "origin": {
+      "label": "Coffee Origin, Sourcing & Global Culture",
+      "feeds": [
+        { "name": "SCA News", "url": "https://scanews.coffee/feed/" },
+        { "name": "Sweet Maria's", "url": "https://www.sweetmarias.com/blog/feed" },
+        { "name": "Perfect Daily Grind Origins", "url": "https://perfectdailygrind.com/category/origins/feed/" },
+        { "name": "Cafe Imports", "url": "https://cafeimports.com/feed/" },
+        { "name": "European Coffee Trip", "url": "https://europeancoffeetrip.com/feed/" },
+        { "name": "Not a Barista", "url": "https://notabarista.org/feed/" }
+      ]
+    }
+  }
+}

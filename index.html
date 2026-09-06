@@ -30,7 +30,6 @@
       <header class="hero">
         <p class="hero__kicker">The 4th Wave</p>
         <h1>Passion for a community, poured as a cup.</h1>
-        <p class="hero__lede">The fourth wave is coffee as an end-to-end experience — farm, roaster, cup, room, and culture under one roof.</p>
       </header>
       <div class="hero-cinema__controls">
         <button type="button" class="hero-cinema__arrow" data-carousel-prev aria-label="Previous image">‹</button>
@@ -40,13 +39,42 @@
     </div>
   </section>
   <main class="wrap">
-    <div class="prose">
-      <h2>What the 4th wave coffee is</h2>
-      <p>Fourth Wave Coffee points you to independent shops that roast in-house, source with a short chain, and keep a coffee shop as a community hub for neighbors. Buy unique beans from the roaster’s own cart. We keep it authentic and do not sit between you and their shop.</p>
-      <p><a class="btn" href="coffee.html">Buy Coffee</a></p>
-    </div>
+    <section class="home-wave" aria-labelledby="home-wave-title">
+      <p class="home-wave__kicker">Definition</p>
+      <h2 id="home-wave-title">What the 4th wave coffee is</h2>
+      <p class="home-wave__body">Fourth Wave Coffee points you to independent shops that roast in-house, source with a short chain, and keep a coffee shop as a community hub for neighbors. Buy unique beans from the roaster’s own cart. We keep it authentic and do not sit between you and their shop.</p>
+    </section>
+    <hr class="divide" />
+    <section class="ed-block home-section" id="home-editorial" aria-label="Daily editorial"></section>
+    <hr class="divide" />
+    <section class="strip" aria-labelledby="home-coffee-title">
+      <div class="strip-head">
+        <h2 id="home-coffee-title">Buy Coffee</h2>
+        <a href="coffee.html">See all</a>
+        <div class="strip-nav">
+          <button type="button" class="hero-cinema__arrow" data-strip-prev="home-coffee-track" aria-label="Previous coffees">‹</button>
+          <button type="button" class="hero-cinema__arrow" data-strip-next="home-coffee-track" aria-label="Next coffees">›</button>
+        </div>
+      </div>
+      <div class="strip-viewport" id="home-coffee-track"></div>
+    </section>
+    <hr class="divide" />
+    <section class="strip" aria-labelledby="home-beats-title">
+      <div class="strip-head">
+        <h2 id="home-beats-title">Latest Beat</h2>
+        <a href="latestbeat.html">See all</a>
+        <div class="strip-nav">
+          <button type="button" class="hero-cinema__arrow" data-strip-prev="home-beats-track" aria-label="Previous beats">‹</button>
+          <button type="button" class="hero-cinema__arrow" data-strip-next="home-beats-track" aria-label="Next beats">›</button>
+        </div>
+      </div>
+      <div class="strip-viewport" id="home-beats-track"></div>
+    </section>
   </main>
   <footer data-footer></footer>
+  <script src="catalog.data.js"></script>
+  <script src="signals.data.js"></script>
+  <script src="editorial.data.js"></script>
   <script src="site.js"></script>
 </body>
 </html>

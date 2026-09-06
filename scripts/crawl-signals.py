@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+"""Crawl coffee RSS sources; pick 2 most recent items per category."""
+from __future__ import annotations
+
+import json
+import re
+import ssl
+import urllib.request
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from html import unescape
+from pathlib import Path
+from xml.etree import ElementTree as ET
+
+ROOT = Path(__file__).resolve().parents[1]
+SRC = json.loads((ROOT / "data" / "sources.json").read_text())
+CTX = ssl.create_default_context()
+UA = "FourthWaveCoffee/1.0 (+https://fourthwavecoffee.org/)"
+
+
+def fetch(url: str, timeout: int = 18) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
+    with urllib.request.urlopen(req, timeout=timeout, context=CTX) as res:
+        return res.read().decode("utf-8", "replace")
+
+
+def strip_html(s: str) -> str:
+    s = unescape(re.sub(r"(?is)<script.*?>.*?</script>", " ", s or ""))
+    s = re.sub(r"(?is)<style.*?>.*?</style>", " ", s)
+    s = re.sub(r"(?is)<[^>]+>", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def img_from(xml: str, desc: str) -> str:
+    m = re.search(r'<media:content[^>]+url=["\']([^"\']+)', xml)
+    if m:
+        return m.group(1)
+    m = re.search(r'<enclosure[^>]+url=["\']([^"\']+)', xml)
+    if m:
+        return m.group(1)
+    m = re.search(r'<img[^>]+src=["\']([^"\']+)', desc or "", re.I)
+    return m.group(1) if m else ""
+
+
+OG_PATTERNS = [
+    re.compile(r'<meta[^>]+property=["\']og:image(?::secure_url)?["\'][^>]+content=["\']([^"\']+)["\']', re.I),
+    re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image(?::secure_url)?["\']', re.I),
+    re.compile(r'<meta[^>]+name=["\']twitter:image(?::src)?["\'][^>]+content=["\']([^"\']+)["\']', re.I),
+]
+
+
+def og_image(html: str) -> str:
+    for pat in OG_PATTERNS:
+        m = pat.search(html or "")
+        if m:
+            return unescape(m.group(1)).strip()
+    return ""
+
+
+def enrich_image(item: dict) -> dict:
+    if item.get("image"):
+        return item
+    url = item.get("sourceUrl") or ""
+    if not url.startswith("http"):
+        return item
+    try:
+        html = fetch(url, timeout=12)
+        img = og_image(html)
+        if img:
+            item["image"] = img
+            print("  og:image", item.get("title", "")[:48])
+    except Exception as e:
+        print("  og fail", url, e)
+    return item
+
+
+def parse_date(raw: str) -> datetime:
+    raw = (raw or "").strip()
+    if not raw:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    try:
+        dt = parsedate_to_datetime(raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        pass
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone(timezone.utc)
+    except Exception:
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def local(tag: str) -> str:
+    return tag.split("}", 1)[-1].lower()
+
+
+def text(el) -> str:
+    if el is None:
+        return ""
+    return "".join(el.itertext()).strip()
+
+
+def parse_feed(xml: str, source: str) -> list[dict]:
+    items = []
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError:
+        return items
+    nodes = list(root.iter())
+    entries = [n for n in nodes if local(n.tag) in {"item", "entry"}]
+    for node in entries:
+        title = link = desc = date_raw = enc = ""
+        for child in list(node):
+            t = local(child.tag)
+            if t == "title" and not title:
+                title = text(child)
+            elif t == "link":
+                href = child.attrib.get("href") or text(child)
+                if href and not link:
+                    link = href
+            elif t in {"description", "summary", "content"} and not desc:
+                desc = text(child)
+            elif t in {"pubdate", "published", "updated", "date"} and not date_raw:
+                date_raw = text(child)
+            elif t in {"encoded"} and not desc:
+                desc = text(child)
+        raw = ET.tostring(node, encoding="unicode")
+        image = img_from(raw, desc)
+        title = strip_html(title)
+        summary = strip_html(desc)[:280]
+        if not title or not link:
+            continue
+        if not link.startswith("http"):
+            continue
+        items.append(
+            {
+                "title": title,
+                "source": source,
+                "sourceUrl": link.split("?")[0],
+                "summary": summary,
+                "image": image,
+                "publishedAt": parse_date(date_raw).isoformat(),
+                "_ts": parse_date(date_raw).timestamp(),
+            }
+        )
+    return items
+
+
+def crawl() -> dict:
+    picked = {}
+    log = []
+    for cat_id, cat in SRC["categories"].items():
+        pool = []
+        for feed in cat["feeds"]:
+            url = feed["url"]
+            name = feed["name"]
+            try:
+                xml = fetch(url)
+                got = parse_feed(xml, name)
+                pool.extend(got)
+                log.append({"ok": True, "source": name, "n": len(got), "url": url})
+                print(f"OK {name:24} {len(got):3}  {url}")
+            except Exception as e:
+                log.append({"ok": False, "source": name, "error": str(e)[:160], "url": url})
+                print(f"FAIL {name:22} {e}")
+        pool.sort(key=lambda x: x["_ts"], reverse=True)
+        seen = set()
+        top = []
+        skip = ("shipping update", "check your email", "sponsored")
+        for it in pool:
+            key = it["title"].lower()[:80]
+            if key in seen:
+                continue
+            if any(s in key for s in skip):
+                continue
+            seen.add(key)
+            item = {k: v for k, v in it.items() if k != "_ts"}
+            item["id"] = f"{cat_id}-{len(top)+1}"
+            item["category"] = cat_id
+            item["categoryLabel"] = cat["label"]
+            item = enrich_image(item)
+            top.append(item)
+            if len(top) >= SRC.get("pickCount", 2):
+                break
+        picked[cat_id] = top
+    batch = {
+        "scannedAt": datetime.now(timezone.utc).isoformat(),
+        "categories": {k: v["label"] for k, v in SRC["categories"].items()},
+        "items": [it for cat in SRC["categories"] for it in picked.get(cat, [])],
+        "byCategory": picked,
+        "log": log,
+    }
+    return batch
+
+
+def main() -> None:
+    batch = crawl()
+    (ROOT / "data").mkdir(exist_ok=True)
+    (ROOT / "data" / "signals.json").write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
+    js = "window.SIGNALS = " + json.dumps(batch, ensure_ascii=False) + ";\n"
+    (ROOT / "signals.data.js").write_text(js)
+    print("wrote", len(batch["items"]), "items")
+
+
+if __name__ == "__main__":
+    main()

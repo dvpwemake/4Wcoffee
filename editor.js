@@ -373,7 +373,107 @@
       }
       this.renderVendors();
       this.bindPatField();
+      this.bindTabs();
+      this.renderSignals();
+      this.fillEditorial();
       this.log("inf", "Loaded " + this.products.length + " catalog items.");
+    }
+
+    bindTabs() {
+      var root = document.getElementById("editorApp");
+      if (!root) return;
+      root.querySelectorAll(".tabs [data-tab]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-tab");
+          root.querySelectorAll(".tabs [data-tab]").forEach(function (b) {
+            b.classList.toggle("is-on", b === btn);
+          });
+          root.querySelectorAll("[data-panel]").forEach(function (p) {
+            p.hidden = p.getAttribute("data-panel") !== id;
+          });
+        });
+      });
+    }
+
+    renderSignals() {
+      var host = document.getElementById("signalList");
+      if (!host) return;
+      var data = global.SIGNALS || { items: [] };
+      var items = data.items || [];
+      if (!items.length) {
+        host.innerHTML = '<p class="empty">No signals. Run scripts/crawl-signals.py.</p>';
+        return;
+      }
+      host.innerHTML = items
+        .map(function (it, i) {
+          return (
+            '<div class="sig-row" data-i="' +
+            i +
+            '"><span class="sec-t">' +
+            this.esc(it.categoryLabel || it.category) +
+            "</span><b>" +
+            this.esc(it.title) +
+            "</b><i>" +
+            this.esc(it.source) +
+            "</i><label class=\"sec-t\">Summary</label><textarea class=\"fi sig-sum\">" +
+            this.esc(it.summary) +
+            "</textarea></div>"
+          );
+        }, this)
+        .join("");
+    }
+
+    collectSignals() {
+      var data = global.SIGNALS || { items: [], categories: {} };
+      var rows = document.querySelectorAll("#signalList .sig-row");
+      rows.forEach(function (row) {
+        var i = parseInt(row.getAttribute("data-i"), 10);
+        var ta = row.querySelector(".sig-sum");
+        if (data.items[i] && ta) data.items[i].summary = ta.value.trim();
+      });
+      return data;
+    }
+
+    fillEditorial() {
+      var ed = global.EDITORIAL || {};
+      var t = document.getElementById("edTitle");
+      var d = document.getElementById("edDek");
+      var h = document.getElementById("edHero");
+      var c = document.getElementById("edCredit");
+      var b = document.getElementById("edBody");
+      if (t) t.value = ed.title || "";
+      if (d) d.value = ed.dek || "";
+      if (h) h.value = ed.heroImage || "";
+      if (c) c.value = ed.heroCredit || "";
+      if (b) b.value = ed.body || (ed.paragraphs || []).join("\n\n");
+      this.countEditorial();
+      if (b) b.addEventListener("input", this.countEditorial.bind(this));
+    }
+
+    countEditorial() {
+      var b = document.getElementById("edBody");
+      var w = document.getElementById("edWords");
+      var n = b && b.value ? b.value.trim().split(/\s+/).filter(Boolean).length : 0;
+      if (w) w.textContent = n + " words";
+    }
+
+    collectEditorial() {
+      var body = (document.getElementById("edBody") || {}).value || "";
+      var paras = body.split(/\n\n+/).map(function (p) { return p.trim(); }).filter(Boolean);
+      return {
+        id: "ed_" + new Date().toISOString().slice(0, 10),
+        publishDate: new Date().toISOString().slice(0, 10),
+        status: "draft",
+        title: (document.getElementById("edTitle") || {}).value || "",
+        dek: (document.getElementById("edDek") || {}).value || "",
+        heroImage: (document.getElementById("edHero") || {}).value || "",
+        heroCredit: (document.getElementById("edCredit") || {}).value || "",
+        authorName: "Fourth Wave Coffee",
+        authorTitle: "Daily desk",
+        body: body.trim(),
+        paragraphs: paras,
+        wordCount: body.trim().split(/\s+/).filter(Boolean).length,
+      };
     }
 
     renderVendors() {
@@ -718,6 +818,28 @@
   global.showLog = function () {
     var p = document.getElementById("logP");
     if (p) p.scrollIntoView({ behavior: "smooth" });
+  };
+  global.exportSignals = function () {
+    var data = app.collectSignals();
+    var body = "window.SIGNALS = " + JSON.stringify(data) + ";\n";
+    var blob = new Blob([body], { type: "text/javascript" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "signals.data.js";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    app.toast("Downloaded signals.data.js", "success");
+  };
+  global.exportEditorial = function () {
+    var ed = app.collectEditorial();
+    var body = "window.EDITORIAL = " + JSON.stringify(ed) + ";\n";
+    var blob = new Blob([body], { type: "text/javascript" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "editorial.data.js";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    app.toast("Downloaded editorial.data.js", "success");
   };
 
   document.addEventListener("DOMContentLoaded", function () {

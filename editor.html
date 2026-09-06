@@ -78,14 +78,22 @@ button,input,select,textarea{font:inherit}
 .gate-card input[type=password]{width:100%;min-height:var(--touch-min);padding:.75rem .85rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text);margin-bottom:.85rem}
 .gate-err{color:var(--danger);font-size:.85rem;min-height:1.25rem;margin-bottom:.5rem}
 .gate-note{font-size:.8rem;color:var(--text-dim);margin-top:1rem}
+.tabs{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--border);background:var(--bg-card)}
+.tabs button{min-height:var(--touch-min);padding:0 1rem;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--text-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.75rem;cursor:pointer}
+.tabs button.is-on{color:var(--text);border-bottom-color:var(--accent)}
+.panel[hidden]{display:none!important}
+.fi{width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin:0 0 .65rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)}
+textarea.fi{min-height:12rem;resize:vertical}
+.sig-row{display:grid;gap:.45rem;padding:.85rem;border:1px solid var(--border);background:var(--bg-input);margin-bottom:.55rem}
+.sig-row b{font-size:.95rem}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;max-height:48vh}.main{padding:1.25rem}.drow{grid-template-columns:auto 1fr}}
 </style>
 </head>
 <body>
 <div id="editorGate" hidden>
   <div class="gate-card">
-    <h1>Catalog editor</h1>
-    <p>Private admin console. Authorized staff only. This URL is not linked from the public site.</p>
+    <h1>Editor</h1>
+    <p>Private admin console. Coffee items, Latest Beat, and editorial. This URL is not linked from the public site.</p>
     <form id="gateForm" autocomplete="off">
       <label for="gatePass">Password</label>
       <input id="gatePass" type="password" name="password" autocomplete="current-password" required>
@@ -96,7 +104,13 @@ button,input,select,textarea{font:inherit}
   </div>
 </div>
 
-<div id="editorApp" class="layout" hidden>
+<div id="editorApp" hidden>
+<div class="tabs" role="tablist" aria-label="Editor sections">
+  <button type="button" class="is-on" data-tab="coffee">Coffee items</button>
+  <button type="button" data-tab="signal">Daily signal</button>
+  <button type="button" data-tab="editorial">Editorial</button>
+</div>
+<div class="layout" data-panel="coffee">
   <aside class="side">
     <div class="side-hdr">
       <span class="tag">Editor</span>
@@ -142,8 +156,50 @@ button,input,select,textarea{font:inherit}
     </div>
   </main>
 </div>
+
+<div class="layout" data-panel="signal" hidden>
+  <aside class="side">
+    <div class="sec">
+      <div class="sec-t">Latest Beat</div>
+      <p class="side-note">Two stories per desk. Crawl writes <code>signals.data.js</code>. Edit copy here, then download.</p>
+      <button class="btn" onclick="exportSignals()" style="width:100%;margin-top:.5rem">Download signals.data.js</button>
+    </div>
+  </aside>
+  <main class="main">
+    <h2 class="pt">Daily signal</h2>
+    <p class="hint">Industry · Science · Reviews · Origin. Two prominent items each from the listed coffee sources.</p>
+    <div id="signalList"></div>
+  </main>
+</div>
+
+<div class="layout" data-panel="editorial" hidden>
+  <aside class="side">
+    <div class="sec">
+      <div class="sec-t">Editorial</div>
+      <p class="side-note" id="edWords">—</p>
+      <button class="btn btn-p" onclick="exportEditorial()" style="width:100%">Download editorial.data.js</button>
+    </div>
+  </aside>
+  <main class="main">
+    <h2 class="pt">Daily editorial</h2>
+    <p class="hint">~280–320 words. CoC voice: short sentences, named rooms, one pressure, a close. Not a listicle.</p>
+    <label class="sec-t" for="edTitle">Title</label>
+    <input class="fi" id="edTitle">
+    <label class="sec-t" for="edDek">Dek</label>
+    <input class="fi" id="edDek">
+    <label class="sec-t" for="edHero">Hero image URL</label>
+    <input class="fi" id="edHero">
+    <label class="sec-t" for="edCredit">Hero credit</label>
+    <input class="fi" id="edCredit">
+    <label class="sec-t" for="edBody">Body</label>
+    <textarea class="fi" id="edBody"></textarea>
+  </main>
+</div>
+</div>
 <div class="toast" id="tst"></div>
 <script src="catalog.data.js"></script>
+<script src="signals.data.js"></script>
+<script src="editorial.data.js"></script>
 <script src="editor-auth.js"></script>
 <script src="editor.js"></script>
 </body>

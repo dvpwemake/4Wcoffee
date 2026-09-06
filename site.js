@@ -5,8 +5,9 @@
   class SiteChrome {
     static pages() {
       return [
-        { href: "4thwave.html", id: "4thwave", label: "The 4th Wave" },
+        { href: "4thwave.html", id: "4thwave", label: 'The <span class="nav-accent">4</span>th Wave' },
         { href: "coffee.html", id: "coffee", label: "Buy Coffee" },
+        { href: "latestbeat.html", id: "beat", label: "Latest Beat" },
         { href: "healthbenefits.html", id: "health", label: "Coffee&Health" },
         { href: "americansmile.html", id: "smile", label: "American Smile" },
         { href: "contact.html", id: "contact", label: "Contact" },
@@ -43,9 +44,14 @@
         '<span class="logo__name">Fourth Wave</span>' +
         '<span class="logo__sub">Coffee</span>' +
         "</span></a>" +
-        '<nav class="nav-links" aria-label="Primary">' +
+        '<button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">' +
+        '<span></span><span></span><span></span>' +
+        "</button>" +
+        '<nav class="nav-links" id="site-menu" aria-label="Primary">' +
         links +
-        "</nav></div>"
+        "</nav>" +
+        '<div class="nav-scrim" hidden></div>' +
+        "</div>"
       );
     }
 
@@ -53,19 +59,13 @@
       const year = String(new Date().getFullYear());
       return (
         '<div class="wrap">' +
-        '<p class="foot-org">AppChurch Global Foundation</p>' +
-        "<p>501(c)(3) Nonprofit Organization</p>" +
-        "<p>Fourth Wave Coffee: A Project of AppChurch Global Foundation</p>" +
-        "<p>San Diego, CA</p>" +
-        '<div class="foot-links">' +
-        '<a href="privacy.html">Privacy</a>' +
-        '<span class="foot-sep" aria-hidden="true">|</span>' +
-        '<a href="terms.html">Terms of Use</a>' +
-        "</div>" +
-        '<p><a class="btn" href="contact.html">Contact</a></p>' +
+        '<p class="foot-org"><span class="foot-accent">Fourth</span> Wave Coffee<span class="foot-accent"> · </span>San Diego, CA<span class="foot-accent"> · </span><a href="contact.html">Contact</a></p>' +
         '<p class="foot-copy">&copy; 2020–' +
         year +
-        " AppChurch Global Foundation. All rights reserved.</p>" +
+        ' <span class="foot-accent">Fourth</span>WaveCoffee.org. An AppChurch Global Foundation 501(c)(3) initiative. All rights reserved. ' +
+        '<a href="privacy.html">Privacy</a>' +
+        '<span class="foot-accent" aria-hidden="true"> · </span>' +
+        '<a href="terms.html">Terms</a></p>' +
         "</div>"
       );
     }
@@ -76,11 +76,44 @@
       if (nav) {
         nav.classList.add("site-nav");
         nav.innerHTML = SiteChrome.navMarkup();
+        SiteChrome.bindMenu(nav);
       }
       if (foot) {
         foot.classList.add("site-foot");
         foot.innerHTML = SiteChrome.footerMarkup();
       }
+    }
+
+    static bindMenu(root) {
+      const toggle = root.querySelector(".nav-toggle");
+      const scrim = root.querySelector(".nav-scrim");
+      const menu = root.querySelector(".nav-links");
+      if (!toggle || !menu) return;
+      const close = function () {
+        root.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-label", "Open menu");
+        if (scrim) scrim.hidden = true;
+        document.body.classList.remove("nav-lock");
+      };
+      const open = function () {
+        root.classList.add("is-open");
+        toggle.setAttribute("aria-expanded", "true");
+        toggle.setAttribute("aria-label", "Close menu");
+        if (scrim) scrim.hidden = false;
+        document.body.classList.add("nav-lock");
+      };
+      toggle.addEventListener("click", function () {
+        if (root.classList.contains("is-open")) close();
+        else open();
+      });
+      if (scrim) scrim.addEventListener("click", close);
+      menu.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("click", close);
+      });
+      window.addEventListener("keydown", function (ev) {
+        if (ev.key === "Escape") close();
+      });
     }
   }
 
@@ -189,7 +222,7 @@
   }
 
   class HeroCarousel {
-    static files() {
+    static stock() {
       return [
         "image/carosal/cafe-scene-6887.jpg",
         "image/carosal/cafe-scene-7252.jpg",
@@ -210,6 +243,25 @@
         "image/carosal/cafe-scene-8204.png",
         "image/carosal/cafe-scene-8205.png",
       ];
+    }
+
+    static files() {
+      const seen = {};
+      const out = [];
+      function add(src) {
+        if (!src) return;
+        const key = String(src).split("?")[0];
+        if (seen[key]) return;
+        seen[key] = true;
+        out.push(src);
+      }
+      const ed = global.EDITORIAL || {};
+      add(ed.heroImage);
+      ((global.SIGNALS && global.SIGNALS.items) || []).forEach(function (it) {
+        add(it.image);
+      });
+      HeroCarousel.stock().forEach(add);
+      return out;
     }
 
     constructor(root) {
@@ -234,14 +286,21 @@
           .map(function (src, i) {
             const extra = i === 0 ? ' fetchpriority="high"' : ' loading="lazy"';
             const on = i === 0 ? " is-on" : "";
+            const remote = /^https?:/i.test(src);
+            const proxy = remote
+              ? ' data-proxy="https://images.weserv.nl/?url=' +
+                encodeURIComponent(String(src).replace(/^https?:\/\//, "")) +
+                '&w=1600&h=900&fit=cover&we"'
+              : "";
             return (
               '<div class="hero-cinema__slide' +
               on +
               '"><img src="' +
               src +
-              '" alt="Cafe interior"' +
+              '" alt="" referrerpolicy="no-referrer"' +
               extra +
-              "></div>"
+              proxy +
+              ' onerror="if(this.dataset.proxy&&!this.dataset.tried){this.dataset.tried=1;this.src=this.dataset.proxy}"></div>'
             );
           })
           .join("");
@@ -283,7 +342,7 @@
       this.stop();
       this.timer = setInterval(function () {
         self.next();
-      }, 6000);
+      }, 3000);
     }
 
     stop() {
@@ -322,6 +381,204 @@
     }
   }
 
+  class HomeEditorial {
+    static esc(s) {
+      return String(s || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    static mount() {
+      const host = document.getElementById("home-editorial");
+      const ed = global.EDITORIAL;
+      if (!host || !ed || !ed.title) return;
+      const paras = ed.paragraphs && ed.paragraphs.length
+        ? ed.paragraphs
+        : String(ed.body || "").split(/\n\n+/);
+      host.innerHTML =
+        '<p class="hero__kicker">Daily editorial</p>' +
+        '<span class="tag editorial">Editorial</span>' +
+        "<h2>" +
+        HomeEditorial.esc(ed.title) +
+        "</h2>" +
+        '<p class="dek">' +
+        HomeEditorial.esc(ed.dek || "") +
+        "</p>" +
+        '<p class="beat-src">' +
+        HomeEditorial.esc((ed.authorName || "Fourth Wave Coffee") + " · " + (ed.publishDate || "")) +
+        "</p>" +
+        '<div class="prose">' +
+        paras
+          .map(function (p) {
+            return "<p>" + HomeEditorial.esc(p) + "</p>";
+          })
+          .join("") +
+        '<p><a class="btn btn-outline" href="latestbeat.html#editorial">Latest Beat</a></p>' +
+        "</div>";
+    }
+  }
+
+  class HomeStrips {
+    static esc(s) {
+      return HomeEditorial.esc(s);
+    }
+
+    static proxyUrl(url) {
+      if (!url || String(url).indexOf("image/") === 0) return "";
+      return (
+        "https://images.weserv.nl/?url=" +
+        encodeURIComponent(String(url).replace(/^https?:\/\//, "")) +
+        "&w=640&h=400&fit=cover&we"
+      );
+    }
+
+    static coffeeCard(p) {
+      return (
+        '<article class="strip-card"><div class="shop-card">' +
+        '<img src="' +
+        HomeStrips.esc(p.image) +
+        '" alt="">' +
+        '<div class="shop-body">' +
+        "<h3>" +
+        HomeStrips.esc(p.name) +
+        "</h3>" +
+        '<p class="shop-meta">' +
+        HomeStrips.esc(p.brand) +
+        ' · <span class="shop-price">' +
+        HomeStrips.esc(p.price) +
+        "</span></p>" +
+        '<a class="btn" href="' +
+        HomeStrips.esc(p.url) +
+        '" target="_blank" rel="noopener noreferrer" data-buy="' +
+        HomeStrips.esc(p.id) +
+        '">Buy</a>' +
+        "</div></div></article>"
+      );
+    }
+
+    static beatCard(it) {
+      const raw = it.image || "";
+      const proxy = HomeStrips.proxyUrl(raw);
+      const tag = it.category === "editorial" ? "Editorial" : it.categoryLabel || it.category || "Beat";
+      const href = it.sourceUrl || "latestbeat.html";
+      const tgt = it.category === "editorial" ? "" : ' target="_blank" rel="noopener"';
+      return (
+        '<article class="strip-card"><a class="beat-card" href="' +
+        HomeStrips.esc(href) +
+        '"' +
+        tgt +
+        ">" +
+        '<div class="n-img"><img src="' +
+        HomeStrips.esc(raw) +
+        '" alt="" referrerpolicy="no-referrer" data-proxy="' +
+        HomeStrips.esc(proxy) +
+        '" onerror="if(this.dataset.proxy&&!this.dataset.tried){this.dataset.tried=1;this.src=this.dataset.proxy}"></div>' +
+        '<div class="beat-body">' +
+        '<span class="tag ' +
+        HomeStrips.esc(it.category || "") +
+        '">' +
+        HomeStrips.esc(tag) +
+        "</span>" +
+        "<h3>" +
+        HomeStrips.esc(it.title) +
+        "</h3>" +
+        '<p class="beat-src">' +
+        HomeStrips.esc(it.source || "") +
+        "</p>" +
+        "</div></a></article>"
+      );
+    }
+
+    static featuredCoffees() {
+      const list = ((global.CATALOG && global.CATALOG.products) || []).slice();
+      const pinned = list
+        .filter(function (p) {
+          return typeof p.pin === "number";
+        })
+        .sort(function (a, b) {
+          return a.pin - b.pin;
+        });
+      const rest = list.filter(function (p) {
+        return typeof p.pin !== "number";
+      });
+      return pinned.concat(rest).slice(0, 18);
+    }
+
+    static beats() {
+      const out = [];
+      const ed = global.EDITORIAL;
+      if (ed && ed.title) {
+        out.push({
+          title: ed.title,
+          source: "Fourth Wave Coffee",
+          sourceUrl: "latestbeat.html#editorial",
+          image: ed.heroImage || "",
+          category: "editorial",
+          categoryLabel: "Editorial",
+        });
+      }
+      ((global.SIGNALS && global.SIGNALS.items) || []).forEach(function (it) {
+        out.push(it);
+      });
+      return out;
+    }
+
+    static bindBuy(root) {
+      root.querySelectorAll("[data-buy]").forEach(function (link) {
+        link.addEventListener("click", function () {
+          const id = link.getAttribute("data-buy");
+          const product = ((global.CATALOG && global.CATALOG.products) || []).find(function (row) {
+            return row.id === id;
+          });
+          if (product && global.BuyNotifier) {
+            global.BuyNotifier.notify({
+              type: "buy",
+              id: product.id,
+              name: product.name,
+              url: product.url,
+            });
+          }
+        });
+      });
+    }
+
+    static bindArrows() {
+      function step(id, dir) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const card = el.querySelector(".strip-card");
+        const w = card ? card.getBoundingClientRect().width + 16 : el.clientWidth * 0.8;
+        el.scrollBy({ left: dir * w, behavior: "smooth" });
+      }
+      document.querySelectorAll("[data-strip-prev]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          step(btn.getAttribute("data-strip-prev"), -1);
+        });
+      });
+      document.querySelectorAll("[data-strip-next]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          step(btn.getAttribute("data-strip-next"), 1);
+        });
+      });
+    }
+
+    static mount() {
+      const coffeeTrack = document.getElementById("home-coffee-track");
+      if (coffeeTrack) {
+        coffeeTrack.innerHTML = HomeStrips.featuredCoffees()
+          .map(HomeStrips.coffeeCard)
+          .join("");
+        HomeStrips.bindBuy(coffeeTrack);
+      }
+      const beatTrack = document.getElementById("home-beats-track");
+      if (beatTrack) {
+        beatTrack.innerHTML = HomeStrips.beats().map(HomeStrips.beatCard).join("");
+      }
+      HomeStrips.bindArrows();
+    }
+  }
+
   class BackToTop {
     static mount() {
       if (SiteChrome.currentFile() !== "coffee.html") return;
@@ -349,6 +606,8 @@
   document.addEventListener("DOMContentLoaded", function () {
     SiteChrome.mount();
     ContactForm.bind();
+    HomeEditorial.mount();
+    HomeStrips.mount();
     const carousel = document.querySelector("[data-carousel]");
     if (carousel) new HeroCarousel(carousel);
     BackToTop.mount();
