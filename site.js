@@ -389,6 +389,13 @@
         .replace(/"/g, "&quot;");
     }
 
+    static byline(ed) {
+      const name = ed.authorName || "Dr. Wallace Lynch";
+      const title = ed.authorTitle || "Editor in Chief";
+      const date = ed.publishDate || "";
+      return date ? name + " · " + title + " · " + date : name + " · " + title;
+    }
+
     static mount() {
       const host = document.getElementById("home-editorial");
       const ed = global.EDITORIAL;
@@ -396,6 +403,7 @@
       const paras = ed.paragraphs && ed.paragraphs.length
         ? ed.paragraphs
         : String(ed.body || "").split(/\n\n+/);
+      const line = HomeEditorial.byline(ed);
       host.innerHTML =
         '<p class="hero__kicker">Daily editorial</p>' +
         '<span class="tag editorial">Editorial</span>' +
@@ -406,7 +414,7 @@
         HomeEditorial.esc(ed.dek || "") +
         "</p>" +
         '<p class="beat-src">' +
-        HomeEditorial.esc((ed.authorName || "Fourth Wave Coffee") + " · " + (ed.publishDate || "")) +
+        HomeEditorial.esc(line) +
         "</p>" +
         '<div class="prose">' +
         paras
@@ -415,9 +423,7 @@
           })
           .join("") +
         '<p class="ed-sign">' +
-        HomeEditorial.esc(ed.authorName || "Dr. Wallace Lynch") +
-        " · " +
-        HomeEditorial.esc(ed.authorTitle || "Editor in Chief") +
+        HomeEditorial.esc(line) +
         "</p>" +
         '<p><a class="btn btn-outline" href="latestbeat.html#editorial">Latest Beat</a></p>' +
         "</div>";
