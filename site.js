@@ -614,6 +614,74 @@
   global.SiteChrome = SiteChrome;
   global.BuyNotifier = BuyNotifier;
 
+  class AmericanSmileCovers {
+    static CHANNEL = "https://www.youtube.com/@American_Smile";
+    static CHANNEL_ID = "UCPwiRGVLgdrptJUKDP8m8ug";
+    static RSS =
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCPwiRGVLgdrptJUKDP8m8ug";
+
+    static videoId(item) {
+      const link = String((item && (item.link || item.guid)) || "");
+      const m = link.match(/[?&]v=([\w-]{6,})/) || link.match(/youtu\.be\/([\w-]{6,})/);
+      if (m) return m[1];
+      const thumb = String((item && item.thumbnail) || "");
+      const t = thumb.match(/\/vi\/([\w-]{6,})\//);
+      return t ? t[1] : "";
+    }
+
+    static coverUrl(id, kind) {
+      return "https://i.ytimg.com/vi/" + id + "/" + (kind || "hqdefault") + ".jpg";
+    }
+
+    static mount() {
+      const grid = document.getElementById("as-covers");
+      if (!grid) return;
+      grid.innerHTML = "<p class=\"empty\">Loading YouTube covers…</p>";
+      const feed =
+        "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(AmericanSmileCovers.RSS);
+      fetch(feed, { credentials: "omit" })
+        .then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          return res.json();
+        })
+        .then(function (data) {
+          const items = (data && data.items) || [];
+          if (!items.length) throw new Error("empty");
+          grid.innerHTML = items
+            .map(function (it) {
+              const id = AmericanSmileCovers.videoId(it);
+              if (!id) return "";
+              const href = "https://www.youtube.com/watch?v=" + id;
+              const hq = AmericanSmileCovers.coverUrl(id, "hqdefault");
+              const max = AmericanSmileCovers.coverUrl(id, "maxresdefault");
+              const title = String(it.title || "American Smile").replace(/</g, "");
+              return (
+                '<a href="' +
+                href +
+                '" target="_blank" rel="noopener">' +
+                '<img src="' +
+                max +
+                '" alt="' +
+                title.replace(/"/g, "") +
+                '" data-fallback="' +
+                hq +
+                '" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">' +
+                "<figcaption>" +
+                title +
+                "</figcaption></a>"
+              );
+            })
+            .join("");
+        })
+        .catch(function () {
+          grid.innerHTML =
+            '<p class="empty">Could not load YouTube covers. <a href="' +
+            AmericanSmileCovers.CHANNEL +
+            '" target="_blank" rel="noopener">Watch on YouTube</a>.</p>';
+        });
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     SiteChrome.mount();
     ContactForm.bind();
@@ -622,5 +690,6 @@
     const carousel = document.querySelector("[data-carousel]");
     if (carousel) new HeroCarousel(carousel);
     BackToTop.mount();
+    AmericanSmileCovers.mount();
   });
 })(window);
