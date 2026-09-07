@@ -915,13 +915,14 @@
       if (w) w.textContent = n + " words";
     }
 
-    collectEditorial() {
+    collectEditorial(status) {
       var body = (document.getElementById("edBody") || {}).value || "";
       var paras = body.split(/\n\n+/).map(function (p) { return p.trim(); }).filter(Boolean);
-      return {
-        id: "ed_" + new Date().toISOString().slice(0, 10),
-        publishDate: new Date().toISOString().slice(0, 10),
-        status: "draft",
+      var day = new Date().toISOString().slice(0, 10);
+      var ed = {
+        id: "ed_" + day,
+        publishDate: day,
+        status: status || "draft",
         title: (document.getElementById("edTitle") || {}).value || "",
         dek: (document.getElementById("edDek") || {}).value || "",
         heroImage: (document.getElementById("edHero") || {}).value || "",
@@ -930,8 +931,35 @@
         authorTitle: "Editor in Chief",
         body: body.trim(),
         paragraphs: paras,
-        wordCount: body.trim().split(/\s+/).filter(Boolean).length,
+        wordCount: body.trim() ? body.trim().split(/\s+/).filter(Boolean).length : 0,
       };
+      return ed;
+    }
+
+    editorialFile(ed) {
+      return (
+        "window.EDITORIAL = " +
+        JSON.stringify(ed) +
+        ";\nwindow.EDITORIAL.body = (window.EDITORIAL.paragraphs || []).join(\"\\n\\n\");\n"
+      );
+    }
+
+    async publishEditorial() {
+      var ed = this.collectEditorial("published");
+      if (!ed.title || !ed.body) {
+        this.toast("Title and body are required to publish.", "error");
+        return;
+      }
+      global.EDITORIAL = ed;
+      this.toast("Publishing editorial…", "info");
+      var ok = await this.putGithubFile(
+        "editorial.data.js",
+        this.editorialFile(ed),
+        "Publish editorial " + ed.publishDate + ": " + ed.title
+      );
+      if (!ok) return;
+      this.log("ok", "Published editorial.data.js — " + ed.title);
+      this.toast("Editorial published. Home and Latest Beat will update after Pages deploys.", "success");
     }
 
     renderVendors() {
@@ -1336,9 +1364,12 @@
     URL.revokeObjectURL(a.href);
     app.toast("Downloaded signals.data.js", "success");
   };
+  global.publishEditorial = function () {
+    app.publishEditorial();
+  };
   global.exportEditorial = function () {
     var ed = app.collectEditorial();
-    var body = "window.EDITORIAL = " + JSON.stringify(ed) + ";\n";
+    var body = app.editorialFile(ed);
     var blob = new Blob([body], { type: "text/javascript" });
     var a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
