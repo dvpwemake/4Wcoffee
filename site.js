@@ -628,7 +628,7 @@
     ];
 
     static epNum(title) {
-      const m = String(title || "").match(/EP\s*_?\s*0*(\d+)/i);
+      const m = String(title || "").match(/EP[\s_.:-]*0*(\d+)/i);
       return m ? parseInt(m[1], 10) : 999;
     }
 
@@ -672,7 +672,10 @@
           });
           if (!list.length) throw new Error("empty");
           list.sort(function (a, b) {
-            return AmericanSmileCovers.epNum(a.title) - AmericanSmileCovers.epNum(b.title);
+            const na = AmericanSmileCovers.epNum(a.title);
+            const nb = AmericanSmileCovers.epNum(b.title);
+            if (na !== nb) return na - nb;
+            return String(a.title).localeCompare(String(b.title));
           });
           grid.innerHTML = list
             .map(function (it) {
