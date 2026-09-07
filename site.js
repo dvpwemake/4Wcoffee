@@ -620,6 +620,18 @@
     static RSS =
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCPwiRGVLgdrptJUKDP8m8ug";
 
+    /* YouTube RSS only returns recent uploads. Pin older episodes so EP01/EP02 stay. */
+    static ARCHIVE = [
+      { id: "woV-3dTGK3U", title: "American Smile EP01 Angie's Smile, Englewood, NJ" },
+      { id: "7jFu2r12p0g", title: "American Smile_EP02: Philadelphia" },
+      { id: "m8HswqYO4Gc", title: "American Smile: EP04_Ladysmith" },
+    ];
+
+    static epNum(title) {
+      const m = String(title || "").match(/EP\s*_?\s*0*(\d+)/i);
+      return m ? parseInt(m[1], 10) : 999;
+    }
+
     static videoId(item) {
       const link = String((item && (item.link || item.guid)) || "");
       const m = link.match(/[?&]v=([\w-]{6,})/) || link.match(/youtu\.be\/([\w-]{6,})/);
@@ -645,15 +657,28 @@
           return res.json();
         })
         .then(function (data) {
-          const items = (data && data.items) || [];
-          if (!items.length) throw new Error("empty");
-          grid.innerHTML = items
+          const seen = {};
+          const list = [];
+          function add(id, title) {
+            if (!id || seen[id]) return;
+            seen[id] = true;
+            list.push({ id: id, title: title || "American Smile" });
+          }
+          ((data && data.items) || []).forEach(function (it) {
+            add(AmericanSmileCovers.videoId(it), it.title);
+          });
+          AmericanSmileCovers.ARCHIVE.forEach(function (it) {
+            add(it.id, it.title);
+          });
+          if (!list.length) throw new Error("empty");
+          list.sort(function (a, b) {
+            return AmericanSmileCovers.epNum(a.title) - AmericanSmileCovers.epNum(b.title);
+          });
+          grid.innerHTML = list
             .map(function (it) {
-              const id = AmericanSmileCovers.videoId(it);
-              if (!id) return "";
-              const href = "https://www.youtube.com/watch?v=" + id;
-              const hq = AmericanSmileCovers.coverUrl(id, "hqdefault");
-              const max = AmericanSmileCovers.coverUrl(id, "maxresdefault");
+              const href = "https://www.youtube.com/watch?v=" + it.id;
+              const hq = AmericanSmileCovers.coverUrl(it.id, "hqdefault");
+              const max = AmericanSmileCovers.coverUrl(it.id, "maxresdefault");
               const title = String(it.title || "American Smile").replace(/</g, "");
               return (
                 '<a href="' +
