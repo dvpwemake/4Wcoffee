@@ -147,7 +147,31 @@ def parse_feed(xml: str, source: str) -> list[dict]:
     return items
 
 
-def crawl() -> dict:
+def load_deleted(path: Path) -> list:
+    if not path.exists():
+        return []
+    try:
+        prev = json.loads(path.read_text())
+        return prev.get("deleted") or []
+    except Exception:
+        return []
+
+
+def is_blocked(item: dict, deleted: list) -> bool:
+    url = str(item.get("sourceUrl") or "").split("?")[0].rstrip("/").lower()
+    title = str(item.get("title") or "").lower()[:80]
+    for d in deleted:
+        du = str((d or {}).get("url") or (d or {}).get("sourceUrl") or "").split("?")[0].rstrip("/").lower()
+        dt = str((d or {}).get("title") or "").lower()[:80]
+        if url and du and url == du:
+            return True
+        if title and dt and title == dt:
+            return True
+    return False
+
+
+def crawl(deleted: list | None = None) -> dict:
+    deleted = deleted or []
     picked = {}
     log = []
     for cat_id, cat in SRC["categories"].items():
@@ -174,6 +198,8 @@ def crawl() -> dict:
                 continue
             if any(s in key for s in skip):
                 continue
+            if is_blocked(it, deleted):
+                continue
             seen.add(key)
             item = {k: v for k, v in it.items() if k != "_ts"}
             item["id"] = f"{cat_id}-{len(top)+1}"
@@ -189,6 +215,7 @@ def crawl() -> dict:
         "categories": {k: v["label"] for k, v in SRC["categories"].items()},
         "items": [it for cat in SRC["categories"] for it in picked.get(cat, [])],
         "byCategory": picked,
+        "deleted": deleted,
         "log": log,
     }
     return batch
@@ -231,7 +258,7 @@ def main() -> None:
     if args.once_a_day and not args.force and already_scanned_today(out_json):
         print("already scanned today (America/New_York); skip")
         return
-    batch = crawl()
+    batch = crawl(load_deleted(out_json))
     (ROOT / "data").mkdir(exist_ok=True)
     out_json.write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
     js = "window.SIGNALS = " + json.dumps(batch, ensure_ascii=False) + ";\n"

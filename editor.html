@@ -94,6 +94,7 @@ textarea.fi{min-height:12rem;resize:vertical}
 .cover-st.ok{color:var(--success)}
 .cover-st.er{color:var(--danger)}
 .sig-actions{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.45rem}
+.btn-del{border-color:var(--danger)!important;color:var(--danger)!important}
 .ed-preview{margin:0 0 1.4rem;padding:1rem;border:1px solid var(--border);background:var(--bg-input)}
 .ed-preview .ed-hit{padding:.55rem 0;border-bottom:1px solid var(--border)}
 .ed-preview .ed-hit:last-child{border-bottom:0}
@@ -182,6 +183,8 @@ textarea.fi{min-height:12rem;resize:vertical}
       <p class="side-note" id="sigScanMeta">—</p>
       <button class="btn" onclick="fetchAllCovers()" style="width:100%;margin-top:.5rem">Fetch covers from articles</button>
       <button class="btn btn-p" onclick="exportSignals()" style="width:100%;margin-top:.4rem">Download signals.data.js</button>
+      <button class="btn btn-s" onclick="publishSignals()" style="width:100%;margin-top:.4rem">Publish Latest Beat</button>
+      <p class="side-note">Delete removes a story from Latest Beat and this list. Deleted URLs stay blocked so the 9 AM scan will not bring them back. Publish writes signals.data.js to GitHub (uses the PAT on Coffee items).</p>
     </div>
   </aside>
   <main class="main">

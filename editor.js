@@ -494,6 +494,7 @@
             '<div class="sig-actions">' +
             '<button type="button" class="btn btn-p" data-act="apply">Apply image</button>' +
             '<button type="button" class="btn" data-act="fetch">From article</button>' +
+            '<button type="button" class="btn btn-del" data-act="delete">Delete</button>' +
             (it.sourceUrl
               ? '<a class="btn" href="' + self.esc(it.sourceUrl) + '" target="_blank" rel="noopener">Article</a>'
               : "") +
@@ -519,8 +520,62 @@
           var act = btn.getAttribute("data-act");
           if (act === "apply") self.applyCover(row);
           if (act === "fetch") self.pullCover(row, btn);
+          if (act === "delete") self.deleteSignal(row);
         });
       }
+    }
+
+    signalKey(it) {
+      return String((it && (it.sourceUrl || it.title)) || "")
+        .split("?")[0]
+        .replace(/\/+$/, "")
+        .toLowerCase();
+    }
+
+    isBlocked(it, deleted) {
+      var key = this.signalKey(it);
+      var title = String((it && it.title) || "").toLowerCase().slice(0, 80);
+      return (deleted || []).some(function (d) {
+        var dk = String((d && (d.url || d.sourceUrl)) || "")
+          .split("?")[0]
+          .replace(/\/+$/, "")
+          .toLowerCase();
+        var dt = String((d && d.title) || "").toLowerCase().slice(0, 80);
+        return (key && dk && key === dk) || (title && dt && title === dt);
+      });
+    }
+
+    rebuildByCategory(items) {
+      var by = {};
+      (items || []).forEach(function (it) {
+        var c = it.category || "other";
+        if (!by[c]) by[c] = [];
+        by[c].push(it);
+      });
+      return by;
+    }
+
+    deleteSignal(row) {
+      var i = parseInt(row.getAttribute("data-i"), 10);
+      var data = global.SIGNALS || { items: [] };
+      var it = data.items[i];
+      if (!it) return;
+      if (!window.confirm("Remove this story from Latest Beat?\n\n" + (it.title || ""))) return;
+      if (!data.deleted) data.deleted = [];
+      data.deleted.push({
+        url: it.sourceUrl || "",
+        title: it.title || "",
+        deletedAt: new Date().toISOString(),
+      });
+      data.items.splice(i, 1);
+      data.byCategory = this.rebuildByCategory(data.items);
+      global.SIGNALS = data;
+      this.renderSignals();
+      this.renderEditorialPreview();
+      this.toast("Removed from Latest Beat list.", "success");
+      this.log("ok", "Deleted signal: " + (it.title || ""));
+      if (this.readPat()) this.publishSignals();
+      else this.toast("Deleted here. Paste a GitHub PAT on Coffee items, then Publish Latest Beat.", "info");
     }
 
     applyCover(row) {
@@ -746,6 +801,7 @@
           var key = String(it.title || "").toLowerCase().slice(0, 80);
           if (seen[key]) continue;
           if (skip.some(function (s) { return key.indexOf(s) !== -1; })) continue;
+          if (this.isBlocked(it, (global.SIGNALS && global.SIGNALS.deleted) || [])) continue;
           seen[key] = true;
           delete it._ts;
           it.id = catId + "-" + (top.length + 1);
@@ -764,6 +820,7 @@
         categories: labels,
         items: items,
         byCategory: byCategory,
+        deleted: (global.SIGNALS && global.SIGNALS.deleted) || [],
       };
       this.renderSignals();
       this.renderEditorialPreview();
@@ -784,13 +841,15 @@
     }
 
     collectSignals() {
-      var data = global.SIGNALS || { items: [], categories: {} };
+      var data = global.SIGNALS || { items: [], categories: {}, deleted: [] };
+      if (!data.deleted) data.deleted = [];
       var rows = document.querySelectorAll("#signalList .sig-row");
       rows.forEach(function (row) {
         var i = parseInt(row.getAttribute("data-i"), 10);
         var inp = row.querySelector(".sig-img");
         if (data.items[i] && inp) data.items[i].image = inp.value.trim();
       });
+      data.byCategory = this.rebuildByCategory(data.items || []);
       return data;
     }
 
@@ -1115,24 +1174,17 @@
       });
     }
 
-    async publishGithub() {
+    async putGithubFile(path, content, message) {
       var owner = "dvpwemake";
       var repo = "4Wcoffee";
       var branch = "main";
-      var path = "catalog.data.js";
       var token = this.readPat();
       if (!token) {
         var field = document.getElementById("ghPat");
         if (field) field.focus();
         this.toast("Paste a GitHub PAT with Contents write on dvpwemake/4Wcoffee.", "error");
-        this.log("err", "Publish cancelled — no PAT.");
-        return;
+        return false;
       }
-      var payload = { itemCount: this.working.length, products: this.working };
-      var content =
-        "/* generated catalog — priced bags 16 oz or less */\nwindow.CATALOG = " +
-        JSON.stringify(payload) +
-        ";\n";
       var api =
         "https://api.github.com/repos/" +
         owner +
@@ -1140,34 +1192,27 @@
         repo +
         "/contents/" +
         encodeURI(path);
-      this.status("Publishing…", true);
       var sha = null;
-      try {
-        var cur = await fetch(api + "?ref=" + encodeURIComponent(branch), {
-          headers: this.ghHeaders(token, false),
-        });
-        if (cur.status === 401 || cur.status === 403) {
-          try {
-            sessionStorage.removeItem("fw_gh_pat");
-          } catch (e) {
-            /* ignore */
-          }
-          var bad = document.getElementById("ghPat");
-          if (bad) bad.value = "";
-          this.status("Idle", false);
-          this.log("err", "GitHub rejected the PAT (" + cur.status + ").");
-          this.toast("Token rejected. Paste a valid PAT and try again.", "error");
-          return;
+      var cur = await fetch(api + "?ref=" + encodeURIComponent(branch), {
+        headers: this.ghHeaders(token, false),
+      });
+      if (cur.status === 401 || cur.status === 403) {
+        try {
+          sessionStorage.removeItem("fw_gh_pat");
+        } catch (e) {
+          /* ignore */
         }
-        if (cur.ok) {
-          var curJ = await cur.json();
-          sha = curJ.sha;
-        }
-      } catch (e) {
-        /* treat as new file */
+        var bad = document.getElementById("ghPat");
+        if (bad) bad.value = "";
+        this.toast("Token rejected. Paste a valid PAT and try again.", "error");
+        return false;
+      }
+      if (cur.ok) {
+        var curJ = await cur.json();
+        sha = curJ.sha;
       }
       var body = {
-        message: "catalog rescan " + new Date().toISOString().slice(0, 10),
+        message: message,
         content: this.b64Utf8(content),
         branch: branch,
       };
@@ -1177,15 +1222,56 @@
         headers: this.ghHeaders(token, true),
         body: JSON.stringify(body),
       });
-      this.status("Idle", false);
       if (!put.ok) {
         var errT = await put.text();
-        this.log("err", "GitHub publish failed: " + put.status + " " + errT.slice(0, 180));
+        this.log("err", "GitHub publish failed " + path + ": " + put.status + " " + errT.slice(0, 180));
         this.toast("GitHub publish failed.", "error");
-        return;
+        return false;
       }
-      this.log("ok", "Published catalog.data.js to " + owner + "/" + repo + "@" + branch);
-      this.toast("Published to GitHub.", "success");
+      return true;
+    }
+
+    async publishGithub() {
+      var payload = { itemCount: this.working.length, products: this.working };
+      var content =
+        "/* generated catalog — priced bags 16 oz or less */\nwindow.CATALOG = " +
+        JSON.stringify(payload) +
+        ";\n";
+      this.status("Publishing…", true);
+      var ok = await this.putGithubFile(
+        "catalog.data.js",
+        content,
+        "catalog rescan " + new Date().toISOString().slice(0, 10)
+      );
+      this.status("Idle", false);
+      if (ok) {
+        this.log("ok", "Published catalog.data.js");
+        this.toast("Published catalog to GitHub.", "success");
+      }
+    }
+
+    signalsPayload() {
+      var data = this.collectSignals();
+      if (!data.deleted) data.deleted = [];
+      data.byCategory = this.rebuildByCategory(data.items || []);
+      return data;
+    }
+
+    async publishSignals() {
+      var data = this.signalsPayload();
+      global.SIGNALS = data;
+      var js = "window.SIGNALS = " + JSON.stringify(data) + ";\n";
+      var json = JSON.stringify(data, null, 2) + "\n";
+      this.toast("Publishing Latest Beat…", "info");
+      var ok1 = await this.putGithubFile(
+        "signals.data.js",
+        js,
+        "Update Latest Beat signals " + new Date().toISOString().slice(0, 10)
+      );
+      if (!ok1) return;
+      await this.putGithubFile("data/signals.json", json, "Update signals.json " + new Date().toISOString().slice(0, 10));
+      this.log("ok", "Published signals.data.js (" + (data.items || []).length + " items)");
+      this.toast("Latest Beat updated on GitHub.", "success");
     }
 
     toast(msg, kind) {
@@ -1235,6 +1321,9 @@
   global.showLog = function () {
     var p = document.getElementById("logP");
     if (p) p.scrollIntoView({ behavior: "smooth" });
+  };
+  global.publishSignals = function () {
+    app.publishSignals();
   };
   global.exportSignals = function () {
     var data = app.collectSignals();
