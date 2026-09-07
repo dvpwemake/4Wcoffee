@@ -611,8 +611,141 @@
     }
   }
 
+  class EditorialShare {
+    static CANONICAL = "https://fourthwavecoffee.org/latestbeat.html#editorial";
+
+    static esc(s) {
+      return String(s || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    static icon(name) {
+      const box = 'viewBox="0 0 24 24" aria-hidden="true" focusable="false"';
+      const icons = {
+        x:
+          '<svg ' +
+          box +
+          '><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>',
+        facebook:
+          '<svg ' +
+          box +
+          '><path d="M24 12.073C24 5.446 18.627.073 12 .073S0 5.446 0 12.073c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>',
+        reddit:
+          '<svg ' +
+          box +
+          '><path d="M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 01-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 01.042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 014.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 01.14-.197.35.35 0 01.238-.042l2.906.617a1.214 1.214 0 011.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 00-.231.094.33.33 0 000 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 000-.463.33.33 0 00-.463 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 00-.204-.094z"/></svg>',
+        sms:
+          '<svg ' +
+          box +
+          '><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>',
+        email:
+          '<svg ' +
+          box +
+          '><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>',
+        link:
+          '<svg ' +
+          box +
+          '><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>',
+      };
+      return icons[name] || "";
+    }
+
+    static html(ed) {
+      const title = (ed && ed.title) || "Fourth Wave Coffee editorial";
+      const url = EditorialShare.CANONICAL;
+      const shareTitle = encodeURIComponent(title + " — Fourth Wave Coffee");
+      const shareU = encodeURIComponent(url);
+      const shareBody = encodeURIComponent(title + "\n\n" + url);
+      return (
+        '<div class="ed-share-wrap">' +
+        '<span class="ed-share-label">Share</span>' +
+        '<div class="ed-share" role="group" aria-label="Share this editorial">' +
+        '<a class="ed-share-btn ed-share-x" href="https://twitter.com/intent/tweet?url=' +
+        shareU +
+        "&text=" +
+        shareTitle +
+        '" target="_blank" rel="noopener noreferrer" aria-label="Share on X" title="X">' +
+        EditorialShare.icon("x") +
+        "</a>" +
+        '<a class="ed-share-btn ed-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=' +
+        shareU +
+        '" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook" title="Facebook">' +
+        EditorialShare.icon("facebook") +
+        "</a>" +
+        '<a class="ed-share-btn ed-share-rd" href="https://www.reddit.com/submit?url=' +
+        shareU +
+        "&title=" +
+        shareTitle +
+        '" target="_blank" rel="noopener noreferrer" aria-label="Share on Reddit" title="Reddit">' +
+        EditorialShare.icon("reddit") +
+        "</a>" +
+        '<a class="ed-share-btn ed-share-sms" href="sms:?&body=' +
+        shareBody +
+        '" aria-label="Share by SMS" title="SMS">' +
+        EditorialShare.icon("sms") +
+        "</a>" +
+        '<a class="ed-share-btn ed-share-em" href="mailto:?subject=' +
+        shareTitle +
+        "&body=" +
+        shareBody +
+        '" aria-label="Share by email" title="Email">' +
+        EditorialShare.icon("email") +
+        "</a>" +
+        '<button type="button" class="ed-share-btn ed-share-link" data-copy-share="' +
+        EditorialShare.esc(url) +
+        '" aria-label="Copy link" title="Copy link">' +
+        EditorialShare.icon("link") +
+        "</button>" +
+        "</div></div>"
+      );
+    }
+
+    static bind() {
+      if (EditorialShare._bound) return;
+      EditorialShare._bound = true;
+      document.addEventListener("click", function (ev) {
+        const btn = ev.target.closest("[data-copy-share]");
+        if (!btn) return;
+        const url = btn.getAttribute("data-copy-share") || EditorialShare.CANONICAL;
+        const done = function () {
+          btn.classList.add("is-copied");
+          btn.setAttribute("title", "Copied");
+          window.setTimeout(function () {
+            btn.classList.remove("is-copied");
+            btn.setAttribute("title", "Copy link");
+          }, 1600);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(done).catch(function () {
+            EditorialShare.fallbackCopy(url, done);
+          });
+        } else {
+          EditorialShare.fallbackCopy(url, done);
+        }
+      });
+    }
+
+    static fallbackCopy(url, done) {
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand("copy");
+        done();
+      } catch (e) {}
+      document.body.removeChild(ta);
+    }
+  }
+
   global.SiteChrome = SiteChrome;
   global.BuyNotifier = BuyNotifier;
+  global.EditorialShare = EditorialShare;
 
   class AmericanSmileCovers {
     static CHANNEL = "https://www.youtube.com/@American_Smile";
@@ -712,6 +845,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     SiteChrome.mount();
+    EditorialShare.bind();
     ContactForm.bind();
     HomeEditorial.mount();
     HomeStrips.mount();

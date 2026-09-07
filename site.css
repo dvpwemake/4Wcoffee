@@ -834,6 +834,68 @@ body.nav-lock { overflow: hidden; }
   text-transform: uppercase;
   color: var(--ink);
 }
+.ed-share-wrap {
+  margin: 28px 0 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+}
+.ed-share-label {
+  display: block;
+  margin: 0 0 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ed-share {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.ed-share-btn {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tap);
+  height: var(--tap);
+  padding: 0;
+  border: 1px solid var(--hairline);
+  border-radius: 0;
+  background: var(--canvas-elevated);
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.ed-share-btn svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: currentColor;
+}
+.ed-share-btn:hover {
+  border-color: var(--primary);
+  color: var(--on-primary);
+  background: var(--primary);
+}
+.ed-share-btn:focus-visible {
+  outline: 2px solid #f6e500;
+  outline-offset: 2px;
+}
+.ed-share-btn.is-copied {
+  border-color: var(--primary);
+  color: var(--on-primary);
+  background: var(--primary);
+}
+.ed-share-btn.ed-share-x:hover { background: #000; border-color: #000; color: #fff; }
+.ed-share-btn.ed-share-fb:hover { background: #1877f2; border-color: #1877f2; color: #fff; }
+.ed-share-btn.ed-share-rd:hover { background: #ff4500; border-color: #ff4500; color: #fff; }
+.ed-share-btn.ed-share-sms:hover { background: #34c759; border-color: #34c759; color: #fff; }
+.ed-share-btn.ed-share-em:hover { background: #5c6bc0; border-color: #5c6bc0; color: #fff; }
+.ed-share-btn.ed-share-link:hover { background: var(--primary); border-color: var(--primary); color: #fff; }
 .empty { padding: 24px; border: 1px dashed var(--hairline); color: var(--muted); text-align: center; }
 @media (min-width: 640px) {
   .beat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
