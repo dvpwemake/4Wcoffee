@@ -60,9 +60,15 @@
 
     sorted(mode) {
       const copy = this.products.slice();
-      if (mode === "price") {
+      if (mode === "price" || mode === "price-asc") {
         copy.sort(function (a, b) {
           return a.priceValue - b.priceValue || a.name.localeCompare(b.name);
+        });
+        return copy;
+      }
+      if (mode === "price-desc") {
+        copy.sort(function (a, b) {
+          return b.priceValue - a.priceValue || a.name.localeCompare(b.name);
         });
         return copy;
       }
@@ -183,7 +189,8 @@
         '<label class="visually-hidden" for="catalog-sort">Sort</label>' +
         '<select id="catalog-sort">' +
         '<option value="featured">Featured</option>' +
-        '<option value="price">Price</option>' +
+        '<option value="price-desc">Price: high to low</option>' +
+        '<option value="price-asc">Price: low to high</option>' +
         '<option value="origin">Origin</option>' +
         '<option value="brand">Brand</option>' +
         '<option value="kind">SOE / Blend</option>' +
