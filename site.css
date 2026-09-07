@@ -892,6 +892,7 @@ body.nav-lock { overflow: hidden; }
 }
 .ed-share-btn.ed-share-x:hover { background: #000; border-color: #000; color: #fff; }
 .ed-share-btn.ed-share-fb:hover { background: #1877f2; border-color: #1877f2; color: #fff; }
+.ed-share-btn.ed-share-li:hover { background: #0a66c2; border-color: #0a66c2; color: #fff; }
 .ed-share-btn.ed-share-rd:hover { background: #ff4500; border-color: #ff4500; color: #fff; }
 .ed-share-btn.ed-share-sms:hover { background: #34c759; border-color: #34c759; color: #fff; }
 .ed-share-btn.ed-share-em:hover { background: #5c6bc0; border-color: #5c6bc0; color: #fff; }
