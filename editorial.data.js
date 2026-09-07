@@ -1,23 +1,23 @@
 window.EDITORIAL = {
-  "id": "ed_2026-09-05",
-  "publishDate": "2026-09-05",
+  "id": "ed_2026-09-07",
+  "publishDate": "2026-09-07",
   "status": "published",
-  "title": "Second wind, same table",
-  "dek": "A Pittsburgh roastery expands. In East Java, cupping tables go home.",
+  "title": "The crank still turns",
+  "dek": "A tenth shop in Greenpoint. A motor that stalls on a dense bean.",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
-  "heroImage": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/gcag.jpg",
-  "heroCredit": "GCAG Indonesia 2026. Not a Barista.",
-  "heroSource": "Not a Barista",
-  "heroSourceUrl": "https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/",
-  "wordCount": 279,
+  "heroImage": "https://sprudge.com/wp-content/uploads/2026/08/variety-coffee-1.jpg",
+  "heroCredit": "Variety Coffee Roasters, Greenpoint. Sprudge Build-Outs of Coffee.",
+  "heroSource": "Sprudge",
+  "heroSourceUrl": "https://sprudge.com/build-outs-of-coffee-variety-coffee-roasters-in-brooklyn-ny-1265757.html",
+  "wordCount": 286,
   "paragraphs": [
-    "La Prima Espresso is 38 years in Pittsburgh and just opened a larger torrefazione: 6,000 square feet, new bags, a seasonal list. Variety Coffee Roasters built out another room in Brooklyn. The work is still a shop, a roast, a street.",
-    "On Friday, September 4, 2026, we hold those rooms to one pressure: whether the table still faces origin, or only the next square foot of steel.",
-    "In East Java, GCAG Indonesia 2026 put coffees from around the world on cupping tables, then sent the room back to origin. Local coffee people, 14 countries, 21 cities. That is not a shipping notice. That is a map. The fourth wave asked for farm, roast, and a gathering place under one roof. A cupping table that goes home is that roof, briefly.",
-    "Barista Hustle asks if World Brewers Cup scoring for taste descriptors is inflating brew ratios — more water, more theater, less cup. The spent puck is still being asked to be something else: compost, board, filter. Science here is not a lab coat. It is a ratio and a leftover. Accuracy of taste is a score. The leftover is a fact.",
-    "CoffeeGeek put the Kingrinder P2 on the bench: a manual mill under fifty dollars that still shows pour-over, with a few quirks. Coffee Chronicler listed scales for people who weigh the pour at home. Gear is how a kitchen joins the same argument as a competition table. You do not need a new floor to weigh the water.",
-    "A roastery expands. A cupping table goes home. The fourth wave is not the new floor. It is whether Brooklyn, Pittsburgh, and East Java are still in the same sentence."
+    "Variety Coffee Roasters opened its tenth cafe in Greenpoint, back where the company started. Nearly twenty years. Queens. Manhattan. Still independent. No outside investor. Sprudge walked the new room, and posted this week's Roaster's Village list besides.",
+    "On Sunday, September 6, 2026, we hold that room to one pressure: what still turns when you unplug the machine, and who still owns the key.",
+    "Ibrahim H. Al Mallouhi left a vice president's chair in telecom to chase a smell he first met as a boy in an old house near the port, his grandmother roasting on the floor. He wants to be remembered for serving the best coffee the world produces. Not the biggest title. He found specialty coffee in a New York cafe called Fika. Then he built The Espresso Lab. The fourth wave is that arc: origin in the hand, then a shop that can hold it.",
+    "Barista Hustle asks if World Brewers Cup scoring for taste descriptors is inflating brew ratios — more water, more theater. The spent puck is still being asked to become compost, board, filter. A leftover is a fact. A score is a fashion.",
+    "Mark Prince put cordless espresso grinders on the bench. USB-C will jump a diesel in winter. It will not, yet, hold torque through a dense light roast at 300 microns. A screwdriver on a Kingrinder stalls. Hand grinding 18.5 grams took 45 seconds. The motor took longer, then the shot choked on fines. The arm is still the flywheel.",
+    "A tenth cafe without a fund. A grandmother's pan. A crank that does not sag. The fourth wave is not a new battery. It is whether Greenpoint and the port house are still in the same sentence."
   ]
 };
 window.EDITORIAL.body = window.EDITORIAL.paragraphs.join("\n\n");
