@@ -577,26 +577,33 @@
       } catch (e) {
         return items;
       }
+      if (doc.querySelector("parsererror")) return items;
       var nodes = doc.querySelectorAll("item, entry");
       nodes.forEach(function (node) {
         var title = (node.querySelector("title") && node.querySelector("title").textContent) || "";
-        var linkEl = node.querySelector("link");
         var link = "";
-        if (linkEl) {
-          link = linkEl.getAttribute("href") || linkEl.textContent || "";
+        var linkNodes = node.querySelectorAll("link");
+        for (var li = 0; li < linkNodes.length; li++) {
+          var linkEl = linkNodes[li];
+          var rel = (linkEl.getAttribute("rel") || "").toLowerCase();
+          var href = (linkEl.getAttribute("href") || linkEl.textContent || "").trim();
+          if (!href) continue;
+          if (rel === "alternate" || !rel || rel === "self") {
+            if (rel === "alternate" || !link) link = href;
+          }
         }
         var guid = node.querySelector("guid");
-        if (!link && guid) link = guid.textContent || "";
+        if (!link && guid) link = (guid.textContent || "").trim();
         var descEl = node.querySelector("description, summary, content");
         var desc = descEl ? descEl.textContent : "";
         var dateEl = node.querySelector("pubDate, published, updated");
         var dateRaw = dateEl ? dateEl.textContent : "";
         var img = "";
-        var enc = node.querySelector("enclosure, content");
+        var enc = node.querySelector("enclosure");
         if (enc && enc.getAttribute("url") && /image/i.test(enc.getAttribute("type") || "image")) {
           img = enc.getAttribute("url");
         }
-        var media = node.getElementsByTagName("media:content")[0] || node.querySelector("content");
+        var media = node.getElementsByTagName("media:content")[0];
         if (!img && media && media.getAttribute("url")) img = media.getAttribute("url");
         var im = desc.match(/<img[^>]+src=["']([^"']+)/i);
         if (!img && im) img = im[1];
@@ -617,6 +624,75 @@
       return items;
     }
 
+    parseRssJson(json, source) {
+      var items = [];
+      var list = (json && json.items) || [];
+      for (var i = 0; i < list.length; i++) {
+        var it = list[i];
+        var title = String(it.title || "").trim();
+        var link = String(it.link || it.url || "").trim();
+        if (!title || link.indexOf("http") !== 0) continue;
+        var ts = Date.parse(it.pubDate || it.published || "") || 0;
+        var img = "";
+        if (it.thumbnail) img = it.thumbnail;
+        if (!img && it.enclosure && it.enclosure.link) img = it.enclosure.link;
+        items.push({
+          title: title,
+          source: source,
+          sourceUrl: link.split("?")[0],
+          summary: String(it.description || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 280),
+          image: img,
+          publishedAt: ts ? new Date(ts).toISOString() : "",
+          _ts: ts,
+        });
+      }
+      return items;
+    }
+
+    async fetchFeed(url, source) {
+      var self = this;
+      var attempts = [
+        "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(url),
+        "https://corsproxy.io/?url=" + encodeURIComponent(url),
+        "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
+      ];
+      var lastErr = null;
+      for (var i = 0; i < attempts.length; i++) {
+        try {
+          var ctrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+          var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, 14000) : null;
+          var res = await fetch(attempts[i], {
+            method: "GET",
+            credentials: "omit",
+            signal: ctrl ? ctrl.signal : undefined,
+            headers: { Accept: "application/json, application/rss+xml, application/xml, text/xml, */*" },
+          });
+          if (timer) clearTimeout(timer);
+          if (!res.ok) {
+            lastErr = new Error("HTTP " + res.status);
+            continue;
+          }
+          var text = await res.text();
+          var trimmed = text.replace(/^\uFEFF/, "").trim();
+          if (trimmed.charAt(0) === "{") {
+            var json = Http.parseJson(trimmed);
+            if (json && json.status === "ok" && json.items) {
+              return self.parseRssJson(json, source);
+            }
+            if (json && json.items && json.items.length) {
+              return self.parseRssJson(json, source);
+            }
+          }
+          var parsed = self.parseRss(trimmed, source);
+          if (parsed.length) return parsed;
+          lastErr = new Error("empty feed");
+        } catch (err) {
+          lastErr = err;
+        }
+      }
+      throw lastErr || new Error("fetch failed");
+    }
+
     async scanSignals() {
       var btn = document.getElementById("sigScanBtn");
       var meta = document.getElementById("sigScanMeta");
@@ -625,13 +701,16 @@
       if (meta) meta.textContent = "Scanning…";
       var src;
       try {
-        var res = await fetch("data/sources.json", { credentials: "same-origin" });
+        var res = await fetch("data/sources.json?v=" + Date.now(), { credentials: "same-origin" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
         src = await res.json();
       } catch (e) {
         if (btn) btn.classList.remove("ld");
         this.toast("Could not load data/sources.json", "error");
+        this.log("err", "sources.json: " + (e.message || e));
         return;
       }
+      try {
       var skip = ["shipping update", "check your email", "sponsored"];
       var cats = src.categories || {};
       var pick = src.pickCount || 2;
@@ -648,11 +727,11 @@
         for (var f = 0; f < feeds.length; f++) {
           var feed = feeds[f];
           try {
-            var got = await Http.get(feed.url);
-            var parsed = this.parseRss(got.text, feed.name);
+            var parsed = await this.fetchFeed(feed.url, feed.name);
             pool = pool.concat(parsed);
             logN += parsed.length;
             this.log("ok", feed.name + ": " + parsed.length + " items");
+            if (meta) meta.textContent = "Scanning " + feed.name + "…";
           } catch (err) {
             this.log("err", feed.name + " failed: " + (err.message || err));
           }
@@ -689,10 +768,19 @@
       this.renderSignals();
       this.renderEditorialPreview();
       if (btn) btn.classList.remove("ld");
-      var msg = items.length + " beats from " + logN + " feed items";
+      var msg = items.length
+        ? items.length + " beats from " + logN + " feed items"
+        : "Scan finished with 0 items — feeds blocked or empty";
       if (meta) meta.textContent = msg;
-      this.toast(msg, "success");
-      this.log("ok", "Signal scan: " + msg);
+      this.toast(msg, items.length ? "success" : "error");
+      this.log(items.length ? "ok" : "err", "Signal scan: " + msg);
+      } catch (err) {
+        this.toast("Scan failed: " + (err.message || err), "error");
+        this.log("err", "Scan failed: " + (err.message || err));
+        if (meta) meta.textContent = "Scan failed";
+      } finally {
+        if (btn) btn.classList.remove("ld");
+      }
     }
 
     collectSignals() {

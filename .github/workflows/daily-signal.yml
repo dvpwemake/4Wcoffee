@@ -2,7 +2,7 @@ name: Daily signal scan
 
 on:
   schedule:
-    # 9:05 AM America/New_York — EDT is 13:00 UTC, EST is 14:00 UTC
+    # 9:05 AM America/New_York (EDT = 13:05 UTC, EST = 14:05 UTC)
     - cron: "5 13 * * *"
     - cron: "5 14 * * *"
   workflow_dispatch:
@@ -17,12 +17,16 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run only at 9 AM New York
+      - name: Run only at 9 AM New York (scheduled)
         id: gate
         run: |
           python3 - <<'PY'
@@ -31,24 +35,26 @@ jobs:
           import os
           now = datetime.now(ZoneInfo("America/New_York"))
           print("New York now:", now.isoformat())
+          skip = "0"
           if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and now.hour != 9:
               print("Not 9 AM New York — skip")
-              open(os.environ["GITHUB_OUTPUT"], "a").write("skip=1\n")
-          else:
-              open(os.environ["GITHUB_OUTPUT"], "a").write("skip=0\n")
+              skip = "1"
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write("skip=" + skip + "\n")
           PY
       - name: Crawl coffee feeds
         if: steps.gate.outputs.skip != '1'
         run: python3 scripts/crawl-signals.py --once-a-day
-      - name: Commit if changed
+      - name: Commit and push if changed
         if: steps.gate.outputs.skip != '1'
         run: |
-          git config user.name "4wave-bot"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/signals.json signals.data.js
           if git diff --cached --quiet; then
             echo "No signal changes"
             exit 0
           fi
-          git commit -m "Daily signal scan $(date -u +%Y-%m-%d) (9 AM New York)"
-          git push
+          git commit -m "Daily signal scan $(TZ=America/New_York date +%Y-%m-%d) (9 AM New York)"
+          git pull --rebase origin main || true
+          git push origin HEAD:main
