@@ -766,19 +766,19 @@
        feeds/videos.xml here). rss2json then 422/500. Bake all public
        episodes with local stills from image/as/. */
     static ARCHIVE = [
-      { id: "woV-3dTGK3U", title: "American Smile EP01 Angie's Smile, Englewood, NJ", still: "image/as/coffeecol-englewood.jpg" },
-      { id: "7jFu2r12p0g", title: "American Smile_EP02: Philadelphia", still: "image/as/habitat-philadelphia.jpg" },
-      { id: "iL9KkI0odEg", title: "American Smile: EP03_Oldest Coffee House in Washington D.C.", still: "image/as/oldest-coffeehouse-dc.jpg" },
-      { id: "m8HswqYO4Gc", title: "American Smile: EP04_Ladysmith", still: "image/as/common-grounds-ladysmith.jpg" },
-      { id: "QAInT9A7nxo", title: "American Smile EP05 Qahwah House", still: "image/as/EP05.jpg" },
-      { id: "RAMqA-NjROg", title: "American Smile EP06 Portrait Coffee @ Atlanta", still: "image/as/portrait-atlanta.jpg" },
-      { id: "TSjMrMgM1lU", title: "American Smile_EP07: Native Coffee", still: "image/as/matt-native-jackson.jpg" },
-      { id: "e1fuVW0DoiE", title: "American Smile EP08 Polite Coffee @College Station, TX", still: "image/as/steve-polite-college-station.jpg" },
-      { id: "djG8nGCywm8", title: "American Smile_EP09: Ivy Coffee @ Fort Worth, TX", still: "image/as/colin-ivy-fort-worth.jpg" },
-      { id: "EqU8LIxX7YA", title: "American Smile EP10 June Coffee", still: "image/as/june-coffee-birmingham-wide.jpg" },
-      { id: "z-PZydSwG9A", title: "American Smile_EP11: Haraz Coffee @ College Station, TX", still: "image/as/steve-haraz-college-station.jpg" },
-      { id: "KoXaH2Nh00Q", title: "American Smile_EP12: Mayan Winds Coffee Emporium", still: "image/as/mano-mayan-wind-flagstaff.jpg" },
-      { id: "8mRZFoWMInc", title: "American Smile_EP13: Palace Coffee", still: "image/as/palace-owner-amarillo.jpg" },
+      { id: "woV-3dTGK3U", title: "American Smile EP01 Angie's Smile, Englewood, NJ", still: "image/as/cover/coffeecol-englewood" },
+      { id: "7jFu2r12p0g", title: "American Smile_EP02: Philadelphia", still: "image/as/cover/habitat-philadelphia" },
+      { id: "iL9KkI0odEg", title: "American Smile: EP03_Oldest Coffee House in Washington D.C.", still: "image/as/cover/oldest-coffeehouse-dc" },
+      { id: "m8HswqYO4Gc", title: "American Smile: EP04_Ladysmith", still: "image/as/cover/common-grounds-ladysmith" },
+      { id: "QAInT9A7nxo", title: "American Smile EP05 Qahwah House", still: "image/as/cover/EP05" },
+      { id: "RAMqA-NjROg", title: "American Smile EP06 Portrait Coffee @ Atlanta", still: "image/as/cover/portrait-atlanta" },
+      { id: "TSjMrMgM1lU", title: "American Smile_EP07: Native Coffee", still: "image/as/cover/matt-native-jackson" },
+      { id: "e1fuVW0DoiE", title: "American Smile EP08 Polite Coffee @College Station, TX", still: "image/as/cover/steve-polite-college-station" },
+      { id: "djG8nGCywm8", title: "American Smile_EP09: Ivy Coffee @ Fort Worth, TX", still: "image/as/cover/colin-ivy-fort-worth" },
+      { id: "EqU8LIxX7YA", title: "American Smile EP10 June Coffee", still: "image/as/cover/june-coffee-birmingham-wide" },
+      { id: "z-PZydSwG9A", title: "American Smile_EP11: Haraz Coffee @ College Station, TX", still: "image/as/cover/steve-haraz-college-station" },
+      { id: "KoXaH2Nh00Q", title: "American Smile_EP12: Mayan Winds Coffee Emporium", still: "image/as/cover/mano-mayan-wind-flagstaff" },
+      { id: "8mRZFoWMInc", title: "American Smile_EP13: Palace Coffee", still: "image/as/cover/palace-owner-amarillo" },
     ];
 
     static epNum(title) {
@@ -817,23 +817,32 @@
         return String(a.title).localeCompare(String(b.title));
       });
       grid.innerHTML = out
-        .map(function (it) {
+        .map(function (it, i) {
           const href = "https://www.youtube.com/watch?v=" + it.id;
-          const still = it.still || "";
+          const stem = String(it.still || "").replace(/\.(jpe?g|png|webp)$/i, "");
           const hq = AmericanSmileCovers.coverUrl(it.id, "hqdefault");
-          const src = still || hq;
+          const jpg = stem ? stem + ".jpg" : hq;
+          const webp = stem ? stem + ".webp" : "";
           const title = String(it.title || "American Smile").replace(/</g, "");
+          const eager = i < 3;
+          const img =
+            '<img src="' +
+            jpg +
+            '" alt="' +
+            title.replace(/"/g, "") +
+            '" width="960" height="540" decoding="async" ' +
+            (eager ? 'fetchpriority="high" loading="eager"' : 'loading="lazy"') +
+            ' data-fallback="' +
+            hq +
+            '" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">';
+          const pic = webp
+            ? '<picture><source type="image/webp" srcset="' + webp + '">' + img + "</picture>"
+            : img;
           return (
             '<a href="' +
             href +
             '" target="_blank" rel="noopener">' +
-            '<img src="' +
-            src +
-            '" alt="' +
-            title.replace(/"/g, "") +
-            '" data-fallback="' +
-            hq +
-            '" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">' +
+            pic +
             "<figcaption>" +
             title +
             "</figcaption></a>"
@@ -846,25 +855,6 @@
       const grid = document.getElementById("as-covers");
       if (!grid) return;
       AmericanSmileCovers.paint(grid, AmericanSmileCovers.ARCHIVE);
-      const feed =
-        "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(AmericanSmileCovers.RSS);
-      fetch(feed, { credentials: "omit" })
-        .then(function (res) {
-          if (!res.ok) throw new Error("HTTP " + res.status);
-          return res.json();
-        })
-        .then(function (data) {
-          const extra = ((data && data.items) || []).map(function (it) {
-            return {
-              id: AmericanSmileCovers.videoId(it),
-              title: it.title,
-            };
-          });
-          AmericanSmileCovers.paint(grid, extra.concat(AmericanSmileCovers.ARCHIVE));
-        })
-        .catch(function () {
-          /* keep archive stills */
-        });
     }
   }
 
