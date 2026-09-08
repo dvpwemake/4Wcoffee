@@ -762,11 +762,24 @@
     static RSS =
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCPwiRGVLgdrptJUKDP8m8ug";
 
-    /* YouTube RSS only returns recent uploads. Pin older episodes so EP01/EP02 stay. */
+    /* YouTube RSS only returns recent uploads. Pin older episodes so EP01/EP02 stay.
+       still: local frame so the grid is never blank if rss2json/YouTube fail. */
     static ARCHIVE = [
-      { id: "woV-3dTGK3U", title: "American Smile EP01 Angie's Smile, Englewood, NJ" },
-      { id: "7jFu2r12p0g", title: "American Smile_EP02: Philadelphia" },
-      { id: "m8HswqYO4Gc", title: "American Smile: EP04_Ladysmith" },
+      {
+        id: "woV-3dTGK3U",
+        title: "American Smile EP01 Angie's Smile, Englewood, NJ",
+        still: "image/as/coffeecol-englewood.jpg",
+      },
+      {
+        id: "7jFu2r12p0g",
+        title: "American Smile_EP02: Philadelphia",
+        still: "image/as/habitat-philadelphia.jpg",
+      },
+      {
+        id: "m8HswqYO4Gc",
+        title: "American Smile: EP04_Ladysmith",
+        still: "image/as/common-grounds-ladysmith.jpg",
+      },
     ];
 
     static epNum(title) {
@@ -787,10 +800,53 @@
       return "https://i.ytimg.com/vi/" + id + "/" + (kind || "hqdefault") + ".jpg";
     }
 
+    static paint(grid, list) {
+      const seen = {};
+      const out = [];
+      function add(it) {
+        const id = it.id;
+        if (!id || seen[id]) return;
+        seen[id] = true;
+        out.push(it);
+      }
+      (list || []).forEach(add);
+      AmericanSmileCovers.ARCHIVE.forEach(add);
+      out.sort(function (a, b) {
+        const na = AmericanSmileCovers.epNum(a.title);
+        const nb = AmericanSmileCovers.epNum(b.title);
+        if (na !== nb) return na - nb;
+        return String(a.title).localeCompare(String(b.title));
+      });
+      grid.innerHTML = out
+        .map(function (it) {
+          const href = "https://www.youtube.com/watch?v=" + it.id;
+          const still = it.still || "";
+          const hq = AmericanSmileCovers.coverUrl(it.id, "hqdefault");
+          const src = still || hq;
+          const title = String(it.title || "American Smile").replace(/</g, "");
+          return (
+            '<a href="' +
+            href +
+            '" target="_blank" rel="noopener">' +
+            '<img src="' +
+            src +
+            '" alt="' +
+            title.replace(/"/g, "") +
+            '" data-fallback="' +
+            hq +
+            '" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">' +
+            "<figcaption>" +
+            title +
+            "</figcaption></a>"
+          );
+        })
+        .join("");
+    }
+
     static mount() {
       const grid = document.getElementById("as-covers");
       if (!grid) return;
-      grid.innerHTML = "<p class=\"empty\">Loading YouTube covers…</p>";
+      AmericanSmileCovers.paint(grid, AmericanSmileCovers.ARCHIVE);
       const feed =
         "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(AmericanSmileCovers.RSS);
       fetch(feed, { credentials: "omit" })
@@ -799,55 +855,16 @@
           return res.json();
         })
         .then(function (data) {
-          const seen = {};
-          const list = [];
-          function add(id, title) {
-            if (!id || seen[id]) return;
-            seen[id] = true;
-            list.push({ id: id, title: title || "American Smile" });
-          }
-          ((data && data.items) || []).forEach(function (it) {
-            add(AmericanSmileCovers.videoId(it), it.title);
+          const extra = ((data && data.items) || []).map(function (it) {
+            return {
+              id: AmericanSmileCovers.videoId(it),
+              title: it.title,
+            };
           });
-          AmericanSmileCovers.ARCHIVE.forEach(function (it) {
-            add(it.id, it.title);
-          });
-          if (!list.length) throw new Error("empty");
-          list.sort(function (a, b) {
-            const na = AmericanSmileCovers.epNum(a.title);
-            const nb = AmericanSmileCovers.epNum(b.title);
-            if (na !== nb) return na - nb;
-            return String(a.title).localeCompare(String(b.title));
-          });
-          grid.innerHTML = list
-            .map(function (it) {
-              const href = "https://www.youtube.com/watch?v=" + it.id;
-              const hq = AmericanSmileCovers.coverUrl(it.id, "hqdefault");
-              const max = AmericanSmileCovers.coverUrl(it.id, "maxresdefault");
-              const title = String(it.title || "American Smile").replace(/</g, "");
-              return (
-                '<a href="' +
-                href +
-                '" target="_blank" rel="noopener">' +
-                '<img src="' +
-                max +
-                '" alt="' +
-                title.replace(/"/g, "") +
-                '" data-fallback="' +
-                hq +
-                '" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">' +
-                "<figcaption>" +
-                title +
-                "</figcaption></a>"
-              );
-            })
-            .join("");
+          AmericanSmileCovers.paint(grid, extra.concat(AmericanSmileCovers.ARCHIVE));
         })
         .catch(function () {
-          grid.innerHTML =
-            '<p class="empty">Could not load YouTube covers. <a href="' +
-            AmericanSmileCovers.CHANNEL +
-            '" target="_blank" rel="noopener">Watch on YouTube</a>.</p>';
+          /* keep archive stills */
         });
     }
   }
