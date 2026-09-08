@@ -7,6 +7,7 @@ Allow: /
 Disallow: /api/
 Disallow: /editor.html
 Disallow: /editor.js
+Disallow: /editorial.draft.js
 Disallow: /editor-auth.js
 Disallow: /vendors.json
 Disallow: /crawl.py

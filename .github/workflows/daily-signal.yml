@@ -2,9 +2,10 @@ name: Daily signal scan
 
 on:
   schedule:
-    # 9:05 AM America/New_York (EDT = 13:05 UTC, EST = 14:05 UTC)
-    - cron: "5 13 * * *"
-    - cron: "5 14 * * *"
+    # 8:15 AM America/Los_Angeles so the packet is on Pages by 9 AM Pacific
+    # PDT (UTC-7) = 15:15 UTC · PST (UTC-8) = 16:15 UTC
+    - cron: "15 15 * * *"
+    - cron: "15 16 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,23 +27,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run only at 9 AM New York (scheduled)
+      - name: Run only at 8 AM Pacific (scheduled)
         id: gate
         run: |
           python3 - <<'PY'
           from datetime import datetime
           from zoneinfo import ZoneInfo
           import os
-          now = datetime.now(ZoneInfo("America/New_York"))
-          print("New York now:", now.isoformat())
+          now = datetime.now(ZoneInfo("America/Los_Angeles"))
+          print("Pacific now:", now.isoformat())
           skip = "0"
-          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and now.hour != 9:
-              print("Not 9 AM New York — skip")
+          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and now.hour != 8:
+              print("Not 8 AM Pacific — skip")
               skip = "1"
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write("skip=" + skip + "\n")
           PY
-      - name: Crawl coffee feeds
+      - name: Crawl coffee feeds and write editorial draft
         if: steps.gate.outputs.skip != '1'
         run: python3 scripts/crawl-signals.py --once-a-day
       - name: Commit and push if changed
@@ -50,11 +51,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/signals.json signals.data.js
+          git add data/signals.json signals.data.js data/editorial-draft.json editorial.draft.js
           if git diff --cached --quiet; then
-            echo "No signal changes"
+            echo "No signal or draft changes"
             exit 0
           fi
-          git commit -m "Daily signal scan $(TZ=America/New_York date +%Y-%m-%d) (9 AM New York)"
+          git commit -m "Daily signal + editorial draft $(TZ=America/Los_Angeles date +%Y-%m-%d) (Pacific morning packet)"
           git pull --rebase origin main || true
           git push origin HEAD:main

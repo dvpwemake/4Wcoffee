@@ -221,10 +221,10 @@ def crawl(deleted: list | None = None) -> dict:
     return batch
 
 
-def ny_now():
+def pacific_now():
     try:
         from zoneinfo import ZoneInfo
-        return datetime.now(ZoneInfo("America/New_York"))
+        return datetime.now(ZoneInfo("America/Los_Angeles"))
     except Exception:
         return datetime.now(timezone.utc)
 
@@ -236,34 +236,97 @@ def already_scanned_today(path: Path) -> bool:
         prev = json.loads(path.read_text())
         raw = prev.get("scannedAt") or ""
         dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        today = pacific_now().date()
+        dt = dt.astimezone(timezone.utc)
         try:
             from zoneinfo import ZoneInfo
-            dt = dt.astimezone(ZoneInfo("America/New_York"))
-            today = ny_now().date()
+            dt = dt.astimezone(ZoneInfo("America/Los_Angeles"))
         except Exception:
-            today = datetime.now(timezone.utc).date()
-            dt = dt.astimezone(timezone.utc)
+            pass
         return dt.date() == today
     except Exception:
         return False
 
 
+def build_editorial_draft(batch: dict) -> dict:
+    """Desk packet for admin review. Not live. Public site still uses editorial.data.js."""
+    day = pacific_now()
+    items = batch.get("items") or []
+    first = items[0] if items else {}
+    second = items[1] if len(items) > 1 else {}
+    title = str(first.get("title") or "Daily beat").strip()
+    if len(title) > 72:
+        title = title[:69].rstrip() + "…"
+    dek_bits = []
+    if first.get("source"):
+        dek_bits.append(str(first["source"]))
+    if second.get("title"):
+        hook = str(second["title"]).strip()
+        dek_bits.append(hook[:70] + ("…" if len(hook) > 70 else ""))
+    dek = ". ".join(dek_bits) if dek_bits else "Morning coffee signals for the desk."
+    weekday = day.strftime("%A, %B ") + str(day.day) + day.strftime(", %Y")
+    paras = [
+        "DRAFT — not live. Rewrite before Publish. On "
+        + weekday
+        + ", the desk holds these beats.",
+    ]
+    for it in items:
+        summary = str(it.get("summary") or "").strip()
+        if len(summary) > 280:
+            summary = summary[:277].rstrip() + "…"
+        cat = it.get("categoryLabel") or it.get("category") or ""
+        line = f"{cat}: {it.get('title')} ({it.get('source')}). {summary}".strip()
+        paras.append(line)
+    paras.append("Edit title, dek, and body. Then Publish to Latest Beat.")
+    body = "\n\n".join(paras)
+    return {
+        "id": "ed_" + day.strftime("%Y-%m-%d"),
+        "publishDate": day.strftime("%Y-%m-%d"),
+        "status": "draft",
+        "title": title,
+        "dek": dek,
+        "heroImage": first.get("image") or "",
+        "heroCredit": first.get("source") or "",
+        "heroSource": first.get("source") or "",
+        "heroSourceUrl": first.get("sourceUrl") or "",
+        "authorName": "Dr. Wallace Lynch",
+        "authorTitle": "Editor in Chief",
+        "paragraphs": paras,
+        "body": body,
+        "wordCount": len(body.split()),
+        "fromScan": batch.get("scannedAt"),
+    }
+
+
+def write_editorial_draft(draft: dict) -> None:
+    path = ROOT / "data" / "editorial-draft.json"
+    path.write_text(json.dumps(draft, indent=2, ensure_ascii=False) + "\n")
+    js = (
+        "window.EDITORIAL_DRAFT = "
+        + json.dumps(draft, ensure_ascii=False)
+        + ";\n"
+    )
+    (ROOT / "editorial.draft.js").write_text(js)
+
+
 def main() -> None:
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--once-a-day", action="store_true", help="Skip if already scanned today in New York time")
+    ap.add_argument("--once-a-day", action="store_true", help="Skip if already scanned today in Pacific time")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
     out_json = ROOT / "data" / "signals.json"
     if args.once_a_day and not args.force and already_scanned_today(out_json):
-        print("already scanned today (America/New_York); skip")
+        print("already scanned today (America/Los_Angeles); skip")
         return
     batch = crawl(load_deleted(out_json))
     (ROOT / "data").mkdir(exist_ok=True)
     out_json.write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
     js = "window.SIGNALS = " + json.dumps(batch, ensure_ascii=False) + ";\n"
     (ROOT / "signals.data.js").write_text(js)
-    print("wrote", len(batch["items"]), "items")
+    draft = build_editorial_draft(batch)
+    write_editorial_draft(draft)
+    print("wrote", len(batch["items"]), "items; draft", draft["id"])
 
 
 if __name__ == "__main__":

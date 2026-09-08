@@ -201,11 +201,12 @@ textarea.fi{min-height:12rem;resize:vertical}
       <p class="side-note" id="edWords">—</p>
       <button class="btn btn-s" onclick="publishEditorial()" style="width:100%;margin-bottom:.4rem">Publish editorial</button>
       <button class="btn" onclick="exportEditorial()" style="width:100%">Download editorial.data.js</button>
-      <p class="side-note">Publish writes editorial.data.js to GitHub so the home page and Latest Beat update. Uses the PAT on Coffee items.</p>
+      <p class="side-note">Morning packet lands by 9 AM Pacific (scan at 8:15). Draft is not live until you Publish. Publish writes editorial.data.js. Uses the PAT on Coffee items.</p>
     </div>
   </aside>
   <main class="main">
     <h2 class="pt">Daily editorial</h2>
+    <p class="hint" id="edDraftBanner" hidden></p>
     <p class="hint">~280–320 words. Signed Dr. Wallace Lynch, Editor in Chief.</p>
     <div id="edSignalPreview" class="ed-preview">
       <h3 class="sec-t">Daily signal preview</h3>
@@ -230,6 +231,7 @@ textarea.fi{min-height:12rem;resize:vertical}
 <script src="catalog.data.js?v=20260907c"></script>
 <script src="signals.data.js"></script>
 <script src="editorial.data.js"></script>
+<script src="editorial.draft.js"></script>
 <script src="editor-auth.js"></script>
 <script src="editor.js"></script>
 </body>

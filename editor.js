@@ -854,7 +854,19 @@
     }
 
     fillEditorial() {
-      var ed = global.EDITORIAL || {};
+      var published = global.EDITORIAL || {};
+      var draft = global.EDITORIAL_DRAFT || {};
+      var usingDraft = draft.status === "draft" && draft.title;
+      var ed = usingDraft ? draft : published;
+      var banner = document.getElementById("edDraftBanner");
+      if (banner) {
+        banner.hidden = !usingDraft;
+        banner.textContent = usingDraft
+          ? "Morning draft (" +
+            (draft.publishDate || "") +
+            ") — not live. Edit, then Publish. Latest Beat still shows the last published piece."
+          : "";
+      }
       var t = document.getElementById("edTitle");
       var d = document.getElementById("edDek");
       var h = document.getElementById("edHero");
@@ -876,7 +888,7 @@
       if (!cards || !urls) return;
       var items = (global.SIGNALS && global.SIGNALS.items) || [];
       if (!items.length) {
-        cards.innerHTML = '<p class="empty">No daily signal yet. Run Scan feeds or wait for 9:00 AM New York.</p>';
+        cards.innerHTML = '<p class="empty">No daily signal yet. Run Scan feeds or wait for the 8:15 AM Pacific packet (ready by 9 AM Pacific).</p>';
         urls.innerHTML = "";
         return;
       }

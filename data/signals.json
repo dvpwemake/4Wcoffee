@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-07T04:51:01.495045+00:00",
+  "scannedAt": "2026-09-08T17:10:04.764386+00:00",
   "categories": {
     "industry": "Coffee Industry News & Trade Journals",
     "science": "Coffee Science & Technical",
@@ -8,23 +8,23 @@
   },
   "items": [
     {
-      "title": "Le Gusta La Cafeína, Dame Más Cafeína",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/le-gusta-la-cafeina-dame-mas-cafeina-1310725.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/night-swim-copy.jpg",
-      "publishedAt": "2026-09-06T12:00:04+00:00",
+      "title": "Radical Bean Wants to Rework the Coffee Model in Cincinnati",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/09/08/radical-bean-wants-to-rework-the-coffee-model-in-cincinnati/",
+      "summary": "Cincinnati worker-owned coffee shop Topia Coffee Cooperative has reemerged as Radical Bean Cooperative following an ownership transition and two-month closure, with new branding and a fresh focus on affordability and...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Radical-Bean-Cincinatti-Ohio-1-620x465.jpg",
+      "publishedAt": "2026-09-08T14:20:13+00:00",
       "id": "industry-1",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals"
     },
     {
-      "title": "Build-Outs Of Coffee: Variety Coffee Roasters In Brooklyn, NY",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/build-outs-of-coffee-variety-coffee-roasters-in-brooklyn-ny-1265757.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Variety Coffee Roasters in Brooklyn, New York.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/08/variety-coffee-1.jpg",
-      "publishedAt": "2026-09-04T14:00:09+00:00",
+      "title": "Design Details: Beachside Calm at Eventide Coffee in Chennai, India",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/09/08/design-details-beachside-calm-at-eventide-coffee-in-chennai-india/",
+      "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Eventide-Coffee-3-620x415.jpg",
+      "publishedAt": "2026-09-08T14:07:16+00:00",
       "id": "industry-2",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals"
@@ -99,23 +99,23 @@
   "byCategory": {
     "industry": [
       {
-        "title": "Le Gusta La Cafeína, Dame Más Cafeína",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/le-gusta-la-cafeina-dame-mas-cafeina-1310725.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/09/night-swim-copy.jpg",
-        "publishedAt": "2026-09-06T12:00:04+00:00",
+        "title": "Radical Bean Wants to Rework the Coffee Model in Cincinnati",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/09/08/radical-bean-wants-to-rework-the-coffee-model-in-cincinnati/",
+        "summary": "Cincinnati worker-owned coffee shop Topia Coffee Cooperative has reemerged as Radical Bean Cooperative following an ownership transition and two-month closure, with new branding and a fresh focus on affordability and...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Radical-Bean-Cincinatti-Ohio-1-620x465.jpg",
+        "publishedAt": "2026-09-08T14:20:13+00:00",
         "id": "industry-1",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals"
       },
       {
-        "title": "Build-Outs Of Coffee: Variety Coffee Roasters In Brooklyn, NY",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/build-outs-of-coffee-variety-coffee-roasters-in-brooklyn-ny-1265757.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Variety Coffee Roasters in Brooklyn, New York.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/08/variety-coffee-1.jpg",
-        "publishedAt": "2026-09-04T14:00:09+00:00",
+        "title": "Design Details: Beachside Calm at Eventide Coffee in Chennai, India",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/09/08/design-details-beachside-calm-at-eventide-coffee-in-chennai-india/",
+        "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Eventide-Coffee-3-620x415.jpg",
+        "publishedAt": "2026-09-08T14:07:16+00:00",
         "id": "industry-2",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals"
@@ -194,6 +194,7 @@
       }
     ]
   },
+  "deleted": [],
   "log": [
     {
       "ok": true,
@@ -202,9 +203,9 @@
       "url": "https://sprudge.com/feed"
     },
     {
-      "ok": false,
+      "ok": true,
       "source": "Daily Coffee News",
-      "error": "HTTP Error 403: Forbidden",
+      "n": 10,
       "url": "https://dailycoffeenews.com/feed"
     },
     {
@@ -270,7 +271,7 @@
     {
       "ok": false,
       "source": "Home-Barista",
-      "error": "HTTP Error 403: Forbidden",
+      "error": "HTTP Error 404: Not Found",
       "url": "https://www.home-barista.com/rss.xml"
     },
     {
