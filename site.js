@@ -762,24 +762,23 @@
     static RSS =
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCPwiRGVLgdrptJUKDP8m8ug";
 
-    /* YouTube RSS only returns recent uploads. Pin older episodes so EP01/EP02 stay.
-       still: local frame so the grid is never blank if rss2json/YouTube fail. */
+    /* YouTube Atom RSS for this channel 404s (YouTube no longer serves
+       feeds/videos.xml here). rss2json then 422/500. Bake all public
+       episodes with local stills from image/as/. */
     static ARCHIVE = [
-      {
-        id: "woV-3dTGK3U",
-        title: "American Smile EP01 Angie's Smile, Englewood, NJ",
-        still: "image/as/coffeecol-englewood.jpg",
-      },
-      {
-        id: "7jFu2r12p0g",
-        title: "American Smile_EP02: Philadelphia",
-        still: "image/as/habitat-philadelphia.jpg",
-      },
-      {
-        id: "m8HswqYO4Gc",
-        title: "American Smile: EP04_Ladysmith",
-        still: "image/as/common-grounds-ladysmith.jpg",
-      },
+      { id: "woV-3dTGK3U", title: "American Smile EP01 Angie's Smile, Englewood, NJ", still: "image/as/coffeecol-englewood.jpg" },
+      { id: "7jFu2r12p0g", title: "American Smile_EP02: Philadelphia", still: "image/as/habitat-philadelphia.jpg" },
+      { id: "iL9KkI0odEg", title: "American Smile: EP03_Oldest Coffee House in Washington D.C.", still: "image/as/oldest-coffeehouse-dc.jpg" },
+      { id: "m8HswqYO4Gc", title: "American Smile: EP04_Ladysmith", still: "image/as/common-grounds-ladysmith.jpg" },
+      { id: "QAInT9A7nxo", title: "American Smile EP05 Qahwah House", still: "image/as/EP05.jpg" },
+      { id: "RAMqA-NjROg", title: "American Smile EP06 Portrait Coffee @ Atlanta", still: "image/as/portrait-atlanta.jpg" },
+      { id: "TSjMrMgM1lU", title: "American Smile_EP07: Native Coffee", still: "image/as/matt-native-jackson.jpg" },
+      { id: "e1fuVW0DoiE", title: "American Smile EP08 Polite Coffee @College Station, TX", still: "image/as/steve-polite-college-station.jpg" },
+      { id: "djG8nGCywm8", title: "American Smile_EP09: Ivy Coffee @ Fort Worth, TX", still: "image/as/colin-ivy-fort-worth.jpg" },
+      { id: "EqU8LIxX7YA", title: "American Smile EP10 June Coffee", still: "image/as/june-coffee-birmingham-wide.jpg" },
+      { id: "z-PZydSwG9A", title: "American Smile_EP11: Haraz Coffee @ College Station, TX", still: "image/as/steve-haraz-college-station.jpg" },
+      { id: "KoXaH2Nh00Q", title: "American Smile_EP12: Mayan Winds Coffee Emporium", still: "image/as/mano-mayan-wind-flagstaff.jpg" },
+      { id: "8mRZFoWMInc", title: "American Smile_EP13: Palace Coffee", still: "image/as/palace-owner-amarillo.jpg" },
     ];
 
     static epNum(title) {
