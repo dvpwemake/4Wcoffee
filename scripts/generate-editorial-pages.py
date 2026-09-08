@@ -9,7 +9,8 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://fourthwavecoffee.org"
-CSS_V = "20260908a"
+CSS_V = "20260908b"
+FALLBACK_HERO = f"{SITE}/image/carosal/cafe-scene-6887.jpg"
 
 
 def esc(s: str) -> str:
@@ -25,6 +26,31 @@ def esc(s: str) -> str:
 def plain(s: str) -> str:
     t = re.sub(r"<[^>]+>", " ", str(s or ""))
     return re.sub(r"\s+", " ", t).strip()
+
+
+def display_date(iso: str) -> str:
+    raw = str(iso or "")[:10]
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})$", raw)
+    if not m:
+        return raw
+    months = (
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December",
+    )
+    return f"{months[int(m.group(2)) - 1]} {int(m.group(3))}, {m.group(1)}"
+
+
+def brand_head(pfx: str) -> str:
+    return (
+        f'  <link rel="icon" href="{pfx}image/favicon.svg" type="image/svg+xml">\n'
+        f'  <link rel="icon" href="{pfx}favicon.ico" sizes="any">\n'
+        f'  <link rel="apple-touch-icon" href="{pfx}image/apple-touch-icon.png">\n'
+        '  <meta name="theme-color" content="#181818">\n'
+        '  <meta name="color-scheme" content="dark">\n'
+        '  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">\n'
+        f'  <link rel="alternate" type="text/plain" href="{SITE}/llms.txt" title="LLM summary">\n'
+        f'  <link rel="manifest" href="{pfx}site.webmanifest">\n'
+    )
 
 
 def load_pack() -> dict:
@@ -108,6 +134,10 @@ def page_html(ed: dict, date: str) -> str:
                 "@type": "NewsMediaOrganization",
                 "name": "Fourth Wave Coffee",
                 "url": SITE + "/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": SITE + "/image/icon-512.png",
+                },
             },
             "mainEntityOfPage": {"@type": "WebPage", "@id": url},
             "image": [hero] if hero else None,
@@ -139,15 +169,18 @@ def page_html(ed: dict, date: str) -> str:
   <meta name="twitter:description" content="{esc(desc)}">
   <meta name="twitter:image" content="{esc(og)}">
   <script type="application/ld+json">{ld}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta property="og:image:alt" content="{esc(title)}">
+  <meta name="twitter:image:alt" content="{esc(title)}">
+  <meta property="og:locale" content="en_US">
+{brand_head('../')}  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../site.css?v={CSS_V}">
 </head>
 <body>
   <div data-nav></div>
-  <main class="wrap" style="padding:32px 0 64px">
-    <div class="ed-kicker">Daily editorial · {esc(date)}</div>
+  <main class="wrap ed-permalink">
+    <div class="ed-kicker">Daily editorial · {esc(display_date(date))}</div>
     <article class="ed-card">
       {hero_block}
       {credit_block}
@@ -156,7 +189,7 @@ def page_html(ed: dict, date: str) -> str:
         {f'<p class="ed-dek">{esc(dek)}</p>' if dek else ''}
         <div class="ed-byline-row">
           <p class="ed-byline">By {esc(author)}<span class="ed-role"> {esc(role)}</span></p>
-          <p class="ed-meta">Daily editorial · ~{wc} words</p>
+          <p class="ed-meta"><time datetime="{esc(date)}" itemprop="datePublished">{esc(display_date(date))}</time></p>
         </div>
         <div class="ed-prose">
 {prose}
@@ -189,15 +222,39 @@ def page_html(ed: dict, date: str) -> str:
 
 def index_html(by_date: dict[str, dict]) -> str:
     rows = []
-    for d in sorted(by_date.keys(), reverse=True):
+    items_ld = []
+    for i, d in enumerate(sorted(by_date.keys(), reverse=True), 1):
         ed = by_date[d]
         title = plain(ed.get("title") or "Editorial")
         dek = plain(ed.get("dek") or "")
+        hero = plain(ed.get("heroImage") or "") or FALLBACK_HERO
         rows.append(
-            f'<a href="{d}.html"><time datetime="{d}">{d}</time><strong>{esc(title)}</strong>'
+            f'<a class="ed-archive-card" href="{d}.html">'
+            f'<div class="n-img"><img src="{esc(hero)}" alt="" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>'
+            f'<div class="ed-archive-body"><time datetime="{d}">{esc(display_date(d))}</time>'
+            f"<strong>{esc(title)}</strong>"
             + (f"<span>{esc(dek)}</span>" if dek else "")
-            + "</a>"
+            + "</div></a>"
         )
+        items_ld.append(
+            {
+                "@type": "ListItem",
+                "position": i,
+                "url": f"{SITE}/e/{d}.html",
+                "name": title,
+            }
+        )
+    ld = json.dumps(
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Editorials",
+            "url": f"{SITE}/e/",
+            "isPartOf": {"@type": "WebSite", "name": "Fourth Wave Coffee", "url": SITE + "/"},
+            "mainEntity": {"@type": "ItemList", "itemListElement": items_ld},
+        },
+        ensure_ascii=False,
+    )
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -206,6 +263,14 @@ def index_html(by_date: dict[str, dict]) -> str:
   <title>Editorials | Fourth Wave Coffee</title>
   <meta name="description" content="Archive of Fourth Wave Coffee daily editorials.">
   <link rel="canonical" href="{SITE}/e/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fourth Wave Coffee">
+  <meta property="og:url" content="{SITE}/e/">
+  <meta property="og:title" content="Editorials | Fourth Wave Coffee">
+  <meta property="og:description" content="Archive of Fourth Wave Coffee daily editorials.">
+  <meta property="og:image" content="{FALLBACK_HERO}">
+  <meta name="twitter:card" content="summary_large_image">
+{brand_head('../')}  <script type="application/ld+json">{ld}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">

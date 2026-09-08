@@ -1,101 +1,173 @@
-# Fourth Wave Coffee
-# https://fourthwavecoffee.org/
+# Fourth Wave Coffee — https://fourthwavecoffee.org/
+# Public site; editor and private admin paths stay closed.
 # AI summary: https://fourthwavecoffee.org/llms.txt
 
 User-agent: *
 Allow: /
+Allow: /e/
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /image/
 Disallow: /api/
 Disallow: /editor.html
 Disallow: /editor.js
 Disallow: /editorial.draft.js
 Disallow: /editor-auth.js
 Disallow: /vendors.json
-Disallow: /crawl.py
-Disallow: /build_catalog.py
-Disallow: /catalog.json
-Disallow: /catalog.live.json
-Disallow: /data.json
-Disallow: /quote/
 Disallow: /data/
 Disallow: /scripts/
 
+# --- AI / answer-engine crawlers: welcome on public pages ---
 User-agent: GPTBot
 Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
 Disallow: /api/
+Disallow: /data/
 
 User-agent: ChatGPT-User
 Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
-Disallow: /api/
 
 User-agent: OAI-SearchBot
 Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
-
-User-agent: ClaudeBot
-Allow: /
-Disallow: /editor.html
-Disallow: /api/
-
-User-agent: Claude-Web
-Allow: /
-Disallow: /editor.html
-
-User-agent: anthropic-ai
-Allow: /
-Disallow: /editor.html
-
-User-agent: PerplexityBot
-Allow: /
-Disallow: /editor.html
-Disallow: /api/
 
 User-agent: Google-Extended
 Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: Google-CloudVertexBot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
 
 User-agent: Googlebot
 Allow: /
+Allow: /e/
 Disallow: /editor.html
 Disallow: /api/
 
+User-agent: Googlebot-Image
+Allow: /
+
 User-agent: Bingbot
 Allow: /
+Allow: /e/
 Disallow: /editor.html
 Disallow: /api/
 
 User-agent: Applebot
 Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
 
 User-agent: Applebot-Extended
 Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: Amazonbot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: anthropic-ai
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: Claude-Web
+Allow: /
+Allow: /e/
+Disallow: /editor.html
+
+User-agent: Claude-User
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: Claude-SearchBot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+Disallow: /api/
+
+User-agent: Perplexity-User
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: DuckAssistBot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
+Disallow: /editor.html
+
+User-agent: YouBot
+Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
 
 User-agent: CCBot
 Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
 Disallow: /api/
 
 User-agent: Meta-ExternalAgent
 Allow: /
+Allow: /e/
 Disallow: /editor.html
 
 User-agent: FacebookBot
 Allow: /
+Allow: /e/
 Disallow: /editor.html
 
 User-agent: cohere-ai
 Allow: /
+Allow: /e/
+Allow: /llms.txt
 Disallow: /editor.html
 
 User-agent: Diffbot
 Allow: /
+Allow: /e/
 Disallow: /editor.html
 
 User-agent: Bytespider
 Allow: /
+Allow: /e/
 Disallow: /editor.html
 
 Sitemap: https://fourthwavecoffee.org/sitemap.xml

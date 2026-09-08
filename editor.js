@@ -948,6 +948,28 @@
       return ed;
     }
 
+    displayDate(iso) {
+      var d = String(iso || "").slice(0, 10);
+      var m = d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if (!m) return d;
+      var months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December",
+      ];
+      return months[parseInt(m[2], 10) - 1] + " " + parseInt(m[3], 10) + ", " + m[1];
+    }
+
+    brandHead(pfx) {
+      pfx = pfx || "";
+      return (
+        '<link rel="icon" href="' + pfx + 'image/favicon.svg" type="image/svg+xml">' +
+        '<link rel="icon" href="' + pfx + 'favicon.ico" sizes="any">' +
+        '<link rel="apple-touch-icon" href="' + pfx + 'image/apple-touch-icon.png">' +
+        '<meta name="theme-color" content="#181818">' +
+        '<meta name="color-scheme" content="dark">'
+      );
+    }
+
     slimEditorial(ed) {
       return {
         id: ed.id,
@@ -1052,11 +1074,12 @@
         (hero
           ? '<meta property="og:image" content="' + this.esc(hero) + '">\n'
           : "") +
-        '<link rel="stylesheet" href="../site.css?v=20260908a">\n' +
+        this.brandHead("../") +
+        '<link rel="stylesheet" href="../site.css?v=20260908b">\n' +
         '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n' +
-        "</head>\n<body>\n<div data-nav></div>\n<main class=\"wrap\" style=\"padding:32px 0 64px\">\n" +
+        "</head>\n<body>\n<div data-nav></div>\n<main class=\"wrap ed-permalink\">\n" +
         '<div class="ed-kicker">Daily editorial · ' +
-        this.esc(date) +
+        this.esc(this.displayDate(date)) +
         "</div>\n<article class=\"ed-card\">" +
         heroBlock +
         creditBlock +
@@ -1068,9 +1091,11 @@
         this.esc(author) +
         '<span class="ed-role"> ' +
         this.esc(role) +
-        "</span></p><p class=\"ed-meta\">Daily editorial · ~" +
-        wc +
-        " words</p></div><div class=\"ed-prose\">" +
+        '</span></p><p class="ed-meta"><time datetime="' +
+        this.esc(date) +
+        '">' +
+        this.esc(this.displayDate(date)) +
+        "</time></p></div><div class=\"ed-prose\">" +
         prose +
         '</div><div class="ed-share-wrap"><span class="ed-share-label">Share</span><div class="ed-share">' +
         '<a class="ed-share-btn" href="https://twitter.com/intent/tweet?url=' +
@@ -1092,14 +1117,27 @@
         '<p class="ed-footer-links"><a href="../latestbeat.html#editorial">← Today’s desk</a>' +
         '<a href="../latestbeat.html">Latest Beat</a><a href="./">All editorials</a></p>' +
         "</div></article></main><footer data-footer></footer>" +
-        '<script src="../site.js?v=20260908a"></script>\n</body></html>\n'
+        '<script src="../site.js?v=20260908b"></script>\n</body></html>\n'
       );
     }
 
     archiveIndexHtml(ed, history) {
-      var rows = [{ date: ed.publishDate, title: ed.title, dek: ed.dek || "" }].concat(
+      var fallback = "../image/carosal/cafe-scene-6887.jpg";
+      var rows = [
+        {
+          date: ed.publishDate,
+          title: ed.title,
+          dek: ed.dek || "",
+          hero: ed.heroImage || "",
+        },
+      ].concat(
         (history || []).map(function (h) {
-          return { date: h.publishDate, title: h.title, dek: h.dek || "" };
+          return {
+            date: h.publishDate,
+            title: h.title,
+            dek: h.dek || "",
+            hero: h.heroImage || "",
+          };
         })
       );
       var seen = {};
@@ -1113,18 +1151,22 @@
       });
       var list = rows
         .map(function (r) {
+          var hero = r.hero || fallback;
           return (
-            '<a href="' +
+            '<a class="ed-archive-card" href="' +
             this.esc(r.date) +
-            '.html"><time datetime="' +
+            '.html"><div class="n-img"><img src="' +
+            this.esc(hero) +
+            '" alt="" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>' +
+            '<div class="ed-archive-body"><time datetime="' +
             this.esc(r.date) +
             '">' +
-            this.esc(r.date) +
+            this.esc(this.displayDate(r.date)) +
             "</time><strong>" +
             this.esc(r.title) +
             "</strong>" +
             (r.dek ? "<span>" + this.esc(r.dek) + "</span>" : "") +
-            "</a>"
+            "</div></a>"
           );
         }, this)
         .join("");
@@ -1132,14 +1174,15 @@
         "<!DOCTYPE html>\n<html lang=\"en\"><head><meta charset=\"utf-8\">" +
         '<meta name="viewport" content="width=device-width, initial-scale=1">' +
         "<title>Editorials | Fourth Wave Coffee</title>" +
-        '<link rel="stylesheet" href="../site.css?v=20260908a">' +
+        this.brandHead("../") +
+        '<link rel="stylesheet" href="../site.css?v=20260908b">' +
         '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">' +
         "</head><body><div data-nav></div>" +
         '<header class="page-hero wrap"><h1>Editorials.</h1><p>Daily desk archive. Newest first.</p></header>' +
         '<main class="wrap"><div class="ed-archive-list">' +
         list +
         "</div></main><footer data-footer></footer>" +
-        '<script src="../site.js?v=20260908a"></script></body></html>\n'
+        '<script src="../site.js?v=20260908b"></script></body></html>\n'
       );
     }
 

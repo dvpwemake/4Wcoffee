@@ -92,7 +92,56 @@
       );
     }
 
+    static injectBrandHead() {
+      if (document.querySelector('link[rel="icon"]')) return;
+      const pfx = SiteChrome.assetPrefix();
+      const links = [
+        { rel: "icon", type: "image/svg+xml", href: pfx + "image/favicon.svg" },
+        { rel: "icon", sizes: "any", href: pfx + "favicon.ico" },
+        { rel: "apple-touch-icon", href: pfx + "image/apple-touch-icon.png" },
+        { rel: "manifest", href: pfx + "site.webmanifest" },
+      ];
+      links.forEach(function (spec) {
+        const el = document.createElement("link");
+        Object.keys(spec).forEach(function (k) {
+          el.setAttribute(k, spec[k]);
+        });
+        document.head.appendChild(el);
+      });
+      if (!document.querySelector('meta[name="theme-color"]')) {
+        const meta = document.createElement("meta");
+        meta.setAttribute("name", "theme-color");
+        meta.setAttribute("content", "#181818");
+        document.head.appendChild(meta);
+      }
+    }
+
+    static injectOrgLd() {
+      if (document.querySelector("script[data-fw-org-ld]")) return;
+      const el = document.createElement("script");
+      el.type = "application/ld+json";
+      el.setAttribute("data-fw-org-ld", "1");
+      el.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "NewsMediaOrganization",
+        name: "Fourth Wave Coffee",
+        url: "https://fourthwavecoffee.org/",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://fourthwavecoffee.org/image/icon-512.png",
+        },
+        publishingPrinciples: "https://fourthwavecoffee.org/llms.txt",
+        sameAs: [
+          "https://www.youtube.com/@American_Smile",
+          "https://www.tiktok.com/@americansmile_editorial",
+        ],
+      });
+      document.head.appendChild(el);
+    }
+
     static mount() {
+      SiteChrome.injectBrandHead();
+      SiteChrome.injectOrgLd();
       const nav = document.querySelector("[data-nav]");
       const foot = document.querySelector("[data-footer]");
       if (nav) {

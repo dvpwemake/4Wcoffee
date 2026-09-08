@@ -54,6 +54,20 @@
     return m ? m[1] : "";
   }
 
+  function displayDate(raw) {
+    var d = dayKey(raw);
+    if (!d) return "";
+    var parts = d.split("-");
+    var months = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December",
+    ];
+    var mi = parseInt(parts[1], 10) - 1;
+    var day = parseInt(parts[2], 10);
+    if (mi < 0 || mi > 11 || !day) return d;
+    return months[mi] + " " + day + ", " + parts[0];
+  }
+
   function paragraphsFrom(ed) {
     if (!ed) return [];
     if (ed.paragraphs && ed.paragraphs.length) {
@@ -350,9 +364,10 @@
       }
       var authorName = plainText(piece.authorName || "Dr. Wallace Lynch");
       var authorTitle = plainText(piece.authorTitle || "Editor in Chief");
+      var shownDate = displayDate(pieceDate || archiveDate);
       var kicker = isArchive
-        ? "From the archive · " + esc(pieceDate || archiveDate)
-        : "Daily editorial · " + esc(pieceDate || "");
+        ? "From the archive · " + esc(shownDate || pieceDate || archiveDate)
+        : "Daily editorial · " + esc(shownDate || pieceDate || "");
       var permRel = permalinkPath(pieceDate);
       var pfx = prefix();
       var backLink = isArchive
@@ -360,8 +375,6 @@
           (liveDate ? " (" + esc(liveDate) + ")" : "") +
           "</a></p>"
         : "";
-      var words = piece.wordCount || paras.join(" ").split(/\s+/).filter(Boolean).length;
-      var metaLabel = isArchive ? "Archived editorial" : "Daily editorial";
       var share = Desk.shareHtml(piece);
       var homeLink = opts.home
         ? '<p class="ed-footer-links"><a class="btn btn-outline" href="' +
@@ -393,11 +406,11 @@
         '<span class="ed-role"> ' +
         esc(authorTitle) +
         "</span></p>" +
-        '<p class="ed-meta">' +
-        metaLabel +
-        " · ~" +
-        words +
-        " words</p>" +
+        '<p class="ed-meta"><time datetime="' +
+        esc(pieceDate || "") +
+        '" itemprop="datePublished">' +
+        esc(shownDate || pieceDate || "") +
+        "</time></p>" +
         "</div>" +
         backLink +
         '<div class="ed-prose" itemprop="articleBody">' +
@@ -497,6 +510,10 @@
           "@type": "NewsMediaOrganization",
           name: "Fourth Wave Coffee",
           url: SITE + "/",
+          logo: {
+            "@type": "ImageObject",
+            url: SITE + "/image/icon-512.png",
+          },
         },
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         image: ed.heroImage ? [ed.heroImage] : undefined,

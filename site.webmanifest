@@ -1,0 +1,28 @@
+{
+  "name": "Fourth Wave Coffee",
+  "short_name": "4Wave",
+  "description": "Independent American coffee culture. Daily editorial, Latest Beat, and bags from the roaster.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#181818",
+  "theme_color": "#181818",
+  "icons": [
+    {
+      "src": "/image/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/image/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/image/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
