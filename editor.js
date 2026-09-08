@@ -948,11 +948,198 @@
       return ed;
     }
 
-    editorialFile(ed) {
+    slimEditorial(ed) {
+      return {
+        id: ed.id,
+        publishDate: ed.publishDate,
+        status: ed.status || "published",
+        title: ed.title,
+        dek: ed.dek || "",
+        authorName: ed.authorName || "Dr. Wallace Lynch",
+        authorTitle: ed.authorTitle || "Editor in Chief",
+        heroImage: ed.heroImage || "",
+        heroCredit: ed.heroCredit || "",
+        heroSource: ed.heroSource || "",
+        heroSourceUrl: ed.heroSourceUrl || "",
+        wordCount: ed.wordCount || 0,
+        paragraphs: ed.paragraphs || [],
+      };
+    }
+
+    mergeHistory(ed) {
+      var hist = (global.EDITORIAL_HISTORY || []).slice();
+      var live = global.EDITORIAL;
+      if (
+        live &&
+        live.publishDate &&
+        live.publishDate !== ed.publishDate &&
+        (live.paragraphs || []).length
+      ) {
+        hist = hist.filter(function (h) {
+          return h.publishDate !== live.publishDate;
+        });
+        hist.unshift(this.slimEditorial(live));
+      }
+      hist = hist.filter(function (h) {
+        return h.publishDate !== ed.publishDate;
+      });
+      return hist.slice(0, 60);
+    }
+
+    editorialFile(ed, history) {
+      var pack = this.slimEditorial(ed);
+      pack.body = (ed.body || "").trim();
+      pack.status = "published";
       return (
         "window.EDITORIAL = " +
-        JSON.stringify(ed) +
+        JSON.stringify(pack) +
+        ";\nwindow.EDITORIAL_HISTORY = " +
+        JSON.stringify(history || []) +
         ";\nwindow.EDITORIAL.body = (window.EDITORIAL.paragraphs || []).join(\"\\n\\n\");\n"
+      );
+    }
+
+    permalinkHtml(ed) {
+      var date = ed.publishDate;
+      var title = ed.title || "Daily editorial";
+      var dek = ed.dek || "";
+      var author = ed.authorName || "Dr. Wallace Lynch";
+      var role = ed.authorTitle || "Editor in Chief";
+      var paras = ed.paragraphs || [];
+      var wc = ed.wordCount || 0;
+      var hero = ed.heroImage || "";
+      var credit = ed.heroCredit || ed.heroSource || "";
+      var url = "https://fourthwavecoffee.org/e/" + date + ".html";
+      var desc = dek || paras[0] || "Fourth Wave Coffee daily editorial";
+      var prose = paras
+        .map(function (p) {
+          return "<p>" + this.esc(p) + "</p>";
+        }, this)
+        .join("\n");
+      var shareT = encodeURIComponent(title + " — Fourth Wave Coffee");
+      var shareU = encodeURIComponent(url);
+      var shareB = encodeURIComponent(title + " — Fourth Wave Coffee\n\n" + url);
+      var heroBlock = hero
+        ? '<div class="ed-hero"><img src="' +
+          this.esc(hero) +
+          '" alt="" width="1280" height="720" fetchpriority="high" decoding="async" referrerpolicy="no-referrer"></div>'
+        : "";
+      var creditBlock = credit
+        ? '<p class="ed-credit">Photo: ' + this.esc(credit) + "</p>"
+        : "";
+      return (
+        "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n" +
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+        "<title>" +
+        this.esc(title) +
+        " | Fourth Wave Coffee</title>\n" +
+        '<meta name="description" content="' +
+        this.esc(desc) +
+        '">\n' +
+        '<link rel="canonical" href="' +
+        this.esc(url) +
+        '">\n' +
+        '<meta property="og:type" content="article">\n' +
+        '<meta property="og:url" content="' +
+        this.esc(url) +
+        '">\n' +
+        '<meta property="og:title" content="' +
+        this.esc(title) +
+        '">\n' +
+        '<meta property="og:description" content="' +
+        this.esc(desc) +
+        '">\n' +
+        (hero
+          ? '<meta property="og:image" content="' + this.esc(hero) + '">\n'
+          : "") +
+        '<link rel="stylesheet" href="../site.css?v=20260908a">\n' +
+        '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\n' +
+        "</head>\n<body>\n<div data-nav></div>\n<main class=\"wrap\" style=\"padding:32px 0 64px\">\n" +
+        '<div class="ed-kicker">Daily editorial · ' +
+        this.esc(date) +
+        "</div>\n<article class=\"ed-card\">" +
+        heroBlock +
+        creditBlock +
+        '<div class="ed-body"><h2>' +
+        this.esc(title) +
+        "</h2>" +
+        (dek ? '<p class="ed-dek">' + this.esc(dek) + "</p>" : "") +
+        '<div class="ed-byline-row"><p class="ed-byline">By ' +
+        this.esc(author) +
+        '<span class="ed-role"> ' +
+        this.esc(role) +
+        "</span></p><p class=\"ed-meta\">Daily editorial · ~" +
+        wc +
+        " words</p></div><div class=\"ed-prose\">" +
+        prose +
+        '</div><div class="ed-share-wrap"><span class="ed-share-label">Share</span><div class="ed-share">' +
+        '<a class="ed-share-btn" href="https://twitter.com/intent/tweet?url=' +
+        shareU +
+        "&text=" +
+        shareT +
+        '" target="_blank" rel="noopener">X</a>' +
+        '<a class="ed-share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=' +
+        shareU +
+        '" target="_blank" rel="noopener">in</a>' +
+        '<a class="ed-share-btn" href="mailto:?subject=' +
+        shareT +
+        "&body=" +
+        shareB +
+        '">Email</a>' +
+        '<button type="button" class="ed-share-btn" data-copy-share="' +
+        this.esc(url) +
+        '">Copy</button></div></div>' +
+        '<p class="ed-footer-links"><a href="../latestbeat.html#editorial">← Today’s desk</a>' +
+        '<a href="../latestbeat.html">Latest Beat</a><a href="./">All editorials</a></p>' +
+        "</div></article></main><footer data-footer></footer>" +
+        '<script src="../site.js?v=20260908a"></script>\n</body></html>\n'
+      );
+    }
+
+    archiveIndexHtml(ed, history) {
+      var rows = [{ date: ed.publishDate, title: ed.title, dek: ed.dek || "" }].concat(
+        (history || []).map(function (h) {
+          return { date: h.publishDate, title: h.title, dek: h.dek || "" };
+        })
+      );
+      var seen = {};
+      rows = rows.filter(function (r) {
+        if (!r.date || seen[r.date]) return false;
+        seen[r.date] = true;
+        return true;
+      });
+      rows.sort(function (a, b) {
+        return a.date < b.date ? 1 : -1;
+      });
+      var list = rows
+        .map(function (r) {
+          return (
+            '<a href="' +
+            this.esc(r.date) +
+            '.html"><time datetime="' +
+            this.esc(r.date) +
+            '">' +
+            this.esc(r.date) +
+            "</time><strong>" +
+            this.esc(r.title) +
+            "</strong>" +
+            (r.dek ? "<span>" + this.esc(r.dek) + "</span>" : "") +
+            "</a>"
+          );
+        }, this)
+        .join("");
+      return (
+        "<!DOCTYPE html>\n<html lang=\"en\"><head><meta charset=\"utf-8\">" +
+        '<meta name="viewport" content="width=device-width, initial-scale=1">' +
+        "<title>Editorials | Fourth Wave Coffee</title>" +
+        '<link rel="stylesheet" href="../site.css?v=20260908a">' +
+        '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">' +
+        "</head><body><div data-nav></div>" +
+        '<header class="page-hero wrap"><h1>Editorials.</h1><p>Daily desk archive. Newest first.</p></header>' +
+        '<main class="wrap"><div class="ed-archive-list">' +
+        list +
+        "</div></main><footer data-footer></footer>" +
+        '<script src="../site.js?v=20260908a"></script></body></html>\n'
       );
     }
 
@@ -962,16 +1149,28 @@
         this.toast("Title and body are required to publish.", "error");
         return;
       }
+      var history = this.mergeHistory(ed);
       global.EDITORIAL = ed;
+      global.EDITORIAL_HISTORY = history;
       this.toast("Publishing editorial…", "info");
       var ok = await this.putGithubFile(
         "editorial.data.js",
-        this.editorialFile(ed),
+        this.editorialFile(ed, history),
         "Publish editorial " + ed.publishDate + ": " + ed.title
       );
       if (!ok) return;
-      this.log("ok", "Published editorial.data.js — " + ed.title);
-      this.toast("Editorial published. Home and Latest Beat will update after Pages deploys.", "success");
+      await this.putGithubFile(
+        "e/" + ed.publishDate + ".html",
+        this.permalinkHtml(ed),
+        "Editorial permalink " + ed.publishDate
+      );
+      await this.putGithubFile(
+        "e/index.html",
+        this.archiveIndexHtml(ed, history),
+        "Editorial archive index " + ed.publishDate
+      );
+      this.log("ok", "Published editorial.data.js + e/" + ed.publishDate + ".html — " + ed.title);
+      this.toast("Editorial published. Home, Latest Beat, and permalink will update after Pages deploys.", "success");
     }
 
     renderVendors() {

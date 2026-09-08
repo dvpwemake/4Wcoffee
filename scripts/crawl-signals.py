@@ -298,6 +298,43 @@ def build_editorial_draft(batch: dict) -> dict:
     }
 
 
+ARCHIVE_MAX = 45
+
+
+def merge_archive(batch: dict) -> None:
+    """Append today's live batch to data/archive.json. Scan never writes editorial.data.js."""
+    path = ROOT / "data" / "archive.json"
+    prev = {"batches": []}
+    if path.exists():
+        try:
+            prev = json.loads(path.read_text())
+        except Exception:
+            prev = {"batches": []}
+    slim = []
+    for it in batch.get("items") or []:
+        slim.append(
+            {
+                "id": it.get("id"),
+                "title": it.get("title"),
+                "source": it.get("source"),
+                "sourceUrl": it.get("sourceUrl"),
+                "summary": it.get("summary"),
+                "image": it.get("image") or "",
+                "publishedAt": it.get("publishedAt"),
+                "category": it.get("category"),
+                "categoryLabel": it.get("categoryLabel"),
+            }
+        )
+    scanned = batch.get("scannedAt") or ""
+    batch_id = "auto_" + scanned.replace(":", "-")[:19]
+    entry = {"batchId": batch_id, "scannedAt": scanned, "items": slim}
+    batches = [b for b in (prev.get("batches") or []) if b.get("batchId") != batch_id]
+    batches.insert(0, entry)
+    path.write_text(
+        json.dumps({"batches": batches[:ARCHIVE_MAX]}, indent=2, ensure_ascii=False) + "\n"
+    )
+
+
 def write_editorial_draft(draft: dict) -> None:
     path = ROOT / "data" / "editorial-draft.json"
     path.write_text(json.dumps(draft, indent=2, ensure_ascii=False) + "\n")
@@ -324,6 +361,7 @@ def main() -> None:
     out_json.write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
     js = "window.SIGNALS = " + json.dumps(batch, ensure_ascii=False) + ";\n"
     (ROOT / "signals.data.js").write_text(js)
+    merge_archive(batch)
     draft = build_editorial_draft(batch)
     write_editorial_draft(draft)
     print("wrote", len(batch["items"]), "items; draft", draft["id"])

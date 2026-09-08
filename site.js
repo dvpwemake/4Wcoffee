@@ -20,8 +20,16 @@
       return path;
     }
 
+    static assetPrefix() {
+      const file = SiteChrome.currentFile();
+      const path = String(location.pathname || "").replace(/\\/g, "/");
+      if (path.indexOf("/e/") !== -1 || /^\d{4}-\d{2}-\d{2}\.html$/.test(file)) return "../";
+      return "";
+    }
+
     static navMarkup() {
       const current = SiteChrome.currentFile();
+      const pfx = SiteChrome.assetPrefix();
       const links = SiteChrome.pages()
         .map(function (page) {
           const active = page.href === current ? " is-active" : "";
@@ -29,6 +37,7 @@
             '<a class="' +
             active.trim() +
             '" href="' +
+            pfx +
             page.href +
             '">' +
             page.label +
@@ -38,7 +47,9 @@
         .join("");
       return (
         '<div class="wrap">' +
-        '<a class="logo" href="index.html" aria-label="Fourth Wave Coffee home">' +
+        '<a class="logo" href="' +
+        pfx +
+        'index.html" aria-label="Fourth Wave Coffee home">' +
         '<span class="logo__num" aria-hidden="true">4</span>' +
         '<span class="logo__stack">' +
         '<span class="logo__name">Fourth Wave</span>' +
@@ -57,15 +68,26 @@
 
     static footerMarkup() {
       const year = String(new Date().getFullYear());
+      const pfx = SiteChrome.assetPrefix();
       return (
         '<div class="wrap">' +
-        '<p class="foot-org"><span class="foot-accent">Fourth</span> Wave Coffee<span class="foot-accent"> · </span>San Diego, CA<span class="foot-accent"> · </span><a href="contact.html">Contact</a></p>' +
+        '<p class="foot-org"><span class="foot-accent">Fourth</span> Wave Coffee<span class="foot-accent"> · </span>San Diego, CA<span class="foot-accent"> · </span><a href="' +
+        pfx +
+        'contact.html">Contact</a></p>' +
         '<p class="foot-copy">&copy; 2020–' +
         year +
         ' <span class="foot-accent">Fourth</span>WaveCoffee.org. An AppChurch Global Foundation 501(c)(3) initiative. All rights reserved. ' +
-        '<a href="privacy.html">Privacy</a>' +
+        '<a href="' +
+        pfx +
+        'privacy.html">Privacy</a>' +
         '<span class="foot-accent" aria-hidden="true"> · </span>' +
-        '<a href="terms.html">Terms</a></p>' +
+        '<a href="' +
+        pfx +
+        'terms.html">Terms</a>' +
+        '<span class="foot-accent" aria-hidden="true"> · </span>' +
+        '<a href="' +
+        pfx +
+        'e/index.html">Editorials</a></p>' +
         "</div>"
       );
     }
@@ -398,8 +420,13 @@
 
     static mount() {
       const host = document.getElementById("home-editorial");
+      if (!host) return;
+      if (global.Desk && typeof global.Desk.mountHome === "function") {
+        global.Desk.mountHome();
+        return;
+      }
       const ed = global.EDITORIAL;
-      if (!host || !ed || !ed.title) return;
+      if (!ed || !ed.title) return;
       const paras = ed.paragraphs && ed.paragraphs.length
         ? ed.paragraphs
         : String(ed.body || "").split(/\n\n+/);
@@ -520,10 +547,11 @@
       const out = [];
       const ed = global.EDITORIAL;
       if (ed && ed.title) {
+        const date = String(ed.publishDate || "").slice(0, 10);
         out.push({
           title: ed.title,
           source: "Fourth Wave Coffee",
-          sourceUrl: "latestbeat.html#editorial",
+          sourceUrl: date ? "e/" + date + ".html" : "latestbeat.html#editorial",
           image: ed.heroImage || "",
           category: "editorial",
           categoryLabel: "Editorial",
@@ -614,6 +642,12 @@
   class EditorialShare {
     static CANONICAL = "https://fourthwavecoffee.org/latestbeat.html#editorial";
 
+    static urlFor(ed) {
+      const date = String((ed && (ed.publishDate || ed.publishedAt)) || "").slice(0, 10);
+      if (/^\d{4}-\d{2}-\d{2}$/.test(date)) return "https://fourthwavecoffee.org/e/" + date + ".html";
+      return EditorialShare.CANONICAL;
+    }
+
     static esc(s) {
       return String(s || "")
         .replace(/&/g, "&amp;")
@@ -658,7 +692,7 @@
 
     static html(ed) {
       const title = (ed && ed.title) || "Fourth Wave Coffee editorial";
-      const url = EditorialShare.CANONICAL;
+      const url = EditorialShare.urlFor(ed);
       const shareTitle = encodeURIComponent(title + " — Fourth Wave Coffee");
       const shareU = encodeURIComponent(url);
       const shareBody = encodeURIComponent(title + "\n\n" + url);
