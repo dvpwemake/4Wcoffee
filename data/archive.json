@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-09T20-37-18",
+      "scannedAt": "2026-09-09T20:37:18.103Z",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Design Details: Restrained Industrial Reuse at Contraband Coffee in Melbourne",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/09/09/design-details-restrained-industrial-reuse-at-contraband-coffee-in-melbourne/",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "image": "",
+          "publishedAt": "2026-09-09T21:05:30.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Anaerobic Natural Processing Lifts Quality Scores in China",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/09/09/anaerobic-natural-processing-lifts-quality-scores-in-china/",
+          "summary": "A new study from China adds more scientific credence to the idea that post-harvest processing can dramatically influence the characteristics and quality found in the cup. The study specifically focused...",
+          "image": "",
+          "publishedAt": "2026-09-09T21:01:39.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Sample Roesting",
+          "source": "Scott Rao",
+          "sourceUrl": "https://www.scottrao.com/blog/2026/8/7/sample-roesting",
+          "summary": "In this post, I’d like to dive into our sample roasting system at Prodigal. Why do we sample roast? If you want to cup samples before purchasing green coffee, you have two choices: ask suppliers for roasted samples, or roast samples yourself. Many suppliers are willing to send ro",
+          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1786270043611-3X0IXPK26P8SD009GOGO/Screenshot 2026-08-09 at 12.06.25 PM.png?format=1500w",
+          "publishedAt": "2026-08-09T22:59:33.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Crema is rubbish, 2026 edition",
+          "source": "Scott Rao",
+          "sourceUrl": "https://www.scottrao.com/blog/2026/6/7/crema-is-rubbish-2026-edition",
+          "summary": "In 2009, James Hoffmann famously stated “crema is rubbish.” His comments generated heaps of discussion for many years, but somehow, they didn’t have much lasting impact on how people serve or enjoy espresso. This happens often in coffee: an idea comes along that identifies how to",
+          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/748384db-a42d-4ea5-91cd-63a2c2f1fe58/Better+Vessel+with+shot+copy.jpg?format=1000w",
+          "publishedAt": "2026-06-07T14:04:34.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The Best Coffee &amp; Espresso Scales for Home-Baristas",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-digital-scales-for-coffee/",
+          "summary": "If you plan to experiment with pour over coffee and espresso, you need an accurate scale. Here are the top coffee scales. The post The Best Coffee &amp; Espresso Scales for Home-Baristas appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-08-10T23:42:00.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "The Best Cheap Coffee Grinders (That Still Make Great Coffee)",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-cheap-coffee-grinders/",
+          "summary": "Finally, the coffee world has some excellent grinder options at budget-friendly prices. The post The Best Cheap Coffee Grinders (That Still Make Great Coffee) appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-07-28T18:56:40.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Tow Jin",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/tow-jin/",
+          "summary": "For many people, becoming a barista is not a dream. It is simply a way to earn some extra pocket money. The pay is rarely high, the job is often seen as temporary, and for students it can feel like a practical stop before moving on to something more serious. That is why so many p",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/Two-jin-1024x524.jpg",
+          "publishedAt": "2026-06-29T15:59:21.000Z",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Ellen Fan",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/ellen-fan/",
+          "summary": "Most people spend years trying to build a stable life. A good job, a respected career, and something their parents can proudly tell their friends about. Ellen Fan had already found that life. Before becoming known as a coffee hunter, before founding Grand Cru Coffee, before trave",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/2925-origin-trip-1024x505.jpg",
+          "publishedAt": "2026-06-17T16:46:16.000Z",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-09T19-23-16",
       "scannedAt": "2026-09-09T19:23:16.643360+00:00",
       "items": [
