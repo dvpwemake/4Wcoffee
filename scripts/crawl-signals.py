@@ -205,10 +205,50 @@ def known_archive_urls() -> set[str]:
     return out
 
 
+def paged_url(url: str, page: int) -> str:
+    if page <= 1:
+        return url
+    low = url.lower()
+    if "paged=" in low or "/page/" in low:
+        return url
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}paged={page}"
+
+
+def fetch_feed_pages(url: str, name: str, pages: int = 3) -> list[dict]:
+    """Page 1 is the live feed. Extra pages pull unused older items from the same source."""
+    out: list[dict] = []
+    seen: set[str] = set()
+    for page in range(1, max(1, pages) + 1):
+        u = paged_url(url, page)
+        try:
+            got = parse_feed(fetch(u), name)
+        except Exception:
+            if page == 1:
+                raise
+            break
+        added = 0
+        for it in got:
+            k = url_key(it.get("sourceUrl") or "")
+            if not k or k in seen:
+                continue
+            seen.add(k)
+            out.append(it)
+            added += 1
+        if page == 1:
+            print(f"OK {name:24} {len(got):3}  {url}")
+        elif added:
+            print(f"OK {name:24} +{added:<2} older p{page}")
+        if not got or (page > 1 and added == 0):
+            break
+    return out
+
+
 def crawl(deleted: list | None = None) -> dict:
     deleted = deleted or []
     blacklist = SRC.get("blacklist") or []
     known = known_archive_urls()
+    extra_pages = int(SRC.get("olderPages", 3) or 3)
     picked = {}
     log = []
     for cat_id, cat in SRC["categories"].items():
@@ -223,17 +263,15 @@ def crawl(deleted: list | None = None) -> dict:
                 print(f"SKIP {name:22} blacklist  {url}")
                 continue
             try:
-                xml = fetch(url)
-                got = parse_feed(xml, name)
+                got = fetch_feed_pages(url, name, extra_pages)
                 pool.extend(got)
                 log.append({"ok": True, "source": name, "n": len(got), "url": url})
-                print(f"OK {name:24} {len(got):3}  {url}")
             except Exception as e:
                 log.append({"ok": False, "source": name, "error": str(e)[:160], "url": url})
                 print(f"FAIL {name:22} {e}")
         pool.sort(key=lambda x: x["_ts"], reverse=True)
         seen = set()
-        fresh, stale = [], []
+        unused = []
         skip = ("shipping update", "check your email", "sponsored")
         pick_n = SRC.get("pickCount", 2)
         for it in pool:
@@ -246,18 +284,17 @@ def crawl(deleted: list | None = None) -> dict:
                 continue
             if is_blacklisted(it, blacklist):
                 continue
+            if url_key(it.get("sourceUrl") or "") in known:
+                continue
             seen.add(key)
             item = {k: v for k, v in it.items() if k != "_ts"}
             item["category"] = cat_id
             item["categoryLabel"] = cat["label"]
-            if url_key(item.get("sourceUrl") or "") in known:
-                stale.append(item)
-            else:
-                fresh.append(item)
-            if len(fresh) >= pick_n:
+            unused.append(item)
+            if len(unused) >= pick_n:
                 break
         top = []
-        for item in fresh + stale:
+        for item in unused:
             if len(top) >= pick_n:
                 break
             item["id"] = f"{cat_id}-{len(top)+1}"

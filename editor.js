@@ -900,6 +900,40 @@
       throw lastErr || new Error("fetch failed");
     }
 
+    pagedUrl(url, page) {
+      if (page <= 1) return url;
+      var low = String(url || "").toLowerCase();
+      if (low.indexOf("paged=") !== -1 || low.indexOf("/page/") !== -1) return url;
+      return url + (url.indexOf("?") >= 0 ? "&" : "?") + "paged=" + page;
+    }
+
+    async fetchFeedPages(url, source, pages) {
+      pages = pages || 3;
+      var out = [];
+      var seen = {};
+      for (var page = 1; page <= pages; page++) {
+        var u = this.pagedUrl(url, page);
+        var got = [];
+        try {
+          got = await this.fetchFeed(u, source);
+        } catch (err) {
+          if (page === 1) throw err;
+          break;
+        }
+        var added = 0;
+        for (var i = 0; i < got.length; i++) {
+          var k = this.signalKey(got[i]);
+          if (!k || seen[k]) continue;
+          seen[k] = true;
+          out.push(got[i]);
+          added++;
+        }
+        if (page > 1 && added) this.log("ok", source + ": +" + added + " older p" + page);
+        if (!got.length || (page > 1 && !added)) break;
+      }
+      return out;
+    }
+
     async scanSignals() {
       var btn = document.getElementById("sigScanBtn");
       var meta = document.getElementById("sigScanMeta");
@@ -921,6 +955,7 @@
       var skip = ["shipping update", "check your email", "sponsored"];
       var cats = src.categories || {};
       var pick = src.pickCount || 2;
+      var olderPages = src.olderPages || 3;
       var byCategory = {};
       var labels = {};
       var logN = 0;
@@ -947,7 +982,7 @@
               this.log("inf", feed.name + " skipped (blacklist)");
               continue;
             }
-            var parsed = await this.fetchFeed(feed.url, feed.name);
+            var parsed = await this.fetchFeedPages(feed.url, feed.name, olderPages);
             pool = pool.concat(parsed);
             logN += parsed.length;
             this.log("ok", feed.name + ": " + parsed.length + " items");
@@ -961,7 +996,6 @@
         });
         var seen = {};
         var fresh = [];
-        var stale = [];
         var known = {};
         this.flattenArchive().forEach(function (it) {
           var k = this.signalKey(it);
@@ -979,14 +1013,14 @@
           } catch (e1) {
             /* keep */
           }
+          if (known[this.signalKey(it)]) continue;
           seen[key] = true;
           delete it._ts;
           it.category = catId;
           it.categoryLabel = cat.label;
-          if (known[this.signalKey(it)]) stale.push(it);
-          else fresh.push(it);
+          fresh.push(it);
         }
-        var top = fresh.concat(stale).slice(0, pick);
+        var top = fresh.slice(0, pick);
         top.forEach(function (it, n) {
           it.id = catId + "-" + (n + 1);
         });
