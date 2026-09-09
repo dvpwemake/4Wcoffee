@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-09T19:23:16.643360+00:00",
+  "scannedAt": "2026-09-09T20:37:18.103Z",
   "categories": {
     "industry": "Coffee Industry News & Trade Journals",
     "science": "Coffee Science & Technical",
@@ -8,319 +8,191 @@
   },
   "items": [
     {
-      "title": "Stumptown Coffee Roasters To Open Flagship LA Location In Historic Lincoln Heights Theatre",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/stumptown-coffee-roasters-to-open-flagship-la-location-in-historic-lincoln-heights-theatre-1327035.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Pioneering coffee roaster returns to Los Angeles proper, combining retail and training space within a thoughtfully restored historic venue.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
-      "publishedAt": "2026-09-09T16:09:04+00:00",
-      "id": "industry-1",
+      "title": "Design Details: Restrained Industrial Reuse at Contraband Coffee in Melbourne",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/09/09/design-details-restrained-industrial-reuse-at-contraband-coffee-in-melbourne/",
+      "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Contraband-Coffee-Melbourne-2.jpg",
+      "publishedAt": "2026-09-09T21:05:30.000Z",
       "category": "industry",
-      "categoryLabel": "Coffee Industry News & Trade Journals"
+      "categoryLabel": "Coffee Industry News & Trade Journals",
+      "id": "industry-1"
     },
     {
-      "title": "Rocket Espresso Presents Rocket X Audi",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/rocket-espresso-presents-rocket-x-audi-1326918.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A cooperation for exceptional coffee enjoyment.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/rocket-expressoxaudi3679.jpg",
-      "publishedAt": "2026-09-09T15:45:17+00:00",
-      "id": "industry-2",
+      "title": "Anaerobic Natural Processing Lifts Quality Scores in China",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/09/09/anaerobic-natural-processing-lifts-quality-scores-in-china/",
+      "summary": "A new study from China adds more scientific credence to the idea that post-harvest processing can dramatically influence the characteristics and quality found in the cup. The study specifically focused...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/07/coffee-cherries.jpg",
+      "publishedAt": "2026-09-09T21:01:39.000Z",
       "category": "industry",
-      "categoryLabel": "Coffee Industry News & Trade Journals"
+      "categoryLabel": "Coffee Industry News & Trade Journals",
+      "id": "industry-2"
     },
     {
-      "title": "Brew Ratio Bloat",
-      "source": "Barista Hustle",
-      "sourceUrl": "https://www.baristahustle.com/brew-ratio-bloat/",
-      "summary": "Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high... The post Brew Ratio Bloat appeared first on Barista Hustle .",
-      "image": "https://www.baristahustle.com/wp-content/uploads/2026/07/Brew-Ratio-Bloat-Header-03.jpg",
-      "publishedAt": "2026-07-25T12:07:02+00:00",
-      "id": "science-1",
+      "title": "Sample Roesting",
+      "source": "Scott Rao",
+      "sourceUrl": "https://www.scottrao.com/blog/2026/8/7/sample-roesting",
+      "summary": "In this post, I’d like to dive into our sample roasting system at Prodigal. Why do we sample roast? If you want to cup samples before purchasing green coffee, you have two choices: ask suppliers for roasted samples, or roast samples yourself. Many suppliers are willing to send ro",
+      "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1786270043611-3X0IXPK26P8SD009GOGO/Screenshot 2026-08-09 at 12.06.25 PM.png?format=1500w",
+      "publishedAt": "2026-08-09T22:59:33.000Z",
       "category": "science",
-      "categoryLabel": "Coffee Science & Technical"
+      "categoryLabel": "Coffee Science & Technical",
+      "id": "science-1"
     },
     {
-      "title": "The Spent Puck, Puck Filter",
-      "source": "Barista Hustle",
-      "sourceUrl": "https://www.baristahustle.com/the-spent-puck-puck-filter/",
-      "summary": "It’s hard to accept that coffee grinds are worthless once you switch off a shot. I mean, composters like them. You can make MDF out of them and chopping boards. You can even.... The post The Spent Puck, Puck Filter appeared first on Barista Hustle .",
-      "image": "https://www.baristahustle.com/wp-content/uploads/2026/05/PF-Stack-Merge-Header.jpg",
-      "publishedAt": "2026-05-10T07:55:24+00:00",
-      "id": "science-2",
+      "title": "Crema is rubbish, 2026 edition",
+      "source": "Scott Rao",
+      "sourceUrl": "https://www.scottrao.com/blog/2026/6/7/crema-is-rubbish-2026-edition",
+      "summary": "In 2009, James Hoffmann famously stated “crema is rubbish.” His comments generated heaps of discussion for many years, but somehow, they didn’t have much lasting impact on how people serve or enjoy espresso. This happens often in coffee: an idea comes along that identifies how to",
+      "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/748384db-a42d-4ea5-91cd-63a2c2f1fe58/Better+Vessel+with+shot+copy.jpg?format=1000w",
+      "publishedAt": "2026-06-07T14:04:34.000Z",
       "category": "science",
-      "categoryLabel": "Coffee Science & Technical"
+      "categoryLabel": "Coffee Science & Technical",
+      "id": "science-2"
     },
     {
-      "title": "The Cordless Espresso Grinder Conundrum: Why Torque is Hard",
-      "source": "CoffeeGeek",
-      "sourceUrl": "https://coffeegeek.com/opinions/coffee-at-the-moment/the-cordless-espresso-grinder-conundrum-why-torque-is-hard/",
-      "summary": "USB-C charged, cordless espresso grinders should exist. We test hacks and hardware to find out why sustained torque is still an unsolved problem. The post The Cordless Espresso Grinder Conundrum: Why Torque is Hard appeared first on CoffeeGeek .",
-      "image": "",
-      "publishedAt": "2026-09-06T09:57:25+00:00",
-      "id": "reviews-1",
+      "title": "The Best Coffee &amp; Espresso Scales for Home-Baristas",
+      "source": "Coffee Chronicler",
+      "sourceUrl": "https://coffeechronicler.com/best-digital-scales-for-coffee/",
+      "summary": "If you plan to experiment with pour over coffee and espresso, you need an accurate scale. Here are the top coffee scales. The post The Best Coffee &amp; Espresso Scales for Home-Baristas appeared first on The Coffee Chronicler .",
+      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/various-scales-and-coffee-makers.webp",
+      "publishedAt": "2026-08-10T23:42:00.000Z",
       "category": "reviews",
-      "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+      "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
+      "id": "reviews-1"
     },
     {
-      "title": "Kingrinder P2 Manual Coffee Grinder",
-      "source": "CoffeeGeek",
-      "sourceUrl": "https://coffeegeek.com/reviews/snapshot/kingrinder-p2-manual-grinder-budget-coffee-clarity-that-surprises/",
-      "summary": "Looking for a high-clarity grinder under $50? The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks. The post Kingrinder P2 Manual Coffee Grinder appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Kingrinder-P2-Handle-Out-1-800x533.jpg",
-      "publishedAt": "2026-08-10T23:00:00+00:00",
-      "id": "reviews-2",
+      "title": "The Best Cheap Coffee Grinders (That Still Make Great Coffee)",
+      "source": "Coffee Chronicler",
+      "sourceUrl": "https://coffeechronicler.com/best-cheap-coffee-grinders/",
+      "summary": "Finally, the coffee world has some excellent grinder options at budget-friendly prices. The post The Best Cheap Coffee Grinders (That Still Make Great Coffee) appeared first on The Coffee Chronicler .",
+      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/08/Manual-grinder-4.webp",
+      "publishedAt": "2026-07-28T18:56:40.000Z",
       "category": "reviews",
-      "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+      "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
+      "id": "reviews-2"
     },
     {
-      "title": "GCAG Indonesia 2026: From Cupping Tables Around the World, Back to Origin",
+      "title": "Tow Jin",
       "source": "Not a Barista",
-      "sourceUrl": "https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/",
-      "summary": "Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities. We did it. After months of planning, fundraising, packing coffee, dealing with international s",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/gcag.jpg",
-      "publishedAt": "2026-08-24T02:35:44+00:00",
-      "id": "origin-1",
+      "sourceUrl": "https://notabarista.org/tow-jin/",
+      "summary": "For many people, becoming a barista is not a dream. It is simply a way to earn some extra pocket money. The pay is rarely high, the job is often seen as temporary, and for students it can feel like a practical stop before moving on to something more serious. That is why so many p",
+      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/Two-jin-1024x524.jpg",
+      "publishedAt": "2026-06-29T15:59:21.000Z",
       "category": "origin",
-      "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+      "id": "origin-1"
     },
     {
-      "title": "Ibrahim H. Al Mallouhi",
+      "title": "Ellen Fan",
       "source": "Not a Barista",
-      "sourceUrl": "https://notabarista.org/ibrahim-h-al-mallouhi/",
-      "summary": "“I always want people to remember me after I pass away.” Many people speak about passion, growth, success, or community. Ibrahim H. Al Mallouhi speaks about legacy. He says it directly. He wants people to remember what he built, and more importantly, what he served. Not the riche",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/07/I-always-had-that-small-voice-inside-me-encouraging-me-to-dream-a-little-bigger-&#x1f31f;-hope-a-littl-1024x1024.jpg",
-      "publishedAt": "2026-07-06T17:01:56+00:00",
-      "id": "origin-2",
+      "sourceUrl": "https://notabarista.org/ellen-fan/",
+      "summary": "Most people spend years trying to build a stable life. A good job, a respected career, and something their parents can proudly tell their friends about. Ellen Fan had already found that life. Before becoming known as a coffee hunter, before founding Grand Cru Coffee, before trave",
+      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/2925-origin-trip-1024x505.jpg",
+      "publishedAt": "2026-06-17T16:46:16.000Z",
       "category": "origin",
-      "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+      "id": "origin-2"
     }
   ],
   "byCategory": {
     "industry": [
       {
-        "title": "Stumptown Coffee Roasters To Open Flagship LA Location In Historic Lincoln Heights Theatre",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/stumptown-coffee-roasters-to-open-flagship-la-location-in-historic-lincoln-heights-theatre-1327035.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Pioneering coffee roaster returns to Los Angeles proper, combining retail and training space within a thoughtfully restored historic venue.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
-        "publishedAt": "2026-09-09T16:09:04+00:00",
-        "id": "industry-1",
+        "title": "Design Details: Restrained Industrial Reuse at Contraband Coffee in Melbourne",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/09/09/design-details-restrained-industrial-reuse-at-contraband-coffee-in-melbourne/",
+        "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Contraband-Coffee-Melbourne-2.jpg",
+        "publishedAt": "2026-09-09T21:05:30.000Z",
         "category": "industry",
-        "categoryLabel": "Coffee Industry News & Trade Journals"
+        "categoryLabel": "Coffee Industry News & Trade Journals",
+        "id": "industry-1"
       },
       {
-        "title": "Rocket Espresso Presents Rocket X Audi",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/rocket-espresso-presents-rocket-x-audi-1326918.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A cooperation for exceptional coffee enjoyment.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/09/rocket-expressoxaudi3679.jpg",
-        "publishedAt": "2026-09-09T15:45:17+00:00",
-        "id": "industry-2",
+        "title": "Anaerobic Natural Processing Lifts Quality Scores in China",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/09/09/anaerobic-natural-processing-lifts-quality-scores-in-china/",
+        "summary": "A new study from China adds more scientific credence to the idea that post-harvest processing can dramatically influence the characteristics and quality found in the cup. The study specifically focused...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/07/coffee-cherries.jpg",
+        "publishedAt": "2026-09-09T21:01:39.000Z",
         "category": "industry",
-        "categoryLabel": "Coffee Industry News & Trade Journals"
+        "categoryLabel": "Coffee Industry News & Trade Journals",
+        "id": "industry-2"
       }
     ],
     "science": [
       {
-        "title": "Brew Ratio Bloat",
-        "source": "Barista Hustle",
-        "sourceUrl": "https://www.baristahustle.com/brew-ratio-bloat/",
-        "summary": "Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high... The post Brew Ratio Bloat appeared first on Barista Hustle .",
-        "image": "https://www.baristahustle.com/wp-content/uploads/2026/07/Brew-Ratio-Bloat-Header-03.jpg",
-        "publishedAt": "2026-07-25T12:07:02+00:00",
-        "id": "science-1",
+        "title": "Sample Roesting",
+        "source": "Scott Rao",
+        "sourceUrl": "https://www.scottrao.com/blog/2026/8/7/sample-roesting",
+        "summary": "In this post, I’d like to dive into our sample roasting system at Prodigal. Why do we sample roast? If you want to cup samples before purchasing green coffee, you have two choices: ask suppliers for roasted samples, or roast samples yourself. Many suppliers are willing to send ro",
+        "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1786270043611-3X0IXPK26P8SD009GOGO/Screenshot 2026-08-09 at 12.06.25 PM.png?format=1500w",
+        "publishedAt": "2026-08-09T22:59:33.000Z",
         "category": "science",
-        "categoryLabel": "Coffee Science & Technical"
+        "categoryLabel": "Coffee Science & Technical",
+        "id": "science-1"
       },
       {
-        "title": "The Spent Puck, Puck Filter",
-        "source": "Barista Hustle",
-        "sourceUrl": "https://www.baristahustle.com/the-spent-puck-puck-filter/",
-        "summary": "It’s hard to accept that coffee grinds are worthless once you switch off a shot. I mean, composters like them. You can make MDF out of them and chopping boards. You can even.... The post The Spent Puck, Puck Filter appeared first on Barista Hustle .",
-        "image": "https://www.baristahustle.com/wp-content/uploads/2026/05/PF-Stack-Merge-Header.jpg",
-        "publishedAt": "2026-05-10T07:55:24+00:00",
-        "id": "science-2",
+        "title": "Crema is rubbish, 2026 edition",
+        "source": "Scott Rao",
+        "sourceUrl": "https://www.scottrao.com/blog/2026/6/7/crema-is-rubbish-2026-edition",
+        "summary": "In 2009, James Hoffmann famously stated “crema is rubbish.” His comments generated heaps of discussion for many years, but somehow, they didn’t have much lasting impact on how people serve or enjoy espresso. This happens often in coffee: an idea comes along that identifies how to",
+        "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/748384db-a42d-4ea5-91cd-63a2c2f1fe58/Better+Vessel+with+shot+copy.jpg?format=1000w",
+        "publishedAt": "2026-06-07T14:04:34.000Z",
         "category": "science",
-        "categoryLabel": "Coffee Science & Technical"
+        "categoryLabel": "Coffee Science & Technical",
+        "id": "science-2"
       }
     ],
     "reviews": [
       {
-        "title": "The Cordless Espresso Grinder Conundrum: Why Torque is Hard",
-        "source": "CoffeeGeek",
-        "sourceUrl": "https://coffeegeek.com/opinions/coffee-at-the-moment/the-cordless-espresso-grinder-conundrum-why-torque-is-hard/",
-        "summary": "USB-C charged, cordless espresso grinders should exist. We test hacks and hardware to find out why sustained torque is still an unsolved problem. The post The Cordless Espresso Grinder Conundrum: Why Torque is Hard appeared first on CoffeeGeek .",
-        "image": "",
-        "publishedAt": "2026-09-06T09:57:25+00:00",
-        "id": "reviews-1",
+        "title": "The Best Coffee &amp; Espresso Scales for Home-Baristas",
+        "source": "Coffee Chronicler",
+        "sourceUrl": "https://coffeechronicler.com/best-digital-scales-for-coffee/",
+        "summary": "If you plan to experiment with pour over coffee and espresso, you need an accurate scale. Here are the top coffee scales. The post The Best Coffee &amp; Espresso Scales for Home-Baristas appeared first on The Coffee Chronicler .",
+        "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/various-scales-and-coffee-makers.webp",
+        "publishedAt": "2026-08-10T23:42:00.000Z",
         "category": "reviews",
-        "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
+        "id": "reviews-1"
       },
       {
-        "title": "Kingrinder P2 Manual Coffee Grinder",
-        "source": "CoffeeGeek",
-        "sourceUrl": "https://coffeegeek.com/reviews/snapshot/kingrinder-p2-manual-grinder-budget-coffee-clarity-that-surprises/",
-        "summary": "Looking for a high-clarity grinder under $50? The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks. The post Kingrinder P2 Manual Coffee Grinder appeared first on CoffeeGeek .",
-        "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Kingrinder-P2-Handle-Out-1-800x533.jpg",
-        "publishedAt": "2026-08-10T23:00:00+00:00",
-        "id": "reviews-2",
+        "title": "The Best Cheap Coffee Grinders (That Still Make Great Coffee)",
+        "source": "Coffee Chronicler",
+        "sourceUrl": "https://coffeechronicler.com/best-cheap-coffee-grinders/",
+        "summary": "Finally, the coffee world has some excellent grinder options at budget-friendly prices. The post The Best Cheap Coffee Grinders (That Still Make Great Coffee) appeared first on The Coffee Chronicler .",
+        "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/08/Manual-grinder-4.webp",
+        "publishedAt": "2026-07-28T18:56:40.000Z",
         "category": "reviews",
-        "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
+        "id": "reviews-2"
       }
     ],
     "origin": [
       {
-        "title": "GCAG Indonesia 2026: From Cupping Tables Around the World, Back to Origin",
+        "title": "Tow Jin",
         "source": "Not a Barista",
-        "sourceUrl": "https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/",
-        "summary": "Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities. We did it. After months of planning, fundraising, packing coffee, dealing with international s",
-        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/gcag.jpg",
-        "publishedAt": "2026-08-24T02:35:44+00:00",
-        "id": "origin-1",
+        "sourceUrl": "https://notabarista.org/tow-jin/",
+        "summary": "For many people, becoming a barista is not a dream. It is simply a way to earn some extra pocket money. The pay is rarely high, the job is often seen as temporary, and for students it can feel like a practical stop before moving on to something more serious. That is why so many p",
+        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/Two-jin-1024x524.jpg",
+        "publishedAt": "2026-06-29T15:59:21.000Z",
         "category": "origin",
-        "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+        "id": "origin-1"
       },
       {
-        "title": "Ibrahim H. Al Mallouhi",
+        "title": "Ellen Fan",
         "source": "Not a Barista",
-        "sourceUrl": "https://notabarista.org/ibrahim-h-al-mallouhi/",
-        "summary": "“I always want people to remember me after I pass away.” Many people speak about passion, growth, success, or community. Ibrahim H. Al Mallouhi speaks about legacy. He says it directly. He wants people to remember what he built, and more importantly, what he served. Not the riche",
-        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/07/I-always-had-that-small-voice-inside-me-encouraging-me-to-dream-a-little-bigger-&#x1f31f;-hope-a-littl-1024x1024.jpg",
-        "publishedAt": "2026-07-06T17:01:56+00:00",
-        "id": "origin-2",
+        "sourceUrl": "https://notabarista.org/ellen-fan/",
+        "summary": "Most people spend years trying to build a stable life. A good job, a respected career, and something their parents can proudly tell their friends about. Ellen Fan had already found that life. Before becoming known as a coffee hunter, before founding Grand Cru Coffee, before trave",
+        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/2925-origin-trip-1024x505.jpg",
+        "publishedAt": "2026-06-17T16:46:16.000Z",
         "category": "origin",
-        "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+        "id": "origin-2"
       }
     ]
   },
-  "deleted": [],
-  "log": [
-    {
-      "ok": true,
-      "source": "Sprudge",
-      "n": 10,
-      "url": "https://sprudge.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Daily Coffee News",
-      "n": 10,
-      "url": "https://dailycoffeenews.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind",
-      "n": 10,
-      "url": "https://perfectdailygrind.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Roast Magazine",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://roastmagazine.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Standart",
-      "n": 11,
-      "url": "https://standartmag.com/blogs/journal.atom"
-    },
-    {
-      "ok": true,
-      "source": "Barista Hustle",
-      "n": 10,
-      "url": "https://www.baristahustle.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Ad Astra",
-      "n": 10,
-      "url": "https://coffeeadastra.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Scott Rao",
-      "n": 0,
-      "url": "https://www.scottrao.com/blog?format=rss"
-    },
-    {
-      "ok": false,
-      "source": "Jim Seven",
-      "error": "<urlopen error timed out>",
-      "url": "https://www.jimseven.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "World Coffee Research",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://worldcoffeeresearch.org/feed"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Review",
-      "n": 10,
-      "url": "https://www.coffeereview.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "CoffeeGeek",
-      "n": 10,
-      "url": "https://coffeegeek.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Home-Barista",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://www.home-barista.com/rss.xml"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Chronicler",
-      "n": 10,
-      "url": "https://coffeechronicler.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Espresso My Espresso",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://espressomyespresso.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "SCA News",
-      "error": "<urlopen error timed out>",
-      "url": "https://scanews.coffee/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Sweet Maria's",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://www.sweetmarias.com/blog/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind Origins",
-      "n": 10,
-      "url": "https://perfectdailygrind.com/category/origins/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Cafe Imports",
-      "n": 0,
-      "url": "https://cafeimports.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "European Coffee Trip",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://europeancoffeetrip.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Not a Barista",
-      "n": 10,
-      "url": "https://notabarista.org/feed/"
-    }
-  ]
+  "deleted": []
 }
