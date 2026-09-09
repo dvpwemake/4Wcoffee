@@ -592,12 +592,34 @@
       return pinned.concat(rest).slice(0, 18);
     }
 
+    static beatKey(it) {
+      const u = String((it && (it.sourceUrl || it.link)) || "")
+        .split("?")[0]
+        .replace(/\/+$/, "")
+        .toLowerCase()
+        .replace(/^https?:\/\/(www\.)?/, "");
+      if (u) return "u:" + u;
+      const img = String((it && it.image) || "").split("?")[0];
+      if (img) return "i:" + img;
+      return "t:" + String((it && it.title) || "").toLowerCase().replace(/\s+/g, " ").trim();
+    }
+
     static beats() {
       const out = [];
+      const seen = {};
+      function add(it) {
+        if (!it || !it.title) return;
+        const key = HomeStrips.beatKey(it);
+        if (!key || seen[key]) return;
+        seen[key] = true;
+        const img = String(it.image || "").split("?")[0];
+        if (img) seen["i:" + img] = true;
+        out.push(it);
+      }
       const ed = global.EDITORIAL;
       if (ed && ed.title) {
         const date = String(ed.publishDate || "").slice(0, 10);
-        out.push({
+        add({
           title: ed.title,
           source: "Fourth Wave Coffee",
           sourceUrl: date ? "e/" + date + ".html" : "latestbeat.html#editorial",
@@ -606,9 +628,7 @@
           categoryLabel: "Editorial",
         });
       }
-      ((global.SIGNALS && global.SIGNALS.items) || []).forEach(function (it) {
-        out.push(it);
-      });
+      ((global.SIGNALS && global.SIGNALS.items) || []).forEach(add);
       return out;
     }
 

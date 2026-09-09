@@ -495,16 +495,20 @@
 
     flattenArchive() {
       var out = [];
+      var seen = {};
       ((this.archive && this.archive.batches) || []).forEach(function (b) {
         (b.items || []).forEach(function (it) {
+          var key = this.signalKey(it);
+          if (!key || seen[key]) return;
+          seen[key] = true;
           out.push(
             Object.assign({}, it, {
               batchId: b.batchId,
               day: String(b.scannedAt || "").slice(0, 10),
             })
           );
-        });
-      });
+        }, this);
+      }, this);
       return out;
     }
 
@@ -956,8 +960,14 @@
           return (b._ts || 0) - (a._ts || 0);
         });
         var seen = {};
-        var top = [];
-        for (var i = 0; i < pool.length && top.length < pick; i++) {
+        var fresh = [];
+        var stale = [];
+        var known = {};
+        this.flattenArchive().forEach(function (it) {
+          var k = this.signalKey(it);
+          if (k) known[k] = true;
+        }, this);
+        for (var i = 0; i < pool.length && fresh.length < pick; i++) {
           var it = pool[i];
           var key = String(it.title || "").toLowerCase().slice(0, 80);
           if (seen[key]) continue;
@@ -971,11 +981,15 @@
           }
           seen[key] = true;
           delete it._ts;
-          it.id = catId + "-" + (top.length + 1);
           it.category = catId;
           it.categoryLabel = cat.label;
-          top.push(it);
+          if (known[this.signalKey(it)]) stale.push(it);
+          else fresh.push(it);
         }
+        var top = fresh.concat(stale).slice(0, pick);
+        top.forEach(function (it, n) {
+          it.id = catId + "-" + (n + 1);
+        });
         byCategory[catId] = top;
       }
       var items = [];

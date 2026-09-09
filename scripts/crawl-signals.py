@@ -184,9 +184,31 @@ def is_blocked(item: dict, deleted: list) -> bool:
     return False
 
 
+def url_key(url: str) -> str:
+    return str(url or "").split("?")[0].rstrip("/").lower()
+
+
+def known_archive_urls() -> set[str]:
+    path = ROOT / "data" / "archive.json"
+    out: set[str] = set()
+    if not path.exists():
+        return out
+    try:
+        prev = json.loads(path.read_text())
+    except Exception:
+        return out
+    for batch in prev.get("batches") or []:
+        for it in batch.get("items") or []:
+            k = url_key(it.get("sourceUrl") or "")
+            if k:
+                out.add(k)
+    return out
+
+
 def crawl(deleted: list | None = None) -> dict:
     deleted = deleted or []
     blacklist = SRC.get("blacklist") or []
+    known = known_archive_urls()
     picked = {}
     log = []
     for cat_id, cat in SRC["categories"].items():
@@ -211,8 +233,9 @@ def crawl(deleted: list | None = None) -> dict:
                 print(f"FAIL {name:22} {e}")
         pool.sort(key=lambda x: x["_ts"], reverse=True)
         seen = set()
-        top = []
+        fresh, stale = [], []
         skip = ("shipping update", "check your email", "sponsored")
+        pick_n = SRC.get("pickCount", 2)
         for it in pool:
             key = it["title"].lower()[:80]
             if key in seen:
@@ -225,13 +248,20 @@ def crawl(deleted: list | None = None) -> dict:
                 continue
             seen.add(key)
             item = {k: v for k, v in it.items() if k != "_ts"}
-            item["id"] = f"{cat_id}-{len(top)+1}"
             item["category"] = cat_id
             item["categoryLabel"] = cat["label"]
-            item = enrich_image(item)
-            top.append(item)
-            if len(top) >= SRC.get("pickCount", 2):
+            if url_key(item.get("sourceUrl") or "") in known:
+                stale.append(item)
+            else:
+                fresh.append(item)
+            if len(fresh) >= pick_n:
                 break
+        top = []
+        for item in fresh + stale:
+            if len(top) >= pick_n:
+                break
+            item["id"] = f"{cat_id}-{len(top)+1}"
+            top.append(enrich_image(item))
         picked[cat_id] = top
     batch = {
         "scannedAt": datetime.now(timezone.utc).isoformat(),

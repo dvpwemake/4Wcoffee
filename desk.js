@@ -104,6 +104,22 @@
     return p ? SITE + "/" + p : SITE + "/latestbeat.html#editorial";
   }
 
+  function itemKey(it) {
+    var u = String((it && (it.sourceUrl || it.link || it.url)) || "")
+      .split("?")[0]
+      .replace(/\/+$/, "")
+      .toLowerCase();
+    if (u) {
+      u = u.replace(/^https?:\/\/(www\.)?/, "");
+      return u;
+    }
+    var t = String((it && it.title) || "")
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .trim();
+    return t || String((it && it.id) || "");
+  }
+
   function proxyUrl(url) {
     if (!url || String(url).indexOf("image/") === 0) return "";
     if (!/^https?:\/\//i.test(url)) return "";
@@ -130,6 +146,7 @@
     shown: 0,
     cat: "all",
     archiveLoaded: false,
+    archiveLoading: false,
 
     initLatestBeat: function () {
       Desk.liveEditorial = hasEditorial(global.EDITORIAL) ? global.EDITORIAL : null;
@@ -169,8 +186,7 @@
       var seen = {};
       function add(it) {
         if (!it) return;
-        var url = String(it.sourceUrl || "").split("?")[0];
-        var key = url || String(it.id || it.title || "");
+        var key = itemKey(it);
         if (!key || seen[key]) return;
         seen[key] = true;
         out.push(it);
@@ -641,24 +657,27 @@
     },
 
     fetchArchive: function () {
-      if (Desk.archiveLoaded) return;
+      if (Desk.archiveLoaded || Desk.archiveLoading) return;
+      Desk.archiveLoading = true;
       fetch(prefix() + "data/archive.json", { cache: "no-cache" })
         .then(function (r) {
           return r.ok ? r.json() : null;
         })
         .then(function (pack) {
           Desk.archiveLoaded = true;
+          Desk.archiveLoading = false;
           if (!pack || !pack.batches) {
             Desk.drawGrid();
             return;
           }
           var seen = {};
           Desk.items.forEach(function (it) {
-            seen[String(it.sourceUrl || it.id || "")] = true;
+            var k = itemKey(it);
+            if (k) seen[k] = true;
           });
           pack.batches.forEach(function (b) {
             (b.items || []).forEach(function (it) {
-              var key = String(it.sourceUrl || it.id || "");
+              var key = itemKey(it);
               if (!key || seen[key]) return;
               seen[key] = true;
               Desk.items.push(it);
@@ -668,6 +687,7 @@
         })
         .catch(function () {
           Desk.archiveLoaded = true;
+          Desk.archiveLoading = false;
           Desk.drawGrid();
         });
     },
