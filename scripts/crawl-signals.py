@@ -157,6 +157,20 @@ def load_deleted(path: Path) -> list:
         return []
 
 
+def host_of(url: str) -> str:
+    from urllib.parse import urlparse
+    try:
+        return (urlparse(url).hostname or "").lower().replace("www.", "", 1)
+    except Exception:
+        return ""
+
+
+def is_blacklisted(item: dict, blacklist: list) -> bool:
+    host = host_of(item.get("sourceUrl") or "")
+    blocked = {(h or "").lower().replace("www.", "", 1) for h in (blacklist or []) if h}
+    return bool(host and host in blocked)
+
+
 def is_blocked(item: dict, deleted: list) -> bool:
     url = str(item.get("sourceUrl") or "").split("?")[0].rstrip("/").lower()
     title = str(item.get("title") or "").lower()[:80]
@@ -172,6 +186,7 @@ def is_blocked(item: dict, deleted: list) -> bool:
 
 def crawl(deleted: list | None = None) -> dict:
     deleted = deleted or []
+    blacklist = SRC.get("blacklist") or []
     picked = {}
     log = []
     for cat_id, cat in SRC["categories"].items():
@@ -179,6 +194,12 @@ def crawl(deleted: list | None = None) -> dict:
         for feed in cat["feeds"]:
             url = feed["url"]
             name = feed["name"]
+            if host_of(url) and host_of(url) in {
+                (h or "").lower().replace("www.", "", 1) for h in blacklist if h
+            }:
+                log.append({"ok": False, "source": name, "error": "blacklist", "url": url})
+                print(f"SKIP {name:22} blacklist  {url}")
+                continue
             try:
                 xml = fetch(url)
                 got = parse_feed(xml, name)
@@ -199,6 +220,8 @@ def crawl(deleted: list | None = None) -> dict:
             if any(s in key for s in skip):
                 continue
             if is_blocked(it, deleted):
+                continue
+            if is_blacklisted(it, blacklist):
                 continue
             seen.add(key)
             item = {k: v for k, v in it.items() if k != "_ts"}

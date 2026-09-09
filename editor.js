@@ -374,7 +374,9 @@
       this.renderVendors();
       this.bindPatField();
       this.bindTabs();
-      this.renderSignals();
+      this.archive = { batches: [] };
+      this.sources = null;
+      this.reloadNewsDesk();
       this.fillEditorial();
       this.log("inf", "Loaded " + this.products.length + " catalog items.");
     }
@@ -463,36 +465,143 @@
       img.src = url;
     }
 
+    catOptions(selected) {
+      var cats = {
+        industry: "Industry",
+        science: "Science",
+        reviews: "Reviews",
+        origin: "Origin",
+        editorial: "Editorial",
+      };
+      return Object.keys(cats)
+        .map(function (k) {
+          return (
+            '<option value="' +
+            k +
+            '"' +
+            (selected === k ? " selected" : "") +
+            ">" +
+            cats[k] +
+            "</option>"
+          );
+        })
+        .join("");
+    }
+
+    newsScope() {
+      var el = document.querySelector('input[name="newsScope"]:checked');
+      return el && el.value === "all" ? "all" : "today";
+    }
+
+    flattenArchive() {
+      var out = [];
+      ((this.archive && this.archive.batches) || []).forEach(function (b) {
+        (b.items || []).forEach(function (it) {
+          out.push(
+            Object.assign({}, it, {
+              batchId: b.batchId,
+              day: String(b.scannedAt || "").slice(0, 10),
+            })
+          );
+        });
+      });
+      return out;
+    }
+
+    collectNewsRows() {
+      var scope = this.newsScope();
+      var q = String((document.getElementById("newsDeskFilter") || {}).value || "")
+        .trim()
+        .toLowerCase();
+      var rows;
+      if (scope === "all") {
+        rows = this.flattenArchive();
+      } else {
+        rows = ((global.SIGNALS && global.SIGNALS.items) || []).map(function (it, i) {
+          return Object.assign({}, it, { _i: i, day: String((global.SIGNALS && global.SIGNALS.scannedAt) || "").slice(0, 10) });
+        });
+      }
+      var total = rows.length;
+      if (q) {
+        rows = rows.filter(function (r) {
+          return [r.title, r.source, r.category, r.categoryLabel, r.summary, r.day]
+            .join(" ")
+            .toLowerCase()
+            .indexOf(q) !== -1;
+        });
+      }
+      return { rows: rows, total: total, scope: scope, q: q };
+    }
+
     renderSignals() {
+      this.renderNewsDesk();
+    }
+
+    renderNewsDesk() {
       var host = document.getElementById("signalList");
+      var meta = document.getElementById("newsDeskMeta");
       if (!host) return;
-      var data = global.SIGNALS || { items: [] };
-      var items = data.items || [];
-      if (!items.length) {
-        host.innerHTML = '<p class="empty">No signals. Run scripts/crawl-signals.py.</p>';
+      var pack = this.collectNewsRows();
+      if (meta) {
+        if (!pack.total) {
+          meta.textContent =
+            pack.scope === "today"
+              ? "No selected beats for today · run Scan feeds."
+              : "No archive loaded · Reload archive.";
+        } else if (pack.q) {
+          meta.textContent = pack.rows.length + " shown of " + pack.total + " · filter on";
+        } else {
+          meta.textContent =
+            (pack.scope === "today" ? "Today · " : "All archive · ") + pack.total + " beat(s)";
+        }
+      }
+      if (!pack.rows.length) {
+        host.innerHTML =
+          '<div class="img-adj-empty">' +
+          (pack.total
+            ? "No matches for filter."
+            : pack.scope === "today"
+              ? "No selected beats for today. Click Scan feeds, then fix images or Delete."
+              : "No archive. Click Reload archive.") +
+          "</div>";
         return;
       }
       var self = this;
-      host.innerHTML = items
+      host.innerHTML = pack.rows
         .map(function (it, i) {
           var img = it.image || "";
+          var idx = it._i != null ? it._i : i;
           return (
-            '<div class="sig-row" data-i="' +
-            i +
-            '"><div><img class="sig-thumb" alt="" referrerpolicy="no-referrer"><p class="cover-st">Checking…</p></div><div>' +
-            '<span class="sec-t">' +
-            self.esc(it.categoryLabel || it.category) +
-            "</span><b>" +
-            self.esc(it.title) +
-            "</b><i>" +
-            self.esc(it.source) +
-            "</i>" +
-            '<label class="sec-t">Cover image URL</label>' +
+            '<div class="img-adj-row" data-i="' +
+            idx +
+            '" data-batch="' +
+            self.esc(it.batchId || "") +
+            '" data-id="' +
+            self.esc(it.id || "") +
+            '" role="listitem"><div><img class="sig-thumb" alt="" referrerpolicy="no-referrer"><p class="cover-st">Checking…</p></div><div>' +
+            '<label class="fl">Headline</label>' +
+            '<input class="fi sig-title" value="' +
+            self.esc(it.title || "") +
+            '">' +
+            '<p class="img-adj-sub">' +
+            self.esc(it.day || "—") +
+            " · " +
+            self.esc(it.source || "") +
+            "</p>" +
+            '<label class="fl">Summary</label>' +
+            '<textarea class="fi sig-sum" style="min-height:4.5rem">' +
+            self.esc(it.summary || "") +
+            "</textarea>" +
+            '<label class="fl">Category</label>' +
+            '<select class="fi sig-cat">' +
+            self.catOptions(it.category) +
+            "</select>" +
+            '<label class="fl">Cover image URL</label>' +
             '<input type="url" class="fi sig-img" value="' +
             self.esc(img) +
             '" placeholder="https://…">' +
             '<div class="sig-actions">' +
-            '<button type="button" class="btn btn-p" data-act="apply">Apply image</button>' +
+            '<button type="button" class="btn btn-p" data-act="apply">Apply</button>' +
             '<button type="button" class="btn" data-act="fetch">From article</button>' +
             '<button type="button" class="btn btn-del" data-act="delete">Delete</button>' +
             (it.sourceUrl
@@ -502,20 +611,22 @@
           );
         })
         .join("");
-      host.querySelectorAll(".sig-row").forEach(function (row) {
+      host.querySelectorAll(".img-adj-row").forEach(function (row) {
         var inp = row.querySelector(".sig-img");
         var thumb = row.querySelector(".sig-thumb");
-        self.confirmCover(thumb, inp.value.trim());
-        inp.addEventListener("input", function () {
-          self.confirmCover(thumb, inp.value.trim());
-        });
+        self.confirmCover(thumb, inp && inp.value.trim());
+        if (inp) {
+          inp.addEventListener("input", function () {
+            self.confirmCover(thumb, inp.value.trim());
+          });
+        }
       });
       if (!host.dataset.bound) {
         host.dataset.bound = "1";
         host.addEventListener("click", function (ev) {
           var btn = ev.target.closest("[data-act]");
           if (!btn) return;
-          var row = btn.closest(".sig-row");
+          var row = btn.closest(".img-adj-row");
           if (!row) return;
           var act = btn.getAttribute("data-act");
           if (act === "apply") self.applyCover(row);
@@ -555,44 +666,81 @@
       return by;
     }
 
-    deleteSignal(row) {
-      var i = parseInt(row.getAttribute("data-i"), 10);
+    rowItem(row) {
       var data = global.SIGNALS || { items: [] };
-      var it = data.items[i];
+      var batchId = row.getAttribute("data-batch") || "";
+      var id = row.getAttribute("data-id") || "";
+      if (this.newsScope() === "all" && batchId) {
+        var batch = ((this.archive && this.archive.batches) || []).find(function (b) {
+          return b.batchId === batchId;
+        });
+        if (!batch) return null;
+        return (batch.items || []).find(function (it) {
+          return String(it.id || "") === id;
+        });
+      }
+      var i = parseInt(row.getAttribute("data-i"), 10);
+      return data.items[i] || null;
+    }
+
+    writeRowFields(row, it) {
+      if (!it || !row) return;
+      var title = row.querySelector(".sig-title");
+      var sum = row.querySelector(".sig-sum");
+      var cat = row.querySelector(".sig-cat");
+      var img = row.querySelector(".sig-img");
+      if (title) it.title = title.value.trim();
+      if (sum) it.summary = sum.value.trim();
+      if (cat) {
+        it.category = cat.value;
+        var labels = (global.SIGNALS && global.SIGNALS.categories) || {};
+        it.categoryLabel = labels[it.category] || it.category;
+      }
+      if (img) it.image = img.value.trim();
+    }
+
+    deleteSignal(row) {
+      var it = this.rowItem(row);
       if (!it) return;
       if (!window.confirm("Remove this story from Latest Beat?\n\n" + (it.title || ""))) return;
+      var data = global.SIGNALS || { items: [] };
       if (!data.deleted) data.deleted = [];
       data.deleted.push({
         url: it.sourceUrl || "",
         title: it.title || "",
         deletedAt: new Date().toISOString(),
       });
-      data.items.splice(i, 1);
+      data.items = (data.items || []).filter(function (x) {
+        return x !== it && String(x.id || "") !== String(it.id || "");
+      });
       data.byCategory = this.rebuildByCategory(data.items);
       global.SIGNALS = data;
-      this.renderSignals();
+      if (this.archive && this.archive.batches) {
+        this.archive.batches.forEach(function (b) {
+          b.items = (b.items || []).filter(function (x) {
+            return String(x.id || "") !== String(it.id || "") && x.sourceUrl !== it.sourceUrl;
+          });
+        });
+      }
+      this.renderNewsDesk();
       this.renderEditorialPreview();
+      this.refreshEdHeroPicker();
       this.toast("Removed from Latest Beat list.", "success");
       this.log("ok", "Deleted signal: " + (it.title || ""));
       if (this.readPat()) this.publishSignals();
-      else this.toast("Deleted here. Paste a GitHub PAT on Coffee items, then Publish Latest Beat.", "info");
+      else this.toast("Deleted here. Paste a GitHub PAT, then Publish Latest Beat.", "info");
     }
 
     applyCover(row) {
-      var i = parseInt(row.getAttribute("data-i"), 10);
-      var inp = row.querySelector(".sig-img");
-      var url = inp ? inp.value.trim() : "";
-      var data = global.SIGNALS || { items: [] };
-      if (!data.items[i]) return;
-      data.items[i].image = url;
-      this.confirmCover(row.querySelector(".sig-thumb"), url);
-      this.toast("Cover URL saved", "success");
+      var it = this.rowItem(row);
+      if (!it) return;
+      this.writeRowFields(row, it);
+      this.confirmCover(row.querySelector(".sig-thumb"), it.image || "");
+      this.toast("Saved on this card.", "success");
     }
 
     async pullCover(row, btn) {
-      var i = parseInt(row.getAttribute("data-i"), 10);
-      var data = global.SIGNALS || { items: [] };
-      var it = data.items[i];
+      var it = this.rowItem(row);
       if (!it || !it.sourceUrl) {
         this.toast("No article URL on this item.", "error");
         return;
@@ -779,9 +927,22 @@
         labels[catId] = cat.label;
         var pool = [];
         var feeds = cat.feeds || [];
+        var blocked = (src.blacklist || (this.sources && this.sources.blacklist) || []).map(function (h) {
+          return String(h || "").toLowerCase().replace(/^www\./, "");
+        });
         for (var f = 0; f < feeds.length; f++) {
           var feed = feeds[f];
           try {
+            var host = "";
+            try {
+              host = new URL(feed.url).hostname.replace(/^www\./, "").toLowerCase();
+            } catch (e0) {
+              host = "";
+            }
+            if (host && blocked.indexOf(host) !== -1) {
+              this.log("inf", feed.name + " skipped (blacklist)");
+              continue;
+            }
             var parsed = await this.fetchFeed(feed.url, feed.name);
             pool = pool.concat(parsed);
             logN += parsed.length;
@@ -802,6 +963,12 @@
           if (seen[key]) continue;
           if (skip.some(function (s) { return key.indexOf(s) !== -1; })) continue;
           if (this.isBlocked(it, (global.SIGNALS && global.SIGNALS.deleted) || [])) continue;
+          try {
+            var ih = new URL(it.sourceUrl || "").hostname.replace(/^www\./, "").toLowerCase();
+            if (ih && blocked.indexOf(ih) !== -1) continue;
+          } catch (e1) {
+            /* keep */
+          }
           seen[key] = true;
           delete it._ts;
           it.id = catId + "-" + (top.length + 1);
@@ -822,8 +989,10 @@
         byCategory: byCategory,
         deleted: (global.SIGNALS && global.SIGNALS.deleted) || [],
       };
-      this.renderSignals();
+      this.mergeScanIntoArchive(global.SIGNALS);
+      this.renderNewsDesk();
       this.renderEditorialPreview();
+      this.refreshEdHeroPicker();
       if (btn) btn.classList.remove("ld");
       var msg = items.length
         ? items.length + " beats from " + logN + " feed items"
@@ -843,11 +1012,10 @@
     collectSignals() {
       var data = global.SIGNALS || { items: [], categories: {}, deleted: [] };
       if (!data.deleted) data.deleted = [];
-      var rows = document.querySelectorAll("#signalList .sig-row");
-      rows.forEach(function (row) {
-        var i = parseInt(row.getAttribute("data-i"), 10);
-        var inp = row.querySelector(".sig-img");
-        if (data.items[i] && inp) data.items[i].image = inp.value.trim();
+      var self = this;
+      document.querySelectorAll("#signalList .img-adj-row").forEach(function (row) {
+        var it = self.rowItem(row);
+        if (it) self.writeRowFields(row, it);
       });
       data.byCategory = this.rebuildByCategory(data.items || []);
       return data;
@@ -867,19 +1035,35 @@
             ") — not live. Edit, then Publish. Latest Beat still shows the last published piece."
           : "";
       }
-      var t = document.getElementById("edTitle");
-      var d = document.getElementById("edDek");
-      var h = document.getElementById("edHero");
-      var c = document.getElementById("edCredit");
+      function set(id, val) {
+        var el = document.getElementById(id);
+        if (el) el.value = val || "";
+      }
+      set("edDate", ed.publishDate || new Date().toISOString().slice(0, 10));
+      set("edStatus", ed.status || (usingDraft ? "draft" : "published"));
+      set("edTitle", ed.title);
+      set("edDek", ed.dek);
+      set("edAuthor", ed.authorName || "Dr. Wallace Lynch");
+      set("edAuthorTitle", ed.authorTitle || "Editor in Chief");
+      set("edHero", ed.heroImage);
+      set("edCredit", ed.heroCredit);
+      set("edHeroSource", ed.heroSource);
+      set("edHeroSourceUrl", ed.heroSourceUrl);
       var b = document.getElementById("edBody");
-      if (t) t.value = ed.title || "";
-      if (d) d.value = ed.dek || "";
-      if (h) h.value = ed.heroImage || "";
-      if (c) c.value = ed.heroCredit || "";
       if (b) b.value = ed.body || (ed.paragraphs || []).join("\n\n");
       this.countEditorial();
-      if (b) b.addEventListener("input", this.countEditorial.bind(this));
+      if (b && !b.dataset.bound) {
+        b.dataset.bound = "1";
+        b.addEventListener("input", this.countEditorial.bind(this));
+      }
+      var h = document.getElementById("edHero");
+      if (h && !h.dataset.bound) {
+        h.dataset.bound = "1";
+        h.addEventListener("input", this.updEdImg.bind(this));
+      }
+      this.updEdImg();
       this.renderEditorialPreview();
+      this.refreshEdHeroPicker();
     }
 
     renderEditorialPreview() {
@@ -923,29 +1107,47 @@
     countEditorial() {
       var b = document.getElementById("edBody");
       var w = document.getElementById("edWords");
+      var wc = document.getElementById("edWC");
       var n = b && b.value ? b.value.trim().split(/\s+/).filter(Boolean).length : 0;
       if (w) w.textContent = n + " words";
+      if (wc) wc.textContent = String(n);
+    }
+
+    val(id) {
+      var el = document.getElementById(id);
+      return el && el.value ? String(el.value).trim() : "";
     }
 
     collectEditorial(status) {
-      var body = (document.getElementById("edBody") || {}).value || "";
+      var body = this.val("edBody");
       var paras = body.split(/\n\n+/).map(function (p) { return p.trim(); }).filter(Boolean);
-      var day = new Date().toISOString().slice(0, 10);
-      var ed = {
+      var day = this.val("edDate") || new Date().toISOString().slice(0, 10);
+      return {
         id: "ed_" + day,
         publishDate: day,
-        status: status || "draft",
-        title: (document.getElementById("edTitle") || {}).value || "",
-        dek: (document.getElementById("edDek") || {}).value || "",
-        heroImage: (document.getElementById("edHero") || {}).value || "",
-        heroCredit: (document.getElementById("edCredit") || {}).value || "",
-        authorName: "Dr. Wallace Lynch",
-        authorTitle: "Editor in Chief",
-        body: body.trim(),
+        status: status || this.val("edStatus") || "draft",
+        title: this.val("edTitle"),
+        dek: this.val("edDek"),
+        heroImage: this.val("edHero"),
+        heroCredit: this.val("edCredit"),
+        heroSource: this.val("edHeroSource"),
+        heroSourceUrl: this.val("edHeroSourceUrl"),
+        authorName: this.val("edAuthor") || "Dr. Wallace Lynch",
+        authorTitle: this.val("edAuthorTitle") || "Editor in Chief",
+        body: body,
         paragraphs: paras,
-        wordCount: body.trim() ? body.trim().split(/\s+/).filter(Boolean).length : 0,
+        wordCount: body ? body.split(/\s+/).filter(Boolean).length : 0,
       };
-      return ed;
+    }
+
+    isOutlineBrief(ed) {
+      if (!ed) return true;
+      var blob = String(ed.title || "") + "\n" + String(ed.body || "");
+      if (/EDITORIAL BRIEF\s*\(outline only/i.test(blob)) return true;
+      if (/^Editorial brief\s*[-—–]/i.test(String(ed.title || "").trim())) return true;
+      if (/DRAFT — not live/i.test(blob) || /Selected articles of the day/i.test(blob)) return true;
+      if ((ed.wordCount || 0) < 120) return true;
+      return false;
     }
 
     displayDate(iso) {
@@ -1192,6 +1394,10 @@
         this.toast("Title and body are required to publish.", "error");
         return;
       }
+      if (this.isOutlineBrief(ed)) {
+        this.toast("Refuse outline brief. Replace with finished ~300-word prose first.", "error");
+        return;
+      }
       var history = this.mergeHistory(ed);
       global.EDITORIAL = ed;
       global.EDITORIAL_HISTORY = history;
@@ -1212,8 +1418,387 @@
         this.archiveIndexHtml(ed, history),
         "Editorial archive index " + ed.publishDate
       );
+      this.archivePreviousEditorial(history[0]);
+      if (this.archive) {
+        await this.putGithubFile(
+          "data/archive.json",
+          JSON.stringify(this.archive, null, 2) + "\n",
+          "Archive previous editorial as Latest Beat card"
+        );
+      }
       this.log("ok", "Published editorial.data.js + e/" + ed.publishDate + ".html — " + ed.title);
       this.toast("Editorial published. Home, Latest Beat, and permalink will update after Pages deploys.", "success");
+    }
+
+    mergeScanIntoArchive(batch) {
+      if (!this.archive) this.archive = { batches: [] };
+      var scanned = (batch && batch.scannedAt) || new Date().toISOString();
+      var batchId = "auto_" + scanned.replace(/:/g, "-").slice(0, 19);
+      var slim = (batch.items || []).map(function (it) {
+        return {
+          id: it.id,
+          title: it.title,
+          source: it.source,
+          sourceUrl: it.sourceUrl,
+          summary: it.summary,
+          image: it.image || "",
+          publishedAt: it.publishedAt,
+          category: it.category,
+          categoryLabel: it.categoryLabel,
+        };
+      });
+      var batches = (this.archive.batches || []).filter(function (b) {
+        return b.batchId !== batchId;
+      });
+      batches.unshift({ batchId: batchId, scannedAt: scanned, items: slim });
+      this.archive.batches = batches.slice(0, 45);
+    }
+
+    archivePreviousEditorial(prev) {
+      if (!prev || !prev.publishDate || !prev.title) return;
+      if (!this.archive) this.archive = { batches: [] };
+      var id = "editorial_" + prev.publishDate;
+      var card = {
+        id: id,
+        rank: 0,
+        title: prev.title,
+        category: "editorial",
+        categoryLabel: "Editorial",
+        summary: prev.dek || "",
+        image: prev.heroImage || "",
+        source: "Fourth Wave Coffee · Editorial",
+        sourceUrl: "https://fourthwavecoffee.org/e/" + prev.publishDate + ".html",
+        isEditorialArchive: true,
+        publishDate: prev.publishDate,
+      };
+      var batches = (this.archive.batches || []).filter(function (b) {
+        return b.batchId !== id;
+      });
+      batches.unshift({
+        batchId: id,
+        scannedAt: new Date().toISOString(),
+        kind: "editorial_archive",
+        items: [card],
+      });
+      this.archive.batches = batches.slice(0, 45);
+    }
+
+    async reloadNewsDesk() {
+      try {
+        var res = await fetch("data/archive.json?v=" + Date.now(), { credentials: "same-origin" });
+        if (res.ok) this.archive = await res.json();
+      } catch (e) {
+        this.archive = this.archive || { batches: [] };
+      }
+      this.renderNewsDesk();
+    }
+
+    updEdImg() {
+      var box = document.getElementById("edImgP");
+      var url = this.val("edHero");
+      if (!box) return;
+      if (!url) {
+        box.innerHTML = '<span class="ph-t">Hero preview</span>';
+        return;
+      }
+      box.innerHTML = '<img alt="" referrerpolicy="no-referrer" src="' + this.esc(url) + '">';
+    }
+
+    heroCandidates() {
+      var out = [];
+      var seen = {};
+      ((global.SIGNALS && global.SIGNALS.items) || []).forEach(function (h) {
+        var url = String((h && h.image) || "").trim();
+        if (!url) return;
+        var key = url.split("?")[0].toLowerCase();
+        if (seen[key]) return;
+        seen[key] = true;
+        out.push({
+          image: url,
+          title: h.title || "",
+          source: h.source || "",
+          category: h.categoryLabel || h.category || "",
+          sourceUrl: h.sourceUrl || "",
+        });
+      });
+      return out;
+    }
+
+    refreshEdHeroPicker() {
+      var root = document.getElementById("edHeroPick");
+      var countEl = document.getElementById("edHeroPickCount");
+      if (!root) return;
+      var cands = this.heroCandidates();
+      var cur = this.val("edHero").split("?")[0].toLowerCase();
+      if (countEl) {
+        countEl.textContent = cands.length
+          ? cands.length + " image" + (cands.length === 1 ? "" : "s") + " from selected articles"
+          : "No article images";
+      }
+      if (!cands.length) {
+        root.innerHTML =
+          '<div class="ed-hero-pick-empty">No article head images on file. Run Scan feeds, then Refresh thumbs. You can still paste a URL below.</div>';
+        return;
+      }
+      var self = this;
+      root.innerHTML = cands
+        .map(function (c, i) {
+          var sel = cur && cur === c.image.split("?")[0].toLowerCase();
+          return (
+            '<button type="button" class="ed-hero-pick-card' +
+            (sel ? " sel" : "") +
+            '" data-hero="' +
+            i +
+            '"><img alt="" referrerpolicy="no-referrer" src="' +
+            self.esc(self.thumbProxy(c.image) || c.image) +
+            '"><span class="ed-hero-pick-meta"><b>' +
+            self.esc(c.title || "Untitled") +
+            "</b>" +
+            self.esc(c.category) +
+            " · " +
+            self.esc(c.source || "—") +
+            "</span></button>"
+          );
+        })
+        .join("");
+      if (!root.dataset.bound) {
+        root.dataset.bound = "1";
+        root.addEventListener("click", function (ev) {
+          var btn = ev.target.closest("[data-hero]");
+          if (!btn) return;
+          var c = self.heroCandidates()[parseInt(btn.getAttribute("data-hero"), 10)];
+          if (!c) return;
+          var h = document.getElementById("edHero");
+          var cr = document.getElementById("edCredit");
+          var hs = document.getElementById("edHeroSource");
+          var hu = document.getElementById("edHeroSourceUrl");
+          if (h) h.value = c.image;
+          if (cr) cr.value = c.title || c.source || "Field signal";
+          if (hs) hs.value = c.source || "Selected article";
+          if (hu) hu.value = c.sourceUrl || "";
+          self.updEdImg();
+          self.refreshEdHeroPicker();
+        });
+      }
+    }
+
+    forceEditorialDraft() {
+      var items = (global.SIGNALS && global.SIGNALS.items) || [];
+      var day = new Date().toISOString().slice(0, 10);
+      var first = items[0] || {};
+      var second = items[1] || {};
+      var lines = [
+        "DRAFT — not live. Rewrite before Publish. On " + this.displayDate(day) + ", the desk holds these beats.",
+      ];
+      items.forEach(function (it) {
+        lines.push(
+          (it.categoryLabel || it.category || "") +
+            ": " +
+            (it.title || "") +
+            " (" +
+            (it.source || "") +
+            "). " +
+            (it.summary || "")
+        );
+      });
+      lines.push("Edit title, dek, and body. Then Publish to Latest Beat.");
+      var body = lines.join("\n\n");
+      var titleEl = document.getElementById("edTitle");
+      var dekEl = document.getElementById("edDek");
+      var dateEl = document.getElementById("edDate");
+      var stEl = document.getElementById("edStatus");
+      var bodyEl = document.getElementById("edBody");
+      if (dateEl) dateEl.value = day;
+      if (stEl) stEl.value = "draft";
+      if (titleEl) titleEl.value = String(first.title || "Daily beat").slice(0, 72);
+      if (dekEl) {
+        dekEl.value = [first.source, second.title].filter(Boolean).join(". ").slice(0, 140);
+      }
+      if (bodyEl) bodyEl.value = body;
+      if (first.image) {
+        var h = document.getElementById("edHero");
+        if (h) h.value = first.image;
+        var cr = document.getElementById("edCredit");
+        if (cr) cr.value = first.source || "";
+        var hs = document.getElementById("edHeroSource");
+        if (hs) hs.value = first.source || "";
+        var hu = document.getElementById("edHeroSourceUrl");
+        if (hu) hu.value = first.sourceUrl || "";
+      }
+      this.countEditorial();
+      this.updEdImg();
+      this.refreshEdHeroPicker();
+      this.toast("Outline draft loaded. Replace with finished prose before Publish.", "info");
+    }
+
+    previewEditorial() {
+      var ed = this.collectEditorial();
+      var box = document.getElementById("edPrevBody");
+      var mo = document.getElementById("edPrevM");
+      if (!box || !mo) return;
+      var paras = (ed.paragraphs || [])
+        .map(function (p) {
+          return "<p>" + this.esc(p) + "</p>";
+        }, this)
+        .join("");
+      box.innerHTML =
+        "<p class=\"img-adj-sub\">" +
+        this.esc(this.displayDate(ed.publishDate)) +
+        " · " +
+        ed.wordCount +
+        " words</p><h2>" +
+        this.esc(ed.title || "(untitled)") +
+        "</h2><p><i>" +
+        this.esc(ed.dek || "") +
+        "</i></p>" +
+        paras;
+      mo.classList.add("on");
+    }
+
+    toggleCrawlList(show) {
+      var desk = document.getElementById("newsDeskP");
+      var src = document.getElementById("srcP");
+      if (!desk || !src) return;
+      var on = show === undefined ? src.hidden : !!show;
+      src.hidden = !on;
+      desk.hidden = on;
+      if (on) this.renderCrawlList();
+    }
+
+    async reloadCrawlList() {
+      try {
+        var res = await fetch("data/sources.json?v=" + Date.now(), { credentials: "same-origin" });
+        if (res.ok) this.sources = await res.json();
+      } catch (e) {
+        this.toast("Could not load data/sources.json", "error");
+        return;
+      }
+      if (!this.sources.blacklist) this.sources.blacklist = [];
+      this.renderCrawlList();
+    }
+
+    renderCrawlList() {
+      if (!this.sources) {
+        this.reloadCrawlList();
+        return;
+      }
+      var bl = document.getElementById("srcBlacklist");
+      var cats = document.getElementById("srcCats");
+      var self = this;
+      if (bl) {
+        bl.innerHTML = (this.sources.blacklist || [])
+          .map(function (h, i) {
+            return (
+              '<div class="src-feed"><span>' +
+              self.esc(h) +
+              '</span><span></span><button type="button" class="btn btn-del" data-bl="' +
+              i +
+              '">Remove</button></div>'
+            );
+          })
+          .join("") || '<p class="side-note">No blocked hosts.</p>';
+        if (!bl.dataset.bound) {
+          bl.dataset.bound = "1";
+          bl.addEventListener("click", function (ev) {
+            var btn = ev.target.closest("[data-bl]");
+            if (!btn) return;
+            self.sources.blacklist.splice(parseInt(btn.getAttribute("data-bl"), 10), 1);
+            self.renderCrawlList();
+          });
+        }
+      }
+      if (!cats) return;
+      var html = "";
+      var categories = this.sources.categories || {};
+      Object.keys(categories).forEach(function (id) {
+        var cat = categories[id];
+        html += "<div class=\"src-cat\" data-cat=\"" + self.esc(id) + "\"><h3>" + self.esc(cat.label || id) + "</h3>";
+        (cat.feeds || []).forEach(function (f, i) {
+          html +=
+            '<div class="src-feed"><input class="fi src-name" value="' +
+            self.esc(f.name || "") +
+            '"><input class="fi src-url" value="' +
+            self.esc(f.url || "") +
+            '"><button type="button" class="btn btn-del" data-rm="' +
+            i +
+            '">Remove</button></div>';
+        });
+        html +=
+          '<button type="button" class="btn" data-add="' +
+          self.esc(id) +
+          '">Add feed</button></div>';
+      });
+      cats.innerHTML = html;
+      if (!cats.dataset.bound) {
+        cats.dataset.bound = "1";
+        cats.addEventListener("click", function (ev) {
+          var add = ev.target.closest("[data-add]");
+          var rm = ev.target.closest("[data-rm]");
+          if (add) {
+            self.readCrawlListDom();
+            var id = add.getAttribute("data-add");
+            if (!self.sources.categories[id].feeds) self.sources.categories[id].feeds = [];
+            self.sources.categories[id].feeds.push({ name: "", url: "" });
+            self.renderCrawlList();
+          }
+          if (rm) {
+            self.readCrawlListDom();
+            var catEl = rm.closest("[data-cat]");
+            var cid = catEl && catEl.getAttribute("data-cat");
+            if (cid) {
+              self.sources.categories[cid].feeds.splice(parseInt(rm.getAttribute("data-rm"), 10), 1);
+              self.renderCrawlList();
+            }
+          }
+        });
+      }
+    }
+
+    readCrawlListDom() {
+      if (!this.sources) return;
+      var cats = document.getElementById("srcCats");
+      if (!cats) return;
+      cats.querySelectorAll("[data-cat]").forEach(function (block) {
+        var id = block.getAttribute("data-cat");
+        var feeds = [];
+        block.querySelectorAll(".src-feed").forEach(function (row) {
+          var name = (row.querySelector(".src-name") || {}).value || "";
+          var url = (row.querySelector(".src-url") || {}).value || "";
+          if (name || url) feeds.push({ name: name.trim(), url: url.trim() });
+        });
+        if (this.sources.categories[id]) this.sources.categories[id].feeds = feeds;
+      }, this);
+    }
+
+    saveCrawlListLocal() {
+      this.readCrawlListDom();
+      try {
+        sessionStorage.setItem("fw_sources", JSON.stringify(this.sources));
+      } catch (e) {
+        /* ignore */
+      }
+      this.toast("Crawl list saved in this tab.", "success");
+    }
+
+    async publishCrawlList() {
+      this.readCrawlListDom();
+      var ok = await this.putGithubFile(
+        "data/sources.json",
+        JSON.stringify(this.sources, null, 2) + "\n",
+        "Update Latest Beat crawl list"
+      );
+      if (ok) this.toast("Crawl list published.", "success");
+    }
+
+    addBlacklistHost() {
+      var inp = document.getElementById("srcBlInput");
+      var host = inp && inp.value ? inp.value.trim().toLowerCase().replace(/^www\./, "") : "";
+      if (!host) return;
+      if (!this.sources) this.sources = { categories: {}, blacklist: [] };
+      if (!this.sources.blacklist) this.sources.blacklist = [];
+      if (this.sources.blacklist.indexOf(host) === -1) this.sources.blacklist.push(host);
+      if (inp) inp.value = "";
+      this.renderCrawlList();
     }
 
     renderVendors() {
@@ -1419,8 +2004,10 @@
     }
 
     readPat() {
-      var input = document.getElementById("ghPat");
-      var typed = input && input.value ? String(input.value).trim() : "";
+      var typed = "";
+      document.querySelectorAll(".gh-pat").forEach(function (el) {
+        if (!typed && el.value) typed = String(el.value).trim();
+      });
       if (typed) {
         try {
           sessionStorage.setItem("fw_gh_pat", typed);
@@ -1437,22 +2024,26 @@
     }
 
     bindPatField() {
-      var input = document.getElementById("ghPat");
-      if (!input) return;
+      var saved = "";
       try {
-        var saved = sessionStorage.getItem("fw_gh_pat") || "";
-        if (saved && !input.value) input.value = saved;
+        saved = sessionStorage.getItem("fw_gh_pat") || "";
       } catch (e) {
-        /* ignore */
+        saved = "";
       }
-      input.addEventListener("change", function () {
-        var v = String(input.value || "").trim();
-        try {
-          if (v) sessionStorage.setItem("fw_gh_pat", v);
-          else sessionStorage.removeItem("fw_gh_pat");
-        } catch (e2) {
-          /* ignore */
-        }
+      document.querySelectorAll(".gh-pat").forEach(function (input) {
+        if (saved && !input.value) input.value = saved;
+        input.addEventListener("change", function () {
+          var v = String(input.value || "").trim();
+          try {
+            if (v) sessionStorage.setItem("fw_gh_pat", v);
+            else sessionStorage.removeItem("fw_gh_pat");
+          } catch (e2) {
+            /* ignore */
+          }
+          document.querySelectorAll(".gh-pat").forEach(function (other) {
+            if (other !== input) other.value = v;
+          });
+        });
       });
     }
 
@@ -1552,6 +2143,13 @@
       );
       if (!ok1) return;
       await this.putGithubFile("data/signals.json", json, "Update signals.json " + new Date().toISOString().slice(0, 10));
+      if (this.archive) {
+        await this.putGithubFile(
+          "data/archive.json",
+          JSON.stringify(this.archive, null, 2) + "\n",
+          "Update Latest Beat archive " + new Date().toISOString().slice(0, 10)
+        );
+      }
       this.log("ok", "Published signals.data.js (" + (data.items || []).length + " items)");
       this.toast("Latest Beat updated on GitHub.", "success");
     }
@@ -1593,6 +2191,12 @@
       p.hidden = !on;
       p.style.display = on ? "grid" : "none";
     });
+    if (id === "signal") app.renderNewsDesk();
+    if (id === "editorial") {
+      app.renderEditorialPreview();
+      app.refreshEdHeroPicker();
+      app.countEditorial();
+    }
   };
   global.scanSignals = function () {
     app.scanSignals();
@@ -1620,6 +2224,58 @@
   };
   global.publishEditorial = function () {
     app.publishEditorial();
+  };
+  global.renderNewsDesk = function () {
+    app.renderNewsDesk();
+  };
+  global.reloadNewsDesk = function () {
+    app.reloadNewsDesk();
+  };
+  global.saveSignalsLocal = function () {
+    app.collectSignals();
+    try {
+      sessionStorage.setItem("fw_signals", JSON.stringify(global.SIGNALS || {}));
+    } catch (e) {
+      /* ignore */
+    }
+    app.toast("Beats saved in this tab.", "success");
+  };
+  global.forceEditorialDraft = function () {
+    app.forceEditorialDraft();
+  };
+  global.saveEditorialLocal = function () {
+    var ed = app.collectEditorial();
+    try {
+      sessionStorage.setItem("fw_editorial", JSON.stringify(ed));
+    } catch (e) {
+      /* ignore */
+    }
+    app.toast("Editorial saved in this tab (not live).", "success");
+  };
+  global.previewEditorial = function () {
+    app.previewEditorial();
+  };
+  global.closeEdPrev = function () {
+    var mo = document.getElementById("edPrevM");
+    if (mo) mo.classList.remove("on");
+  };
+  global.refreshEdHeroPicker = function () {
+    app.refreshEdHeroPicker();
+  };
+  global.toggleCrawlList = function (show) {
+    app.toggleCrawlList(show);
+  };
+  global.saveCrawlListLocal = function () {
+    app.saveCrawlListLocal();
+  };
+  global.publishCrawlList = function () {
+    app.publishCrawlList();
+  };
+  global.reloadCrawlList = function () {
+    app.reloadCrawlList();
+  };
+  global.addBlacklistHost = function () {
+    app.addBlacklistHost();
   };
   global.exportEditorial = function () {
     var ed = app.collectEditorial();

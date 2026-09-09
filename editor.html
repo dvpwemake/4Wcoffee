@@ -102,7 +102,36 @@ textarea.fi{min-height:12rem;resize:vertical}
 .ed-preview .ed-hit i{display:block;font-style:normal;color:var(--text-dim);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}
 .ed-urls{margin:.4rem 0 0;padding-left:1.1rem;font-size:.82rem;line-height:1.55;word-break:break-all}
 .ed-urls a{color:var(--text);text-decoration:underline;text-underline-offset:2px}
-@media(max-width:720px){.sig-row{grid-template-columns:1fr}.sig-thumb{width:100%;height:160px}}
+.news-desk-hint,.news-desk-meta{color:var(--text-dim);font-size:.9rem;margin:0 0 .75rem}
+.news-desk-scope{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;margin:0 0 .85rem;font-size:.9rem}
+.news-desk-scope label{display:flex;align-items:center;gap:.4rem;cursor:pointer}
+.news-desk-toolbar{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .85rem}
+.img-adj-row{display:grid;grid-template-columns:112px 1fr;gap:.85rem;padding:.85rem;border:1px solid var(--border);background:var(--bg-input);margin-bottom:.55rem}
+.img-adj-row.changed{border-color:var(--warning)}
+.img-adj-title{font-weight:600}
+.img-adj-sub{color:var(--text-dim);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;margin:.2rem 0 .45rem}
+.ed-hero-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.5rem;margin:.4rem 0 .75rem}
+.ed-hero-pick-card{text-align:left;padding:0;border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer;min-height:0}
+.ed-hero-pick-card img{width:100%;height:88px;object-fit:cover;display:block}
+.ed-hero-pick-card.sel{border-color:var(--accent)}
+.ed-hero-pick-meta{display:block;padding:.4rem .5rem;font-size:.72rem;color:var(--text-dim)}
+.ed-hero-pick-meta b{display:block;color:var(--text);font-size:.8rem;margin-bottom:.15rem}
+.ed-hero-pick-empty,.img-adj-empty{padding:1rem;border:1px dashed var(--border);color:var(--text-dim);text-align:center;font-size:.9rem}
+.word-meta{font-size:.8rem;color:var(--text-dim);margin:-.35rem 0 .75rem}
+.ip{min-height:120px;border:1px solid var(--border);background:var(--bg);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ip img{max-width:100%;max-height:220px;object-fit:contain}
+.src-cat{margin:0 0 1rem;padding:0 0 .5rem;border-bottom:1px solid var(--border)}
+.src-cat h3{font-size:.85rem;margin:0 0 .4rem}
+.src-feed{display:grid;grid-template-columns:1fr 1.4fr auto;gap:.4rem;margin-bottom:.35rem}
+.mo{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:80;padding:1.5rem}
+.mo.on{display:flex}
+.md{background:var(--bg-card);border:1px solid var(--border);padding:1.25rem;width:min(760px,100%);max-height:90vh;overflow:auto}
+.md-a{display:flex;gap:.4rem;margin-top:1rem;flex-wrap:wrap}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:.65rem}
+.fg{margin:0 0 .65rem}
+.fl{display:block;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-dim);margin:0 0 .35rem;font-weight:600}
+.fta{width:100%;min-height:14rem;padding:.65rem .75rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text);resize:vertical}
+@media(max-width:720px){.sig-row,.img-adj-row{grid-template-columns:1fr}.sig-thumb{width:100%;height:160px}.fr,.src-feed{grid-template-columns:1fr}}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;max-height:48vh}.main{padding:1.25rem}.drow{grid-template-columns:auto 1fr}}
 </style>
 </head>
@@ -149,7 +178,7 @@ textarea.fi{min-height:12rem;resize:vertical}
       <button class="btn btn-p" onclick="applyDiff()" style="width:100%;margin-bottom:.4rem">Apply checked changes</button>
       <button class="btn" onclick="exportCatalog()" style="width:100%;margin-bottom:.4rem">Download catalog.data.js</button>
       <label class="sec-t" for="ghPat" style="display:block;margin:0.85rem 0 0.4rem">GitHub PAT</label>
-      <input id="ghPat" type="password" autocomplete="off" spellcheck="false" placeholder="ghp_… or github_pat_…" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
+      <input id="ghPat" class="gh-pat" type="password" autocomplete="off" spellcheck="false" placeholder="ghp_… or github_pat_…" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
       <button class="btn btn-s" onclick="publishCatalog()" style="width:100%">Publish to GitHub</button>
       <p class="side-note">Publishes <code>catalog.data.js</code> to <code>dvpwemake/4Wcoffee</code> on <code>main</code>. Paste a fine-grained PAT with Contents: Read and write. It stays in this tab only — never in the page source.</p>
     </div>
@@ -178,19 +207,61 @@ textarea.fi{min-height:12rem;resize:vertical}
   <aside class="side">
     <div class="sec">
       <div class="sec-t">Latest Beat</div>
-      <p class="side-note">Automatic scan 9:00 AM New York, once a day. Manual scan is also available. Confirm cover URLs after a scan.</p>
+      <p class="side-note">One desk for today’s beats: fix image, edit copy, Delete. Scan does not publish. Draft editorial stays off Latest Beat until Publish editorial.</p>
       <button class="btn btn-scan" id="sigScanBtn" onclick="scanSignals()" style="width:100%;margin-top:.5rem"><span class="sp"></span><span class="bl">Scan feeds</span></button>
       <p class="side-note" id="sigScanMeta">—</p>
-      <button class="btn" onclick="fetchAllCovers()" style="width:100%;margin-top:.5rem">Fetch covers from articles</button>
-      <button class="btn btn-p" onclick="exportSignals()" style="width:100%;margin-top:.4rem">Download signals.data.js</button>
+      <button class="btn" onclick="reloadNewsDesk()" style="width:100%;margin-top:.5rem">Reload archive</button>
+      <button class="btn" onclick="fetchAllCovers()" style="width:100%;margin-top:.4rem">Fetch covers from articles</button>
+      <button class="btn" onclick="toggleCrawlList()" style="width:100%;margin-top:.4rem">Edit crawl list</button>
+      <button class="btn btn-p" onclick="saveSignalsLocal()" style="width:100%;margin-top:.4rem">Save all (browser)</button>
       <button class="btn btn-s" onclick="publishSignals()" style="width:100%;margin-top:.4rem">Publish Latest Beat</button>
-      <p class="side-note">Delete removes a story from Latest Beat and this list. Deleted URLs stay blocked so the 9 AM scan will not bring them back. Publish writes signals.data.js to GitHub (uses the PAT on Coffee items).</p>
+      <label class="sec-t" for="ghPatSignal" style="display:block;margin:0.85rem 0 0.4rem">GitHub PAT</label>
+      <input id="ghPatSignal" class="gh-pat" type="password" autocomplete="off" spellcheck="false" placeholder="same token as Coffee items" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
+      <p class="side-note">Delete blocks the URL so the morning scan will not bring it back. Publish writes signals.data.js, data/signals.json, and data/archive.json. 4wave feed only.</p>
     </div>
   </aside>
   <main class="main">
-    <h2 class="pt">Daily signal</h2>
-    <p class="hint">Industry · Science · Reviews · Origin. Scan pulls RSS through a public proxy (browser CORS cannot hit shops directly). Paste or fetch a cover URL, confirm it loads, then Apply.</p>
-    <div id="signalList"></div>
+    <div id="newsDeskP">
+      <div class="ph">
+        <h2 class="pt">Day’s beats</h2>
+      </div>
+      <p class="news-desk-hint">Same mechanism as CoC Field Signals, 4wave UI: <b>fix image URL</b>, edit title/summary, <b>Delete</b>, then <b>Save</b> or <b>Publish Latest Beat</b>. All archive is for older cards only.</p>
+      <div class="news-desk-scope" role="radiogroup" aria-label="Beat list scope">
+        <label><input type="radio" name="newsScope" value="today" checked onchange="renderNewsDesk()"> Today (selected)</label>
+        <label><input type="radio" name="newsScope" value="all" onchange="renderNewsDesk()"> All archive</label>
+      </div>
+      <div class="fg">
+        <label class="fl" for="newsDeskFilter">Filter (title · source · category)</label>
+        <input type="search" class="fi" id="newsDeskFilter" placeholder="Type to filter…" oninput="renderNewsDesk()">
+      </div>
+      <div class="news-desk-toolbar">
+        <button class="btn btn-p" type="button" onclick="saveSignalsLocal()">Save all (browser)</button>
+        <button class="btn btn-s" type="button" onclick="publishSignals()">Publish Latest Beat</button>
+      </div>
+      <p class="news-desk-meta" id="newsDeskMeta">Loading…</p>
+      <div id="signalList" class="img-adj-list" role="list" aria-label="Day’s beats"></div>
+    </div>
+    <div id="srcP" hidden>
+      <div class="ph">
+        <button class="btn" type="button" onclick="toggleCrawlList(false)">← Back</button>
+        <h2 class="pt" style="margin:0">Edit crawl list</h2>
+      </div>
+      <p class="hint">RSS feeds per category + domain blacklist. Save applies to this session’s scan. Publish writes <code>data/sources.json</code> so the morning packet picks it up.</p>
+      <div class="src-cat">
+        <h3>Domain blacklist</h3>
+        <div id="srcBlacklist"></div>
+        <div style="display:flex;gap:.4rem;margin-top:.35rem;flex-wrap:wrap">
+          <input type="text" class="fi" id="srcBlInput" placeholder="example.com" style="flex:1;min-width:140px;margin:0">
+          <button type="button" class="btn btn-p" onclick="addBlacklistHost()">Add host</button>
+        </div>
+      </div>
+      <div id="srcCats"></div>
+      <div class="news-desk-toolbar">
+        <button type="button" class="btn btn-p" onclick="saveCrawlListLocal()">Save (browser)</button>
+        <button type="button" class="btn btn-s" onclick="publishCrawlList()">Publish sources to live</button>
+        <button type="button" class="btn" onclick="reloadCrawlList()">Reload from file</button>
+      </div>
+    </div>
   </main>
 </div>
 
@@ -198,36 +269,66 @@ textarea.fi{min-height:12rem;resize:vertical}
   <aside class="side">
     <div class="sec">
       <div class="sec-t">Editorial</div>
+      <p class="side-note">After scan → outline · write prose · publish. Scan never commits the live editorial.</p>
       <p class="side-note" id="edWords">—</p>
+      <button class="btn btn-s" onclick="forceEditorialDraft()" style="width:100%;margin-bottom:.4rem">Editorial Draft</button>
+      <button class="btn btn-p" onclick="saveEditorialLocal()" style="width:100%;margin-bottom:.4rem">Save (browser)</button>
+      <button class="btn" onclick="previewEditorial()" style="width:100%;margin-bottom:.4rem">Preview</button>
       <button class="btn btn-s" onclick="publishEditorial()" style="width:100%;margin-bottom:.4rem">Publish editorial</button>
       <button class="btn" onclick="exportEditorial()" style="width:100%">Download editorial.data.js</button>
-      <p class="side-note">Morning packet lands by 9 AM Pacific (scan at 8:15). Draft is not live until you Publish. Publish writes editorial.data.js plus e/YYYY-MM-DD.html permalink. Scan never commits the live editorial. Uses the PAT on Coffee items.</p>
+      <label class="sec-t" for="ghPatEd" style="display:block;margin:0.85rem 0 0.4rem">GitHub PAT</label>
+      <input id="ghPatEd" class="gh-pat" type="password" autocomplete="off" spellcheck="false" placeholder="same token as Coffee items" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
+      <p class="side-note">Publish writes editorial.data.js plus e/YYYY-MM-DD.html. Previous live piece becomes an Editorial card on Latest Beat. Outline briefs are refused.</p>
     </div>
   </aside>
   <main class="main">
     <h2 class="pt">Daily editorial</h2>
     <p class="hint" id="edDraftBanner" hidden></p>
-    <p class="hint">~280–320 words. Signed Dr. Wallace Lynch, Editor in Chief.</p>
     <div id="edSignalPreview" class="ed-preview">
       <h3 class="sec-t">Daily signal preview</h3>
       <div id="edSignalCards"></div>
       <h3 class="sec-t">Selected news URLs</h3>
       <ul id="edSignalUrls" class="ed-urls"></ul>
     </div>
-    <label class="sec-t" for="edTitle">Title</label>
-    <input class="fi" id="edTitle">
-    <label class="sec-t" for="edDek">Dek</label>
-    <input class="fi" id="edDek">
-    <label class="sec-t" for="edHero">Hero image URL</label>
-    <input class="fi" id="edHero">
-    <label class="sec-t" for="edCredit">Hero credit</label>
-    <input class="fi" id="edCredit">
-    <label class="sec-t" for="edBody">Body</label>
-    <textarea class="fi" id="edBody"></textarea>
+    <div class="fr">
+      <div class="fg"><label class="fl" for="edDate">Publish date (YYYY-MM-DD)</label><input class="fi" id="edDate"></div>
+      <div class="fg"><label class="fl" for="edStatus">Status</label>
+        <select class="fi" id="edStatus"><option value="draft">draft</option><option value="published">published</option></select>
+      </div>
+    </div>
+    <div class="fg"><label class="fl" for="edTitle">Title</label><input class="fi" id="edTitle"></div>
+    <div class="fg"><label class="fl" for="edDek">Dek / subtitle</label><input class="fi" id="edDek"></div>
+    <div class="fr">
+      <div class="fg"><label class="fl" for="edAuthor">Author name</label><input class="fi" id="edAuthor" placeholder="Dr. Wallace Lynch"></div>
+      <div class="fg"><label class="fl" for="edAuthorTitle">Author title</label><input class="fi" id="edAuthorTitle" placeholder="Editor in Chief"></div>
+    </div>
+    <div class="fg">
+      <label class="fl" for="edBody">Body — outline = titles/URLs/key points; replace with final ~300w prose before publish</label>
+      <textarea class="fta" id="edBody"></textarea>
+      <div class="word-meta">Words: <span id="edWC">0</span> · Outline drafts are not publication-ready · band 280–320</div>
+    </div>
+    <div class="fg">
+      <label class="fl">Hero image — from selected articles</label>
+      <p class="news-desk-hint">Thumbnails of head images from today’s beats. Click one to set the editorial head image. Manual URL remains as override.</p>
+      <div class="news-desk-toolbar">
+        <button type="button" class="btn" onclick="refreshEdHeroPicker()">Refresh thumbs</button>
+        <span class="news-desk-meta" id="edHeroPickCount" style="margin:0"></span>
+      </div>
+      <div class="ed-hero-pick" id="edHeroPick" role="listbox" aria-label="Select editorial hero from article images"></div>
+      <label class="fl" for="edHero">Hero image URL</label>
+      <input class="fi" id="edHero" placeholder="https://… article head image">
+      <div class="ip" id="edImgP"><span class="ph-t">Hero preview</span></div>
+    </div>
+    <div class="fr">
+      <div class="fg"><label class="fl" for="edCredit">Hero credit</label><input class="fi" id="edCredit"></div>
+      <div class="fg"><label class="fl" for="edHeroSource">Hero source</label><input class="fi" id="edHeroSource"></div>
+    </div>
+    <div class="fg"><label class="fl" for="edHeroSourceUrl">Hero source URL</label><input class="fi" id="edHeroSourceUrl"></div>
   </main>
 </div>
 </div>
 <div class="toast" id="tst"></div>
+<div class="mo" id="edPrevM"><div class="md"><h3>Editorial preview</h3><div id="edPrevBody" style="line-height:1.7"></div><div class="md-a"><button class="btn" onclick="closeEdPrev()">Close</button></div></div></div>
 <script src="catalog.data.js?v=20260907c"></script>
 <script src="signals.data.js"></script>
 <script src="editorial.data.js"></script>
