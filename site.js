@@ -544,7 +544,45 @@
       );
     }
 
-    static beatCard(it) {
+    static photoKey(url) {
+      return String(url || "")
+        .split("?")[0]
+        .replace(/^https?:\/\/(www\.)?fourthwavecoffee\.org\//i, "");
+    }
+
+    static takeLocal(used) {
+      used = used || {};
+      const pool = HeroCarousel.stock();
+      for (let i = 0; i < pool.length; i++) {
+        const p = pool[i];
+        const k = HomeStrips.photoKey(p);
+        if (!used[k]) {
+          used[k] = true;
+          return p;
+        }
+      }
+      return "";
+    }
+
+    static pickCover(it, used) {
+      used = used || {};
+      const raw = String((it && it.image) || "").trim();
+      const key = HomeStrips.photoKey(raw);
+      if (raw && /^https?:/i.test(raw)) {
+        if (used[key]) return HomeStrips.takeLocal(used);
+        used[key] = true;
+        return raw;
+      }
+      if (key.indexOf("image/") === 0) {
+        if (used[key]) return HomeStrips.takeLocal(used);
+        used[key] = true;
+        return key;
+      }
+      return HomeStrips.takeLocal(used);
+    }
+
+    static beatCard(it, used) {
+      const src = HomeStrips.pickCover(it, used || {});
       const raw = it.image || "";
       const proxy = HomeStrips.proxyUrl(raw);
       const short = { industry: "Industry", science: "Science", reviews: "Reviews", origin: "Origin", editorial: "Editorial" };
@@ -558,7 +596,7 @@
         tgt +
         ">" +
         '<div class="n-img"><img src="' +
-        HomeStrips.esc(raw) +
+        HomeStrips.esc(src) +
         '" alt="" referrerpolicy="no-referrer" data-proxy="' +
         HomeStrips.esc(proxy) +
         '" onerror="if(this.dataset.proxy&&!this.dataset.tried){this.dataset.tried=1;this.src=this.dataset.proxy}"></div>' +
@@ -673,7 +711,12 @@
       }
       const beatTrack = document.getElementById("home-beats-track");
       if (beatTrack) {
-        beatTrack.innerHTML = HomeStrips.beats().map(HomeStrips.beatCard).join("");
+        const used = {};
+        beatTrack.innerHTML = HomeStrips.beats()
+          .map(function (it) {
+            return HomeStrips.beatCard(it, used);
+          })
+          .join("");
       }
       HomeStrips.bindArrows();
     }

@@ -5,12 +5,32 @@
 
   var SITE = "https://fourthwavecoffee.org";
   var PAGE_SIZE = 12;
+  var LOCAL_PHOTOS = [
+    "image/carosal/cafe-scene-6887.jpg",
+    "image/carosal/cafe-scene-7252.jpg",
+    "image/carosal/cafe-scene-7378.jpg",
+    "image/carosal/cafe-scene-7439.jpg",
+    "image/carosal/cafe-scene-7473.jpg",
+    "image/carosal/cafe-scene-7623.jpg",
+    "image/carosal/cafe-scene-7717.jpg",
+    "image/carosal/cafe-scene-8167.png",
+    "image/carosal/cafe-scene-8168.png",
+    "image/carosal/cafe-scene-8174.png",
+    "image/carosal/cafe-scene-8186.png",
+    "image/carosal/cafe-scene-8187.png",
+    "image/carosal/cafe-scene-8188.png",
+    "image/carosal/cafe-scene-8190.png",
+    "image/carosal/cafe-scene-8192.png",
+    "image/carosal/cafe-scene-8198.png",
+    "image/carosal/cafe-scene-8204.png",
+    "image/carosal/cafe-scene-8205.png",
+  ];
   var FALLBACK = {
-    industry: "image/carosal/cafe-scene-6887.jpg",
-    science: "image/carosal/cafe-scene-7252.jpg",
-    reviews: "image/carosal/cafe-scene-7473.jpg",
-    origin: "image/carosal/cafe-scene-7378.jpg",
-    editorial: "image/carosal/cafe-scene-8167.png",
+    industry: LOCAL_PHOTOS[0],
+    science: LOCAL_PHOTOS[1],
+    reviews: LOCAL_PHOTOS[3],
+    origin: LOCAL_PHOTOS[2],
+    editorial: LOCAL_PHOTOS[7],
   };
   var CATS = [
     { id: "all", label: "All" },
@@ -138,10 +158,39 @@
     );
   }
 
-  function imgSrc(url, cat) {
+  function photoKey(url) {
+    return String(url || "")
+      .split("?")[0]
+      .replace(/^https?:\/\/(www\.)?fourthwavecoffee\.org\//i, "")
+      .replace(/^\.\.\//, "");
+  }
+
+  function takeLocal(used) {
+    used = used || {};
+    var i;
+    for (i = 0; i < LOCAL_PHOTOS.length; i++) {
+      var p = LOCAL_PHOTOS[i];
+      var k = photoKey(p);
+      if (!used[k]) {
+        used[k] = true;
+        return prefix() + p;
+      }
+    }
+    return "";
+  }
+
+  function imgSrc(url, cat, used) {
     var raw = String(url || "");
-    if (raw.indexOf("image/") === 0) return prefix() + raw;
-    if (raw) return raw;
+    if (raw.indexOf("image/") === 0) {
+      var loc = prefix() + raw;
+      if (used) used[photoKey(raw)] = true;
+      return loc;
+    }
+    if (raw) {
+      if (used) used[photoKey(raw)] = true;
+      return raw;
+    }
+    if (used) return takeLocal(used) || prefix() + (FALLBACK[cat] || FALLBACK.editorial);
     var fb = FALLBACK[cat] || FALLBACK.editorial;
     return prefix() + fb;
   }
@@ -344,6 +393,10 @@
       }
       if (ed) {
         push(ed.heroImage, ed.heroCredit, ed.heroSource, ed.heroSourceUrl, ed.title);
+      }
+      if (!slides.length) {
+        var local = takeLocal(seen);
+        if (local) push(local.replace(prefix(), ""), "Fourth Wave Coffee", "Fourth Wave Coffee", "", ed && ed.title);
       }
       ((global.SIGNALS && global.SIGNALS.items) || []).forEach(function (it) {
         if (it.image) push(it.image, it.source, it.source, it.sourceUrl, it.title);
@@ -594,8 +647,11 @@
         img.src = img.dataset.proxy;
         return;
       }
-      if (img.dataset.fallback && img.src.indexOf(img.dataset.fallback) === -1) {
-        img.src = img.dataset.fallback;
+      var used = Desk.usedPhotos || {};
+      var next = takeLocal(used);
+      Desk.usedPhotos = used;
+      if (next && img.src.indexOf(next) === -1) {
+        img.src = next;
         img.removeAttribute("data-proxy");
         return;
       }
@@ -608,13 +664,27 @@
     },
 
     cardHtml: function (it, usedImages) {
+      usedImages = usedImages || {};
       var internal = !!(it.isEditorialArchive || it.category === "editorial");
       var raw = it.image || "";
-      var local = prefix() + (FALLBACK[it.category] || FALLBACK.editorial);
-      var key = String(raw).split("?")[0];
-      var skipDup = !internal && key && usedImages && usedImages[key];
-      var src = skipDup ? local : raw || local;
-      if (!internal && key && usedImages && !skipDup) usedImages[key] = true;
+      var key = photoKey(raw);
+      var src;
+      if (raw && /^https?:/i.test(raw)) {
+        if (!internal && usedImages[key]) src = takeLocal(usedImages);
+        else {
+          usedImages[key] = true;
+          src = raw;
+        }
+      } else if (raw && photoKey(raw).indexOf("image/") === 0) {
+        if (usedImages[photoKey(raw)]) src = takeLocal(usedImages);
+        else {
+          usedImages[photoKey(raw)] = true;
+          src = prefix() + photoKey(raw);
+        }
+      } else {
+        src = takeLocal(usedImages);
+      }
+      if (!src) src = prefix() + (FALLBACK[it.category] || FALLBACK.editorial);
       var proxy = proxyUrl(raw);
       var href = it.sourceUrl || "#";
       if (internal && it.publishDate) href = prefix() + permalinkPath(it.publishDate);
@@ -673,6 +743,12 @@
       if (Desk.shown < PAGE_SIZE) Desk.shown = Math.min(PAGE_SIZE, list.length);
       var slice = list.slice(0, Desk.shown);
       var used = {};
+      var heroImg = document.querySelector("#editorial .ed-hero-slide.is-on img, #editorial .ed-hero img");
+      if (heroImg) {
+        var hk = photoKey(heroImg.getAttribute("src") || "");
+        if (hk) used[hk] = true;
+      }
+      Desk.usedPhotos = used;
       grid.innerHTML = slice.map(function (it) {
         return Desk.cardHtml(it, used);
       }).join("");

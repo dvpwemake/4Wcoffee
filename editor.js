@@ -20,6 +20,26 @@
     "training", "sauce", "pie", "cake", "apparel", "tote", "candle",
     "soap", "subscription box", "sample box",
   ];
+  var LOCAL_PHOTOS = [
+    "image/carosal/cafe-scene-6887.jpg",
+    "image/carosal/cafe-scene-7252.jpg",
+    "image/carosal/cafe-scene-7378.jpg",
+    "image/carosal/cafe-scene-7439.jpg",
+    "image/carosal/cafe-scene-7473.jpg",
+    "image/carosal/cafe-scene-7623.jpg",
+    "image/carosal/cafe-scene-7717.jpg",
+    "image/carosal/cafe-scene-8167.png",
+    "image/carosal/cafe-scene-8168.png",
+    "image/carosal/cafe-scene-8174.png",
+    "image/carosal/cafe-scene-8186.png",
+    "image/carosal/cafe-scene-8187.png",
+    "image/carosal/cafe-scene-8188.png",
+    "image/carosal/cafe-scene-8190.png",
+    "image/carosal/cafe-scene-8192.png",
+    "image/carosal/cafe-scene-8198.png",
+    "image/carosal/cafe-scene-8204.png",
+    "image/carosal/cafe-scene-8205.png",
+  ];
   var COFFEE_KEYS = [
     "coffee", "roast", "blend", "bean", "espresso", "yemen", "ethiopia",
     "colombia", "decaf", "arabica", "gesha", "bourbon", "natural", "washed",
@@ -465,6 +485,49 @@
       return this.parseOgImage(html) || (this.parseContentImages(html, pageUrl)[0] || "");
     }
 
+    photoKey(url) {
+      return String(url || "")
+        .split("?")[0]
+        .replace(/^https?:\/\/(www\.)?fourthwavecoffee\.org\//i, "");
+    }
+
+    takeLocal(used) {
+      used = used || {};
+      var i;
+      for (i = 0; i < LOCAL_PHOTOS.length; i++) {
+        var p = LOCAL_PHOTOS[i];
+        var k = this.photoKey(p);
+        if (!used[k]) {
+          used[k] = true;
+          return p;
+        }
+      }
+      return "";
+    }
+
+    assignUniqueCover(it, used) {
+      var raw = String((it && it.image) || "").trim();
+      var key = this.photoKey(raw);
+      if (raw && /^https?:/i.test(raw) && !this.isAdOrChrome(raw)) {
+        if (used[key]) {
+          it.image = this.takeLocal(used);
+          return it.image;
+        }
+        used[key] = true;
+        return raw;
+      }
+      if (key.indexOf("image/") === 0) {
+        if (used[key]) {
+          it.image = this.takeLocal(used);
+          return it.image;
+        }
+        used[key] = true;
+        return key;
+      }
+      it.image = this.takeLocal(used);
+      return it.image;
+    }
+
     async fetchOgImage(url) {
       if (!url || url === "#") return "";
       try {
@@ -635,6 +698,10 @@
         return;
       }
       var self = this;
+      var used = {};
+      pack.rows.forEach(function (it) {
+        self.assignUniqueCover(it, used);
+      });
       host.innerHTML = pack.rows
         .map(function (it, i) {
           var img = it.image || "";
