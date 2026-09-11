@@ -1,6 +1,172 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-11T02-20-28",
+      "scannedAt": "2026-09-11T02:20:28.044Z",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Why the world’s best baristas are going on tour",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/09/baristas-going-on-tour/",
+          "summary": "A number of barista champions are choosing to tour, hosting events and bar takeovers in different cities and countries where they work. These appearances give baristas a direct route to the people who drink their coffee, not just the judges who score it. On tour, a champion can w",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/Boram-Um.webp",
+          "publishedAt": "2026-09-10T15:30:00.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Global Coffee Awards crown the best roasters in US &amp; Canada",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/09/global-coffee-awards-us-canada-winners-2026/",
+          "summary": "Judging for the 2026 Global Coffee Awards US &amp; Canada took place on 10 &amp; 11 August, crowning the countries' best roasters. The post Global Coffee Awards crown the best roasters in US &amp; Canada appeared first on Perfect Daily Grind .",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/Emi-Rueda-and-Anita-Tam.webp",
+          "publishedAt": "2026-09-09T21:00:00.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Milk Battle Bots",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/milk-battle-bots/",
+          "summary": "Do you think that cafés who use automated milk foamers are cheating? Or that the choice to speed things up is also a decision to compromise on quality? Well, this might surprise you... The post Milk Battle Bots appeared first on Barista Hustle .",
+          "image": "",
+          "publishedAt": "2026-04-11T17:21:58.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Artificial Crema",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/artificial-crema/",
+          "summary": "When it comes to lattes, there does seem to be something going on that tips the balance towards the premades, and we’re pretty sure it’s got something to do with crema... The post Artificial Crema appeared first on Barista Hustle .",
+          "image": "",
+          "publishedAt": "2026-02-04T17:35:47.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Water for Coffee: What Actually Matters (And What Most Advice Gets Wrong)",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-water-for-coffee/",
+          "summary": "The right kind of water can dramatically improve your coffee. Here you'll learn how to create it at home or which bottled brand to go for. The post Water for Coffee: What Actually Matters (And What Most Advice Gets Wrong) appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-07-25T08:53:00.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Review: Breville Bambino Plus",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/breville-bambino-plus-review/",
+          "summary": "It looks innocent and simple, but is actually both advanced and forthcoming at the same time. An ideal espresso machine for beginners. The post Review: Breville Bambino Plus appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-07-23T07:11:00.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        }
+      ]
+    },
+    {
+      "batchId": "auto_2026-09-10T21-55-14",
+      "scannedAt": "2026-09-10T21:55:14.977Z",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Mubadala Plans Minority Stake in Luckin in $1 Billion Deal",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/09/10/mubadala-plans-minority-stake-in-luckin-in-1-billion-deal/",
+          "summary": "Abu Dhabi state-owned investor Mubadala Investment Company announced an agreement to take a significant minority stake in Chinese coffee giant Luckin Coffee as part of a transaction valued at approximately...",
+          "image": "",
+          "publishedAt": "2026-09-10T19:42:28.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Kahwa Coffee Marks 20 Years with Major Production Expansion in Florida",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/09/10/kahwa-coffee-marks-20-years-with-major-production-expansion-in-florida/",
+          "summary": "After 20 years of bringing specialty coffee to Florida and beyond, Kahwa Coffee has entered a new era with a move into a 24,742-square-foot corporate and production headquarters in St....",
+          "image": "",
+          "publishedAt": "2026-09-10T19:34:19.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "How to choose a grind setting",
+          "source": "Scott Rao",
+          "sourceUrl": "https://www.scottrao.com/blog/how-to-choose-a-grind-setting",
+          "summary": "Weber EG-1 grinder and “The Bird” brewer I often get asked versions of “what grind setting would I use for a v60 and the xyz grinder?” There are a few problems with these questions: I’ve usually not used that grinder (Not sure if people think I test different grinders daily. That",
+          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1777885941847-VBFRONQ0XRXP34B9OYOM/edbb8747-c381-4bca-a0db-d0d1549145f2.png?format=1500w",
+          "publishedAt": "2026-05-05T00:27:11.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "The Importance of Bed Depth",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2025/11/28/the-pulsar-mini-and-the-importance-of-bed-depth/",
+          "summary": "In this post, I discuss the impact of bed depths on brewing filter coffee, and how this impacts my favorite brew parameters with the Pulsar and the Pulsar mini, and I offer some reasons why I think bed depths affects flavor in the way it does.",
+          "image": "https://coffeeadastra.com/wp-content/uploads/2025/11/image.png",
+          "publishedAt": "2025-11-29T05:00:00.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The Coffee Cup Runneth Over: Winners of the Inaugural Kenneth Davids Cup",
+          "source": "Coffee Review",
+          "sourceUrl": "https://www.coffeereview.com/winners-inaugural-kenneth-davids-cup/",
+          "summary": "Coffee competitions are good at producing winners. And like many Coffee Review reports, they can offer a snapshot of where coffee is now — what producers are growing, how they are processing it, what roasters value, and what kinds of pleasure drinkers will find in the cup. The in",
+          "image": "https://www.coffeereview.com/wp-content/uploads/2026/09/CR_KDC_Slider_Image_high_res.September_2026-1024x683.png",
+          "publishedAt": "2026-09-10T03:35:31.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Shardor Grinder Review: Janky, But Delicious",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/shardor-grinder-review/",
+          "summary": "The Shardor is by far the cheapest ticket into 64mm flat burr land. So what's the catch? The post Shardor Grinder Review: Janky, But Delicious appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-07-25T20:58:14.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "George Peng",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/george-peng/",
+          "summary": "After Becoming World Champion, George Peng Still Has Coffee to Make. George Peng used to deal with pressure by posting strange things on WeChat Moments. Sometimes it was nonsense, sometimes a movie scene, sometimes a Stephen Chow reference that said what he wanted to say without ",
+          "image": "",
+          "publishedAt": "2026-09-10T22:52:00.000Z",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Frederick Ruben",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/frederick-ruben/",
+          "summary": "If you’ve met Frederick Ruben at a coffee events chances are you’ve seen the same thing we did. He’s friendly. Easy to talk to. The kind of person who says hello to everyone in the room. Over the past few years, we’ve crossed paths with him several times at coffee events and comp",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/06/Ruben-1024x706.jpg",
+          "publishedAt": "2026-06-08T17:44:35.000Z",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-09T20-37-18",
       "scannedAt": "2026-09-09T20:37:18.103Z",
       "items": [
