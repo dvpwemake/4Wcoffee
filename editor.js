@@ -526,17 +526,6 @@
 
     async fetchOgImage(url) {
       if (!url || url === "#") return "";
-      try {
-        var local = await fetch("api/fetch-cover.php?url=" + encodeURIComponent(url), {
-          credentials: "same-origin",
-        });
-        if (local.ok) {
-          var j = await local.json();
-          if (j && j.image) return String(j.image);
-        }
-      } catch (e0) {
-        /* fall through to public proxies (local editor / no PHP) */
-      }
       var proxies = [
         "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
         "https://corsproxy.io/?" + encodeURIComponent(url),
