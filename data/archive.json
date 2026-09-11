@@ -2,7 +2,7 @@
   "batches": [
     {
       "batchId": "editorial_2026-09-08",
-      "scannedAt": "2026-09-11T03:57:52.130Z",
+      "scannedAt": "2026-09-11T04:13:18.572Z",
       "kind": "editorial_archive",
       "items": [
         {
@@ -10,7 +10,7 @@
           "rank": 0,
           "title": "Not a statement cafe",
           "category": "editorial",
-          "categoryLabel": "editorial",
+          "categoryLabel": "Editorial",
           "summary": "Two dollars in Over-the-Rhine. A beach already had the brief.",
           "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Radical-Bean-Cincinatti-Ohio-1.jpg",
           "source": "Fourth Wave Coffee · Editorial",
