@@ -701,8 +701,6 @@
         esc(src) +
         '" alt="" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-proxy="' +
         esc(proxy) +
-        '" data-fallback="' +
-        esc(local) +
         '" data-cat="' +
         esc(tag) +
         '" onerror="Desk.thumbFail(this)"></div>' +
