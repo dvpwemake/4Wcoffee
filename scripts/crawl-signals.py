@@ -31,12 +31,13 @@ def strip_html(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+# Do not use ads? — that matches the letters "ad" inside "uploads".
 AD_OR_CHROME_RE = re.compile(
-    r"ads?(?:erver|service)?|advert|banner|sponsor|doubleclick|googlesyndication|"
-    r"adservice|adnxs|taboola|outbrain|criteo|pixel|tracking|1x1|spacer|sprite|"
-    r"logo|favicon|icon[-_/]|avatar|emoji|sharethis|addthis|badge|widget|promo|"
-    r"newsletter|popup|cookie|consent|facebook\.com/tr|analytics|scorecard|"
-    r"blank\.gif|spacer\.gif|data:image/gif",
+    r"adserver|adservice|/ads/|advert|banner|sponsor|doubleclick|googlesyndication|"
+    r"adnxs|taboola|outbrain|criteo|1x1|spacer|sprite|favicon|"
+    r"logo[-_/]|[-_/]logo|icon[-_/]|[-_/]icon|avatar|emoji|sharethis|addthis|"
+    r"badge|widget|promo|newsletter|popup|cookie|consent|facebook\.com/tr|"
+    r"analytics|scorecard|blank\.gif|spacer\.gif|pixel\.gif|data:image/gif",
     re.I,
 )
 

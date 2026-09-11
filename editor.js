@@ -404,7 +404,7 @@
     isAdOrChrome(url, extra) {
       var blob = String(url || "") + " " + String(extra || "");
       blob = blob.toLowerCase();
-      return /ads?(?:erver|service)?|advert|banner|sponsor|doubleclick|googlesyndication|pixel|tracking|1x1|spacer|sprite|logo|favicon|icon[-_/]|avatar|blank\.gif|taboola|outbrain|criteo/.test(
+      return /adserver|adservice|\/ads\/|advert|banner|sponsor|doubleclick|googlesyndication|1x1|spacer|sprite|favicon|logo[-_/]|[-_/]logo|icon[-_/]|[-_/]icon|avatar|blank\.gif|pixel\.gif|taboola|outbrain|criteo/.test(
         blob
       );
     }
@@ -467,6 +467,17 @@
 
     async fetchOgImage(url) {
       if (!url || url === "#") return "";
+      try {
+        var local = await fetch("api/fetch-cover.php?url=" + encodeURIComponent(url), {
+          credentials: "same-origin",
+        });
+        if (local.ok) {
+          var j = await local.json();
+          if (j && j.image) return String(j.image);
+        }
+      } catch (e0) {
+        /* fall through to public proxies (local editor / no PHP) */
+      }
       var proxies = [
         "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
         "https://corsproxy.io/?" + encodeURIComponent(url),
@@ -805,11 +816,11 @@
         return;
       }
       if (btn) btn.disabled = true;
-      this.toast("Fetching og:image…", "info");
+      this.toast("Fetching cover from article…", "info");
       var og = await this.fetchOgImage(it.sourceUrl);
       if (btn) btn.disabled = false;
       if (!og) {
-        this.toast("No og:image found.", "error");
+        this.toast("No usable photo on that article.", "error");
         return;
       }
       var inp = row.querySelector(".sig-img");
@@ -823,7 +834,8 @@
       var items = data.items || [];
       this.toast("Fetching covers…", "info");
       for (var i = 0; i < items.length; i++) {
-        if (items[i].image) continue;
+        var cur = items[i].image || "";
+        if (cur && !this.isAdOrChrome(cur)) continue;
         var og = await this.fetchOgImage(items[i].sourceUrl);
         if (og) items[i].image = og;
       }
