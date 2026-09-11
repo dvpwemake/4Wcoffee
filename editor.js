@@ -2181,13 +2181,27 @@
       });
     }
 
+    ghErrMessage(status, text) {
+      var msg = "";
+      try {
+        var j = JSON.parse(text || "{}");
+        msg = j.message || "";
+      } catch (e) {
+        msg = String(text || "").slice(0, 160);
+      }
+      if (status === 409) return "GitHub 409: file changed (retry). " + msg;
+      if (status === 422) return "GitHub 422: " + (msg || "invalid payload");
+      if (status === 401 || status === 403) return "GitHub " + status + ": token cannot write Contents on dvpwemake/4Wcoffee.";
+      return "GitHub " + status + (msg ? ": " + msg : " publish failed");
+    }
+
     async putGithubFile(path, content, message) {
       var owner = "dvpwemake";
       var repo = "4Wcoffee";
       var branch = "main";
       var token = this.readPat();
       if (!token) {
-        var field = document.getElementById("ghPat");
+        var field = document.getElementById("ghPat") || document.querySelector(".gh-pat");
         if (field) field.focus();
         this.toast("Paste a GitHub PAT with Contents write on dvpwemake/4Wcoffee.", "error");
         return false;
@@ -2199,43 +2213,55 @@
         repo +
         "/contents/" +
         encodeURI(path);
-      var sha = null;
-      var cur = await fetch(api + "?ref=" + encodeURIComponent(branch), {
-        headers: this.ghHeaders(token, false),
-      });
-      if (cur.status === 401 || cur.status === 403) {
+      var encoded = this.b64Utf8(content);
+      var attempt = 0;
+      while (attempt < 3) {
+        attempt++;
         try {
-          sessionStorage.removeItem("fw_gh_pat");
-        } catch (e) {
-          /* ignore */
+          var sha = null;
+          var cur = await fetch(api + "?ref=" + encodeURIComponent(branch), {
+            headers: this.ghHeaders(token, false),
+          });
+          if (cur.status === 401 || cur.status === 403) {
+            try {
+              sessionStorage.removeItem("fw_gh_pat");
+            } catch (e) {
+              /* ignore */
+            }
+            document.querySelectorAll(".gh-pat").forEach(function (el) {
+              el.value = "";
+            });
+            this.toast(this.ghErrMessage(cur.status, await cur.text()), "error");
+            return false;
+          }
+          if (cur.ok) {
+            var curJ = await cur.json();
+            sha = curJ.sha;
+          }
+          var body = {
+            message: message,
+            content: encoded,
+            branch: branch,
+          };
+          if (sha) body.sha = sha;
+          var put = await fetch(api, {
+            method: "PUT",
+            headers: this.ghHeaders(token, true),
+            body: JSON.stringify(body),
+          });
+          if (put.ok) return true;
+          var errT = await put.text();
+          this.log("err", "GitHub publish failed " + path + ": " + put.status + " " + errT.slice(0, 180));
+          if (put.status === 409 && attempt < 3) continue;
+          this.toast(this.ghErrMessage(put.status, errT), "error");
+          return false;
+        } catch (err) {
+          this.log("err", "GitHub publish threw " + path + ": " + (err.message || err));
+          this.toast("GitHub publish failed: " + (err.message || "network"), "error");
+          return false;
         }
-        var bad = document.getElementById("ghPat");
-        if (bad) bad.value = "";
-        this.toast("Token rejected. Paste a valid PAT and try again.", "error");
-        return false;
       }
-      if (cur.ok) {
-        var curJ = await cur.json();
-        sha = curJ.sha;
-      }
-      var body = {
-        message: message,
-        content: this.b64Utf8(content),
-        branch: branch,
-      };
-      if (sha) body.sha = sha;
-      var put = await fetch(api, {
-        method: "PUT",
-        headers: this.ghHeaders(token, true),
-        body: JSON.stringify(body),
-      });
-      if (!put.ok) {
-        var errT = await put.text();
-        this.log("err", "GitHub publish failed " + path + ": " + put.status + " " + errT.slice(0, 180));
-        this.toast("GitHub publish failed.", "error");
-        return false;
-      }
-      return true;
+      return false;
     }
 
     async publishGithub() {
@@ -2264,8 +2290,23 @@
       return data;
     }
 
+    setPublishBusy(on) {
+      document.querySelectorAll("button").forEach(function (b) {
+        var label = (b.textContent || "").replace(/\s+/g, " ").trim();
+        if (/Publish Latest Beat/i.test(label)) b.disabled = !!on;
+      });
+    }
+
     async publishSignals() {
+      if (this._publishingSignals) {
+        this.toast("Publish already in progress.", "info");
+        return;
+      }
+      this._publishingSignals = true;
+      this.setPublishBusy(true);
+      try {
       var data = this.signalsPayload();
+      delete data.log;
       global.SIGNALS = data;
       var js = "window.SIGNALS = " + JSON.stringify(data) + ";\n";
       var json = JSON.stringify(data, null, 2) + "\n";
@@ -2286,6 +2327,10 @@
       }
       this.log("ok", "Published signals.data.js (" + (data.items || []).length + " items)");
       this.toast("Latest Beat updated on GitHub.", "success");
+      } finally {
+        this._publishingSignals = false;
+        this.setPublishBusy(false);
+      }
     }
 
     toast(msg, kind) {
