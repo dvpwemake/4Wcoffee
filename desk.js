@@ -394,12 +394,11 @@
       if (ed) {
         push(ed.heroImage, ed.heroCredit, ed.heroSource, ed.heroSourceUrl, ed.title);
       }
-      if (!slides.length) {
-        var local = takeLocal(seen);
-        if (local) push(local.replace(prefix(), ""), "Fourth Wave Coffee", "Fourth Wave Coffee", "", ed && ed.title);
-      }
       ((global.SIGNALS && global.SIGNALS.items) || []).forEach(function (it) {
-        if (it.image) push(it.image, it.source, it.source, it.sourceUrl, it.title);
+        var im = String(it.image || "");
+        if (im && /^https?:/i.test(im) && im.indexOf("image/") === -1) {
+          push(im, it.source, it.source, it.sourceUrl, it.title);
+        }
       });
       return slides;
     },
@@ -647,14 +646,6 @@
         img.src = img.dataset.proxy;
         return;
       }
-      var used = Desk.usedPhotos || {};
-      var next = takeLocal(used);
-      Desk.usedPhotos = used;
-      if (next && img.src.indexOf(next) === -1) {
-        img.src = next;
-        img.removeAttribute("data-proxy");
-        return;
-      }
       var wrap = img.parentElement;
       img.remove();
       var f = document.createElement("div");
@@ -666,26 +657,18 @@
     cardHtml: function (it, usedImages) {
       usedImages = usedImages || {};
       var internal = !!(it.isEditorialArchive || it.category === "editorial");
-      var raw = it.image || "";
+      var raw = String(it.image || "").trim();
+      if (raw.indexOf("image/") === 0 || /fourthwavecoffee\.org\/image\//i.test(raw)) raw = "";
       var key = photoKey(raw);
-      var src;
+      var src = "";
       if (raw && /^https?:/i.test(raw)) {
-        if (!internal && usedImages[key]) src = takeLocal(usedImages);
+        if (!internal && usedImages[key]) src = "";
         else {
           usedImages[key] = true;
           src = raw;
         }
-      } else if (raw && photoKey(raw).indexOf("image/") === 0) {
-        if (usedImages[photoKey(raw)]) src = takeLocal(usedImages);
-        else {
-          usedImages[photoKey(raw)] = true;
-          src = prefix() + photoKey(raw);
-        }
-      } else {
-        src = takeLocal(usedImages);
       }
-      if (!src) src = prefix() + (FALLBACK[it.category] || FALLBACK.editorial);
-      var proxy = proxyUrl(raw);
+      var proxy = proxyUrl(src || raw);
       var href = it.sourceUrl || "#";
       if (internal && it.publishDate) href = prefix() + permalinkPath(it.publishDate);
       var tgt = internal ? "" : ' target="_blank" rel="noopener"';
@@ -697,13 +680,17 @@
         '"' +
         tgt +
         ">" +
-        '<div class="n-img"><img src="' +
-        esc(src) +
-        '" alt="" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-proxy="' +
-        esc(proxy) +
-        '" data-cat="' +
-        esc(tag) +
-        '" onerror="Desk.thumbFail(this)"></div>' +
+        '<div class="n-img">' +
+        (src
+          ? '<img src="' +
+            esc(src) +
+            '" alt="" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-proxy="' +
+            esc(proxy) +
+            '" data-cat="' +
+            esc(tag) +
+            '" onerror="Desk.thumbFail(this)">'
+          : '<div class="fallback">' + esc(tag) + "</div>") +
+        "</div>" +
         '<div class="beat-body">' +
         '<span class="tag ' +
         esc(it.category || "") +

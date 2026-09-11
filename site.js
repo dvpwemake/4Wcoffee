@@ -567,18 +567,12 @@
     static pickCover(it, used) {
       used = used || {};
       const raw = String((it && it.image) || "").trim();
+      if (!raw || raw.indexOf("image/") === 0 || /fourthwavecoffee\.org\/image\//i.test(raw)) return "";
       const key = HomeStrips.photoKey(raw);
-      if (raw && /^https?:/i.test(raw)) {
-        if (used[key]) return HomeStrips.takeLocal(used);
-        used[key] = true;
-        return raw;
-      }
-      if (key.indexOf("image/") === 0) {
-        if (used[key]) return HomeStrips.takeLocal(used);
-        used[key] = true;
-        return key;
-      }
-      return HomeStrips.takeLocal(used);
+      if (!/^https?:/i.test(raw)) return "";
+      if (used[key]) return "";
+      used[key] = true;
+      return raw;
     }
 
     static beatCard(it, used) {
@@ -595,11 +589,17 @@
         '"' +
         tgt +
         ">" +
-        '<div class="n-img"><img src="' +
-        HomeStrips.esc(src) +
-        '" alt="" referrerpolicy="no-referrer" data-proxy="' +
-        HomeStrips.esc(proxy) +
-        '" onerror="if(this.dataset.proxy&&!this.dataset.tried){this.dataset.tried=1;this.src=this.dataset.proxy}"></div>' +
+        '<div class="n-img">' +
+        (src
+          ? '<img src="' +
+            HomeStrips.esc(src) +
+            '" alt="" referrerpolicy="no-referrer" data-proxy="' +
+            HomeStrips.esc(proxy) +
+            '" onerror="if(this.dataset.proxy&&!this.dataset.tried){this.dataset.tried=1;this.src=this.dataset.proxy;return;}this.outerHTML=\'<div class=fallback>' +
+            HomeStrips.esc(tag) +
+            "</div>'\">"
+          : '<div class="fallback">' + HomeStrips.esc(tag) + "</div>") +
+        "</div>" +
         '<div class="beat-body">' +
         '<span class="tag ' +
         HomeStrips.esc(it.category || "") +

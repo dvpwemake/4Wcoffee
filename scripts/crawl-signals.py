@@ -115,12 +115,20 @@ def content_images(html: str, page_url: str) -> list[str]:
     out = []
     seen = set()
     for m in re.finditer(
-        r'<img\b([^>]*?)src=["\']([^"\']+)["\']([^>]*)>',
+        r'<img\b([^>]*)>',
         hay,
         re.I,
     ):
         tag = m.group(0)
-        src = abs_url(m.group(2), page_url)
+        src = ""
+        sm = re.search(r'(?:src|data-src|data-lazy-src)=["\']([^"\']+)["\']', tag, re.I)
+        if sm:
+            src = abs_url(sm.group(1), page_url)
+        if (not src or src.startswith("data:")) and "srcset" in tag.lower():
+            ss = re.search(r'srcset=["\']([^"\']+)["\']', tag, re.I)
+            if ss:
+                first = ss.group(1).split(",")[0].strip().split()[0]
+                src = abs_url(first, page_url)
         if not src or is_ad_or_chrome(src, tag):
             continue
         cls = (re.search(r'class=["\']([^"\']+)', tag, re.I) or [None, ""])[1]
@@ -145,10 +153,18 @@ def pick_cover(html: str, page_url: str, rss_img: str = "") -> str:
     return body[0] if body else ""
 
 
+def is_site_stock(url: str) -> bool:
+    u = (url or "").lower()
+    return "image/carosal" in u or "fourthwavecoffee.org/image/" in u or "encrypted-tbn" in u
+
+
 def enrich_image(item: dict) -> dict:
     url = item.get("sourceUrl") or ""
     rss = item.get("image") or ""
-    if rss and not is_ad_or_chrome(rss):
+    if rss and (is_site_stock(rss) or is_ad_or_chrome(rss)):
+        rss = ""
+        item["image"] = ""
+    if rss and not is_ad_or_chrome(rss) and not is_site_stock(rss):
         return item
     if not url.startswith("http"):
         if rss and is_ad_or_chrome(rss):

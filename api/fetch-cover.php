@@ -92,11 +92,19 @@ if ($image === '') {
     } else {
         $hay = $body;
     }
-    if (preg_match_all('#<img\b([^>]*?)src=["\']([^"\']+)["\']([^>]*)>#i', $hay, $imgs, PREG_SET_ORDER)) {
+    if (preg_match_all('#<img\b([^>]*)>#i', $hay, $imgs, PREG_SET_ORDER)) {
         foreach ($imgs as $im) {
             $tag = $im[0];
-            $u = abs_url($im[2], $src);
-            if ($u && !is_chrome($u, $tag)) {
+            $u = '';
+            if (preg_match('#(?:src|data-src|data-lazy-src)=["\']([^"\']+)["\']#i', $tag, $sm)) {
+                $u = abs_url($sm[1], $src);
+            }
+            if ((!$u || strpos($u, 'data:') === 0) && preg_match('#srcset=["\']([^"\']+)["\']#i', $tag, $ss)) {
+                $first = trim(explode(',', $ss[1])[0]);
+                $first = preg_split('/\s+/', $first)[0];
+                $u = abs_url($first, $src);
+            }
+            if ($u && !is_chrome($u, $tag) && strpos($u, 'image/carosal') === false) {
                 $image = $u;
                 break;
             }
