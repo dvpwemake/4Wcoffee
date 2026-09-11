@@ -1,26 +1,46 @@
 window.EDITORIAL = {
-  "id": "ed_2026-09-09",
-  "publishDate": "2026-09-09",
+  "id": "ed_2026-09-11",
+  "publishDate": "2026-09-11",
   "status": "published",
-  "title": "Roast it yourself",
-  "dek": "The lightest cup that is not hay. A theatre in Lincoln Heights.",
+  "title": "Not just the judges",
+  "dek": "Champions on the road. Milk that takes on water from the wand.",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
-  "heroCredit": "Lincoln Heights Theatre, Stumptown. Sprudge.",
-  "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/stumptown-coffee-roasters-to-open-flagship-la-location-in-historic-lincoln-heights-theatre-1327035.html",
-  "wordCount": 286,
+  "heroImage": "https://perfectdailygrind.com/wp-content/uploads/2026/09/Boram-Um.webp",
+  "heroCredit": "Boram Um. Perfect Daily Grind.",
+  "heroSource": "Perfect Daily Grind",
+  "heroSourceUrl": "https://perfectdailygrind.com/2026/09/baristas-going-on-tour/",
+  "wordCount": 295,
   "paragraphs": [
-    "Scott Rao sample roasts at Prodigal because a supplier's roast is not his roast. Two choices: take their sample, or roast your own. Color changes the score. Color changes the buy. He wants the lightest cup that is not hay, grass, corn, or cereal. Importers do not roast that light. He uses a Roest L200. They run about seven batches an hour. The machine can do fifteen. He weighs the green to a hundredth of a gram.",
-    "On Wednesday, September 9, 2026, we hold that hundred grams to one pressure: who still decides the green when the room is a theatre, and when the machine sits on a car.",
-    "Stumptown Coffee Roasters is going back to Los Angeles proper. The flagship is the historic Lincoln Heights Theatre. Retail and training share a restored house. Rocket Espresso presented Rocket X Audi. A cooperation, they said, for exceptional coffee enjoyment. In East Java, GCAG Indonesia ran three days of coffee education with young farmers at origin. Fourteen countries. Twenty one cities. Shipping paused from August 18 through September 5 so the work could happen on the ground. Ibrahim H. Al Mallouhi was nine, in an old house near the port, smelling beans his grandmother cooled on the floor. He wants to be remembered for serving the best coffee the world produces. Not the title. The Kingrinder P2 is a manual mill at forty five dollars. Three hundred thirty grams. Plastic body. Stainless burrs. Static clings unless you wet the beans. You turn the handle.",
-    "A sample you roast yourself. A theatre with a counter. A hand in the cooling beans. The fourth wave is not a flagship. It is whether the buy still starts at a hundred grams."
+    "Champion baristas are going on tour. Bar takeovers. Tastings. A walk through the competition routine for people who never sat with the judges. Jack Simpson, 2025 World Barista Champion, is with FAEMA in Asia Pacific. On 14 September he is in Barcelona for a tasting and a live Q and A. Boram Um took the same road after 2023, across North America, Europe, and Asia. The events rarely turn a profit. The title still has to meet the room.",
+    "On Friday, September 11, 2026, we hold that room to one pressure: who still pours for the people who drink it when the milk is a bot, and when the crema is made after the shot.",
+    "The Global Coffee Awards named Sweet Bloom Coffee of Denver overall winner for the United States and Canada. Houston, 10 and 11 August. Double blind. Q graders. Barista Hustle weighed steamed milk at 55 C and found 7.5 to 10 percent extra water from the wand. Jack Simpson and Anthony Douglas concentrate milk instead. Automated foamers do not add that water. Ubermilk Plus can tap alternative milks. A later blind test of fake crema, a Nanofoamer on premade espresso, went 9 to 1 against the fake. The fake was more acrid. Asser Christensen unpacked a grinder in Denmark and brewed a coffee he knew. It tasted like nothing. Fruit gone. Danish tap. Filter coffee, he says, wants water between 30 and 100 TDS. The Breville Bambino Plus still pulls shots he likes, years on. A beginner machine.",
+    "A champion in a room that is not a stage. A wand that waters the milk. A cup that went quiet. The fourth wave is not the trophy. It is whether the pour still happens in front of the people who drink it."
   ],
-  "body": "Scott Rao sample roasts at Prodigal because a supplier's roast is not his roast. Two choices: take their sample, or roast your own. Color changes the score. Color changes the buy. He wants the lightest cup that is not hay, grass, corn, or cereal. Importers do not roast that light. He uses a Roest L200. They run about seven batches an hour. The machine can do fifteen. He weighs the green to a hundredth of a gram.\n\nOn Wednesday, September 9, 2026, we hold that hundred grams to one pressure: who still decides the green when the room is a theatre, and when the machine sits on a car.\n\nStumptown Coffee Roasters is going back to Los Angeles proper. The flagship is the historic Lincoln Heights Theatre. Retail and training share a restored house. Rocket Espresso presented Rocket X Audi. A cooperation, they said, for exceptional coffee enjoyment. In East Java, GCAG Indonesia ran three days of coffee education with young farmers at origin. Fourteen countries. Twenty one cities. Shipping paused from August 18 through September 5 so the work could happen on the ground. Ibrahim H. Al Mallouhi was nine, in an old house near the port, smelling beans his grandmother cooled on the floor. He wants to be remembered for serving the best coffee the world produces. Not the title. The Kingrinder P2 is a manual mill at forty five dollars. Three hundred thirty grams. Plastic body. Stainless burrs. Static clings unless you wet the beans. You turn the handle.\n\nA sample you roast yourself. A theatre with a counter. A hand in the cooling beans. The fourth wave is not a flagship. It is whether the buy still starts at a hundred grams."
+  "body": "Champion baristas are going on tour. Bar takeovers. Tastings. A walk through the competition routine for people who never sat with the judges. Jack Simpson, 2025 World Barista Champion, is with FAEMA in Asia Pacific. On 14 September he is in Barcelona for a tasting and a live Q and A. Boram Um took the same road after 2023, across North America, Europe, and Asia. The events rarely turn a profit. The title still has to meet the room.\n\nOn Friday, September 11, 2026, we hold that room to one pressure: who still pours for the people who drink it when the milk is a bot, and when the crema is made after the shot.\n\nThe Global Coffee Awards named Sweet Bloom Coffee of Denver overall winner for the United States and Canada. Houston, 10 and 11 August. Double blind. Q graders. Barista Hustle weighed steamed milk at 55 C and found 7.5 to 10 percent extra water from the wand. Jack Simpson and Anthony Douglas concentrate milk instead. Automated foamers do not add that water. Ubermilk Plus can tap alternative milks. A later blind test of fake crema, a Nanofoamer on premade espresso, went 9 to 1 against the fake. The fake was more acrid. Asser Christensen unpacked a grinder in Denmark and brewed a coffee he knew. It tasted like nothing. Fruit gone. Danish tap. Filter coffee, he says, wants water between 30 and 100 TDS. The Breville Bambino Plus still pulls shots he likes, years on. A beginner machine.\n\nA champion in a room that is not a stage. A wand that waters the milk. A cup that went quiet. The fourth wave is not the trophy. It is whether the pour still happens in front of the people who drink it."
 };
 window.EDITORIAL.body = window.EDITORIAL.paragraphs.join("\n\n");
 window.EDITORIAL_HISTORY = [
+  {
+    "id": "ed_2026-09-09",
+    "publishDate": "2026-09-09",
+    "status": "published",
+    "title": "Roast it yourself",
+    "dek": "The lightest cup that is not hay. A theatre in Lincoln Heights.",
+    "authorName": "Dr. Wallace Lynch",
+    "authorTitle": "Editor in Chief",
+    "heroImage": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
+    "heroCredit": "Lincoln Heights Theatre, Stumptown. Sprudge.",
+    "heroSource": "Sprudge",
+    "heroSourceUrl": "https://sprudge.com/stumptown-coffee-roasters-to-open-flagship-la-location-in-historic-lincoln-heights-theatre-1327035.html",
+    "wordCount": 286,
+    "paragraphs": [
+      "Scott Rao sample roasts at Prodigal because a supplier's roast is not his roast. Two choices: take their sample, or roast your own. Color changes the score. Color changes the buy. He wants the lightest cup that is not hay, grass, corn, or cereal. Importers do not roast that light. He uses a Roest L200. They run about seven batches an hour. The machine can do fifteen. He weighs the green to a hundredth of a gram.",
+      "On Wednesday, September 9, 2026, we hold that hundred grams to one pressure: who still decides the green when the room is a theatre, and when the machine sits on a car.",
+      "Stumptown Coffee Roasters is going back to Los Angeles proper. The flagship is the historic Lincoln Heights Theatre. Retail and training share a restored house. Rocket Espresso presented Rocket X Audi. A cooperation, they said, for exceptional coffee enjoyment. In East Java, GCAG Indonesia ran three days of coffee education with young farmers at origin. Fourteen countries. Twenty one cities. Shipping paused from August 18 through September 5 so the work could happen on the ground. Ibrahim H. Al Mallouhi was nine, in an old house near the port, smelling beans his grandmother cooled on the floor. He wants to be remembered for serving the best coffee the world produces. Not the title. The Kingrinder P2 is a manual mill at forty five dollars. Three hundred thirty grams. Plastic body. Stainless burrs. Static clings unless you wet the beans. You turn the handle.",
+      "A sample you roast yourself. A theatre with a counter. A hand in the cooling beans. The fourth wave is not a flagship. It is whether the buy still starts at a hundred grams."
+    ]
+  },
   {
     "id": "ed_2026-09-08",
     "publishDate": "2026-09-08",
