@@ -180,12 +180,56 @@ def enrich_image(item: dict) -> dict:
             item["image"] = ""
             print("  cover skip-ad", (item.get("title") or "")[:48])
         else:
+            item["image"] = ""
             print("  cover none", (item.get("title") or "")[:48])
     except Exception as e:
         print("  cover fail", url, e)
         if rss and is_ad_or_chrome(rss):
             item["image"] = ""
     return item
+
+
+STOCK_POOL = [
+    "image/carosal/cafe-scene-6887.jpg",
+    "image/carosal/cafe-scene-7252.jpg",
+    "image/carosal/cafe-scene-7378.jpg",
+    "image/carosal/cafe-scene-7439.jpg",
+    "image/carosal/cafe-scene-7473.jpg",
+    "image/carosal/cafe-scene-7623.jpg",
+    "image/carosal/cafe-scene-7717.jpg",
+    "image/carosal/cafe-scene-8167.png",
+    "image/carosal/cafe-scene-8168.png",
+    "image/carosal/cafe-scene-8174.png",
+    "image/carosal/cafe-scene-8186.png",
+    "image/carosal/cafe-scene-8187.png",
+    "image/carosal/cafe-scene-8188.png",
+    "image/carosal/cafe-scene-8190.png",
+    "image/carosal/cafe-scene-8192.png",
+    "image/carosal/cafe-scene-8198.png",
+    "image/carosal/cafe-scene-8204.png",
+    "image/carosal/cafe-scene-8205.png",
+]
+
+
+def assign_stock_if_empty(items: list) -> None:
+    """Last resort only: unique local stills when the source has no photo at all."""
+    used = set()
+    for it in items:
+        img = it.get("image") or ""
+        if img.startswith("image/carosal"):
+            used.add(img)
+    stock_i = 0
+    for it in items:
+        if it.get("image"):
+            continue
+        while stock_i < len(STOCK_POOL) and STOCK_POOL[stock_i] in used:
+            stock_i += 1
+        if stock_i >= len(STOCK_POOL):
+            break
+        it["image"] = STOCK_POOL[stock_i]
+        used.add(STOCK_POOL[stock_i])
+        print("  stock", STOCK_POOL[stock_i], (it.get("title") or "")[:40])
+        stock_i += 1
 
 
 def parse_date(raw: str) -> datetime:
@@ -414,17 +458,22 @@ def crawl(deleted: list | None = None) -> dict:
             item["id"] = f"{cat_id}-{len(top)+1}"
             top.append(enrich_image(item))
         picked[cat_id] = top
+    items = [
+        dict(it, rank=i)
+        for i, it in enumerate(
+            (it for cat in SRC["categories"] for it in picked.get(cat, [])),
+            start=1,
+        )
+    ]
+    assign_stock_if_empty(items)
+    by = {cat: [] for cat in SRC["categories"]}
+    for it in items:
+        by.setdefault(it.get("category") or "industry", []).append(it)
     batch = {
         "scannedAt": datetime.now(timezone.utc).isoformat(),
         "categories": {k: v["label"] for k, v in SRC["categories"].items()},
-        "items": [
-            dict(it, rank=i)
-            for i, it in enumerate(
-                (it for cat in SRC["categories"] for it in picked.get(cat, [])),
-                start=1,
-            )
-        ],
-        "byCategory": picked,
+        "items": items,
+        "byCategory": by,
         "deleted": deleted,
         "log": log,
     }

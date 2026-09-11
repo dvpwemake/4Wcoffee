@@ -507,21 +507,18 @@
 
     assignUniqueCover(it, used) {
       var raw = String((it && it.image) || "").trim();
-      if (raw.indexOf("image/") === 0 || /fourthwavecoffee\.org\/image\//i.test(raw)) {
-        it.image = "";
-        raw = "";
-      }
+      var fromSource = raw && /^https?:/i.test(raw) && !this.isAdOrChrome(raw) && raw.indexOf("image/carosal") === -1;
       var key = this.photoKey(raw);
-      if (raw && /^https?:/i.test(raw) && !this.isAdOrChrome(raw)) {
+      if (fromSource) {
         if (used[key]) {
-          it.image = "";
-          return "";
+          it.image = this.takeLocal(used);
+          return it.image;
         }
         used[key] = true;
         return raw;
       }
-      it.image = "";
-      return "";
+      it.image = this.takeLocal(used);
+      return it.image;
     }
 
     async fetchOgImage(url) {

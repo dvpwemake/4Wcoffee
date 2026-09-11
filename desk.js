@@ -646,6 +646,14 @@
         img.src = img.dataset.proxy;
         return;
       }
+      var used = Desk.usedPhotos || {};
+      var next = takeLocal(used);
+      Desk.usedPhotos = used;
+      if (next && String(img.src).indexOf(next) === -1) {
+        img.src = next;
+        img.removeAttribute("data-proxy");
+        return;
+      }
       var wrap = img.parentElement;
       img.remove();
       var f = document.createElement("div");
@@ -661,14 +669,15 @@
       if (raw.indexOf("image/") === 0 || /fourthwavecoffee\.org\/image\//i.test(raw)) raw = "";
       var key = photoKey(raw);
       var src = "";
-      if (raw && /^https?:/i.test(raw)) {
+      if (raw && /^https?:/i.test(raw) && raw.indexOf("image/carosal") === -1) {
         if (!internal && usedImages[key]) src = "";
         else {
           usedImages[key] = true;
           src = raw;
         }
       }
-      var proxy = proxyUrl(src || raw);
+      if (!src) src = takeLocal(usedImages);
+      var proxy = proxyUrl(src && /^https?:/i.test(src) ? src : "");
       var href = it.sourceUrl || "#";
       if (internal && it.publishDate) href = prefix() + permalinkPath(it.publishDate);
       var tgt = internal ? "" : ' target="_blank" rel="noopener"';

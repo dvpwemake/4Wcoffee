@@ -567,12 +567,14 @@
     static pickCover(it, used) {
       used = used || {};
       const raw = String((it && it.image) || "").trim();
-      if (!raw || raw.indexOf("image/") === 0 || /fourthwavecoffee\.org\/image\//i.test(raw)) return "";
-      const key = HomeStrips.photoKey(raw);
-      if (!/^https?:/i.test(raw)) return "";
-      if (used[key]) return "";
-      used[key] = true;
-      return raw;
+      const fromSource = raw && /^https?:/i.test(raw) && raw.indexOf("image/carosal") === -1 && !/fourthwavecoffee\.org\/image\//i.test(raw);
+      if (fromSource) {
+        const key = HomeStrips.photoKey(raw);
+        if (used[key]) return HomeStrips.takeLocal(used);
+        used[key] = true;
+        return raw;
+      }
+      return HomeStrips.takeLocal(used);
     }
 
     static beatCard(it, used) {
