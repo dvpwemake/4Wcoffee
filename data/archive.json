@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-11T18-35-49",
+      "scannedAt": "2026-09-11T18:35:49.395201+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Very Hot Coffee Increases Your Risk Of Esophageal Cancer",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/very-hot-coffee-increases-your-risk-of-esophageal-cancer-1329665.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Extra hot coffee is not extra good for your throat.",
+          "image": "",
+          "publishedAt": "2026-09-11T16:12:05+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Coffee Design: Ninety Three Million From Blanchard’s Coffee",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/coffee-design-ninety-three-million-from-blanchards-coffee-1283165.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ninety Three Million by Blanchard's Coffee.",
+          "image": "",
+          "publishedAt": "2026-09-11T14:00:24+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Pre-batched Espresso vs Fresh",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/pre-made-vs-fresh/",
+          "summary": "“We should be hyping this more” was a quote from a podcast we recorded this week. We’d just finished a blind cupping; one which could be more pivotal than we might like to admit … The post Pre-batched Espresso vs Fresh appeared first on Barista Hustle .",
+          "image": "",
+          "publishedAt": "2025-12-15T14:25:53+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "I Got 21[0] Seconds to Spro",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/i-got-210-seconds-to-spro/",
+          "summary": "If you compete in the World Barista Championship, you’ve gotta make twelve beverages in fifteen minutes, right? That’s seventy five seconds per beverage. Easy enough, eh? The post I Got 21[0] Seconds to Spro appeared first on Barista Hustle .",
+          "image": "",
+          "publishedAt": "2025-10-23T10:38:10+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "DeLonghi Essenza Mini Review: “Espresso” on Easy-Mode",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/delonghi-essenza-mini-review-espresso-on-easy-mode/",
+          "summary": "Hot shots, nice crema, and a 25-second heat-up in a machine the width of your hand. The catch? It's not really espresso. The post DeLonghi Essenza Mini Review: “Espresso” on Easy-Mode appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-07-15T12:52:56+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "My Favorite Drip Coffee Makers Currently",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-drip-coffee-makers/",
+          "summary": "The Moccamaster, Aiden, and Breville Precision represent the peak of automatic brewing. But which one is right for you? The post My Favorite Drip Coffee Makers Currently appeared first on The Coffee Chronicler .",
+          "image": "",
+          "publishedAt": "2026-07-12T07:26:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Noon NutRada Kunavivattananon",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/noon-nutrada-kunavivattananon/",
+          "summary": "At twenty-seven, Noon Nutrada Kunavivattananon walked into a room as CEO of one of Thailand’s largest specialty coffee companies. A few years later, she walked into another room as the first female president of the Specialty Coffee Association of Thailand. In both rooms, most peo",
+          "image": "",
+          "publishedAt": "2026-05-24T02:49:36+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Temporary Pause on Studio Operations",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/temporary-pause-on-studio-operations/",
+          "summary": "Due to urgent family circumstances, I’M NOT A BARISTA will temporarily pause most studio operations until June 4th. During this period, shipping, customer support replies, and ongoing project work may be delayed. All existing 135 ml L1GHT cup orders have been packed and shipped b",
+          "image": "",
+          "publishedAt": "2026-05-11T18:04:10+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-08",
       "scannedAt": "2026-09-11T04:13:18.572Z",
       "kind": "editorial_archive",
