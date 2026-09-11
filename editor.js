@@ -401,6 +401,14 @@
       );
     }
 
+    isAdOrChrome(url, extra) {
+      var blob = String(url || "") + " " + String(extra || "");
+      blob = blob.toLowerCase();
+      return /ads?(?:erver|service)?|advert|banner|sponsor|doubleclick|googlesyndication|pixel|tracking|1x1|spacer|sprite|logo|favicon|icon[-_/]|avatar|blank\.gif|taboola|outbrain|criteo/.test(
+        blob
+      );
+    }
+
     parseOgImage(html) {
       var pats = [
         /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i,
@@ -410,9 +418,51 @@
       ];
       for (var i = 0; i < pats.length; i++) {
         var m = html.match(pats[i]);
-        if (m) return m[1].replace(/&amp;/g, "&").trim();
+        if (m) {
+          var u = m[1].replace(/&amp;/g, "&").trim();
+          if (u && !this.isAdOrChrome(u)) return u;
+        }
       }
       return "";
+    }
+
+    parseContentImages(html, pageUrl) {
+      var body = String(html || "")
+        .replace(/<script[\s\S]*?<\/script>/gi, " ")
+        .replace(/<style[\s\S]*?<\/style>/gi, " ")
+        .replace(/<(header|nav|footer|aside|form)\b[\s\S]*?<\/\1>/gi, " ");
+      var chunks = [];
+      var blockRe =
+        /<(article|main)\b[\s\S]*?<\/\1>/gi;
+      var m;
+      while ((m = blockRe.exec(body))) chunks.push(m[0]);
+      var hay = chunks.length ? chunks.join("\n") : body;
+      var out = [];
+      var seen = {};
+      var imgRe = /<img\b([^>]*?)src=["']([^"']+)["']([^>]*)>/gi;
+      while ((m = imgRe.exec(hay))) {
+        var tag = m[0];
+        var src = m[2].replace(/&amp;/g, "&").trim();
+        if (src.indexOf("//") === 0) src = "https:" + src;
+        if (src.indexOf("/") === 0 && pageUrl) {
+          try {
+            src = new URL(src, pageUrl).href;
+          } catch (e) {
+            src = "";
+          }
+        }
+        if (!src || src.indexOf("http") !== 0) continue;
+        if (this.isAdOrChrome(src, tag)) continue;
+        var key = src.split("?")[0].toLowerCase();
+        if (seen[key]) continue;
+        seen[key] = true;
+        out.push(src);
+      }
+      return out;
+    }
+
+    parseCoverFromHtml(html, pageUrl) {
+      return this.parseOgImage(html) || (this.parseContentImages(html, pageUrl)[0] || "");
     }
 
     async fetchOgImage(url) {
@@ -425,8 +475,8 @@
         try {
           var r = await fetch(proxies[i]);
           if (!r.ok) continue;
-          var og = this.parseOgImage(await r.text());
-          if (og) return og;
+          var cover = this.parseCoverFromHtml(await r.text(), url);
+          if (cover) return cover;
         } catch (e) {
           /* next proxy */
         }
@@ -1632,51 +1682,87 @@
 
     forceEditorialDraft() {
       var items = (global.SIGNALS && global.SIGNALS.items) || [];
-      var day = new Date().toISOString().slice(0, 10);
-      var first = items[0] || {};
-      var second = items[1] || {};
+      var day = (document.getElementById("edDate") || {}).value || new Date().toISOString().slice(0, 10);
+      var labels = {
+        industry: "Industry",
+        science: "Science",
+        reviews: "Reviews",
+        origin: "Origin",
+        editorial: "Editorial",
+      };
       var lines = [
-        "DRAFT — not live. Rewrite before Publish. On " + this.displayDate(day) + ", the desk holds these beats.",
+        "EDITORIAL BRIEF (outline only — not for publication as-is)",
+        "Publish date: " + day,
+        "Instruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+        "",
+        "— Selected articles of the day (" + items.length + ") —",
+        "",
       ];
-      items.forEach(function (it) {
-        lines.push(
-          (it.categoryLabel || it.category || "") +
-            ": " +
-            (it.title || "") +
-            " (" +
-            (it.source || "") +
-            "). " +
-            (it.summary || "")
-        );
-      });
-      lines.push("Edit title, dek, and body. Then Publish to Latest Beat.");
-      var body = lines.join("\n\n");
-      var titleEl = document.getElementById("edTitle");
-      var dekEl = document.getElementById("edDek");
-      var dateEl = document.getElementById("edDate");
-      var stEl = document.getElementById("edStatus");
-      var bodyEl = document.getElementById("edBody");
-      if (dateEl) dateEl.value = day;
-      if (stEl) stEl.value = "draft";
-      if (titleEl) titleEl.value = String(first.title || "Daily beat").slice(0, 72);
-      if (dekEl) {
-        dekEl.value = [first.source, second.title].filter(Boolean).join(". ").slice(0, 140);
+      if (!items.length) {
+        lines.push("(No articles available. Run Scan feeds first, then re-run Editorial Draft.)");
+        lines.push("");
       }
-      if (bodyEl) bodyEl.value = body;
-      if (first.image) {
-        var h = document.getElementById("edHero");
-        if (h) h.value = first.image;
-        var cr = document.getElementById("edCredit");
-        if (cr) cr.value = first.source || "";
-        var hs = document.getElementById("edHeroSource");
-        if (hs) hs.value = first.source || "";
-        var hu = document.getElementById("edHeroSourceUrl");
-        if (hu) hu.value = first.sourceUrl || "";
+      var cats = [];
+      var firstImg = null;
+      items.forEach(function (it, i) {
+        var cat = labels[it.category] || it.categoryLabel || "General";
+        if (cats.indexOf(cat) === -1) cats.push(cat);
+        lines.push(i + 1 + ". [" + cat + "] " + (it.title || ""));
+        if (it.source) lines.push("   Source: " + it.source);
+        if (it.sourceUrl) lines.push("   URL: " + it.sourceUrl);
+        lines.push("   Key points:");
+        var sum = String(it.summary || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+        var pts = sum
+          .split(/(?<=[.!?])\s+/)
+          .map(function (s) {
+            return s.trim();
+          })
+          .filter(function (s) {
+            return s.length > 25 && !/subscribe|sign up|click here|the post .+ appeared first/i.test(s);
+          })
+          .slice(0, 4);
+        if (pts.length) {
+          pts.forEach(function (kp) {
+            lines.push("   • " + kp);
+          });
+        } else {
+          lines.push("   • (No summary on file — open URL and note 2–3 facts before writing.)");
+        }
+        lines.push("");
+        if (!firstImg && it.image) firstImg = it;
+      });
+      if (cats.length) {
+        lines.push("— Categories present —");
+        lines.push(cats.join(" · "));
+        lines.push("");
+      }
+      lines.push("— Admin checklist —");
+      lines.push("• Draft original title + dek (vary form: not always What… / Convergence of…)");
+      lines.push("• Write body (~280–320 words) in Fourth Wave voice");
+      lines.push("• Select hero from selected-article head image thumbnails (or paste URL)");
+      lines.push("• Mark published when ready");
+      var body = lines.join("\n");
+      function set(id, val) {
+        var el = document.getElementById(id);
+        if (el) el.value = val || "";
+      }
+      set("edDate", day);
+      set("edStatus", "draft");
+      set("edTitle", "Editorial brief — " + day);
+      set("edDek", "Outline of selected article titles and key points for admin to write the final editorial.");
+      set("edBody", body);
+      set("edAuthor", "Dr. Wallace Lynch");
+      set("edAuthorTitle", "Editor in Chief");
+      if (firstImg) {
+        set("edHero", firstImg.image);
+        set("edCredit", firstImg.source || "");
+        set("edHeroSource", firstImg.source || "");
+        set("edHeroSourceUrl", firstImg.sourceUrl || "");
       }
       this.countEditorial();
       this.updEdImg();
       this.refreshEdHeroPicker();
-      this.toast("Outline draft loaded. Replace with finished prose before Publish.", "info");
+      this.toast("CoC-shaped outline loaded. Replace with finished prose before Publish.", "info");
     }
 
     previewEditorial() {

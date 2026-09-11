@@ -31,15 +31,53 @@ def strip_html(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+AD_OR_CHROME_RE = re.compile(
+    r"ads?(?:erver|service)?|advert|banner|sponsor|doubleclick|googlesyndication|"
+    r"adservice|adnxs|taboola|outbrain|criteo|pixel|tracking|1x1|spacer|sprite|"
+    r"logo|favicon|icon[-_/]|avatar|emoji|sharethis|addthis|badge|widget|promo|"
+    r"newsletter|popup|cookie|consent|facebook\.com/tr|analytics|scorecard|"
+    r"blank\.gif|spacer\.gif|data:image/gif",
+    re.I,
+)
+
+
+def is_ad_or_chrome(url: str, extra: str = "") -> bool:
+    blob = f"{url} {extra}".lower()
+    if AD_OR_CHROME_RE.search(blob):
+        return True
+    if re.search(r"[?&](w|width|h|height)=(1|[1-9]|[1-9][0-9]|1[0-1][0-9])(?:\D|$)", blob):
+        return True
+    return False
+
+
+def abs_url(src: str, base: str) -> str:
+    src = unescape((src or "").strip())
+    if not src or src.startswith("data:"):
+        return ""
+    if src.startswith("//"):
+        return "https:" + src
+    if src.startswith("http"):
+        return src
+    if not base:
+        return ""
+    try:
+        from urllib.parse import urljoin
+        return urljoin(base, src)
+    except Exception:
+        return ""
+
+
 def img_from(xml: str, desc: str) -> str:
-    m = re.search(r'<media:content[^>]+url=["\']([^"\']+)', xml)
-    if m:
-        return m.group(1)
-    m = re.search(r'<enclosure[^>]+url=["\']([^"\']+)', xml)
-    if m:
-        return m.group(1)
-    m = re.search(r'<img[^>]+src=["\']([^"\']+)', desc or "", re.I)
-    return m.group(1) if m else ""
+    for pat in (
+        r'<media:content[^>]+url=["\']([^"\']+)',
+        r'<enclosure[^>]+url=["\']([^"\']+)',
+        r'<img[^>]+src=["\']([^"\']+)',
+    ):
+        for m in re.finditer(pat, xml + " " + (desc or ""), re.I):
+            url = unescape(m.group(1).strip())
+            if url and not is_ad_or_chrome(url, m.group(0)):
+                return url
+    return ""
 
 
 OG_PATTERNS = [
@@ -53,24 +91,83 @@ def og_image(html: str) -> str:
     for pat in OG_PATTERNS:
         m = pat.search(html or "")
         if m:
-            return unescape(m.group(1)).strip()
+            url = unescape(m.group(1)).strip()
+            if url and not is_ad_or_chrome(url):
+                return url
     return ""
 
 
+def content_images(html: str, page_url: str) -> list[str]:
+    """Article-body images only. Skip ads, logos, banners, pixels."""
+    body = html or ""
+    body = re.sub(r"(?is)<script.*?>.*?</script>", " ", body)
+    body = re.sub(r"(?is)<style.*?>.*?</style>", " ", body)
+    body = re.sub(r"(?is)<(header|nav|footer|aside|form)[^>]*>.*?</\1>", " ", body)
+    chunks = []
+    for pat in (
+        r"(?is)<article\b[^>]*>.*?</article>",
+        r"(?is)<main\b[^>]*>.*?</main>",
+        r'(?is)<div[^>]+class=["\'][^"\']*(?:entry-content|post-content|article-body|post-body|td-post-content|entry__content)[^"\']*["\'][^>]*>.*?</div>',
+    ):
+        chunks.extend(re.findall(pat, body))
+    hay = "\n".join(chunks) if chunks else body
+    out = []
+    seen = set()
+    for m in re.finditer(
+        r'<img\b([^>]*?)src=["\']([^"\']+)["\']([^>]*)>',
+        hay,
+        re.I,
+    ):
+        tag = m.group(0)
+        src = abs_url(m.group(2), page_url)
+        if not src or is_ad_or_chrome(src, tag):
+            continue
+        cls = (re.search(r'class=["\']([^"\']+)', tag, re.I) or [None, ""])[1]
+        alt = (re.search(r'alt=["\']([^"\']*)', tag, re.I) or [None, ""])[1]
+        if is_ad_or_chrome(cls + " " + alt):
+            continue
+        key = src.split("?")[0].lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(src)
+    return out
+
+
+def pick_cover(html: str, page_url: str, rss_img: str = "") -> str:
+    if rss_img and not is_ad_or_chrome(rss_img):
+        return rss_img
+    og = og_image(html)
+    if og:
+        return og
+    body = content_images(html, page_url)
+    return body[0] if body else ""
+
+
 def enrich_image(item: dict) -> dict:
-    if item.get("image"):
-        return item
     url = item.get("sourceUrl") or ""
+    rss = item.get("image") or ""
+    if rss and not is_ad_or_chrome(rss):
+        return item
     if not url.startswith("http"):
+        if rss and is_ad_or_chrome(rss):
+            item["image"] = ""
         return item
     try:
         html = fetch(url, timeout=12)
-        img = og_image(html)
+        img = pick_cover(html, url, rss)
         if img:
             item["image"] = img
-            print("  og:image", item.get("title", "")[:48])
+            print("  cover", (item.get("title") or "")[:48])
+        elif rss and is_ad_or_chrome(rss):
+            item["image"] = ""
+            print("  cover skip-ad", (item.get("title") or "")[:48])
+        else:
+            print("  cover none", (item.get("title") or "")[:48])
     except Exception as e:
-        print("  og fail", url, e)
+        print("  cover fail", url, e)
+        if rss and is_ad_or_chrome(rss):
+            item["image"] = ""
     return item
 
 
@@ -338,52 +435,112 @@ def already_scanned_today(path: Path) -> bool:
         return False
 
 
+CAT_LABEL = {
+    "industry": "Industry",
+    "science": "Science",
+    "reviews": "Reviews",
+    "origin": "Origin",
+    "editorial": "Editorial",
+}
+
+
+def key_points(summary: str, max_points: int = 4) -> list[str]:
+    text = strip_html(summary or "")
+    if not text:
+        return []
+    skip = re.compile(r"subscribe|sign up|click here|read more|the post .+ appeared first", re.I)
+    parts = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if len(s.strip()) > 25]
+    out = [p for p in parts if not skip.search(p)][:max_points]
+    if out:
+        return out
+    if skip.search(text) and len(text) < 120:
+        return []
+    return [text[:160] + ("…" if len(text) > 160 else "")]
+
+
 def build_editorial_draft(batch: dict) -> dict:
-    """Desk packet for admin review. Not live. Public site still uses editorial.data.js."""
+    """CoC-shaped outline brief. Not live. Scan never writes editorial.data.js."""
     day = pacific_now()
+    date_str = day.strftime("%Y-%m-%d")
     items = batch.get("items") or []
-    first = items[0] if items else {}
-    second = items[1] if len(items) > 1 else {}
-    title = str(first.get("title") or "Daily beat").strip()
-    if len(title) > 72:
-        title = title[:69].rstrip() + "…"
-    dek_bits = []
-    if first.get("source"):
-        dek_bits.append(str(first["source"]))
-    if second.get("title"):
-        hook = str(second["title"]).strip()
-        dek_bits.append(hook[:70] + ("…" if len(hook) > 70 else ""))
-    dek = ". ".join(dek_bits) if dek_bits else "Morning coffee signals for the desk."
-    weekday = day.strftime("%A, %B ") + str(day.day) + day.strftime(", %Y")
-    paras = [
-        "DRAFT — not live. Rewrite before Publish. On "
-        + weekday
-        + ", the desk holds these beats.",
+    headlines = []
+    lines = [
+        "EDITORIAL BRIEF (outline only — not for publication as-is)",
+        "Publish date: " + date_str,
+        "Instruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+        "",
+        "— Selected articles of the day (" + str(len(items)) + ") —",
+        "",
     ]
-    for it in items:
-        summary = str(it.get("summary") or "").strip()
-        if len(summary) > 280:
-            summary = summary[:277].rstrip() + "…"
-        cat = it.get("categoryLabel") or it.get("category") or ""
-        line = f"{cat}: {it.get('title')} ({it.get('source')}). {summary}".strip()
-        paras.append(line)
-    paras.append("Edit title, dek, and body. Then Publish to Latest Beat.")
-    body = "\n\n".join(paras)
+    if not items:
+        lines.append("(No articles available. Run Scan feeds first, then re-run Editorial Draft.)")
+        lines.append("")
+    for i, it in enumerate(items, 1):
+        cat = CAT_LABEL.get(it.get("category") or "", it.get("categoryLabel") or "General")
+        title = str(it.get("title") or "").strip()
+        source = str(it.get("source") or "").strip()
+        url = str(it.get("sourceUrl") or "").strip()
+        summary = str(it.get("summary") or "")
+        kps = key_points(summary)
+        headlines.append(
+            {
+                "title": title,
+                "source": source,
+                "category": it.get("category") or "",
+                "sourceUrl": url,
+                "summary": strip_html(summary)[:280],
+                "image": it.get("image") or "",
+                "keyPoints": kps,
+            }
+        )
+        lines.append(f"{i}. [{cat}] {title}")
+        if source:
+            lines.append("   Source: " + source)
+        if url:
+            lines.append("   URL: " + url)
+        lines.append("   Key points:")
+        if kps:
+            for kp in kps:
+                lines.append("   • " + kp)
+        else:
+            lines.append("   • (No summary on file — open URL and note 2–3 facts before writing.)")
+        lines.append("")
+    cats = []
+    for h in headlines:
+        lb = CAT_LABEL.get(h["category"], h["category"] or "General")
+        if lb not in cats:
+            cats.append(lb)
+    if cats:
+        lines.append("— Categories present —")
+        lines.append(" · ".join(cats))
+        lines.append("")
+    lines.append("— Admin checklist —")
+    lines.append("• Draft original title + dek (vary form: not always What… / Convergence of…)")
+    lines.append("• Write body (~280–320 words) in Fourth Wave voice")
+    lines.append("• Select hero from selected-article head image thumbnails (or paste URL)")
+    lines.append("• Mark published when ready")
+    body = "\n".join(lines)
+    paras = [p.strip() for p in re.split(r"\n\n+", body) if p.strip()]
+    first_img = next((h for h in headlines if h.get("image")), {})
     return {
-        "id": "ed_" + day.strftime("%Y-%m-%d"),
-        "publishDate": day.strftime("%Y-%m-%d"),
+        "id": "ed_" + date_str,
+        "publishDate": date_str,
         "status": "draft",
-        "title": title,
-        "dek": dek,
-        "heroImage": first.get("image") or "",
-        "heroCredit": first.get("source") or "",
-        "heroSource": first.get("source") or "",
-        "heroSourceUrl": first.get("sourceUrl") or "",
+        "draftKind": "outline",
+        "formId": "outline_brief",
+        "themeId": "outline",
+        "title": "Editorial brief — " + date_str,
+        "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
+        "heroImage": first_img.get("image") or "",
+        "heroCredit": first_img.get("source") or "",
+        "heroSource": first_img.get("source") or "",
+        "heroSourceUrl": first_img.get("sourceUrl") or "",
         "authorName": "Dr. Wallace Lynch",
         "authorTitle": "Editor in Chief",
         "paragraphs": paras,
         "body": body,
         "wordCount": len(body.split()),
+        "headlines": headlines,
         "fromScan": batch.get("scannedAt"),
     }
 

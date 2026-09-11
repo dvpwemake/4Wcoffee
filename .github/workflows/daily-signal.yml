@@ -2,10 +2,13 @@ name: Daily signal scan
 
 on:
   schedule:
-    # 8:15 AM America/Los_Angeles so the packet is on Pages by 9 AM Pacific
+    # 8:15 AM America/Los_Angeles. GitHub cron is often hours late, so
+    # extra slots still fire; the job skips only if already scanned today.
     # PDT (UTC-7) = 15:15 UTC · PST (UTC-8) = 16:15 UTC
     - cron: "15 15 * * *"
     - cron: "15 16 * * *"
+    - cron: "30 18 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,27 +30,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run only at 8 AM Pacific (scheduled)
-        id: gate
-        run: |
-          python3 - <<'PY'
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-          import os
-          now = datetime.now(ZoneInfo("America/Los_Angeles"))
-          print("Pacific now:", now.isoformat())
-          skip = "0"
-          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and now.hour != 8:
-              print("Not 8 AM Pacific — skip")
-              skip = "1"
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-              fh.write("skip=" + skip + "\n")
-          PY
-      - name: Crawl coffee feeds and write editorial draft
-        if: steps.gate.outputs.skip != '1'
+      - name: Crawl coffee feeds, covers, and CoC-shaped editorial outline
         run: python3 scripts/crawl-signals.py --once-a-day
       - name: Commit and push if changed
-        if: steps.gate.outputs.skip != '1'
+        # Latest Beat cards auto-publish (signals.data.js). Live editorial prose does not.
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
