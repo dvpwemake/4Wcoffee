@@ -20,6 +20,13 @@
     { id: "reviews", label: "Reviews" },
     { id: "origin", label: "Origin" },
   ];
+  var CAT_SHORT = {
+    editorial: "Editorial",
+    industry: "Industry",
+    science: "Science",
+    reviews: "Reviews",
+    origin: "Origin",
+  };
 
   function prefix() {
     return global.SiteChrome && global.SiteChrome.assetPrefix
@@ -111,6 +118,7 @@
       .toLowerCase();
     if (u) {
       u = u.replace(/^https?:\/\/(www\.)?/, "");
+      u = u.replace(/^fourthwavecoffee\.org\//, "");
       return u;
     }
     var t = String((it && it.title) || "")
@@ -181,36 +189,60 @@
       Desk.editorialByDate = map;
     },
 
+    editorialCard: function (ed, d) {
+      return {
+        id: "editorial-" + d,
+        title: plainText(ed.title),
+        summary: plainText(ed.dek || paragraphsFrom(ed)[0] || ""),
+        image: ed.heroImage || "",
+        source: "Fourth Wave Coffee · Editorial",
+        sourceUrl: permalinkPath(d),
+        category: "editorial",
+        categoryLabel: "Editorial",
+        isEditorialArchive: true,
+        publishDate: d,
+      };
+    },
+
     seedItems: function () {
-      var out = [];
-      var seen = {};
-      function add(it) {
-        if (!it) return;
-        var key = itemKey(it);
-        if (!key || seen[key]) return;
-        seen[key] = true;
-        out.push(it);
-      }
-      Object.keys(Desk.editorialByDate)
-        .sort()
-        .reverse()
-        .forEach(function (d) {
-          var ed = Desk.editorialByDate[d];
-          if (!ed || d === dayKey(Desk.liveEditorial && Desk.liveEditorial.publishDate)) return;
-          add({
-            id: "editorial-" + d,
-            title: plainText(ed.title),
-            summary: plainText(ed.dek || paragraphsFrom(ed)[0] || ""),
-            image: ed.heroImage || "",
-            source: "Fourth Wave Coffee",
-            sourceUrl: permalinkPath(d),
-            category: "editorial",
-            categoryLabel: "Editorial",
-            isEditorialArchive: true,
-            publishDate: d,
-          });
+      return Desk.flattenPublicItems(Desk.archive);
+    },
+
+    flattenPublicItems: function (archive) {
+      var batches = [];
+      var sig = global.SIGNALS;
+      if (sig && (sig.items || []).length) {
+        batches.push({
+          batchId: "live_signals",
+          scannedAt: sig.scannedAt || new Date().toISOString(),
+          items: sig.items,
         });
-      ((global.SIGNALS && global.SIGNALS.items) || []).forEach(add);
+      }
+      ((archive && archive.batches) || []).forEach(function (b) {
+        batches.push(b);
+      });
+      var liveDay = dayKey(Desk.liveEditorial && Desk.liveEditorial.publishDate);
+      Object.keys(Desk.editorialByDate || {}).forEach(function (d) {
+        if (!d || d === liveDay) return;
+        batches.push({
+          batchId: "editorial_" + d,
+          scannedAt: d + "T23:50:00.000Z",
+          items: [Desk.editorialCard(Desk.editorialByDate[d], d)],
+        });
+      });
+      batches.sort(function (a, b) {
+        return new Date(b.scannedAt || 0) - new Date(a.scannedAt || 0);
+      });
+      var seen = {};
+      var out = [];
+      batches.forEach(function (b) {
+        (b.items || []).forEach(function (it) {
+          var key = itemKey(it);
+          if (!key || seen[key]) return;
+          seen[key] = true;
+          out.push(it);
+        });
+      });
       return out;
     },
 
@@ -588,6 +620,7 @@
       if (internal && it.publishDate) href = prefix() + permalinkPath(it.publishDate);
       var tgt = internal ? "" : ' target="_blank" rel="noopener"';
       var srcLabel = internal ? "Read full editorial →" : (it.source || "Source") + " →";
+      var tag = CAT_SHORT[it.category] || it.categoryLabel || it.category || "News";
       return (
         '<a class="beat-card" href="' +
         esc(href) +
@@ -601,13 +634,13 @@
         '" data-fallback="' +
         esc(local) +
         '" data-cat="' +
-        esc(it.categoryLabel || it.category) +
+        esc(tag) +
         '" onerror="Desk.thumbFail(this)"></div>' +
         '<div class="beat-body">' +
         '<span class="tag ' +
         esc(it.category || "") +
         '">' +
-        esc(it.category === "editorial" ? "Editorial" : it.categoryLabel || it.category) +
+        esc(tag) +
         "</span>" +
         "<h3>" +
         esc(plainText(it.title)) +
@@ -670,19 +703,8 @@
             Desk.drawGrid();
             return;
           }
-          var seen = {};
-          Desk.items.forEach(function (it) {
-            var k = itemKey(it);
-            if (k) seen[k] = true;
-          });
-          pack.batches.forEach(function (b) {
-            (b.items || []).forEach(function (it) {
-              var key = itemKey(it);
-              if (!key || seen[key]) return;
-              seen[key] = true;
-              Desk.items.push(it);
-            });
-          });
+          Desk.archive = pack;
+          Desk.items = Desk.flattenPublicItems(pack);
           Desk.drawGrid();
         })
         .catch(function () {

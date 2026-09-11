@@ -400,7 +400,13 @@ def crawl(deleted: list | None = None) -> dict:
     batch = {
         "scannedAt": datetime.now(timezone.utc).isoformat(),
         "categories": {k: v["label"] for k, v in SRC["categories"].items()},
-        "items": [it for cat in SRC["categories"] for it in picked.get(cat, [])],
+        "items": [
+            dict(it, rank=i)
+            for i, it in enumerate(
+                (it for cat in SRC["categories"] for it in picked.get(cat, [])),
+                start=1,
+            )
+        ],
         "byCategory": picked,
         "deleted": deleted,
         "log": log,

@@ -574,6 +574,9 @@
         rows = ((global.SIGNALS && global.SIGNALS.items) || []).map(function (it, i) {
           return Object.assign({}, it, { _i: i, day: String((global.SIGNALS && global.SIGNALS.scannedAt) || "").slice(0, 10) });
         });
+        rows.sort(function (a, b) {
+          return (a.rank || a._i + 1) - (b.rank || b._i + 1);
+        });
       }
       var total = rows.length;
       if (q) {
@@ -633,15 +636,17 @@
             '" data-id="' +
             self.esc(it.id || "") +
             '" role="listitem"><div><img class="sig-thumb" alt="" referrerpolicy="no-referrer"><p class="cover-st">Checking…</p></div><div>' +
-            '<label class="fl">Headline</label>' +
-            '<input class="fi sig-title" value="' +
-            self.esc(it.title || "") +
-            '">' +
-            '<p class="img-adj-sub">' +
+            '<p class="img-adj-sub">#' +
+            self.esc(String(it.rank != null ? it.rank : idx + 1)) +
+            " · " +
             self.esc(it.day || "—") +
             " · " +
             self.esc(it.source || "") +
             "</p>" +
+            '<label class="fl">Headline</label>' +
+            '<input class="fi sig-title" value="' +
+            self.esc(it.title || "") +
+            '">' +
             '<label class="fl">Summary</label>' +
             '<textarea class="fi sig-sum" style="min-height:4.5rem">' +
             self.esc(it.summary || "") +

@@ -547,7 +547,8 @@
     static beatCard(it) {
       const raw = it.image || "";
       const proxy = HomeStrips.proxyUrl(raw);
-      const tag = it.category === "editorial" ? "Editorial" : it.categoryLabel || it.category || "Beat";
+      const short = { industry: "Industry", science: "Science", reviews: "Reviews", origin: "Origin", editorial: "Editorial" };
+      const tag = short[it.category] || it.categoryLabel || it.category || "Beat";
       const href = it.sourceUrl || "latestbeat.html";
       const tgt = it.category === "editorial" ? "" : ' target="_blank" rel="noopener"';
       return (
@@ -570,8 +571,11 @@
         "<h3>" +
         HomeStrips.esc(it.title) +
         "</h3>" +
+        (it.summary
+          ? "<p>" + HomeStrips.esc(String(it.summary).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160)) + "</p>"
+          : "") +
         '<p class="beat-src">' +
-        HomeStrips.esc(it.source || "") +
+        HomeStrips.esc((it.source || "Source") + " →") +
         "</p>" +
         "</div></a></article>"
       );
@@ -615,18 +619,6 @@
         const img = String(it.image || "").split("?")[0];
         if (img) seen["i:" + img] = true;
         out.push(it);
-      }
-      const ed = global.EDITORIAL;
-      if (ed && ed.title) {
-        const date = String(ed.publishDate || "").slice(0, 10);
-        add({
-          title: ed.title,
-          source: "Fourth Wave Coffee",
-          sourceUrl: date ? "e/" + date + ".html" : "latestbeat.html#editorial",
-          image: ed.heroImage || "",
-          category: "editorial",
-          categoryLabel: "Editorial",
-        });
       }
       ((global.SIGNALS && global.SIGNALS.items) || []).forEach(add);
       return out;
