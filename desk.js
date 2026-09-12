@@ -666,14 +666,19 @@
       usedImages = usedImages || {};
       var internal = !!(it.isEditorialArchive || it.category === "editorial");
       var raw = String(it.image || "").trim();
-      if (raw.indexOf("image/") === 0 || /fourthwavecoffee\.org\/image\//i.test(raw)) raw = "";
       var key = photoKey(raw);
       var src = "";
-      if (raw && /^https?:/i.test(raw) && raw.indexOf("image/carosal") === -1) {
+      var fromSource = raw && /^https?:/i.test(raw) && raw.indexOf("image/carosal") === -1 && !/fourthwavecoffee\.org\/image\//i.test(raw);
+      if (fromSource) {
         if (!internal && usedImages[key]) src = "";
         else {
           usedImages[key] = true;
           src = raw;
+        }
+      } else if (raw.indexOf("image/") === 0) {
+        if (!usedImages[key]) {
+          usedImages[key] = true;
+          src = prefix() + raw;
         }
       }
       if (!src) src = takeLocal(usedImages);
