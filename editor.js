@@ -2377,6 +2377,16 @@
       var js = "window.SIGNALS = " + JSON.stringify(data) + ";\n";
       var json = JSON.stringify(data, null, 2) + "\n";
       this.toast("Publishing Latest Beat…", "info");
+      var overrides = {};
+      (data.items || []).forEach(function (it) {
+        if (it.sourceUrl && it.image) overrides[it.sourceUrl] = it.image;
+      });
+      var ok0 = await this.putGithubFile(
+        "data/image-overrides.json",
+        JSON.stringify(overrides, null, 2) + "\n",
+        "Lock admin Latest Beat covers " + new Date().toISOString().slice(0, 10)
+      );
+      if (!ok0) return;
       var ok1 = await this.putGithubFile(
         "signals.data.js",
         js,
@@ -2385,6 +2395,11 @@
       if (!ok1) return;
       await this.putGithubFile("data/signals.json", json, "Update signals.json " + new Date().toISOString().slice(0, 10));
       if (this.archive) {
+        (this.archive.batches || []).forEach(function (b) {
+          (b.items || []).forEach(function (it) {
+            if (it.sourceUrl && overrides[it.sourceUrl]) it.image = overrides[it.sourceUrl];
+          });
+        });
         await this.putGithubFile(
           "data/archive.json",
           JSON.stringify(this.archive, null, 2) + "\n",

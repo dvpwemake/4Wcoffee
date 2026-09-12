@@ -153,6 +153,33 @@ def pick_cover(html: str, page_url: str, rss_img: str = "") -> str:
     return body[0] if body else ""
 
 
+OVERRIDE_PATH = ROOT / "data" / "image-overrides.json"
+
+
+def load_image_overrides() -> dict:
+    if not OVERRIDE_PATH.exists():
+        return {}
+    try:
+        data = json.loads(OVERRIDE_PATH.read_text())
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def apply_image_overrides(items: list) -> None:
+    """Admin-designated covers always win over crawl and stock."""
+    ov = load_image_overrides()
+    if not ov:
+        return
+    for it in items:
+        url = it.get("sourceUrl") or ""
+        key = url.split("?")[0].rstrip("/")
+        img = ov.get(url) or ov.get(key)
+        if img:
+            it["image"] = img
+            print("  admin cover", (it.get("title") or "")[:40])
+
+
 def is_site_stock(url: str) -> bool:
     u = (url or "").lower()
     return "image/carosal" in u or "fourthwavecoffee.org/image/" in u or "encrypted-tbn" in u
@@ -160,6 +187,12 @@ def is_site_stock(url: str) -> bool:
 
 def enrich_image(item: dict) -> dict:
     url = item.get("sourceUrl") or ""
+    ov = load_image_overrides()
+    key = (url or "").split("?")[0].rstrip("/")
+    admin = ov.get(url) or ov.get(key)
+    if admin:
+        item["image"] = admin
+        return item
     rss = item.get("image") or ""
     if rss and (is_site_stock(rss) or is_ad_or_chrome(rss)):
         rss = ""
@@ -466,6 +499,7 @@ def crawl(deleted: list | None = None) -> dict:
         )
     ]
     assign_stock_if_empty(items)
+    apply_image_overrides(items)
     by = {cat: [] for cat in SRC["categories"]}
     for it in items:
         by.setdefault(it.get("category") or "industry", []).append(it)

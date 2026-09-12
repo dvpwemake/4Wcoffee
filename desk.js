@@ -268,7 +268,7 @@
         });
       }
       ((archive && archive.batches) || []).forEach(function (b) {
-        batches.push(b);
+        if (b && b.batchId !== "live_signals") batches.push(b);
       });
       var liveDay = dayKey(Desk.liveEditorial && Desk.liveEditorial.publishDate);
       Object.keys(Desk.editorialByDate || {}).forEach(function (d) {
@@ -279,18 +279,34 @@
           items: [Desk.editorialCard(Desk.editorialByDate[d], d)],
         });
       });
-      batches.sort(function (a, b) {
+      var liveBatch = null;
+      var rest = [];
+      batches.forEach(function (b) {
+        if (b.batchId === "live_signals") liveBatch = b;
+        else rest.push(b);
+      });
+      rest.sort(function (a, b) {
         return new Date(b.scannedAt || 0) - new Date(a.scannedAt || 0);
       });
+      var ordered = liveBatch ? [liveBatch].concat(rest) : rest;
       var seen = {};
       var out = [];
-      batches.forEach(function (b) {
+      ordered.forEach(function (b) {
         (b.items || []).forEach(function (it) {
           var key = itemKey(it);
           if (!key || seen[key]) return;
           seen[key] = true;
           out.push(it);
         });
+      });
+      var admin = {};
+      ((sig && sig.items) || []).forEach(function (it) {
+        var k = itemKey(it);
+        if (k && it.image) admin[k] = it.image;
+      });
+      out.forEach(function (it) {
+        var k = itemKey(it);
+        if (k && admin[k]) it.image = admin[k];
       });
       return out;
     },
