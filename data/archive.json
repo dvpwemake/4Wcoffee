@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-12T17-47-00",
+      "scannedAt": "2026-09-12T17:47:00.299972+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Gearly Beloved, We Are Gathered Here Today For More Coffee Gadgets",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/gearly-beloved-we-are-gathered-here-today-for-more-coffee-gadgets-1332253.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of coffee gear.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/07/mhw-3bomber-x-press58-sprudge-coffee-gear.jpg",
+          "publishedAt": "2026-09-12T12:00:01+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Coffee News Recap, 11 Sep: Global Coffee Awards announce best roasters in US & Canada, Uganda and South Korea sign landmark coffee deal & other stories",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/09/coffee-news-recap-11-september-2026/",
+          "summary": "Global Coffee Awards announce the best roasters in US and Canada, Mubadala acquires US$1bn minority stake in Luckin Coffee, Joe Coffee Company and Cometeer partner with JetBlue & more in this week's coffee news recap. The post Coffee News Recap, 11 Sep: Global Coffee Awards annou",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/11_09_FridayRecap__FB-THUMBNAIL.png",
+          "publishedAt": "2026-09-11T13:00:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "The Cezve is Mightier than the Spro",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/the-cezve-is-mightier-than-the-spro/",
+          "summary": "You’re at home, you decide you want a coffee, and you need it quick cause you’re about to run out the door. What do you make? I can tell you right now it’s not espresso. I timed myself making... The post The Cezve is Mightier than the Spro appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2025/09/Ibrik-Blog-Post-Post-Header-04-scaled.jpg",
+          "publishedAt": "2025-09-24T14:06:15+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Time Trial — I Gotta [Time] Split",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/time-trial-i-gotta-time-split/",
+          "summary": "There are two types of barista … one that steams individually for every beverage, and one that steams in twos. One’s not better than the other. In fact, Latte Art Champions tend to steam... The post Time Trial — I Gotta [Time] Split appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2025/08/I-Gotta-Split-II-PostHeader-scaled.jpg",
+          "publishedAt": "2025-08-18T09:39:26+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "My Go-To Coffee Cups for Better Brews",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-coffee-cups/",
+          "summary": "From ceramic to glass, discover how specialized vessels can elevate your daily ritual and why serious coffee enthusiasts consider them the final piece of the flavor puzzle. The post My Go-To Coffee Cups for Better Brews appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/Featured-image-coffee-cups.jpg",
+          "publishedAt": "2026-07-11T07:56:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "The xBloom Studio: Competition-Level Pour Over on Autopilot",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/new-products/xbloom-studio-competition-level-pour-over-on-autopilot/",
+          "summary": "The xBloom Studio automates pour over from whole bean to cup, grinder, scale, kettle, and oscillating, vibrating pouring arm included. Here’s the overview. The post The xBloom Studio: Competition-Level Pour Over on Autopilot appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/07/xBloom-Studio-Hero-1-800x533.jpg",
+          "publishedAt": "2026-07-03T08:30:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Simon Sun",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/simon-sun/",
+          "summary": "When Simon Sun was a child, his dog disappeared. It had lived with his family for four or five years, long enough for Simon to become deeply attached to it. What stayed with him was not only the loss, but the fact that he never knew what happened. If the dog had died, he thought,",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "publishedAt": "2026-09-12T12:10:18+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Tay Wipvasutt",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/tay-wipvasutt/",
+          "summary": "For some people, coffee begins with a flavor. For others, it begins with a machine, a technique, or a competition. For Tay Wipvasutt , it began with people. Tay Wipvasutt Tay was still in his first year of university when he took a part-time job at a coffee shop. At that age, cof",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/05/Tay-Wipvasutt-1024x577.jpg",
+          "publishedAt": "2026-05-04T07:50:55+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-11T18-35-49",
       "scannedAt": "2026-09-11T18:35:49.395201+00:00",
       "items": [
