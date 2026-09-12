@@ -1,26 +1,46 @@
 window.EDITORIAL = {
-  "id": "ed_2026-09-11",
-  "publishDate": "2026-09-11",
+  "id": "ed_2026-09-12",
+  "publishDate": "2026-09-12",
   "status": "published",
-  "title": "She walked into the room",
-  "dek": "Noon at twenty seven. Extra hot is not extra good.",
+  "title": "It began with people",
+  "dek": "Tay in the first year. A pouring arm on autopilot.",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
-  "heroImage": "https://notabarista.b-cdn.net/wp-content/uploads/2026/05/noon-1024x576.jpg",
-  "heroCredit": "Noon Nutrada Kunavivattananon. Not a Barista.",
-  "heroSource": "Not a Barista",
-  "heroSourceUrl": "https://notabarista.org/noon-nutrada-kunavivattananon/",
-  "wordCount": 285,
+  "heroImage": "https://coffeegeek.com/wp-content/uploads/2026/07/xBloom-Studio-Hero-1.jpg",
+  "heroCredit": "xBloom Studio. CoffeeGeek.",
+  "heroSource": "CoffeeGeek",
+  "heroSourceUrl": "https://coffeegeek.com/blog/new-products/xbloom-studio-competition-level-pour-over-on-autopilot/",
+  "wordCount": 302,
   "paragraphs": [
-    "Noon Nutrada Kunavivattananon walked into a room at twenty seven as CEO of one of Thailand's largest specialty coffee companies. A few years later she walked into another as the first female president of the Specialty Coffee Association of Thailand. Not a Barista tells that walk. The same week the studio paused most operations for family. The 135 ml L1GHT cups already packed still went out.",
-    "On Friday, September 11, 2026, we hold that walk to one pressure: who still sits with the cup when extra hot is the risk, and when the shot is already in the fridge.",
-    "Sprudge says extra hot coffee is not extra good for the throat. Esophageal cancer risk rises with temperature, not with the bean. Extra hot is a temperature, not a roast. Blanchard's Coffee put Ninety Three Million on a bag. Design as the name on the door. Barista Hustle cupped prebatched espresso against fresh. A podcast voice said we should be hyping this more. Another piece counts World Barista Championship time: twelve drinks in fifteen minutes. Seventy five seconds a drink. The title counts two hundred ten. The clock is the routine. Coffee Chronicler put the DeLonghi Essenza Mini on the bench. Heat in twenty five seconds. Width of a hand. Hot shots. Nice crema. Not really espresso. Easy mode. The same desk still ranks drip: Moccamaster, Aiden, Breville Precision. Peak automatic. The question is which one you live with.",
-    "A woman in the room. A bag with a number. A shot that waited. The fourth wave is not the machine that heats in half a minute. It is whether someone still walks in and sits down with the cup at a temperature a throat can keep."
+    "For Tay Wipvasutt, coffee began with people. Still in his first year of university, he took a part time job at a coffee shop. Not a flavor first. Not a machine. Not a scoresheet. People. Simon Sun, as a child, lost a dog that had lived with the family four or five years. What stayed was not only the loss. He never knew what happened. If it had died, he thought, at least he would have known.",
+    "On Saturday, September 12, 2026, we hold that first job to one pressure: who the cup is for when the arm pours itself, and when the cezve is faster than the spro.",
+    "You are at home. You want coffee. You are already going out the door. Barista Hustle says it is not espresso. The cezve is mightier than the spro when time is the only brief. Another piece splits the bar: some steam one drink at a time, some steam in twos. One is not better. Latte art champions tend to steam for two. Sprudge gathered more gadgets this week. Gearly beloved. Perfect Daily Grind recapped the rest: Global Coffee Awards for US and Canada roasters, a Uganda and South Korea deal, Luckin taking a billion dollar stake story, Joe Coffee and Cometeer with JetBlue. Coffee Chronicler put the cup last: ceramic or glass as the final piece of the flavor puzzle. CoffeeGeek put the xBloom Studio on autopilot. Whole bean to cup. Grinder, scale, kettle, an oscillating pouring arm. Competition level pour over without a hand on the kettle.",
+    "A first year behind the bar. A dog that did not come back. An arm that pours. The fourth wave is not the gadget of the week. It is whether the cup still begins with people when the kettle has learned to move by itself."
   ],
-  "body": "Noon Nutrada Kunavivattananon walked into a room at twenty seven as CEO of one of Thailand's largest specialty coffee companies. A few years later she walked into another as the first female president of the Specialty Coffee Association of Thailand. Not a Barista tells that walk. The same week the studio paused most operations for family. The 135 ml L1GHT cups already packed still went out.\n\nOn Friday, September 11, 2026, we hold that walk to one pressure: who still sits with the cup when extra hot is the risk, and when the shot is already in the fridge.\n\nSprudge says extra hot coffee is not extra good for the throat. Esophageal cancer risk rises with temperature, not with the bean. Extra hot is a temperature, not a roast. Blanchard's Coffee put Ninety Three Million on a bag. Design as the name on the door. Barista Hustle cupped prebatched espresso against fresh. A podcast voice said we should be hyping this more. Another piece counts World Barista Championship time: twelve drinks in fifteen minutes. Seventy five seconds a drink. The title counts two hundred ten. The clock is the routine. Coffee Chronicler put the DeLonghi Essenza Mini on the bench. Heat in twenty five seconds. Width of a hand. Hot shots. Nice crema. Not really espresso. Easy mode. The same desk still ranks drip: Moccamaster, Aiden, Breville Precision. Peak automatic. The question is which one you live with.\n\nA woman in the room. A bag with a number. A shot that waited. The fourth wave is not the machine that heats in half a minute. It is whether someone still walks in and sits down with the cup at a temperature a throat can keep."
+  "body": "For Tay Wipvasutt, coffee began with people. Still in his first year of university, he took a part time job at a coffee shop. Not a flavor first. Not a machine. Not a scoresheet. People. Simon Sun, as a child, lost a dog that had lived with the family four or five years. What stayed was not only the loss. He never knew what happened. If it had died, he thought, at least he would have known.\n\nOn Saturday, September 12, 2026, we hold that first job to one pressure: who the cup is for when the arm pours itself, and when the cezve is faster than the spro.\n\nYou are at home. You want coffee. You are already going out the door. Barista Hustle says it is not espresso. The cezve is mightier than the spro when time is the only brief. Another piece splits the bar: some steam one drink at a time, some steam in twos. One is not better. Latte art champions tend to steam for two. Sprudge gathered more gadgets this week. Gearly beloved. Perfect Daily Grind recapped the rest: Global Coffee Awards for US and Canada roasters, a Uganda and South Korea deal, Luckin taking a billion dollar stake story, Joe Coffee and Cometeer with JetBlue. Coffee Chronicler put the cup last: ceramic or glass as the final piece of the flavor puzzle. CoffeeGeek put the xBloom Studio on autopilot. Whole bean to cup. Grinder, scale, kettle, an oscillating pouring arm. Competition level pour over without a hand on the kettle.\n\nA first year behind the bar. A dog that did not come back. An arm that pours. The fourth wave is not the gadget of the week. It is whether the cup still begins with people when the kettle has learned to move by itself."
 };
 window.EDITORIAL.body = window.EDITORIAL.paragraphs.join("\n\n");
 window.EDITORIAL_HISTORY = [
+  {
+    "id": "ed_2026-09-11",
+    "publishDate": "2026-09-11",
+    "status": "published",
+    "title": "She walked into the room",
+    "dek": "Noon at twenty seven. Extra hot is not extra good.",
+    "authorName": "Dr. Wallace Lynch",
+    "authorTitle": "Editor in Chief",
+    "heroImage": "https://notabarista.b-cdn.net/wp-content/uploads/2026/05/noon-1024x576.jpg",
+    "heroCredit": "Noon Nutrada Kunavivattananon. Not a Barista.",
+    "heroSource": "Not a Barista",
+    "heroSourceUrl": "https://notabarista.org/noon-nutrada-kunavivattananon/",
+    "wordCount": 285,
+    "paragraphs": [
+      "Noon Nutrada Kunavivattananon walked into a room at twenty seven as CEO of one of Thailand's largest specialty coffee companies. A few years later she walked into another as the first female president of the Specialty Coffee Association of Thailand. Not a Barista tells that walk. The same week the studio paused most operations for family. The 135 ml L1GHT cups already packed still went out.",
+      "On Friday, September 11, 2026, we hold that walk to one pressure: who still sits with the cup when extra hot is the risk, and when the shot is already in the fridge.",
+      "Sprudge says extra hot coffee is not extra good for the throat. Esophageal cancer risk rises with temperature, not with the bean. Extra hot is a temperature, not a roast. Blanchard's Coffee put Ninety Three Million on a bag. Design as the name on the door. Barista Hustle cupped prebatched espresso against fresh. A podcast voice said we should be hyping this more. Another piece counts World Barista Championship time: twelve drinks in fifteen minutes. Seventy five seconds a drink. The title counts two hundred ten. The clock is the routine. Coffee Chronicler put the DeLonghi Essenza Mini on the bench. Heat in twenty five seconds. Width of a hand. Hot shots. Nice crema. Not really espresso. Easy mode. The same desk still ranks drip: Moccamaster, Aiden, Breville Precision. Peak automatic. The question is which one you live with.",
+      "A woman in the room. A bag with a number. A shot that waited. The fourth wave is not the machine that heats in half a minute. It is whether someone still walks in and sits down with the cup at a temperature a throat can keep."
+    ]
+  },
   {
     "id": "ed_2026-09-09",
     "publishDate": "2026-09-09",
