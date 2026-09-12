@@ -84,7 +84,7 @@
       "source": "Not a Barista",
       "sourceUrl": "https://notabarista.org/simon-sun/",
       "summary": "When Simon Sun was a child, his dog disappeared. It had lived with his family for four or five years, long enough for Simon to become deeply attached to it. What stayed with him was not only the loss, but the fact that he never knew what happened. If the dog had died, he thought,",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/DSC01199-scaled.jpg",
+      "image": "https://static1.squarespace.com/static/65fb773fac2112270b71798a/68ae035411042b5be5af2358/68f223c3c3e9430e91a711ea/1760699804545/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BC%9A%E8%AF%9D7996.png?format=1500w",
       "publishedAt": "2026-09-12T12:10:18+00:00",
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
@@ -189,7 +189,7 @@
         "source": "Not a Barista",
         "sourceUrl": "https://notabarista.org/simon-sun/",
         "summary": "When Simon Sun was a child, his dog disappeared. It had lived with his family for four or five years, long enough for Simon to become deeply attached to it. What stayed with him was not only the loss, but the fact that he never knew what happened. If the dog had died, he thought,",
-        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/DSC01199-scaled.jpg",
+        "image": "https://static1.squarespace.com/static/65fb773fac2112270b71798a/68ae035411042b5be5af2358/68f223c3c3e9430e91a711ea/1760699804545/%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BC%9A%E8%AF%9D7996.png?format=1500w",
         "publishedAt": "2026-09-12T12:10:18+00:00",
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
@@ -210,133 +210,5 @@
       }
     ]
   },
-  "deleted": [],
-  "log": [
-    {
-      "ok": true,
-      "source": "Sprudge",
-      "n": 30,
-      "url": "https://sprudge.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Daily Coffee News",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://dailycoffeenews.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Roast Magazine",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://roastmagazine.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Standart",
-      "n": 11,
-      "url": "https://standartmag.com/blogs/journal.atom"
-    },
-    {
-      "ok": true,
-      "source": "Barista Hustle",
-      "n": 30,
-      "url": "https://www.baristahustle.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Ad Astra",
-      "n": 30,
-      "url": "https://coffeeadastra.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Scott Rao",
-      "n": 0,
-      "url": "https://www.scottrao.com/blog?format=rss"
-    },
-    {
-      "ok": false,
-      "source": "Jim Seven",
-      "error": "<urlopen error timed out>",
-      "url": "https://www.jimseven.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "World Coffee Research",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://worldcoffeeresearch.org/feed"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Review",
-      "n": 30,
-      "url": "https://www.coffeereview.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "CoffeeGeek",
-      "n": 30,
-      "url": "https://coffeegeek.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Home-Barista",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://www.home-barista.com/rss.xml"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Chronicler",
-      "n": 30,
-      "url": "https://coffeechronicler.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Espresso My Espresso",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://espressomyespresso.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "SCA News",
-      "error": "<urlopen error timed out>",
-      "url": "https://scanews.coffee/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Sweet Maria's",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://www.sweetmarias.com/blog/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind Origins",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/category/origins/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Cafe Imports",
-      "n": 0,
-      "url": "https://cafeimports.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "European Coffee Trip",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://europeancoffeetrip.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Not a Barista",
-      "n": 30,
-      "url": "https://notabarista.org/feed/"
-    }
-  ]
+  "deleted": []
 }
