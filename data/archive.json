@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-12",
+      "scannedAt": "2026-09-13T23:31:54.998Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-12",
+          "rank": 0,
+          "title": "It began with people",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Tay in the first year. A pouring arm on autopilot.",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/07/xBloom-Studio-Hero-1.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-12.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-12"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-13T18-13-55",
       "scannedAt": "2026-09-13T18:13:55.136362+00:00",
       "items": [
