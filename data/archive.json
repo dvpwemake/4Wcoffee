@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-14",
+      "scannedAt": "2026-09-15T20:20:47.478Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-14",
+          "rank": 0,
+          "title": "The question stayed",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Cycling before school. Beans falling through a hole in Boise",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/slow-by-slow-11.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-14.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-14"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-15T19-02-35",
       "scannedAt": "2026-09-15T19:02:35.873613+00:00",
       "items": [
