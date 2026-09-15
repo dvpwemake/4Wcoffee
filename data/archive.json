@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-13",
+      "scannedAt": "2026-09-15T07:33:48.627Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-13",
+          "rank": 0,
+          "title": "Already there",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Coffee since six, a new room in Copenhagen.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/8th-roast-kilimbi-anaerobic-sprudge-roasters-village-copy.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-13.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-13"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-14T19-52-16",
       "scannedAt": "2026-09-14T19:52:16.249976+00:00",
       "items": [
