@@ -2,7 +2,7 @@
   "batches": [
     {
       "batchId": "editorial_2026-09-13",
-      "scannedAt": "2026-09-15T07:36:46.093Z",
+      "scannedAt": "2026-09-15T07:33:48.627Z",
       "kind": "editorial_archive",
       "items": [
         {
@@ -10,7 +10,7 @@
           "rank": 0,
           "title": "Already there",
           "category": "editorial",
-          "categoryLabel": "Editorial",
+          "categoryLabel": "editorial",
           "summary": "Coffee since six, a new room in Copenhagen.",
           "image": "https://sprudge.com/wp-content/uploads/2026/09/8th-roast-kilimbi-anaerobic-sprudge-roasters-village-copy.jpg",
           "source": "Fourth Wave Coffee · Editorial",
@@ -73,7 +73,7 @@
           "title": "What Are the Best Dark Roast Coffees Right Now? 10 Picks for 2026",
           "source": "Coffee Review",
           "sourceUrl": "https://www.coffeereview.com/best-dark-roast-coffees/",
-          "summary": "Dark roasts have had a rough decade in specialty circles. The rise of third-wave coffee culture brought with it a corrective skepticism toward the charred, ashy cups that defined second-wave specialty coffee at the turn of this century. Today, light and medium roasts have become ",
+          "summary": "Dark roasts have had a rough decade in specialty circles. The rise of third-wave coffee culture brought with it a corrective skepticism toward the charred, ashy cups that defined second-wave specialty coffee at the turn of this century. Today, light and medium roasts have become",
           "image": "https://www.coffeereview.com/wp-content/uploads/2026/06/Jun-2026-slider-iStock-2224631098.jpg",
           "publishedAt": "2026-06-15T14:18:43+00:00",
           "category": "reviews",
@@ -124,7 +124,7 @@
           "rank": 0,
           "title": "It began with people",
           "category": "editorial",
-          "categoryLabel": "Editorial",
+          "categoryLabel": "editorial",
           "summary": "Tay in the first year. A pouring arm on autopilot.",
           "image": "https://coffeegeek.com/wp-content/uploads/2026/07/xBloom-Studio-Hero-1.jpg",
           "source": "Fourth Wave Coffee · Editorial",
@@ -144,7 +144,7 @@
           "source": "Sprudge",
           "sourceUrl": "https://sprudge.com/a-fresh-roster-of-fresh-coffees-from-the-sprudge-roasters-village-1332178.html",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/8th-roast-kilimbi-anaerobic-sprudge-roasters-village-copy.jpg",
+          "image": "image/carosal/cafe-scene-7252.jpg",
           "publishedAt": "2026-09-13T12:00:13+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
@@ -210,7 +210,7 @@
           "source": "Not a Barista",
           "sourceUrl": "https://notabarista.org/im-not-a-barista-is-coming-to-woc-bangkok-26/",
           "summary": "We’re heading to World of Coffee Bangkok , and this time, we’re coming with a purpose. We’ll be bringing our charity wristbands , the first L1GHT sensory cup samples , and the latest MOMENTEM grinder with us—not just to show what we’ve been working on, but to help support somethi",
-          "image": "image/carosal/cafe-scene-6887.jpg",
+          "image": "image/carosal/cafe-scene-7378.jpg",
           "publishedAt": "2026-05-03T16:48:11+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
@@ -332,7 +332,7 @@
           "source": "Sprudge",
           "sourceUrl": "https://sprudge.com/very-hot-coffee-increases-your-risk-of-esophageal-cancer-1329665.html",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Extra hot coffee is not extra good for your throat.",
-          "image": "",
+          "image": "image/carosal/cafe-scene-7439.jpg",
           "publishedAt": "2026-09-11T16:12:05+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
@@ -343,7 +343,7 @@
           "source": "Sprudge",
           "sourceUrl": "https://sprudge.com/coffee-design-ninety-three-million-from-blanchards-coffee-1283165.html",
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ninety Three Million by Blanchard's Coffee.",
-          "image": "",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/ninety_three_million_coffee_design_sprudge_01.jpg",
           "publishedAt": "2026-09-11T14:00:24+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
@@ -354,7 +354,7 @@
           "source": "Barista Hustle",
           "sourceUrl": "https://www.baristahustle.com/pre-made-vs-fresh/",
           "summary": "“We should be hyping this more” was a quote from a podcast we recorded this week. We’d just finished a blind cupping; one which could be more pivotal than we might like to admit … The post Pre-batched Espresso vs Fresh appeared first on Barista Hustle .",
-          "image": "",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2025/12/Moriondos-lost-espresso-machine.jpg",
           "publishedAt": "2025-12-15T14:25:53+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
@@ -365,7 +365,7 @@
           "source": "Barista Hustle",
           "sourceUrl": "https://www.baristahustle.com/i-got-210-seconds-to-spro/",
           "summary": "If you compete in the World Barista Championship, you’ve gotta make twelve beverages in fifteen minutes, right? That’s seventy five seconds per beverage. Easy enough, eh? The post I Got 21[0] Seconds to Spro appeared first on Barista Hustle .",
-          "image": "",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2025/10/Grinding-no-Latch.jpg",
           "publishedAt": "2025-10-23T10:38:10+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
@@ -376,7 +376,7 @@
           "source": "Coffee Chronicler",
           "sourceUrl": "https://coffeechronicler.com/delonghi-essenza-mini-review-espresso-on-easy-mode/",
           "summary": "Hot shots, nice crema, and a 25-second heat-up in a machine the width of your hand. The catch? It's not really espresso. The post DeLonghi Essenza Mini Review: “Espresso” on Easy-Mode appeared first on The Coffee Chronicler .",
-          "image": "",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/DeLonghi-Essenza-Mini-EN85.B7.webp",
           "publishedAt": "2026-07-15T12:52:56+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
@@ -387,7 +387,7 @@
           "source": "Coffee Chronicler",
           "sourceUrl": "https://coffeechronicler.com/best-drip-coffee-makers/",
           "summary": "The Moccamaster, Aiden, and Breville Precision represent the peak of automatic brewing. But which one is right for you? The post My Favorite Drip Coffee Makers Currently appeared first on The Coffee Chronicler .",
-          "image": "",
+          "image": "image/carosal/cafe-scene-8168.png",
           "publishedAt": "2026-07-12T07:26:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
@@ -398,7 +398,7 @@
           "source": "Not a Barista",
           "sourceUrl": "https://notabarista.org/noon-nutrada-kunavivattananon/",
           "summary": "At twenty-seven, Noon Nutrada Kunavivattananon walked into a room as CEO of one of Thailand’s largest specialty coffee companies. A few years later, she walked into another room as the first female president of the Specialty Coffee Association of Thailand. In both rooms, most peo",
-          "image": "",
+          "image": "image/carosal/cafe-scene-8174.png",
           "publishedAt": "2026-05-24T02:49:36+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
@@ -409,7 +409,7 @@
           "source": "Not a Barista",
           "sourceUrl": "https://notabarista.org/temporary-pause-on-studio-operations/",
           "summary": "Due to urgent family circumstances, I’M NOT A BARISTA will temporarily pause most studio operations until June 4th. During this period, shipping, customer support replies, and ongoing project work may be delayed. All existing 135 ml L1GHT cup orders have been packed and shipped b",
-          "image": "",
+          "image": "image/carosal/cafe-scene-8186.png",
           "publishedAt": "2026-05-11T18:04:10+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
