@@ -1,6 +1,78 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-17T18-22-38",
+      "scannedAt": "2026-09-17T18:22:38.916Z",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Furthers &amp; Betters Goes Beyond the Cup for Specialty Coffee Consumer Intelligence",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/09/17/furthers-betters-goes-beyond-the-cup-for-specialty-coffee-consumer-intelligence/",
+          "summary": "A new specialty coffee research and consulting firm called Furthers &amp; Betters is launching with a focus on the people actually buying and drinking the coffee. Co-founded by longtime consumer...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/coffee-shop-3-620x449.jpg",
+          "publishedAt": "2026-09-17T20:39:59.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Smart Care Unifies Five Coffee Equipment Service Brands as Turbo Tech",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/09/17/smart-care-unifies-five-coffee-equipment-service-brands-as-turbo-tech/",
+          "summary": "Commercial equipment service company Smart Care is consolidating five regional coffee and speed-oven service businesses under a single national brand called Turbo Tech. The new brand incorporates Turbo Technicians, EspressoMe,...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Turbo-Tech-620x400.png",
+          "publishedAt": "2026-09-17T20:06:19.000Z",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Bed depth: why it matters",
+          "source": "Scott Rao",
+          "sourceUrl": "https://www.scottrao.com/blog/2025/11/11/bed-depth-why-it-matters",
+          "summary": "As third-wave coffee has evolved over the past 25 years, we’re probably at or near the extremes of a few long-term trends: roasts have gotten lighter, roasters use fresher green, on average, than ever before, menu offerings have decreased in number, often down to just three or fo",
+          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1762899386082-PFLXOSVU0BUXJLJ2ML0K/coffee bean sleeping on deep bed  copy.jpg?format=1500w",
+          "publishedAt": "2025-11-12T06:07:04.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Colombia, 2025",
+          "source": "Scott Rao",
+          "sourceUrl": "https://www.scottrao.com/blog/colombia-2025",
+          "summary": "View fullsize Last week I had the fortune to visit Colombia, this time spending a few days in Nariño and Medellin. Mil gracias to Adriana of Inconexus for hosting Philip and me in Nariño. Despite a stomach bug and near caffeine poisoning, it was a great adventure. Day 1: Nariño N",
+          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1756770995960-1FSNXJN8UI7CBVTJAJFE/IMG_0373.jpg?format=1500w",
+          "publishedAt": "2025-09-02T08:03:55.000Z",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/new-products/mavos-phantox-pro-wants-to-shake-up-the-mid-range-manual-grinder-market/",
+          "summary": "Mavo's Phantox Pro manual grinder surprised us. Outstanding pour over clarity, a silky adjustment dial, and a filter-only caveat worth knowing about. The post Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Phantox-Pro-Blog-Photos-5-800x533.jpg",
+          "publishedAt": "2026-04-19T14:30:00.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Finally, Some Real Coffee Action: Decaf Coffees 2026",
+          "source": "Coffee Review",
+          "sourceUrl": "https://www.coffeereview.com/finally-some-real-coffee-action-decaf-coffees-2026/",
+          "summary": "Decaffeinated coffees are having their moment. The decaf coffee market is expanding rapidly, with projected growth of 5-7% annually over the next decade. Some estimates project the annual growth rate for decaf coffee will be up to four times that of the overall coffee market. At ",
+          "image": "https://www.coffeereview.com/wp-content/uploads/2026/04/Chiroso-1-2048x1365.jpg",
+          "publishedAt": "2026-04-06T21:39:49.000Z",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-15",
       "scannedAt": "2026-09-17T01:20:53.000Z",
       "kind": "editorial_archive",
