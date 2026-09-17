@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-15",
+      "scannedAt": "2026-09-17T01:20:53.000Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-15",
+          "rank": 0,
+          "title": "Named for the world",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Buon Ma Thuot. Farms that held.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/coffee_museum_coffee_harvesting_artifacts_exhibition_area_world_coffee_museum_07.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-15.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-15"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-16T18-56-12",
       "scannedAt": "2026-09-16T18:56:12.753781+00:00",
       "items": [
