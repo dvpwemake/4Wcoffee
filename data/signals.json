@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-17T18:22:38.916Z",
+  "scannedAt": "2026-09-18T18:31:11.866184+00:00",
   "categories": {
     "industry": "Coffee Industry News & Trade Journals",
     "science": "Coffee Science & Technical",
@@ -8,145 +8,335 @@
   },
   "items": [
     {
-      "title": "Furthers &amp; Betters Goes Beyond the Cup for Specialty Coffee Consumer Intelligence",
-      "source": "Daily Coffee News",
-      "sourceUrl": "https://dailycoffeenews.com/2026/09/17/furthers-betters-goes-beyond-the-cup-for-specialty-coffee-consumer-intelligence/",
-      "summary": "A new specialty coffee research and consulting firm called Furthers &amp; Betters is launching with a focus on the people actually buying and drinking the coffee. Co-founded by longtime consumer...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/coffee-shop-3-620x449.jpg",
-      "publishedAt": "2026-09-17T20:39:59.000Z",
+      "title": "Build-Outs Of Coffee: Stumptown Coffee Roasters In Los Angeles, CA",
+      "source": "Sprudge",
+      "sourceUrl": "https://sprudge.com/build-outs-of-coffee-stumptown-coffee-roasters-in-los-angeles-ca-1310585.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Stumptown Coffee Roasters in Los Angeles, California.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
+      "publishedAt": "2026-09-18T14:00:08+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
-      "id": "industry-1"
+      "id": "industry-1",
+      "rank": 1
     },
     {
-      "title": "Smart Care Unifies Five Coffee Equipment Service Brands as Turbo Tech",
-      "source": "Daily Coffee News",
-      "sourceUrl": "https://dailycoffeenews.com/2026/09/17/smart-care-unifies-five-coffee-equipment-service-brands-as-turbo-tech/",
-      "summary": "Commercial equipment service company Smart Care is consolidating five regional coffee and speed-oven service businesses under a single national brand called Turbo Tech. The new brand incorporates Turbo Technicians, EspressoMe,...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Turbo-Tech-620x400.png",
-      "publishedAt": "2026-09-17T20:06:19.000Z",
+      "title": "Motors Coffee (Of Paris) Is Popping Up At Sey Coffee (Of Brooklyn)",
+      "source": "Sprudge",
+      "sourceUrl": "https://sprudge.com/motors-coffee-of-paris-is-popping-up-at-sey-coffee-of-brooklyn-1345718.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Motors Coffee is taking over Sey's Bushwick cafe this weekend.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/09/sey-x-motors-coffee.jpg",
+      "publishedAt": "2026-09-18T12:00:31+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
-      "id": "industry-2"
+      "id": "industry-2",
+      "rank": 2
     },
     {
-      "title": "Bed depth: why it matters",
-      "source": "Scott Rao",
-      "sourceUrl": "https://www.scottrao.com/blog/2025/11/11/bed-depth-why-it-matters",
-      "summary": "As third-wave coffee has evolved over the past 25 years, we’re probably at or near the extremes of a few long-term trends: roasts have gotten lighter, roasters use fresher green, on average, than ever before, menu offerings have decreased in number, often down to just three or fo",
-      "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1762899386082-PFLXOSVU0BUXJLJ2ML0K/coffee bean sleeping on deep bed  copy.jpg?format=1500w",
-      "publishedAt": "2025-11-12T06:07:04.000Z",
+      "title": "Espresso Machine Dep-3-ciation",
+      "source": "Barista Hustle",
+      "sourceUrl": "https://www.baristahustle.com/espresso-machine-dep-3-ciation/",
+      "summary": "The resale value on high-end espresso machines is awesome; it’s staggering for 1-group machines. As for 3-groups?… It’s terrible. The coffee industry values the third group... The post Espresso Machine Dep-3-ciation appeared first on Barista Hustle .",
+      "image": "https://www.baristahustle.com/wp-content/uploads/2026/09/Linea-Extra-Group-3.jpg",
+      "publishedAt": "2026-09-18T10:53:28+00:00",
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
-      "id": "science-1"
+      "id": "science-1",
+      "rank": 3
     },
     {
-      "title": "Colombia, 2025",
-      "source": "Scott Rao",
-      "sourceUrl": "https://www.scottrao.com/blog/colombia-2025",
-      "summary": "View fullsize Last week I had the fortune to visit Colombia, this time spending a few days in Nariño and Medellin. Mil gracias to Adriana of Inconexus for hosting Philip and me in Nariño. Despite a stomach bug and near caffeine poisoning, it was a great adventure. Day 1: Nariño N",
-      "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1756770995960-1FSNXJN8UI7CBVTJAJFE/IMG_0373.jpg?format=1500w",
-      "publishedAt": "2025-09-02T08:03:55.000Z",
+      "title": "The Lion vs The MVP",
+      "source": "Barista Hustle",
+      "sourceUrl": "https://www.baristahustle.com/the-lion-vs-the-mvp/",
+      "summary": "If you opened your first cafe with a nice reliable second hand LM Linea and you’re curious to know how it compares to a more modern (and more expensive) equivalent, then this blog post is for you. The post The Lion vs The MVP appeared first on Barista Hustle .",
+      "image": "https://www.baristahustle.com/wp-content/uploads/2024/11/The-Lion-vs-The-MVP-Header-02-scaled.jpg",
+      "publishedAt": "2024-11-09T10:46:03+00:00",
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
-      "id": "science-2"
+      "id": "science-2",
+      "rank": 4
     },
     {
-      "title": "Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market",
+      "title": "KINGrinder K7: The ZP6 killer Is Firing Blanks",
+      "source": "Coffee Chronicler",
+      "sourceUrl": "https://coffeechronicler.com/kingrinder-k7-review/",
+      "summary": "Kingrinder K7 tries a lot of new things, and almost succeeds. Except where it's most crucial. The post KINGrinder K7: The ZP6 killer Is Firing Blanks appeared first on The Coffee Chronicler .",
+      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/04/Snapseed-scaled.jpeg",
+      "publishedAt": "2026-04-06T01:00:47+00:00",
+      "category": "reviews",
+      "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
+      "id": "reviews-1",
+      "rank": 5
+    },
+    {
+      "title": "What “Direct Trade” Means for the Farmer Who Grew Your Coffee",
       "source": "CoffeeGeek",
-      "sourceUrl": "https://coffeegeek.com/blog/new-products/mavos-phantox-pro-wants-to-shake-up-the-mid-range-manual-grinder-market/",
-      "summary": "Mavo's Phantox Pro manual grinder surprised us. Outstanding pour over clarity, a silky adjustment dial, and a filter-only caveat worth knowing about. The post Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Phantox-Pro-Blog-Photos-5-800x533.jpg",
-      "publishedAt": "2026-04-19T14:30:00.000Z",
+      "sourceUrl": "https://coffeegeek.com/blog/farming/what-direct-trade-means-for-the-farmer-who-grew-your-coffee/",
+      "summary": "Direct trade, fair trade, commodity: three labels, three very different promises. Learn what they actually mean for the farmers behind your morning cup. The post What “Direct Trade” Means for the Farmer Who Grew Your Coffee appeared first on CoffeeGeek .",
+      "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Marisol-FT-Article-Hero-1-800x533.jpg",
+      "publishedAt": "2026-03-09T11:00:00+00:00",
       "category": "reviews",
       "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
-      "id": "reviews-1"
+      "id": "reviews-2",
+      "rank": 6
     },
     {
-      "title": "Finally, Some Real Coffee Action: Decaf Coffees 2026",
-      "source": "Coffee Review",
-      "sourceUrl": "https://www.coffeereview.com/finally-some-real-coffee-action-decaf-coffees-2026/",
-      "summary": "Decaffeinated coffees are having their moment. The decaf coffee market is expanding rapidly, with projected growth of 5-7% annually over the next decade. Some estimates project the annual growth rate for decaf coffee will be up to four times that of the overall coffee market. At",
-      "image": "https://www.coffeereview.com/wp-content/uploads/2026/04/Chiroso-1-2048x1365.jpg",
-      "publishedAt": "2026-04-06T21:39:49.000Z",
-      "category": "reviews",
-      "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
-      "id": "reviews-2"
+      "title": "Edward Choo",
+      "source": "Not a Barista",
+      "sourceUrl": "https://notabarista.org/edward-choo/",
+      "summary": "Edward Choo didn’t grow up loving coffee. Like many kids in Malaysia, his drink of choice was Milo. Whenever his parents ordered coffee at a local kopitiam, he would secretly take a sip out of curiosity. It never tasted good. “Yo, it’s yuck. Bitter and intense. Not something I wo",
+      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Edward-Choo-1-1024x576.jpg",
+      "publishedAt": "2026-03-25T21:00:17+00:00",
+      "category": "origin",
+      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+      "id": "origin-1",
+      "rank": 7
+    },
+    {
+      "title": "Jimmy Adame",
+      "source": "Not a Barista",
+      "sourceUrl": "https://notabarista.org/jimmy-adame/",
+      "summary": "A life told in coffee, chaos, and second acts. A 14-year-old kid at a Michigan farmer’s market. Flannel and Neff beanies everywhere. He points at the board, orders what he thinks is a blackberry-milk-chocolate latte. The barista hands him a simple pour-over instead. Jimmy Adame s",
+      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Jimmy-Adame-1024x576.jpg",
+      "publishedAt": "2026-03-03T15:46:10+00:00",
+      "category": "origin",
+      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+      "id": "origin-2",
+      "rank": 8
     }
   ],
   "byCategory": {
     "industry": [
       {
-        "title": "Furthers &amp; Betters Goes Beyond the Cup for Specialty Coffee Consumer Intelligence",
-        "source": "Daily Coffee News",
-        "sourceUrl": "https://dailycoffeenews.com/2026/09/17/furthers-betters-goes-beyond-the-cup-for-specialty-coffee-consumer-intelligence/",
-        "summary": "A new specialty coffee research and consulting firm called Furthers &amp; Betters is launching with a focus on the people actually buying and drinking the coffee. Co-founded by longtime consumer...",
-        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/coffee-shop-3-620x449.jpg",
-        "publishedAt": "2026-09-17T20:39:59.000Z",
+        "title": "Build-Outs Of Coffee: Stumptown Coffee Roasters In Los Angeles, CA",
+        "source": "Sprudge",
+        "sourceUrl": "https://sprudge.com/build-outs-of-coffee-stumptown-coffee-roasters-in-los-angeles-ca-1310585.html",
+        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Stumptown Coffee Roasters in Los Angeles, California.",
+        "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
+        "publishedAt": "2026-09-18T14:00:08+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
-        "id": "industry-1"
+        "id": "industry-1",
+        "rank": 1
       },
       {
-        "title": "Smart Care Unifies Five Coffee Equipment Service Brands as Turbo Tech",
-        "source": "Daily Coffee News",
-        "sourceUrl": "https://dailycoffeenews.com/2026/09/17/smart-care-unifies-five-coffee-equipment-service-brands-as-turbo-tech/",
-        "summary": "Commercial equipment service company Smart Care is consolidating five regional coffee and speed-oven service businesses under a single national brand called Turbo Tech. The new brand incorporates Turbo Technicians, EspressoMe,...",
-        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Turbo-Tech-620x400.png",
-        "publishedAt": "2026-09-17T20:06:19.000Z",
+        "title": "Motors Coffee (Of Paris) Is Popping Up At Sey Coffee (Of Brooklyn)",
+        "source": "Sprudge",
+        "sourceUrl": "https://sprudge.com/motors-coffee-of-paris-is-popping-up-at-sey-coffee-of-brooklyn-1345718.html",
+        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Motors Coffee is taking over Sey's Bushwick cafe this weekend.",
+        "image": "https://sprudge.com/wp-content/uploads/2026/09/sey-x-motors-coffee.jpg",
+        "publishedAt": "2026-09-18T12:00:31+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
-        "id": "industry-2"
+        "id": "industry-2",
+        "rank": 2
       }
     ],
     "science": [
       {
-        "title": "Bed depth: why it matters",
-        "source": "Scott Rao",
-        "sourceUrl": "https://www.scottrao.com/blog/2025/11/11/bed-depth-why-it-matters",
-        "summary": "As third-wave coffee has evolved over the past 25 years, we’re probably at or near the extremes of a few long-term trends: roasts have gotten lighter, roasters use fresher green, on average, than ever before, menu offerings have decreased in number, often down to just three or fo",
-        "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1762899386082-PFLXOSVU0BUXJLJ2ML0K/coffee bean sleeping on deep bed  copy.jpg?format=1500w",
-        "publishedAt": "2025-11-12T06:07:04.000Z",
+        "title": "Espresso Machine Dep-3-ciation",
+        "source": "Barista Hustle",
+        "sourceUrl": "https://www.baristahustle.com/espresso-machine-dep-3-ciation/",
+        "summary": "The resale value on high-end espresso machines is awesome; it’s staggering for 1-group machines. As for 3-groups?… It’s terrible. The coffee industry values the third group... The post Espresso Machine Dep-3-ciation appeared first on Barista Hustle .",
+        "image": "https://www.baristahustle.com/wp-content/uploads/2026/09/Linea-Extra-Group-3.jpg",
+        "publishedAt": "2026-09-18T10:53:28+00:00",
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
-        "id": "science-1"
+        "id": "science-1",
+        "rank": 3
       },
       {
-        "title": "Colombia, 2025",
-        "source": "Scott Rao",
-        "sourceUrl": "https://www.scottrao.com/blog/colombia-2025",
-        "summary": "View fullsize Last week I had the fortune to visit Colombia, this time spending a few days in Nariño and Medellin. Mil gracias to Adriana of Inconexus for hosting Philip and me in Nariño. Despite a stomach bug and near caffeine poisoning, it was a great adventure. Day 1: Nariño N",
-        "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1756770995960-1FSNXJN8UI7CBVTJAJFE/IMG_0373.jpg?format=1500w",
-        "publishedAt": "2025-09-02T08:03:55.000Z",
+        "title": "The Lion vs The MVP",
+        "source": "Barista Hustle",
+        "sourceUrl": "https://www.baristahustle.com/the-lion-vs-the-mvp/",
+        "summary": "If you opened your first cafe with a nice reliable second hand LM Linea and you’re curious to know how it compares to a more modern (and more expensive) equivalent, then this blog post is for you. The post The Lion vs The MVP appeared first on Barista Hustle .",
+        "image": "https://www.baristahustle.com/wp-content/uploads/2024/11/The-Lion-vs-The-MVP-Header-02-scaled.jpg",
+        "publishedAt": "2024-11-09T10:46:03+00:00",
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
-        "id": "science-2"
+        "id": "science-2",
+        "rank": 4
       }
     ],
     "reviews": [
       {
-        "title": "Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market",
-        "source": "CoffeeGeek",
-        "sourceUrl": "https://coffeegeek.com/blog/new-products/mavos-phantox-pro-wants-to-shake-up-the-mid-range-manual-grinder-market/",
-        "summary": "Mavo's Phantox Pro manual grinder surprised us. Outstanding pour over clarity, a silky adjustment dial, and a filter-only caveat worth knowing about. The post Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market appeared first on CoffeeGeek .",
-        "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Phantox-Pro-Blog-Photos-5-800x533.jpg",
-        "publishedAt": "2026-04-19T14:30:00.000Z",
+        "title": "KINGrinder K7: The ZP6 killer Is Firing Blanks",
+        "source": "Coffee Chronicler",
+        "sourceUrl": "https://coffeechronicler.com/kingrinder-k7-review/",
+        "summary": "Kingrinder K7 tries a lot of new things, and almost succeeds. Except where it's most crucial. The post KINGrinder K7: The ZP6 killer Is Firing Blanks appeared first on The Coffee Chronicler .",
+        "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/04/Snapseed-scaled.jpeg",
+        "publishedAt": "2026-04-06T01:00:47+00:00",
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
-        "id": "reviews-1"
+        "id": "reviews-1",
+        "rank": 5
       },
       {
-        "title": "Finally, Some Real Coffee Action: Decaf Coffees 2026",
-        "source": "Coffee Review",
-        "sourceUrl": "https://www.coffeereview.com/finally-some-real-coffee-action-decaf-coffees-2026/",
-        "summary": "Decaffeinated coffees are having their moment. The decaf coffee market is expanding rapidly, with projected growth of 5-7% annually over the next decade. Some estimates project the annual growth rate for decaf coffee will be up to four times that of the overall coffee market. At",
-        "image": "https://www.coffeereview.com/wp-content/uploads/2026/04/Chiroso-1-2048x1365.jpg",
-        "publishedAt": "2026-04-06T21:39:49.000Z",
+        "title": "What “Direct Trade” Means for the Farmer Who Grew Your Coffee",
+        "source": "CoffeeGeek",
+        "sourceUrl": "https://coffeegeek.com/blog/farming/what-direct-trade-means-for-the-farmer-who-grew-your-coffee/",
+        "summary": "Direct trade, fair trade, commodity: three labels, three very different promises. Learn what they actually mean for the farmers behind your morning cup. The post What “Direct Trade” Means for the Farmer Who Grew Your Coffee appeared first on CoffeeGeek .",
+        "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Marisol-FT-Article-Hero-1-800x533.jpg",
+        "publishedAt": "2026-03-09T11:00:00+00:00",
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
-        "id": "reviews-2"
+        "id": "reviews-2",
+        "rank": 6
+      }
+    ],
+    "origin": [
+      {
+        "title": "Edward Choo",
+        "source": "Not a Barista",
+        "sourceUrl": "https://notabarista.org/edward-choo/",
+        "summary": "Edward Choo didn’t grow up loving coffee. Like many kids in Malaysia, his drink of choice was Milo. Whenever his parents ordered coffee at a local kopitiam, he would secretly take a sip out of curiosity. It never tasted good. “Yo, it’s yuck. Bitter and intense. Not something I wo",
+        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Edward-Choo-1-1024x576.jpg",
+        "publishedAt": "2026-03-25T21:00:17+00:00",
+        "category": "origin",
+        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+        "id": "origin-1",
+        "rank": 7
+      },
+      {
+        "title": "Jimmy Adame",
+        "source": "Not a Barista",
+        "sourceUrl": "https://notabarista.org/jimmy-adame/",
+        "summary": "A life told in coffee, chaos, and second acts. A 14-year-old kid at a Michigan farmer’s market. Flannel and Neff beanies everywhere. He points at the board, orders what he thinks is a blackberry-milk-chocolate latte. The barista hands him a simple pour-over instead. Jimmy Adame s",
+        "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Jimmy-Adame-1024x576.jpg",
+        "publishedAt": "2026-03-03T15:46:10+00:00",
+        "category": "origin",
+        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+        "id": "origin-2",
+        "rank": 8
       }
     ]
   },
-  "deleted": []
+  "deleted": [],
+  "log": [
+    {
+      "ok": true,
+      "source": "Sprudge",
+      "n": 30,
+      "url": "https://sprudge.com/feed"
+    },
+    {
+      "ok": false,
+      "source": "Daily Coffee News",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://dailycoffeenews.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Perfect Daily Grind",
+      "n": 30,
+      "url": "https://perfectdailygrind.com/feed"
+    },
+    {
+      "ok": false,
+      "source": "Roast Magazine",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://roastmagazine.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Standart",
+      "n": 11,
+      "url": "https://standartmag.com/blogs/journal.atom"
+    },
+    {
+      "ok": true,
+      "source": "Barista Hustle",
+      "n": 30,
+      "url": "https://www.baristahustle.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Ad Astra",
+      "n": 30,
+      "url": "https://coffeeadastra.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Scott Rao",
+      "n": 0,
+      "url": "https://www.scottrao.com/blog?format=rss"
+    },
+    {
+      "ok": false,
+      "source": "Jim Seven",
+      "error": "<urlopen error timed out>",
+      "url": "https://www.jimseven.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "World Coffee Research",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://worldcoffeeresearch.org/feed"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Review",
+      "n": 30,
+      "url": "https://www.coffeereview.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "CoffeeGeek",
+      "n": 30,
+      "url": "https://coffeegeek.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Home-Barista",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.home-barista.com/rss.xml"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Chronicler",
+      "n": 30,
+      "url": "https://coffeechronicler.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Espresso My Espresso",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://espressomyespresso.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "SCA News",
+      "error": "<urlopen error timed out>",
+      "url": "https://scanews.coffee/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Sweet Maria's",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://www.sweetmarias.com/blog/feed"
+    },
+    {
+      "ok": true,
+      "source": "Perfect Daily Grind Origins",
+      "n": 30,
+      "url": "https://perfectdailygrind.com/category/origins/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Cafe Imports",
+      "n": 0,
+      "url": "https://cafeimports.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "European Coffee Trip",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://europeancoffeetrip.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Not a Barista",
+      "n": 30,
+      "url": "https://notabarista.org/feed/"
+    }
+  ]
 }

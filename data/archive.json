@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-18T18-31-11",
+      "scannedAt": "2026-09-18T18:31:11.866184+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Build-Outs Of Coffee: Stumptown Coffee Roasters In Los Angeles, CA",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-stumptown-coffee-roasters-in-los-angeles-ca-1310585.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Stumptown Coffee Roasters in Los Angeles, California.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
+          "publishedAt": "2026-09-18T14:00:08+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Motors Coffee (Of Paris) Is Popping Up At Sey Coffee (Of Brooklyn)",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/motors-coffee-of-paris-is-popping-up-at-sey-coffee-of-brooklyn-1345718.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Motors Coffee is taking over Sey's Bushwick cafe this weekend.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/sey-x-motors-coffee.jpg",
+          "publishedAt": "2026-09-18T12:00:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Espresso Machine Dep-3-ciation",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/espresso-machine-dep-3-ciation/",
+          "summary": "The resale value on high-end espresso machines is awesome; it’s staggering for 1-group machines. As for 3-groups?… It’s terrible. The coffee industry values the third group... The post Espresso Machine Dep-3-ciation appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2026/09/Linea-Extra-Group-3.jpg",
+          "publishedAt": "2026-09-18T10:53:28+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "The Lion vs The MVP",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/the-lion-vs-the-mvp/",
+          "summary": "If you opened your first cafe with a nice reliable second hand LM Linea and you’re curious to know how it compares to a more modern (and more expensive) equivalent, then this blog post is for you. The post The Lion vs The MVP appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2024/11/The-Lion-vs-The-MVP-Header-02-scaled.jpg",
+          "publishedAt": "2024-11-09T10:46:03+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "KINGrinder K7: The ZP6 killer Is Firing Blanks",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/kingrinder-k7-review/",
+          "summary": "Kingrinder K7 tries a lot of new things, and almost succeeds. Except where it's most crucial. The post KINGrinder K7: The ZP6 killer Is Firing Blanks appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/04/Snapseed-scaled.jpeg",
+          "publishedAt": "2026-04-06T01:00:47+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "What “Direct Trade” Means for the Farmer Who Grew Your Coffee",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/farming/what-direct-trade-means-for-the-farmer-who-grew-your-coffee/",
+          "summary": "Direct trade, fair trade, commodity: three labels, three very different promises. Learn what they actually mean for the farmers behind your morning cup. The post What “Direct Trade” Means for the Farmer Who Grew Your Coffee appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Marisol-FT-Article-Hero-1-800x533.jpg",
+          "publishedAt": "2026-03-09T11:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Edward Choo",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/edward-choo/",
+          "summary": "Edward Choo didn’t grow up loving coffee. Like many kids in Malaysia, his drink of choice was Milo. Whenever his parents ordered coffee at a local kopitiam, he would secretly take a sip out of curiosity. It never tasted good. “Yo, it’s yuck. Bitter and intense. Not something I wo",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Edward-Choo-1-1024x576.jpg",
+          "publishedAt": "2026-03-25T21:00:17+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Jimmy Adame",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/jimmy-adame/",
+          "summary": "A life told in coffee, chaos, and second acts. A 14-year-old kid at a Michigan farmer’s market. Flannel and Neff beanies everywhere. He points at the board, orders what he thinks is a blackberry-milk-chocolate latte. The barista hands him a simple pour-over instead. Jimmy Adame s",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Jimmy-Adame-1024x576.jpg",
+          "publishedAt": "2026-03-03T15:46:10+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-17T18-22-38",
       "scannedAt": "2026-09-17T18:22:38.916Z",
       "items": [
