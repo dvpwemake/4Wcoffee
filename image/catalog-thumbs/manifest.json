@@ -1,0 +1,882 @@
+{
+  "summary": {
+    "count": 87,
+    "missing": [],
+    "src_bytes": 45283270,
+    "webp_bytes": 2412054,
+    "jpg_bytes": 4340083,
+    "out_dir": "image/catalog-thumbs"
+  },
+  "files": [
+    {
+      "src": "image/coffeecol-01-cold-brew-whiskey-aged.png",
+      "src_bytes": 420020,
+      "webp_bytes": 31910,
+      "jpg_bytes": 49209,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-02-colombia-mi-tierra-filandia.png",
+      "src_bytes": 392432,
+      "webp_bytes": 27438,
+      "jpg_bytes": 39099,
+      "size": [
+        400,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-03-cafe-gourmet-drip-coffee.png",
+      "src_bytes": 307005,
+      "webp_bytes": 21404,
+      "jpg_bytes": 32070,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "src": "image/coffeecol-04-yirgacheffe-ethiopia-natural.png",
+      "src_bytes": 372168,
+      "webp_bytes": 17878,
+      "jpg_bytes": 29030,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "src": "image/coffeecol-05-duramina-ethiopia.png",
+      "src_bytes": 311536,
+      "webp_bytes": 19058,
+      "jpg_bytes": 31521,
+      "size": [
+        400,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-06-uganda-bulambuli-natural.jpg",
+      "src_bytes": 59170,
+      "webp_bytes": 23770,
+      "jpg_bytes": 39105,
+      "size": [
+        435,
+        455
+      ]
+    },
+    {
+      "src": "image/coffeecol-08-sonora-honey-natural-costa-rica.png",
+      "src_bytes": 268744,
+      "webp_bytes": 16082,
+      "jpg_bytes": 27296,
+      "size": [
+        400,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-09-mambo-italiano-espresso-blend.jpg",
+      "src_bytes": 69580,
+      "webp_bytes": 27032,
+      "jpg_bytes": 40573,
+      "size": [
+        356,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-10-las-reinas-del-sur-drip-blend.jpg",
+      "src_bytes": 52189,
+      "webp_bytes": 19528,
+      "jpg_bytes": 33152,
+      "size": [
+        355,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-12-navy-blue-cold-brew-series.png",
+      "src_bytes": 113165,
+      "webp_bytes": 13094,
+      "jpg_bytes": 22059,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-13-decaf-colombia-sugar-cane-process.jpg",
+      "src_bytes": 68798,
+      "webp_bytes": 31902,
+      "jpg_bytes": 47647,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-14-coffee-explorer-12-oz.jpg",
+      "src_bytes": 137658,
+      "webp_bytes": 75602,
+      "jpg_bytes": 83632,
+      "size": [
+        500,
+        400
+      ]
+    },
+    {
+      "src": "image/coffeecol-15-coffee-explorer-1-lb.png",
+      "src_bytes": 247315,
+      "webp_bytes": 26716,
+      "jpg_bytes": 35260,
+      "size": [
+        500,
+        375
+      ]
+    },
+    {
+      "src": "image/coffeecol-19-the-match-world-cup-edition-8oz.png",
+      "src_bytes": 494991,
+      "webp_bytes": 41018,
+      "jpg_bytes": 53528,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "src": "image/coffeecol-20-k-cups.png",
+      "src_bytes": 574183,
+      "webp_bytes": 36028,
+      "jpg_bytes": 52344,
+      "size": [
+        500,
+        500
+      ]
+    },
+    {
+      "src": "image/habitat-01-decaf-ethiopia-oromia.jpg",
+      "src_bytes": 264698,
+      "webp_bytes": 41384,
+      "jpg_bytes": 76473,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/habitat-02-the-diner.jpg",
+      "src_bytes": 368802,
+      "webp_bytes": 25358,
+      "jpg_bytes": 53863,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/habitat-03-the-house.jpg",
+      "src_bytes": 433652,
+      "webp_bytes": 43402,
+      "jpg_bytes": 72181,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/habitat-04-luya-peru.jpg",
+      "src_bytes": 828117,
+      "webp_bytes": 94078,
+      "jpg_bytes": 114486,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/habitat-05-rwacof-rwanda.jpg",
+      "src_bytes": 417603,
+      "webp_bytes": 17596,
+      "jpg_bytes": 38789,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/habitat-06-veracruz-mexico.jpg",
+      "src_bytes": 795125,
+      "webp_bytes": 60974,
+      "jpg_bytes": 91869,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/habitat-07-ruvuma-tanzania-peaberry.jpg",
+      "src_bytes": 768275,
+      "webp_bytes": 64494,
+      "jpg_bytes": 92672,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "src": "image/qahwah-01-green-whole-beans.webp",
+      "src_bytes": 12810,
+      "webp_bytes": 7412,
+      "jpg_bytes": 19396,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/qahwah-02-medium-roast-whole-beans.webp",
+      "src_bytes": 12810,
+      "webp_bytes": 7412,
+      "jpg_bytes": 19396,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/qahwah-03-qishr-coffee-husks-16oz.webp",
+      "src_bytes": 12810,
+      "webp_bytes": 7412,
+      "jpg_bytes": 19396,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/qahwah-04-sana-ani-blend.webp",
+      "src_bytes": 12810,
+      "webp_bytes": 7412,
+      "jpg_bytes": 19396,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/qahwah-05-turkish-blend.webp",
+      "src_bytes": 12810,
+      "webp_bytes": 7412,
+      "jpg_bytes": 19396,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/qahwah-06-dark-roast-espresso-whole-beans.webp",
+      "src_bytes": 12810,
+      "webp_bytes": 7412,
+      "jpg_bytes": 19396,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-01-colombia-marlon-s-aji-bourbon.png",
+      "src_bytes": 702238,
+      "webp_bytes": 19822,
+      "jpg_bytes": 40293,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-02-ethiopia-genji-challa.png",
+      "src_bytes": 424872,
+      "webp_bytes": 15716,
+      "jpg_bytes": 32359,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-03-peru-lorenzo-arbildo-parra.png",
+      "src_bytes": 275953,
+      "webp_bytes": 20652,
+      "jpg_bytes": 41043,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-04-colombia-bayron-arcila-double-ferment.png",
+      "src_bytes": 163115,
+      "webp_bytes": 12732,
+      "jpg_bytes": 25148,
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "src": "image/portrait-05-uganda-kisoro-estate-anaerobic-natural.jpg",
+      "src_bytes": 116978,
+      "webp_bytes": 31218,
+      "jpg_bytes": 64361,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-07-colombia-sonson-black-honey.png",
+      "src_bytes": 157474,
+      "webp_bytes": 13864,
+      "jpg_bytes": 26347,
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "src": "image/portrait-08-stankonia-coffee.jpg",
+      "src_bytes": 177810,
+      "webp_bytes": 39420,
+      "jpg_bytes": 65696,
+      "size": [
+        800,
+        799
+      ]
+    },
+    {
+      "src": "image/portrait-10-triple-double.png",
+      "src_bytes": 662969,
+      "webp_bytes": 35628,
+      "jpg_bytes": 68126,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-11-colombia-sugarcane-decaf.png",
+      "src_bytes": 578897,
+      "webp_bytes": 24654,
+      "jpg_bytes": 55073,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-12-double-double.png",
+      "src_bytes": 564781,
+      "webp_bytes": 33706,
+      "jpg_bytes": 62842,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-13-darker-the-cherry.png",
+      "src_bytes": 525172,
+      "webp_bytes": 25016,
+      "jpg_bytes": 53505,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-14-barry.png",
+      "src_bytes": 493395,
+      "webp_bytes": 20728,
+      "jpg_bytes": 43899,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-15-stacey.png",
+      "src_bytes": 463486,
+      "webp_bytes": 24482,
+      "jpg_bytes": 51764,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-16-toni.png",
+      "src_bytes": 434058,
+      "webp_bytes": 22276,
+      "jpg_bytes": 52143,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/portrait-17-founders.png",
+      "src_bytes": 426325,
+      "webp_bytes": 21774,
+      "jpg_bytes": 46220,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/june-01-burundi-busambo.jpg",
+      "src_bytes": 124143,
+      "webp_bytes": 8342,
+      "jpg_bytes": 23323,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-02-atticus.jpg",
+      "src_bytes": 131210,
+      "webp_bytes": 9054,
+      "jpg_bytes": 24631,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-03-colombia-jairo-arcila-mango.jpg",
+      "src_bytes": 129563,
+      "webp_bytes": 8606,
+      "jpg_bytes": 24005,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-04-colombia-marlon-bola-os-pink-bourbon.jpg",
+      "src_bytes": 129171,
+      "webp_bytes": 8822,
+      "jpg_bytes": 24438,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-05-colombia-atunkaa-sugarcane-decaf.jpg",
+      "src_bytes": 126859,
+      "webp_bytes": 8212,
+      "jpg_bytes": 23872,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-06-peru-cajamarca.jpg",
+      "src_bytes": 128154,
+      "webp_bytes": 8674,
+      "jpg_bytes": 23940,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-07-ethiopia-mustefa-abakeno.jpg",
+      "src_bytes": 123430,
+      "webp_bytes": 7942,
+      "jpg_bytes": 23263,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/june-09-echo-blend.jpg",
+      "src_bytes": 125359,
+      "webp_bytes": 8700,
+      "jpg_bytes": 23779,
+      "size": [
+        656,
+        800
+      ]
+    },
+    {
+      "src": "image/haraz-03-harazi-blend-yemeni-style.jpg",
+      "src_bytes": 774894,
+      "webp_bytes": 17416,
+      "jpg_bytes": 33915,
+      "size": [
+        533,
+        800
+      ]
+    },
+    {
+      "src": "image/haraz-04-haraz-khaleeji-specialty-blend.jpg",
+      "src_bytes": 227258,
+      "webp_bytes": 49872,
+      "jpg_bytes": 70947,
+      "size": [
+        679,
+        800
+      ]
+    },
+    {
+      "src": "image/haraz-05-haraz-jubani-specialty-blend.jpg",
+      "src_bytes": 747313,
+      "webp_bytes": 16434,
+      "jpg_bytes": 33007,
+      "size": [
+        533,
+        800
+      ]
+    },
+    {
+      "src": "image/haraz-06-haraz-turkish-specialty-blend.jpg",
+      "src_bytes": 774894,
+      "webp_bytes": 17416,
+      "jpg_bytes": 33915,
+      "size": [
+        533,
+        800
+      ]
+    },
+    {
+      "src": "image/haraz-08-dark-roasted-coffee.jpg",
+      "src_bytes": 737856,
+      "webp_bytes": 17324,
+      "jpg_bytes": 33468,
+      "size": [
+        533,
+        800
+      ]
+    },
+    {
+      "src": "image/haraz-09-medium-roasted-coffee.jpg",
+      "src_bytes": 694111,
+      "webp_bytes": 16268,
+      "jpg_bytes": 33009,
+      "size": [
+        533,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-01-el-jardin-gesha-honduras.png",
+      "src_bytes": 581298,
+      "webp_bytes": 22642,
+      "jpg_bytes": 53839,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-02-bombe-abore-ethiopia.png",
+      "src_bytes": 776026,
+      "webp_bytes": 35004,
+      "jpg_bytes": 69398,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-03-huehuetenango-guatemala.png",
+      "src_bytes": 484416,
+      "webp_bytes": 20978,
+      "jpg_bytes": 53481,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-04-karindundu-kenya-low-stock.png",
+      "src_bytes": 572741,
+      "webp_bytes": 22072,
+      "jpg_bytes": 50803,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-05-aga-goro-ethiopia.png",
+      "src_bytes": 524185,
+      "webp_bytes": 25082,
+      "jpg_bytes": 51535,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-06-las-perlitas-colombia.png",
+      "src_bytes": 1048204,
+      "webp_bytes": 28222,
+      "jpg_bytes": 61877,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-08-wush-wush-ethiopia.png",
+      "src_bytes": 503749,
+      "webp_bytes": 27238,
+      "jpg_bytes": 61691,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-09-atunka-decaf-colombia.png",
+      "src_bytes": 524571,
+      "webp_bytes": 31094,
+      "jpg_bytes": 65513,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-10-instant-coffee-brownie-points.jpg",
+      "src_bytes": 962811,
+      "webp_bytes": 41944,
+      "jpg_bytes": 81062,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-11-friends-family-blend.png",
+      "src_bytes": 529917,
+      "webp_bytes": 28850,
+      "jpg_bytes": 66847,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-12-dark-night-brew.png",
+      "src_bytes": 10462907,
+      "webp_bytes": 19630,
+      "jpg_bytes": 42766,
+      "size": [
+        792,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-13-brownie-points-blend.png",
+      "src_bytes": 452830,
+      "webp_bytes": 26266,
+      "jpg_bytes": 57052,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-14-single-origin-subscription.jpg",
+      "src_bytes": 26052,
+      "webp_bytes": 8786,
+      "jpg_bytes": 24873,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-15-roaster-s-choice.jpg",
+      "src_bytes": 36230,
+      "webp_bytes": 14036,
+      "jpg_bytes": 32736,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/polite-16-corner-booth-blend.png",
+      "src_bytes": 522981,
+      "webp_bytes": 22502,
+      "jpg_bytes": 57214,
+      "size": [
+        800,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-01-ardi.png",
+      "src_bytes": 893777,
+      "webp_bytes": 49060,
+      "jpg_bytes": 82534,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-02-crown-jewel-decaf.jpg",
+      "src_bytes": 188900,
+      "webp_bytes": 48650,
+      "jpg_bytes": 78634,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-03-peru-margarita.png",
+      "src_bytes": 876466,
+      "webp_bytes": 47478,
+      "jpg_bytes": 81442,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-04-huila-community.png",
+      "src_bytes": 898148,
+      "webp_bytes": 50824,
+      "jpg_bytes": 83523,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-05-empress.png",
+      "src_bytes": 900595,
+      "webp_bytes": 49506,
+      "jpg_bytes": 82493,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-06-queen.png",
+      "src_bytes": 901546,
+      "webp_bytes": 51572,
+      "jpg_bytes": 84457,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-07-duchess.jpg",
+      "src_bytes": 237128,
+      "webp_bytes": 53344,
+      "jpg_bytes": 85080,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-08-duke.jpg",
+      "src_bytes": 235218,
+      "webp_bytes": 51402,
+      "jpg_bytes": 84682,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-09-jester.png",
+      "src_bytes": 625866,
+      "webp_bytes": 49764,
+      "jpg_bytes": 82910,
+      "size": [
+        639,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-10-roasters-choice-subscription.png",
+      "src_bytes": 418461,
+      "webp_bytes": 32148,
+      "jpg_bytes": 50742,
+      "size": [
+        800,
+        533
+      ]
+    },
+    {
+      "src": "image/palace-11-coffee-sample-boxes.jpg",
+      "src_bytes": 200095,
+      "webp_bytes": 23558,
+      "jpg_bytes": 39058,
+      "size": [
+        533,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-12-monarch.jpg",
+      "src_bytes": 238935,
+      "webp_bytes": 54188,
+      "jpg_bytes": 85942,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/palace-13-goodnight.png",
+      "src_bytes": 909447,
+      "webp_bytes": 50990,
+      "jpg_bytes": 83350,
+      "size": [
+        640,
+        800
+      ]
+    },
+    {
+      "src": "image/legacy-wash.png",
+      "src_bytes": 361351,
+      "webp_bytes": 19452,
+      "jpg_bytes": 35759,
+      "size": [
+        600,
+        777
+      ]
+    },
+    {
+      "src": "image/legacy-ferment.png",
+      "src_bytes": 404595,
+      "webp_bytes": 20784,
+      "jpg_bytes": 38225,
+      "size": [
+        600,
+        777
+      ]
+    }
+  ]
+}

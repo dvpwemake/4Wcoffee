@@ -330,6 +330,7 @@ body.nav-lock { overflow: hidden; }
   overflow: hidden;
 }
 .card__shot { aspect-ratio: 1 / 1; background: #111; }
+.card__shot picture { display: block; width: 100%; height: 100%; }
 .card__shot img { width: 100%; height: 100%; object-fit: cover; }
 .card__ph {
   width: 100%; height: 100%; display: grid; place-items: center;

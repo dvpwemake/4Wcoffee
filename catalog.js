@@ -99,6 +99,8 @@
   }
 
   class CatalogView {
+    static EAGER_COUNT = 6;
+
     constructor(root, catalog) {
       this.root = root;
       this.catalog = catalog;
@@ -128,14 +130,48 @@
         .join("");
     }
 
-    productMarkup(product) {
-      const img = product.image
-        ? '<img src="' +
-          CatalogView.escape(product.image) +
-          '" alt="' +
-          CatalogView.escape(product.name) +
-          '" loading="lazy" width="640" height="640">'
-        : '<div class="card__ph">Photo coming from the roaster</div>';
+    static thumbStem(imagePath) {
+      const file = String(imagePath || "").split("/").pop() || "";
+      const dot = file.lastIndexOf(".");
+      return dot > 0 ? file.slice(0, dot) : file;
+    }
+
+    static thumbUrl(imagePath, ext) {
+      const stem = CatalogView.thumbStem(imagePath);
+      if (!stem) return "";
+      return "image/catalog-thumbs/" + stem + "." + ext;
+    }
+
+    productImageMarkup(product, index) {
+      if (!product.image) {
+        return '<div class="card__ph">Photo coming from the roaster</div>';
+      }
+      const eager = index < CatalogView.EAGER_COUNT;
+      const webp = CatalogView.thumbUrl(product.image, "webp");
+      const jpg = CatalogView.thumbUrl(product.image, "jpg");
+      const alt = CatalogView.escape(product.name);
+      const loading = eager ? "eager" : "lazy";
+      const prio = eager ? ' fetchpriority="high"' : "";
+      return (
+        "<picture>" +
+        '<source type="image/webp" srcset="' +
+        CatalogView.escape(webp) +
+        '">' +
+        '<img src="' +
+        CatalogView.escape(jpg) +
+        '" alt="' +
+        alt +
+        '" width="800" height="800" decoding="async" loading="' +
+        loading +
+        '"' +
+        prio +
+        ">" +
+        "</picture>"
+      );
+    }
+
+    productMarkup(product, index) {
+      const img = this.productImageMarkup(product, index);
       return (
         '<article class="card" data-product="' +
         CatalogView.escape(product.id) +
@@ -178,7 +214,7 @@
       const grid = this.root.querySelector("#catalog-grid");
       if (!grid) return;
       grid.innerHTML = this.visibleProducts()
-        .map((product) => this.productMarkup(product))
+        .map((product, index) => this.productMarkup(product, index))
         .join("");
       this.bindBuy();
     }
@@ -245,6 +281,12 @@
       }
     }
   }
+
+  global.FourthWaveCatalog = {
+    Product: Product,
+    Catalog: Catalog,
+    CatalogView: CatalogView,
+  };
 
   document.addEventListener("DOMContentLoaded", function () {
     const root = document.getElementById("catalog");
