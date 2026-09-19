@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-18",
+      "scannedAt": "2026-09-19T19:03:52.043Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-18",
+          "rank": 0,
+          "title": "He pointed at the board",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Fourteen. A pour-over instead.",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Jimmy-Adame-1024x576.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-18.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-18"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-19T18-03-09",
       "scannedAt": "2026-09-19T18:03:09.228221+00:00",
       "items": [
