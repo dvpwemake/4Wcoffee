@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-19T18-03-09",
+      "scannedAt": "2026-09-19T18:03:09.228221+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Checking In On The Other Side Of The Supply Chain With The Green Room",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/checking-in-on-the-other-side-of-the-supply-chain-with-the-green-room-1349454.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An all-access pass to the inner workings of the coffee supply chain.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
+          "publishedAt": "2026-09-19T12:00:57+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "The Double-Edged Sword Of App Ordering And Drive-Thrus In Coffee",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-double-edged-sword-of-app-ordering-and-drive-thrus-in-coffee-1342468.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Convenience is taking over.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/drive-thru-adobestock_661274266.jpeg",
+          "publishedAt": "2026-09-17T18:56:03+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "The Mechanism Behind Astringency in Coffee",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/",
+          "summary": "In this post, I discuss my updated understanding of the mechanism by which astringent compounds can be extracted from coffee.",
+          "image": "https://coffeeadastra.com/wp-content/uploads/2022/08/astringency2_header_photo.png",
+          "publishedAt": "2022-08-01T17:44:34+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "More Even Espresso Extractions",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2022/07/16/more-even-espresso-extractions/",
+          "summary": "In this post, I talk about ways in which I have recently improved my puck preparation for espresso.",
+          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2022/07/header.png?fit=1200%2C840&ssl=1",
+          "publishedAt": "2022-07-16T14:55:02+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "My Long-term review: Flair 58 +2",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/flair-58-long-term-review/",
+          "summary": "Is Flair's flagship still the best manual espresso maker you can buy? I plugged in thermocouples to find out. The post My Long-term review: Flair 58 +2 appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/02/Flair-58-2-1.jpeg",
+          "publishedAt": "2026-02-11T08:28:59+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Outin Claro Review: Cute But Annoying",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/outin-claro-review/",
+          "summary": "Outin has created a round espresso scale. But does it offer anything besides a unique form factor? The post Outin Claro Review: Cute But Annoying appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/02/Outin-Claro-2.jpeg",
+          "publishedAt": "2026-02-11T07:19:19+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Coffee Internship 2026: Remote Opportunities in Sustainability and Global Coffee Community",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/coffee-internship-2026-remote-opportunities-in-sustainability-and-global-coffee-community/",
+          "summary": "Are you passionate about coffee and eager to make a real difference? At I’M NOT A BARISTA , we’re a small not-for-profit dedicated to empowering baristas and the global coffee community through storytelling, education, and direct support. Our flagship initiative, the Global Coffe",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2025/02/cafe-198-1024x576.jpg",
+          "publishedAt": "2026-02-16T18:46:09+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Shaun Liew",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/shaun-lie-coffee-story-from-malaysia/",
+          "summary": "In the bustling world of coffee, where every cup tells a story of connection and craft, Shaun Liew stands out not as a distant icon, but as a fellow enthusiast who’s navigated the daily grind with heart and humility. Like many of us who fell deeper into coffee during quiet lockdo",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/02/My-journey-for-tchampionship_Shaun-Liew-1024x576.jpg",
+          "publishedAt": "2026-02-11T02:05:18+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-18T18-31-11",
       "scannedAt": "2026-09-18T18:31:11.866184+00:00",
       "items": [
