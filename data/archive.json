@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-19",
+      "scannedAt": "2026-09-20T17:42:23.000Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-19",
+          "rank": 0,
+          "title": "The Craft and the Convenience",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-19.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-19"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-18",
       "scannedAt": "2026-09-19T19:03:52.043Z",
       "kind": "editorial_archive",
