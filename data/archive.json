@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-20",
+      "scannedAt": "2026-09-22T02:55:57.775Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-20",
+          "rank": 0,
+          "title": "The first lot from Vietnam",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Thirty years. Screening that still has to happen.",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Grounds-for-Health-auction.png",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-20.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-20"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-21T20-00-55",
       "scannedAt": "2026-09-21T20:00:55.870893+00:00",
       "items": [
