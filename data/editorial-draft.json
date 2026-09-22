@@ -1,133 +1,134 @@
 {
-  "id": "ed_2026-09-21",
-  "publishDate": "2026-09-21",
+  "id": "ed_2026-09-22",
+  "publishDate": "2026-09-22",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-09-21",
+  "title": "Editorial brief — 2026-09-22",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/09/roastconsole-hero.jpg",
+  "heroImage": "https://sprudge.com/wp-content/uploads/2026/08/cascara-cabinet-rtd-01-1.jpg",
   "heroCredit": "Sprudge",
   "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/roastconsole-launches-coffee-roasting-software-that-runs-the-whole-roastery-on-one-plan-1356622.html",
+  "heroSourceUrl": "https://sprudge.com/ready-to-drink-the-cascara-fizz-boom-from-cascara-cabinet-1278625.html",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-09-21\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-09-22\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] RoastConsole Launches Coffee Roasting Software That Runs The Whole Roastery On One Plan\n   Source: Sprudge\n   URL: https://sprudge.com/roastconsole-launches-coffee-roasting-software-that-runs-the-whole-roastery-on-one-plan-1356622.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Farspeak Labs releases a single system for small and mid-sized roasteries, from the roast log to the invoice, priced on roasted volume with no add-ons.",
-    "2. [Industry] Smart Care Launches Turbo Tech For Speed Ovens & Coffee Equipment, Debuts Innovative Flat Rate Price For Speed Ovens Service\n   Source: Sprudge\n   URL: https://sprudge.com/smart-care-launches-turbo-tech-for-speed-ovens-coffee-equipment-debuts-innovative-flat-rate-price-for-speed-ovens-service-1356618.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Introducing the Turbo Tech One from Smart Care Solutions.",
-    "3. [Science] The Physics of Coffee Class\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2022/03/17/the-physics-of-coffee-class/\n   Key points:\n   • Announcing a coffee class during the Boston SCA expo",
-    "4. [Science] Restraining Flow to Mitigate Channels\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/10/23/restraining-flow-to-mitigate-channels/\n   Key points:\n   • In the past weeks, I have been experimenting with the AeroPress combined with the Prismo attachment, and I tried one small hack that produced a surprising result.\n   • I inserted a pasta strainer mesh like the one I described in my Stagg [X] recipe to increase the total open surface a",
-    "5. [Reviews] The Hollow Harvest: Why Your Morning Cup Tastes… Different\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/blog/farming/the-hollow-harvest-why-your-morning-cup-tastes-different/\n   Key points:\n   • Why does your favorite Brazil coffee taste woody and cost $7 more?\n   • We look into the \"Hollow Harvest,\" 50% tariffs, and the hidden Robusta creep.",
-    "6. [Reviews] Sour Espresso: Specialty Coffee’s Uncomfortable Truth\n   Source: Coffee Chronicler\n   URL: https://coffeechronicler.com/why-is-my-espresso-sour/\n   Key points:\n   • Dialing in is not the answer to everything.\n   • If sourness persists, there might be deeper issues at play.",
-    "7. [Origin] Riza Zahrul Huda\n   Source: Not a Barista\n   URL: https://notabarista.org/riza-zahrul-huda/\n   Key points:\n   • When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming.\n   • Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market.",
-    "8. [Origin] Dynamic Grinding: Inside Our Shenzhen Testing Trip\n   Source: Not a Barista\n   URL: https://notabarista.org/dynamic-grinding-inside-our-shenzhen-testing-trip/\n   Key points:\n   • In January, we traveled back to Shenzhen to continue refining MOMENTEM — not to rush production, but to make sure the grinder behaves exactly the way we believe it should.\n   • This trip was focused on one thing: testing .\n   • Not casual testing, not quick checks, but systematic, repeatab",
+    "1. [Industry] Ready To Drink: The Cascara Fizz & Boom From Cascara Cabinet\n   Source: Sprudge\n   URL: https://sprudge.com/ready-to-drink-the-cascara-fizz-boom-from-cascara-cabinet-1278625.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Ready-to-drink cascara from Cascara Cabinet.",
+    "2. [Industry] Build-Outs Of Coffee: Ritual Coffee Roasters In San Francisco, CA\n   Source: Sprudge\n   URL: https://sprudge.com/build-outs-of-coffee-ritual-coffee-roasters-in-san-francisco-ca-1301579.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Ritual Coffee Roasters in San Francisco, California.",
+    "3. [Science] Coffee Overdose\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/coffee-overdose/\n   Key points:\n   • It’s debatable who invented the triple ristretto, but if Paul Bassett didn’t invent it, he certainly made it famous.\n   • In this post we talk to Mikael Jasin, 2024 World Barista Champion, as well as Toby Smith who...",
+    "4. [Science] Shake it Real Good\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/shake-it-real-good/\n   Key points:\n   • Last month, we wrote about why you might want to shake your grounds before making espresso.\n   • Lance Hedrick’s testing showed that shaking was somehow dramatically increasing extraction in his espressos...",
+    "5. [Reviews] Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/opinions/state-of-coffee/silence-is-no-longer-an-option-why-coffeegeeks-must-reject-fascism/\n   Key points:\n   • We're taking a stand, uncovering how fascist policies are reshaping the coffee world and beyond, and what you can do to change the course of history for the better.",
+    "6. [Reviews] Ninja Luxe Café Premier Full Review\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/reviews/fullreview/ninja-luxe-cafe-premier-full-review/\n   Key points:\n   • We expected a toy but found a powerhouse.\n   • The $549 Ninja Luxe Café Premier earns our Best in Class award with an 88.5 score.",
+    "7. [Origin] Lonika Tay\n   Source: Not a Barista\n   URL: https://notabarista.org/lonika-tay/\n   Key points:\n   • Lonika Tay didn’t begin her coffee journey behind an espresso machine, nor did she imagine herself competing on an international stage.\n   • She started by packing coffee.\n   • Lonika Tay At a roastery in Indonesia, her days were spent weighing beans, sealing bags, and packing orders.",
+    "8. [Origin] Angel Kotsifakis\n   Source: Not a Barista\n   URL: https://notabarista.org/angel-kotsifakis/\n   Key points:\n   • The lab is a sanctuary of focus, but today, it’s a beautiful chaos.\n   • The air, thick with the aroma of coffee, is punctuated by the gleeful shouts of a child.\n   • “Daddy, daddy, daddy!” Behind the bar, amidst gleaming equipment and bags of beans, sits a small bicycle and a baby chair.",
     "— Categories present —\nIndustry · Science · Reviews · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-09-21\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] RoastConsole Launches Coffee Roasting Software That Runs The Whole Roastery On One Plan\n   Source: Sprudge\n   URL: https://sprudge.com/roastconsole-launches-coffee-roasting-software-that-runs-the-whole-roastery-on-one-plan-1356622.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Farspeak Labs releases a single system for small and mid-sized roasteries, from the roast log to the invoice, priced on roasted volume with no add-ons.\n\n2. [Industry] Smart Care Launches Turbo Tech For Speed Ovens & Coffee Equipment, Debuts Innovative Flat Rate Price For Speed Ovens Service\n   Source: Sprudge\n   URL: https://sprudge.com/smart-care-launches-turbo-tech-for-speed-ovens-coffee-equipment-debuts-innovative-flat-rate-price-for-speed-ovens-service-1356618.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Introducing the Turbo Tech One from Smart Care Solutions.\n\n3. [Science] The Physics of Coffee Class\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2022/03/17/the-physics-of-coffee-class/\n   Key points:\n   • Announcing a coffee class during the Boston SCA expo\n\n4. [Science] Restraining Flow to Mitigate Channels\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/10/23/restraining-flow-to-mitigate-channels/\n   Key points:\n   • In the past weeks, I have been experimenting with the AeroPress combined with the Prismo attachment, and I tried one small hack that produced a surprising result.\n   • I inserted a pasta strainer mesh like the one I described in my Stagg [X] recipe to increase the total open surface a\n\n5. [Reviews] The Hollow Harvest: Why Your Morning Cup Tastes… Different\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/blog/farming/the-hollow-harvest-why-your-morning-cup-tastes-different/\n   Key points:\n   • Why does your favorite Brazil coffee taste woody and cost $7 more?\n   • We look into the \"Hollow Harvest,\" 50% tariffs, and the hidden Robusta creep.\n\n6. [Reviews] Sour Espresso: Specialty Coffee’s Uncomfortable Truth\n   Source: Coffee Chronicler\n   URL: https://coffeechronicler.com/why-is-my-espresso-sour/\n   Key points:\n   • Dialing in is not the answer to everything.\n   • If sourness persists, there might be deeper issues at play.\n\n7. [Origin] Riza Zahrul Huda\n   Source: Not a Barista\n   URL: https://notabarista.org/riza-zahrul-huda/\n   Key points:\n   • When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming.\n   • Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market.\n\n8. [Origin] Dynamic Grinding: Inside Our Shenzhen Testing Trip\n   Source: Not a Barista\n   URL: https://notabarista.org/dynamic-grinding-inside-our-shenzhen-testing-trip/\n   Key points:\n   • In January, we traveled back to Shenzhen to continue refining MOMENTEM — not to rush production, but to make sure the grinder behaves exactly the way we believe it should.\n   • This trip was focused on one thing: testing .\n   • Not casual testing, not quick checks, but systematic, repeatab\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 518,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-09-22\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Ready To Drink: The Cascara Fizz & Boom From Cascara Cabinet\n   Source: Sprudge\n   URL: https://sprudge.com/ready-to-drink-the-cascara-fizz-boom-from-cascara-cabinet-1278625.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Ready-to-drink cascara from Cascara Cabinet.\n\n2. [Industry] Build-Outs Of Coffee: Ritual Coffee Roasters In San Francisco, CA\n   Source: Sprudge\n   URL: https://sprudge.com/build-outs-of-coffee-ritual-coffee-roasters-in-san-francisco-ca-1301579.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Ritual Coffee Roasters in San Francisco, California.\n\n3. [Science] Coffee Overdose\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/coffee-overdose/\n   Key points:\n   • It’s debatable who invented the triple ristretto, but if Paul Bassett didn’t invent it, he certainly made it famous.\n   • In this post we talk to Mikael Jasin, 2024 World Barista Champion, as well as Toby Smith who...\n\n4. [Science] Shake it Real Good\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/shake-it-real-good/\n   Key points:\n   • Last month, we wrote about why you might want to shake your grounds before making espresso.\n   • Lance Hedrick’s testing showed that shaking was somehow dramatically increasing extraction in his espressos...\n\n5. [Reviews] Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/opinions/state-of-coffee/silence-is-no-longer-an-option-why-coffeegeeks-must-reject-fascism/\n   Key points:\n   • We're taking a stand, uncovering how fascist policies are reshaping the coffee world and beyond, and what you can do to change the course of history for the better.\n\n6. [Reviews] Ninja Luxe Café Premier Full Review\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/reviews/fullreview/ninja-luxe-cafe-premier-full-review/\n   Key points:\n   • We expected a toy but found a powerhouse.\n   • The $549 Ninja Luxe Café Premier earns our Best in Class award with an 88.5 score.\n\n7. [Origin] Lonika Tay\n   Source: Not a Barista\n   URL: https://notabarista.org/lonika-tay/\n   Key points:\n   • Lonika Tay didn’t begin her coffee journey behind an espresso machine, nor did she imagine herself competing on an international stage.\n   • She started by packing coffee.\n   • Lonika Tay At a roastery in Indonesia, her days were spent weighing beans, sealing bags, and packing orders.\n\n8. [Origin] Angel Kotsifakis\n   Source: Not a Barista\n   URL: https://notabarista.org/angel-kotsifakis/\n   Key points:\n   • The lab is a sanctuary of focus, but today, it’s a beautiful chaos.\n   • The air, thick with the aroma of coffee, is punctuated by the gleeful shouts of a child.\n   • “Daddy, daddy, daddy!” Behind the bar, amidst gleaming equipment and bags of beans, sits a small bicycle and a baby chair.\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 499,
   "headlines": [
     {
-      "title": "RoastConsole Launches Coffee Roasting Software That Runs The Whole Roastery On One Plan",
+      "title": "Ready To Drink: The Cascara Fizz & Boom From Cascara Cabinet",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/roastconsole-launches-coffee-roasting-software-that-runs-the-whole-roastery-on-one-plan-1356622.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Farspeak Labs releases a single system for small and mid-sized roasteries, from the roast log to the invoice, priced on roasted volume with no add-ons.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/roastconsole-hero.jpg",
+      "sourceUrl": "https://sprudge.com/ready-to-drink-the-cascara-fizz-boom-from-cascara-cabinet-1278625.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ready-to-drink cascara from Cascara Cabinet.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/08/cascara-cabinet-rtd-01-1.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "Farspeak Labs releases a single system for small and mid-sized roasteries, from the roast log to the invoice, priced on roasted volume with no add-ons."
+        "Ready-to-drink cascara from Cascara Cabinet."
       ]
     },
     {
-      "title": "Smart Care Launches Turbo Tech For Speed Ovens & Coffee Equipment, Debuts Innovative Flat Rate Price For Speed Ovens Service",
+      "title": "Build-Outs Of Coffee: Ritual Coffee Roasters In San Francisco, CA",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/smart-care-launches-turbo-tech-for-speed-ovens-coffee-equipment-debuts-innovative-flat-rate-price-for-speed-ovens-service-1356618.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Introducing the Turbo Tech One from Smart Care Solutions.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/turbotech.jpg",
+      "sourceUrl": "https://sprudge.com/build-outs-of-coffee-ritual-coffee-roasters-in-san-francisco-ca-1301579.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ritual Coffee Roasters in San Francisco, California.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/08/ritual-coffee-8.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "Introducing the Turbo Tech One from Smart Care Solutions."
+        "Ritual Coffee Roasters in San Francisco, California."
       ]
     },
     {
-      "title": "The Physics of Coffee Class",
-      "source": "Coffee Ad Astra",
+      "title": "Coffee Overdose",
+      "source": "Barista Hustle",
       "category": "science",
-      "sourceUrl": "https://coffeeadastra.com/2022/03/17/the-physics-of-coffee-class/",
-      "summary": "Announcing a coffee class during the Boston SCA expo",
-      "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2022/03/poc_class_hdr.png?fit=1200%2C676&ssl=1",
+      "sourceUrl": "https://www.baristahustle.com/coffee-overdose/",
+      "summary": "It’s debatable who invented the triple ristretto, but if Paul Bassett didn’t invent it, he certainly made it famous. In this post we talk to Mikael Jasin, 2024 World Barista Champion, as well as Toby Smith who... The post Coffee Overdose appeared first on Barista Hustle .",
+      "image": "https://www.baristahustle.com/wp-content/uploads/2024/05/Mikael-Jasin-WBC-Busan-Post-Header-02-scaled.jpg",
       "keyPoints": [
-        "Announcing a coffee class during the Boston SCA expo"
+        "It’s debatable who invented the triple ristretto, but if Paul Bassett didn’t invent it, he certainly made it famous.",
+        "In this post we talk to Mikael Jasin, 2024 World Barista Champion, as well as Toby Smith who..."
       ]
     },
     {
-      "title": "Restraining Flow to Mitigate Channels",
-      "source": "Coffee Ad Astra",
+      "title": "Shake it Real Good",
+      "source": "Barista Hustle",
       "category": "science",
-      "sourceUrl": "https://coffeeadastra.com/2021/10/23/restraining-flow-to-mitigate-channels/",
-      "summary": "In the past weeks, I have been experimenting with the AeroPress combined with the Prismo attachment, and I tried one small hack that produced a surprising result. I inserted a pasta strainer mesh like the one I described in my Stagg [X] recipe to increase the total open surface a",
-      "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/10/header_image.jpg?fit=1200%2C900&ssl=1",
+      "sourceUrl": "https://www.baristahustle.com/shake-it-real-good/",
+      "summary": "Last month, we wrote about why you might want to shake your grounds before making espresso. Lance Hedrick’s testing showed that shaking was somehow dramatically increasing extraction in his espressos... The post Shake it Real Good appeared first on Barista Hustle .",
+      "image": "https://www.baristahustle.com/wp-content/uploads/2024/03/Miruna-Weber-Shaker-Post-Header-02-scaled.jpg",
       "keyPoints": [
-        "In the past weeks, I have been experimenting with the AeroPress combined with the Prismo attachment, and I tried one small hack that produced a surprising result.",
-        "I inserted a pasta strainer mesh like the one I described in my Stagg [X] recipe to increase the total open surface a"
+        "Last month, we wrote about why you might want to shake your grounds before making espresso.",
+        "Lance Hedrick’s testing showed that shaking was somehow dramatically increasing extraction in his espressos..."
       ]
     },
     {
-      "title": "The Hollow Harvest: Why Your Morning Cup Tastes… Different",
+      "title": "Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism",
       "source": "CoffeeGeek",
       "category": "reviews",
-      "sourceUrl": "https://coffeegeek.com/blog/farming/the-hollow-harvest-why-your-morning-cup-tastes-different/",
-      "summary": "Why does your favorite Brazil coffee taste woody and cost $7 more? We look into the \"Hollow Harvest,\" 50% tariffs, and the hidden Robusta creep. The post The Hollow Harvest: Why Your Morning Cup Tastes… Different appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2026/02/Brasil-Coffee-Farm-800x533.jpg",
+      "sourceUrl": "https://coffeegeek.com/opinions/state-of-coffee/silence-is-no-longer-an-option-why-coffeegeeks-must-reject-fascism/",
+      "summary": "We're taking a stand, uncovering how fascist policies are reshaping the coffee world and beyond, and what you can do to change the course of history for the better. The post Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism appeared first on CoffeeGeek .",
+      "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Rise-of-Fascism-1-800x537.jpg",
       "keyPoints": [
-        "Why does your favorite Brazil coffee taste woody and cost $7 more?",
-        "We look into the \"Hollow Harvest,\" 50% tariffs, and the hidden Robusta creep."
+        "We're taking a stand, uncovering how fascist policies are reshaping the coffee world and beyond, and what you can do to change the course of history for the better."
       ]
     },
     {
-      "title": "Sour Espresso: Specialty Coffee’s Uncomfortable Truth",
-      "source": "Coffee Chronicler",
+      "title": "Ninja Luxe Café Premier Full Review",
+      "source": "CoffeeGeek",
       "category": "reviews",
-      "sourceUrl": "https://coffeechronicler.com/why-is-my-espresso-sour/",
-      "summary": "Dialing in is not the answer to everything. If sourness persists, there might be deeper issues at play. The post Sour Espresso: Specialty Coffee’s Uncomfortable Truth appeared first on The Coffee Chronicler .",
-      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-16.39.33.jpg",
+      "sourceUrl": "https://coffeegeek.com/reviews/fullreview/ninja-luxe-cafe-premier-full-review/",
+      "summary": "We expected a toy but found a powerhouse. The $549 Ninja Luxe Café Premier earns our Best in Class award with an 88.5 score. Is it right for you? The post Ninja Luxe Café Premier Full Review appeared first on CoffeeGeek .",
+      "image": "https://coffeegeek.com/wp-content/uploads/2024/08/Ninja-Cafe-Luxe-Main-Shots-1-800x533.jpg",
       "keyPoints": [
-        "Dialing in is not the answer to everything.",
-        "If sourness persists, there might be deeper issues at play."
+        "We expected a toy but found a powerhouse.",
+        "The $549 Ninja Luxe Café Premier earns our Best in Class award with an 88.5 score."
       ]
     },
     {
-      "title": "Riza Zahrul Huda",
+      "title": "Lonika Tay",
       "source": "Not a Barista",
       "category": "origin",
-      "sourceUrl": "https://notabarista.org/riza-zahrul-huda/",
-      "summary": "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming. Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market. Instead, Huda went quiet. His eyes",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/DSC01199-1024x576.jpg",
+      "sourceUrl": "https://notabarista.org/lonika-tay/",
+      "summary": "Lonika Tay didn’t begin her coffee journey behind an espresso machine, nor did she imagine herself competing on an international stage. She started by packing coffee. Lonika Tay At a roastery in Indonesia, her days were spent weighing beans, sealing bags, and packing orders. She",
+      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/01/E3B72808-0F4D-423E-A525-69963334D3ED-1024x576.jpg",
       "keyPoints": [
-        "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming.",
-        "Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market."
+        "Lonika Tay didn’t begin her coffee journey behind an espresso machine, nor did she imagine herself competing on an international stage.",
+        "She started by packing coffee.",
+        "Lonika Tay At a roastery in Indonesia, her days were spent weighing beans, sealing bags, and packing orders."
       ]
     },
     {
-      "title": "Dynamic Grinding: Inside Our Shenzhen Testing Trip",
+      "title": "Angel Kotsifakis",
       "source": "Not a Barista",
       "category": "origin",
-      "sourceUrl": "https://notabarista.org/dynamic-grinding-inside-our-shenzhen-testing-trip/",
-      "summary": "In January, we traveled back to Shenzhen to continue refining MOMENTEM — not to rush production, but to make sure the grinder behaves exactly the way we believe it should. This trip was focused on one thing: testing . Not casual testing, not quick checks, but systematic, repeatab",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/02/dynamic-grinding2-1024x592.jpg",
+      "sourceUrl": "https://notabarista.org/angel-kotsifakis/",
+      "summary": "The lab is a sanctuary of focus, but today, it’s a beautiful chaos. The air, thick with the aroma of coffee, is punctuated by the gleeful shouts of a child. “Daddy, daddy, daddy!” Behind the bar, amidst gleaming equipment and bags of beans, sits a small bicycle and a baby chair.",
+      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/01/Third-in-the-World-Cezve-Ibrik-Championship-2025-what-an-honor-to-represent-my-country-and-st-1-1024x576.jpg",
       "keyPoints": [
-        "In January, we traveled back to Shenzhen to continue refining MOMENTEM — not to rush production, but to make sure the grinder behaves exactly the way we believe it should.",
-        "This trip was focused on one thing: testing .",
-        "Not casual testing, not quick checks, but systematic, repeatab"
+        "The lab is a sanctuary of focus, but today, it’s a beautiful chaos.",
+        "The air, thick with the aroma of coffee, is punctuated by the gleeful shouts of a child.",
+        "“Daddy, daddy, daddy!” Behind the bar, amidst gleaming equipment and bags of beans, sits a small bicycle and a baby chair."
       ]
     }
   ],
-  "fromScan": "2026-09-21T20:00:55.870893+00:00"
+  "fromScan": "2026-09-22T18:56:57.855267+00:00"
 }

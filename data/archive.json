@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-22T18-56-57",
+      "scannedAt": "2026-09-22T18:56:57.855267+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Ready To Drink: The Cascara Fizz & Boom From Cascara Cabinet",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/ready-to-drink-the-cascara-fizz-boom-from-cascara-cabinet-1278625.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ready-to-drink cascara from Cascara Cabinet.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/cascara-cabinet-rtd-01-1.jpg",
+          "publishedAt": "2026-09-22T18:08:11+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Build-Outs Of Coffee: Ritual Coffee Roasters In San Francisco, CA",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-ritual-coffee-roasters-in-san-francisco-ca-1301579.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ritual Coffee Roasters in San Francisco, California.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/ritual-coffee-8.jpg",
+          "publishedAt": "2026-09-22T17:42:55+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Coffee Overdose",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/coffee-overdose/",
+          "summary": "It’s debatable who invented the triple ristretto, but if Paul Bassett didn’t invent it, he certainly made it famous. In this post we talk to Mikael Jasin, 2024 World Barista Champion, as well as Toby Smith who... The post Coffee Overdose appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2024/05/Mikael-Jasin-WBC-Busan-Post-Header-02-scaled.jpg",
+          "publishedAt": "2024-05-25T13:21:57+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Shake it Real Good",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/shake-it-real-good/",
+          "summary": "Last month, we wrote about why you might want to shake your grounds before making espresso. Lance Hedrick’s testing showed that shaking was somehow dramatically increasing extraction in his espressos... The post Shake it Real Good appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2024/03/Miruna-Weber-Shaker-Post-Header-02-scaled.jpg",
+          "publishedAt": "2024-03-25T17:07:08+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/opinions/state-of-coffee/silence-is-no-longer-an-option-why-coffeegeeks-must-reject-fascism/",
+          "summary": "We're taking a stand, uncovering how fascist policies are reshaping the coffee world and beyond, and what you can do to change the course of history for the better. The post Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Rise-of-Fascism-1-800x537.jpg",
+          "publishedAt": "2026-01-23T21:30:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Ninja Luxe Café Premier Full Review",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/reviews/fullreview/ninja-luxe-cafe-premier-full-review/",
+          "summary": "We expected a toy but found a powerhouse. The $549 Ninja Luxe Café Premier earns our Best in Class award with an 88.5 score. Is it right for you? The post Ninja Luxe Café Premier Full Review appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2024/08/Ninja-Cafe-Luxe-Main-Shots-1-800x533.jpg",
+          "publishedAt": "2026-01-21T10:00:20+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Lonika Tay",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/lonika-tay/",
+          "summary": "Lonika Tay didn’t begin her coffee journey behind an espresso machine, nor did she imagine herself competing on an international stage. She started by packing coffee. Lonika Tay At a roastery in Indonesia, her days were spent weighing beans, sealing bags, and packing orders. She ",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/01/E3B72808-0F4D-423E-A525-69963334D3ED-1024x576.jpg",
+          "publishedAt": "2026-01-22T12:09:20+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Angel Kotsifakis",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/angel-kotsifakis/",
+          "summary": "The lab is a sanctuary of focus, but today, it’s a beautiful chaos. The air, thick with the aroma of coffee, is punctuated by the gleeful shouts of a child. “Daddy, daddy, daddy!” Behind the bar, amidst gleaming equipment and bags of beans, sits a small bicycle and a baby chair. ",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/01/Third-in-the-World-Cezve-Ibrik-Championship-2025-what-an-honor-to-represent-my-country-and-st-1-1024x576.jpg",
+          "publishedAt": "2026-01-16T07:15:54+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-20",
       "scannedAt": "2026-09-22T02:57:56.863Z",
       "kind": "editorial_archive",
