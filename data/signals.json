@@ -83,7 +83,7 @@
       "title": "Riza Zahrul Huda",
       "source": "Not a Barista",
       "sourceUrl": "https://notabarista.org/riza-zahrul-huda/",
-      "summary": "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming. Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market. Instead, Huda went quiet. His eyes ",
+      "summary": "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming. Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market. Instead, Huda went quiet. His eyes",
       "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/DSC01199-1024x576.jpg",
       "publishedAt": "2026-09-20T19:53:24+00:00",
       "category": "origin",
@@ -188,7 +188,7 @@
         "title": "Riza Zahrul Huda",
         "source": "Not a Barista",
         "sourceUrl": "https://notabarista.org/riza-zahrul-huda/",
-        "summary": "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming. Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market. Instead, Huda went quiet. His eyes ",
+        "summary": "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming. Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market. Instead, Huda went quiet. His eyes",
         "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/DSC01199-1024x576.jpg",
         "publishedAt": "2026-09-20T19:53:24+00:00",
         "category": "origin",
@@ -210,133 +210,5 @@
       }
     ]
   },
-  "deleted": [],
-  "log": [
-    {
-      "ok": true,
-      "source": "Sprudge",
-      "n": 30,
-      "url": "https://sprudge.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Daily Coffee News",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://dailycoffeenews.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind",
-      "n": 0,
-      "url": "https://perfectdailygrind.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Roast Magazine",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://roastmagazine.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Standart",
-      "n": 11,
-      "url": "https://standartmag.com/blogs/journal.atom"
-    },
-    {
-      "ok": true,
-      "source": "Barista Hustle",
-      "n": 0,
-      "url": "https://www.baristahustle.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Ad Astra",
-      "n": 30,
-      "url": "https://coffeeadastra.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Scott Rao",
-      "n": 0,
-      "url": "https://www.scottrao.com/blog?format=rss"
-    },
-    {
-      "ok": false,
-      "source": "Jim Seven",
-      "error": "<urlopen error timed out>",
-      "url": "https://www.jimseven.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "World Coffee Research",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://worldcoffeeresearch.org/feed"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Review",
-      "n": 30,
-      "url": "https://www.coffeereview.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "CoffeeGeek",
-      "n": 30,
-      "url": "https://coffeegeek.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Home-Barista",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://www.home-barista.com/rss.xml"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Chronicler",
-      "n": 30,
-      "url": "https://coffeechronicler.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Espresso My Espresso",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://espressomyespresso.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "SCA News",
-      "error": "<urlopen error timed out>",
-      "url": "https://scanews.coffee/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Sweet Maria's",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://www.sweetmarias.com/blog/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind Origins",
-      "n": 0,
-      "url": "https://perfectdailygrind.com/category/origins/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Cafe Imports",
-      "n": 0,
-      "url": "https://cafeimports.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "European Coffee Trip",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://europeancoffeetrip.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Not a Barista",
-      "n": 30,
-      "url": "https://notabarista.org/feed/"
-    }
-  ]
+  "deleted": []
 }
