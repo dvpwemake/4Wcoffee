@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-21",
+      "scannedAt": "2026-09-23T04:40:09.495Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-21",
+          "rank": 0,
+          "title": "The Machine and the Bean",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Where Coffee's Next Wave Is Breaking",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-16.39.33.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-21.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-21"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-22T18-56-57",
       "scannedAt": "2026-09-22T18:56:57.855267+00:00",
       "items": [
