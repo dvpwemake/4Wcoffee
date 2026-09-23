@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-23T19-05-32",
+      "scannedAt": "2026-09-23T19:05:32.652540+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Build-Outs Of Coffee: Bellwood Coffee In Atlanta, GA",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-bellwood-coffee-in-atlanta-ga-2-1327933.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Bellwood Coffee in Atlanta, Georgia.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/tdg_bellwoodgrantpark_web-@grayson-guldenschuh-1.jpg",
+          "publishedAt": "2026-09-23T14:00:48+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Cafe Imports Is Now 100% Employee Owned",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/cafe-imports-is-now-100-employee-owned-1356707.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. They've instituted an employee stock ownership plan.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/ci_100-copy.jpg",
+          "publishedAt": "2026-09-23T12:00:53+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Shaken or Stirred",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/shaken-or-stirred/",
+          "summary": "Densification results in more spherical coffee particles, which allows them to pack together more evenly . This in turn would allow water to flow more evenly through the puck. To understand why spherical particles... The post Shaken or Stirred appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2024/02/A-licence-to-mill-Header-scaled.jpg",
+          "publishedAt": "2024-02-23T14:41:15+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "RDT vs The AutoComb",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/rdt-vs-the-autocomb/",
+          "summary": "You've probably heard that scientists recently caught up with something home baristas have known for nearly two decades: that spraying your coffee with water just before grinding can reduce the amount of static created. ... The post RDT vs The AutoComb appeared first on Barista H",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2024/01/Spritz-header-03.jpg",
+          "publishedAt": "2024-01-04T12:03:56+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Mhw-3bomber Xpress-58",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/mhw-3bomber-xpress-58/",
+          "summary": "Here it is: the flagship in the world of battery-operated espresso makers. The post Mhw-3bomber Xpress-58 appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/01/xpress-58-featured-image-scaled.jpeg",
+          "publishedAt": "2026-01-11T12:16:54+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "MiiCoffee Eon",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/miicoffee-eon/",
+          "summary": "Miicoffee Eon is a solid little travel espresso maker that benefits from a genuine 51 mm basket The post MiiCoffee Eon appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/01/IMG_7349.jpeg",
+          "publishedAt": "2026-01-11T11:03:16+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Hello from Dehua!",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/hello-from-dehua/",
+          "summary": "After a long flight into Fuzhou , we spent a quiet night resting, adjusting, and preparing for the next step. This afternoon, we boarded the fast train heading into the mountains of Fujian, and just a few hours later, we arrived in Dehua —a small county with a global reputation f",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2025/12/L1GHT-front-page-video-265.mp4",
+          "publishedAt": "2026-01-08T18:57:58+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Bryant Toh",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/bryant-toh/",
+          "summary": "“I’m a social worker, but I work directly with youth.” How Bryant Toh uses coffee as a bridge to connection, trust, and youth mental health in Singapore. The post Bryant Toh first appeared on I'M NOT A BARISTA ® .",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2025/12/DSC09388-1024x576.jpg",
+          "publishedAt": "2025-12-15T16:49:49+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-21",
       "scannedAt": "2026-09-23T04:40:09.495Z",
       "kind": "editorial_archive",
