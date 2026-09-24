@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-22",
+      "scannedAt": "2026-09-24T04:59:38.202Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-22",
+          "rank": 0,
+          "title": "Shaking the Grounds",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Science, Stance, and Sanctuary",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/cascara-cabinet-rtd-01-1.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-22.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-22"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-23T19-05-32",
       "scannedAt": "2026-09-23T19:05:32.652540+00:00",
       "items": [
