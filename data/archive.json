@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-24T19-13-05",
+      "scannedAt": "2026-09-24T19:13:05.477156+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Another Barista Champion Just Competed In A Nationally Televised Game Show",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/another-barista-champion-just-competed-in-a-nationally-televised-game-show-1360538.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Laila Ghambari, US Barista Champion and contestant on The Floor.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/laila-the-floor.jpg",
+          "publishedAt": "2026-09-24T12:00:51+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Go Get Em Tiger Launches “Roasted At Origin,” Shifting More Of Its Coffee Program To Producing Countries",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/go-get-em-tiger-launches-roasted-at-origin-shifting-more-of-its-coffee-program-to-producing-countries-1361782.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Los Angeles specialty coffee company plans to move 20% of its roasting to origin by the end of 2026 and 70% by the end of 2027.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/gget-roasted-at-origin.jpg",
+          "publishedAt": "2026-09-23T19:15:41+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Grinding Bean-by-Bean",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/grinding-bean-by-bean/",
+          "summary": "Grinding coffee bean-by-bean is up there with cryogenic grinding, double grinding and re-processing as a kind of impractical perfection — all of which are generally dismissed as inappropriate for the commercial environment... The post Grinding Bean-by-Bean appeared first on Baris",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/12/One-Bean-Grinding-scaled.jpg",
+          "publishedAt": "2023-12-06T20:53:04+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Round Two — Battle of the Baskets",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/round-two-battle-of-the-baskets/",
+          "summary": "The defining feature of this new wave of high extraction filter baskets for espresso is the pattern of holes at the bottom of the basket. Manufacturers have completely re-thought the way these are laid out, to ensure even extraction... The post Round Two — Battle of the Baskets a",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/10/SWorks-Basket-Pattern-Header.jpg",
+          "publishedAt": "2023-10-03T08:39:52+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Outin Mino: Smaller, Yes. Better? Maybe.",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/outin-mino-review/",
+          "summary": "This new travel espresso maker is two steps forward, but one step back where it really matters. The post Outin Mino: Smaller, Yes. Better? Maybe. appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/01/Outin-Mino-1-1.jpeg",
+          "publishedAt": "2026-01-11T08:27:57+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Hario Mugen Switch Brewer Hack",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/guides/howtos/hario-mugen-switch-brewer-hack-how-to/",
+          "summary": "Learn how to make a fantastic full immersion, no-bypass coffee brewer with two inexpensive Hario brewing devices. Updated for 2026. The post Hario Mugen Switch Brewer Hack appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2024/05/MugenSwitchHack-1-800x533.jpg",
+          "publishedAt": "2026-01-09T21:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "We’re Testing Our New Shopify Shop",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/were-testing-our-new-shopify-shop/",
+          "summary": "We’re currently testing our new Shopify shop ( shop.notabarista.org ) as part of improving how we share our products with the coffee community. This space will focus on a smoother shopping experience, faster loading speed, clearer product information, and better access to our cha",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "publishedAt": "2025-12-12T17:46:51+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "How Nepal is emerging as a specialty coffee origin",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2025/06/how-nepal-is-emerging-as-specialty-coffee-origin/",
+          "summary": "Nepal is one of the most compelling origins in the specialty coffee industry. While the landlocked nation may not yet command the same recognition as more established producing countries, such as Ethiopia or Colombia, its unique terroir and rapid evolution make it an increasingly",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2025/06/Article-Posts_EN_PDG-EN-Thumbnail-1-4.png",
+          "publishedAt": "2025-06-25T05:48:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-22",
       "scannedAt": "2026-09-24T04:59:38.202Z",
       "kind": "editorial_archive",
