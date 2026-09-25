@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-25T19-17-00",
+      "scannedAt": "2026-09-25T19:17:00.396412+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Build-Outs Of Coffee: Function Coffee Co In Northlake, TX",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-function-coffee-co-in-northlake-tx-1285360.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Function Coffee Co in Northlake, Texas.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/08/function-coffee-co-1.jpg",
+          "publishedAt": "2026-09-25T16:48:33+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Coffee News Recap, 25 Sep: Arabica prices drop sharply to three-month low, Greggs continues to overtake Costa as UK’s biggest coffee chain & other stories",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/",
+          "summary": "UK drinks 103 million cups of coffee every day says British Coffee Association, arabica prices drop to three-month low, Go Get Em Tiger shifts more of its roasting operations to producing countries & more. The post Coffee News Recap, 25 Sep: Arabica prices drop sharply to three-m",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/25_09_FridayRecap__FB-THUMBNAIL.png",
+          "publishedAt": "2026-09-25T14:16:57+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Battle of the Baskets",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/battle-of-the-baskets/",
+          "summary": "The big leap in espresso technology is something brilliantly simple, intuitive and affordable. It’s the ‘high extraction’ filter baskets. Armed with these new baskets and better distribution tools, baristas are making different... The post Battle of the Baskets appeared first on ",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/09/Battle-of-the-Baskets-Header.jpg",
+          "publishedAt": "2023-09-07T08:53:27+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Tiny Coffee, Massive Bills",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/tiny-coffee-massive-bills/",
+          "summary": "In the face of unchecked price-gouging by energy companies, what can cafe owners do to keep their bills under control? Big savings can be had by ditching boilers for good - and even doing away with the espresso machine altogether... The post Tiny Coffee, Massive Bills appeared fi",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/07/Coffee-Mug-Lightning-Header-scaled.jpg",
+          "publishedAt": "2023-07-19T14:13:02+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "2026 Coffee Review Tasting Reports: PNW Roasters, Decaf, Co-Ferments & More",
+          "source": "Coffee Review",
+          "sourceUrl": "https://www.coffeereview.com/2026-coffee-review-tasting-reports-pnw-roasters-decaf-co-ferments-more/",
+          "summary": "New Year, New Questions Specialty coffee is evolving fast — faster than trend cycles, processing methods, and high-concept café menus can keep up with. Each year, our tasting reports are our way of pausing the noise and asking: What’s actually happening in the cup? Not what’s pro",
+          "image": "https://www.coffeereview.com/wp-content/uploads/2025/12/Coffee-cups-and-roasted-beans-scene.jpg",
+          "publishedAt": "2026-01-01T19:19:29+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Millab M01 Review: Is Timemore’s Pineapple Burr as Sweet as It Looks?",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/millab-m01-review/",
+          "summary": "Timemore's latest flagship grinder offers several breakthroughs in grinder design. And a notable form factor. The post Millab M01 Review: Is Timemore’s Pineapple Burr as Sweet as It Looks? appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/06/millab-m01-featured-image.jpeg",
+          "publishedAt": "2025-12-12T14:06:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "For roasters looking for differentiation, Nigerian coffee could be the answer",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2025/04/nigeria-specialty-coffee-hidden-gem-origin/",
+          "summary": "Against a backdrop of rising coffee prices, soaring business costs, and higher interest rates, market competition has intensified. Roasters are pushed to find new points of differentiation to cut through the noise and retain their customers. Sourcing from new, exciting origins ha",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2025/03/Article-Posts_EN_PDG-EN-Thumbnail-14.png",
+          "publishedAt": "2025-04-01T08:35:20+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "A Puerto Rican coffee has broken the 90-point barrier – but is there a future for its specialty coffee sector?",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2023/10/puerto-rico-coffee/",
+          "summary": "The Caribbean island of Puerto Rico has been growing coffee since the 1730s. By the late 19th century, it was even the world’s seventh-largest producer of coffee. However, following years of colonial rule and several devastating hurricanes, the island’s coffee production declined",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2023/10/1710-LI.jpeg",
+          "publishedAt": "2023-10-17T05:31:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-23",
       "scannedAt": "2026-09-25T05:38:40.935Z",
       "kind": "editorial_archive",
