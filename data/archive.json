@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-23",
+      "scannedAt": "2026-09-25T05:38:40.935Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-23",
+          "rank": 0,
+          "title": "From Puck Prep to People Power",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Today’s dispatch highlights the relentless science of extraction, the rise of capable travel espresso, and why the future of the industry belongs to its communities.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/tdg_bellwoodgrantpark_web-@grayson-guldenschuh-1.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-23.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-23"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-24T19-13-05",
       "scannedAt": "2026-09-24T19:13:05.477156+00:00",
       "items": [
