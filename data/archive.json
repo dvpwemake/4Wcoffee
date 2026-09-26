@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-24",
+      "scannedAt": "2026-09-26T22:29:56.995Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-24",
+          "rank": 0,
+          "title": "Shifts at the Source and the Pursuit of Extraction Perfection",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/laila-the-floor.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-24.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-24"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-26T18-38-48",
       "scannedAt": "2026-09-26T18:38:48.732382+00:00",
       "items": [
