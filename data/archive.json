@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-26T18-38-48",
+      "scannedAt": "2026-09-26T18:38:48.732382+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Update Your Coffee Counter With Some Fresh New Gear",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/update-your-coffee-counter-with-some-fresh-new-gear-1367327.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of coffee gear.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/04/acaia-horizon-cup-close-sprudge-coffee-gear.jpg",
+          "publishedAt": "2026-09-26T12:00:47+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "The Caffè By Mr. Espresso Announces 2026 Fall Drink Lineup & Culinary Pop-Ups",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-caffe-by-mr-espresso-announces-2026-fall-drink-lineup-culinary-pop-ups-1368017.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. New seasonal drinks and pop-up events from The Caffè by Mr. Espresso.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/mr_espresso__1024-copy.jpg",
+          "publishedAt": "2026-09-25T19:49:40+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "The End of First Crack?",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/the-end-of-first-crack/",
+          "summary": "Is it possible that neither first crack, nor the precise adjustments to the gas settings that roasters make afterwards, are actually very important in coffee roasting? No matter how complex a roast profile you design for a drum roaster, you could... The post The End of First Crac",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/06/Exploding-Coffee-Bean-03.jpg",
+          "publishedAt": "2023-06-14T21:08:28+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "What We Taste When We Taste Acidity",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/what-we-taste-when-we-taste-acidity/",
+          "summary": "New research published this week, however, suggests that the levels of many of the organic acids found in brewed coffee are so low as to be essentially undetectable ( Birke Rune et al 2023 ). The post What We Taste When We Taste Acidity appeared first on Barista Hustle .",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/04/When-we-taste-acidity-Header-02-scaled.jpg",
+          "publishedAt": "2023-04-15T07:22:14+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Best Coffee and Espresso Gifts Under $250",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/new-products/best-holiday-coffee-espresso-gifts-under-250-for-2025/",
+          "summary": "We worked hard to find unique coffee and espresso gifts under $250 for the coffee lovers in your life, all curated by the CoffeeGeek staff. The post Best Coffee and Espresso Gifts Under $250 appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2025/12/Holiday-Gift-List-Under-250-800x533.jpg",
+          "publishedAt": "2025-12-08T09:15:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Best Coffee + Espresso Gifts Under $100 for 2025",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/new-products/best-coffee-espresso-gifts-under-100-for-2025/",
+          "summary": "Presenting CoffeeGeek's curated 2025 list of great coffee and espresso gear and gadgets under $100, guaranteed to make a coffee nerd happy! The post Best Coffee + Espresso Gifts Under $100 for 2025 appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2025/12/HolidayGiftGuideCoffeeSpro100-800x533.jpg",
+          "publishedAt": "2025-12-07T09:10:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Could Sri Lanka produce more specialty coffee in the future?",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2023/08/sri-lanka-coffee-specialty/",
+          "summary": "Sri Lanka, formerly known as Ceylon, is an island nation in South Asia situated off the southern tip of India. As far back as the late 1800s, Sri Lanka was a prominent producer of coffee. In fact, it was one of the biggest coffee-growing countries in the world during the 1860s. S",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2023/08/2308-LI.jpeg",
+          "publishedAt": "2023-08-23T05:31:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Will Nepal produce more specialty coffee in the future?",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2023/03/will-nepal-produce-more-specialty-coffee/",
+          "summary": "Production of Nepalese coffee. The post Will Nepal produce more specialty coffee in the future? appeared first on Perfect Daily Grind .",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2023/03/15-May.-FACEBOOK-AND-LINKEDIN.jpg",
+          "publishedAt": "2023-03-15T06:31:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-25T19-17-00",
       "scannedAt": "2026-09-25T19:17:00.396412+00:00",
       "items": [
