@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-26",
+      "scannedAt": "2026-09-27T21:43:33.004Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-26",
+          "rank": 0,
+          "title": "Deconstructing the Bean",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Science, Resurgent Terroirs, and the Post-Dogma Era of Coffee",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/06/Exploding-Coffee-Bean-03.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-26.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-26"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-27T18-59-55",
       "scannedAt": "2026-09-27T18:59:55.683243+00:00",
       "items": [
