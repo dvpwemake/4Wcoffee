@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-28T21-16-09",
+      "scannedAt": "2026-09-28T21:16:09.253242+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Build-Outs Of Coffee: Madcap Coffee In Grand Rapids, MI",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-madcap-coffee-in-grand-rapids-mi-1313815.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Madcap Coffee in Grand Rapids, Michigan.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-ferndale-1.jpg",
+          "publishedAt": "2026-09-28T16:00:30+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Build-Outs Of Coffee: Cup To Cup In Savannah, GA",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-cup-to-cup-in-savannah-ga-1287698.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Cup to Cup Cafe in Savannah, Georgia.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/cup-to-cup-1.jpg",
+          "publishedAt": "2026-09-28T14:00:54+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Iced Latte Art",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/iced-latte-art/",
+          "summary": "Cold foam has become pretty popular over the last few years, and yet, visually, cold foam lattes are firmly stuck in the 1980s. In other words: a tall, layered drink in a glass, topped with a spoonful of stiff foam like whipped cream. Wouldn’t it be great if... The post Iced Latt",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/03/Cold-Frothing-Header-scaled.jpg",
+          "publishedAt": "2023-03-14T15:36:36+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Wet Weiss for Espresso",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/wet-weiss-for-espresso/",
+          "summary": "As with all our best and wildest experiments, our investigation of Wet Weiss for espresso began with a conversation with multidisciplinary industrial scientist Professor Abbott . He suggested that adding some water before tamping might allow us to pack the bed of coffee more tigh",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2023/01/Tamper-Ballet-2-Header-scaled.jpg",
+          "publishedAt": "2023-01-23T10:56:45+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The List: Coffee Review’s Top 50 Coffees of 2025",
+          "source": "Coffee Review",
+          "sourceUrl": "https://www.coffeereview.com/the-list-coffee-reviews-top-50-coffees-of-2025/",
+          "summary": "Every November, when we sit down to assemble the list of the most exciting coffees we’ve tasted throughout the year, we’re reminded that specialty coffee is a field defined by relentless curiosity. This year reaffirmed that truth. In late 2024, our team decided to expand Coffee R",
+          "image": "https://www.coffeereview.com/wp-content/uploads/2025/10/cr-top-50-fb-1200x630-2025.jpg",
+          "publishedAt": "2025-12-04T12:42:43+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "MHW-3Bomber R3 Blade",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/mhw-3bomber-r3-blade-review/",
+          "summary": "This R3 Blade is a fantastic budget grinder. But it has a secret that transforms it into an absolute budget beast. The post MHW-3Bomber R3 Blade appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/08/Manual-grinder-6.jpeg",
+          "publishedAt": "2025-12-04T10:35:16+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "How is specialty coffee produced in Liberia?",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2023/02/how-is-coffee-produced-in-liberia/",
+          "summary": "Liberia is a West African country which borders Sierra Leone, Guinea, and Cote d’Ivoire, as well as the Atlantic Ocean. The country is the oldest republic in Africa, and declared its independence in 1847 – which was internationally recognised in 1862. According to Index Mundi, Li",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2023/02/14-Feb.-FACEBOOK-AND-LINKEDIN.jpg",
+          "publishedAt": "2023-02-14T06:32:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Can coffee production become more important for Togo?",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2022/12/coffee-production-in-togo/",
+          "summary": "Togo (also known as the Togolese Republic) is a small country located in the Gulf of Guinea, West Africa. The country is essentially a narrow strip of land with a relatively short coastline, and shares its borders with Ghana, Benin, and Burkina Faso. Despite its small size (appro",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/12/20-Dec.-FACEBOOK-AND-LINKEDIN.jpg",
+          "publishedAt": "2022-12-20T06:27:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-26",
       "scannedAt": "2026-09-27T21:43:33.004Z",
       "kind": "editorial_archive",
