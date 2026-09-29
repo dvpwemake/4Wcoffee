@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-09-29T20-01-24",
+      "scannedAt": "2026-09-29T20:01:24.402194+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Blue Bottle Coffee Debuts Notes In Repose, A Limited-Edition Vinyl Celebrating Coffee, Jazz & The Art Of Composition",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/blue-bottle-coffee-debuts-notes-in-repose-a-limited-edition-vinyl-celebrating-coffee-jazz-the-art-of-composition-1383088.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Created in celebration of Blue Bottle’s Signature Blends, the brand’s first-ever compilation album features 10 contemporary jazz compositions from artists across North America an",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/blue-bottle-coltrane-cold-foam-notes-in-repose-vinyl.jpg",
+          "publishedAt": "2026-09-29T16:00:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "The Coffee Sprudgecast Presents: Killer Builds From Our Summer Cafe Feature Series",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-coffee-sprudgecast-presents-killer-builds-from-our-summer-cafe-feature-series-1371911.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Coffee Buildcast featuring new cafes from Stumptown Coffee in LA and Fresh Pots in Copenhagen.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
+          "publishedAt": "2026-09-29T15:00:51+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Pass the Espresso on the Left Hand Side",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/pass-the-espresso-on-the-left-hand-side/",
+          "summary": "If espresso drops unevenly from the spouts of your portafilter, don’t assume it’s down to bad tamping or bad puck prep. More importantly — don’t assume that just because the coffee drops evenly from the spouts, that means that your tamping was perfect! The post Pass the Espresso ",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2022/11/Uneven-Split-Flow-5-Post-Header-scaled.jpg",
+          "publishedAt": "2022-11-10T13:51:58+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "What’s the Deal with Cryodesiccation?",
+          "source": "Barista Hustle",
+          "sourceUrl": "https://www.baristahustle.com/whats-the-deal-with-cryodessication/",
+          "summary": "This year, the Australian champion Anthony Douglas took things a step further with his ‘cryodesiccation’ technique. The process allowed him to make an even more concentrated milk. Anthony paired his concentrated milk with an anaerobic natural Sidra from Finca El Diviso , and toge",
+          "image": "https://www.baristahustle.com/wp-content/uploads/2022/10/Milk-Pouring-Blog-Post-scaled.jpg",
+          "publishedAt": "2022-10-13T12:20:49+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "My Fellow Opus 2 Review",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/fellow-opus-2-review/",
+          "summary": "The Opus 2 fixes almost everything that went wrong with the first Opus. Except the build. The post My Fellow Opus 2 Review appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/09/opus-2-featured-image.jpg",
+          "publishedAt": "2026-09-29T10:08:32+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Cyber Monday Coffee and Espresso Deals 2025",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/deals/cyber-monday-coffee-and-espresso-deals-2025/",
+          "summary": "Here it is: the full Cyber Monday Sales deals on Amazon (and a few other places) to find your best holiday deals on Coffee + Espresso. The post Cyber Monday Coffee and Espresso Deals 2025 appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2024/11/Cyber-Monday-2024-Deals-800x533.jpg",
+          "publishedAt": "2025-11-30T09:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Why Colombian coffees perform so well at competitions and auctions",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2026/09/colombian-coffees-competitions-auctions/",
+          "summary": "Colombia produces coffees that attract international buyers while building a stronger domestic ecosystem for roasting, brewing, and consumption. This combination of growing conditions, infrastructure, and constant innovation explains why the country performs so well at auctions a",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/29_09_Article__PDG-EN-FB-post.png",
+          "publishedAt": "2026-09-29T05:44:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "What makes coffee production in Okinawa unique?",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2022/11/coffee-production-in-okinawa/",
+          "summary": "According to the International Coffee Organisation, Japan is the third-largest consumer of coffee in the world, after the European Union and the US. In 2020/21, the country imported just under 7.4 million 60kg bags of green coffee. Japan has a rich history of coffee consumption. ",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "publishedAt": "2022-11-29T06:30:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-09-27",
       "scannedAt": "2026-09-29T00:09:19.513Z",
       "kind": "editorial_archive",
