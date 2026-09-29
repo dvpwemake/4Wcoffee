@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-27",
+      "scannedAt": "2026-09-29T00:09:19.513Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-27",
+          "rank": 0,
+          "title": "Brewing with Precision",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "How material science and extraction metrics are democratizing the perfect cup.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-eureka-sprudge-roasters-village.jpg-copy.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-27.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-27"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-09-28T21-16-09",
       "scannedAt": "2026-09-28T21:16:09.253242+00:00",
       "items": [
