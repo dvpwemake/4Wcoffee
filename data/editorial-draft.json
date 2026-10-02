@@ -1,134 +1,130 @@
 {
-  "id": "ed_2026-10-01",
-  "publishDate": "2026-10-01",
+  "id": "ed_2026-10-02",
+  "publishDate": "2026-10-02",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-10-01",
+  "title": "Editorial brief — 2026-10-02",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/09/phil-sebastian-booc-1.jpg",
+  "heroImage": "https://sprudge.com/wp-content/uploads/2026/10/rtd-blend-copy.jpg",
   "heroCredit": "Sprudge",
   "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/build-outs-of-coffee-phil-sebastian-in-calgary-alberta-1386731.html",
+  "heroSourceUrl": "https://sprudge.com/cartel-roasting-co-takes-home-two-silver-medals-at-the-global-coffee-awards-1399540.html",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-01\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-02\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Build-Outs Of Coffee: Phil & Sebastian In Calgary, Alberta\n   Source: Sprudge\n   URL: https://sprudge.com/build-outs-of-coffee-phil-sebastian-in-calgary-alberta-1386731.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Phil & Sebastian in Calgary, Alberta.",
-    "2. [Industry] NY-Based Colombian Coffee Roaster Devoción Launches Impact Fund, Directing 1% Of Every Retail Bag to Coffee Farmers, Youth, & Ecological Restoration\n   Source: Sprudge\n   URL: https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-launches-impact-fund-directing-1-of-every-retail-bag-to-coffee-farmers-youth-ecological-restoration-1396430.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • The B Corp roaster expects the fund to generate an estimated $50,000 in its first year.",
-    "3. [Science] How a Paper Filter Below an Espresso Puck Affects Hydraulic Resistance\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/04/04/how-a-paper-filter-below-an-espresso-puck-affects-hydraulic-resistance/\n   Key points:\n   • In one of my latest posts, I investigated the effect of puck preparation, and in particular the addition of a dry paper filter above the espresso puck, affects the hydraulic resistance of the system during an espresso shot.\n   • While I have not yet tested its effect on average extrac",
-    "4. [Science] The Four Rules of Optimal Coffee Percolation\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/03/04/the-four-rules-of-optimal-coffee-percolation/\n   Key points:\n   • In this post, I lay down four rules for optimal percolation that follow some of my most recent understanding about percolation physics.",
-    "5. [Reviews] Femobook A2\n   Source: Coffee Chronicler\n   URL: https://coffeechronicler.com/femobook-a2-review/\n   Key points:\n   • Is it an electric grinder?\n   • Or rather a manual grinder that cranks itself?\n   • Who knows, but the A2 is a lot of grinder for the money.",
-    "6. [Reviews] Early Black Friday Deals for 2025\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/blog/deals/early-black-friday-deals-2025-on-coffee-espresso-gear/\n   Key points:\n   • Amazon dropped a bunch of Black Friday deals early, including Fellow, xBloom Studio, Delonghi, and a CG fave - the Breville Infuser!",
-    "7. [Origin] A guide to coffee production in Saudi Arabia\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/07/guide-to-saudi-arabia-coffee-production/\n   Key points:\n   • Although Saudi Arabia has been growing coffee for the past few centuries, it is by no means a major coffee-producing country.\n   • In 2020, it’s estimated that Saudi-grown coffee totalled around 300 tonnes.\n   • However, the country has a rich history of coffee consumption, which is only c",
-    "8. [Origin] A guide to the coffee sector in Côte d’Ivoire\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/07/guide-to-coffee-sector-in-cote-divoire/\n   Key points:\n   • The Republic of Cote d’Ivoire (also commonly known by its English name, the Ivory Coast) is a West African country with a population of more than 20 million people.\n   • The country shares its border with Ghana, Guinea, Liberia, Mali, and Burkina Faso.\n   • Coffee is the country’s second-l",
+    "1. [Industry] Cartel Roasting Co. Takes Home Two Silver Medals At The Global Coffee Awards\n   Source: Sprudge\n   URL: https://sprudge.com/cartel-roasting-co-takes-home-two-silver-medals-at-the-global-coffee-awards-1399540.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Arizona-based roaster recognized in two Ready to Drink categories for its Cold Brew and Sonoran Standard Cold Brew.",
+    "2. [Industry] Coffee Design: Look Alive Coffee In St. Petersburg, Florida\n   Source: Sprudge\n   URL: https://sprudge.com/coffee-design-look-alive-coffee-in-st-petersburg-florida-1278673.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • The new packaging for Look Alive Coffee in St.",
+    "3. [Science] A Study of Espresso Puck Resistance and How Puck Preparation Affects it\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/01/16/a-study-of-espresso-puck-resistance-and-how-puck-preparation-affects-it/\n   Key points:\n   • In this post, I present an experiment showing that deep WDT helps improve repeatability, and I discuss how to improve espresso preinfusion.",
+    "4. [Science] An Espresso Profile that Adapts to your Grind Size\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2020/12/31/an-espresso-profile-that-adapts-to-your-grind-size/\n   Key points:\n   • In this blog post, I explore the possibility of a different way to profile espresso shots with the Decent machine to help dialing in faster.",
+    "5. [Reviews] Black Friday 2025 Deals for Canadians\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/blog/deals/black-friday-deals-2025-for-canadians-coffee-espresso/\n   Key points:\n   • It's Black Friday time, and 2025 sees Canucks getting even better deals than our American friends get, on some great coffee and espresso gear!",
+    "6. [Reviews] The Olympia Express Mina: A Beautiful, Frustrating Swiss Paradox\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/opinions/coffee-at-the-moment/olympia-mina-beautiful-flawed-paradox/\n   Key points:\n   • Not a review: Some thoughts on the Olympia Mina, comparing this beautifully flawed Swiss machine to the Flair 58 and why workflow and reliability are concerns.",
+    "7. [Origin] A guide to South Sudan’s coffee sector\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/06/a-guide-to-south-sudan-coffee-sector/\n   Key points:\n   • Despite its long history, South Sudan only became independent in 2011 – making it the newest internationally recognised country in the world.\n   • As well as Sudan, South Sudan borders Ethiopia, Uganda, and Kenya – three of the top five coffee-producing countries in Africa.",
+    "8. [Origin] A guide to coffee production in Haiti\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/05/coffee-production-in-haiti/\n   Key points:\n   • Haiti is the third-largest country in the Caribbean.\n   • The island nation became the world’s first black-led republic and the Caribbean’s first independent state in the early 19th century.\n   • Coffee production has historically been important for Haiti’s economic growth.",
     "— Categories present —\nIndustry · Science · Reviews · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-01\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Build-Outs Of Coffee: Phil & Sebastian In Calgary, Alberta\n   Source: Sprudge\n   URL: https://sprudge.com/build-outs-of-coffee-phil-sebastian-in-calgary-alberta-1386731.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Phil & Sebastian in Calgary, Alberta.\n\n2. [Industry] NY-Based Colombian Coffee Roaster Devoción Launches Impact Fund, Directing 1% Of Every Retail Bag to Coffee Farmers, Youth, & Ecological Restoration\n   Source: Sprudge\n   URL: https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-launches-impact-fund-directing-1-of-every-retail-bag-to-coffee-farmers-youth-ecological-restoration-1396430.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • The B Corp roaster expects the fund to generate an estimated $50,000 in its first year.\n\n3. [Science] How a Paper Filter Below an Espresso Puck Affects Hydraulic Resistance\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/04/04/how-a-paper-filter-below-an-espresso-puck-affects-hydraulic-resistance/\n   Key points:\n   • In one of my latest posts, I investigated the effect of puck preparation, and in particular the addition of a dry paper filter above the espresso puck, affects the hydraulic resistance of the system during an espresso shot.\n   • While I have not yet tested its effect on average extrac\n\n4. [Science] The Four Rules of Optimal Coffee Percolation\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/03/04/the-four-rules-of-optimal-coffee-percolation/\n   Key points:\n   • In this post, I lay down four rules for optimal percolation that follow some of my most recent understanding about percolation physics.\n\n5. [Reviews] Femobook A2\n   Source: Coffee Chronicler\n   URL: https://coffeechronicler.com/femobook-a2-review/\n   Key points:\n   • Is it an electric grinder?\n   • Or rather a manual grinder that cranks itself?\n   • Who knows, but the A2 is a lot of grinder for the money.\n\n6. [Reviews] Early Black Friday Deals for 2025\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/blog/deals/early-black-friday-deals-2025-on-coffee-espresso-gear/\n   Key points:\n   • Amazon dropped a bunch of Black Friday deals early, including Fellow, xBloom Studio, Delonghi, and a CG fave - the Breville Infuser!\n\n7. [Origin] A guide to coffee production in Saudi Arabia\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/07/guide-to-saudi-arabia-coffee-production/\n   Key points:\n   • Although Saudi Arabia has been growing coffee for the past few centuries, it is by no means a major coffee-producing country.\n   • In 2020, it’s estimated that Saudi-grown coffee totalled around 300 tonnes.\n   • However, the country has a rich history of coffee consumption, which is only c\n\n8. [Origin] A guide to the coffee sector in Côte d’Ivoire\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/07/guide-to-coffee-sector-in-cote-divoire/\n   Key points:\n   • The Republic of Cote d’Ivoire (also commonly known by its English name, the Ivory Coast) is a West African country with a population of more than 20 million people.\n   • The country shares its border with Ghana, Guinea, Liberia, Mali, and Burkina Faso.\n   • Coffee is the country’s second-l\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 535,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-02\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Cartel Roasting Co. Takes Home Two Silver Medals At The Global Coffee Awards\n   Source: Sprudge\n   URL: https://sprudge.com/cartel-roasting-co-takes-home-two-silver-medals-at-the-global-coffee-awards-1399540.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Arizona-based roaster recognized in two Ready to Drink categories for its Cold Brew and Sonoran Standard Cold Brew.\n\n2. [Industry] Coffee Design: Look Alive Coffee In St. Petersburg, Florida\n   Source: Sprudge\n   URL: https://sprudge.com/coffee-design-look-alive-coffee-in-st-petersburg-florida-1278673.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • The new packaging for Look Alive Coffee in St.\n\n3. [Science] A Study of Espresso Puck Resistance and How Puck Preparation Affects it\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2021/01/16/a-study-of-espresso-puck-resistance-and-how-puck-preparation-affects-it/\n   Key points:\n   • In this post, I present an experiment showing that deep WDT helps improve repeatability, and I discuss how to improve espresso preinfusion.\n\n4. [Science] An Espresso Profile that Adapts to your Grind Size\n   Source: Coffee Ad Astra\n   URL: https://coffeeadastra.com/2020/12/31/an-espresso-profile-that-adapts-to-your-grind-size/\n   Key points:\n   • In this blog post, I explore the possibility of a different way to profile espresso shots with the Decent machine to help dialing in faster.\n\n5. [Reviews] Black Friday 2025 Deals for Canadians\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/blog/deals/black-friday-deals-2025-for-canadians-coffee-espresso/\n   Key points:\n   • It's Black Friday time, and 2025 sees Canucks getting even better deals than our American friends get, on some great coffee and espresso gear!\n\n6. [Reviews] The Olympia Express Mina: A Beautiful, Frustrating Swiss Paradox\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/opinions/coffee-at-the-moment/olympia-mina-beautiful-flawed-paradox/\n   Key points:\n   • Not a review: Some thoughts on the Olympia Mina, comparing this beautifully flawed Swiss machine to the Flair 58 and why workflow and reliability are concerns.\n\n7. [Origin] A guide to South Sudan’s coffee sector\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/06/a-guide-to-south-sudan-coffee-sector/\n   Key points:\n   • Despite its long history, South Sudan only became independent in 2011 – making it the newest internationally recognised country in the world.\n   • As well as Sudan, South Sudan borders Ethiopia, Uganda, and Kenya – three of the top five coffee-producing countries in Africa.\n\n8. [Origin] A guide to coffee production in Haiti\n   Source: Perfect Daily Grind Origins\n   URL: https://perfectdailygrind.com/2022/05/coffee-production-in-haiti/\n   Key points:\n   • Haiti is the third-largest country in the Caribbean.\n   • The island nation became the world’s first black-led republic and the Caribbean’s first independent state in the early 19th century.\n   • Coffee production has historically been important for Haiti’s economic growth.\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 500,
   "headlines": [
     {
-      "title": "Build-Outs Of Coffee: Phil & Sebastian In Calgary, Alberta",
+      "title": "Cartel Roasting Co. Takes Home Two Silver Medals At The Global Coffee Awards",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/build-outs-of-coffee-phil-sebastian-in-calgary-alberta-1386731.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Phil & Sebastian in Calgary, Alberta.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/phil-sebastian-booc-1.jpg",
+      "sourceUrl": "https://sprudge.com/cartel-roasting-co-takes-home-two-silver-medals-at-the-global-coffee-awards-1399540.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Arizona-based roaster recognized in two Ready to Drink categories for its Cold Brew and Sonoran Standard Cold Brew.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/10/rtd-blend-copy.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "Phil & Sebastian in Calgary, Alberta."
+        "Arizona-based roaster recognized in two Ready to Drink categories for its Cold Brew and Sonoran Standard Cold Brew."
       ]
     },
     {
-      "title": "NY-Based Colombian Coffee Roaster Devoción Launches Impact Fund, Directing 1% Of Every Retail Bag to Coffee Farmers, Youth, & Ecological Restoration",
+      "title": "Coffee Design: Look Alive Coffee In St. Petersburg, Florida",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-launches-impact-fund-directing-1-of-every-retail-bag-to-coffee-farmers-youth-ecological-restoration-1396430.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The B Corp roaster expects the fund to generate an estimated $50,000 in its first year.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/10/devocion_0523_lizclayman_501-scaled.jpg",
+      "sourceUrl": "https://sprudge.com/coffee-design-look-alive-coffee-in-st-petersburg-florida-1278673.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The new packaging for Look Alive Coffee in St. Petersburg, Florida.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/09/lookalive-coffee-design-sprudge-00002.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "The B Corp roaster expects the fund to generate an estimated $50,000 in its first year."
+        "The new packaging for Look Alive Coffee in St."
       ]
     },
     {
-      "title": "How a Paper Filter Below an Espresso Puck Affects Hydraulic Resistance",
+      "title": "A Study of Espresso Puck Resistance and How Puck Preparation Affects it",
       "source": "Coffee Ad Astra",
       "category": "science",
-      "sourceUrl": "https://coffeeadastra.com/2021/04/04/how-a-paper-filter-below-an-espresso-puck-affects-hydraulic-resistance/",
-      "summary": "In one of my latest posts, I investigated the effect of puck preparation, and in particular the addition of a dry paper filter above the espresso puck, affects the hydraulic resistance of the system during an espresso shot. While I have not yet tested its effect on average extrac",
-      "image": "http://www.dropbox.com/s/ov60litl7g5ez06/bottom_paper_filter_placement.mov?raw=1",
+      "sourceUrl": "https://coffeeadastra.com/2021/01/16/a-study-of-espresso-puck-resistance-and-how-puck-preparation-affects-it/",
+      "summary": "In this post, I present an experiment showing that deep WDT helps improve repeatability, and I discuss how to improve espresso preinfusion.",
+      "image": "http://www.dropbox.com/s/qvzof10svgh8s0z/distribution2.mp4?raw=1",
       "keyPoints": [
-        "In one of my latest posts, I investigated the effect of puck preparation, and in particular the addition of a dry paper filter above the espresso puck, affects the hydraulic resistance of the system during an espresso shot.",
-        "While I have not yet tested its effect on average extrac"
+        "In this post, I present an experiment showing that deep WDT helps improve repeatability, and I discuss how to improve espresso preinfusion."
       ]
     },
     {
-      "title": "The Four Rules of Optimal Coffee Percolation",
+      "title": "An Espresso Profile that Adapts to your Grind Size",
       "source": "Coffee Ad Astra",
       "category": "science",
-      "sourceUrl": "https://coffeeadastra.com/2021/03/04/the-four-rules-of-optimal-coffee-percolation/",
-      "summary": "In this post, I lay down four rules for optimal percolation that follow some of my most recent understanding about percolation physics.",
-      "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/01/4_rules_header3.png?fit=1200%2C244&ssl=1",
+      "sourceUrl": "https://coffeeadastra.com/2020/12/31/an-espresso-profile-that-adapts-to-your-grind-size/",
+      "summary": "In this blog post, I explore the possibility of a different way to profile espresso shots with the Decent machine to help dialing in faster.",
+      "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2020/12/adaptive_p_header.png?fit=1200%2C543&ssl=1",
       "keyPoints": [
-        "In this post, I lay down four rules for optimal percolation that follow some of my most recent understanding about percolation physics."
+        "In this blog post, I explore the possibility of a different way to profile espresso shots with the Decent machine to help dialing in faster."
       ]
     },
     {
-      "title": "Femobook A2",
-      "source": "Coffee Chronicler",
-      "category": "reviews",
-      "sourceUrl": "https://coffeechronicler.com/femobook-a2-review/",
-      "summary": "Is it an electric grinder? Or rather a manual grinder that cranks itself? Who knows, but the A2 is a lot of grinder for the money. The post Femobook A2 appeared first on The Coffee Chronicler .",
-      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/femobook-a2.jpg",
-      "keyPoints": [
-        "Is it an electric grinder?",
-        "Or rather a manual grinder that cranks itself?",
-        "Who knows, but the A2 is a lot of grinder for the money."
-      ]
-    },
-    {
-      "title": "Early Black Friday Deals for 2025",
+      "title": "Black Friday 2025 Deals for Canadians",
       "source": "CoffeeGeek",
       "category": "reviews",
-      "sourceUrl": "https://coffeegeek.com/blog/deals/early-black-friday-deals-2025-on-coffee-espresso-gear/",
-      "summary": "Amazon dropped a bunch of Black Friday deals early, including Fellow, xBloom Studio, Delonghi, and a CG fave - the Breville Infuser! Updated Nov 25. The post Early Black Friday Deals for 2025 appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2024/11/Early-Black-Friday-Deals-2-800x533.jpg",
+      "sourceUrl": "https://coffeegeek.com/blog/deals/black-friday-deals-2025-for-canadians-coffee-espresso/",
+      "summary": "It's Black Friday time, and 2025 sees Canucks getting even better deals than our American friends get, on some great coffee and espresso gear! The post Black Friday 2025 Deals for Canadians appeared first on CoffeeGeek .",
+      "image": "https://coffeegeek.com/wp-content/uploads/2024/11/Black-Friday-Canada-2024-800x533.jpg",
       "keyPoints": [
-        "Amazon dropped a bunch of Black Friday deals early, including Fellow, xBloom Studio, Delonghi, and a CG fave - the Breville Infuser!"
+        "It's Black Friday time, and 2025 sees Canucks getting even better deals than our American friends get, on some great coffee and espresso gear!"
       ]
     },
     {
-      "title": "A guide to coffee production in Saudi Arabia",
-      "source": "Perfect Daily Grind Origins",
-      "category": "origin",
-      "sourceUrl": "https://perfectdailygrind.com/2022/07/guide-to-saudi-arabia-coffee-production/",
-      "summary": "Although Saudi Arabia has been growing coffee for the past few centuries, it is by no means a major coffee-producing country. In 2020, it’s estimated that Saudi-grown coffee totalled around 300 tonnes. However, the country has a rich history of coffee consumption, which is only c",
-      "image": "https://perfectdailygrind.com/wp-content/uploads/2022/07/20-July.-FACEBOOK-AND-LINKEDIN.jpg",
+      "title": "The Olympia Express Mina: A Beautiful, Frustrating Swiss Paradox",
+      "source": "CoffeeGeek",
+      "category": "reviews",
+      "sourceUrl": "https://coffeegeek.com/opinions/coffee-at-the-moment/olympia-mina-beautiful-flawed-paradox/",
+      "summary": "Not a review: Some thoughts on the Olympia Mina, comparing this beautifully flawed Swiss machine to the Flair 58 and why workflow and reliability are concerns. The post The Olympia Express Mina: A Beautiful, Frustrating Swiss Paradox appeared first on CoffeeGeek .",
+      "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Mina-Greyscale-1-800x533.jpg",
       "keyPoints": [
-        "Although Saudi Arabia has been growing coffee for the past few centuries, it is by no means a major coffee-producing country.",
-        "In 2020, it’s estimated that Saudi-grown coffee totalled around 300 tonnes.",
-        "However, the country has a rich history of coffee consumption, which is only c"
+        "Not a review: Some thoughts on the Olympia Mina, comparing this beautifully flawed Swiss machine to the Flair 58 and why workflow and reliability are concerns."
       ]
     },
     {
-      "title": "A guide to the coffee sector in Côte d’Ivoire",
+      "title": "A guide to South Sudan’s coffee sector",
       "source": "Perfect Daily Grind Origins",
       "category": "origin",
-      "sourceUrl": "https://perfectdailygrind.com/2022/07/guide-to-coffee-sector-in-cote-divoire/",
-      "summary": "The Republic of Cote d’Ivoire (also commonly known by its English name, the Ivory Coast) is a West African country with a population of more than 20 million people. The country shares its border with Ghana, Guinea, Liberia, Mali, and Burkina Faso. Coffee is the country’s second-l",
-      "image": "https://perfectdailygrind.com/wp-content/uploads/2022/07/21-July.-FACEBOOK-AND-LINKEDIN-1-1.jpg",
+      "sourceUrl": "https://perfectdailygrind.com/2022/06/a-guide-to-south-sudan-coffee-sector/",
+      "summary": "Despite its long history, South Sudan only became independent in 2011 – making it the newest internationally recognised country in the world. As well as Sudan, South Sudan borders Ethiopia, Uganda, and Kenya – three of the top five coffee-producing countries in Africa. While many",
+      "image": "https://perfectdailygrind.com/wp-content/uploads/2022/06/13-June.-FACEBOOK-AND-LINKEDIN.jpg",
       "keyPoints": [
-        "The Republic of Cote d’Ivoire (also commonly known by its English name, the Ivory Coast) is a West African country with a population of more than 20 million people.",
-        "The country shares its border with Ghana, Guinea, Liberia, Mali, and Burkina Faso.",
-        "Coffee is the country’s second-l"
+        "Despite its long history, South Sudan only became independent in 2011 – making it the newest internationally recognised country in the world.",
+        "As well as Sudan, South Sudan borders Ethiopia, Uganda, and Kenya – three of the top five coffee-producing countries in Africa."
+      ]
+    },
+    {
+      "title": "A guide to coffee production in Haiti",
+      "source": "Perfect Daily Grind Origins",
+      "category": "origin",
+      "sourceUrl": "https://perfectdailygrind.com/2022/05/coffee-production-in-haiti/",
+      "summary": "Haiti is the third-largest country in the Caribbean. The island nation became the world’s first black-led republic and the Caribbean’s first independent state in the early 19th century. Coffee production has historically been important for Haiti’s economic growth. French colonist",
+      "image": "https://perfectdailygrind.com/wp-content/uploads/2022/05/5-May.-FACEBOOK-AND-LINKEDIN.jpg",
+      "keyPoints": [
+        "Haiti is the third-largest country in the Caribbean.",
+        "The island nation became the world’s first black-led republic and the Caribbean’s first independent state in the early 19th century.",
+        "Coffee production has historically been important for Haiti’s economic growth."
       ]
     }
   ],
-  "fromScan": "2026-10-01T20:22:51.470551+00:00"
+  "fromScan": "2026-10-02T19:58:54.071649+00:00"
 }
