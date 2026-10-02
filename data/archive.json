@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-09-28",
+      "scannedAt": "2026-10-02T07:24:01.718Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-09-28",
+          "rank": 0,
+          "title": "Beyond the Shot: Relentless Curiosity Drives the Next Era of Coffee",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Pursuit of the perfect cup has never been broader",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-ferndale-1.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-28.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-09-28"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-01T20-22-51",
       "scannedAt": "2026-10-01T20:22:51.470551+00:00",
       "items": [
