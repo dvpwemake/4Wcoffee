@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-03T18-42-15",
+      "scannedAt": "2026-10-03T18:42:15.822448+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Vava Angwenyi: The Sprudge Twenty Interview",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/vava-angwenyi-the-sprudge-twenty-interview-1275273.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Vava Angwenyi.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_vava.webp",
+          "publishedAt": "2026-10-01T14:00:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "The Sprudge Coffee Events Calendar Is Filling Up For October",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-sprudge-coffee-events-calendar-is-filling-up-for-october-1387152.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. These are but a few of the coffee events his month.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/coffee-events-october.jpg",
+          "publishedAt": "2026-10-01T12:00:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Brewing with the Fellow Stagg [X] Dripper",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2020/12/09/brewing-with-the-fellow-stagg-x-dripper/",
+          "summary": "In this post, I review why I completely switched from the V60 to the Stagg [X] brewer, and how I now use it.",
+          "image": "http://www.dropbox.com/s/gvyw6ag7ssd95t9/stagg_brew_video_nometa_480pt.mov?raw=1",
+          "publishedAt": "2020-12-10T01:31:52+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "The Effects of Varieties, Origin and Processing",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2020/09/05/the-effects-of-varieties-origin-and-processing/",
+          "summary": "In this post I discuss the effects of coffee varieties, origin and processing on average extraction yield and brew time.",
+          "image": "https://coffeeadastra.com/wp-content/uploads/2020/05/varietals_ey_main-3.png",
+          "publishedAt": "2020-09-05T16:08:50+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Timemore C5",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/timemore-c5-review/",
+          "summary": "Timemore C5 brings an aluminum unibody, friendlier UX, and a new burr to the entry level. But is it enough? The post Timemore C5 appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/11/timemore-C5-1-scaled.jpg",
+          "publishedAt": "2025-11-11T15:35:35+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "MHW-3Bomber F74 Navigator Grinder",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/reviews/firstlooks/hands-on-with-the-mhw-3bomber-f74-navigator-a-first-look/",
+          "summary": "CoffeeGeek tests the MHW‑3Bomber F74 Navigator: a prosumer grinder with 74 mm burrs, ultra‑low retention, and RPM control for espresso and brew coffee. The post MHW-3Bomber F74 Navigator Grinder appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2025/10/F74-Navigator-Hero-1-800x533.jpg",
+          "publishedAt": "2025-11-05T01:30:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Mohammad Mousavi",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/mohammad-mousavi/",
+          "summary": "There are people we meet at the right moment in life who change much more than what we know. Sometimes they teach us a skill. Sometimes they believe in us before we have much reason to believe in ourselves. And sometimes, the best mentors do something even more difficult: they re",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "publishedAt": "2026-10-03T17:24:43+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "THE CHINA AEROPRESS CHAMPIONSHIP 2026 IS BACK.",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/the-china-aeropress-championship-2026-is-back/",
+          "summary": "We’ve been keeping something under wraps. Over the past few weeks, the I’M NOT A BARISTA team has been working closely with Duide Coffee Lab and Outman Coffee Roastery in Guiyang to help bring the AeroPress Championship back to China — and reconnect one of the world’s biggest cof",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/10/CAC-2026-Bridge-Poster-v1.3-724x1024.png",
+          "publishedAt": "2026-10-03T10:01:46+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-01",
       "scannedAt": "2026-10-03T17:47:34.370Z",
       "kind": "editorial_archive",
