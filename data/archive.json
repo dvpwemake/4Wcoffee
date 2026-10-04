@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-04T18-40-44",
+      "scannedAt": "2026-10-04T18:40:44.298944+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "It’s Two Hands On A Mug Season. Make Sure You’ve Got Coffee",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/its-two-hands-on-a-mug-season-make-sure-youve-got-coffee-1399403.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/devocion-dorado-sprudge-roasters-village.jpg-copy.jpg",
+          "publishedAt": "2026-10-04T12:00:38+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Coffee News Recap, 2 Oct: Speaker applications open for PRF Mexico, 2026 Best of Panama auction results announced & other stories",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-2-october-2026/",
+          "summary": "Speaker applications open for Producer & Roaster Forum Mexico, Specialty Coffee Association of Panama Best of Panama 2026 auction generates more than US$3m in sales, Belfast Coffee Festival to begin on 3 October & more. The post Coffee News Recap, 2 Oct: Speaker applications open",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "publishedAt": "2026-10-02T12:20:57+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "The Physics of Kettle Streams",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2020/05/23/the-physics-of-kettle-streams/",
+          "summary": "In this post, I discuss the physics of kettle stream and how we can maximize extraction evenness by changing pour rate and height.",
+          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2020/04/kettles_header.png?fit=1200%2C837&ssl=1",
+          "publishedAt": "2020-05-23T14:29:09+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Why Can’t we Grind Coffee Finer for Pour Over ?",
+          "source": "Coffee Ad Astra",
+          "sourceUrl": "https://coffeeadastra.com/2020/04/02/why-cant-we-grind-coffee-finer-for-pour-over/",
+          "summary": "In this post, I discuss issues and possible avenues for grinding finer for filter coffee",
+          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2020/02/tds_grind_size_wide-1.png?fit=1200%2C750&ssl=1",
+          "publishedAt": "2020-04-03T02:22:57+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "1Zpresso K-Ultra Review: Three Years Later",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/1zpresso-k-ultra-review/",
+          "summary": "I've used the K-Ultra for more than 3 years. And that has changed my relationship with the grinder. Here's the full explanation. The post 1Zpresso K-Ultra Review: Three Years Later appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/10/K-Ultra-featured-image-2026-scaled.jpeg",
+          "publishedAt": "2026-10-04T11:44:05+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Jura Z10 Super Automatic",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/reviews/firstlooks/jura-z10-bean-to-cup-first-look-review/",
+          "summary": "Is the premium Jura Z10 the ultimate bean to cup machine? We go hands on with its advanced grinder, 32 drink options, and unique technology. The post Jura Z10 Super Automatic appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/02/Jura-Z10-Hero-Alts-6-800x533.jpg",
+          "publishedAt": "2025-10-31T10:30:40+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "A guide to the Taiwanese coffee sector",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2022/02/a-guide-to-the-taiwanese-coffee-sector/",
+          "summary": "Taiwan is an island in East Asia that sits to the south east of China. It is densely populated, largely urbanised, and home to beautiful mountains and dense forests. While it is by no means a coffee-growing powerhouse, coffee has been produced in Taiwan for the last 100 years. Br",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/01/17-Feb.-FACEBOOK-AND-LINKEDIN.jpg",
+          "publishedAt": "2022-02-17T06:40:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Exploring the Bolivian coffee sector",
+          "source": "Perfect Daily Grind Origins",
+          "sourceUrl": "https://perfectdailygrind.com/2022/02/exploring-the-bolivian-coffee-sector/",
+          "summary": "While it is only the 38th largest coffee producer in the world, Bolivia’s coffee sector has its own unique history. Even though Bolivian coffee doesn’t enjoy the same reputation as beans from neighbouring countries, it does have the growing conditions which allow coffee plants to",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/01/Thumbnail.-Facebook-Linkedin-10-Feb.jpg",
+          "publishedAt": "2022-02-10T06:33:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-03T18-42-15",
       "scannedAt": "2026-10-03T18:42:15.822448+00:00",
       "items": [
