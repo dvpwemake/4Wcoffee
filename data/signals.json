@@ -24,7 +24,7 @@
       "source": "Perfect Daily Grind",
       "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-2-october-2026/",
       "summary": "Speaker applications open for Producer & Roaster Forum Mexico, Specialty Coffee Association of Panama Best of Panama 2026 auction generates more than US$3m in sales, Belfast Coffee Festival to begin on 3 October & more. The post Coffee News Recap, 2 Oct: Speaker applications open",
-      "image": "image/carosal/cafe-scene-6887.jpg",
+      "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Guatemalan-Coffees.webp",
       "publishedAt": "2026-10-02T12:20:57+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
@@ -123,7 +123,7 @@
         "source": "Perfect Daily Grind",
         "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-2-october-2026/",
         "summary": "Speaker applications open for Producer & Roaster Forum Mexico, Specialty Coffee Association of Panama Best of Panama 2026 auction generates more than US$3m in sales, Belfast Coffee Festival to begin on 3 October & more. The post Coffee News Recap, 2 Oct: Speaker applications open",
-        "image": "image/carosal/cafe-scene-6887.jpg",
+        "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Guatemalan-Coffees.webp",
         "publishedAt": "2026-10-02T12:20:57+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
@@ -210,133 +210,5 @@
       }
     ]
   },
-  "deleted": [],
-  "log": [
-    {
-      "ok": true,
-      "source": "Sprudge",
-      "n": 30,
-      "url": "https://sprudge.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Daily Coffee News",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://dailycoffeenews.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Roast Magazine",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://roastmagazine.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Standart",
-      "error": "HTTP Error 429: Too Many Requests",
-      "url": "https://standartmag.com/blogs/journal.atom"
-    },
-    {
-      "ok": true,
-      "source": "Barista Hustle",
-      "n": 30,
-      "url": "https://www.baristahustle.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Ad Astra",
-      "n": 30,
-      "url": "https://coffeeadastra.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Scott Rao",
-      "n": 0,
-      "url": "https://www.scottrao.com/blog?format=rss"
-    },
-    {
-      "ok": false,
-      "source": "Jim Seven",
-      "error": "<urlopen error timed out>",
-      "url": "https://www.jimseven.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "World Coffee Research",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://worldcoffeeresearch.org/feed"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Review",
-      "n": 30,
-      "url": "https://www.coffeereview.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "CoffeeGeek",
-      "n": 30,
-      "url": "https://coffeegeek.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Home-Barista",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://www.home-barista.com/rss.xml"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Chronicler",
-      "n": 30,
-      "url": "https://coffeechronicler.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Espresso My Espresso",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://espressomyespresso.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "SCA News",
-      "error": "<urlopen error timed out>",
-      "url": "https://scanews.coffee/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Sweet Maria's",
-      "error": "HTTP Error 404: Not Found",
-      "url": "https://www.sweetmarias.com/blog/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind Origins",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/category/origins/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Cafe Imports",
-      "n": 0,
-      "url": "https://cafeimports.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "European Coffee Trip",
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://europeancoffeetrip.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Not a Barista",
-      "n": 30,
-      "url": "https://notabarista.org/feed/"
-    }
-  ]
+  "deleted": []
 }
