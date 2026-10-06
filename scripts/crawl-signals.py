@@ -354,6 +354,51 @@ def parse_feed(xml: str, source: str) -> list[dict]:
     return items
 
 
+def gnews_url(query: str) -> str:
+    from urllib.parse import quote_plus
+    return "https://news.google.com/rss/search?q=" + quote_plus(query) + "&hl=en-US&gl=US&ceid=US:en"
+
+
+def fetch_gnews(query: str, fallback_source: str) -> list[dict]:
+    """Headlines from a Google News search. The publisher comes from the item's <source> tag. No summary or image."""
+    try:
+        root = ET.fromstring(fetch(gnews_url(query)).lstrip("\ufeff \t\r\n"))
+    except ET.ParseError:
+        return []
+    out = []
+    for node in root.iter("item"):
+        title = link = date_raw = pub = ""
+        for child in list(node):
+            t = local(child.tag)
+            if t == "title" and not title:
+                title = text(child)
+            elif t == "link" and not link:
+                link = text(child)
+            elif t == "pubdate" and not date_raw:
+                date_raw = text(child)
+            elif t == "source" and not pub:
+                pub = text(child)
+        pub = pub or fallback_source
+        if pub and title.endswith(" - " + pub):
+            title = title[: -len(pub) - 3]
+        title = strip_html(title)
+        if not title or title.startswith("- ") or title == "-" or not link.startswith("http"):
+            continue  # Google sometimes returns an empty or "- Publisher" headline
+        out.append(
+            {
+                "title": title,
+                "source": pub,
+                "sourceUrl": link.split("?")[0],
+                "summary": "",
+                "image": "",
+                "publishedAt": parse_date(date_raw).isoformat(),
+                "_ts": parse_date(date_raw).timestamp(),
+                "viaGoogleNews": True,
+            }
+        )
+    return out
+
+
 def load_deleted(path: Path) -> list:
     if not path.exists():
         return []
@@ -462,7 +507,7 @@ def crawl(deleted: list | None = None) -> dict:
     for cat_id, cat in SRC["categories"].items():
         pool = []
         for feed in cat["feeds"]:
-            url = feed["url"]
+            url = feed.get("url") or "google-news"
             name = feed["name"]
             if feed.get("disabled"):
                 log.append({"ok": False, "source": name, "error": "disabled: " + str(feed.get("disabled")), "url": url})
@@ -475,21 +520,29 @@ def crawl(deleted: list | None = None) -> dict:
                 print(f"SKIP {name:22} blacklist  {url}")
                 continue
             try:
-                got = fetch_feed_pages(url, name, extra_pages)
+                if feed.get("gnewsQuery"):
+                    got = fetch_gnews(feed["gnewsQuery"], name)
+                    log.append({"ok": True, "source": name, "n": len(got), "url": "google-news", "via": "google-news"})
+                    print(f"GNEWS {name:21} {len(got):3}")
+                else:
+                    got = fetch_feed_pages(url, name, extra_pages)
+                    log.append({"ok": True, "source": name, "n": len(got), "url": url})
+                words = [w.lower() for w in (feed.get("keywords") or [])]
+                if words:
+                    got = [g for g in got if any(w in (g["title"] + " " + g.get("summary", "")).lower() for w in words)]
+                bad = [w.lower() for w in (feed.get("exclude") or [])]
+                if bad:
+                    got = [g for g in got if not any(w in g["title"].lower() for w in bad)]
                 pool.extend(got)
-                log.append({"ok": True, "source": name, "n": len(got), "url": url})
             except Exception as e:
                 err = str(e)[:160]
                 # Some sites refuse GitHub's cloud addresses. Fall back to Google News headlines for that site.
                 site = feed.get("gnews")
                 if site:
                     try:
-                        gurl = ("https://news.google.com/rss/search?q=site:" + site + "+when:7d&hl=en-US&gl=US&ceid=US:en")
-                        got = parse_feed(fetch(gurl), name)
+                        got = fetch_gnews("site:" + site + " when:7d", name)
                         for g in got:
-                            g["title"] = re.sub(r"\s+-\s+[^-]{2,40}$", "", g["title"]).strip()
-                            g["summary"] = ""
-                            g["viaGoogleNews"] = True
+                            g["source"] = name
                         pool.extend(got)
                         log.append({"ok": True, "source": name, "n": len(got), "url": url, "via": "google-news", "directError": err})
                         print(f"GNEWS {name:21} {len(got):3}  (direct failed: {err})")

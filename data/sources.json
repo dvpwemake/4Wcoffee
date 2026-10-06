@@ -24,7 +24,14 @@
         { "name": "Coffee Ad Astra", "url": "https://coffeeadastra.com/feed/", "gnews": "coffeeadastra.com" },
         { "name": "Scott Rao", "url": "https://www.scottrao.com/blog?format=rss" },
         { "name": "Jim Seven", "url": "https://www.jimseven.com/feed/", "disabled": "times out from here and from GitHub (checked 2026-10-06)" },
-        { "name": "World Coffee Research", "url": "https://worldcoffeeresearch.org/news/feed/" }
+        { "name": "World Coffee Research", "url": "https://worldcoffeeresearch.org/news/feed/" },
+        { "name": "Nature", "gnewsQuery": "site:nature.com coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "News-Medical", "gnewsQuery": "site:news-medical.net coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "Medical Xpress", "gnewsQuery": "site:medicalxpress.com coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "Phys.org", "gnewsQuery": "site:phys.org coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "The Conversation", "gnewsQuery": "site:theconversation.com coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "ScienceDaily", "gnewsQuery": "site:sciencedaily.com coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "ScienceAlert", "gnewsQuery": "site:sciencealert.com coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] }
       ]
     },
     "reviews": {
@@ -34,7 +41,9 @@
         { "name": "CoffeeGeek", "url": "https://coffeegeek.com/feed/" },
         { "name": "Home-Barista", "url": "https://www.home-barista.com/rss.xml", "disabled": "feed address returns 404 (checked 2026-10-06); no replacement found" },
         { "name": "Coffee Chronicler", "url": "https://coffeechronicler.com/feed/" },
-        { "name": "Espresso My Espresso", "url": "https://espressomyespresso.com/feed/", "disabled": "403 for every client tried (checked 2026-10-06)" }
+        { "name": "Espresso My Espresso", "url": "https://espressomyespresso.com/feed/", "disabled": "403 for every client tried (checked 2026-10-06)" },
+        { "name": "Serious Eats", "gnewsQuery": "site:seriouseats.com coffee when:21d", "keywords": ["coffee", "espresso", "grinder", "brewer", "moka", "kettle"], "exclude": ["cake", "chocolate", "cookie", "dessert", "cocktail", "ice cream", "bread", "muffin"] },
+        { "name": "Gear Patrol", "gnewsQuery": "site:gearpatrol.com coffee when:21d", "keywords": ["coffee", "espresso", "grinder", "brewer", "pour-over", "kettle"] }
       ]
     },
     "origin": {
@@ -44,8 +53,12 @@
         { "name": "Sweet Maria's", "url": "https://www.sweetmarias.com/blog/feed", "disabled": "feed address returns 404 (checked 2026-10-06); no replacement found" },
         { "name": "Perfect Daily Grind Origins", "url": "https://perfectdailygrind.com/category/origins/feed/" },
         { "name": "Cafe Imports", "url": "https://cafeimports.com/feed/" },
-        { "name": "European Coffee Trip", "url": "https://europeancoffeetrip.com/feed/", "disabled": "403 for every client tried (checked 2026-10-06)" },
-        { "name": "Not a Barista", "url": "https://notabarista.org/feed/" }
+        { "name": "European Coffee Trip", "url": "https://europeancoffeetrip.com/feed/", "gnews": "europeancoffeetrip.com" },
+        { "name": "Not a Barista", "url": "https://notabarista.org/feed/" },
+        { "name": "Comunicaffe", "gnewsQuery": "site:comunicaffe.com when:21d", "keywords": ["coffee", "espresso", "caffeine", "cafe", "café", "barista", "roaster"] },
+        { "name": "Fairtrade", "gnewsQuery": "site:fairtrade.net coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "International Coffee Organization", "gnewsQuery": "site:ico.org coffee when:21d", "keywords": ["coffee", "espresso", "caffeine"] },
+        { "name": "Specialty Coffee Association", "gnewsQuery": "site:sca.coffee when:21d", "keywords": ["coffee", "espresso", "caffeine", "specialty", "sca"] }
       ]
     }
   }
