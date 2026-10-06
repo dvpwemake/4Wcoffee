@@ -146,6 +146,7 @@ textarea.fi{min-height:12rem;resize:vertical}
       <div class="gate-err" id="gateErr" role="alert"></div>
       <button type="submit" class="btn btn-p" style="width:100%">Unlock editor</button>
     </form>
+    <button type="button" class="btn" id="gateTouchId" hidden style="width:100%;margin-top:.6rem">Unlock with Touch ID</button>
     <p class="gate-note">Session lasts for this browser tab only. Public pages do not link here.</p>
   </div>
 </div>
@@ -161,6 +162,12 @@ textarea.fi{min-height:12rem;resize:vertical}
     <div class="side-hdr">
       <span class="tag">Editor</span>
       <button type="button" class="btn" id="logoutBtn" style="margin-left:auto" onclick="try{FourthWaveEditorAuth.clearSession()}catch(e){};location.reload()">Lock</button>
+    </div>
+    <div class="sec" id="touchIdBox" hidden>
+      <div class="sec-t">Touch ID</div>
+      <p class="side-note" id="touchIdState">—</p>
+      <button type="button" class="btn btn-s" id="touchIdSave" style="width:100%;margin-bottom:.4rem">Save GitHub token to Touch ID</button>
+      <button type="button" class="btn" id="touchIdForget" style="width:100%" hidden>Forget Touch ID on this browser</button>
     </div>
     <div class="sec">
       <div class="sec-t">Vendor rescan</div>
@@ -333,6 +340,7 @@ textarea.fi{min-height:12rem;resize:vertical}
 <script src="signals.data.js"></script>
 <script src="editorial.data.js"></script>
 <script src="editorial.draft.js"></script>
+<script src="editor-touchid.js"></script>
 <script src="editor-auth.js"></script>
 <script src="editor.js?v=20260912b"></script>
 </body>

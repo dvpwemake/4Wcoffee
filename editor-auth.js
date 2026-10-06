@@ -115,6 +115,28 @@
       return;
     }
     showGate();
+    // Touch ID: one touch replaces the password and the token paste (editor-touchid.js).
+    var tidBtn = document.getElementById("gateTouchId");
+    var tid = global.FourthWaveTouchID;
+    if (tidBtn && tid && tid.enrolled()) {
+      tidBtn.hidden = false;
+      tidBtn.addEventListener("click", function () {
+        tid.unlock().then(function (res) {
+          if (res.ok) {
+            try {
+              sessionStorage.setItem("fw_gh_pat", res.pat);
+            } catch (e) {
+              /* private mode: the token field stays empty */
+            }
+            setSession();
+            if (err) err.textContent = "";
+            showApp();
+          } else if (err) {
+            err.textContent = res.message || "Touch ID failed.";
+          }
+        });
+      });
+    }
     if (!form) return;
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
