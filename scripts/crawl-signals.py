@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import json
+import time
 import re
 import ssl
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -18,10 +20,23 @@ CTX = ssl.create_default_context()
 UA = "FourthWaveCoffee/1.0 (+https://fourthwavecoffee.org/)"
 
 
-def fetch(url: str, timeout: int = 18) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
-    with urllib.request.urlopen(req, timeout=timeout, context=CTX) as res:
-        return res.read().decode("utf-8", "replace")
+def fetch(url: str, timeout: int = 18, tries: int = 3) -> str:
+    """Retry rate limits (429), server errors (5xx) and timeouts; other errors (403, 404) fail at once."""
+    last = None
+    for attempt in range(tries):
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as res:
+                return res.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code != 429 and e.code < 500:
+                raise
+        except (urllib.error.URLError, TimeoutError) as e:
+            last = e
+        if attempt < tries - 1:
+            time.sleep(3 * (attempt + 1))
+    raise last
 
 
 def strip_html(s: str) -> str:
@@ -294,6 +309,7 @@ def text(el) -> str:
 
 def parse_feed(xml: str, source: str) -> list[dict]:
     items = []
+    xml = xml.lstrip("\ufeff \t\r\n")  # some feeds put whitespace before the XML declaration
     try:
         root = ET.fromstring(xml)
     except ET.ParseError:
@@ -441,12 +457,17 @@ def crawl(deleted: list | None = None) -> dict:
     known = known_archive_urls()
     extra_pages = int(SRC.get("olderPages", 3) or 3)
     picked = {}
+    spare = []
     log = []
     for cat_id, cat in SRC["categories"].items():
         pool = []
         for feed in cat["feeds"]:
             url = feed["url"]
             name = feed["name"]
+            if feed.get("disabled"):
+                log.append({"ok": False, "source": name, "error": "disabled: " + str(feed.get("disabled")), "url": url})
+                print(f"SKIP {name:22} disabled  {url}")
+                continue
             if host_of(url) and host_of(url) in {
                 (h or "").lower().replace("www.", "", 1) for h in blacklist if h
             }:
@@ -458,14 +479,36 @@ def crawl(deleted: list | None = None) -> dict:
                 pool.extend(got)
                 log.append({"ok": True, "source": name, "n": len(got), "url": url})
             except Exception as e:
-                log.append({"ok": False, "source": name, "error": str(e)[:160], "url": url})
-                print(f"FAIL {name:22} {e}")
+                err = str(e)[:160]
+                # Some sites refuse GitHub's cloud addresses. Fall back to Google News headlines for that site.
+                site = feed.get("gnews")
+                if site:
+                    try:
+                        gurl = ("https://news.google.com/rss/search?q=site:" + site + "+when:7d&hl=en-US&gl=US&ceid=US:en")
+                        got = parse_feed(fetch(gurl), name)
+                        for g in got:
+                            g["title"] = re.sub(r"\s+-\s+[^-]{2,40}$", "", g["title"]).strip()
+                            g["summary"] = ""
+                            g["viaGoogleNews"] = True
+                        pool.extend(got)
+                        log.append({"ok": True, "source": name, "n": len(got), "url": url, "via": "google-news", "directError": err})
+                        print(f"GNEWS {name:21} {len(got):3}  (direct failed: {err})")
+                        continue
+                    except Exception as e2:
+                        err += " | google news: " + str(e2)[:80]
+                log.append({"ok": False, "source": name, "error": err, "url": url})
+                print(f"FAIL {name:22} {err}")
         pool.sort(key=lambda x: x["_ts"], reverse=True)
         seen = set()
         unused = []
         skip = ("shipping update", "check your email", "sponsored")
         pick_n = SRC.get("pickCount", 2)
+        # Nothing older than maxAgeDays is shown: better fewer cards than stale ones.
+        max_age = float(SRC.get("maxAgeDays", 21)) * 86400
+        now_ts = time.time()
         for it in pool:
+            if now_ts - it["_ts"] > max_age:
+                continue
             key = it["title"].lower()[:80]
             if key in seen:
                 continue
@@ -481,16 +524,38 @@ def crawl(deleted: list | None = None) -> dict:
             item = {k: v for k, v in it.items() if k != "_ts"}
             item["category"] = cat_id
             item["categoryLabel"] = cat["label"]
+            item["_ts"] = it["_ts"]
             unused.append(item)
-            if len(unused) >= pick_n:
+            if len(unused) >= pick_n + 6:
                 break
         top = []
-        for item in unused:
-            if len(top) >= pick_n:
-                break
+        for item in unused[:pick_n]:
+            item.pop("_ts", None)
             item["id"] = f"{cat_id}-{len(top)+1}"
             top.append(enrich_image(item))
         picked[cat_id] = top
+        spare.extend(unused[pick_n:])
+    # A category with too few fresh articles hands its empty slots to the freshest spare articles from any category,
+    # so the day still has up to pickCount x categories cards, none older than maxAgeDays.
+    want = pick_n * len(SRC["categories"]) - sum(len(v) for v in picked.values())
+    spare.sort(key=lambda x: x["_ts"], reverse=True)
+    per_source = {}
+    for lst in picked.values():
+        for it in lst:
+            per_source[it.get("source")] = per_source.get(it.get("source"), 0) + 1
+    chosen = []
+    for item in spare:
+        if len(chosen) >= max(0, want):
+            break
+        if per_source.get(item.get("source"), 0) >= pick_n:  # one outlet never fills the whole day
+            continue
+        per_source[item.get("source")] = per_source.get(item.get("source"), 0) + 1
+        chosen.append(item)
+    for item in chosen:
+        item.pop("_ts", None)
+        cat_id = item["category"]
+        item["id"] = f"{cat_id}-{len(picked[cat_id]) + 1}"
+        picked[cat_id].append(enrich_image(item))
     items = [
         dict(it, rank=i)
         for i, it in enumerate(
