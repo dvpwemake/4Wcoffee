@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-07T20-40-30",
+      "scannedAt": "2026-10-07T20:40:30.092330+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111096/",
+          "summary": "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design. The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
+          "image": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
+          "publishedAt": "2026-10-07T20:19:40+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Starbucks Unveils New Smaller Cafe Prototype",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/",
+          "summary": "Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas. The post Starbucks Unveils New Smaller Cafe Prototype appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
+          "publishedAt": "2026-10-07T20:15:18+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Energy price cap: the cost of your coffee could be about to go up",
+          "source": "The Conversation",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-07T14:39:52+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "An iced coffee won't predict job performance—but it might reveal hiring bias",
+          "source": "Phys.org",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-05T22:00:01+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-07T17:14:21+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-07T16:13:45+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Mutual Coffee",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-07T15:20:41+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Klatch Coffee crowned ‘Best Premium Coffee Brand 2026’ by Newsweek",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXNYRUItN0xmNWtQMEF6YWVlMXY2UVh0Slp6SktzLU16ZW0yWEZFc1I3RXRKRl9scm9xbVg4ZmcyM29TSUJmMXJIcS1FTkdweGd4LXRmTmlqSHhSbkgySlUzb2J5RUhkVWhMWWlyWk9pRFZIRFVIcDdqVU5Tck5qT0Q5Z0RXZjNzTjRxYm1QZnNFUmFkdlB2Vw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-07T13:12:04+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-04",
       "scannedAt": "2026-10-07T05:18:56.992Z",
       "kind": "editorial_archive",
@@ -2735,78 +2829,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-08.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-08"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-11T02-20-28",
-      "scannedAt": "2026-09-11T02:20:28.044Z",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Why the world’s best baristas are going on tour",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/09/baristas-going-on-tour/",
-          "summary": "A number of barista champions are choosing to tour, hosting events and bar takeovers in different cities and countries where they work. These appearances give baristas a direct route to the people who drink their coffee, not just the judges who score it. On tour, a champion can w",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/Boram-Um.webp",
-          "publishedAt": "2026-09-10T15:30:00.000Z",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Global Coffee Awards crown the best roasters in US &amp; Canada",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/09/global-coffee-awards-us-canada-winners-2026/",
-          "summary": "Judging for the 2026 Global Coffee Awards US &amp; Canada took place on 10 &amp; 11 August, crowning the countries' best roasters. The post Global Coffee Awards crown the best roasters in US &amp; Canada appeared first on Perfect Daily Grind .",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/Emi-Rueda-and-Anita-Tam.webp",
-          "publishedAt": "2026-09-09T21:00:00.000Z",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Milk Battle Bots",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/milk-battle-bots/",
-          "summary": "Do you think that cafés who use automated milk foamers are cheating? Or that the choice to speed things up is also a decision to compromise on quality? Well, this might surprise you... The post Milk Battle Bots appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2026/04/Bezzera-Ideale.jpg",
-          "publishedAt": "2026-04-11T17:21:58.000Z",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Artificial Crema",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/artificial-crema/",
-          "summary": "When it comes to lattes, there does seem to be something going on that tips the balance towards the premades, and we’re pretty sure it’s got something to do with crema... The post Artificial Crema appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2026/02/Removing-Crema-Post-04.jpg",
-          "publishedAt": "2026-02-04T17:35:47.000Z",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Water for Coffee: What Actually Matters (And What Most Advice Gets Wrong)",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/best-water-for-coffee/",
-          "summary": "The right kind of water can dramatically improve your coffee. Here you'll learn how to create it at home or which bottled brand to go for. The post Water for Coffee: What Actually Matters (And What Most Advice Gets Wrong) appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2018/01/water-for-coffee-1.webp",
-          "publishedAt": "2026-07-25T08:53:00.000Z",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Review: Breville Bambino Plus",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/breville-bambino-plus-review/",
-          "summary": "It looks innocent and simple, but is actually both advanced and forthcoming at the same time. An ideal espresso machine for beginners. The post Review: Breville Bambino Plus appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2021/05/breville-naked.webp",
-          "publishedAt": "2026-07-23T07:11:00.000Z",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }

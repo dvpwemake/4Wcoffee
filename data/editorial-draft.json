@@ -1,134 +1,112 @@
 {
-  "id": "ed_2026-10-06",
-  "publishDate": "2026-10-06",
+  "id": "ed_2026-10-07",
+  "publishDate": "2026-10-07",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-10-06",
+  "title": "Editorial brief — 2026-10-07",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/05/illustration_luciano-repetto.webp",
-  "heroCredit": "Sprudge",
-  "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/luciano-repetto-of-graffeo-coffee-the-sprudge-twenty-interview-1278697.html",
+  "heroImage": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
+  "heroCredit": "Coffee Talk",
+  "heroSource": "Coffee Talk",
+  "heroSourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111096/",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-06\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-07\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Luciano Repetto Of Graffeo Coffee: The Sprudge Twenty Interview\n   Source: Sprudge\n   URL: https://sprudge.com/luciano-repetto-of-graffeo-coffee-the-sprudge-twenty-interview-1278697.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • An interview with 2026 Sprudge Twenty inductee Luciano Repetto of Graffeo Coffee.",
-    "2. [Industry] Six Months Later, The Co-Owner Of Farley’s Coffeehouse Is Still Missing\n   Source: Sprudge\n   URL: https://sprudge.com/six-months-later-the-co-owner-of-farleys-coffeehouse-is-still-missing-1393476.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Authorities are seeking any information on the disappearance of Amy Hillyard.",
-    "3. [Science] Brew Ratio Bloat\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/brew-ratio-bloat/\n   Key points:\n   • Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high...",
-    "4. [Science] The Spent Puck, Puck Filter\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/the-spent-puck-puck-filter/\n   Key points:\n   • It’s hard to accept that coffee grinds are worthless once you switch off a shot.\n   • I mean, composters like them.\n   • You can make MDF out of them and chopping boards.",
-    "5. [Reviews] The Cordless Espresso Grinder Conundrum: Why Torque is Hard\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/opinions/coffee-at-the-moment/the-cordless-espresso-grinder-conundrum-why-torque-is-hard/\n   Key points:\n   • USB-C charged, cordless espresso grinders should exist.\n   • We test hacks and hardware to find out why sustained torque is still an unsolved problem.",
-    "6. [Reviews] Kingrinder P2 Manual Coffee Grinder\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/reviews/snapshot/kingrinder-p2-manual-grinder-budget-coffee-clarity-that-surprises/\n   Key points:\n   • Looking for a high-clarity grinder under $50?\n   • The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks.",
-    "7. [Origin] GCAG Indonesia 2026: From Cupping Tables Around the World, Back to Origin\n   Source: Not a Barista\n   URL: https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/\n   Key points:\n   • Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities.\n   • After months of planning, fundraising, packing coffee, dealing with international s",
-    "8. [Origin] Ibrahim H. Al Mallouhi\n   Source: Not a Barista\n   URL: https://notabarista.org/ibrahim-h-al-mallouhi/\n   Key points:\n   • “I always want people to remember me after I pass away.” Many people speak about passion, growth, success, or community.\n   • Al Mallouhi speaks about legacy.\n   • He wants people to remember what he built, and more importantly, what he served.",
+    "1. [Industry] Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/top-news/10-2026/111096/\n   Key points:\n   • Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design.\n   • The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
+    "2. [Industry] Starbucks Unveils New Smaller Cafe Prototype\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/\n   Key points:\n   • Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas.",
+    "3. [Science] Energy price cap: the cost of your coffee could be about to go up\n   Source: The Conversation\n   URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "4. [Science] An iced coffee won't predict job performance—but it might reveal hiring bias\n   Source: Phys.org\n   URL: https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "5. [Reviews] This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight\n   Source: Serious Eats\n   URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "6. [Reviews] This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day\n   Source: Serious Eats\n   URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "7. [Origin] Mutual Coffee\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "8. [Origin] Klatch Coffee crowned ‘Best Premium Coffee Brand 2026’ by Newsweek\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXNYRUItN0xmNWtQMEF6YWVlMXY2UVh0Slp6SktzLU16ZW0yWEZFc1I3RXRKRl9scm9xbVg4ZmcyM29TSUJmMXJIcS1FTkdweGd4LXRmTmlqSHhSbkgySlUzb2J5RUhkVWhMWWlyWk9pRFZIRFVIcDdqVU5Tck5qT0Q5Z0RXZjNzTjRxYm1QZnNFUmFkdlB2Vw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
     "— Categories present —\nIndustry · Science · Reviews · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-06\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Luciano Repetto Of Graffeo Coffee: The Sprudge Twenty Interview\n   Source: Sprudge\n   URL: https://sprudge.com/luciano-repetto-of-graffeo-coffee-the-sprudge-twenty-interview-1278697.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • An interview with 2026 Sprudge Twenty inductee Luciano Repetto of Graffeo Coffee.\n\n2. [Industry] Six Months Later, The Co-Owner Of Farley’s Coffeehouse Is Still Missing\n   Source: Sprudge\n   URL: https://sprudge.com/six-months-later-the-co-owner-of-farleys-coffeehouse-is-still-missing-1393476.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Authorities are seeking any information on the disappearance of Amy Hillyard.\n\n3. [Science] Brew Ratio Bloat\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/brew-ratio-bloat/\n   Key points:\n   • Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high...\n\n4. [Science] The Spent Puck, Puck Filter\n   Source: Barista Hustle\n   URL: https://www.baristahustle.com/the-spent-puck-puck-filter/\n   Key points:\n   • It’s hard to accept that coffee grinds are worthless once you switch off a shot.\n   • I mean, composters like them.\n   • You can make MDF out of them and chopping boards.\n\n5. [Reviews] The Cordless Espresso Grinder Conundrum: Why Torque is Hard\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/opinions/coffee-at-the-moment/the-cordless-espresso-grinder-conundrum-why-torque-is-hard/\n   Key points:\n   • USB-C charged, cordless espresso grinders should exist.\n   • We test hacks and hardware to find out why sustained torque is still an unsolved problem.\n\n6. [Reviews] Kingrinder P2 Manual Coffee Grinder\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/reviews/snapshot/kingrinder-p2-manual-grinder-budget-coffee-clarity-that-surprises/\n   Key points:\n   • Looking for a high-clarity grinder under $50?\n   • The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks.\n\n7. [Origin] GCAG Indonesia 2026: From Cupping Tables Around the World, Back to Origin\n   Source: Not a Barista\n   URL: https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/\n   Key points:\n   • Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities.\n   • After months of planning, fundraising, packing coffee, dealing with international s\n\n8. [Origin] Ibrahim H. Al Mallouhi\n   Source: Not a Barista\n   URL: https://notabarista.org/ibrahim-h-al-mallouhi/\n   Key points:\n   • “I always want people to remember me after I pass away.” Many people speak about passion, growth, success, or community.\n   • Al Mallouhi speaks about legacy.\n   • He wants people to remember what he built, and more importantly, what he served.\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 485,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-07\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/top-news/10-2026/111096/\n   Key points:\n   • Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design.\n   • The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona\n\n2. [Industry] Starbucks Unveils New Smaller Cafe Prototype\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/\n   Key points:\n   • Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas.\n\n3. [Science] Energy price cap: the cost of your coffee could be about to go up\n   Source: The Conversation\n   URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n4. [Science] An iced coffee won't predict job performance—but it might reveal hiring bias\n   Source: Phys.org\n   URL: https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n5. [Reviews] This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight\n   Source: Serious Eats\n   URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Reviews] This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day\n   Source: Serious Eats\n   URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Mutual Coffee\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Klatch Coffee crowned ‘Best Premium Coffee Brand 2026’ by Newsweek\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXNYRUItN0xmNWtQMEF6YWVlMXY2UVh0Slp6SktzLU16ZW0yWEZFc1I3RXRKRl9scm9xbVg4ZmcyM29TSUJmMXJIcS1FTkdweGd4LXRmTmlqSHhSbkgySlUzb2J5RUhkVWhMWWlyWk9pRFZIRFVIcDdqVU5Tck5qT0Q5Z0RXZjNzTjRxYm1QZnNFUmFkdlB2Vw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 400,
   "headlines": [
     {
-      "title": "Luciano Repetto Of Graffeo Coffee: The Sprudge Twenty Interview",
-      "source": "Sprudge",
+      "title": "Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design",
+      "source": "Coffee Talk",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/luciano-repetto-of-graffeo-coffee-the-sprudge-twenty-interview-1278697.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Luciano Repetto of Graffeo Coffee.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_luciano-repetto.webp",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111096/",
+      "summary": "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design. The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
+      "image": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
       "keyPoints": [
-        "This article is from the coffee website Sprudge at http://sprudge.com .",
-        "This is the RSS feed version.",
-        "An interview with 2026 Sprudge Twenty inductee Luciano Repetto of Graffeo Coffee."
+        "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design.",
+        "The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona"
       ]
     },
     {
-      "title": "Six Months Later, The Co-Owner Of Farley’s Coffeehouse Is Still Missing",
-      "source": "Sprudge",
+      "title": "Starbucks Unveils New Smaller Cafe Prototype",
+      "source": "Coffee Talk",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/six-months-later-the-co-owner-of-farleys-coffeehouse-is-still-missing-1393476.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Authorities are seeking any information on the disappearance of Amy Hillyard.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/09/amy-hillyard-farleys.jpg",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/",
+      "summary": "Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas. The post Starbucks Unveils New Smaller Cafe Prototype appeared first on CoffeeTalk .",
+      "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
       "keyPoints": [
-        "This article is from the coffee website Sprudge at http://sprudge.com .",
-        "This is the RSS feed version.",
-        "Authorities are seeking any information on the disappearance of Amy Hillyard."
+        "Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas."
       ]
     },
     {
-      "title": "Brew Ratio Bloat",
-      "source": "Barista Hustle",
+      "title": "Energy price cap: the cost of your coffee could be about to go up",
+      "source": "The Conversation",
       "category": "science",
-      "sourceUrl": "https://www.baristahustle.com/brew-ratio-bloat/",
-      "summary": "Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high... The post Brew Ratio Bloat appeared first on Barista Hustle .",
-      "image": "https://www.baristahustle.com/wp-content/uploads/2026/07/Brew-Ratio-Bloat-Header-03.jpg",
-      "keyPoints": [
-        "Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high..."
-      ]
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
     },
     {
-      "title": "The Spent Puck, Puck Filter",
-      "source": "Barista Hustle",
+      "title": "An iced coffee won't predict job performance—but it might reveal hiring bias",
+      "source": "Phys.org",
       "category": "science",
-      "sourceUrl": "https://www.baristahustle.com/the-spent-puck-puck-filter/",
-      "summary": "It’s hard to accept that coffee grinds are worthless once you switch off a shot. I mean, composters like them. You can make MDF out of them and chopping boards. You can even.... The post The Spent Puck, Puck Filter appeared first on Barista Hustle .",
-      "image": "https://www.baristahustle.com/wp-content/uploads/2026/05/PF-Stack-Merge-Header.jpg",
-      "keyPoints": [
-        "It’s hard to accept that coffee grinds are worthless once you switch off a shot.",
-        "I mean, composters like them.",
-        "You can make MDF out of them and chopping boards."
-      ]
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
     },
     {
-      "title": "The Cordless Espresso Grinder Conundrum: Why Torque is Hard",
-      "source": "CoffeeGeek",
+      "title": "This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight",
+      "source": "Serious Eats",
       "category": "reviews",
-      "sourceUrl": "https://coffeegeek.com/opinions/coffee-at-the-moment/the-cordless-espresso-grinder-conundrum-why-torque-is-hard/",
-      "summary": "USB-C charged, cordless espresso grinders should exist. We test hacks and hardware to find out why sustained torque is still an unsolved problem. The post The Cordless Espresso Grinder Conundrum: Why Torque is Hard appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Decaf-Article-2-800x533.jpg",
-      "keyPoints": [
-        "USB-C charged, cordless espresso grinders should exist.",
-        "We test hacks and hardware to find out why sustained torque is still an unsolved problem."
-      ]
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
     },
     {
-      "title": "Kingrinder P2 Manual Coffee Grinder",
-      "source": "CoffeeGeek",
+      "title": "This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day",
+      "source": "Serious Eats",
       "category": "reviews",
-      "sourceUrl": "https://coffeegeek.com/reviews/snapshot/kingrinder-p2-manual-grinder-budget-coffee-clarity-that-surprises/",
-      "summary": "Looking for a high-clarity grinder under $50? The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks. The post Kingrinder P2 Manual Coffee Grinder appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Kingrinder-P2-Handle-Out-1-800x533.jpg",
-      "keyPoints": [
-        "Looking for a high-clarity grinder under $50?",
-        "The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks."
-      ]
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
     },
     {
-      "title": "GCAG Indonesia 2026: From Cupping Tables Around the World, Back to Origin",
-      "source": "Not a Barista",
+      "title": "Mutual Coffee",
+      "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/",
-      "summary": "Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities. We did it. After months of planning, fundraising, packing coffee, dealing with international s",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/gcag.jpg",
-      "keyPoints": [
-        "Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities.",
-        "After months of planning, fundraising, packing coffee, dealing with international s"
-      ]
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
     },
     {
-      "title": "Ibrahim H. Al Mallouhi",
-      "source": "Not a Barista",
+      "title": "Klatch Coffee crowned ‘Best Premium Coffee Brand 2026’ by Newsweek",
+      "source": "Comunicaffe International",
       "category": "origin",
-      "sourceUrl": "https://notabarista.org/ibrahim-h-al-mallouhi/",
-      "summary": "“I always want people to remember me after I pass away.” Many people speak about passion, growth, success, or community. Ibrahim H. Al Mallouhi speaks about legacy. He says it directly. He wants people to remember what he built, and more importantly, what he served. Not the riche",
-      "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/07/I-always-had-that-small-voice-inside-me-encouraging-me-to-dream-a-little-bigger-🌟-hope-a-littl-1024x1024.jpg",
-      "keyPoints": [
-        "“I always want people to remember me after I pass away.” Many people speak about passion, growth, success, or community.",
-        "Al Mallouhi speaks about legacy.",
-        "He wants people to remember what he built, and more importantly, what he served."
-      ]
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXNYRUItN0xmNWtQMEF6YWVlMXY2UVh0Slp6SktzLU16ZW0yWEZFc1I3RXRKRl9scm9xbVg4ZmcyM29TSUJmMXJIcS1FTkdweGd4LXRmTmlqSHhSbkgySlUzb2J5RUhkVWhMWWlyWk9pRFZIRFVIcDdqVU5Tck5qT0Q5Z0RXZjNzTjRxYm1QZnNFUmFkdlB2Vw",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
     }
   ],
-  "fromScan": "2026-10-06T20:22:12.105980+00:00"
+  "fromScan": "2026-10-07T20:40:30.092330+00:00"
 }
