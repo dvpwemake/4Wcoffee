@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-06",
+      "scannedAt": "2026-10-07T23:37:57.641Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-06",
+          "rank": 0,
+          "title": "The Weight of Legacy: Pushing Boundaries and Preserving Community",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "From the relentless pursuit of portable torque to the sobering realities of those we miss, the coffee industry balances high-minded innovation with deeply human roots.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_luciano-repetto.webp",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-06.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-06"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-07T20-40-30",
       "scannedAt": "2026-10-07T20:40:30.092330+00:00",
       "items": [
@@ -2809,26 +2829,6 @@
           "publishedAt": "2026-05-11T18:04:10+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-08",
-      "scannedAt": "2026-09-11T04:13:18.572Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-08",
-          "rank": 0,
-          "title": "Not a statement cafe",
-          "category": "editorial",
-          "categoryLabel": "editorial",
-          "summary": "Two dollars in Over-the-Rhine. A beach already had the brief.",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/Radical-Bean-Cincinatti-Ohio-1.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-08.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-08"
         }
       ]
     }
