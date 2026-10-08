@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-07T20:40:30.092330+00:00",
+  "scannedAt": "2026-10-08T20:43:51.753732+00:00",
   "categories": {
     "industry": "Coffee Industry News & Trade Journals",
     "science": "Coffee Science & Technical",
@@ -8,36 +8,37 @@
   },
   "items": [
     {
-      "title": "Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design",
-      "source": "Coffee Talk",
-      "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111096/",
-      "summary": "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design. The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
-      "image": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
-      "publishedAt": "2026-10-07T20:19:40+00:00",
+      "title": "Citing Quality, Nespresso Discontinues Compostable Capsules",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeHcxUm1zV3ZWYksyRWFCNUhHbnRIVEpCcFlLOTlLdlBqaU9HaE0ydHNXdFEydmx3NGhxbG52V3ZMWjFLOG93QWwzNzRNc09uSUdrMTJwemFaYTVsWG9vQm41OHREUkN2MkEyQnYyN2hOcXFjMWoyeENVN05nZWZDcjhoWVU1bEwxaWxkaE5rM2YzaHczZ3JIeXpWRzYwd28",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-10-08T15:13:49+00:00",
+      "viaGoogleNews": true,
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-1",
       "rank": 1
     },
     {
-      "title": "Starbucks Unveils New Smaller Cafe Prototype",
-      "source": "Coffee Talk",
-      "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/",
-      "summary": "Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas. The post Starbucks Unveils New Smaller Cafe Prototype appeared first on CoffeeTalk .",
-      "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
-      "publishedAt": "2026-10-07T20:15:18+00:00",
+      "title": "Esteban Cristancho: The Sprudge Twenty Interview",
+      "source": "Sprudge",
+      "sourceUrl": "https://sprudge.com/esteban-cristancho-the-sprudge-twenty-interview-1278706.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Esteban Cristancho of Elevation Coffee Roasters.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_esteban-cristancho.jpg",
+      "publishedAt": "2026-10-08T14:00:06+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-2",
       "rank": 2
     },
     {
-      "title": "Energy price cap: the cost of your coffee could be about to go up",
-      "source": "The Conversation",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu",
+      "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
+      "source": "Nature",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15RWdGVmFVOVB4M25wYVV0NHB6RzI0LVhaUHFpeDA2SUExZUNMcm1WMkJOaWZRSzk4SDI0LXU1VDFBaEh6aHNiZjBNZ3YyNk5XX2lrTEdFalBmWmloblIw",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-10-07T14:39:52+00:00",
+      "publishedAt": "2026-10-05T19:43:40+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
@@ -45,12 +46,12 @@
       "rank": 3
     },
     {
-      "title": "An iced coffee won't predict job performance—but it might reveal hiring bias",
-      "source": "Phys.org",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ",
+      "title": "An iced coffee won’t predict job performance — but it might reveal hiring bias",
+      "source": "The Conversation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1ZaNURtbmFKbHRtd2c2THhsTDhIaktSRzBqWXBPSGsyNjlhZk9OUklaRjVwUUNnaDZEVFNwemtTVU9qODRtMktqYkhCdXFpR2xOZjdTWnhydERBcWJsZ0ZYNm83dmFVRTZORDZINVh0OG4tUTJnVWxNVHpLR2RpLUw0T1ZxYmt4eXpfeTVkRmJKQmRxNGNCSVhzM3M1a09VMTNRTkQtYnd5cUVjUm1r",
       "summary": "",
-      "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/two-people-shaking-han.jpg",
-      "publishedAt": "2026-10-05T22:00:01+00:00",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-10-05T16:25:43+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
@@ -58,12 +59,12 @@
       "rank": 4
     },
     {
-      "title": "This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight",
-      "source": "Serious Eats",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ",
+      "title": "The Best Coffee & Espresso Deals for Amazon Prime Day",
+      "source": "Gear Patrol",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR01CUTRubUFyeUZPYXRBd3JMWGp5SlpCZkZmYW11SjBjWUlER0FGcnNval80dEpCdUctYkY4RWJySjVwaWlXbzA2V2NKUlktU1JqTl9ZODdzNEJqVmUxS3VRak9KTzhyN1ZWUnFpdzMwcC00UGFVcmtQVWYxb0FaeVBmZ3doZzh2dndqcDlFUQ",
       "summary": "",
-      "image": "https://www.seriouseats.com/thmb/qrXHqYk8o0dRmRJCLowFtieU_2Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sea-breville-the-barista-express-espresso-machine-rkilgore-0324-1-ea3500f02e7e4b5d98ec6bd4064705fe.jpeg",
-      "publishedAt": "2026-10-07T17:14:21+00:00",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-10-07T15:28:20+00:00",
       "viaGoogleNews": true,
       "category": "reviews",
       "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
@@ -71,38 +72,36 @@
       "rank": 5
     },
     {
-      "title": "This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day",
-      "source": "Serious Eats",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3",
-      "summary": "",
-      "image": "https://www.seriouseats.com/thmb/XLb9uOCA3XEMjTerDk3ZmhgY60E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/owala-sip-slider-stainless-tumbler-grace-kelly-2-6c5895efe6fd43dfa73d67b1daa2adab.jpg",
-      "publishedAt": "2026-10-07T16:13:45+00:00",
-      "viaGoogleNews": true,
+      "title": "The Best Coffee Machine for Americano? Here Are My Picks",
+      "source": "Coffee Chronicler",
+      "sourceUrl": "https://coffeechronicler.com/best-coffee-machine-for-americano/",
+      "summary": "Most people misunderstand the humble Americano. In this post, I explain what equipment you need for a tasty brew. The post The Best Coffee Machine for Americano? Here Are My Picks appeared first on The Coffee Chronicler .",
+      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/americano-perfect-scaled.jpg",
+      "publishedAt": "2026-10-07T08:27:15+00:00",
       "category": "reviews",
       "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
       "id": "reviews-2",
       "rank": 6
     },
     {
-      "title": "Mutual Coffee",
-      "source": "European Coffee Trip",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3",
-      "summary": "",
-      "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/roasters/1052/mutual-coffee-66.jpg",
-      "publishedAt": "2026-10-07T15:20:41+00:00",
-      "viaGoogleNews": true,
+      "title": "Amalie Gagné-Acoulon",
+      "source": "Not a Barista",
+      "sourceUrl": "https://notabarista.org/amalie-gagne-acoulon/",
+      "summary": "She appears at coffee competitions, stays on farms, teaches languages, and somehow knows people everywhere. But when we asked Ama what she actually does, the answer turned out to be less important than the question. There are people in coffee whose work is easy to explain. They r",
+      "image": "image/carosal/cafe-scene-6887.jpg",
+      "publishedAt": "2026-10-08T17:33:56+00:00",
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-1",
       "rank": 7
     },
     {
-      "title": "Klatch Coffee crowned ‘Best Premium Coffee Brand 2026’ by Newsweek",
+      "title": "La Marzocco and Rains join forces for the Coffee-Proof Apron: Scandinavian design meets Italian espresso",
       "source": "Comunicaffe International",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXNYRUItN0xmNWtQMEF6YWVlMXY2UVh0Slp6SktzLU16ZW0yWEZFc1I3RXRKRl9scm9xbVg4ZmcyM29TSUJmMXJIcS1FTkdweGd4LXRmTmlqSHhSbkgySlUzb2J5RUhkVWhMWWlyWk9pRFZIRFVIcDdqVU5Tck5qT0Q5Z0RXZjNzTjRxYm1QZnNFUmFkdlB2Vw",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NdW1RRGkzX1RMci15a2pObFZHUTdNeHIwdXBaYWw3TlpEa2RDcG9kQ2NYemZrcS0tcTBzc1A1NkZMY3RKYVYwNGRleXNvdUhpeWJmTXFRNFpMaFRaV0U3YWZpUkpwZWFPbWVSMnBHUjBRajQ",
       "summary": "",
-      "image": "https://www.comunicaffe.com/wp-content/uploads/2025/05/Klatch-Coffee.jpg",
-      "publishedAt": "2026-10-07T13:12:04+00:00",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-10-08T10:18:17+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
@@ -113,24 +112,25 @@
   "byCategory": {
     "industry": [
       {
-        "title": "Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design",
-        "source": "Coffee Talk",
-        "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111096/",
-        "summary": "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design. The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
-        "image": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
-        "publishedAt": "2026-10-07T20:19:40+00:00",
+        "title": "Citing Quality, Nespresso Discontinues Compostable Capsules",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeHcxUm1zV3ZWYksyRWFCNUhHbnRIVEpCcFlLOTlLdlBqaU9HaE0ydHNXdFEydmx3NGhxbG52V3ZMWjFLOG93QWwzNzRNc09uSUdrMTJwemFaYTVsWG9vQm41OHREUkN2MkEyQnYyN2hOcXFjMWoyeENVN05nZWZDcjhoWVU1bEwxaWxkaE5rM2YzaHczZ3JIeXpWRzYwd28",
+        "summary": "",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-10-08T15:13:49+00:00",
+        "viaGoogleNews": true,
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-1",
         "rank": 1
       },
       {
-        "title": "Starbucks Unveils New Smaller Cafe Prototype",
-        "source": "Coffee Talk",
-        "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/",
-        "summary": "Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas. The post Starbucks Unveils New Smaller Cafe Prototype appeared first on CoffeeTalk .",
-        "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
-        "publishedAt": "2026-10-07T20:15:18+00:00",
+        "title": "Esteban Cristancho: The Sprudge Twenty Interview",
+        "source": "Sprudge",
+        "sourceUrl": "https://sprudge.com/esteban-cristancho-the-sprudge-twenty-interview-1278706.html",
+        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Esteban Cristancho of Elevation Coffee Roasters.",
+        "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_esteban-cristancho.jpg",
+        "publishedAt": "2026-10-08T14:00:06+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-2",
@@ -139,12 +139,12 @@
     ],
     "science": [
       {
-        "title": "Energy price cap: the cost of your coffee could be about to go up",
-        "source": "The Conversation",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu",
+        "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
+        "source": "Nature",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15RWdGVmFVOVB4M25wYVV0NHB6RzI0LVhaUHFpeDA2SUExZUNMcm1WMkJOaWZRSzk4SDI0LXU1VDFBaEh6aHNiZjBNZ3YyNk5XX2lrTEdFalBmWmloblIw",
         "summary": "",
         "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-10-07T14:39:52+00:00",
+        "publishedAt": "2026-10-05T19:43:40+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
@@ -152,12 +152,12 @@
         "rank": 3
       },
       {
-        "title": "An iced coffee won't predict job performance—but it might reveal hiring bias",
-        "source": "Phys.org",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ",
+        "title": "An iced coffee won’t predict job performance — but it might reveal hiring bias",
+        "source": "The Conversation",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1ZaNURtbmFKbHRtd2c2THhsTDhIaktSRzBqWXBPSGsyNjlhZk9OUklaRjVwUUNnaDZEVFNwemtTVU9qODRtMktqYkhCdXFpR2xOZjdTWnhydERBcWJsZ0ZYNm83dmFVRTZORDZINVh0OG4tUTJnVWxNVHpLR2RpLUw0T1ZxYmt4eXpfeTVkRmJKQmRxNGNCSVhzM3M1a09VMTNRTkQtYnd5cUVjUm1r",
         "summary": "",
-        "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/two-people-shaking-han.jpg",
-        "publishedAt": "2026-10-05T22:00:01+00:00",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-10-05T16:25:43+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
@@ -167,12 +167,12 @@
     ],
     "reviews": [
       {
-        "title": "This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight",
-        "source": "Serious Eats",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ",
+        "title": "The Best Coffee & Espresso Deals for Amazon Prime Day",
+        "source": "Gear Patrol",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR01CUTRubUFyeUZPYXRBd3JMWGp5SlpCZkZmYW11SjBjWUlER0FGcnNval80dEpCdUctYkY4RWJySjVwaWlXbzA2V2NKUlktU1JqTl9ZODdzNEJqVmUxS3VRak9KTzhyN1ZWUnFpdzMwcC00UGFVcmtQVWYxb0FaeVBmZ3doZzh2dndqcDlFUQ",
         "summary": "",
-        "image": "https://www.seriouseats.com/thmb/qrXHqYk8o0dRmRJCLowFtieU_2Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sea-breville-the-barista-express-espresso-machine-rkilgore-0324-1-ea3500f02e7e4b5d98ec6bd4064705fe.jpeg",
-        "publishedAt": "2026-10-07T17:14:21+00:00",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-10-07T15:28:20+00:00",
         "viaGoogleNews": true,
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
@@ -180,13 +180,12 @@
         "rank": 5
       },
       {
-        "title": "This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day",
-        "source": "Serious Eats",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3",
-        "summary": "",
-        "image": "https://www.seriouseats.com/thmb/XLb9uOCA3XEMjTerDk3ZmhgY60E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/owala-sip-slider-stainless-tumbler-grace-kelly-2-6c5895efe6fd43dfa73d67b1daa2adab.jpg",
-        "publishedAt": "2026-10-07T16:13:45+00:00",
-        "viaGoogleNews": true,
+        "title": "The Best Coffee Machine for Americano? Here Are My Picks",
+        "source": "Coffee Chronicler",
+        "sourceUrl": "https://coffeechronicler.com/best-coffee-machine-for-americano/",
+        "summary": "Most people misunderstand the humble Americano. In this post, I explain what equipment you need for a tasty brew. The post The Best Coffee Machine for Americano? Here Are My Picks appeared first on The Coffee Chronicler .",
+        "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/americano-perfect-scaled.jpg",
+        "publishedAt": "2026-10-07T08:27:15+00:00",
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
         "id": "reviews-2",
@@ -195,25 +194,24 @@
     ],
     "origin": [
       {
-        "title": "Mutual Coffee",
-        "source": "European Coffee Trip",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3",
-        "summary": "",
-        "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/roasters/1052/mutual-coffee-66.jpg",
-        "publishedAt": "2026-10-07T15:20:41+00:00",
-        "viaGoogleNews": true,
+        "title": "Amalie Gagné-Acoulon",
+        "source": "Not a Barista",
+        "sourceUrl": "https://notabarista.org/amalie-gagne-acoulon/",
+        "summary": "She appears at coffee competitions, stays on farms, teaches languages, and somehow knows people everywhere. But when we asked Ama what she actually does, the answer turned out to be less important than the question. There are people in coffee whose work is easy to explain. They r",
+        "image": "image/carosal/cafe-scene-6887.jpg",
+        "publishedAt": "2026-10-08T17:33:56+00:00",
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-1",
         "rank": 7
       },
       {
-        "title": "Klatch Coffee crowned ‘Best Premium Coffee Brand 2026’ by Newsweek",
+        "title": "La Marzocco and Rains join forces for the Coffee-Proof Apron: Scandinavian design meets Italian espresso",
         "source": "Comunicaffe International",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZXNYRUItN0xmNWtQMEF6YWVlMXY2UVh0Slp6SktzLU16ZW0yWEZFc1I3RXRKRl9scm9xbVg4ZmcyM29TSUJmMXJIcS1FTkdweGd4LXRmTmlqSHhSbkgySlUzb2J5RUhkVWhMWWlyWk9pRFZIRFVIcDdqVU5Tck5qT0Q5Z0RXZjNzTjRxYm1QZnNFUmFkdlB2Vw",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NdW1RRGkzX1RMci15a2pObFZHUTdNeHIwdXBaYWw3TlpEa2RDcG9kQ2NYemZrcS0tcTBzc1A1NkZMY3RKYVYwNGRleXNvdUhpeWJmTXFRNFpMaFRaV0U3YWZpUkpwZWFPbWVSMnBHUjBRajQ",
         "summary": "",
-        "image": "https://www.comunicaffe.com/wp-content/uploads/2025/05/Klatch-Coffee.jpg",
-        "publishedAt": "2026-10-07T13:12:04+00:00",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-10-08T10:18:17+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
@@ -222,5 +220,250 @@
       }
     ]
   },
-  "deleted": []
+  "deleted": [],
+  "log": [
+    {
+      "ok": true,
+      "source": "Sprudge",
+      "n": 30,
+      "url": "https://sprudge.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Daily Coffee News",
+      "n": 17,
+      "url": "https://dailycoffeenews.com/feed",
+      "via": "google-news",
+      "directError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ok": true,
+      "source": "Perfect Daily Grind",
+      "n": 0,
+      "url": "https://perfectdailygrind.com/feed"
+    },
+    {
+      "ok": false,
+      "source": "Roast Magazine",
+      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
+      "url": "https://roastmagazine.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Standart",
+      "n": 1,
+      "url": "https://standartmag.com/blogs/journal.atom",
+      "via": "google-news",
+      "directError": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "ok": false,
+      "source": "Barista Magazine",
+      "error": "<urlopen error timed out>",
+      "url": "https://www.baristamagazine.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Fresh Cup",
+      "n": 30,
+      "url": "https://freshcup.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Talk",
+      "n": 0,
+      "url": "https://www.coffeetalk.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Barista Hustle",
+      "n": 0,
+      "url": "https://www.baristahustle.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Ad Astra",
+      "n": 0,
+      "url": "https://coffeeadastra.com/feed/",
+      "via": "google-news",
+      "directError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ok": true,
+      "source": "Scott Rao",
+      "n": 0,
+      "url": "https://www.scottrao.com/blog?format=rss"
+    },
+    {
+      "ok": false,
+      "source": "Jim Seven",
+      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
+      "url": "https://www.jimseven.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "World Coffee Research",
+      "n": 0,
+      "url": "https://worldcoffeeresearch.org/news/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Nature",
+      "n": 86,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "News-Medical",
+      "n": 33,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Medical Xpress",
+      "n": 15,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Phys.org",
+      "n": 27,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "The Conversation",
+      "n": 27,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "ScienceDaily",
+      "n": 100,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "ScienceAlert",
+      "n": 18,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Review",
+      "n": 30,
+      "url": "https://www.coffeereview.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "CoffeeGeek",
+      "n": 30,
+      "url": "https://coffeegeek.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Home-Barista",
+      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
+      "url": "https://www.home-barista.com/rss.xml"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Chronicler",
+      "n": 30,
+      "url": "https://coffeechronicler.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Espresso My Espresso",
+      "error": "disabled: 403 for every client tried (checked 2026-10-06)",
+      "url": "https://espressomyespresso.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Serious Eats",
+      "n": 99,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Gear Patrol",
+      "n": 100,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": false,
+      "source": "SCA News",
+      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
+      "url": "https://scanews.coffee/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Sweet Maria's",
+      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
+      "url": "https://www.sweetmarias.com/blog/feed"
+    },
+    {
+      "ok": true,
+      "source": "Perfect Daily Grind Origins",
+      "n": 0,
+      "url": "https://perfectdailygrind.com/category/origins/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Cafe Imports",
+      "n": 0,
+      "url": "https://cafeimports.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "European Coffee Trip",
+      "n": 9,
+      "url": "https://europeancoffeetrip.com/feed/",
+      "via": "google-news",
+      "directError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ok": true,
+      "source": "Not a Barista",
+      "n": 30,
+      "url": "https://notabarista.org/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Comunicaffe",
+      "n": 87,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Fairtrade",
+      "n": 17,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "International Coffee Organization",
+      "n": 20,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Specialty Coffee Association",
+      "n": 4,
+      "url": "google-news",
+      "via": "google-news"
+    }
+  ]
 }

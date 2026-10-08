@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-08T20-43-51",
+      "scannedAt": "2026-10-08T20:43:51.753732+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Citing Quality, Nespresso Discontinues Compostable Capsules",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeHcxUm1zV3ZWYksyRWFCNUhHbnRIVEpCcFlLOTlLdlBqaU9HaE0ydHNXdFEydmx3NGhxbG52V3ZMWjFLOG93QWwzNzRNc09uSUdrMTJwemFaYTVsWG9vQm41OHREUkN2MkEyQnYyN2hOcXFjMWoyeENVN05nZWZDcjhoWVU1bEwxaWxkaE5rM2YzaHczZ3JIeXpWRzYwd28",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-08T15:13:49+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Esteban Cristancho: The Sprudge Twenty Interview",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/esteban-cristancho-the-sprudge-twenty-interview-1278706.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Esteban Cristancho of Elevation Coffee Roasters.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_esteban-cristancho.jpg",
+          "publishedAt": "2026-10-08T14:00:06+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15RWdGVmFVOVB4M25wYVV0NHB6RzI0LVhaUHFpeDA2SUExZUNMcm1WMkJOaWZRSzk4SDI0LXU1VDFBaEh6aHNiZjBNZ3YyNk5XX2lrTEdFalBmWmloblIw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-05T19:43:40+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "An iced coffee won’t predict job performance — but it might reveal hiring bias",
+          "source": "The Conversation",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1ZaNURtbmFKbHRtd2c2THhsTDhIaktSRzBqWXBPSGsyNjlhZk9OUklaRjVwUUNnaDZEVFNwemtTVU9qODRtMktqYkhCdXFpR2xOZjdTWnhydERBcWJsZ0ZYNm83dmFVRTZORDZINVh0OG4tUTJnVWxNVHpLR2RpLUw0T1ZxYmt4eXpfeTVkRmJKQmRxNGNCSVhzM3M1a09VMTNRTkQtYnd5cUVjUm1r",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-05T16:25:43+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The Best Coffee & Espresso Deals for Amazon Prime Day",
+          "source": "Gear Patrol",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR01CUTRubUFyeUZPYXRBd3JMWGp5SlpCZkZmYW11SjBjWUlER0FGcnNval80dEpCdUctYkY4RWJySjVwaWlXbzA2V2NKUlktU1JqTl9ZODdzNEJqVmUxS3VRak9KTzhyN1ZWUnFpdzMwcC00UGFVcmtQVWYxb0FaeVBmZ3doZzh2dndqcDlFUQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-07T15:28:20+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "The Best Coffee Machine for Americano? Here Are My Picks",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-coffee-machine-for-americano/",
+          "summary": "Most people misunderstand the humble Americano. In this post, I explain what equipment you need for a tasty brew. The post The Best Coffee Machine for Americano? Here Are My Picks appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/americano-perfect-scaled.jpg",
+          "publishedAt": "2026-10-07T08:27:15+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Amalie Gagné-Acoulon",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/amalie-gagne-acoulon/",
+          "summary": "She appears at coffee competitions, stays on farms, teaches languages, and somehow knows people everywhere. But when we asked Ama what she actually does, the answer turned out to be less important than the question. There are people in coffee whose work is easy to explain. They r",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "publishedAt": "2026-10-08T17:33:56+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "La Marzocco and Rains join forces for the Coffee-Proof Apron: Scandinavian design meets Italian espresso",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NdW1RRGkzX1RMci15a2pObFZHUTdNeHIwdXBaYWw3TlpEa2RDcG9kQ2NYemZrcS0tcTBzc1A1NkZMY3RKYVYwNGRleXNvdUhpeWJmTXFRNFpMaFRaV0U3YWZpUkpwZWFPbWVSMnBHUjBRajQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-08T10:18:17+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-06",
       "scannedAt": "2026-10-07T23:37:57.641Z",
       "kind": "editorial_archive",
@@ -2733,100 +2827,6 @@
           "summary": "For some people, coffee begins with a flavor. For others, it begins with a machine, a technique, or a competition. For Tay Wipvasutt , it began with people. Tay Wipvasutt Tay was still in his first year of university when he took a part-time job at a coffee shop. At that age, cof",
           "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/05/Tay-Wipvasutt-1024x577.jpg",
           "publishedAt": "2026-05-04T07:50:55+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-11T18-35-49",
-      "scannedAt": "2026-09-11T18:35:49.395201+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Very Hot Coffee Increases Your Risk Of Esophageal Cancer",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/very-hot-coffee-increases-your-risk-of-esophageal-cancer-1329665.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Extra hot coffee is not extra good for your throat.",
-          "image": "image/carosal/cafe-scene-7439.jpg",
-          "publishedAt": "2026-09-11T16:12:05+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Coffee Design: Ninety Three Million From Blanchard’s Coffee",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/coffee-design-ninety-three-million-from-blanchards-coffee-1283165.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Ninety Three Million by Blanchard's Coffee.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/ninety_three_million_coffee_design_sprudge_01.jpg",
-          "publishedAt": "2026-09-11T14:00:24+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Pre-batched Espresso vs Fresh",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/pre-made-vs-fresh/",
-          "summary": "“We should be hyping this more” was a quote from a podcast we recorded this week. We’d just finished a blind cupping; one which could be more pivotal than we might like to admit … The post Pre-batched Espresso vs Fresh appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2025/12/Moriondos-lost-espresso-machine.jpg",
-          "publishedAt": "2025-12-15T14:25:53+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "I Got 21[0] Seconds to Spro",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/i-got-210-seconds-to-spro/",
-          "summary": "If you compete in the World Barista Championship, you’ve gotta make twelve beverages in fifteen minutes, right? That’s seventy five seconds per beverage. Easy enough, eh? The post I Got 21[0] Seconds to Spro appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2025/10/Grinding-no-Latch.jpg",
-          "publishedAt": "2025-10-23T10:38:10+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "DeLonghi Essenza Mini Review: “Espresso” on Easy-Mode",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/delonghi-essenza-mini-review-espresso-on-easy-mode/",
-          "summary": "Hot shots, nice crema, and a 25-second heat-up in a machine the width of your hand. The catch? It's not really espresso. The post DeLonghi Essenza Mini Review: “Espresso” on Easy-Mode appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/DeLonghi-Essenza-Mini-EN85.B7.webp",
-          "publishedAt": "2026-07-15T12:52:56+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "My Favorite Drip Coffee Makers Currently",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/best-drip-coffee-makers/",
-          "summary": "The Moccamaster, Aiden, and Breville Precision represent the peak of automatic brewing. But which one is right for you? The post My Favorite Drip Coffee Makers Currently appeared first on The Coffee Chronicler .",
-          "image": "image/carosal/cafe-scene-8168.png",
-          "publishedAt": "2026-07-12T07:26:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Noon NutRada Kunavivattananon",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/noon-nutrada-kunavivattananon/",
-          "summary": "At twenty-seven, Noon Nutrada Kunavivattananon walked into a room as CEO of one of Thailand’s largest specialty coffee companies. A few years later, she walked into another room as the first female president of the Specialty Coffee Association of Thailand. In both rooms, most peo",
-          "image": "image/carosal/cafe-scene-8174.png",
-          "publishedAt": "2026-05-24T02:49:36+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Temporary Pause on Studio Operations",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/temporary-pause-on-studio-operations/",
-          "summary": "Due to urgent family circumstances, I’M NOT A BARISTA will temporarily pause most studio operations until June 4th. During this period, shipping, customer support replies, and ongoing project work may be delayed. All existing 135 ml L1GHT cup orders have been packed and shipped b",
-          "image": "image/carosal/cafe-scene-8186.png",
-          "publishedAt": "2026-05-11T18:04:10+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
