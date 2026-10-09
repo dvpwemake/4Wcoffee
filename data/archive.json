@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-09T20-08-53",
+      "scannedAt": "2026-10-09T20:08:53.769927+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Roast Magazine Launches iRoast — a Community for Coffee Roasting Professionals",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ1BsMzBYT0lGRTNCZXBxN3otZkpwa1lNSXZMU1Q2aE9EdmZvY1BNT09PWFZrM19DbFhLSmxITUo5bHF4UVlXZ2tvUDZJR1Q4eVVvX0kyRmlNT1c1eVNPYXo3aEJjbXRYMl90NVFjd1dpY05Fa2RYVGRFVndBSWlrXzl1a1BzQzdXS2JtanpVeXpKcXBWZ3gwSjBJd1JxSmxDa0FpcXNiejZfeDN4djlJWERmVjlMZGc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-09T16:18:42+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Weekly Coffee News: Good Food Awards Open + California Chain Expands",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVC1OV19acTEyYnljeW5JNElJSHJab1gyQ0V1TGNwbWdLQ1ZrTVJ4Ym5kZDJ1S3pmWkR0b3BhaGdHN2JnelE4TW5xU2xQRDZ5RFkyc0FCU0doMTJpQ01rVFdqVU5QbmxPU1FzbVFpcXVtOWI2UzRHenJ4MjdaZU41aVY3LTg1RnpuN0NqamFGX2hKMTlfOHI4ZXRmbURMVXZDYlkwTFpidDY",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-09T13:23:35+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Genetic analysis reveals that some specialty coffee seeds do not match their commercial identity",
+          "source": "Phys.org",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTGJuMTU3MzExc3RYcVZpaVRCSldZeXZTQzRpQnRDLWlHV3h3T2VBMXlMdWlrdEhWT2pJdkgxanVkZmRVNGZ3b0ZYbEdVdnZ3bTNmSmlVUFEzb1ZqT0t4RE9CSEVCNHpaU20wNTBqak9Za0tmdk5taWk3XzhoOThWR25B",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-09T18:40:07+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Decaf Coffee Might Have A Surprising Advantage Over Caffeinated, Study Finds",
+          "source": "ScienceAlert",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTRhbEcxejhXVGwtWlhWR1V2SkYtZ3hMVGVNS3MzbFF4SS03cDVrRnpBdklyRmFUMV9uLUdZYWhtRVZZNFJ1MEk0UDNNZUdNSC1jZUhFMDQyd3ZydmpSVDY1Q29CS2tEV1QwekRRMG1SLXB5cFBMSklYa182aHpxSzdXYi1GUmo0Zm5aTVZDeFhXUEh4aF9yRkdNeUp0dUFDYjFVcEU0TQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-04T09:01:39+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "We Tested 22 Coffee Grinders to Find the Best Ones for Drip, Espresso, Pour-Over, and More",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41cEV1RUZoVWJLZHlmZzZhNmhiR2tkMUFRLURhZkFxSTdPTDZWUzVraXNKNU54WU1ia0FDandRbmRqa01qNE5zbUhsMkd0NHhZWHdSNklIQ3BvMG54QThRRXJn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-28T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "AeroPress’s Most Elevated Brewer to Date Puts the Brand in Uncharted Territory",
+          "source": "Gear Patrol",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iMHdWZGZTbDBfOWxNb2dHRVJlNXU4ZUdIQk96OE40alk1M21SOG1qQUNTYmVjQjFxTFlQVG0xU0VSS2k4dDBQSzlyN19ubG1PRWR2aFkxaW1lR0RWVGJtN082V2ZHc2k2NE1vaGs1QmFXUVYwUTZuV1Rn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-28T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Barista Stories: Michaela Randell of The Ground Up Project, England",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MT1RWT29zUjVvNWc3TWpUZlVJdFg3S0JGdTRjZm53MDVrSGsxN3d0c2l5UURNc2oybXFzdW1lSnNkd09MVzBqc2lpem9IU1VjWFE4dF9oYTRUeXl3VDVGeEpxS3hmRUk0UURoampqaEhZdw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-09T12:51:12+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "RoastFinder Coffee Lab",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6RE5ld21JRVRCMGE0SHhMUXNKZllTd3lqUm05R3B5X09rMHdtSU1qVF8xcGlwbE9Vc3BLUGEtSnVOc0ZoYjhHU21GYzJBcGR4LTdnWTNtWElzU0RMY1M4OUlmMDZMUERfbUpHQXRNUmFvZw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-09T10:39:59+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-07",
       "scannedAt": "2026-10-09T19:05:43.384Z",
       "kind": "editorial_archive",
@@ -2661,100 +2755,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-12.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-12"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-13T18-13-55",
-      "scannedAt": "2026-09-13T18:13:55.136362+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "A Fresh Roster Of Fresh Coffees From The Sprudge Roaster’s Village",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/a-fresh-roster-of-fresh-coffees-from-the-sprudge-roasters-village-1332178.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "image/carosal/cafe-scene-7252.jpg",
-          "publishedAt": "2026-09-13T12:00:13+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Build-Outs Of Coffee: Fresh Pots In Copehagen, Denmark",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-fresh-pots-in-copehagen-denmark-1266561.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Fresh Pots in Copenhagen, Denmark.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/fresh-pots-5.jpg",
-          "publishedAt": "2026-09-10T17:06:51+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "The Physics of Espresso is out !!",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2025/08/14/the-physics-of-espresso-is-out/",
-          "summary": "Hello all ! I am so thrilled to announce that my second book The Physics of Espresso is finally out ! This one took a while longer than I expected, and you’ll understand why when you get your hands on it. It contains hundreds of graphs and drawings, more professional photos and b",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2025/08/img_2743.jpg?fit=923%2C1200&ssl=1",
-          "publishedAt": "2025-08-14T18:53:26+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Recent Insights into Espresso Dynamics April 14 Chicago Conference",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2024/03/09/recent-insights-into-espresso-dynamics-april-14-chicago-conference/",
-          "summary": "I will be presenting a conference on the topic of espresso dynamics during SCA 2024 in Chicago !",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2024/03/e4235ca3-5871-484e-b33c-b33a1d8c35d4-1.jpg?fit=1200%2C800&ssl=1",
-          "publishedAt": "2024-03-09T14:08:24+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "The Laybird MagAttach Coffee Scale: One Scale, Many Jobs",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/new-products/the-laybird-magattach-coffee-scale-one-scale-many-jobs/",
-          "summary": "We take a look at an innovative, feature rich, tiny and budget friendly device for the serious coffee nerds looking for one scale to do it all. The post The Laybird MagAttach Coffee Scale: One Scale, Many Jobs appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/06/Laybird-Magattach-Scale-Hero-2-800x533.jpg",
-          "publishedAt": "2026-06-22T08:30:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Option-O Lagom Casa Grinder",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/reviews/firstlooks/lagom-casa-grinder-first-look-review-2026/",
-          "summary": "An in-depth First Look at the Option-O Lagom Casa grinder. Is this the best all-round single-doser for espresso and filter coffee? Here's our take. The post Option-O Lagom Casa Grinder appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/06/Main-Casa-Photos-2-800x533.jpg",
-          "publishedAt": "2026-06-16T07:01:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "We’re Heading to Bangkok With a Purpose",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/im-not-a-barista-is-coming-to-woc-bangkok-26/",
-          "summary": "We’re heading to World of Coffee Bangkok , and this time, we’re coming with a purpose. We’ll be bringing our charity wristbands , the first L1GHT sensory cup samples , and the latest MOMENTEM grinder with us—not just to show what we’ve been working on, but to help support somethi",
-          "image": "image/carosal/cafe-scene-7378.jpg",
-          "publishedAt": "2026-05-03T16:48:11+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Andrés Paparoni",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/andres-paparoni/",
-          "summary": "For some people, coffee begins with a choice. For others, it’s already there, long before they understand what it means. For Andrés Paparoni , coffee was never something he discovered later in life. It was part of his world from the very beginning. Growing up in Venezuela, coffee",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/04/Andres-Paparoni-from-Nomad-1024x576.jpg",
-          "publishedAt": "2026-04-27T17:56:07+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
