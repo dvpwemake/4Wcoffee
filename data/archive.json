@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-10T19-18-59",
+      "scannedAt": "2026-10-10T19:18:59.293148+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Feast Your Eyes On This Cornucopia Of Coffee Gear",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/feast-your-eyes-on-this-cornucopia-of-coffee-gear-1417120.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of gear is...",
+          "image": "https://sprudge.com/wp-content/uploads/2025/06/dwell-coffee-gear.jpg",
+          "publishedAt": "2026-10-10T12:00:49+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "La Marzocco And Rains Collaborate For A New Barista Apron",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/la-marzocco-and-rains-collaborate-for-a-new-barista-apron-1409605.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The barista apron gets a waterproof, technical treatment.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/260911_rains_x_la_marzocco_9_0764-2-copy.jpg",
+          "publishedAt": "2026-10-09T12:00:37+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Altered miR-30c and miR-127 expression and NF-κB/NLRP3-related transcriptional changes are associated with metabolic and inflammatory dysregulation in adult males with sleep deprivation and habitual coffee consumption",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ycGZGTHFRdEZjcVRtSWNJWHBWYXhUdVhnT3NMbnpBRU4xYkRhYVJORFhxdnFLOTRrUl9EdzNPejI2dXl4ZkVTc2xsTXRsUGFSc1g2eUVqdllnazF2cVNB",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-03T20:23:56+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Choice of Tea or Coffee Might Affect Risk of Osteoporosis in Older Women",
+          "source": "ScienceAlert",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2RFR3FnVzF4ZWZsVVhlTm5FbkFBXzlwOWthVVhubDdrMDRhbHFMYzhmaXJ6U21EZGZ4dmotOUNWM1JoaTE2TENMNm1GeTV2Y083c1BOTzVLaVVJMVBubUdPLXdJUWR2TG01bFVhS25WTDFyR3pobVRfZTJqcnN1SXpFWjB1R2twMHR2c1RXNGM2UXh3M2hQbHlFZk9NVWZ1YUQ0",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-02T10:03:28+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "9 Cozy Fall Baking Recipes Made for Slow Mornings and Hot Coffee",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6a20xQmpoWGRhZVlkNktSbmdILXJGbGU2UG9MVW9Pb3MzUlJnQ09ITzREdmdUdUlLd0dkMnlMRGNtZGRFemhDQ1ZWQnVxSTVza0JjNlVNakFVdTZpNEt3aFFxaWhEdjR6NUZWaDdYOTIzVHdF",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-26T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Costco Is Selling Fellow’s Home Pour-Over Coffee and Tea Essential For a Steal Right Now",
+          "source": "Gear Patrol",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JWnRYeGROdHVDbFFSdmVFTGdaY2NGQ0RvaVVJQmhlbmFsREIxY3gzdkxnVm1RZzBta0VWRk1UTDA4cVdWZ292Q3pSSGRSY0lxX0tXT3VVbXpIc0tXT0J3TllVTTlNOUgwck44YURSM3g3aGYzdkJmS29IYVk",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-23T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Cafés Sable",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfRXNYMThTU2M0Y3k0clU5WS13RTBZanVzeHdhaWxWYmZQQ0FwTlBIV3J3NXNOeERZWFJvOE9nMkptNTJoZlROb1loRkliclZoVDFMTzFKSUk",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-09T16:57:53+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Coffee futures fall back from Tuesday rally, as fresh Costa sale speculation resurfaces",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLUFQNmMyMl8zQ2tRSnc3d1JKR1YtX2xZVG5wTW9CS2YzWmVzbHl0YTNOd2lMczJOS0hkcEV2UU5vWXJaeHRKdnpKa19RY1BjMmFtRjlyR2dVSXdFTEpFYXN2cWhQa3hybWRlemVZNDRRMFFBUUZBWTI4b3NjTjJUSFEyYWVuc2xwYm9GZVV0bE9GNThvZHBTWnRYb080Vk42VndSU0wwb01fNUdvWHltZEh4QS1DSHlqNHRiMHgzd2l2dmgyT1E",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-08T22:59:35+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-09T20-08-53",
       "scannedAt": "2026-10-09T20:08:53.769927+00:00",
       "items": [
@@ -2735,26 +2829,6 @@
           "publishedAt": "2026-04-13T15:14:52+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-12",
-      "scannedAt": "2026-09-13T23:31:54.998Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-12",
-          "rank": 0,
-          "title": "It began with people",
-          "category": "editorial",
-          "categoryLabel": "editorial",
-          "summary": "Tay in the first year. A pouring arm on autopilot.",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/07/xBloom-Studio-Hero-1.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-12.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-12"
         }
       ]
     }
