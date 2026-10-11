@@ -43,7 +43,7 @@
           "source": "ScienceAlert",
           "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2RFR3FnVzF4ZWZsVVhlTm5FbkFBXzlwOWthVVhubDdrMDRhbHFMYzhmaXJ6U21EZGZ4dmotOUNWM1JoaTE2TENMNm1GeTV2Y083c1BOTzVLaVVJMVBubUdPLXdJUWR2TG01bFVhS25WTDFyR3pobVRfZTJqcnN1SXpFWjB1R2twMHR2c1RXNGM2UXh3M2hQbHlFZk9NVWZ1YUQ0",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-6887.jpg",
           "publishedAt": "2026-10-02T10:03:28+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
@@ -54,7 +54,7 @@
           "source": "Serious Eats",
           "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6a20xQmpoWGRhZVlkNktSbmdILXJGbGU2UG9MVW9Pb3MzUlJnQ09ITzREdmdUdUlLd0dkMnlMRGNtZGRFemhDQ1ZWQnVxSTVza0JjNlVNakFVdTZpNEt3aFFxaWhEdjR6NUZWaDdYOTIzVHdF",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-7252.jpg",
           "publishedAt": "2026-09-26T07:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
@@ -65,21 +65,10 @@
           "source": "Gear Patrol",
           "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JWnRYeGROdHVDbFFSdmVFTGdaY2NGQ0RvaVVJQmhlbmFsREIxY3gzdkxnVm1RZzBta0VWRk1UTDA4cVdWZ292Q3pSSGRSY0lxX0tXT3VVbXpIc0tXT0J3TllVTTlNOUgwck44YURSM3g3aGYzdkJmS29IYVk",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-7378.jpg",
           "publishedAt": "2026-09-23T07:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Cafés Sable",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfRXNYMThTU2M0Y3k0clU5WS13RTBZanVzeHdhaWxWYmZQQ0FwTlBIV3J3NXNOeERZWFJvOE9nMkptNTJoZlROb1loRkliclZoVDFMTzFKSUk",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-09T16:57:53+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -87,7 +76,7 @@
           "source": "Comunicaffe International",
           "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLUFQNmMyMl8zQ2tRSnc3d1JKR1YtX2xZVG5wTW9CS2YzWmVzbHl0YTNOd2lMczJOS0hkcEV2UU5vWXJaeHRKdnpKa19RY1BjMmFtRjlyR2dVSXdFTEpFYXN2cWhQa3hybWRlemVZNDRRMFFBUUZBWTI4b3NjTjJUSFEyYWVuc2xwYm9GZVV0bE9GNThvZHBTWnRYb080Vk42VndSU0wwb01fNUdvWHltZEh4QS1DSHlqNHRiMHgzd2l2dmgyT1E",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-7439.jpg",
           "publishedAt": "2026-10-08T22:59:35+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
@@ -163,17 +152,6 @@
           "publishedAt": "2026-09-28T07:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Barista Stories: Michaela Randell of The Ground Up Project, England",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MT1RWT29zUjVvNWc3TWpUZlVJdFg3S0JGdTRjZm53MDVrSGsxN3d0c2l5UURNc2oybXFzdW1lSnNkd09MVzBqc2lpem9IU1VjWFE4dF9oYTRUeXl3VDVGeEpxS3hmRUk0UURoampqaEhZdw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-09T12:51:12+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -279,17 +257,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "Amalie Gagné-Acoulon",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/amalie-gagne-acoulon/",
-          "summary": "She appears at coffee competitions, stays on farms, teaches languages, and somehow knows people everywhere. But when we asked Ama what she actually does, the answer turned out to be less important than the question. There are people in coffee whose work is easy to explain. They r",
-          "image": "image/carosal/cafe-scene-7439.jpg",
-          "publishedAt": "2026-10-08T17:33:56+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "La Marzocco and Rains join forces for the Coffee-Proof Apron: Scandinavian design meets Italian espresso",
           "source": "Comunicaffe International",
@@ -391,17 +358,6 @@
           "publishedAt": "2026-10-07T16:13:45+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Mutual Coffee",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVmp2OHM0M0hqUlZlbnZURjhaOWM3XzUxZUt3QmgzMjgybjg4cGxFbEJ6V1pzbDRDWlpWbG9rMXk3ck0xS0VtcjV2SHJMUUVGd2pmVG9HQmhDSkl0NFRlaXZ3",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/roasters/1052/mutual-coffee-66.jpg",
-          "publishedAt": "2026-10-07T15:20:41+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -507,17 +463,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "GCAG Indonesia 2026: From Cupping Tables Around the World, Back to Origin",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/gcag-indonesia-2026-from-cupping-tables-around-the-world-back-to-origin/",
-          "summary": "Three days of coffee education in East Java brought together local coffee people, coffees from around the world, and the support of coffee communities across 14 countries and 21 cities. We did it. After months of planning, fundraising, packing coffee, dealing with international s",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/gcag.jpg",
-          "publishedAt": "2026-08-24T02:35:44+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Ibrahim H. Al Mallouhi",
           "source": "Not a Barista",
@@ -577,17 +522,6 @@
           "publishedAt": "2025-10-21T06:12:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "A guide to Hawaiian coffee production",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2022/01/a-guide-to-hawaiian-coffee-production/",
-          "summary": "For most people, the first thing that comes to mind about Hawaiian coffee production will be one word: Kona. Kona coffee is among the most expensive in the world, and it has become more well known in recent years following some legal battles over labelling. However, while Kona is",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2021/12/image3-4.jpg",
-          "publishedAt": "2022-01-06T06:33:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -693,17 +627,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "A guide to the Taiwanese coffee sector",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2022/02/a-guide-to-the-taiwanese-coffee-sector/",
-          "summary": "Taiwan is an island in East Asia that sits to the south east of China. It is densely populated, largely urbanised, and home to beautiful mountains and dense forests. While it is by no means a coffee-growing powerhouse, coffee has been produced in Taiwan for the last 100 years. Br",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/01/17-Feb.-FACEBOOK-AND-LINKEDIN.jpg",
-          "publishedAt": "2022-02-17T06:40:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Exploring the Bolivian coffee sector",
           "source": "Perfect Daily Grind Origins",
@@ -785,17 +708,6 @@
           "publishedAt": "2025-11-05T01:30:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Mohammad Mousavi",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/mohammad-mousavi/",
-          "summary": "There are people we meet at the right moment in life who change much more than what we know. Sometimes they teach us a skill. Sometimes they believe in us before we have much reason to believe in ourselves. And sometimes, the best mentors do something even more difficult: they re",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "publishedAt": "2026-10-03T17:24:43+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -901,17 +813,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "A guide to South Sudan’s coffee sector",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2022/06/a-guide-to-south-sudan-coffee-sector/",
-          "summary": "Despite its long history, South Sudan only became independent in 2011 – making it the newest internationally recognised country in the world. As well as Sudan, South Sudan borders Ethiopia, Uganda, and Kenya – three of the top five coffee-producing countries in Africa. While many",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/06/13-June.-FACEBOOK-AND-LINKEDIN.jpg",
-          "publishedAt": "2022-06-13T05:22:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "A guide to coffee production in Haiti",
           "source": "Perfect Daily Grind Origins",
@@ -1015,17 +916,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "A guide to coffee production in Saudi Arabia",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2022/07/guide-to-saudi-arabia-coffee-production/",
-          "summary": "Although Saudi Arabia has been growing coffee for the past few centuries, it is by no means a major coffee-producing country. In 2020, it’s estimated that Saudi-grown coffee totalled around 300 tonnes. However, the country has a rich history of coffee consumption, which is only c",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/07/20-July.-FACEBOOK-AND-LINKEDIN.jpg",
-          "publishedAt": "2022-07-20T05:24:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "A guide to the coffee sector in Côte d’Ivoire",
           "source": "Perfect Daily Grind Origins",
@@ -1109,17 +999,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "Coffee production in Guinea",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2022/11/coffee-production-in-guinea/",
-          "summary": "The Republic of Guinea (also known as Guinea) is a West African country which borders several countries, including Sierra Leone, Guinea Bissau, Senegal, Mali, Liberia, and Côte d’Ivoire. Although it’s by no means a popular coffee origin, Guinea produces significant volumes of rob",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2022/11/24-Nov.-FACEBOOK-AND-LINKEDIN.jpg",
-          "publishedAt": "2022-11-24T06:34:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Exploring coffee production in Sierra Leone",
           "source": "Perfect Daily Grind Origins",
@@ -1201,17 +1080,6 @@
           "publishedAt": "2025-11-30T09:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Why Colombian coffees perform so well at competitions and auctions",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2026/09/colombian-coffees-competitions-auctions/",
-          "summary": "Colombia produces coffees that attract international buyers while building a stronger domestic ecosystem for roasting, brewing, and consumption. This combination of growing conditions, infrastructure, and constant innovation explains why the country performs so well at auctions a",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/29_09_Article__PDG-EN-FB-post.png",
-          "publishedAt": "2026-09-29T05:44:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -1315,17 +1183,6 @@
           "publishedAt": "2025-12-04T10:35:16+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "How is specialty coffee produced in Liberia?",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2023/02/how-is-coffee-produced-in-liberia/",
-          "summary": "Liberia is a West African country which borders Sierra Leone, Guinea, and Cote d’Ivoire, as well as the Atlantic Ocean. The country is the oldest republic in Africa, and declared its independence in 1847 – which was internationally recognised in 1862. According to Index Mundi, Li",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2023/02/14-Feb.-FACEBOOK-AND-LINKEDIN.jpg",
-          "publishedAt": "2023-02-14T06:32:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -1523,17 +1380,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "Could Sri Lanka produce more specialty coffee in the future?",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2023/08/sri-lanka-coffee-specialty/",
-          "summary": "Sri Lanka, formerly known as Ceylon, is an island nation in South Asia situated off the southern tip of India. As far back as the late 1800s, Sri Lanka was a prominent producer of coffee. In fact, it was one of the biggest coffee-growing countries in the world during the 1860s. S",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2023/08/2308-LI.jpeg",
-          "publishedAt": "2023-08-23T05:31:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Will Nepal produce more specialty coffee in the future?",
           "source": "Perfect Daily Grind Origins",
@@ -1615,17 +1461,6 @@
           "publishedAt": "2025-12-12T14:06:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "For roasters looking for differentiation, Nigerian coffee could be the answer",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2025/04/nigeria-specialty-coffee-hidden-gem-origin/",
-          "summary": "Against a backdrop of rising coffee prices, soaring business costs, and higher interest rates, market competition has intensified. Roasters are pushed to find new points of differentiation to cut through the noise and retain their customers. Sourcing from new, exciting origins ha",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2025/03/Article-Posts_EN_PDG-EN-Thumbnail-14.png",
-          "publishedAt": "2025-04-01T08:35:20+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -1731,17 +1566,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "We’re Testing Our New Shopify Shop",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/were-testing-our-new-shopify-shop/",
-          "summary": "We’re currently testing our new Shopify shop ( shop.notabarista.org ) as part of improving how we share our products with the coffee community. This space will focus on a smoother shopping experience, faster loading speed, clearer product information, and better access to our cha",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "publishedAt": "2025-12-12T17:46:51+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "How Nepal is emerging as a specialty coffee origin",
           "source": "Perfect Daily Grind Origins",
@@ -1843,17 +1667,6 @@
           "publishedAt": "2026-01-11T11:03:16+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Hello from Dehua!",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/hello-from-dehua/",
-          "summary": "After a long flight into Fuzhou , we spent a quiet night resting, adjusting, and preparing for the next step. This afternoon, we boarded the fast train heading into the mountains of Fujian, and just a few hours later, we arrived in Dehua —a small county with a global reputation f",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/01/dehua-day-1-1-1024x613.jpg",
-          "publishedAt": "2026-01-08T18:57:58+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -1959,17 +1772,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "Lonika Tay",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/lonika-tay/",
-          "summary": "Lonika Tay didn’t begin her coffee journey behind an espresso machine, nor did she imagine herself competing on an international stage. She started by packing coffee. Lonika Tay At a roastery in Indonesia, her days were spent weighing beans, sealing bags, and packing orders. She ",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/01/E3B72808-0F4D-423E-A525-69963334D3ED-1024x576.jpg",
-          "publishedAt": "2026-01-22T12:09:20+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Angel Kotsifakis",
           "source": "Not a Barista",
@@ -2073,17 +1875,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "Riza Zahrul Huda",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/riza-zahrul-huda/",
-          "summary": "When we asked Riza Zahrul Huda about the biggest challenge he had faced in coffee, we expected to hear about farming. Maybe pests, changing weather, coffee quality, or the difficulty of helping coffee from a small village reach a bigger market. Instead, Huda went quiet. His eyes ",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/08/DSC01199-1024x576.jpg",
-          "publishedAt": "2026-09-20T19:53:24+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Dynamic Grinding: Inside Our Shenzhen Testing Trip",
           "source": "Not a Barista",
@@ -2165,17 +1956,6 @@
           "publishedAt": "2026-02-03T17:51:59+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Echo Hu",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/echo-hu/",
-          "summary": "Standing for 8 to 10 hours straight, legs swelling like balloons, collapsing onto the bed at night too exhausted to move—that’s the raw reality Echo Hu faced in her early days as a barista. With only one day off a week and shifts flipping between early mornings and late nights, t",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/02/ee8b364a113bd59ef85272d86fe054bd-2-1024x576.jpg",
-          "publishedAt": "2026-02-04T18:42:15+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -2301,17 +2081,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "Coffee Internship 2026: Remote Opportunities in Sustainability and Global Coffee Community",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/coffee-internship-2026-remote-opportunities-in-sustainability-and-global-coffee-community/",
-          "summary": "Are you passionate about coffee and eager to make a real difference? At I’M NOT A BARISTA , we’re a small not-for-profit dedicated to empowering baristas and the global coffee community through storytelling, education, and direct support. Our flagship initiative, the Global Coffe",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2025/02/cafe-198-1024x576.jpg",
-          "publishedAt": "2026-02-16T18:46:09+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "Shaun Liew",
           "source": "Not a Barista",
@@ -2393,17 +2162,6 @@
           "publishedAt": "2026-03-09T11:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Edward Choo",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/edward-choo/",
-          "summary": "Edward Choo didn’t grow up loving coffee. Like many kids in Malaysia, his drink of choice was Milo. Whenever his parents ordered coffee at a local kopitiam, he would secretly take a sip out of curiosity. It never tasted good. “Yo, it’s yuck. Bitter and intense. Not something I wo",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/03/Edward-Choo-1-1024x576.jpg",
-          "publishedAt": "2026-03-25T21:00:17+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
@@ -2581,17 +2339,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "𝖩𝖺𝗇𝖾 𝖢𝖺𝖻𝗎𝗌𝖺𝗌 𝖤𝗌𝗉𝖺𝗇𝗍𝖾",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/%f0%9d%96%a9%f0%9d%96%ba%f0%9d%97%87%f0%9d%96%be-%f0%9d%96%a2%f0%9d%96%ba%f0%9d%96%bb%f0%9d%97%8e%f0%9d%97%8c%f0%9d%96%ba%f0%9d%97%8c-%f0%9d%96%a4%f0%9d%97%8c%f0%9d%97%89%f0%9d%96%ba%f0%9d%97%87/",
-          "summary": "Some coffee competitions attract attention. Others quietly struggle to survive. Ibrik is one of them. Compared with the Barista Championship or Brewers Cup, Cezve/Ibrik coffee rarely draws the same audience. The stage is smaller, the return is uncertain, and sometimes the competi",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/04/Jane-1-1024x576.jpg",
-          "publishedAt": "2026-04-05T08:44:06+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "From Shanghai to Java — Building What Comes Next",
           "source": "Not a Barista",
@@ -2695,17 +2442,6 @@
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         },
         {
-          "id": "origin-1",
-          "title": "How Jamaica’s coffee sector is evolving",
-          "source": "Perfect Daily Grind Origins",
-          "sourceUrl": "https://perfectdailygrind.com/2025/09/how-jamaica-coffee-sector-is-evolving/",
-          "summary": "In the misty peaks of Jamaica’s Blue Mountains, producers are transforming one of the world’s most prestigious coffee origins. While Jamaica has long commanded higher prices in the global market, the country’s coffee sector is undergoing significant changes that promise to reshap",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2025/09/03_09_Article__PDG-EN-Thumbnail.png",
-          "publishedAt": "2025-09-10T05:48:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
           "id": "origin-2",
           "title": "How Puerto Rican coffee has evolved & emerged",
           "source": "Perfect Daily Grind Origins",
@@ -2807,17 +2543,6 @@
           "publishedAt": "2026-06-03T02:30:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Kay Cheon",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/kay-cheon/",
-          "summary": "Before the stage, before the title, before representing a country, Kay Cheon ’s journey in coffee began with something much quieter — a question that didn’t quite go away. At the time, coffee wasn’t part of a clear plan. His days were shaped by something else entirely, cycling be",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "publishedAt": "2026-04-14T11:10:43+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         },
         {
           "id": "origin-2",
