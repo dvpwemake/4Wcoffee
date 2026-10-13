@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-13T20-43-46",
+      "scannedAt": "2026-10-13T20:43:46.208583+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Presenting the 2027 Roaster of the Year Finalists",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUTBhc1NZa0hCWWt2UzNKOTRaVHNHQURuSHNtVTBDUmZGcVY1Mm1ZQnIxQ09aWm02SVhkek12RDQ0emNDSFpxQUdabmh5R2c3RGQyeURYMzM5UHdSMnotbnc4Nm9SdWJpNUVyVkRIV0NXZnZuSThHdjJhUXlQWHVkazJWc3g0NVppLUNDRU1rVTM5dDA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-13T18:07:28+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "NCA Convention Returns to Austin in March 2027",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR1ZIUm5mRjVvWl9kRFBjRUJkenhIaExJdEFmZ2YxN3JxM1gxUkZQT0otQ24wTjk4UzZFd2c1bEhjUFI1bC1lWFRBMng4Z3dDS29Ja0VqSkZsaHhGUzNVRnVLY3lyZnV6Z0oyVzczcHEtM0t6RDVlZnFBWlV5Zk5xSnJ4dFQxZTdxMFd4U2VzVQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-13T16:32:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "The Sprudge Guide To Coffee In Fukuoka City, Japan",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-sprudge-guide-to-coffee-in-fukuoka-city-japan-1314766.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Where to drink coffee in Fukuoka City, Japan.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/fukuoka-city-basking_coffee_ropponmatsu_exterior_michael_joseph_01-.jpg",
+          "publishedAt": "2026-10-13T14:00:16+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "From espresso to filter coffee, brewing may shape what reaches your gut",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSjlQX2NmbjFnT2t0d2pURHdNVXpwQXY1b0pWUWo1ZjdRWVZoVzFONnZ2aW5nVTEweEJBcURjMTB3eWgyYWptMUVhNmRnLWFuMTZJcjJnY0hmbmlGMF8zWTF0eXByUTdITWVzM1lVUU1XcC1UdHZFeTBVUnpPcThldE5RcjFqX0RfeF9MTzdKMWU2eVBCc245Wm51bDNsSGVTeFlGcnhmb20xOXBHSFhoZmszellZejFIckE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-28T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Scientists just discovered what coffee really does to your gut and brain",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzeWhOZzJEcXpLTDl4cWM5cEhhcDNOb211M1FMSzU3UVpuS19QNU1tMEFvM25HbU40b1p5TEtsTXZTcGE1VWU2dldIcmdtU2p2WlJKRVZvd2xBUUdJRjkyWUR2aEotTTdJNkhWNkRzVQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-28T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "I Finally Found a Decaf Coffee That Tastes Like the Real Deal",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GbTg1djFCQkhlR1otS29MZmpaUFdJbHNpTXJhWGFEd1VNSnBKekZXaWlpMndXaXNmY183VktNLWNXdnROQjhfSzRac2ZvT1ZRdXRidG1YN09yMjZYMjUxQ1F2MUJ3RUxWaElpcWFjNA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-13T18:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "from: Noordeinde",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90Sjh0NTVYOVRTOUpRRkNYTEtWdEk0clNvdlRZVWJOQVNRY2F3b1cyZHZDdTByd3RDNjVjUENLQVJDMVVrZFNZLXlkMEZTa0ZzSXBoZmdjMVV5eG1UQldEWVpYYmVsYnA4MFQ4bVhn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-13T16:53:30+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Italy looks to the future of coffee as Espresso Fund launches at Foreign Ministry event",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFZiRXhCTnZLeGxxRTYwQ0l3SERIeFRtQVJxZDhOYVU4aDhsb1YwSFdvM0RtOURhSEl3dEd4bklUR0VlNkViR21aVlhCOElTMUlMNVluZmJ3dF9ybXZtc3VHVTBRNjhQT0V5MkhsN3lIZWRCcjNnS0RqeFlBYWFOMC16emUyMFNLakxBUVA5am4yZERacGJxZTg2dVZNcGw4WVpQZmxVZ01FV00tUkV4Qm1NMWRCRjg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-13T10:17:17+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-12T22-31-57",
       "scannedAt": "2026-10-12T22:31:57.187612+00:00",
       "items": [
@@ -2251,78 +2345,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-15.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-15"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-16T18-56-12",
-      "scannedAt": "2026-09-16T18:56:12.753781+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Sightglass Coffee In Berkeley, CA",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-sightglass-coffee-in-berkeley-ca-1275259.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Sightglass Coffee Roasters in Berkeley, California.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/sightglass-berkeley-4.jpg",
-          "publishedAt": "2026-09-16T18:09:04+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Global Coffee Awards announce the best roasters in Latin America",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/09/global-coffee-awards-latin-america-winners-2026/",
-          "summary": "The Global Coffee Awards Latin America edition took place on 12 August 2026, crowing the region's best roasters and the producers behind the winning coffees. The post Global Coffee Awards announce the best roasters in Latin America appeared first on Perfect Daily Grind .",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/GCA-Latam-homepage.webp",
-          "publishedAt": "2026-09-16T14:00:00+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Three Abbotts and the UX Method",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/three-abbotts-and-the-ux-method/",
-          "summary": "How’s this for a wild quote from one of our most trusted scientific advisors? “To a scientist the filter cone brew method is crazy. It’s an 'out of control' system where everything depends on everything else.” ... The post Three Abbotts and the UX Method appeared first on Barista",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2025/03/Water-Whirlpool-Wide-Header-scaled.jpg",
-          "publishedAt": "2025-03-22T11:15:59+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "The Dos and Don’ts in a Barista Emergency",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/the-dos-and-donts-in-a-barista-emergency/",
-          "summary": "The dos and don’ts when it comes to kitting out your new cafe start-up. We go into everything from the dish pit, to your choice of grinder. Don’ts include ‘stickers on your espresso machine... The post The Dos and Don’ts in a Barista Emergency appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2025/01/Coffee-Bar-04-scaled.jpg",
-          "publishedAt": "2025-01-24T13:22:39+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Why Your Decaf Now Costs as Much as the “Good Stuff”",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/opinions/state-of-coffee/why-your-decaf-now-costs-as-much-as-the-good-stuff/",
-          "summary": "Why is decaf suddenly expensive? It involves a Colombian processing plant, a paint-stripper ban, and a supply chain that broke in several places at once. The post Why Your Decaf Now Costs as Much as the “Good Stuff” appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Decaf-Article-2-800x533.jpg",
-          "publishedAt": "2026-04-25T07:30:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "The Flair 49 Pro: Lever Espresso Gets a New Mid-Range Contender",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/new-products/the-flair-49-pro-lever-espresso-gets-a-new-mid-range-contender/",
-          "summary": "Flair's new 49 Pro is a passive lever espresso machine built around the 49mm puck trend. Here's our first look at the build, workflow, and a small QC issue. The post The Flair 49 Pro: Lever Espresso Gets a New Mid-Range Contender appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Flair-49-Pro-On-Counter-5-800x533.jpg",
-          "publishedAt": "2026-04-23T07:30:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
