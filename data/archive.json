@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-14T19-26-39",
+      "scannedAt": "2026-10-14T19:26:39.444664+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "The World Cup Tasters Championship Heads To Bogota In 2027",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-world-cup-tasters-championship-heads-to-bogota-in-2027-1449662.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The 2027 World Cup Tasters Championship takes place September 30th through October 2nd in Bogota, Colombia.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/bogotawocwcccolombia1200x675@4x-copy.jpg",
+          "publishedAt": "2026-10-14T17:16:10+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Phil & Sebastian Named National Winner – Canada At The 2026 Global Coffee Awards",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/phil-sebastian-named-national-winner-canada-at-the-2026-global-coffee-awards-1450922.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Calgary roaster takes top Canadian title alongside Gold, three Silver, and Bronze awards following a double-blind judging process in Houston.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/global-coffee-awards.jpg",
+          "publishedAt": "2026-10-14T15:00:54+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Niyyah Coffee Brings a Deaf-Owned Cafe to Indianapolis",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa3JWTnAzYU14YWVCR0hRdVh0VmJ6TjNXV0dhRWR1Qy1yMXNhUlYzek51M2ZuQ1RsVHp0ZlllOGk3R3F2ZERyV0ViaFVNZU5GV1duTnozZ3ZiV0M3bU50eUFyOGdkNEgzWWVNX0pvbGE5dW5STDN2TzRGeWJVQ2xrcW1UeHk4VlpmVTlDZ1FLa1R6Y3ktMHpmYmVn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-14T14:02:13+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Coffee, citrus and genetics: What scientists found inside human breast milk",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPandBUTdlZlgyR1hfZFB5dUNFdG55UWFvd2N5UU1BWUxRU3hRTl9UR1lUWmlycU5qWW1jcVhudFdsWVlkZUp2bjBDT2JFM0NhYzdZNWgwNWwtWEswYk9DZGluMFg3RnZxalFvVHhVZlhOVDlYTWN4YWpLNmM5QTNBV1NVdWZYMVlRSmhmOHlfaTFOcTFDVlhZdXFqc09iSXNtSDVjUFQ3QThtT0hJSXB5b1NmblhoMEQwWEQxcm5B",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-14T04:24:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Coffee variety outweighs associated tree identity in shaping disease incidence and fruit load in a large-scale Ugandan Robusta a",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rNFlVaHZsNFRCMTlpRG92eFpON1daM1BXOTlBVmozUFl3ZzJlWldQLVlSRF9ZNlh6OXhCbFE3Qk5oUXR3U3lmSHJ4THlVMXg3eFdHaHlyRU9OSV9wbGZ5LV82MHdYQXh0NlNWV3Uyckd5UQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-24T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "27 Tested and Reviewed Coffee Gifts That Say ‘I Love Brew’",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5RFZCdXBnRTFUYkpwZlY2S1Qwdmx0R2t3Qi1VSUhMSVpmWHRBSDlVcVdHSDJnM3pzRWJNNS1QcFE1dW1YeHMyRnRqTGlwdGFqbV9YTXVoamxXOGM4ZTZYc0MxRQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-09-25T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Best Cafés in Kladno - Speciality Coffee Guide to Kladno",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GQTA5OElZT3U0VTctVlpPUFc4WUFwOUJLTTgzMTZnNm9BT2JrVmNHUE16MWhqTVdxQlZRMkJOUlpHMG5wZEJwMjNObG5hNThXZlloOEZUc2Nic3FxbzVLT0VB",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-14T13:06:54+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "San Francisco Bay Coffee introduces 2026 Holiday Blend at Costco",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXphQUxsRlhuZVB5YndpNF9CVG1IZHZuYTYzYzhiQS16VVBwVWcwLWczS2c0S0VTR3ltZ3Z3YzVfSS1kQmVZYkZxNDZheWszN05hdGo0ajV0Q05GT1h0ODBXaERPZDFaVFlTNUJvUnItcHRWdll4cnhEWWFONTh5RXJ3dkowa2pQR2VCSFF5R3VHVGF0dFR2QQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-14T10:18:32+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-11",
       "scannedAt": "2026-10-14T05:09:16.822Z",
       "kind": "editorial_archive",
@@ -2271,78 +2365,6 @@
           "summary": "Direct trade, fair trade, commodity: three labels, three very different promises. Learn what they actually mean for the farmers behind your morning cup. The post What “Direct Trade” Means for the Farmer Who Grew Your Coffee appeared first on CoffeeGeek .",
           "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Marisol-FT-Article-Hero-1-800x533.jpg",
           "publishedAt": "2026-03-09T11:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-17T18-22-38",
-      "scannedAt": "2026-09-17T18:22:38.916Z",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Furthers &amp; Betters Goes Beyond the Cup for Specialty Coffee Consumer Intelligence",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://dailycoffeenews.com/2026/09/17/furthers-betters-goes-beyond-the-cup-for-specialty-coffee-consumer-intelligence/",
-          "summary": "A new specialty coffee research and consulting firm called Furthers &amp; Betters is launching with a focus on the people actually buying and drinking the coffee. Co-founded by longtime consumer...",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/coffee-shop-3-620x449.jpg",
-          "publishedAt": "2026-09-17T20:39:59.000Z",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Smart Care Unifies Five Coffee Equipment Service Brands as Turbo Tech",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://dailycoffeenews.com/2026/09/17/smart-care-unifies-five-coffee-equipment-service-brands-as-turbo-tech/",
-          "summary": "Commercial equipment service company Smart Care is consolidating five regional coffee and speed-oven service businesses under a single national brand called Turbo Tech. The new brand incorporates Turbo Technicians, EspressoMe,...",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Turbo-Tech-620x400.png",
-          "publishedAt": "2026-09-17T20:06:19.000Z",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Bed depth: why it matters",
-          "source": "Scott Rao",
-          "sourceUrl": "https://www.scottrao.com/blog/2025/11/11/bed-depth-why-it-matters",
-          "summary": "As third-wave coffee has evolved over the past 25 years, we’re probably at or near the extremes of a few long-term trends: roasts have gotten lighter, roasters use fresher green, on average, than ever before, menu offerings have decreased in number, often down to just three or fo",
-          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1762899386082-PFLXOSVU0BUXJLJ2ML0K/coffee bean sleeping on deep bed  copy.jpg?format=1500w",
-          "publishedAt": "2025-11-12T06:07:04.000Z",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Colombia, 2025",
-          "source": "Scott Rao",
-          "sourceUrl": "https://www.scottrao.com/blog/colombia-2025",
-          "summary": "View fullsize Last week I had the fortune to visit Colombia, this time spending a few days in Nariño and Medellin. Mil gracias to Adriana of Inconexus for hosting Philip and me in Nariño. Despite a stomach bug and near caffeine poisoning, it was a great adventure. Day 1: Nariño N",
-          "image": "https://images.squarespace-cdn.com/content/v1/5957d4148419c29314283239/1756770995960-1FSNXJN8UI7CBVTJAJFE/IMG_0373.jpg?format=1500w",
-          "publishedAt": "2025-09-02T08:03:55.000Z",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/new-products/mavos-phantox-pro-wants-to-shake-up-the-mid-range-manual-grinder-market/",
-          "summary": "Mavo's Phantox Pro manual grinder surprised us. Outstanding pour over clarity, a silky adjustment dial, and a filter-only caveat worth knowing about. The post Mavo’s Phantox Pro Wants to Shake Up the Mid-Range Manual Grinder Market appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Phantox-Pro-Blog-Photos-5-800x533.jpg",
-          "publishedAt": "2026-04-19T14:30:00.000Z",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Finally, Some Real Coffee Action: Decaf Coffees 2026",
-          "source": "Coffee Review",
-          "sourceUrl": "https://www.coffeereview.com/finally-some-real-coffee-action-decaf-coffees-2026/",
-          "summary": "Decaffeinated coffees are having their moment. The decaf coffee market is expanding rapidly, with projected growth of 5-7% annually over the next decade. Some estimates project the annual growth rate for decaf coffee will be up to four times that of the overall coffee market. At ",
-          "image": "https://www.coffeereview.com/wp-content/uploads/2026/04/Chiroso-1-2048x1365.jpg",
-          "publishedAt": "2026-04-06T21:39:49.000Z",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
