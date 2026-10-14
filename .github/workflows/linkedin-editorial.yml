@@ -1,0 +1,125 @@
+name: LinkedIn editorial
+
+# Armed by Publish editorial on fourthwavecoffee.org. There is no schedule.
+# The morning signal scan does not start this workflow.
+# delay_minutes 10 waits inside this run, then posts. delay_minutes 0 posts now.
+# A day with no editorial is a skip. A date already posted is a skip.
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Editorial date YYYY-MM-DD. Blank means today in Los Angeles.'
+        required: false
+        default: ''
+      delay_minutes:
+        description: '10 waits ten minutes after publish. 0 posts now.'
+        required: false
+        default: '10'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: linkedin-editorial
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check the poster
+        run: node scripts/linkedin-editorial.js --self-test
+      - name: Skip when the ledger already has this date
+        id: ledger
+        env:
+          EDITORIAL_DATE: ${{ inputs.date }}
+        run: |
+          set -o pipefail
+          node scripts/linkedin-editorial.js --check-ledger | tee /tmp/linkedin-ledger-check.log
+          if grep -q '^LINKEDIN_RESULT=skip ' /tmp/linkedin-ledger-check.log; then
+            echo "skip=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=0" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Require the LinkedIn token
+        if: steps.ledger.outputs.skip != '1'
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$LINKEDIN_ACCESS_TOKEN" ]; then
+            echo "LINKEDIN_ACCESS_TOKEN is not set on the GitHub repo"
+            exit 1
+          fi
+      - name: Wait until 10 minutes after publish
+        if: steps.ledger.outputs.skip != '1'
+        env:
+          DELAY_MINUTES: ${{ inputs.delay_minutes }}
+        run: |
+          minutes="${DELAY_MINUTES:-10}"
+          case "$minutes" in
+            0|10) ;;
+            *) echo "delay_minutes must be 0 or 10"; exit 1 ;;
+          esac
+          if [ "$minutes" = "0" ]; then
+            echo "Posting now"
+          else
+            echo "Waiting 10 minutes after the editorial publish"
+            sleep 600
+          fi
+      - name: Post the day's editorial
+        if: steps.ledger.outputs.skip != '1'
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_ORG_ID: '144003245'
+          EDITORIAL_DATE: ${{ inputs.date }}
+        run: |
+          set -o pipefail
+          node scripts/linkedin-editorial.js | tee /tmp/linkedin-editorial.log
+      - name: Save the ledger
+        if: steps.ledger.outputs.skip != '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/linkedin-posts.json
+          if git diff --cached --quiet; then
+            echo "No ledger change"
+          else
+            line=$(grep -E '^LINKEDIN_RESULT=(posted|recorded) ' /tmp/linkedin-editorial.log | tail -1)
+            kind=$(printf '%s\n' "$line" | awk '{print $1}')
+            kind=${kind#LINKEDIN_RESULT=}
+            date=$(printf '%s\n' "$line" | awk '{print $2}')
+            case "$kind" in
+              posted) msg="LinkedIn: posted editorial ${date}" ;;
+              recorded) msg="LinkedIn: recorded existing post ${date}" ;;
+              *)
+                echo "Ledger changed without a posted or recorded result"
+                exit 1
+                ;;
+            esac
+            git commit -m "$msg"
+            save_ledger() {
+              git pull --rebase origin main && git push
+            }
+            if save_ledger; then
+              echo "Ledger saved"
+            else
+              git rebase --abort 2>/dev/null || true
+              echo "Ledger save failed. Retrying once."
+              if save_ledger; then
+                echo "Ledger saved on retry"
+              else
+                git rebase --abort 2>/dev/null || true
+                echo "帖子已发出但没记录 ${date}"
+                exit 1
+              fi
+            fi
+          fi

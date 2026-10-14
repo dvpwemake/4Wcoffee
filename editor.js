@@ -1572,11 +1572,15 @@
         "Publish editorial " + ed.publishDate + ": " + ed.title
       );
       if (!ok) return;
-      await this.putGithubFile(
+      var pageOk = await this.putGithubFile(
         "e/" + ed.publishDate + ".html",
         this.permalinkHtml(ed),
         "Editorial permalink " + ed.publishDate
       );
+      if (!pageOk) {
+        this.toast("Editorial data is on GitHub. The permalink did not publish, so LinkedIn was not armed.", "error");
+        return;
+      }
       await this.putGithubFile(
         "e/index.html",
         this.archiveIndexHtml(ed, history),
@@ -1592,6 +1596,50 @@
       }
       this.log("ok", "Published editorial.data.js + e/" + ed.publishDate + ".html — " + ed.title);
       this.toast("Editorial published. Home, Latest Beat, and permalink will update after Pages deploys.", "success");
+      await this.armLinkedIn(ed.publishDate, { delayMinutes: 10, quiet: true });
+    }
+
+    async armLinkedIn(date, opts) {
+      var quiet = !!(opts && opts.quiet);
+      var chosen = String(date || "").trim();
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(chosen)) {
+        this.toast("Use a date like 2026-09-20.", "error");
+        return;
+      }
+      var token = this.readPat();
+      if (!token) {
+        this.toast("Paste a GitHub PAT with Contents write and workflow on dvpwemake/4Wcoffee.", "error");
+        return;
+      }
+      var delay = opts && opts.delayMinutes === 10 ? "10" : "0";
+      try {
+        var res = await fetch(
+          "https://api.github.com/repos/dvpwemake/4Wcoffee/actions/workflows/linkedin-editorial.yml/dispatches",
+          {
+            method: "POST",
+            headers: this.ghHeaders(token, true),
+            body: JSON.stringify({
+              ref: "main",
+              inputs: { date: chosen, delay_minutes: delay },
+            }),
+          }
+        );
+        if (res.status === 204) {
+          var when = delay === "10" ? "10 minutes after this publish" : "now";
+          this.log("ok", "LinkedIn queued for " + chosen + " · " + when);
+          if (!quiet) this.toast("LinkedIn post queued for " + chosen + ". It goes out " + when + ".", "success");
+          return;
+        }
+        var errT = await res.text();
+        var msg = this.ghErrMessage(res.status, errT);
+        if (res.status === 403) msg += " The PAT also needs the workflow scope.";
+        this.log("err", "LinkedIn was not armed: " + msg);
+        this.toast((quiet ? "Editorial is on GitHub. LinkedIn was not armed. " : "") + msg, "error");
+      } catch (err) {
+        var fail = err && err.message ? err.message : "network";
+        this.log("err", "LinkedIn was not armed: " + fail);
+        this.toast((quiet ? "Editorial is on GitHub. LinkedIn was not armed. " : "") + fail, "error");
+      }
     }
 
     mergeScanIntoArchive(batch) {
@@ -2484,6 +2532,10 @@
   };
   global.publishEditorial = function () {
     app.publishEditorial();
+  };
+  global.postEditorialToLinkedIn = function () {
+    var dateEl = document.getElementById("edDate");
+    app.armLinkedIn(dateEl ? dateEl.value : "", { delayMinutes: 0 });
   };
   global.renderNewsDesk = function () {
     app.renderNewsDesk();

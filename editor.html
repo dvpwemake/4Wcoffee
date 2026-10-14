@@ -282,10 +282,13 @@ textarea.fi{min-height:12rem;resize:vertical}
       <button class="btn btn-p" onclick="saveEditorialLocal()" style="width:100%;margin-bottom:.4rem">Save (browser)</button>
       <button class="btn" onclick="previewEditorial()" style="width:100%;margin-bottom:.4rem">Preview</button>
       <button class="btn btn-s" onclick="publishEditorial()" style="width:100%;margin-bottom:.4rem">Publish editorial</button>
+      <p class="side-note">Ten minutes after this editorial is published, it is posted to the Fourth Wave company page. Post this date sends now. A date already posted is skipped.</p>
+      <button class="btn" type="button" onclick="postEditorialToLinkedIn()" style="width:100%;margin-bottom:.4rem">Post this date to LinkedIn</button>
       <button class="btn" onclick="exportEditorial()" style="width:100%">Download editorial.data.js</button>
       <label class="sec-t" for="ghPatEd" style="display:block;margin:0.85rem 0 0.4rem">GitHub PAT</label>
       <input id="ghPatEd" class="gh-pat" type="password" autocomplete="off" spellcheck="false" placeholder="same token as Coffee items" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
       <p class="side-note">Publish writes editorial.data.js plus e/YYYY-MM-DD.html. Previous live piece becomes an Editorial card on Latest Beat. Outline briefs are refused.</p>
+      <p class="side-note">The LinkedIn page token is the GitHub secret <code>LINKEDIN_ACCESS_TOKEN</code> on <code>dvpwemake/4Wcoffee</code>. The button uses this PAT, which also needs the <code>workflow</code> scope. Company 144003245. Fourth Wave pages only.</p>
     </div>
   </aside>
   <main class="main">
