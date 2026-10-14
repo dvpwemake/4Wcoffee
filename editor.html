@@ -76,7 +76,9 @@ button,input,select,textarea{font:inherit}
 .gate-card p{color:var(--text-dim);margin:0 0 1.1rem}
 .gate-card label{display:block;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-dim);margin-bottom:.4rem;font-weight:600}
 .gate-card input[type=password]{width:100%;min-height:var(--touch-min);padding:.75rem .85rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text);margin-bottom:.85rem}
-.gate-err{color:var(--danger);font-size:.85rem;min-height:1.25rem;margin-bottom:.5rem}
+.gate-err{color:var(--danger);font-size:.85rem;min-height:1.25rem;margin:.5rem 0}
+.gate-card [hidden]{display:none!important}
+.gate-other{display:block;margin:.75rem auto 0;min-height:var(--touch-min);padding:0 .5rem;background:none;border:0;color:var(--text-dim);font-size:.85rem;text-decoration:underline;cursor:pointer}
 .gate-note{font-size:.8rem;color:var(--text-dim);margin-top:1rem}
 .tabs{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--border);background:var(--bg-card)}
 .tabs button{min-height:var(--touch-min);padding:0 1rem;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--text-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.75rem;cursor:pointer}
@@ -140,13 +142,14 @@ textarea.fi{min-height:12rem;resize:vertical}
   <div class="gate-card">
     <h1>Editor</h1>
     <p>Private admin console. Coffee items, Latest Beat, and editorial. This URL is not linked from the public site.</p>
+    <button type="button" class="btn btn-p" id="gateTouchId" hidden style="width:100%">Sign in with Touch ID</button>
+    <button type="button" class="gate-other" id="gateOther" hidden>Other way to sign in</button>
     <form id="gateForm" autocomplete="off">
       <label for="gatePass">Password</label>
       <input id="gatePass" type="password" name="password" autocomplete="current-password" required>
-      <div class="gate-err" id="gateErr" role="alert"></div>
       <button type="submit" class="btn btn-p" style="width:100%">Unlock editor</button>
     </form>
-    <button type="button" class="btn" id="gateTouchId" hidden style="width:100%;margin-top:.6rem">Unlock with Touch ID</button>
+    <div class="gate-err" id="gateErr" role="alert"></div>
     <p class="gate-note">Session lasts for this browser tab only. Public pages do not link here.</p>
   </div>
 </div>
@@ -344,7 +347,7 @@ textarea.fi{min-height:12rem;resize:vertical}
 <script src="editorial.data.js"></script>
 <script src="editorial.draft.js"></script>
 <script src="editor-touchid.js"></script>
-<script src="editor-auth.js"></script>
+<script src="editor-auth.js?v=20261014a"></script>
 <script src="editor.js?v=20260912b"></script>
 </body>
 </html>
