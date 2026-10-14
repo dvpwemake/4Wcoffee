@@ -1,10 +1,14 @@
 {
   "senders": [
     {
+      "countedAt": 1792015275634,
       "email": "contact@qualifyhours.com",
+      "error": null,
       "id": "contact-qualifyhours-com",
       "name": "QualifyHours",
-      "status": "untested",
+      "sent24h": 6,
+      "status": "ok",
+      "testedAt": 1792015275634,
       "tier": "workspace"
     },
     {
