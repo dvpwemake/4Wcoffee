@@ -119,7 +119,19 @@
     var tidBtn = document.getElementById("gateTouchId");
     var tid = global.FourthWaveTouchID;
     if (tidBtn && tid && tid.enrolled()) {
+      // Enrolled: Touch ID is the sign-in; the password form waits behind a link.
       tidBtn.hidden = false;
+      var other = document.getElementById("gateOther");
+      if (form && other) {
+        form.hidden = true;
+        other.hidden = false;
+        other.addEventListener("click", function () {
+          other.hidden = true;
+          form.hidden = false;
+          var pass = document.getElementById("gatePass");
+          if (pass) pass.focus();
+        });
+      }
       tidBtn.addEventListener("click", function () {
         tid.unlock().then(function (res) {
           if (res.ok) {
