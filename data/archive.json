@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-11",
+      "scannedAt": "2026-10-14T05:09:16.822Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-11",
+          "rank": 0,
+          "title": "Beyond the Brew Path: Economics, Equity, and Engineering",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "As Arabica prices cross a historic threshold, the specialty coffee industry finds crucial innovation not just in the cup, but in how we breed, build, and belong.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/phil-seb-hartmann-maragogype-natural-sprudge-roasters-village-copy.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-11.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-11"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-13T20-43-46",
       "scannedAt": "2026-10-13T20:43:46.208583+00:00",
       "items": [
@@ -2325,26 +2345,6 @@
           "publishedAt": "2026-04-06T21:39:49.000Z",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-15",
-      "scannedAt": "2026-09-17T01:20:53.000Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-15",
-          "rank": 0,
-          "title": "Named for the world",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Buon Ma Thuot. Farms that held.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/coffee_museum_coffee_harvesting_artifacts_exhibition_area_world_coffee_museum_07.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-15.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-15"
         }
       ]
     }
