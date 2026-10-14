@@ -150,6 +150,85 @@
       });
     }
     if (!form) return;
+
+    // First password sign-in on a Touch ID Mac: offer "Use Touch ID next time" right here (the
+    // sidebar box still works too). "Not now" is remembered in this browser.
+    var SKIP_KEY = "fw_touchid_skip_v1";
+    var setup = document.getElementById("gateSetup");
+    var setupPat = document.getElementById("gateSetupPat");
+    var setupBtn = document.getElementById("gateSetupBtn");
+    var setupSkip = document.getElementById("gateSetupSkip");
+    function skipped() {
+      try {
+        return localStorage.getItem(SKIP_KEY) === "1";
+      } catch (e) {
+        return false;
+      }
+    }
+    function setSkipped() {
+      try {
+        localStorage.setItem(SKIP_KEY, "1");
+      } catch (e) {
+        /* private mode: asked again next time */
+      }
+    }
+    function afterPassword() {
+      if (!tid || !setup || !setupBtn || tid.enrolled() || skipped()) return showApp();
+      tid.supported().then(function (ok) {
+        if (!ok) return showApp();
+        form.hidden = true;
+        var otherLink = document.getElementById("gateOther");
+        if (otherLink) otherLink.hidden = true;
+        if (tidBtn) tidBtn.hidden = true;
+        setup.hidden = false;
+        var have = "";
+        try {
+          have = sessionStorage.getItem("fw_gh_pat") || "";
+        } catch (e) {
+          have = "";
+        }
+        if (setupPat) {
+          setupPat.value = have;
+          setupPat.focus();
+        }
+      });
+    }
+    if (setupBtn && tid) {
+      setupBtn.addEventListener("click", function () {
+        var pat = setupPat ? String(setupPat.value || "").trim() : "";
+        if (err) err.textContent = "Touch ID…";
+        setupBtn.disabled = true;
+        tid.save(pat).then(function (res) {
+          setupBtn.disabled = false;
+          if (res.ok) {
+            try {
+              sessionStorage.setItem("fw_gh_pat", pat);
+            } catch (e) {
+              /* private mode: the token field stays empty */
+            }
+            if (setupPat) setupPat.value = "";
+            if (err) err.textContent = "";
+            showApp();
+            return;
+          }
+          if (/PRF|not available/i.test(res.message || "")) {
+            setSkipped();
+            setupBtn.hidden = true;
+            if (setupSkip) setupSkip.textContent = "Continue to the editor";
+          }
+          if (err) err.textContent = res.message || "Touch ID setup failed.";
+        });
+      });
+    }
+    if (setupSkip) {
+      setupSkip.addEventListener("click", function () {
+        setSkipped();
+        if (setupPat) setupPat.value = "";
+        if (err) err.textContent = "";
+        showApp();
+      });
+    }
+
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       var input = document.getElementById("gatePass");
@@ -157,7 +236,8 @@
       checkPassword(val).then(function (res) {
         if (res.ok) {
           if (err) err.textContent = "";
-          showApp();
+          if (input) input.value = "";
+          afterPassword();
         } else if (err) {
           err.textContent = res.message || "Denied.";
         }
