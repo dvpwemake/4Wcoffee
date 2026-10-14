@@ -1,0 +1,5 @@
+{
+  "body": "Hi {{first_name|there}},\n\nWe write about specialty coffee, the people who grow it, and what the science says about it.\n\nToday's pick: [read the latest beat](https://fourthwavecoffee.org/latestbeat.html).\n\nThanks for reading,\nFourth Wave Coffee",
+  "name": "Introduction",
+  "subject": "Fourth Wave Coffee for {{first_name|you}}"
+}

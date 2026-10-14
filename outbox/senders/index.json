@@ -1,0 +1,26 @@
+{
+  "senders": [
+    {
+      "email": "contact@qualifyhours.com",
+      "id": "contact-qualifyhours-com",
+      "name": "QualifyHours",
+      "status": "untested",
+      "tier": "workspace"
+    },
+    {
+      "email": "pr@hshub.com",
+      "id": "pr-hshub-com",
+      "login": "wallace.l@hshub.com",
+      "name": "Community Team, CitaCoffee.com",
+      "status": "needs_password",
+      "tier": "workspace"
+    },
+    {
+      "email": "contact@citacoffee.com",
+      "id": "contact-citacoffee-com",
+      "name": "CitaCoffee",
+      "status": "needs_password",
+      "tier": "workspace"
+    }
+  ]
+}
