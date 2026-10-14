@@ -1,0 +1,55 @@
+name: Outbox
+
+# The editor's email sender. Started by the editor (Execute, Test sender) and by itself (a relay
+# before the 6-hour job limit, or after the daily cap). There is no schedule: owner principle
+# 2026-10-14, wake on work, not on a clock. This repo is public, so these minutes are free.
+# Recipient lists and app passwords are committed only encrypted; the private key is the secret
+# OUTBOX_PRIVATE_KEY. Inputs reach the script through env, never pasted into the shell line.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'send or test-sender'
+        required: true
+        default: 'send'
+        type: choice
+        options: [send, test-sender]
+      plan:
+        description: 'Plan id (send only)'
+        required: false
+        default: ''
+      sender:
+        description: 'Sender id'
+        required: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: outbox-${{ inputs.action }}-${{ inputs.plan || inputs.sender }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run
+        env:
+          OUTBOX_PRIVATE_KEY: ${{ secrets.OUTBOX_PRIVATE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTBOX_BRANCH: ${{ github.ref_name }}
+          ACTION: ${{ inputs.action }}
+          PLAN: ${{ inputs.plan }}
+          SENDER: ${{ inputs.sender }}
+        run: python3 outbox/send.py "$ACTION" --plan "$PLAN" --sender "$SENDER"

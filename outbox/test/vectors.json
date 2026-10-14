@@ -1,0 +1,251 @@
+[
+  {
+    "name": "plain",
+    "template": {
+      "subject": "Hello {{first_name|there}}",
+      "body": "Hi {{first_name|there}},\nSee you soon."
+    },
+    "recipient": {
+      "email": "a@x.com",
+      "first_name": "Ada"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "Hello Ada",
+      "text": "Hi Ada,\nSee you soon.\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Hi Ada,<br>\nSee you soon.<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "fallback",
+    "template": {
+      "subject": "Hello {{first_name|there}}",
+      "body": "Hi {{ first_name | friend }}!"
+    },
+    "recipient": {
+      "email": "b@x.com"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "Hello there",
+      "text": "Hi friend!\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Hi friend!<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "link",
+    "template": {
+      "subject": "Read",
+      "body": "Read [our story](https://fourthwavecoffee.org/4thwave.html) today."
+    },
+    "recipient": {
+      "email": "c@x.com"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "Read",
+      "text": "Read our story (https://fourthwavecoffee.org/4thwave.html) today.\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Read <a href=\"https://fourthwavecoffee.org/4thwave.html\">our story</a> today.<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "link-placeholder-url",
+    "template": {
+      "subject": "Ref",
+      "body": "Go [here](https://x.org/r?who={{name}}&v=1)."
+    },
+    "recipient": {
+      "email": "d@x.com",
+      "name": "Ann & Bo Lee"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "Ref",
+      "text": "Go here (https://x.org/r?who=Ann%20%26%20Bo%20Lee&v=1).\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Go <a href=\"https://x.org/r?who=Ann%20%26%20Bo%20Lee&amp;v=1\">here</a>.<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "bare-url",
+    "template": {
+      "subject": "S",
+      "body": "Visit https://fourthwavecoffee.org/coffee.html, or https://x.org/a?b=1&c=2."
+    },
+    "recipient": {
+      "email": "e@x.com"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "S",
+      "text": "Visit https://fourthwavecoffee.org/coffee.html, or https://x.org/a?b=1&c=2.\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Visit <a href=\"https://fourthwavecoffee.org/coffee.html\">https://fourthwavecoffee.org/coffee.html</a>, or <a href=\"https://x.org/a?b=1&amp;c=2\">https://x.org/a?b=1&amp;c=2</a>.<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "escape",
+    "template": {
+      "subject": "<b>{{name}}</b>",
+      "body": "Dear {{name}}, 5 < 6 & \"quotes\" 'single'"
+    },
+    "recipient": {
+      "email": "f@x.com",
+      "name": "<script>alert(1)</script>"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "<b><script>alert(1)</script></b>",
+      "text": "Dear <script>alert(1)</script>, 5 < 6 & \"quotes\" 'single'\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Dear &lt;script&gt;alert(1)&lt;/script&gt;, 5 &lt; 6 &amp; &quot;quotes&quot; &#39;single&#39;<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "value-cannot-link",
+    "template": {
+      "subject": "S",
+      "body": "Hi {{name}}"
+    },
+    "recipient": {
+      "email": "g@x.com",
+      "name": "[click](https://evil.example)"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "S",
+      "text": "Hi [click](https://evil.example)\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Hi [click](https://evil.example)<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "bad-scheme",
+    "template": {
+      "subject": "S",
+      "body": "No [js](javascript:alert(1)) links."
+    },
+    "recipient": {
+      "email": "h@x.com"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "S",
+      "text": "No js) links.\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">No js) links.<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "vars-extra",
+    "template": {
+      "subject": "{{company|your team}}",
+      "body": "At {{company}} in {{city|town}}"
+    },
+    "recipient": {
+      "email": "i@x.com",
+      "vars": {
+        "company": "Acme Roasters"
+      }
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "Acme Roasters",
+      "text": "At Acme Roasters in town\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">At Acme Roasters in town<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "newlines-subject",
+    "template": {
+      "subject": "Line one\nline two {{first_name}}",
+      "body": "x"
+    },
+    "recipient": {
+      "email": "j@x.com",
+      "first_name": "Zed"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "Line one line two Zed",
+      "text": "x\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">x<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "control-chars",
+    "template": {
+      "subject": "S",
+      "body": "Hi {{name}}"
+    },
+    "recipient": {
+      "email": "k@x.com",
+      "name": "Tab\tand\nnew line"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "S",
+      "text": "Hi Tab and new line\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\">Hi Tab and new line<br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  },
+  {
+    "name": "link-same-text",
+    "template": {
+      "subject": "S",
+      "body": "[https://a.org/x](https://a.org/x)"
+    },
+    "recipient": {
+      "email": "l@x.com"
+    },
+    "site": {
+      "name": "Fourth Wave Coffee",
+      "postalAddress": "7220 Trade St, San Diego, CA 92121"
+    },
+    "senderEmail": "contact@qualifyhours.com",
+    "expect": {
+      "subject": "S",
+      "text": "https://a.org/x\n\n--\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121\nTo stop these emails, reply \"unsubscribe\" or unsubscribe here (mailto:contact@qualifyhours.com?subject=unsubscribe).",
+      "html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5\"><a href=\"https://a.org/x\">https://a.org/x</a><br>\n<br>\n--<br>\nFourth Wave Coffee · 7220 Trade St, San Diego, CA 92121<br>\nTo stop these emails, reply &quot;unsubscribe&quot; or <a href=\"mailto:contact@qualifyhours.com?subject=unsubscribe\">unsubscribe here</a>.</div>"
+    }
+  }
+]

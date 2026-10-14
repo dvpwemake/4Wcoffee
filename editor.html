@@ -159,6 +159,7 @@ textarea.fi{min-height:12rem;resize:vertical}
   <button type="button" class="is-on" data-tab="coffee" onclick="showEditorTab('coffee')">Coffee items</button>
   <button type="button" data-tab="signal" onclick="showEditorTab('signal')">Daily signal</button>
   <button type="button" data-tab="editorial" onclick="showEditorTab('editorial')">Editorial</button>
+  <button type="button" data-tab="email" onclick="showEditorTab('email')">Email</button>
 </div>
 <div class="layout" data-panel="coffee">
   <aside class="side">
@@ -339,6 +340,9 @@ textarea.fi{min-height:12rem;resize:vertical}
     <div class="fg"><label class="fl" for="edHeroSourceUrl">Hero source URL</label><input class="fi" id="edHeroSourceUrl"></div>
   </main>
 </div>
+<div class="layout" data-panel="email" hidden style="grid-template-columns:1fr">
+  <main class="main" id="outboxRoot" aria-label="Email sender"></main>
+</div>
 </div>
 <div class="toast" id="tst"></div>
 <div class="mo" id="edPrevM"><div class="md"><h3>Editorial preview</h3><div id="edPrevBody" style="line-height:1.7"></div><div class="md-a"><button class="btn" onclick="closeEdPrev()">Close</button></div></div></div>
@@ -349,5 +353,21 @@ textarea.fi{min-height:12rem;resize:vertical}
 <script src="editor-touchid.js"></script>
 <script src="editor-auth.js?v=20261014a"></script>
 <script src="editor.js?v=20260912b"></script>
+<script type="module">
+// Email sender (outbox/): mounted the first time the Email tab opens; sending runs on GitHub Actions.
+import { OutboxPanel } from "./outbox/panel.mjs?v=20261014a";
+let outbox = null;
+document.addEventListener("click", (ev) => {
+  if (!ev.target.closest('.tabs [data-tab="email"]')) return;
+  if (outbox) return outbox.load();
+  outbox = OutboxPanel.mount(document.getElementById("outboxRoot"), {
+    repo: "dvpwemake/4Wcoffee",
+    branch: "main",
+    getToken: () => { try { return sessionStorage.getItem("fw_gh_pat") || ""; } catch (e) { return ""; } },
+    site: { name: "Fourth Wave Coffee", postalAddress: "7220 Trade St, San Diego, CA 92121" },
+    timezone: "America/Los_Angeles",
+  });
+});
+</script>
 </body>
 </html>
