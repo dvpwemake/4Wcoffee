@@ -7,7 +7,7 @@ the same WebCrypto code the editor uses. Logs carry counts and codes, never addr
 Actions
   send          one plan: wait until its time, read unsubscribe replies, count the sender's Sent mail
                 in the last 24 hours, send at the plan's pace while under the daily cap, save progress
-                every 25, and hand over to a fresh run (workflow_dispatch) before the 6-hour job limit.
+                every 100, and hand over to a fresh run (workflow_dispatch) before the 6-hour job limit.
   test-sender   sign in to SMTP and IMAP, send one test to the sender itself, record ok/failed.
 
 Owner rules (2026-10-14): wake on work (no polling cron: the editor dispatches, a run relays itself);
@@ -41,7 +41,8 @@ GOOGLE_DAILY = {"workspace": 2000, "trial": 500}
 CAP_SHARE = 0.8
 FIELD_MAX = 200
 SUBJECT_MAX = 200
-SAVE_EVERY = 25
+SAVE_EVERY = 100  # a commit per 100 sends (~33 min at 3 a minute): each commit rebuilds the Pages site
+RECOUNT_EVERY = 25  # re-read the Sent count (no commit) so other tools' mail counts toward the cap
 RELAY_AFTER_S = 5 * 3600 + 40 * 60  # a run hands over before GitHub's 6-hour job limit
 RETRY_LATER_S = 15 * 60
 NET_TIMEOUT_S = 30
@@ -597,10 +598,11 @@ def run_send(env: Env, plan_id: str, sender_id: str) -> dict:
                     return status
             status["cursor"] = i + 1
             since_save += 1
+            if since_save % RECOUNT_EVERY == 0:
+                sent_times = mailbox.sent_times(env.now())  # the mailbox is the truth (other tools send too)
             if since_save >= SAVE_EVERY:
                 since_save = 0
                 save_status(env, status)
-                sent_times = mailbox.sent_times(env.now())  # the mailbox is the truth (other tools send too)
         status["state"] = "done"
         status.pop("resumeAt", None)
         save_status(env, status)

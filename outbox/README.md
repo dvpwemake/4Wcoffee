@@ -1,6 +1,6 @@
 # Outbox: the editor's email sender
 
-Editor → **Email** tab. Pick a sender, add recipients (type them, or upload a `.csv` with an
+Editor → **Email** tab (4wave) or the **✉ Email sender** button (CoC). Pick a sender, add recipients (type them, or upload a `.csv` with an
 `email` column, or a `.txt`), pick or edit a template (Save / Save as new), choose **Send now** or a
 date and time, press **Generate script**, read it, press **Execute**.
 
@@ -11,14 +11,15 @@ date and time, press **Generate script**, read it, press **Execute**.
   time and hands over to a fresh run before GitHub's 6-hour limit (owner principle 2026-10-14,
   "wake on work, not on a clock"). Gmail's own scheduled send has no API, so it cannot be used.
 - **Pace** 3 a minute. **Daily cap** 80% of Google's limit, per sender, over any 24 hours:
-  Workspace 2,000 → 1,600; Workspace trial 500 → 400. Before each batch of 25 the run counts that
+  Workspace 2,000 → 1,600; Workspace trial 500 → 400. Every 25 sends the run counts that
   mailbox's own Sent folder, so mail sent by Outreach or by hand counts too. Over the cap, the rest
   waits and continues automatically; Generate script warns first and Execute needs a tick.
 - **Unsubscribe**: every email has the postal address and a "reply unsubscribe" link
   (`List-Unsubscribe: mailto:`). Each run reads the sender's inbox for those replies first and never
   mails those addresses again (`outbox/suppressed.enc`).
-- **Resume**: progress is saved every 25. A stopped run checks the sender's Sent mail for the next
-  25 Message-IDs before sending, so nobody gets the same email twice.
+- **Resume**: progress is saved (committed) every 100 sends, about every 33 minutes, so the Pages
+  site is not rebuilt often. A stopped run checks the sender's Sent mail for the next 100
+  Message-IDs before sending, so nobody gets the same email twice.
 
 ## Privacy (public repo)
 

@@ -51,7 +51,7 @@ class FakeGit:
         self.commits = 0
 
     def __call__(self, *args):
-        if args[0] == "commit":
+        if "commit" in args:  # the engine runs `git -c user.name=... commit ...`
             self.commits += 1
         rc = 1 if args[:2] == ("diff", "--cached") else 0
         return subprocess.CompletedProcess(args, rc, "", "")
@@ -213,6 +213,13 @@ class Engine(unittest.TestCase):
         self.assertGreaterEqual(w.clock.now() - T0, 29 * 20, "3 a minute")
         self.assertNotIn("@", w.log, "logs carry counts only")
         self.assertNotIn("@", json.dumps(w.status()), "status file carries counts only")
+
+    def test_commits_stay_few_so_the_pages_site_is_not_rebuilt_often(self):
+        w = World(n=250)
+        st = w.run()
+        self.assertEqual((st["state"], st["sent"]), ("done", 250))
+        # unsubscribe list, progress at 100 and 200, done, sender usage: each commit rebuilds Pages
+        self.assertLessEqual(w.git.commits, 6)
 
     def test_stops_at_the_80_percent_cap_counted_from_the_mailbox_and_relays(self):
         w = World(n=10, used24h=1597)
