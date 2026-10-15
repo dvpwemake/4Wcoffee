@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-15T19-11-01",
+      "scannedAt": "2026-10-15T19:11:01.739061+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Bellwether Debuts New Shop Roaster As Data Shows Cafés Can Cut Coffee Costs In Half By Roasting In-House",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/bellwether-debuts-new-shop-roaster-as-data-shows-cafes-can-cut-coffee-costs-in-half-by-roasting-in-house-1457452.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Café owners who made the switch to Bellwether report saving an estimated $2,000 a month, as wholesale roasted specialty coffee prices approach $15 a pound.",
+          "image": "https://sprudge.com/wp-content/uploads/2023/07/bellwether.jpg",
+          "publishedAt": "2026-10-15T18:19:27+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Three Questions with Esther Singer of Segara Coffee",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZC14MUdXZS14RWdSVGNVQjNRYTJHdG0wU3gySXRkNWNTRjFTeHhGekxDZFNTMlUzeU5KNmRpdExVQkJuckhUY05kdUZKWkM4U3o3MVRJa3VfbktzX3JtbHBJeUtyLU5ESFRLUmR0RHRoUkZ0R2FoR3VqSUcwNUEzUlRXeFFTT04tWmg5VXl6MDlxR2VVZkE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T16:44:50+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Pastime Coffee Goes All In at New Portland Production Roastery",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNm9Wa2F3dTM3Z3JHSTg1UlN1SGhpZEFGZjlVYVIzblF1ekdIOGdoSmtTbml2a0RvNUkySDVDanRUV0FsS0NIVU5kREJtMGVBY0NiTHZUS1dKOG1YYVJRTUhDUjBwNjZnMk9MZnJ1YjJtdzMxd1JxMERiNDFYWmdXUFNUOG05NkhoWHpGOHNGM2ZnVENkc3otWGNFeFlZd0J6TVpUUQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T14:48:45+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Children's caffeine habits linked to shorter sleep and brain differences",
+          "source": "Medical Xpress",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa3dZdVNPTDlwckFTeGVyd1pjOXhGaXB2dlh3bm5uT21ncVJ3ODc4VEhacnJodDd3ck9fZkhpV25URXcxY0R1S09RT0hqWlpGakNtbmZEZTJSNV9WMFUwRlhqdmxwWjRfc1Q1eHZpVWRlZWhqUzhyVXdGenVnQ2JVaXkxb2xvX2ZjeWhn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T16:40:01+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Coffee drinkers had fewer repeat blood clots in a Norwegian study",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWU1kbzY3SlU1NW5NVlE2S1NmcVNsOG0wN1NUTUpjckQ0TXZGSjVMZ0JqWmV3TGRvX1JVMW9NRVN0eC05dVNrRUJaTmNyaHdNSVBqRWRyU3VnTlZQOVVOQXRrLUpwd2RrVTJsTmhGaW9WbU9McDQtaUFubWlnRGtkRlFOSldqeTBNanlSZE54dFR2a2t3ME9XWmhGdXp3dXlXSnFubm5sM1gzVk9jU3NaeUZPYw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T03:30:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The Sweet Spot: 10 Exceptional Coffees Under $20",
+          "source": "Coffee Review",
+          "sourceUrl": "https://www.coffeereview.com/10-exceptional-coffees-under-20/",
+          "summary": "Great coffee at a fair price is about more than just doing the math. What makes a coffee a good value? The obvious answer is quality relative to price, and that was our starting point for this report. We looked for coffees that cost no more than $19 per 12 ounces that still offer",
+          "image": "https://www.coffeereview.com/wp-content/uploads/2026/10/Value-Coffee-slider-image-scaled-e1791987867845.jpg",
+          "publishedAt": "2026-10-15T17:49:23+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Tc Space Specialty Coffee Shop",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NZ0oxSURyd2pyVDBnNWFTOXpselBncDJoeEh1cVkxV2liOEc0LUk1YjgtNWgwWGQwYW40ZjZnWjdES2RscU1KUW9vVVhadXk3eGNTVFh3bWxOSEFySGRmLUR4OA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T13:05:16+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Best Cafés in Ružomberok - Speciality Coffee Guide to Ružomberok",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83b1EwaEVzTFdDQjRXLWtJcmhaOHE4c3NVUFNoM1lmQ2hvRXhWb1Q2ejVvRTk4VGVRM2c2TzRoc1JHS1YzQXBjWS1rWU9oMjN2M1ZRNWhYbVpodk9fUXc1dQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T13:00:53+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-14T19-26-39",
       "scannedAt": "2026-10-14T19:26:39.444664+00:00",
       "items": [
@@ -2293,78 +2387,6 @@
           "summary": "Outin has created a round espresso scale. But does it offer anything besides a unique form factor? The post Outin Claro Review: Cute But Annoying appeared first on The Coffee Chronicler .",
           "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/02/Outin-Claro-2.jpeg",
           "publishedAt": "2026-02-11T07:19:19+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-18T18-31-11",
-      "scannedAt": "2026-09-18T18:31:11.866184+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Stumptown Coffee Roasters In Los Angeles, CA",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-stumptown-coffee-roasters-in-los-angeles-ca-1310585.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Stumptown Coffee Roasters in Los Angeles, California.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
-          "publishedAt": "2026-09-18T14:00:08+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Motors Coffee (Of Paris) Is Popping Up At Sey Coffee (Of Brooklyn)",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/motors-coffee-of-paris-is-popping-up-at-sey-coffee-of-brooklyn-1345718.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Motors Coffee is taking over Sey's Bushwick cafe this weekend.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/sey-x-motors-coffee.jpg",
-          "publishedAt": "2026-09-18T12:00:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Espresso Machine Dep-3-ciation",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/espresso-machine-dep-3-ciation/",
-          "summary": "The resale value on high-end espresso machines is awesome; it’s staggering for 1-group machines. As for 3-groups?… It’s terrible. The coffee industry values the third group... The post Espresso Machine Dep-3-ciation appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2026/09/Linea-Extra-Group-3.jpg",
-          "publishedAt": "2026-09-18T10:53:28+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "The Lion vs The MVP",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/the-lion-vs-the-mvp/",
-          "summary": "If you opened your first cafe with a nice reliable second hand LM Linea and you’re curious to know how it compares to a more modern (and more expensive) equivalent, then this blog post is for you. The post The Lion vs The MVP appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2024/11/The-Lion-vs-The-MVP-Header-02-scaled.jpg",
-          "publishedAt": "2024-11-09T10:46:03+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "KINGrinder K7: The ZP6 killer Is Firing Blanks",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/kingrinder-k7-review/",
-          "summary": "Kingrinder K7 tries a lot of new things, and almost succeeds. Except where it's most crucial. The post KINGrinder K7: The ZP6 killer Is Firing Blanks appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/04/Snapseed-scaled.jpeg",
-          "publishedAt": "2026-04-06T01:00:47+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "What “Direct Trade” Means for the Farmer Who Grew Your Coffee",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/farming/what-direct-trade-means-for-the-farmer-who-grew-your-coffee/",
-          "summary": "Direct trade, fair trade, commodity: three labels, three very different promises. Learn what they actually mean for the farmers behind your morning cup. The post What “Direct Trade” Means for the Farmer Who Grew Your Coffee appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/03/Marisol-FT-Article-Hero-1-800x533.jpg",
-          "publishedAt": "2026-03-09T11:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
