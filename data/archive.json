@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-17T17-53-55",
+      "scannedAt": "2026-10-17T17:53:55.944603+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Coffee Sprudgecast: The One With Pumpkin Spice Caskets",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/coffee-sprudgecast-the-one-with-pumpkin-spice-caskets-1416443.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. T",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/new_diner_mug_matte_black_white_gloss_gray_b2b_lifestyle_motofish_021226_009.jpg",
+          "publishedAt": "2026-10-16T20:03:06+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Climate Change Has Made it Possible to Grow Coffee in Italy",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111149/",
+          "summary": "In Palermo, a Sicilian family is successfully growing coffee outdoors, marking a shift in agricultural boundaries amid climate change challenges. The post Climate Change Has Made it Possible to Grow Coffee in Italy appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/projeto-cafe-gato-mourisco-ARYdChGYK_s-unsplash-scaled.jpg",
+          "publishedAt": "2026-10-15T19:16:27+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Effects of coffee thermocycling on surface roughness, microhardness, and color stability of permanent crown materials",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FOC1ncXU4RVk3aDhnNEdQTWptNGFobDJqNEUtcTRMbWFncWs2MW9nNlVrSVlXdjlQeWphd1JYMXo2Mkd4ckRZLUVzay1zVzlZVnVSWlJTVmoybVdDOFNF",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-14T19:28:59+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "I Found 5 Decaf Coffees That Are Actually Worth Brewing",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10cl80b1pnTE9RaGRhYTBkV090Q2pyY29vazBOM0ZXSGdIdHRFc2MxVWtFbnZJZ00ybDk5Q19NNW9MS0ljdWczV1NVN3c1dUJyZlF3b01JT2w5OEpldWEyRFFYRQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-14T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Meke Coffee Roasters - Sant Joan de Labritja, Spain",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoUUxkTW1DWUtBa3NlQnFLNXIxb0xRUGdOQWh4SlRvSGdBaVBaM3pyMTdYandESm1OWFQ5TWNyRkM2VllIazIwYl9RYlYySm5wVW1rXzdMVWNIUmczZW4zcWUzMmptSVNobWc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T14:17:08+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Corado Coffee Roasters - Mandal, Norway",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBN0dRcmNiQWJBTFlnLV9GQzFyZlY1OFdMWUtUUTl2S0EyV29tTVNoNlEyRmdhbERlZHpJQlJyUFhLQUs2UGVZTFh4cng0T1FrRDdmTXlQbVZKcmpId0stZm9YaHJXeGtzdEJLbWNlWQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T13:44:58+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Sofía Vergara’s ¡Dios Mío! Coffee expands its U.S. retail presence with exclusive Costco launch",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa0dvV0hnSlFiUU41YzRTcWU4YV9KLWZsWFZCd0l2eGZ5UG1QcFFNNVlTblY3eGtNTklNSUc5T0RFMUJPeS1aWXJBcU9qR1VGZEhWa3o5aHU0SGttbjdzYzVTM1p6NmFrTW5qXzRCNDNHYl9kcm1mMy15eTJSamVEVDBzeXpLbzI5cFd0WW1oMFJRRC1RWkhUaHFFOEFGcTg4Y2NiQkxmcXVYdGtaNmlCRXlMWHptYmhwMUZjMA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T11:05:24+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-4",
+          "title": "Nestlé Usa unveils 2027 food and beverage trend forecast, from zestier moments to juicier coffees",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZWJhWDlfWVMyM0twRlRzZDVCLVF3S1VJVmwyTThnam41UmtzRG9aZ3lDMEFKWnF2QlEyTWhNNkc2bzYtZjJZWkdwY1hkY2ZmYXJ5VE9mckpTOEJzOVlWeWt4ZlFvZ0RvdjZrWTVibTdNLW1TMVhVdEQtQk04VjBTdmFTMFAtaVVMbFNoSVJ4cEU1cFIzbmp6RW9uUUZQaUZFNzZvY2thSHVHWk9EbGNtMERKbWg5Q005aXZKYVQ5aXpxYms",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T11:05:24+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-16T18-51-02",
       "scannedAt": "2026-10-16T18:51:02.125167+00:00",
       "items": [
@@ -2391,26 +2485,6 @@
           "publishedAt": "2026-02-03T17:51:59+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-19",
-      "scannedAt": "2026-09-20T17:42:23.000Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-19",
-          "rank": 0,
-          "title": "The Craft and the Convenience",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-19.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-19"
         }
       ]
     }
