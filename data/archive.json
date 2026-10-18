@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-17",
+      "scannedAt": "2026-10-18T23:42:06.078Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-17",
+          "rank": 0,
+          "title": "Redefining the Coffee Horizon",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "From unexpected European terroirs to shifting consumer tastes, specialty coffee is redrawing its global boundaries.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/new_diner_mug_matte_black_white_gloss_gray_b2b_lifestyle_motofish_021226_009.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-17.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-17"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-18T18-09-01",
       "scannedAt": "2026-10-18T18:09:01.622848+00:00",
       "items": [
@@ -2413,26 +2433,6 @@
           "publishedAt": "2026-01-21T10:00:20+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-20",
-      "scannedAt": "2026-09-22T02:57:56.863Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-20",
-          "rank": 0,
-          "title": "The first lot from Vietnam",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Thirty years. Screening that still has to happen.",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Grounds-for-Health-auction.png",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-20.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-20"
         }
       ]
     }
