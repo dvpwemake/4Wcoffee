@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-18T18-09-01",
+      "scannedAt": "2026-10-18T18:09:01.622848+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "A Coat And A Nice Cup Of Coffee, Is That Really Too Much To Ask For?",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/a-coat-and-a-nice-cup-of-coffee-is-that-really-too-much-to-ask-for-1465213.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/partners-guatemala-santa-elisa-gesha-sprudge-roasters-village-copy.jpg",
+          "publishedAt": "2026-10-18T12:00:32+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Verve Coffee Workers Vote to Ratify Landmark Union Agreement with Industry-First Protections",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111146/",
+          "summary": "Verve Coffee Roasters workers prepare to vote on a historic labor contract, addressing AI management concerns and improving sick leave and scheduling protections. The post Verve Coffee Workers Vote to Ratify Landmark Union Agreement with Industry-First Protections appeared first ",
+          "image": "https://coffeetalk.com/wp-content/uploads/iStock-528280178.jpg",
+          "publishedAt": "2026-10-15T19:13:33+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Data from Bellwether’s Roasting Calculator Shows Cafés Can Potentially Cut Coffee Costs in Half by Roasting In-House",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111142/",
+          "summary": "Bellwether Coffee unveils a new Shop Roaster, promising cost savings and enhanced branding opportunities for cafés, debuting at Coffee Fest Dallas. The post Data from Bellwether’s Roasting Calculator Shows Cafés Can Potentially Cut Coffee Costs in Half by Roasting In-House appear",
+          "image": "https://coffeetalk.com/wp-content/uploads/bellwether-coffee-roaster-scaled.png",
+          "publishedAt": "2026-10-15T19:08:40+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Daniel Borrás: The Sprudge Twenty Interview",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/daniel-borras-the-sprudge-twenty-interview-1278717.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Daniel Borrás.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_daniel-borras.webp",
+          "publishedAt": "2026-10-15T14:00:35+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "origin-1",
+          "title": "Barista Stories: Driel Telles de Menezes of Sense of Coffee and The Coffee Bloc, Lisbon",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9femgzSXBKSGhnRWpIamtLRDdiXzRPZVdjSEI2WGhxRE51NjZPNTJueVlDRVhmS3JFS3kxWkdrTUt5X0dWZm80UFljVVhkOWJ3SzhlUW1ZeWJZb2cwTm54RkxkemhocDh3R1UzRDBqTjVzVjFUZU8tY0Fncw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T13:27:05+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Tao Coffee - Prague, Czech Republic",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hOURIeTVabGpValJaYWx4OEFNUnl0RzZaRm5yeHdqajgtRlBmLWlKakZmTVpVOWxNbnRHM09NakU4Q21rejFpRnN0eG14N2lHVXdkcHY2dG5vZVloY19GSw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T11:55:44+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Bellwether debuts new Shop Roaster as data shows cafés can cut coffee costs in half by roasting in-house",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRTZSTml4VjBuS1VaeXBBdFdDbGx1bDBuQVc4bGx3VHBkUU5MR19Db3VEb0JyWE1wM3ZEZElDOVFkNGN4RGhXOGVtUDg2X3F0LW1TWDR6V2YtR2NTeW1NZHB2N1BxTTVsN0ZKS29zSXo3MXUwSVI5WVk4VzBOa29SbDlYRnpVVUJYbzM5eXRwOHhZbGFhOTNoUlpoa3JzN2VnY19TRTZFQldNaTNUcWIwc2Y0MVJQZzE1T0xhVFl3akpzNmNhYWpsTlpzekN6Zw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-16T10:20:24+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-4",
+          "title": "How El Niño is already shaping coffee markets, silverskin shows promise against steel corrosion",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVHRQNS1uTWYxT3NOOGVmQmdjMS1FS0htQjZfdEIxV3I4a0N6cEo1RTh6UDlyWEpvcG9hUVp1ZVNQYmRCVVhHeTIyUjVKekhTSUtEUzVTMzgxSHBxOW5saGhYNFRxOXBEakRxYUdWUVlhbjBaZnNfdnNJdDhUV0VYLWlkZktWMkFYUnF2Zk84WTBIakV5MDJXMWJQVktpZ0lCV0RCb0xPb3lJVjRGTFVyOTF1R29SeUdFVnotRGJicnA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-15T22:55:23+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-15",
       "scannedAt": "2026-10-18T06:36:55.434Z",
       "kind": "editorial_archive",
@@ -2361,78 +2455,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-20.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-20"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-21T20-00-55",
-      "scannedAt": "2026-09-21T20:00:55.870893+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "RoastConsole Launches Coffee Roasting Software That Runs The Whole Roastery On One Plan",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/roastconsole-launches-coffee-roasting-software-that-runs-the-whole-roastery-on-one-plan-1356622.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Farspeak Labs releases a single system for small and mid-sized roasteries, from the roast log to the invoice, priced on roasted volume with no add-ons.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/roastconsole-hero.jpg",
-          "publishedAt": "2026-09-21T16:00:38+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Smart Care Launches Turbo Tech For Speed Ovens & Coffee Equipment, Debuts Innovative Flat Rate Price For Speed Ovens Service",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/smart-care-launches-turbo-tech-for-speed-ovens-coffee-equipment-debuts-innovative-flat-rate-price-for-speed-ovens-service-1356618.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Introducing the Turbo Tech One from Smart Care Solutions.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/turbotech.jpg",
-          "publishedAt": "2026-09-21T15:12:05+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "The Physics of Coffee Class",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2022/03/17/the-physics-of-coffee-class/",
-          "summary": "Announcing a coffee class during the Boston SCA expo",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2022/03/poc_class_hdr.png?fit=1200%2C676&ssl=1",
-          "publishedAt": "2022-03-18T02:41:26+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Restraining Flow to Mitigate Channels",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/10/23/restraining-flow-to-mitigate-channels/",
-          "summary": "In the past weeks, I have been experimenting with the AeroPress combined with the Prismo attachment, and I tried one small hack that produced a surprising result. I inserted a pasta strainer mesh like the one I described in my Stagg [X] recipe to increase the total open surface a",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/10/header_image.jpg?fit=1200%2C900&ssl=1",
-          "publishedAt": "2021-10-23T14:44:32+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "The Hollow Harvest: Why Your Morning Cup Tastes… Different",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/farming/the-hollow-harvest-why-your-morning-cup-tastes-different/",
-          "summary": "Why does your favorite Brazil coffee taste woody and cost $7 more? We look into the \"Hollow Harvest,\" 50% tariffs, and the hidden Robusta creep. The post The Hollow Harvest: Why Your Morning Cup Tastes… Different appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/02/Brasil-Coffee-Farm-800x533.jpg",
-          "publishedAt": "2026-02-15T11:30:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Sour Espresso: Specialty Coffee’s Uncomfortable Truth",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/why-is-my-espresso-sour/",
-          "summary": "Dialing in is not the answer to everything. If sourness persists, there might be deeper issues at play. The post Sour Espresso: Specialty Coffee’s Uncomfortable Truth appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-16.39.33.jpg",
-          "publishedAt": "2026-01-25T08:14:44+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
