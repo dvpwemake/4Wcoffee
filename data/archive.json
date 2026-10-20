@@ -1,6 +1,100 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-20T19-20-19",
+      "scannedAt": "2026-10-20T19:20:19.334677+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "2027 Roaster of the Year - Daily Coffee News",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sVVc5UThIR3BabFU4eF9CblBOX25DYVZUcHZwcnpPaEl3V2syRlVQN2o4LTI1cElhOVdIekFrNVdZTk9zZ3ZqckRyZkROQkp2LU5STkVxbHl2THB0Y2tyNE8tMmFpMDJP",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-20T16:39:21+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Patrick Smith - Daily Coffee News",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sb1A4RzlLSmNIa2Vjd1paT05Cc0lWZUZxd3cwODI5bGljZ0hhUGR4SC02bFRia05FZXNQVmxaWjdaa1lxY0xFRHBRX01uUVRwM1hwZHB6M1F6dw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-20T16:39:21+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Phil & Sebastian Announces Second Edition Of Project III, Featuring Ratibor Hartmann, Proud Mary, And MAME",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/phil-sebastian-announces-second-edition-of-project-iii-featuring-ratibor-hartmann-proud-mary-and-mame-1486270.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Three international roasters come together to explore the extraordinary Geisha coffees of one of Panama's most influential producers.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/project-iii-release-2-box-copy.jpg",
+          "publishedAt": "2026-10-20T15:33:03+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "The Analytics Of Autumn: Trends And Surprises From The 2026 Build Outs Of Coffee",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-analytics-of-autumn-trends-and-surprises-from-the-2026-build-outs-of-coffee-1457338.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Looking back at the 2026 Build-Outs of Coffee, by the numbers.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
+          "publishedAt": "2026-10-20T14:00:38+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Timemore S5 Review: Punchy Heavyweight",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/timemore-s5-review/",
+          "summary": "Timemore’s boldest conical burr brings punch to light roasts. But did it land a knockout against the mid-range rivals? The post Timemore S5 Review: Punchy Heavyweight appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/10/IMG_9874-scaled.jpg",
+          "publishedAt": "2026-10-20T14:21:11+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "helisu coffee co.",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2QU9zd25FemFpNUUyakhYZEJ2empnYUFKckZxZzhaanN4dm1PRE1IQUVJNzNmXzlTZ1V4Z0hYUUEyNU5FZjI3VXN5dXp1SHhCUW9XczYyVnNRTm5iSE9QQXhVVTZvVzRXS1NGbg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-20T13:11:57+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Coffee Decoded: The Chemistry of Decaffeination",
+          "source": "Specialty Coffee Association",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yaUlPMUJ5YVNxbkZtV1dQU05vWDZ6MHlpNFFZVjZreEtBb3k1c1pGRGlKSHpEMmR1VDNYX1doWVZYM1N1REFZa1d5Vm95cjNYRVBtQ2xjNGVFOWdjdktDVGhkX0JrcThkcUt6NUlkbkM3dw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-19T18:09:46+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "TriestEspresso Expo 2026 unites coffee value chain in Trieste with focus on business and innovation",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQjlXYWp2dy0zYTMtYXlXMmJVWHAyZkpwVHJwODFsT3NURmF0V1IzWmZvQnpVc2ZNOE4xeE1ZeS01Y0JDT1VVc2FzLTJqdXMtZ0NCYXdjUWQtMXNCc2hVTV9HQXdjLUZndC03ZGFfdEx1eHZEbU9SRDl6UktrakE4NkF3bEREWllHOHFpR083OV8zQjhqQ3VqcWdnWkxhaVp0X2tWbHQxcEQzVWEzbHI3S1dxLWRXbDk5Q1prVDgzb0s5WGotdjM0",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "publishedAt": "2026-10-18T22:55:03+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-18",
       "scannedAt": "2026-10-20T02:20:45.065Z",
       "kind": "editorial_archive",
@@ -2383,78 +2477,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-22.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-22"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-23T19-05-32",
-      "scannedAt": "2026-09-23T19:05:32.652540+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Bellwood Coffee In Atlanta, GA",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-bellwood-coffee-in-atlanta-ga-2-1327933.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Bellwood Coffee in Atlanta, Georgia.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/tdg_bellwoodgrantpark_web-@grayson-guldenschuh-1.jpg",
-          "publishedAt": "2026-09-23T14:00:48+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Cafe Imports Is Now 100% Employee Owned",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/cafe-imports-is-now-100-employee-owned-1356707.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. They've instituted an employee stock ownership plan.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/ci_100-copy.jpg",
-          "publishedAt": "2026-09-23T12:00:53+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Shaken or Stirred",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/shaken-or-stirred/",
-          "summary": "Densification results in more spherical coffee particles, which allows them to pack together more evenly . This in turn would allow water to flow more evenly through the puck. To understand why spherical particles... The post Shaken or Stirred appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2024/02/A-licence-to-mill-Header-scaled.jpg",
-          "publishedAt": "2024-02-23T14:41:15+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "RDT vs The AutoComb",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/rdt-vs-the-autocomb/",
-          "summary": "You've probably heard that scientists recently caught up with something home baristas have known for nearly two decades: that spraying your coffee with water just before grinding can reduce the amount of static created. ... The post RDT vs The AutoComb appeared first on Barista H",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2024/01/Spritz-header-03.jpg",
-          "publishedAt": "2024-01-04T12:03:56+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Mhw-3bomber Xpress-58",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/mhw-3bomber-xpress-58/",
-          "summary": "Here it is: the flagship in the world of battery-operated espresso makers. The post Mhw-3bomber Xpress-58 appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/01/xpress-58-featured-image-scaled.jpeg",
-          "publishedAt": "2026-01-11T12:16:54+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "MiiCoffee Eon",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/miicoffee-eon/",
-          "summary": "Miicoffee Eon is a solid little travel espresso maker that benefits from a genuine 51 mm basket The post MiiCoffee Eon appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/01/IMG_7349.jpeg",
-          "publishedAt": "2026-01-11T11:03:16+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
