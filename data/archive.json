@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-18",
+      "scannedAt": "2026-10-20T02:20:45.065Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-18",
+          "rank": 0,
+          "title": "Beyond the Bean: Labor, Climate, and the New Cafe Economics",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "As shifting weather patterns disrupt global markets, the specialty coffee industry is adapting through historic union protections, accessible roasting tech, and radical sustainability.",
+          "image": "https://coffeetalk.com/wp-content/uploads/iStock-528280178.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-18.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-18"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-19T20-38-08",
       "scannedAt": "2026-10-19T20:38:08.394495+00:00",
       "items": [
@@ -2435,26 +2455,6 @@
           "publishedAt": "2026-01-11T11:03:16+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-21",
-      "scannedAt": "2026-09-23T04:40:09.495Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-21",
-          "rank": 0,
-          "title": "The Machine and the Bean",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Where Coffee's Next Wave Is Breaking",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-16.39.33.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-21.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-21"
         }
       ]
     }
