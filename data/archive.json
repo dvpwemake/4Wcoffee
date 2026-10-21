@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-19",
+      "scannedAt": "2026-10-21T16:40:13.750Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-19",
+          "rank": 0,
+          "title": "From Fermentation to Form: The Next Phase of Coffee Innovation",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "How climate science, circular chemistry, and creative storytelling are reshaping the specialty landscape from origin to cup.",
+          "image": "https://coffeetalk.com/wp-content/uploads/susan-wilkinson-xuGGytlK0-E-unsplash-scaled.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-19.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-19"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-20T19-20-19",
       "scannedAt": "2026-10-20T19:20:19.334677+00:00",
       "items": [
@@ -2160,26 +2180,6 @@
           "publishedAt": "2026-01-09T21:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-22",
-      "scannedAt": "2026-09-24T04:59:38.202Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-22",
-          "rank": 0,
-          "title": "Shaking the Grounds",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Science, Stance, and Sanctuary",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/cascara-cabinet-rtd-01-1.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-22.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-22"
         }
       ]
     }
