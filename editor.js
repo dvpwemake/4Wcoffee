@@ -396,6 +396,7 @@
       this.bindTabs();
       this.archive = { batches: [] };
       this.sources = null;
+      await this.loadImageOverrides();
       this.reloadNewsDesk();
       this.fillEditorial();
       this.log("inf", "Loaded " + this.products.length + " catalog items.");
@@ -654,6 +655,7 @@
       var host = document.getElementById("signalList");
       var meta = document.getElementById("newsDeskMeta");
       if (!host) return;
+      if (host.querySelector(".img-adj-row")) this.collectSignals();
       var pack = this.collectNewsRows();
       if (meta) {
         if (!pack.total) {
@@ -680,10 +682,6 @@
         return;
       }
       var self = this;
-      var used = {};
-      pack.rows.forEach(function (it) {
-        self.assignUniqueCover(it, used);
-      });
       host.innerHTML = pack.rows
         .map(function (it, i) {
           var img = it.image || "";
@@ -736,7 +734,13 @@
         self.confirmCover(thumb, inp && inp.value.trim());
         if (inp) {
           inp.addEventListener("input", function () {
-            self.confirmCover(thumb, inp.value.trim());
+            var it = self.rowItem(row);
+            var next = inp.value.trim();
+            if (it) {
+              it.image = next;
+              it.imageLocked = !!next;
+            }
+            self.confirmCover(thumb, next);
           });
         }
       });
@@ -753,6 +757,56 @@
           if (act === "delete") self.deleteSignal(row);
         });
       }
+    }
+
+    lockKeyUrl(url) {
+      return String(url || "").split("?")[0].replace(/\/+$/, "").toLowerCase();
+    }
+
+    lockKeyTitle(title) {
+      return String(title || "").toLowerCase().replace(/\s+/g, " ").trim().slice(0, 80);
+    }
+
+    lockedCoverIndex(items) {
+      var byUrl = {};
+      var byTitle = {};
+      var self = this;
+      (items || []).forEach(function (it) {
+        if (!it || !it.imageLocked || !it.image) return;
+        var u = self.lockKeyUrl(it.sourceUrl);
+        var t = self.lockKeyTitle(it.title);
+        if (u) byUrl[u] = it.image;
+        if (t) byTitle[t] = it.image;
+      });
+      return { byUrl: byUrl, byTitle: byTitle };
+    }
+
+    applyLockedCover(it, idx) {
+      if (!it || !idx) return;
+      var img = (idx.byUrl && idx.byUrl[this.lockKeyUrl(it.sourceUrl)]) || (idx.byTitle && idx.byTitle[this.lockKeyTitle(it.title)]) || "";
+      if (!img) return;
+      it.image = img;
+      it.imageLocked = true;
+    }
+
+    async loadImageOverrides() {
+      var ov = {};
+      try {
+        var res = await fetch("data/image-overrides.json?v=" + Date.now(), { credentials: "same-origin" });
+        if (res.ok) ov = await res.json();
+      } catch (e) {
+        ov = {};
+      }
+      if (!ov || typeof ov !== "object") return;
+      var items = (global.SIGNALS && global.SIGNALS.items) || [];
+      items.forEach(function (it) {
+        var url = it.sourceUrl || "";
+        var key = url.split("?")[0].replace(/\/+$/, "");
+        var img = ov[url] || ov[key];
+        if (!img) return;
+        it.image = img;
+        it.imageLocked = true;
+      });
     }
 
     signalKey(it) {
@@ -815,7 +869,13 @@
         var labels = (global.SIGNALS && global.SIGNALS.categories) || {};
         it.categoryLabel = labels[it.category] || it.category;
       }
-      if (img) it.image = img.value.trim();
+      if (img) {
+        var nextImg = img.value.trim();
+        if (nextImg !== String(it.image || "")) {
+          it.image = nextImg;
+          it.imageLocked = !!nextImg;
+        }
+      }
     }
 
     deleteSignal(row) {
@@ -854,6 +914,7 @@
       var it = this.rowItem(row);
       if (!it) return;
       this.writeRowFields(row, it);
+      it.imageLocked = !!String(it.image || "").trim();
       this.confirmCover(row.querySelector(".sig-thumb"), it.image || "");
       this.toast("Saved on this card.", "success");
     }
@@ -874,8 +935,10 @@
       }
       var inp = row.querySelector(".sig-img");
       if (inp) inp.value = og;
+      it.image = og;
+      it.imageLocked = true;
       this.confirmCover(row.querySelector(".sig-thumb"), og);
-      this.toast("Image URL loaded — click Apply to save.", "info");
+      this.toast("Cover link kept.", "info");
     }
 
     async fetchAllCovers() {
@@ -883,6 +946,7 @@
       var items = data.items || [];
       this.toast("Fetching covers…", "info");
       for (var i = 0; i < items.length; i++) {
+        if (items[i].imageLocked) continue;
         var cur = items[i].image || "";
         if (cur && !this.isAdOrChrome(cur)) continue;
         var og = await this.fetchOgImage(items[i].sourceUrl);
@@ -1146,6 +1210,10 @@
       catIds.forEach(function (id) {
         items = items.concat(byCategory[id] || []);
       });
+      var locked = this.lockedCoverIndex((global.SIGNALS && global.SIGNALS.items) || []);
+      items.forEach(function (it) {
+        this.applyLockedCover(it, locked);
+      }, this);
       global.SIGNALS = {
         scannedAt: new Date().toISOString(),
         categories: labels,
@@ -1185,11 +1253,47 @@
       return data;
     }
 
+    heroLockSource(ed) {
+      var saved = null;
+      try {
+        saved = JSON.parse(sessionStorage.getItem("fw_editorial") || "null");
+      } catch (e) {
+        saved = null;
+      }
+      var published = global.EDITORIAL || {};
+      var draft = global.EDITORIAL_DRAFT || {};
+      var date = (ed && ed.publishDate) || "";
+      if (saved && saved.heroLocked && saved.heroImage && (!date || saved.publishDate === date)) return saved;
+      if (draft.heroLocked && draft.heroImage && (!date || draft.publishDate === date)) return draft;
+      if (published.heroImage && published.publishDate && published.publishDate === date) return published;
+      return null;
+    }
+
+    rememberHeroLock() {
+      var ed = this.collectEditorial();
+      ed.heroLocked = true;
+      var hero = document.getElementById("edHero");
+      if (hero) hero.dataset.locked = "1";
+      try {
+        sessionStorage.setItem("fw_editorial", JSON.stringify(ed));
+      } catch (e) {
+        /* ignore */
+      }
+    }
+
     fillEditorial() {
       var published = global.EDITORIAL || {};
       var draft = global.EDITORIAL_DRAFT || {};
       var usingDraft = draft.status === "draft" && draft.title;
-      var ed = usingDraft ? draft : published;
+      var ed = Object.assign({}, usingDraft ? draft : published);
+      var lock = this.heroLockSource(ed);
+      if (lock && lock.heroImage) {
+        ed.heroImage = lock.heroImage;
+        if (lock.heroCredit) ed.heroCredit = lock.heroCredit;
+        if (lock.heroSource) ed.heroSource = lock.heroSource;
+        if (lock.heroSourceUrl) ed.heroSourceUrl = lock.heroSourceUrl;
+        ed.heroLocked = true;
+      }
       var banner = document.getElementById("edDraftBanner");
       if (banner) {
         banner.hidden = !usingDraft;
@@ -1221,9 +1325,14 @@
         b.addEventListener("input", this.countEditorial.bind(this));
       }
       var h = document.getElementById("edHero");
+      if (h) h.dataset.locked = ed.heroLocked ? "1" : "";
       if (h && !h.dataset.bound) {
         h.dataset.bound = "1";
-        h.addEventListener("input", this.updEdImg.bind(this));
+        h.addEventListener("input", function () {
+          h.dataset.locked = "1";
+          this.updEdImg();
+          this.rememberHeroLock();
+        }.bind(this));
       }
       this.updEdImg();
       this.renderEditorialPreview();
@@ -1293,6 +1402,7 @@
         title: this.val("edTitle"),
         dek: this.val("edDek"),
         heroImage: this.val("edHero"),
+        heroLocked: !!((document.getElementById("edHero") || {}).dataset && document.getElementById("edHero").dataset.locked === "1"),
         heroCredit: this.val("edCredit"),
         heroSource: this.val("edHeroSource"),
         heroSourceUrl: this.val("edHeroSourceUrl"),
@@ -1346,6 +1456,7 @@
         authorName: ed.authorName || "Dr. Wallace Lynch",
         authorTitle: ed.authorTitle || "Editor in Chief",
         heroImage: ed.heroImage || "",
+        heroLocked: !!ed.heroLocked,
         heroCredit: ed.heroCredit || "",
         heroSource: ed.heroSource || "",
         heroSourceUrl: ed.heroSourceUrl || "",
@@ -1654,6 +1765,7 @@
           sourceUrl: it.sourceUrl,
           summary: it.summary,
           image: it.image || "",
+          imageLocked: !!it.imageLocked,
           publishedAt: it.publishedAt,
           category: it.category,
           categoryLabel: it.categoryLabel,
@@ -1784,11 +1896,15 @@
           var cr = document.getElementById("edCredit");
           var hs = document.getElementById("edHeroSource");
           var hu = document.getElementById("edHeroSourceUrl");
-          if (h) h.value = c.image;
+          if (h) {
+            h.value = c.image;
+            h.dataset.locked = "1";
+          }
           if (cr) cr.value = c.title || c.source || "Field signal";
           if (hs) hs.value = c.source || "Selected article";
           if (hu) hu.value = c.sourceUrl || "";
           self.updEdImg();
+          self.rememberHeroLock();
           self.refreshEdHeroPicker();
         });
       }
@@ -1817,6 +1933,8 @@
         lines.push("");
       }
       var cats = [];
+      var heroEl = document.getElementById("edHero");
+      var keepHero = !!(heroEl && heroEl.dataset.locked === "1" && heroEl.value.trim());
       var firstImg = null;
       items.forEach(function (it, i) {
         var cat = labels[it.category] || it.categoryLabel || "General";
@@ -1867,11 +1985,12 @@
       set("edBody", body);
       set("edAuthor", "Dr. Wallace Lynch");
       set("edAuthorTitle", "Editor in Chief");
-      if (firstImg) {
+      if (firstImg && !keepHero) {
         set("edHero", firstImg.image);
         set("edCredit", firstImg.source || "");
         set("edHeroSource", firstImg.source || "");
         set("edHeroSourceUrl", firstImg.sourceUrl || "");
+        if (heroEl) heroEl.dataset.locked = "";
       }
       this.countEditorial();
       this.updEdImg();

@@ -181,17 +181,74 @@ def load_image_overrides() -> dict:
         return {}
 
 
-def apply_image_overrides(items: list) -> None:
+def norm_title(title: str) -> str:
+    return re.sub(r"\s+", " ", (title or "").strip().lower())[:80]
+
+
+def norm_url(url: str) -> str:
+    return (url or "").split("?")[0].rstrip("/")
+
+
+def index_locked_covers(prev_items: list, overrides: dict) -> dict:
+    """Map an admin cover by article URL and by headline.
+
+    A later scan often gets a new Google News URL for the same story.
+    The headline still finds the cover the admin set.
+    """
+    by_url = {}
+    by_title = {}
+    for url, img in (overrides or {}).items():
+        if isinstance(img, str) and img:
+            by_url[url] = img
+            by_url[norm_url(url)] = img
+    for it in prev_items or []:
+        url = it.get("sourceUrl") or ""
+        key = norm_url(url)
+        img = ""
+        if it.get("imageLocked") and it.get("image"):
+            img = it["image"]
+        elif url in by_url:
+            img = by_url[url]
+        elif key in by_url:
+            img = by_url[key]
+        if not img:
+            continue
+        if url:
+            by_url[url] = img
+        if key:
+            by_url[key] = img
+        title = norm_title(it.get("title") or "")
+        if title:
+            by_title[title] = img
+    return {"by_url": by_url, "by_title": by_title}
+
+
+def locked_cover(item: dict, locked: dict) -> str:
+    if not item or not locked:
+        return ""
+    url = item.get("sourceUrl") or ""
+    key = norm_url(url)
+    title = norm_title(item.get("title") or "")
+    by_url = locked.get("by_url") or {}
+    by_title = locked.get("by_title") or {}
+    return by_url.get(url) or by_url.get(key) or by_title.get(title) or ""
+
+
+def apply_image_overrides(items: list, locked: dict | None = None) -> None:
     """Admin-designated covers always win over crawl and stock."""
     ov = load_image_overrides()
-    if not ov:
+    if locked is None:
+        locked = index_locked_covers([], ov)
+    if not ov and not (locked.get("by_url") or locked.get("by_title")):
         return
     for it in items:
-        url = it.get("sourceUrl") or ""
-        key = url.split("?")[0].rstrip("/")
-        img = ov.get(url) or ov.get(key)
+        img = locked_cover(it, locked)
+        if not img:
+            url = it.get("sourceUrl") or ""
+            img = ov.get(url) or ov.get(norm_url(url)) or ""
         if img:
             it["image"] = img
+            it["imageLocked"] = True
             print("  admin cover", (it.get("title") or "")[:40])
 
 
@@ -200,13 +257,15 @@ def is_site_stock(url: str) -> bool:
     return "image/carosal" in u or "fourthwavecoffee.org/image/" in u or "encrypted-tbn" in u
 
 
-def enrich_image(item: dict) -> dict:
+def enrich_image(item: dict, locked: dict | None = None) -> dict:
     url = item.get("sourceUrl") or ""
-    ov = load_image_overrides()
-    key = (url or "").split("?")[0].rstrip("/")
-    admin = ov.get(url) or ov.get(key)
+    admin = locked_cover(item, locked or {})
+    if not admin:
+        ov = load_image_overrides()
+        admin = ov.get(url) or ov.get(norm_url(url)) or ""
     if admin:
         item["image"] = admin
+        item["imageLocked"] = True
         return item
     rss = item.get("image") or ""
     if rss and (is_site_stock(rss) or is_ad_or_chrome(rss)):
@@ -496,10 +555,23 @@ def fetch_feed_pages(url: str, name: str, pages: int = 3) -> list[dict]:
     return out
 
 
+def load_prev_signal_items() -> list:
+    path = ROOT / "data" / "signals.json"
+    if not path.exists():
+        return []
+    try:
+        prev = json.loads(path.read_text())
+    except Exception:
+        return []
+    items = prev.get("items") if isinstance(prev, dict) else None
+    return items if isinstance(items, list) else []
+
+
 def crawl(deleted: list | None = None) -> dict:
     deleted = deleted or []
     blacklist = SRC.get("blacklist") or []
     known = known_archive_urls()
+    locked = index_locked_covers(load_prev_signal_items(), load_image_overrides())
     extra_pages = int(SRC.get("olderPages", 3) or 3)
     picked = {}
     spare = []
@@ -585,7 +657,7 @@ def crawl(deleted: list | None = None) -> dict:
         for item in unused[:pick_n]:
             item.pop("_ts", None)
             item["id"] = f"{cat_id}-{len(top)+1}"
-            top.append(enrich_image(item))
+            top.append(enrich_image(item, locked))
         picked[cat_id] = top
         spare.extend(unused[pick_n:])
     # A category with too few fresh articles hands its empty slots to the freshest spare articles from any category,
@@ -608,7 +680,7 @@ def crawl(deleted: list | None = None) -> dict:
         item.pop("_ts", None)
         cat_id = item["category"]
         item["id"] = f"{cat_id}-{len(picked[cat_id]) + 1}"
-        picked[cat_id].append(enrich_image(item))
+        picked[cat_id].append(enrich_image(item, locked))
     items = [
         dict(it, rank=i)
         for i, it in enumerate(
@@ -617,7 +689,7 @@ def crawl(deleted: list | None = None) -> dict:
         )
     ]
     assign_stock_if_empty(items)
-    apply_image_overrides(items)
+    apply_image_overrides(items, locked)
     by = {cat: [] for cat in SRC["categories"]}
     for it in items:
         by.setdefault(it.get("category") or "industry", []).append(it)
@@ -791,6 +863,7 @@ def merge_archive(batch: dict) -> None:
                 "sourceUrl": it.get("sourceUrl"),
                 "summary": it.get("summary"),
                 "image": it.get("image") or "",
+                "imageLocked": bool(it.get("imageLocked")),
                 "publishedAt": it.get("publishedAt"),
                 "category": it.get("category"),
                 "categoryLabel": it.get("categoryLabel"),
@@ -804,6 +877,51 @@ def merge_archive(batch: dict) -> None:
     path.write_text(
         json.dumps({"batches": batches[:ARCHIVE_MAX]}, indent=2, ensure_ascii=False) + "\n"
     )
+
+
+def load_js_object(path: Path, marker: str) -> dict:
+    if not path.exists():
+        return {}
+    text = path.read_text()
+    i = text.find(marker)
+    if i < 0:
+        return {}
+    i = text.find("{", i)
+    if i < 0:
+        return {}
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(text[i:])
+    except Exception:
+        return {}
+    return obj if isinstance(obj, dict) else {}
+
+
+def keep_admin_hero(draft: dict) -> dict:
+    """Do not put the scan's first-article image back over a hero the admin set."""
+    date = draft.get("publishDate") or ""
+    prev = {}
+    path = ROOT / "data" / "editorial-draft.json"
+    if path.exists():
+        try:
+            loaded = json.loads(path.read_text())
+            if isinstance(loaded, dict):
+                prev = loaded
+        except Exception:
+            prev = {}
+    published = load_js_object(ROOT / "editorial.data.js", "window.EDITORIAL =")
+    source = None
+    if prev.get("publishDate") == date and prev.get("heroLocked") and prev.get("heroImage"):
+        source = prev
+    elif published.get("publishDate") == date and published.get("heroImage"):
+        source = published
+    if not source:
+        return draft
+    draft["heroImage"] = source.get("heroImage") or ""
+    draft["heroCredit"] = source.get("heroCredit") or draft.get("heroCredit") or ""
+    draft["heroSource"] = source.get("heroSource") or draft.get("heroSource") or ""
+    draft["heroSourceUrl"] = source.get("heroSourceUrl") or draft.get("heroSourceUrl") or ""
+    draft["heroLocked"] = True
+    return draft
 
 
 def write_editorial_draft(draft: dict) -> None:
@@ -833,7 +951,7 @@ def main() -> None:
     js = "window.SIGNALS = " + json.dumps(batch, ensure_ascii=False) + ";\n"
     (ROOT / "signals.data.js").write_text(js)
     merge_archive(batch)
-    draft = build_editorial_draft(batch)
+    draft = keep_admin_hero(build_editorial_draft(batch))
     write_editorial_draft(draft)
     print("wrote", len(batch["items"]), "items; draft", draft["id"])
 

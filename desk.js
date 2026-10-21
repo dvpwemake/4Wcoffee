@@ -300,12 +300,32 @@
         });
       });
       var admin = {};
+      var locked = {};
+      function noteLock(it) {
+        if (!it || !it.imageLocked || !it.image) return;
+        var k = itemKey(it);
+        var t = String(it.title || "").toLowerCase().replace(/\s+/g, " ").trim().slice(0, 80);
+        if (k) locked[k] = it.image;
+        if (t) locked["t:" + t] = it.image;
+      }
+      ((archive && archive.batches) || []).forEach(function (b) {
+        (b.items || []).forEach(noteLock);
+      });
       ((sig && sig.items) || []).forEach(function (it) {
         var k = itemKey(it);
         if (k && it.image) admin[k] = it.image;
+        noteLock(it);
       });
       out.forEach(function (it) {
         var k = itemKey(it);
+        var t = String(it.title || "").toLowerCase().replace(/\s+/g, " ").trim().slice(0, 80);
+        var kept = (k && locked[k]) || (t && locked["t:" + t]) || "";
+        if (kept) {
+          it.image = kept;
+          it.imageLocked = true;
+          return;
+        }
+        if (it.imageLocked) return;
         if (k && admin[k]) it.image = admin[k];
       });
       return out;
