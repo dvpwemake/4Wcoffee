@@ -16,17 +16,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Patrick Smith - Daily Coffee News",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sb1A4RzlLSmNIa2Vjd1paT05Cc0lWZUZxd3cwODI5bGljZ0hhUGR4SC02bFRia05FZXNQVmxaWjdaa1lxY0xFRHBRX01uUVRwM1hwZHB6M1F6dw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-20T16:39:21+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "industry-3",
           "title": "Phil & Sebastian Announces Second Edition Of Project III, Featuring Ratibor Hartmann, Proud Mary, And MAME",
           "source": "Sprudge",
@@ -65,7 +54,7 @@
           "source": "European Coffee Trip",
           "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2QU9zd25FemFpNUUyakhYZEJ2empnYUFKckZxZzhaanN4dm1PRE1IQUVJNzNmXzlTZ1V4Z0hYUUEyNU5FZjI3VXN5dXp1SHhCUW9XczYyVnNRTm5iSE9QQXhVVTZvVzRXS1NGbg",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-6887.jpg",
           "publishedAt": "2026-10-20T13:11:57+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
@@ -76,7 +65,7 @@
           "source": "Specialty Coffee Association",
           "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yaUlPMUJ5YVNxbkZtV1dQU05vWDZ6MHlpNFFZVjZreEtBb3k1c1pGRGlKSHpEMmR1VDNYX1doWVZYM1N1REFZa1d5Vm95cjNYRVBtQ2xjNGVFOWdjdktDVGhkX0JrcThkcUt6NUlkbkM3dw",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-7252.jpg",
           "publishedAt": "2026-10-19T18:09:46+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
@@ -87,7 +76,7 @@
           "source": "Comunicaffe International",
           "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQjlXYWp2dy0zYTMtYXlXMmJVWHAyZkpwVHJwODFsT3NURmF0V1IzWmZvQnpVc2ZNOE4xeE1ZeS01Y0JDT1VVc2FzLTJqdXMtZ0NCYXdjUWQtMXNCc2hVTV9HQXdjLUZndC03ZGFfdEx1eHZEbU9SRDl6UktrakE4NkF3bEREWllHOHFpR083OV8zQjhqQ3VqcWdnWkxhaVp0X2tWbHQxcEQzVWEzbHI3S1dxLWRXbDk5Q1prVDgzb0s5WGotdjM0",
           "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "image": "image/carosal/cafe-scene-7378.jpg",
           "publishedAt": "2026-10-18T22:55:03+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
@@ -126,17 +115,6 @@
           "summary": "Researchers in Ethiopia have developed a method using ultrasound to transform coffee parchment waste into high-purity cellulose, enhancing sustainability in the coffee industry. The post Ethiopian Researchers Develop Ultrasound Method to Transform Coffee Parchment Waste to High-P",
           "image": "https://coffeetalk.com/wp-content/uploads/susan-wilkinson-xuGGytlK0-E-unsplash-scaled.jpg",
           "publishedAt": "2026-10-19T20:27:13+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "With Iced Coffee Sales Surging in Europe, What is the Next Trend on the Horizon?",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111157/",
-          "summary": "Iced coffee sales surge in Europe, with the UK seeing a 39% increase. Brands innovate with flavors and functional ingredients to capture consumer interest. The post With Iced Coffee Sales Surging in Europe, What is the Next Trend on the Horizon? appeared first on CoffeeTalk .",
-          "image": "https://coffeetalk.com/wp-content/uploads/pariwat-pannium-EIyVsrBb_BQ-unsplash-scaled.jpg",
-          "publishedAt": "2026-10-19T20:18:35+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -244,17 +222,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Verve Coffee Workers Vote to Ratify Landmark Union Agreement with Industry-First Protections",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111146/",
-          "summary": "Verve Coffee Roasters workers prepare to vote on a historic labor contract, addressing AI management concerns and improving sick leave and scheduling protections. The post Verve Coffee Workers Vote to Ratify Landmark Union Agreement with Industry-First Protections appeared first ",
-          "image": "https://coffeetalk.com/wp-content/uploads/iStock-528280178.jpg",
-          "publishedAt": "2026-10-15T19:13:33+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "industry-3",
           "title": "Data from Bellwether’s Roasting Calculator Shows Cafés Can Potentially Cut Coffee Costs in Half by Roasting In-House",
           "source": "Coffee Talk",
@@ -347,17 +314,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Climate Change Has Made it Possible to Grow Coffee in Italy",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111149/",
-          "summary": "In Palermo, a Sicilian family is successfully growing coffee outdoors, marking a shift in agricultural boundaries amid climate change challenges. The post Climate Change Has Made it Possible to Grow Coffee in Italy appeared first on CoffeeTalk .",
-          "image": "https://coffeetalk.com/wp-content/uploads/projeto-cafe-gato-mourisco-ARYdChGYK_s-unsplash-scaled.jpg",
-          "publishedAt": "2026-10-15T19:16:27+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "Effects of coffee thermocycling on surface roughness, microhardness, and color stability of permanent crown materials",
           "source": "Nature",
@@ -426,17 +382,6 @@
           "summary": "",
           "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/coffee.jpg",
           "publishedAt": "2026-10-16T14:58:00+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Weekly Coffee News: New Look for IWCA + Nestlé in Mexico",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUJtb2t1QkFwOTlSc0dpQ0VORHJkNTQwWFM3Y25jekIyV29ZVjZsYzJ5T1U0MTc2UDZwWTNna2l4aWZGTXZVYVZPQ1QzY2N4S2NNcGJabS1ONk1JS3VRR3ZiT01LMndhWWhYU1NrVkFPeU9waXVYRUVtQzFBTGRpcDZMampUdEIxWjVDbGlfYWZPYlY0V0JYZA",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/green-coffee-1.jpg",
-          "publishedAt": "2026-10-16T13:08:12+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -544,17 +489,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Three Questions with Esther Singer of Segara Coffee",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZC14MUdXZS14RWdSVGNVQjNRYTJHdG0wU3gySXRkNWNTRjFTeHhGekxDZFNTMlUzeU5KNmRpdExVQkJuckhUY05kdUZKWkM4U3o3MVRJa3VfbktzX3JtbHBJeUtyLU5ESFRLUmR0RHRoUkZ0R2FoR3VqSUcwNUEzUlRXeFFTT04tWmg5VXl6MDlxR2VVZkE",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Esther-Singer-Segars-Coffee.jpg",
-          "publishedAt": "2026-10-15T16:44:50+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "industry-3",
           "title": "Pastime Coffee Goes All In at New Portland Production Roastery",
           "source": "Daily Coffee News",
@@ -634,17 +568,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The 2027 World Cup Tasters Championship takes place September 30th through October 2nd in Bogota, Colombia.",
           "image": "https://sprudge.com/wp-content/uploads/2026/10/bogotawocwcccolombia1200x675@4x-copy.jpg",
           "publishedAt": "2026-10-14T17:16:10+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Phil & Sebastian Named National Winner – Canada At The 2026 Global Coffee Awards",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/phil-sebastian-named-national-winner-canada-at-the-2026-global-coffee-awards-1450922.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Calgary roaster takes top Canadian title alongside Gold, three Silver, and Bronze awards following a double-blind judging process in Houston.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/global-coffee-awards.jpg",
-          "publishedAt": "2026-10-14T15:00:54+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -752,17 +675,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "NCA Convention Returns to Austin in March 2027",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR1ZIUm5mRjVvWl9kRFBjRUJkenhIaExJdEFmZ2YxN3JxM1gxUkZQT0otQ24wTjk4UzZFd2c1bEhjUFI1bC1lWFRBMng4Z3dDS29Ja0VqSkZsaHhGUzNVRnVLY3lyZnV6Z0oyVzczcHEtM0t6RDVlZnFBWlV5Zk5xSnJ4dFQxZTdxMFd4U2VzVQ",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Austin-Texas.jpg",
-          "publishedAt": "2026-10-13T16:32:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "industry-3",
           "title": "The Sprudge Guide To Coffee In Fukuoka City, Japan",
           "source": "Sprudge",
@@ -842,17 +754,6 @@
           "summary": "",
           "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
           "publishedAt": "2026-10-12T14:47:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Tempest Stirs Up Craft Coffee and Cocktails in Suburban Indianapolis",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMmc5SVJvZVB1Y1IzRnJXa0duZ3gzMllBUVdscDB5c25fT3I4bDhuY0FpSlhQNUd2czNDQmVpUldrWkJMclpiSlE1NU5rNENxX2lwd0EtSk5jM2JQWk1UdWVXMWZ3MWxaeS1yNmhUaUNqUU82d3lxUlZjbHdtQ0ZfX2YwR3FYT3dSa1FkREJEc0NkVW1ud1ZMR0hRRnBNT1J3anFFa1JDaUVWWDdl",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-12T13:42:24+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -960,17 +861,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Coffee News Recap, 9 Oct: Arabica passes US$3/lb on stronger real, Costa returns to profitability with matcha and iced drinks & other stories",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/",
-          "summary": "Arabica prices surge past US$3/lb for the first time since early September as Brazilian real strengthens against US dollar, Costa Coffee returns to a profit with matcha and iced drinks, Starbucks reportedly mulls tie-in with Chipotle & more. The post Coffee News Recap, 9 Oct: Ara",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/10_10_FridayRecap__FB-THUMBNAIL.png",
-          "publishedAt": "2026-10-09T11:57:55+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "An international multilocation trial reveals genotype-by-environment interactions in Arabica coffee across climate gradients",
           "source": "Nature",
@@ -1074,17 +964,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "La Marzocco And Rains Collaborate For A New Barista Apron",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/la-marzocco-and-rains-collaborate-for-a-new-barista-apron-1409605.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The barista apron gets a waterproof, technical treatment.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/260911_rains_x_la_marzocco_9_0764-2-copy.jpg",
-          "publishedAt": "2026-10-09T12:00:37+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "Altered miR-30c and miR-127 expression and NF-κB/NLRP3-related transcriptional changes are associated with metabolic and inflammatory dysregulation in adult males with sleep deprivation and habitual coffee consumption",
           "source": "Nature",
@@ -1142,17 +1021,6 @@
           "summary": "",
           "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
           "publishedAt": "2026-10-09T16:18:42+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Weekly Coffee News: Good Food Awards Open + California Chain Expands",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVC1OV19acTEyYnljeW5JNElJSHJab1gyQ0V1TGNwbWdLQ1ZrTVJ4Ym5kZDJ1S3pmWkR0b3BhaGdHN2JnelE4TW5xU2xQRDZ5RFkyc0FCU0doMTJpQ01rVFdqVU5QbmxPU1FzbVFpcXVtOWI2UzRHenJ4MjdaZU41aVY3LTg1RnpuN0NqamFGX2hKMTlfOHI4ZXRmbURMVXZDYlkwTFpidDY",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-09T13:23:35+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -1238,17 +1106,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Esteban Cristancho: The Sprudge Twenty Interview",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/esteban-cristancho-the-sprudge-twenty-interview-1278706.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Esteban Cristancho of Elevation Coffee Roasters.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_esteban-cristancho.jpg",
-          "publishedAt": "2026-10-08T14:00:06+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
           "source": "Nature",
@@ -1326,17 +1183,6 @@
           "summary": "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design. The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
           "image": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
           "publishedAt": "2026-10-07T20:19:40+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Starbucks Unveils New Smaller Cafe Prototype",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111093/",
-          "summary": "Starbucks unveils a new smaller café prototype aimed at enhancing customer experience while adapting to expensive real estate in urban areas. The post Starbucks Unveils New Smaller Cafe Prototype appeared first on CoffeeTalk .",
-          "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
-          "publishedAt": "2026-10-07T20:15:18+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -1422,17 +1268,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Six Months Later, The Co-Owner Of Farley’s Coffeehouse Is Still Missing",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/six-months-later-the-co-owner-of-farleys-coffeehouse-is-still-missing-1393476.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Authorities are seeking any information on the disappearance of Amy Hillyard.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/amy-hillyard-farleys.jpg",
-          "publishedAt": "2026-10-06T12:00:07+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "Brew Ratio Bloat",
           "source": "Barista Hustle",
@@ -1490,17 +1325,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Exploring the wide world of coffee museums.",
           "image": "https://sprudge.com/wp-content/uploads/2026/08/coffee-world-museum-indigenous-culture-1.jpg",
           "publishedAt": "2026-10-05T14:00:21+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Why removing crema from espresso is dividing specialty coffee",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/10/removing-crema-from-espresso/",
-          "summary": "As specialty coffee continues to deconstruct espresso in search of new sensory experiences, whether crema stays or goes should depend on the coffee in the cup and the experience the barista wants to create. The post Why removing crema from espresso is dividing specialty coffee ap",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/05_10_Article__PDG-EN-FB-post.png",
-          "publishedAt": "2026-10-05T05:35:00+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -1564,17 +1388,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Coffee News Recap, 2 Oct: Speaker applications open for PRF Mexico, 2026 Best of Panama auction results announced & other stories",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-2-october-2026/",
-          "summary": "Speaker applications open for Producer & Roaster Forum Mexico, Specialty Coffee Association of Panama Best of Panama 2026 auction generates more than US$3m in sales, Belfast Coffee Festival to begin on 3 October & more. The post Coffee News Recap, 2 Oct: Speaker applications open",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Guatemalan-Coffees.webp",
-          "publishedAt": "2026-10-02T12:20:57+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "The Physics of Kettle Streams",
           "source": "Coffee Ad Astra",
@@ -1632,17 +1445,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Vava Angwenyi.",
           "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_vava.webp",
           "publishedAt": "2026-10-01T14:00:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "The Sprudge Coffee Events Calendar Is Filling Up For October",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-sprudge-coffee-events-calendar-is-filling-up-for-october-1387152.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. These are but a few of the coffee events his month.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/coffee-events-october.jpg",
-          "publishedAt": "2026-10-01T12:00:31+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -1728,17 +1530,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Coffee Design: Look Alive Coffee In St. Petersburg, Florida",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/coffee-design-look-alive-coffee-in-st-petersburg-florida-1278673.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The new packaging for Look Alive Coffee in St. Petersburg, Florida.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/lookalive-coffee-design-sprudge-00002.jpg",
-          "publishedAt": "2026-10-02T14:00:24+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "A Study of Espresso Puck Resistance and How Puck Preparation Affects it",
           "source": "Coffee Ad Astra",
@@ -1820,17 +1611,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "NY-Based Colombian Coffee Roaster Devoción Launches Impact Fund, Directing 1% Of Every Retail Bag to Coffee Farmers, Youth, & Ecological Restoration",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-launches-impact-fund-directing-1-of-every-retail-bag-to-coffee-farmers-youth-ecological-restoration-1396430.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The B Corp roaster expects the fund to generate an estimated $50,000 in its first year.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/devocion_0523_lizclayman_501-scaled.jpg",
-          "publishedAt": "2026-10-01T17:32:52+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "How a Paper Filter Below an Espresso Puck Affects Hydraulic Resistance",
           "source": "Coffee Ad Astra",
@@ -1892,17 +1672,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Morgan Eckroth Is Going On A “Coffee For Here” Book Tour",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/morgan-eckroth-is-going-on-a-coffee-for-here-book-tour-1382338.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Coffee For Here Book Tour makes eight stops around the country.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/coffee-for-here-crop.jpg",
-          "publishedAt": "2026-09-30T12:00:41+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "A Comparison between Standard and Low-Fines Espresso Shots",
           "source": "Coffee Ad Astra",
@@ -1960,17 +1729,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Created in celebration of Blue Bottle’s Signature Blends, the brand’s first-ever compilation album features 10 contemporary jazz compositions from artists across North America an",
           "image": "https://sprudge.com/wp-content/uploads/2026/09/blue-bottle-coltrane-cold-foam-notes-in-repose-vinyl.jpg",
           "publishedAt": "2026-09-29T16:00:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "The Coffee Sprudgecast Presents: Killer Builds From Our Summer Cafe Feature Series",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-coffee-sprudgecast-presents-killer-builds-from-our-summer-cafe-feature-series-1371911.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Coffee Buildcast featuring new cafes from Stumptown Coffee in LA and Fresh Pots in Copenhagen.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
-          "publishedAt": "2026-09-29T15:00:51+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -2056,17 +1814,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "Build-Outs Of Coffee: Cup To Cup In Savannah, GA",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-cup-to-cup-in-savannah-ga-1287698.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Cup to Cup Cafe in Savannah, Georgia.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/cup-to-cup-1.jpg",
-          "publishedAt": "2026-09-28T14:00:54+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "Iced Latte Art",
           "source": "Barista Hustle",
@@ -2144,17 +1891,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
           "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-eureka-sprudge-roasters-village.jpg-copy.jpg",
           "publishedAt": "2026-09-27T12:00:58+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Scientists Have Created A Coffee Filter That Removes Half The Caffeine",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/scientists-have-created-a-coffee-filter-that-removes-half-the-caffeine-1358171.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A new graphene oxide filter removes the caffeine while letting the other compounds through.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/caffeine-filter.jpg",
-          "publishedAt": "2026-09-25T12:00:29+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -2240,17 +1976,6 @@
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
         {
-          "id": "industry-2",
-          "title": "The Caffè By Mr. Espresso Announces 2026 Fall Drink Lineup & Culinary Pop-Ups",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-caffe-by-mr-espresso-announces-2026-fall-drink-lineup-culinary-pop-ups-1368017.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. New seasonal drinks and pop-up events from The Caffè by Mr. Espresso.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/mr_espresso__1024-copy.jpg",
-          "publishedAt": "2026-09-25T19:49:40+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
           "id": "science-1",
           "title": "The End of First Crack?",
           "source": "Barista Hustle",
@@ -2308,17 +2033,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Function Coffee Co in Northlake, Texas.",
           "image": "https://sprudge.com/wp-content/uploads/2026/08/function-coffee-co-1.jpg",
           "publishedAt": "2026-09-25T16:48:33+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Coffee News Recap, 25 Sep: Arabica prices drop sharply to three-month low, Greggs continues to overtake Costa as UK’s biggest coffee chain & other stories",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/",
-          "summary": "UK drinks 103 million cups of coffee every day says British Coffee Association, arabica prices drop to three-month low, Go Get Em Tiger shifts more of its roasting operations to producing countries & more. The post Coffee News Recap, 25 Sep: Arabica prices drop sharply to three-m",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/09/25_09_FridayRecap__FB-THUMBNAIL.png",
-          "publishedAt": "2026-09-25T14:16:57+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
@@ -2400,17 +2114,6 @@
           "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Laila Ghambari, US Barista Champion and contestant on The Floor.",
           "image": "https://sprudge.com/wp-content/uploads/2026/09/laila-the-floor.jpg",
           "publishedAt": "2026-09-24T12:00:51+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Go Get Em Tiger Launches “Roasted At Origin,” Shifting More Of Its Coffee Program To Producing Countries",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/go-get-em-tiger-launches-roasted-at-origin-shifting-more-of-its-coffee-program-to-producing-countries-1361782.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Los Angeles specialty coffee company plans to move 20% of its roasting to origin by the end of 2026 and 70% by the end of 2027.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/gget-roasted-at-origin.jpg",
-          "publishedAt": "2026-09-23T19:15:41+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
         },
