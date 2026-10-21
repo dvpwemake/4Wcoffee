@@ -12,13 +12,14 @@
       "source": "Daily Coffee News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sVVc5UThIR3BabFU4eF9CblBOX25DYVZUcHZwcnpPaEl3V2syRlVQN2o4LTI1cElhOVdIekFrNVdZTk9zZ3ZqckRyZkROQkp2LU5STkVxbHl2THB0Y2tyNE8tMmFpMDJP",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/DCN-ROY.jpg",
       "publishedAt": "2026-10-20T16:39:21+00:00",
       "viaGoogleNews": true,
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-1",
-      "rank": 1
+      "rank": 1,
+      "imageLocked": true
     },
     {
       "title": "Phil & Sebastian Announces Second Edition Of Project III, Featuring Ratibor Hartmann, Proud Mary, And MAME",
@@ -30,7 +31,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-3",
-      "rank": 3
+      "rank": 3,
+      "imageLocked": true
     },
     {
       "title": "The Analytics Of Autumn: Trends And Surprises From The 2026 Build Outs Of Coffee",
@@ -42,7 +44,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-4",
-      "rank": 4
+      "rank": 4,
+      "imageLocked": true
     },
     {
       "title": "Timemore S5 Review: Punchy Heavyweight",
@@ -54,7 +57,8 @@
       "category": "reviews",
       "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
       "id": "reviews-1",
-      "rank": 5
+      "rank": 5,
+      "imageLocked": true
     },
     {
       "title": "helisu coffee co.",
@@ -67,7 +71,8 @@
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-1",
-      "rank": 6
+      "rank": 6,
+      "imageLocked": true
     },
     {
       "title": "Coffee Decoded: The Chemistry of Decaffeination",
@@ -80,7 +85,8 @@
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-2",
-      "rank": 7
+      "rank": 7,
+      "imageLocked": true
     },
     {
       "title": "TriestEspresso Expo 2026 unites coffee value chain in Trieste with focus on business and innovation",
@@ -93,7 +99,8 @@
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-3",
-      "rank": 8
+      "rank": 8,
+      "imageLocked": true
     }
   ],
   "byCategory": {
@@ -103,13 +110,14 @@
         "source": "Daily Coffee News",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sVVc5UThIR3BabFU4eF9CblBOX25DYVZUcHZwcnpPaEl3V2syRlVQN2o4LTI1cElhOVdIekFrNVdZTk9zZ3ZqckRyZkROQkp2LU5STkVxbHl2THB0Y2tyNE8tMmFpMDJP",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/DCN-ROY.jpg",
         "publishedAt": "2026-10-20T16:39:21+00:00",
         "viaGoogleNews": true,
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-1",
-        "rank": 1
+        "rank": 1,
+        "imageLocked": true
       },
       {
         "title": "Phil & Sebastian Announces Second Edition Of Project III, Featuring Ratibor Hartmann, Proud Mary, And MAME",
@@ -121,7 +129,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-3",
-        "rank": 3
+        "rank": 3,
+        "imageLocked": true
       },
       {
         "title": "The Analytics Of Autumn: Trends And Surprises From The 2026 Build Outs Of Coffee",
@@ -133,7 +142,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-4",
-        "rank": 4
+        "rank": 4,
+        "imageLocked": true
       }
     ],
     "reviews": [
@@ -147,7 +157,8 @@
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
         "id": "reviews-1",
-        "rank": 5
+        "rank": 5,
+        "imageLocked": true
       }
     ],
     "origin": [
@@ -162,7 +173,8 @@
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-1",
-        "rank": 6
+        "rank": 6,
+        "imageLocked": true
       },
       {
         "title": "Coffee Decoded: The Chemistry of Decaffeination",
@@ -175,7 +187,8 @@
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-2",
-        "rank": 7
+        "rank": 7,
+        "imageLocked": true
       },
       {
         "title": "TriestEspresso Expo 2026 unites coffee value chain in Trieste with focus on business and innovation",
@@ -188,7 +201,8 @@
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-3",
-        "rank": 8
+        "rank": 8,
+        "imageLocked": true
       }
     ]
   },
