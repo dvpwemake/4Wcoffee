@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-22T19-15-42",
+      "scannedAt": "2026-10-22T19:15:42.019754+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Creativity and Quality in Every Cup",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111198/",
+          "summary": "Specialty coffee demand surges, with 59% of Americans enjoying premium beverages. As consumer demand for premium espresso and specialty coffee continues to grow, operators need solutions that support both menu innovation and operational performance. The post Creativity and Qualit",
+          "image": "https://coffeetalk.com/wp-content/uploads/Franke-S700.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T17:17:44+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Dutch Bros Tests Walk-Up-Only Windows as the Drive-Thru Chain Experiments with Pedestrian Traffic",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111195/",
+          "summary": "Dutch Bros tests walk-up-only windows in LA, aiming to boost pedestrian traffic as it expands nationwide amid rising competition in the coffee market. The post Dutch Bros Tests Walk-Up-Only Windows as the Drive-Thru Chain Experiments with Pedestrian Traffic appeared first on Coff",
+          "image": "https://coffeetalk.com/wp-content/uploads/nicolas-nieves-quiroz-0nEh3mnnDo8-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T17:05:43+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Massive Coffee Variety Trial Reveals Yield and Leaf Rust Winners",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXBQVlRBUnU3UVpwYjNEMWphYTFIalZGdE1SNC1nYWtvcWhKN0NQMXBkdEFyR3VXZ2tYX0kzTVZzSnVIYlBXM1RvSmY4ZEF1RmU0dVdreWtveXdEbk5LTWhFMnFHMVdQdi1iYS14NFZjX3VGcG1GcDVPVy1HUEZMOHMyNjh4eWt5NUo2RUJqT2w1cG93T2E2UlFmZnhBeWN5c1RGdm91SQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T14:04:19+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Milk Brew & Me: A Skeptic’s Journey Through The Viral Coffee Drink",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/milk-brew-me-a-skeptics-journey-through-the-viral-coffee-drink-1308095.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Jenn Chen tries to make milk brew.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/coffee-milk-sprudge.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T14:00:32+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0V0l3SmljaU5hX1k2SXNWOTN4d2dxZF9abzFvdV9tM2ZlWnNCenZzdnBpVld6aWdtSFRXaEREMWJaSEFsTjdFUFRSODh4OW9ici1CblZvTl92QjYxSG9n",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T15:14:20+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Coffee calories have jumped nearly 40%. Sugar isn't the biggest culprit",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZVFo3VndmbkhqOHQ5cjlsNlo2ckltR0F5eEdhM1FyUThvVUhSZjU1U3NKQ2llWFAwemk2WU9yRUExWHZnZnhKSmRiejc4YWJZVzJrcW1NbzIyM2RodVhqM0d5djM5LUUwekxEczB3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T11:22:46+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Wild Stuff",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TnIzRkRMcGdZZV84Mk9PczlPWE5oWGhBR3VZcEl5ZmlTM3M3U1BvcWJlbHF5YWZrWFo2NHA4YUxISWF2SjlkeUVhZEppbzJ6LUNKdHgxNW5sM1VhV3l4Q2ViNE8wd0hk",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T11:57:03+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "180 Wristbands, One Community: Supporting the 2026 China AeroPress Championship",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/180-wristbands-one-community-supporting-the-2026-china-aeropress-championship/",
+          "summary": "Every competitor matters. Every volunteer matters. Every person behind the cup matters. This October, I’M NOT A BARISTA is proud to contribute 180 specially designed charity wristbands to the 2026 China AeroPress Championship, taking place in Guiyang, China, from October 26–28. E",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T05:10:08+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-20",
       "scannedAt": "2026-10-22T17:24:04.119Z",
       "kind": "editorial_archive",
@@ -2158,67 +2260,6 @@
           "summary": "Presenting CoffeeGeek's curated 2025 list of great coffee and espresso gear and gadgets under $100, guaranteed to make a coffee nerd happy! The post Best Coffee + Espresso Gifts Under $100 for 2025 appeared first on CoffeeGeek .",
           "image": "https://coffeegeek.com/wp-content/uploads/2025/12/HolidayGiftGuideCoffeeSpro100-800x533.jpg",
           "publishedAt": "2025-12-07T09:10:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-25T19-17-00",
-      "scannedAt": "2026-09-25T19:17:00.396412+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Function Coffee Co In Northlake, TX",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-function-coffee-co-in-northlake-tx-1285360.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Function Coffee Co in Northlake, Texas.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/function-coffee-co-1.jpg",
-          "publishedAt": "2026-09-25T16:48:33+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Battle of the Baskets",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/battle-of-the-baskets/",
-          "summary": "The big leap in espresso technology is something brilliantly simple, intuitive and affordable. It’s the ‘high extraction’ filter baskets. Armed with these new baskets and better distribution tools, baristas are making different... The post Battle of the Baskets appeared first on ",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/09/Battle-of-the-Baskets-Header.jpg",
-          "publishedAt": "2023-09-07T08:53:27+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Tiny Coffee, Massive Bills",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/tiny-coffee-massive-bills/",
-          "summary": "In the face of unchecked price-gouging by energy companies, what can cafe owners do to keep their bills under control? Big savings can be had by ditching boilers for good - and even doing away with the espresso machine altogether... The post Tiny Coffee, Massive Bills appeared fi",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/07/Coffee-Mug-Lightning-Header-scaled.jpg",
-          "publishedAt": "2023-07-19T14:13:02+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "2026 Coffee Review Tasting Reports: PNW Roasters, Decaf, Co-Ferments & More",
-          "source": "Coffee Review",
-          "sourceUrl": "https://www.coffeereview.com/2026-coffee-review-tasting-reports-pnw-roasters-decaf-co-ferments-more/",
-          "summary": "New Year, New Questions Specialty coffee is evolving fast — faster than trend cycles, processing methods, and high-concept café menus can keep up with. Each year, our tasting reports are our way of pausing the noise and asking: What’s actually happening in the cup? Not what’s pro",
-          "image": "https://www.coffeereview.com/wp-content/uploads/2025/12/Coffee-cups-and-roasted-beans-scene.jpg",
-          "publishedAt": "2026-01-01T19:19:29+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Millab M01 Review: Is Timemore’s Pineapple Burr as Sweet as It Looks?",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/millab-m01-review/",
-          "summary": "Timemore's latest flagship grinder offers several breakthroughs in grinder design. And a notable form factor. The post Millab M01 Review: Is Timemore’s Pineapple Burr as Sweet as It Looks? appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/06/millab-m01-featured-image.jpeg",
-          "publishedAt": "2025-12-12T14:06:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
