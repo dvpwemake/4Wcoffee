@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-23T19-16-15",
+      "scannedAt": "2026-10-23T19:16:15.693203+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Milk Brew Hesitation And Trepidation On The Coffee Sprudgecast",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/milk-brew-hesitation-and-trepidation-on-the-coffee-sprudgecast-1508563.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. We're milk brewing on the Coffee Sprudgecast.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/milk-brews.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T17:49:27+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbmxsQzI3cU9vZURmb2pkRThOZVlScERWQmc4cmZzMmF1SmZCbUtBallIM0laT296ZTFXelhjNUtER0xLYlRrQUk1UmxoWlkwWEIwRHc2R1JNSUZlclJteEVPbTlDQjZhdkg2YzZ5cWhaTTY3VXZ0eHpack1YWDNvSGtjaHAySGt6NnpfbmkwU05xTG1xWWFvYmhZUzEydk9BZVdGTVB6M3FEVzg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T16:06:40+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnpjcUhDRkJFTk5XTUlzWFJOekpHRGJqU1RxeV9uOUhYZmJoWl94NkJUQWFZTERua0prWVd2aUNoUEJsMVFUY2N6ZGNOSVNudWpVNnJsYlN3RE5vSW1qMzllUzFXeldjeDlrNVBOS0lMUkJTZHdFcl9rV3IycldSeGY4bjJtOHVnLVlyZFBwYTRrRVJSazVjU0tvOHNaY2xtRzBQdVItc01aQQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T13:26:52+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Researchers Created A Way To Turn Coffee Parchment Into Highly Sought After Cellulose",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/researchers-created-a-way-to-turn-coffee-parchment-into-highly-sought-after-cellulose-1492471.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. It creates a highly sought-after biomaterial.",
+          "image": "https://sprudge.com/wp-content/uploads/2013/03/raked-parchment.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T12:00:13+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Coffee calories have jumped nearly 40%. Sugar isn't the biggest culprit",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtNGRjbW9Yc0V3X3ltTGRkOGhxZjI3M0tWS3h6QS0yNVh6ZjdKNHJ0N1Yxb0Q3V0hONUlDX0VNX0NoVG52X05OeC1CSGNDUjdMalB1R0k5VVNQRE9rSUZnM3FpWEkwQjhqN29lZ3JoQQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T11:22:46+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Yeti Is Selling a Ton of Outdoor Gear, Including Coolers and Coffee Mugs, Way Below Retail",
+          "source": "Gear Patrol",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTFp6a2NrRGtuTzI0X3ZYQmk5M01IdkVaNjFmSmFRSWFnYmEwbE81T1FqdDh0U3p4aHFINk0waGp0OEhfbVJNX01yWTNtamFQRS1yV25JNi1UcHJkZjVsU1hBOXNHNV9hUkt3WkdET2ZxdE9ROFE4REdFb2ZRSTBBMktieUxCcFhSM0hnamtSamxfMWM2ekE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T16:09:39+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "ECT Awards 2026 – The Winning Specialty Cafes:",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iMTBzaEtLclhIc0ZqcFJVTnBlU2ZWdDl3ZTZxdXEwOHlucDBmOHVOU0pRQk5YVzc2S2QxQkVMWXNCczFTeHRaSTFMVWJLRnp3bmJrdVNsM0czM3VSUXBv",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T14:12:54+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Barista Stories: Gabriel Brix of Kaffeefabrik, Vienna",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WUk1zQUlORWpma3A1dm9uR3NGMXJ0dHBjTDMwN0hRWFVoMkRPQWZzLXhBOG5pRFpjTENaMGNoSGhSUnJTQnZNWndHeHdXbVhPV1BqbUxsQTZvb0VHVWFkSkRmRG56NEI2cjFieg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T12:49:18+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-22T19-15-42",
       "scannedAt": "2026-10-22T19:15:42.019754+00:00",
       "items": [
@@ -2201,67 +2303,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-24.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-24"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-26T18-38-48",
-      "scannedAt": "2026-09-26T18:38:48.732382+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Update Your Coffee Counter With Some Fresh New Gear",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/update-your-coffee-counter-with-some-fresh-new-gear-1367327.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of coffee gear.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/04/acaia-horizon-cup-close-sprudge-coffee-gear.jpg",
-          "publishedAt": "2026-09-26T12:00:47+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "The End of First Crack?",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/the-end-of-first-crack/",
-          "summary": "Is it possible that neither first crack, nor the precise adjustments to the gas settings that roasters make afterwards, are actually very important in coffee roasting? No matter how complex a roast profile you design for a drum roaster, you could... The post The End of First Crac",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/06/Exploding-Coffee-Bean-03.jpg",
-          "publishedAt": "2023-06-14T21:08:28+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "What We Taste When We Taste Acidity",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/what-we-taste-when-we-taste-acidity/",
-          "summary": "New research published this week, however, suggests that the levels of many of the organic acids found in brewed coffee are so low as to be essentially undetectable ( Birke Rune et al 2023 ). The post What We Taste When We Taste Acidity appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/04/When-we-taste-acidity-Header-02-scaled.jpg",
-          "publishedAt": "2023-04-15T07:22:14+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Best Coffee and Espresso Gifts Under $250",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/new-products/best-holiday-coffee-espresso-gifts-under-250-for-2025/",
-          "summary": "We worked hard to find unique coffee and espresso gifts under $250 for the coffee lovers in your life, all curated by the CoffeeGeek staff. The post Best Coffee and Espresso Gifts Under $250 appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2025/12/Holiday-Gift-List-Under-250-800x533.jpg",
-          "publishedAt": "2025-12-08T09:15:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Best Coffee + Espresso Gifts Under $100 for 2025",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/new-products/best-coffee-espresso-gifts-under-100-for-2025/",
-          "summary": "Presenting CoffeeGeek's curated 2025 list of great coffee and espresso gear and gadgets under $100, guaranteed to make a coffee nerd happy! The post Best Coffee + Espresso Gifts Under $100 for 2025 appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2025/12/HolidayGiftGuideCoffeeSpro100-800x533.jpg",
-          "publishedAt": "2025-12-07T09:10:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
