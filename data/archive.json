@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-24T18-11-47",
+      "scannedAt": "2026-10-24T18:11:47.280610+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Learn More About The Coffee Supply Chain In The Green Room",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/learn-more-about-the-coffee-supply-chain-in-the-green-room-1508648.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An all-access pass to the inner workings of the coffee supply chain.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-24T12:00:19+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/new-product-david-rio-launches-matcha-rio-a-three-blend-matcha-line-for-cafes/",
+          "summary": "Matcha has multiple roles on cafe menus. The new Matcha Rio line aims to address them all with classic, functional, and blendable matcha products. The post New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/10/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-19-1024x637.png",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T11:20:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Coffee News Recap, 23 Oct: 2026 World Barista Championship takes place in Panama, Clearpath Coffee & M-Cultivo to host Colombia Legends auction & other stories",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-23-october-2026/",
+          "summary": "2026 World Barista Championship begins in Panama, De’Longhi increases stake in La Marzocco and Eversys SA, arabica futures hit their highest level since late August, Clearpath Coffee & M Cultivo to host Colombia Legends auction on 16 November & more The post Coffee News Recap, 23",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Coffee-News-Recap-23-October-2026-homepage-cover.webp",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T08:57:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111192/",
+          "summary": "Starbucks shifts to a licensing model, reducing direct store investment and expanding globally, while aiming for efficient growth and improved profitability. The post Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops appeared first o",
+          "image": "https://coffeetalk.com/wp-content/uploads/dat-tran-tuP1QBHj_ok-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T17:01:33+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Non-dairy creamer drives up calorie count in coffee cups",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmJEYV82WlJqeTFpYnhqZDQxc0ROb2d6ejk4UkctUHYxSk5IRGNsTFE5MnpBVTdxTUtQWlpPcVZkazdIbmlTQjZ4LU9WVmsxRTVYcjFVZ0I5NzI3TXNiX2FBUmp4cGRIc0Z2Zy1CMTV4bmg4TEhTRGN1MGN0Smo0UHEwSVVaSjVJTmpwcnB5MG1vOHdCb09uWGhhSklKUEZyMUZ5Z2JmNA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-24T17:01:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EaS03V0ZOZFh6VlN5SDdZYmxaZUNrS0V0RFpubjNheVdzVHEwZEJjNkRuQ1BWc1BuQ2N6aEhQQVd2ZEJ4UDcxR2dXelZMTXFMX1ZoWnFNV1ZoVVF0WVNUT0ZKZFZfZi12M2VLNU8xd2szQQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-12T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Announcing the 2025 SCA Annual Report",
+          "source": "Specialty Coffee Association",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YSlZUV25tTmV2OVRXUWxkSlQzOW54ck1VZE9BRkVkbW5IZGNaeElqcjhiYVNWbVFwMHpfMW14dGo1SUJPMjJuTXVRZUw3Tl90RllhakFBM2xqYXRxblBCdDVWc3d3ZDNEWmY3cWZzZFhaMTg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T16:30:43+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Reborn Coffee signs Master Product Supply Agreement with Visvita Corporation",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdPalkxcVhhdnAxeHQzdExPaGhBdlJ4UnZzcVdObm00Z2kzNml1WnE2SmpNRWZIVUROcnRNMFZxb3o3Q2xQZ2o0eHF1TUJMMVV1cUQySGxyZ2dSRkNfZWZkbElYS0dSMWctMWZvbUE1UkgwRlhCMkgzOUtXNTFPZzNHR3NPdklKUi0yYUtCbjBsWGVpbmlLVFhFWEszR3BKaHJBVmo1NjI",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-21T22:37:48+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-21",
       "scannedAt": "2026-10-24T05:51:24.719Z",
       "kind": "editorial_archive",
@@ -2242,67 +2344,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-26.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-26"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-27T18-59-55",
-      "scannedAt": "2026-09-27T18:59:55.683243+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "The Best Part Of Waking Up Is When September Ends",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-best-part-of-waking-up-is-when-september-ends-1367324.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-eureka-sprudge-roasters-village.jpg-copy.jpg",
-          "publishedAt": "2026-09-27T12:00:58+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Reaching Fuller Flavor Profiles with the AeroPress",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/09/07/reaching-fuller-flavor-profiles-with-the-aeropress/",
-          "summary": "In this post, I discuss the AeroPress and how it can be used to reach flavor profiles similar to cuppings and high-EY pour overs.",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/04/aeropress_header.png?fit=1200%2C664&ssl=1",
-          "publishedAt": "2021-09-08T00:39:06+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "On Gravimetric Measurements of Total Dissolved Solids",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/07/12/on-gravimetric-measurements-of-total-dissolved-solids/",
-          "summary": "I come back to my last experiment and explore whether the difference in gravimetric vs volumetric flow could be due to changing shot TDS.",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/04/img_9504.jpg?fit=1200%2C800&ssl=1",
-          "publishedAt": "2021-07-13T01:36:26+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Best Espresso Gifts Under $50 for 2025",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/deals/best-espresso-gifts-under-50-for-2025/",
-          "summary": "Here is CoffeeGeek's Curated 2025 Holiday Gift List for unique espresso related items under $50 for the espresso lover in your life! The post Best Espresso Gifts Under $50 for 2025 appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2025/12/HolidayGiftGuideEspresso50-1-800x533.jpg",
-          "publishedAt": "2025-12-06T09:50:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Best Coffee Gifts Under $50 for 2025",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/new-products/best-coffee-gifts-under-50-for-2025-holiday-list/",
-          "summary": "Here's CoffeeGeek's 2025 curated list of coffee gift suggestions under $50, all based on how unique and useful they are for coffee lovers. The post Best Coffee Gifts Under $50 for 2025 appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2025/12/HolidayGiftGuideCoffee50-800x533.jpg",
-          "publishedAt": "2025-12-05T00:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
