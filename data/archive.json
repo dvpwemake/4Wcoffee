@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-21",
+      "scannedAt": "2026-10-24T05:51:24.719Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-21",
+          "rank": 0,
+          "title": "The Friction of the Modern Cup",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "As the specialty sector leans into hyper-curation and ecological rigor, consumers are chasing viral trends and loading up on non-dairy calories.",
+          "image": "https://scx2.b-cdn.net/gfx/news/2026/americans-are-putting.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-21.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-21"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-23T19-16-15",
       "scannedAt": "2026-10-23T19:16:15.693203+00:00",
       "items": [
@@ -2283,26 +2303,6 @@
           "publishedAt": "2025-12-05T00:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-24",
-      "scannedAt": "2026-09-26T22:29:56.995Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-24",
-          "rank": 0,
-          "title": "Shifts at the Source and the Pursuit of Extraction Perfection",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/laila-the-floor.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-24.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-24"
         }
       ]
     }
