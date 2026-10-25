@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-25T18-26-08",
+      "scannedAt": "2026-10-25T18:26:08.280449+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Is There Anything Scarier Than Running Out Of Coffee?",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/perc-creature-feature.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-25T12:00:09+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/",
+          "summary": "Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%. The deal...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/La-Marzocco-620x414.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T14:45:34+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Mill City Ships First 20-Kilogram M-Series...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Mill-City-20-Kilo-M-Series-620x400.png",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T13:02:40+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "The 2026 World Barista Championship Starts Today. Here’s Everyone Competing",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A schedule for Round One of the 2026 World Barista Championship.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc2026.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T12:00:29+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-05T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "How to Host a Coffee Tasting Party",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/",
+          "summary": "How to make Vietnamese iced coffee with a phin filter. CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá. The post How to Host a Coffee Tasting Party appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/10/Cupping-Setup-3-800x533.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-25T00:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T22:29:40+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T22:16:34+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-24T18-11-47",
       "scannedAt": "2026-10-24T18:11:47.280610+00:00",
       "items": [
@@ -2324,26 +2426,6 @@
           "publishedAt": "2025-12-04T10:35:16+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-26",
-      "scannedAt": "2026-09-27T21:43:33.004Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-26",
-          "rank": 0,
-          "title": "Deconstructing the Bean",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Science, Resurgent Terroirs, and the Post-Dogma Era of Coffee",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/06/Exploding-Coffee-Bean-03.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-26.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-26"
         }
       ]
     }

@@ -1,118 +1,124 @@
 {
-  "id": "ed_2026-10-24",
-  "publishDate": "2026-10-24",
+  "id": "ed_2026-10-25",
+  "publishDate": "2026-10-25",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-10-24",
+  "title": "Editorial brief — 2026-10-25",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
+  "heroImage": "https://sprudge.com/wp-content/uploads/2026/10/perc-creature-feature.jpg",
   "heroCredit": "Sprudge",
   "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/learn-more-about-the-coffee-supply-chain-in-the-green-room-1508648.html",
+  "heroSourceUrl": "https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-24\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-25\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Learn More About The Coffee Supply Chain In The Green Room\n   Source: Sprudge\n   URL: https://sprudge.com/learn-more-about-the-coffee-supply-chain-in-the-green-room-1508648.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • An all-access pass to the inner workings of the coffee supply chain.",
-    "2. [Industry] New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes\n   Source: Fresh Cup\n   URL: https://freshcup.com/new-product-david-rio-launches-matcha-rio-a-three-blend-matcha-line-for-cafes/\n   Key points:\n   • Matcha has multiple roles on cafe menus.\n   • The new Matcha Rio line aims to address them all with classic, functional, and blendable matcha products.",
-    "3. [Industry] Coffee News Recap, 23 Oct: 2026 World Barista Championship takes place in Panama, Clearpath Coffee & M-Cultivo to host Colombia Legends auction & other stories\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/10/coffee-news-recap-23-october-2026/\n   Key points:\n   • 2026 World Barista Championship begins in Panama, De’Longhi increases stake in La Marzocco and Eversys SA, arabica futures hit their highest level since late August, Clearpath Coffee & M Cultivo to host Colombia Legends auction on 16 November & more The post Coffee News Recap, 23",
-    "4. [Industry] Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111192/\n   Key points:\n   • Starbucks shifts to a licensing model, reducing direct store investment and expanding globally, while aiming for efficient growth and improved profitability.",
-    "5. [Science] Non-dairy creamer drives up calorie count in coffee cups\n   Source: News-Medical\n   URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmJEYV82WlJqeTFpYnhqZDQxc0ROb2d6ejk4UkctUHYxSk5IRGNsTFE5MnpBVTdxTUtQWlpPcVZkazdIbmlTQjZ4LU9WVmsxRTVYcjFVZ0I5NzI3TXNiX2FBUmp4cGRIc0Z2Zy1CMTV4bmg4TEhTRGN1MGN0Smo0UHEwSVVaSjVJTmpwcnB5MG1vOHdCb09uWGhhSklKUEZyMUZ5Z2JmNA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "6. [Science] Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMickFVX3lxTE9EaS03V0ZOZFh6VlN5SDdZYmxaZUNrS0V0RFpubjNheVdzVHEwZEJjNkRuQ1BWc1BuQ2N6aEhQQVd2ZEJ4UDcxR2dXelZMTXFMX1ZoWnFNV1ZoVVF0WVNUT0ZKZFZfZi12M2VLNU8xd2szQQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "7. [Origin] Announcing the 2025 SCA Annual Report\n   Source: Specialty Coffee Association\n   URL: https://news.google.com/rss/articles/CBMic0FVX3lxTE9YSlZUV25tTmV2OVRXUWxkSlQzOW54ck1VZE9BRkVkbW5IZGNaeElqcjhiYVNWbVFwMHpfMW14dGo1SUJPMjJuTXVRZUw3Tl90RllhakFBM2xqYXRxblBCdDVWc3d3ZDNEWmY3cWZzZFhaMTg\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "8. [Origin] Reborn Coffee signs Master Product Supply Agreement with Visvita Corporation\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdPalkxcVhhdnAxeHQzdExPaGhBdlJ4UnZzcVdObm00Z2kzNml1WnE2SmpNRWZIVUROcnRNMFZxb3o3Q2xQZ2o0eHF1TUJMMVV1cUQySGxyZ2dSRkNfZWZkbElYS0dSMWctMWZvbUE1UkgwRlhCMkgzOUtXNTFPZzNHR3NPdklKUi0yYUtCbjBsWGVpbmlLVFhFWEszR3BKaHJBVmo1NjI\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "— Categories present —\nIndustry · Science · Origin",
+    "1. [Industry] Is There Anything Scarier Than Running Out Of Coffee?\n   Source: Sprudge\n   URL: https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+    "2. [Industry] De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/\n   Key points:\n   • Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%.",
+    "3. [Industry] Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/\n   Key points:\n   • Welcome to DCN’s Weekly Coffee News!\n   • Also, check out the latest career opportunities at CoffeeIndustryJobs.com.\n   • Mill City Ships First 20-Kilogram M-Series...",
+    "4. [Industry] The 2026 World Barista Championship Starts Today. Here’s Everyone Competing\n   Source: Sprudge\n   URL: https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A schedule for Round One of the 2026 World Barista Championship.",
+    "5. [Science] Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "6. [Reviews] How to Host a Coffee Tasting Party\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/\n   Key points:\n   • How to make Vietnamese iced coffee with a phin filter.\n   • CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá.",
+    "7. [Origin] Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "8. [Origin] FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "— Categories present —\nIndustry · Science · Reviews · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-24\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Learn More About The Coffee Supply Chain In The Green Room\n   Source: Sprudge\n   URL: https://sprudge.com/learn-more-about-the-coffee-supply-chain-in-the-green-room-1508648.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • An all-access pass to the inner workings of the coffee supply chain.\n\n2. [Industry] New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes\n   Source: Fresh Cup\n   URL: https://freshcup.com/new-product-david-rio-launches-matcha-rio-a-three-blend-matcha-line-for-cafes/\n   Key points:\n   • Matcha has multiple roles on cafe menus.\n   • The new Matcha Rio line aims to address them all with classic, functional, and blendable matcha products.\n\n3. [Industry] Coffee News Recap, 23 Oct: 2026 World Barista Championship takes place in Panama, Clearpath Coffee & M-Cultivo to host Colombia Legends auction & other stories\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/10/coffee-news-recap-23-october-2026/\n   Key points:\n   • 2026 World Barista Championship begins in Panama, De’Longhi increases stake in La Marzocco and Eversys SA, arabica futures hit their highest level since late August, Clearpath Coffee & M Cultivo to host Colombia Legends auction on 16 November & more The post Coffee News Recap, 23\n\n4. [Industry] Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111192/\n   Key points:\n   • Starbucks shifts to a licensing model, reducing direct store investment and expanding globally, while aiming for efficient growth and improved profitability.\n\n5. [Science] Non-dairy creamer drives up calorie count in coffee cups\n   Source: News-Medical\n   URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmJEYV82WlJqeTFpYnhqZDQxc0ROb2d6ejk4UkctUHYxSk5IRGNsTFE5MnpBVTdxTUtQWlpPcVZkazdIbmlTQjZ4LU9WVmsxRTVYcjFVZ0I5NzI3TXNiX2FBUmp4cGRIc0Z2Zy1CMTV4bmg4TEhTRGN1MGN0Smo0UHEwSVVaSjVJTmpwcnB5MG1vOHdCb09uWGhhSklKUEZyMUZ5Z2JmNA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Science] Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMickFVX3lxTE9EaS03V0ZOZFh6VlN5SDdZYmxaZUNrS0V0RFpubjNheVdzVHEwZEJjNkRuQ1BWc1BuQ2N6aEhQQVd2ZEJ4UDcxR2dXelZMTXFMX1ZoWnFNV1ZoVVF0WVNUT0ZKZFZfZi12M2VLNU8xd2szQQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Announcing the 2025 SCA Annual Report\n   Source: Specialty Coffee Association\n   URL: https://news.google.com/rss/articles/CBMic0FVX3lxTE9YSlZUV25tTmV2OVRXUWxkSlQzOW54ck1VZE9BRkVkbW5IZGNaeElqcjhiYVNWbVFwMHpfMW14dGo1SUJPMjJuTXVRZUw3Tl90RllhakFBM2xqYXRxblBCdDVWc3d3ZDNEWmY3cWZzZFhaMTg\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Reborn Coffee signs Master Product Supply Agreement with Visvita Corporation\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdPalkxcVhhdnAxeHQzdExPaGhBdlJ4UnZzcVdObm00Z2kzNml1WnE2SmpNRWZIVUROcnRNMFZxb3o3Q2xQZ2o0eHF1TUJMMVV1cUQySGxyZ2dSRkNfZWZkbElYS0dSMWctMWZvbUE1UkgwRlhCMkgzOUtXNTFPZzNHR3NPdklKUi0yYUtCbjBsWGVpbmlLVFhFWEszR3BKaHJBVmo1NjI\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 456,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-25\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Is There Anything Scarier Than Running Out Of Coffee?\n   Source: Sprudge\n   URL: https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A weekly curated selection of coffees from the Sprudge Roaster's Village.\n\n2. [Industry] De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/\n   Key points:\n   • Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%.\n\n3. [Industry] Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/\n   Key points:\n   • Welcome to DCN’s Weekly Coffee News!\n   • Also, check out the latest career opportunities at CoffeeIndustryJobs.com.\n   • Mill City Ships First 20-Kilogram M-Series...\n\n4. [Industry] The 2026 World Barista Championship Starts Today. Here’s Everyone Competing\n   Source: Sprudge\n   URL: https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A schedule for Round One of the 2026 World Barista Championship.\n\n5. [Science] Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Reviews] How to Host a Coffee Tasting Party\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/\n   Key points:\n   • How to make Vietnamese iced coffee with a phin filter.\n   • CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá.\n\n7. [Origin] Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 450,
   "headlines": [
     {
-      "title": "Learn More About The Coffee Supply Chain In The Green Room",
+      "title": "Is There Anything Scarier Than Running Out Of Coffee?",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/learn-more-about-the-coffee-supply-chain-in-the-green-room-1508648.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An all-access pass to the inner workings of the coffee supply chain.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
+      "sourceUrl": "https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/10/perc-creature-feature.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "An all-access pass to the inner workings of the coffee supply chain."
+        "A weekly curated selection of coffees from the Sprudge Roaster's Village."
       ]
     },
     {
-      "title": "New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes",
-      "source": "Fresh Cup",
+      "title": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
+      "source": "Daily Coffee News",
       "category": "industry",
-      "sourceUrl": "https://freshcup.com/new-product-david-rio-launches-matcha-rio-a-three-blend-matcha-line-for-cafes/",
-      "summary": "Matcha has multiple roles on cafe menus. The new Matcha Rio line aims to address them all with classic, functional, and blendable matcha products. The post New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes appeared first on Fresh Cup .",
-      "image": "https://freshcup.com/wp-content/uploads/2026/10/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-19-1024x637.png",
+      "sourceUrl": "https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/",
+      "summary": "Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%. The deal...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/La-Marzocco-620x414.jpg",
       "keyPoints": [
-        "Matcha has multiple roles on cafe menus.",
-        "The new Matcha Rio line aims to address them all with classic, functional, and blendable matcha products."
+        "Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%."
       ]
     },
     {
-      "title": "Coffee News Recap, 23 Oct: 2026 World Barista Championship takes place in Panama, Clearpath Coffee & M-Cultivo to host Colombia Legends auction & other stories",
-      "source": "Perfect Daily Grind",
+      "title": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
+      "source": "Daily Coffee News",
       "category": "industry",
-      "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-23-october-2026/",
-      "summary": "2026 World Barista Championship begins in Panama, De’Longhi increases stake in La Marzocco and Eversys SA, arabica futures hit their highest level since late August, Clearpath Coffee & M Cultivo to host Colombia Legends auction on 16 November & more The post Coffee News Recap, 23",
-      "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Coffee-News-Recap-23-October-2026-homepage-cover.webp",
+      "sourceUrl": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/",
+      "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Mill City Ships First 20-Kilogram M-Series...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Mill-City-20-Kilo-M-Series-620x400.png",
       "keyPoints": [
-        "2026 World Barista Championship begins in Panama, De’Longhi increases stake in La Marzocco and Eversys SA, arabica futures hit their highest level since late August, Clearpath Coffee & M Cultivo to host Colombia Legends auction on 16 November & more The post Coffee News Recap, 23"
+        "Welcome to DCN’s Weekly Coffee News!",
+        "Also, check out the latest career opportunities at CoffeeIndustryJobs.com.",
+        "Mill City Ships First 20-Kilogram M-Series..."
       ]
     },
     {
-      "title": "Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops",
-      "source": "Coffee Talk",
+      "title": "The 2026 World Barista Championship Starts Today. Here’s Everyone Competing",
+      "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111192/",
-      "summary": "Starbucks shifts to a licensing model, reducing direct store investment and expanding globally, while aiming for efficient growth and improved profitability. The post Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops appeared first o",
-      "image": "https://coffeetalk.com/wp-content/uploads/dat-tran-tuP1QBHj_ok-unsplash-scaled.jpg",
+      "sourceUrl": "https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A schedule for Round One of the 2026 World Barista Championship.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc2026.jpg",
       "keyPoints": [
-        "Starbucks shifts to a licensing model, reducing direct store investment and expanding globally, while aiming for efficient growth and improved profitability."
+        "This article is from the coffee website Sprudge at http://sprudge.com .",
+        "This is the RSS feed version.",
+        "A schedule for Round One of the 2026 World Barista Championship."
       ]
     },
     {
-      "title": "Non-dairy creamer drives up calorie count in coffee cups",
-      "source": "News-Medical",
-      "category": "science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmJEYV82WlJqeTFpYnhqZDQxc0ROb2d6ejk4UkctUHYxSk5IRGNsTFE5MnpBVTdxTUtQWlpPcVZkazdIbmlTQjZ4LU9WVmsxRTVYcjFVZ0I5NzI3TXNiX2FBUmp4cGRIc0Z2Zy1CMTV4bmg4TEhTRGN1MGN0Smo0UHEwSVVaSjVJTmpwcnB5MG1vOHdCb09uWGhhSklKUEZyMUZ5Z2JmNA",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "keyPoints": []
-    },
-    {
-      "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
+      "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
       "source": "Nature",
       "category": "science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EaS03V0ZOZFh6VlN5SDdZYmxaZUNrS0V0RFpubjNheVdzVHEwZEJjNkRuQ1BWc1BuQ2N6aEhQQVd2ZEJ4UDcxR2dXelZMTXFMX1ZoWnFNV1ZoVVF0WVNUT0ZKZFZfZi12M2VLNU8xd2szQQ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Announcing the 2025 SCA Annual Report",
-      "source": "Specialty Coffee Association",
-      "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YSlZUV25tTmV2OVRXUWxkSlQzOW54ck1VZE9BRkVkbW5IZGNaeElqcjhiYVNWbVFwMHpfMW14dGo1SUJPMjJuTXVRZUw3Tl90RllhakFBM2xqYXRxblBCdDVWc3d3ZDNEWmY3cWZzZFhaMTg",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "keyPoints": []
+      "title": "How to Host a Coffee Tasting Party",
+      "source": "CoffeeGeek",
+      "category": "reviews",
+      "sourceUrl": "https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/",
+      "summary": "How to make Vietnamese iced coffee with a phin filter. CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá. The post How to Host a Coffee Tasting Party appeared first on CoffeeGeek .",
+      "image": "https://coffeegeek.com/wp-content/uploads/2026/10/Cupping-Setup-3-800x533.jpg",
+      "keyPoints": [
+        "How to make Vietnamese iced coffee with a phin filter.",
+        "CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá."
+      ]
     },
     {
-      "title": "Reborn Coffee signs Master Product Supply Agreement with Visvita Corporation",
+      "title": "Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus",
       "source": "Comunicaffe International",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdPalkxcVhhdnAxeHQzdExPaGhBdlJ4UnZzcVdObm00Z2kzNml1WnE2SmpNRWZIVUROcnRNMFZxb3o3Q2xQZ2o0eHF1TUJMMVV1cUQySGxyZ2dSRkNfZWZkbElYS0dSMWctMWZvbUE1UkgwRlhCMkgzOUtXNTFPZzNHR3NPdklKUi0yYUtCbjBsWGVpbmlLVFhFWEszR3BKaHJBVmo1NjI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
+    },
+    {
+      "title": "FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market",
+      "source": "Comunicaffe International",
+      "category": "origin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     }
   ],
-  "fromScan": "2026-10-24T18:11:47.280610+00:00"
+  "fromScan": "2026-10-25T18:26:08.280449+00:00"
 }
