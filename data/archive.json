@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-23",
+      "scannedAt": "2026-10-26T06:08:22.473Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-23",
+          "rank": 0,
+          "title": "Beyond the Counter: Industrial Realignment and the Evolving Everyday Cup",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Navigating corporate consolidation, geopolitical headwinds, and shifting consumer habits in specialty coffee.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/milk-brews.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-23.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-23"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-25T18-26-08",
       "scannedAt": "2026-10-25T18:26:08.280449+00:00",
       "items": [
@@ -2365,67 +2385,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-27.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-27"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-28T21-16-09",
-      "scannedAt": "2026-09-28T21:16:09.253242+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Madcap Coffee In Grand Rapids, MI",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-madcap-coffee-in-grand-rapids-mi-1313815.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Madcap Coffee in Grand Rapids, Michigan.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-ferndale-1.jpg",
-          "publishedAt": "2026-09-28T16:00:30+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Iced Latte Art",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/iced-latte-art/",
-          "summary": "Cold foam has become pretty popular over the last few years, and yet, visually, cold foam lattes are firmly stuck in the 1980s. In other words: a tall, layered drink in a glass, topped with a spoonful of stiff foam like whipped cream. Wouldn’t it be great if... The post Iced Latt",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/03/Cold-Frothing-Header-scaled.jpg",
-          "publishedAt": "2023-03-14T15:36:36+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Wet Weiss for Espresso",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/wet-weiss-for-espresso/",
-          "summary": "As with all our best and wildest experiments, our investigation of Wet Weiss for espresso began with a conversation with multidisciplinary industrial scientist Professor Abbott . He suggested that adding some water before tamping might allow us to pack the bed of coffee more tigh",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2023/01/Tamper-Ballet-2-Header-scaled.jpg",
-          "publishedAt": "2023-01-23T10:56:45+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "The List: Coffee Review’s Top 50 Coffees of 2025",
-          "source": "Coffee Review",
-          "sourceUrl": "https://www.coffeereview.com/the-list-coffee-reviews-top-50-coffees-of-2025/",
-          "summary": "Every November, when we sit down to assemble the list of the most exciting coffees we’ve tasted throughout the year, we’re reminded that specialty coffee is a field defined by relentless curiosity. This year reaffirmed that truth. In late 2024, our team decided to expand Coffee R",
-          "image": "https://www.coffeereview.com/wp-content/uploads/2025/10/cr-top-50-fb-1200x630-2025.jpg",
-          "publishedAt": "2025-12-04T12:42:43+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "MHW-3Bomber R3 Blade",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/mhw-3bomber-r3-blade-review/",
-          "summary": "This R3 Blade is a fantastic budget grinder. But it has a secret that transforms it into an absolute budget beast. The post MHW-3Bomber R3 Blade appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/08/Manual-grinder-6.jpeg",
-          "publishedAt": "2025-12-04T10:35:16+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
