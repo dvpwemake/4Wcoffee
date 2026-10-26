@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-26T20-31-32",
+      "scannedAt": "2026-10-26T20:31:32.852072+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/ctmagazine/10-2026/111208/",
+          "summary": "Coffee prices fell sharply after Brazil's Lula won the election, weakening the real and boosting export prospects for farmers. The post Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/kelsen-fernandes-M5EnPWrSbj0-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T20:28:29+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Seidy Selivanow Of Kafiex Roasters: The Sprudge Twenty Interview",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/seidy-selivanow-of-kafiex-roasters-the-sprudge-twenty-interview-1278632.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Seidy Selivanow of Kafiex Roasters in Vancouver, Washington.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_seidy-selivanow.webp",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T17:38:48+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Pan Wei Of China Is The 2026 World Barista Champion",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/pan-wei-of-china-is-the-2026-world-barista-champion-1523583.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This is Pan Wei's second year competing at the World Barista Championship.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc-panama-–-day-4-awards-jhp07754.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T16:06:30+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "U.S. Coffee Drink Calories Climbed 40% in 15-Year Span",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/26/u-s-coffee-drink-calories-climbed-40-in-15-year-span/",
+          "summary": "U.S. adults consumed nearly 40% more calories from coffee drinks in 2018 than they did in 2003, despite drinking roughly the same amount of coffee, according to a new study...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/iced-coffee-cream-1-620x427.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T14:31:04+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-5",
+          "title": "DiFluid RS Extract Expands the Temperature Range for Coffee TDS",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/26/difluid-rs-extract-expands-the-temperature-range-for-coffee-tds/",
+          "summary": "Chinese coffee analysis equipment maker DiFluid has rolled out a new professional refractometer called the RS Extract for measuring total dissolved solids (TDS) in brewed coffee. The device can also connect...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/DiFluis-RS-Extract-2-620x349.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T13:09:52+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds",
+          "source": "ScienceAlert",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelZOcHc1UU9XQXRUVUdKRnV3VU9fVlNGT1dzc1ZLVmRjWWhpdzNjT0I5ZTJWOV9nRktBTkVjTEpFQnlpeTQxSFVwX1NsMlZpdThxTDNzRThlRE1RaV81WDA2U2lBZXBBYmVNRUNFbnVMWDFvUHJiUWpTWEotQTFTbndkZXU5dE0wWmkyXzNOcmhEeE50T3hxMW9iQVEtU0hTMlFpdnFiRHppOHlXY0MxSlZiWHE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-25T20:01:47+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Nakupenda Coffee House",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPYlNJYl9KUDZWVmxORnN0LUlTV282bG0wM3RPb0FZeDRNcW1iOU1QUWhrbFFEX1JrRzVUQkZXaHkwNGw2SDY4UTJtVDBwVk9wQUJxN0JRVXYwSDljZEdmREpad3E4LXNhdWROZzI0MlYxRDI0TXc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T14:51:08+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "M+ Collagen Cafe",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03TzI3Rzh4Qm9uTHQzNkVMcGVIaVI1eGh2cWhtdWJtSmNWV24wUkZVODZjaGt1Y2xKb2F0Znl3dlVDaGpiMmNNSVpkbXJtdG9ZaXZtY2o3Qi1jY0xQd3NScDUtZEZtRFZfMWNhSA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-26T11:44:29+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-23",
       "scannedAt": "2026-10-26T06:08:22.473Z",
       "kind": "editorial_archive",
@@ -2365,26 +2467,6 @@
           "publishedAt": "2025-11-30T09:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-09-27",
-      "scannedAt": "2026-09-29T00:09:19.513Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-09-27",
-          "rank": 0,
-          "title": "Brewing with Precision",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "How material science and extraction metrics are democratizing the perfect cup.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/madcap-eureka-sprudge-roasters-village.jpg-copy.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-27.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-09-27"
         }
       ]
     }

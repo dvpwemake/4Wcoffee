@@ -1,124 +1,122 @@
 {
-  "id": "ed_2026-10-25",
-  "publishDate": "2026-10-25",
+  "id": "ed_2026-10-26",
+  "publishDate": "2026-10-26",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-10-25",
+  "title": "Editorial brief — 2026-10-26",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/10/perc-creature-feature.jpg",
-  "heroCredit": "Sprudge",
-  "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html",
+  "heroImage": "https://coffeetalk.com/wp-content/uploads/kelsen-fernandes-M5EnPWrSbj0-unsplash-scaled.jpg",
+  "heroCredit": "Coffee Talk",
+  "heroSource": "Coffee Talk",
+  "heroSourceUrl": "https://coffeetalk.com/ctmagazine/10-2026/111208/",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-25\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-26\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Is There Anything Scarier Than Running Out Of Coffee?\n   Source: Sprudge\n   URL: https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-    "2. [Industry] De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/\n   Key points:\n   • Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%.",
-    "3. [Industry] Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/\n   Key points:\n   • Welcome to DCN’s Weekly Coffee News!\n   • Also, check out the latest career opportunities at CoffeeIndustryJobs.com.\n   • Mill City Ships First 20-Kilogram M-Series...",
-    "4. [Industry] The 2026 World Barista Championship Starts Today. Here’s Everyone Competing\n   Source: Sprudge\n   URL: https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A schedule for Round One of the 2026 World Barista Championship.",
-    "5. [Science] Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "6. [Reviews] How to Host a Coffee Tasting Party\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/\n   Key points:\n   • How to make Vietnamese iced coffee with a phin filter.\n   • CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá.",
-    "7. [Origin] Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "8. [Origin] FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "— Categories present —\nIndustry · Science · Reviews · Origin",
+    "1. [Industry] Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/ctmagazine/10-2026/111208/\n   Key points:\n   • Coffee prices fell sharply after Brazil's Lula won the election, weakening the real and boosting export prospects for farmers.",
+    "2. [Industry] Seidy Selivanow Of Kafiex Roasters: The Sprudge Twenty Interview\n   Source: Sprudge\n   URL: https://sprudge.com/seidy-selivanow-of-kafiex-roasters-the-sprudge-twenty-interview-1278632.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • An interview with 2026 Sprudge Twenty inductee Seidy Selivanow of Kafiex Roasters in Vancouver, Washington.",
+    "3. [Industry] Pan Wei Of China Is The 2026 World Barista Champion\n   Source: Sprudge\n   URL: https://sprudge.com/pan-wei-of-china-is-the-2026-world-barista-champion-1523583.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • This is Pan Wei's second year competing at the World Barista Championship.",
+    "4. [Industry] U.S. Coffee Drink Calories Climbed 40% in 15-Year Span\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/26/u-s-coffee-drink-calories-climbed-40-in-15-year-span/\n   Key points:\n   • adults consumed nearly 40% more calories from coffee drinks in 2018 than they did in 2003, despite drinking roughly the same amount of coffee, according to a new study...",
+    "5. [Industry] DiFluid RS Extract Expands the Temperature Range for Coffee TDS\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/26/difluid-rs-extract-expands-the-temperature-range-for-coffee-tds/\n   Key points:\n   • Chinese coffee analysis equipment maker DiFluid has rolled out a new professional refractometer called the RS Extract for measuring total dissolved solids (TDS) in brewed coffee.\n   • The device can also connect...",
+    "6. [Science] Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds\n   Source: ScienceAlert\n   URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQelZOcHc1UU9XQXRUVUdKRnV3VU9fVlNGT1dzc1ZLVmRjWWhpdzNjT0I5ZTJWOV9nRktBTkVjTEpFQnlpeTQxSFVwX1NsMlZpdThxTDNzRThlRE1RaV81WDA2U2lBZXBBYmVNRUNFbnVMWDFvUHJiUWpTWEotQTFTbndkZXU5dE0wWmkyXzNOcmhEeE50T3hxMW9iQVEtU0hTMlFpdnFiRHppOHlXY0MxSlZiWHE\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "7. [Origin] Nakupenda Coffee House\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMidkFVX3lxTFBPYlNJYl9KUDZWVmxORnN0LUlTV282bG0wM3RPb0FZeDRNcW1iOU1QUWhrbFFEX1JrRzVUQkZXaHkwNGw2SDY4UTJtVDBwVk9wQUJxN0JRVXYwSDljZEdmREpad3E4LXNhdWROZzI0MlYxRDI0TXc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "8. [Origin] M+ Collagen Cafe\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMibEFVX3lxTE03TzI3Rzh4Qm9uTHQzNkVMcGVIaVI1eGh2cWhtdWJtSmNWV24wUkZVODZjaGt1Y2xKb2F0Znl3dlVDaGpiMmNNSVpkbXJtdG9ZaXZtY2o3Qi1jY0xQd3NScDUtZEZtRFZfMWNhSA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "— Categories present —\nIndustry · Science · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-25\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Is There Anything Scarier Than Running Out Of Coffee?\n   Source: Sprudge\n   URL: https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A weekly curated selection of coffees from the Sprudge Roaster's Village.\n\n2. [Industry] De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/\n   Key points:\n   • Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%.\n\n3. [Industry] Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/\n   Key points:\n   • Welcome to DCN’s Weekly Coffee News!\n   • Also, check out the latest career opportunities at CoffeeIndustryJobs.com.\n   • Mill City Ships First 20-Kilogram M-Series...\n\n4. [Industry] The 2026 World Barista Championship Starts Today. Here’s Everyone Competing\n   Source: Sprudge\n   URL: https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A schedule for Round One of the 2026 World Barista Championship.\n\n5. [Science] Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Reviews] How to Host a Coffee Tasting Party\n   Source: CoffeeGeek\n   URL: https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/\n   Key points:\n   • How to make Vietnamese iced coffee with a phin filter.\n   • CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá.\n\n7. [Origin] Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 450,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-10-26\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/ctmagazine/10-2026/111208/\n   Key points:\n   • Coffee prices fell sharply after Brazil's Lula won the election, weakening the real and boosting export prospects for farmers.\n\n2. [Industry] Seidy Selivanow Of Kafiex Roasters: The Sprudge Twenty Interview\n   Source: Sprudge\n   URL: https://sprudge.com/seidy-selivanow-of-kafiex-roasters-the-sprudge-twenty-interview-1278632.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • An interview with 2026 Sprudge Twenty inductee Seidy Selivanow of Kafiex Roasters in Vancouver, Washington.\n\n3. [Industry] Pan Wei Of China Is The 2026 World Barista Champion\n   Source: Sprudge\n   URL: https://sprudge.com/pan-wei-of-china-is-the-2026-world-barista-champion-1523583.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • This is Pan Wei's second year competing at the World Barista Championship.\n\n4. [Industry] U.S. Coffee Drink Calories Climbed 40% in 15-Year Span\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/26/u-s-coffee-drink-calories-climbed-40-in-15-year-span/\n   Key points:\n   • adults consumed nearly 40% more calories from coffee drinks in 2018 than they did in 2003, despite drinking roughly the same amount of coffee, according to a new study...\n\n5. [Industry] DiFluid RS Extract Expands the Temperature Range for Coffee TDS\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/10/26/difluid-rs-extract-expands-the-temperature-range-for-coffee-tds/\n   Key points:\n   • Chinese coffee analysis equipment maker DiFluid has rolled out a new professional refractometer called the RS Extract for measuring total dissolved solids (TDS) in brewed coffee.\n   • The device can also connect...\n\n6. [Science] Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds\n   Source: ScienceAlert\n   URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQelZOcHc1UU9XQXRUVUdKRnV3VU9fVlNGT1dzc1ZLVmRjWWhpdzNjT0I5ZTJWOV9nRktBTkVjTEpFQnlpeTQxSFVwX1NsMlZpdThxTDNzRThlRE1RaV81WDA2U2lBZXBBYmVNRUNFbnVMWDFvUHJiUWpTWEotQTFTbndkZXU5dE0wWmkyXzNOcmhEeE50T3hxMW9iQVEtU0hTMlFpdnFiRHppOHlXY0MxSlZiWHE\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Nakupenda Coffee House\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMidkFVX3lxTFBPYlNJYl9KUDZWVmxORnN0LUlTV282bG0wM3RPb0FZeDRNcW1iOU1QUWhrbFFEX1JrRzVUQkZXaHkwNGw2SDY4UTJtVDBwVk9wQUJxN0JRVXYwSDljZEdmREpad3E4LXNhdWROZzI0MlYxRDI0TXc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] M+ Collagen Cafe\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMibEFVX3lxTE03TzI3Rzh4Qm9uTHQzNkVMcGVIaVI1eGh2cWhtdWJtSmNWV24wUkZVODZjaGt1Y2xKb2F0Znl3dlVDaGpiMmNNSVpkbXJtdG9ZaXZtY2o3Qi1jY0xQd3NScDUtZEZtRFZfMWNhSA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 433,
   "headlines": [
     {
-      "title": "Is There Anything Scarier Than Running Out Of Coffee?",
+      "title": "Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects",
+      "source": "Coffee Talk",
+      "category": "industry",
+      "sourceUrl": "https://coffeetalk.com/ctmagazine/10-2026/111208/",
+      "summary": "Coffee prices fell sharply after Brazil's Lula won the election, weakening the real and boosting export prospects for farmers. The post Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects appeared first on CoffeeTalk .",
+      "image": "https://coffeetalk.com/wp-content/uploads/kelsen-fernandes-M5EnPWrSbj0-unsplash-scaled.jpg",
+      "keyPoints": [
+        "Coffee prices fell sharply after Brazil's Lula won the election, weakening the real and boosting export prospects for farmers."
+      ]
+    },
+    {
+      "title": "Seidy Selivanow Of Kafiex Roasters: The Sprudge Twenty Interview",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/10/perc-creature-feature.jpg",
+      "sourceUrl": "https://sprudge.com/seidy-selivanow-of-kafiex-roasters-the-sprudge-twenty-interview-1278632.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Seidy Selivanow of Kafiex Roasters in Vancouver, Washington.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_seidy-selivanow.webp",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "A weekly curated selection of coffees from the Sprudge Roaster's Village."
+        "An interview with 2026 Sprudge Twenty inductee Seidy Selivanow of Kafiex Roasters in Vancouver, Washington."
       ]
     },
     {
-      "title": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
-      "source": "Daily Coffee News",
-      "category": "industry",
-      "sourceUrl": "https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/",
-      "summary": "Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%. The deal...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/La-Marzocco-620x414.jpg",
-      "keyPoints": [
-        "Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%."
-      ]
-    },
-    {
-      "title": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
-      "source": "Daily Coffee News",
-      "category": "industry",
-      "sourceUrl": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/",
-      "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Mill City Ships First 20-Kilogram M-Series...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Mill-City-20-Kilo-M-Series-620x400.png",
-      "keyPoints": [
-        "Welcome to DCN’s Weekly Coffee News!",
-        "Also, check out the latest career opportunities at CoffeeIndustryJobs.com.",
-        "Mill City Ships First 20-Kilogram M-Series..."
-      ]
-    },
-    {
-      "title": "The 2026 World Barista Championship Starts Today. Here’s Everyone Competing",
+      "title": "Pan Wei Of China Is The 2026 World Barista Champion",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A schedule for Round One of the 2026 World Barista Championship.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc2026.jpg",
+      "sourceUrl": "https://sprudge.com/pan-wei-of-china-is-the-2026-world-barista-champion-1523583.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This is Pan Wei's second year competing at the World Barista Championship.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc-panama-–-day-4-awards-jhp07754.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "A schedule for Round One of the 2026 World Barista Championship."
+        "This is Pan Wei's second year competing at the World Barista Championship."
       ]
     },
     {
-      "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
-      "source": "Nature",
+      "title": "U.S. Coffee Drink Calories Climbed 40% in 15-Year Span",
+      "source": "Daily Coffee News",
+      "category": "industry",
+      "sourceUrl": "https://dailycoffeenews.com/2026/10/26/u-s-coffee-drink-calories-climbed-40-in-15-year-span/",
+      "summary": "U.S. adults consumed nearly 40% more calories from coffee drinks in 2018 than they did in 2003, despite drinking roughly the same amount of coffee, according to a new study...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/iced-coffee-cream-1-620x427.jpg",
+      "keyPoints": [
+        "adults consumed nearly 40% more calories from coffee drinks in 2018 than they did in 2003, despite drinking roughly the same amount of coffee, according to a new study..."
+      ]
+    },
+    {
+      "title": "DiFluid RS Extract Expands the Temperature Range for Coffee TDS",
+      "source": "Daily Coffee News",
+      "category": "industry",
+      "sourceUrl": "https://dailycoffeenews.com/2026/10/26/difluid-rs-extract-expands-the-temperature-range-for-coffee-tds/",
+      "summary": "Chinese coffee analysis equipment maker DiFluid has rolled out a new professional refractometer called the RS Extract for measuring total dissolved solids (TDS) in brewed coffee. The device can also connect...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/DiFluis-RS-Extract-2-620x349.jpg",
+      "keyPoints": [
+        "Chinese coffee analysis equipment maker DiFluid has rolled out a new professional refractometer called the RS Extract for measuring total dissolved solids (TDS) in brewed coffee.",
+        "The device can also connect..."
+      ]
+    },
+    {
+      "title": "Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds",
+      "source": "ScienceAlert",
       "category": "science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelZOcHc1UU9XQXRUVUdKRnV3VU9fVlNGT1dzc1ZLVmRjWWhpdzNjT0I5ZTJWOV9nRktBTkVjTEpFQnlpeTQxSFVwX1NsMlZpdThxTDNzRThlRE1RaV81WDA2U2lBZXBBYmVNRUNFbnVMWDFvUHJiUWpTWEotQTFTbndkZXU5dE0wWmkyXzNOcmhEeE50T3hxMW9iQVEtU0hTMlFpdnFiRHppOHlXY0MxSlZiWHE",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "How to Host a Coffee Tasting Party",
-      "source": "CoffeeGeek",
-      "category": "reviews",
-      "sourceUrl": "https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/",
-      "summary": "How to make Vietnamese iced coffee with a phin filter. CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá. The post How to Host a Coffee Tasting Party appeared first on CoffeeGeek .",
-      "image": "https://coffeegeek.com/wp-content/uploads/2026/10/Cupping-Setup-3-800x533.jpg",
-      "keyPoints": [
-        "How to make Vietnamese iced coffee with a phin filter.",
-        "CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá."
-      ]
-    },
-    {
-      "title": "Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus",
-      "source": "Comunicaffe International",
+      "title": "Nakupenda Coffee House",
+      "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPYlNJYl9KUDZWVmxORnN0LUlTV282bG0wM3RPb0FZeDRNcW1iOU1QUWhrbFFEX1JrRzVUQkZXaHkwNGw2SDY4UTJtVDBwVk9wQUJxN0JRVXYwSDljZEdmREpad3E4LXNhdWROZzI0MlYxRDI0TXc",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market",
-      "source": "Comunicaffe International",
+      "title": "M+ Collagen Cafe",
+      "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03TzI3Rzh4Qm9uTHQzNkVMcGVIaVI1eGh2cWhtdWJtSmNWV24wUkZVODZjaGt1Y2xKb2F0Znl3dlVDaGpiMmNNSVpkbXJtdG9ZaXZtY2o3Qi1jY0xQd3NScDUtZEZtRFZfMWNhSA",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     }
   ],
-  "fromScan": "2026-10-25T18:26:08.280449+00:00"
+  "fromScan": "2026-10-26T20:31:32.852072+00:00"
 }
