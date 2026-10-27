@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-27T20-07-17",
+      "scannedAt": "2026-10-27T20:07:17.414964+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Sign Up For Sprudge Maps! Get Your Cafe Featured On Sprudge!",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/sign-up-for-sprudge-maps-get-your-cafe-featured-on-sprudge-1524072.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Sign up your cafe today.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/sprudge-maps-cheerleaders-buzzy-spesh.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T17:23:23+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "AI Coffee Defect Detector Gets Much Smarter When It Flips the Beans",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/27/ai-coffee-defect-detector-gets-much-smarter-when-it-flips-the-beans/",
+          "summary": "A new prototype coffee inspection system combines AI and a simple mechanical idea — flipping coffee beans over — to capture more data to improve defect detection. The prototype was...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/08/green-coffee-620x414.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T14:09:07+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Lovr Boys Cafe & Roastery is Pouring Hearts in Bonita Springs, Florida",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/27/lovr-boys-cafe-roastery-is-pouring-hearts-in-bonita-springs-florida/",
+          "summary": "Home is where the hearts are for Lovr Boys Cafe & Roastery in Bonita Springs, Florida. Between Adirondack-green walls, the 2,000-square-foot coffee shop that opened in late August includes a...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Lovr-Boys-Cafe-Roastery-Bonita-Springs-2-620x411.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T12:34:33+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Blueprint Coffee Is Giving Tariff Refunds Back To Their Customers",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/blueprint-coffee-is-giving-tariff-refunds-back-to-their-customers-1504991.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Blueprint is offering a 5% discount on coffee purchases until their tariff refund runs out.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/guji-bag-01.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T12:00:45+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Optimization of vibration parameters for selective coffee fruit harvesting on the basis of branch energy transfer characteristics",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XamlPYTNNRTFDeWxYa19MVl9CTC00dXRia3BMcDRaUFhBWU5oT2JSSmVLb2Yzd2JMczZoMTVpdC1qam96ZHdSRVRJTGdkZmcySE5hdFF2V2ViTGt5ZXM0",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T07:00:45+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "After Drinking Buckets of Coffee, I Found the 4 Best Percolators—Including Stanley",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xYURPbFdpWGlmOG1GUXRUWFRzanluVnlqd1pDQTVHQUtQdU1FMzhsZjgxNWlxU25GTDlNYTVCbFFnckU1bnR0dmJ0TlJUN3MxcXdkOFZDLTVXczAxUzdleXhZZzVBaGJoOHc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T07:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Efsy Coffee",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKeVRIR2lxSWFSYlFiN2VaSC05ekZ2bGpvbk1xbEtZbFVHa0lCY3hDdjlNaVFnalRyMGlNOVNUa3BKdnI0clZQLWM0bVhEakZ3THRiTU5NQVBXR3dOeWlLOWZYclNXckkyWTQ1NUUwelpKWjg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T14:35:50+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Best Cafés in Podgorica - Speciality Coffee Guide to Podgorica",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iVVdUTVVHMi1UTnJiSG1wWEo3WVp0clRrbkJzUlBHNWItU3ljN200enhta1RwaElPeVRnS2Vwd245cGRIajBEVHJoNnQydTljVWxPSGdXXy1QdzYxTHBlNzRn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T11:35:13+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-25",
       "scannedAt": "2026-10-27T17:48:53.403Z",
       "kind": "editorial_archive",
@@ -2363,67 +2465,6 @@
           "summary": "Amazon dropped a bunch of Black Friday deals early, including Fellow, xBloom Studio, Delonghi, and a CG fave - the Breville Infuser! Updated Nov 25. The post Early Black Friday Deals for 2025 appeared first on CoffeeGeek .",
           "image": "https://coffeegeek.com/wp-content/uploads/2024/11/Early-Black-Friday-Deals-2-800x533.jpg",
           "publishedAt": "2025-11-26T09:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-09-30T20-04-20",
-      "scannedAt": "2026-09-30T20:04:20.743824+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Lemma Coffee Co In Dallas, TX",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-lemma-coffee-co-in-dallas-tx-1288099.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Lemma Coffee Co. in Dallas, Texas.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/lemma-coffee-co-3.jpg",
-          "publishedAt": "2026-09-30T14:00:17+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "A Comparison between Standard and Low-Fines Espresso Shots",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/05/10/a-comparison-between-standard-and-low-fines-espresso-shots/",
-          "summary": "In this post, I compare several shots pulled with the Niche to others pulled with the EG-1 and SSP ultra-low-fines burrs.",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/04/grinders.png?fit=1200%2C900&ssl=1",
-          "publishedAt": "2021-05-10T18:18:19+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Pulling Low-Fines Espresso Shots",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/04/14/pulling-low-fines-espresso-shots/",
-          "summary": "In this post, I discuss how I pull espresso shots with the EG-1 grinder and SSP's ultra-low-fines burrs. These shots have a high average extraction yield, high clarity and low mouthfeel.",
-          "image": "http://www.dropbox.com/s/ih4z8i2dxhzo8cj/knocking_oring.MOV?raw=1",
-          "publishedAt": "2021-04-14T19:56:15+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Bookoo Themis Ultra",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/bookoo-themis-ultra-review/",
-          "summary": "A waterproof, overbuilt espresso scale with three days of battery. The question is whether you need any of that at home. The post Bookoo Themis Ultra appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/bookoo-themis-scaled.jpeg",
-          "publishedAt": "2026-09-30T10:49:06+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Shop the Top 50 Coffees of 2025",
-          "source": "Coffee Review",
-          "sourceUrl": "https://www.coffeereview.com/shop-for-the-top-50-coffees-of-2025/",
-          "summary": "Our mission is to help coffee lovers find and enjoy superior quality coffee. We’re pleased to help facilitate your holiday shopping and gift-giving by providing convenient links to roasters’ websites where some of the Top 50 coffees of 2025 may be available for purchase. Hurry, t",
-          "image": "https://www.coffeereview.com/wp-content/uploads/2025/11/iStock-1281213372-e1764347467170.jpg",
-          "publishedAt": "2025-11-28T16:34:50+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
