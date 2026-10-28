@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-28T20-18-18",
+      "scannedAt": "2026-10-28T20:18:18.886200+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Ohio State University Initiates Study to Predict Flavor of Coffee Cultivars Through Chemical Analysis",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111244/",
+          "summary": "Ohio State researchers aim to revolutionize coffee breeding by developing methods to predict bean flavor before roasting, enhancing quality and resilience. The post Ohio State University Initiates Study to Predict Flavor of Coffee Cultivars Through Chemical Analysis appeared firs",
+          "image": "https://coffeetalk.com/wp-content/uploads/ben-moreland-TVVkelGkvQs-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T20:01:13+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Bad Ass Coffee of Hawaii Consolidates Franchise System onto a Single Tech Platform, Including POS Systems, Inventory Control, Labor Management and More",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111241/",
+          "summary": "Bad Ass Coffee of Hawaii streamlines operations with a unified tech platform, enhancing franchise efficiency as it expands into new markets and formats. The post Bad Ass Coffee of Hawaii Consolidates Franchise System onto a Single Tech Platform, Including POS Systems, Inventory C",
+          "image": "https://coffeetalk.com/wp-content/uploads/badasscoffee.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T19:56:20+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Tio Fallen Of Three Keys Coffee: The Sprudge Twenty Interview",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/tio-fallen-of-three-keys-coffee-the-sprudge-twenty-interview-1278668.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Tio Fallen of Three Keys Coffee in Houston, Texas.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_tio-fallen.webp",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T17:26:14+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Optimization of vibration parameters for selective coffee fruit harvesting on the basis of branch energy transfer characteristic",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE81Ml9odGxvbTQwQXJkblZIV1k5WUtEa0hWbHdpcjFJYjZKT3BBblZ4U29aNzM0SnkwekQ2U1hnc1BXYmtQbFY0WE80a0VGRnpoYnFKV21uY0t6cHdXUmdNUFNldVVPS2ZhaWxzRnJaM28zZw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-23T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWjBCUnEyY3F0OTdya0lYUEZoc1BOWlpNTmpuMzBLTG53NHJnRndlMlMwVGhCcko0dFNPV2dJWDhZWWhhM3pqVHc2M2NQUGd2V1R5UWw5WnpZR3RzUWdORDk0N0E",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-22T15:14:20+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The Grind Size Chart",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/grind-size-chart/",
+          "summary": "If you're confused about how to grind for coffee, and what grind settings goes with which brew method, then this post is for you. The post The Grind Size Chart appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2023/01/grindsizeexplained.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T13:35:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Meet Ma Yongquan (Tim): China’s 2026 AeroPress Champion",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/meet-ma-yongquan-tim-chinas-2026-aeropress-champion/",
+          "summary": "81 competitors. Three days in Guiyang. One new champion. After three days of coffee, competition, workshops, and community celebrations, the 2026 China AeroPress Championship has crowned its champion: Ma Yongquan (Tim) . Held from October 26–28 in Guiyang, China, the championship",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T16:21:32+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "China, Rabobank:coffee accounts for up to 20% of tea chains sales",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUE5UdHlnTXVwQ05Cczk5ZmpHcFVCWnQyUjF4dm9VMFNfMEZmaHI2YVplYXR1WGNvMkRtWUxKTE5ibFFEZDFyc09JMmlpZ3RPeDZzQk53SXRNOTBuZWI3cjZ6d3E2X0t1QXJIVXEzT1ExYmlEb01VY1hNWTdYc3ZKY2JOSFNKRnh1Z21EcEZSZ29WWFFxbDViOUdwSGJqczBnMnRoTUQ1akc5WE00ZmNvUG9jd3BiR2xvLVNuRUdNVUhxLWVQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T23:59:31+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-27T20-07-17",
       "scannedAt": "2026-10-27T20:07:17.414964+00:00",
       "items": [
@@ -2406,67 +2508,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-09-28.html",
           "isEditorialArchive": true,
           "publishDate": "2026-09-28"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-01T20-22-51",
-      "scannedAt": "2026-10-01T20:22:51.470551+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Build-Outs Of Coffee: Phil & Sebastian In Calgary, Alberta",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/build-outs-of-coffee-phil-sebastian-in-calgary-alberta-1386731.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Phil & Sebastian in Calgary, Alberta.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/phil-sebastian-booc-1.jpg",
-          "publishedAt": "2026-10-01T18:03:40+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "How a Paper Filter Below an Espresso Puck Affects Hydraulic Resistance",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/04/04/how-a-paper-filter-below-an-espresso-puck-affects-hydraulic-resistance/",
-          "summary": "In one of my latest posts, I investigated the effect of puck preparation, and in particular the addition of a dry paper filter above the espresso puck, affects the hydraulic resistance of the system during an espresso shot. While I have not yet tested its effect on average extrac",
-          "image": "https://coffeeadastra.com/wp-content/uploads/2021/01/bottom_filter_header.png?w=3136",
-          "publishedAt": "2021-04-05T01:02:18+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "The Four Rules of Optimal Coffee Percolation",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2021/03/04/the-four-rules-of-optimal-coffee-percolation/",
-          "summary": "In this post, I lay down four rules for optimal percolation that follow some of my most recent understanding about percolation physics.",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2021/01/4_rules_header3.png?fit=1200%2C244&ssl=1",
-          "publishedAt": "2021-03-05T01:20:16+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Femobook A2",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/femobook-a2-review/",
-          "summary": "Is it an electric grinder? Or rather a manual grinder that cranks itself? Who knows, but the A2 is a lot of grinder for the money. The post Femobook A2 appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/femobook-a2.jpg",
-          "publishedAt": "2026-10-01T08:47:41+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Early Black Friday Deals for 2025",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/blog/deals/early-black-friday-deals-2025-on-coffee-espresso-gear/",
-          "summary": "Amazon dropped a bunch of Black Friday deals early, including Fellow, xBloom Studio, Delonghi, and a CG fave - the Breville Infuser! Updated Nov 25. The post Early Black Friday Deals for 2025 appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2024/11/Early-Black-Friday-Deals-2-800x533.jpg",
-          "publishedAt": "2025-11-26T09:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
