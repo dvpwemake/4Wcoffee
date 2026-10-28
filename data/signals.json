@@ -48,26 +48,28 @@
       "source": "Nature",
       "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE81Ml9odGxvbTQwQXJkblZIV1k5WUtEa0hWbHdpcjFJYjZKT3BBblZ4U29aNzM0SnkwekQ2U1hnc1BXYmtQbFY0WE80a0VGRnpoYnFKV21uY0t6cHdXUmdNUFNldVVPS2ZhaWxzRnJaM28zZw",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2g8fR51ejqZWE1OIZTe5vtMmiB5MfZEYCn0b47u5iXw&s",
       "publishedAt": "2026-10-23T07:00:00+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
       "id": "science-1",
-      "rank": 4
+      "rank": 4,
+      "imageLocked": true
     },
     {
       "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
       "source": "Nature",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWjBCUnEyY3F0OTdya0lYUEZoc1BOWlpNTmpuMzBLTG53NHJnRndlMlMwVGhCcko0dFNPV2dJWDhZWWhhM3pqVHc2M2NQUGd2V1R5UWw5WnpZR3RzUWdORDk0N0E",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-W6Dt1IXL_gOfQ6T1FFqPYOY2jIjJ3y2y_tzVjCCrvQ&s",
       "publishedAt": "2026-10-22T15:14:20+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
       "id": "science-2",
-      "rank": 5
+      "rank": 5,
+      "imageLocked": true
     },
     {
       "title": "The Grind Size Chart",
@@ -98,13 +100,14 @@
       "source": "Comunicaffe International",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUE5UdHlnTXVwQ05Cczk5ZmpHcFVCWnQyUjF4dm9VMFNfMEZmaHI2YVplYXR1WGNvMkRtWUxKTE5ibFFEZDFyc09JMmlpZ3RPeDZzQk53SXRNOTBuZWI3cjZ6d3E2X0t1QXJIVXEzT1ExYmlEb01VY1hNWTdYc3ZKY2JOSFNKRnh1Z21EcEZSZ29WWFFxbDViOUdwSGJqczBnMnRoTUQ1akc5WE00ZmNvUG9jd3BiR2xvLVNuRUdNVUhxLWVQ",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/Chinese_flag_Beijing_-_IMG_1104.jpg",
       "publishedAt": "2026-10-27T23:59:31+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-2",
-      "rank": 8
+      "rank": 8,
+      "imageLocked": true
     }
   ],
   "byCategory": {
@@ -152,26 +155,28 @@
         "source": "Nature",
         "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE81Ml9odGxvbTQwQXJkblZIV1k5WUtEa0hWbHdpcjFJYjZKT3BBblZ4U29aNzM0SnkwekQ2U1hnc1BXYmtQbFY0WE80a0VGRnpoYnFKV21uY0t6cHdXUmdNUFNldVVPS2ZhaWxzRnJaM28zZw",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2g8fR51ejqZWE1OIZTe5vtMmiB5MfZEYCn0b47u5iXw&s",
         "publishedAt": "2026-10-23T07:00:00+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
         "id": "science-1",
-        "rank": 4
+        "rank": 4,
+        "imageLocked": true
       },
       {
         "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
         "source": "Nature",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWjBCUnEyY3F0OTdya0lYUEZoc1BOWlpNTmpuMzBLTG53NHJnRndlMlMwVGhCcko0dFNPV2dJWDhZWWhhM3pqVHc2M2NQUGd2V1R5UWw5WnpZR3RzUWdORDk0N0E",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-W6Dt1IXL_gOfQ6T1FFqPYOY2jIjJ3y2y_tzVjCCrvQ&s",
         "publishedAt": "2026-10-22T15:14:20+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
         "id": "science-2",
-        "rank": 5
+        "rank": 5,
+        "imageLocked": true
       }
     ],
     "reviews": [
@@ -206,13 +211,14 @@
         "source": "Comunicaffe International",
         "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUE5UdHlnTXVwQ05Cczk5ZmpHcFVCWnQyUjF4dm9VMFNfMEZmaHI2YVplYXR1WGNvMkRtWUxKTE5ibFFEZDFyc09JMmlpZ3RPeDZzQk53SXRNOTBuZWI3cjZ6d3E2X0t1QXJIVXEzT1ExYmlEb01VY1hNWTdYc3ZKY2JOSFNKRnh1Z21EcEZSZ29WWFFxbDViOUdwSGJqczBnMnRoTUQ1akc5WE00ZmNvUG9jd3BiR2xvLVNuRUdNVUhxLWVQ",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/Chinese_flag_Beijing_-_IMG_1104.jpg",
         "publishedAt": "2026-10-27T23:59:31+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-2",
-        "rank": 8
+        "rank": 8,
+        "imageLocked": true
       }
     ]
   },
@@ -236,245 +242,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sb1A4RzlLSmNIa2Vjd1paT05Cc0lWZUZxd3cwODI5bGljZ0hhUGR4SC02bFRia05FZXNQVmxaWjdaa1lxY0xFRHBRX01uUVRwM1hwZHB6M1F6dw",
       "title": "Patrick Smith - Daily Coffee News",
       "deletedAt": "2026-10-21T16:33:23.431Z"
-    }
-  ],
-  "log": [
-    {
-      "ok": true,
-      "source": "Sprudge",
-      "n": 30,
-      "url": "https://sprudge.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Daily Coffee News",
-      "n": 30,
-      "url": "https://dailycoffeenews.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind",
-      "n": 28,
-      "url": "https://perfectdailygrind.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Roast Magazine",
-      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
-      "url": "https://roastmagazine.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Standart",
-      "n": 0,
-      "url": "https://standartmag.com/blogs/journal.atom"
-    },
-    {
-      "ok": false,
-      "source": "Barista Magazine",
-      "error": "<urlopen error timed out>",
-      "url": "https://www.baristamagazine.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Fresh Cup",
-      "n": 30,
-      "url": "https://freshcup.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Talk",
-      "n": 30,
-      "url": "https://www.coffeetalk.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Barista Hustle",
-      "n": 30,
-      "url": "https://www.baristahustle.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Ad Astra",
-      "n": 30,
-      "url": "https://coffeeadastra.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Scott Rao",
-      "n": 0,
-      "url": "https://www.scottrao.com/blog?format=rss"
-    },
-    {
-      "ok": false,
-      "source": "Jim Seven",
-      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
-      "url": "https://www.jimseven.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "World Coffee Research",
-      "n": 0,
-      "url": "https://worldcoffeeresearch.org/news/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Nature",
-      "n": 58,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "News-Medical",
-      "n": 63,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Medical Xpress",
-      "n": 19,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Phys.org",
-      "n": 24,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "The Conversation",
-      "n": 27,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "ScienceDaily",
-      "n": 11,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "ScienceAlert",
-      "n": 10,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Review",
-      "n": 30,
-      "url": "https://www.coffeereview.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "CoffeeGeek",
-      "n": 30,
-      "url": "https://coffeegeek.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Home-Barista",
-      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
-      "url": "https://www.home-barista.com/rss.xml"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Chronicler",
-      "n": 30,
-      "url": "https://coffeechronicler.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Espresso My Espresso",
-      "error": "disabled: 403 for every client tried (checked 2026-10-06)",
-      "url": "https://espressomyespresso.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Serious Eats",
-      "n": 94,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Gear Patrol",
-      "n": 100,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": false,
-      "source": "SCA News",
-      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
-      "url": "https://scanews.coffee/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Sweet Maria's",
-      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
-      "url": "https://www.sweetmarias.com/blog/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind Origins",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/category/origins/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Cafe Imports",
-      "n": 0,
-      "url": "https://cafeimports.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "European Coffee Trip",
-      "n": 8,
-      "url": "https://europeancoffeetrip.com/feed/",
-      "via": "google-news",
-      "directError": "HTTP Error 403: Forbidden"
-    },
-    {
-      "ok": true,
-      "source": "Not a Barista",
-      "n": 30,
-      "url": "https://notabarista.org/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Comunicaffe",
-      "n": 75,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Fairtrade",
-      "n": 10,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "International Coffee Organization",
-      "n": 20,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Specialty Coffee Association",
-      "n": 12,
-      "url": "google-news",
-      "via": "google-news"
     }
   ]
 }
