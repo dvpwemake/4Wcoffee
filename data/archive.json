@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-28",
+      "scannedAt": "2026-10-29T21:43:39.145Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-28",
+          "rank": 0,
+          "title": "Precision Mechanics and Expanding Markets",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "From molecular flavor mapping to China's booming retail crossover, rigorous analysis is redefining every link of the coffee supply chain.",
+          "image": "https://coffeetalk.com/wp-content/uploads/ben-moreland-TVVkelGkvQs-unsplash-scaled.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-28.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-28"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-29T20-20-51",
       "scannedAt": "2026-10-29T20:20:51.363423+00:00",
       "items": [
@@ -2529,26 +2549,6 @@
           "publishedAt": "2025-11-05T01:30:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-01",
-      "scannedAt": "2026-10-03T17:47:34.370Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-01",
-          "rank": 0,
-          "title": "Beyond the Extraction Threshold: Engineering the Next Era of Specialty Coffee",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "On fluid dynamics, institutional capital, and the shifting geography of value.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/phil-sebastian-booc-1.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-01.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-01"
         }
       ]
     }
