@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-10-31T19-20-13",
+      "scannedAt": "2026-10-31T19:20:13.934910+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Coffee Gear That’s Scary Good",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/coffee-gear-thats-scary-good-1535418.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of gear is...",
+          "image": "https://sprudge.com/wp-content/uploads/2026/07/mhw-3bomber-x-press58-sprudge-coffee-gear.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-31T12:00:55+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/how-coffee-carts-and-caterers-price-gigs-4-operators-share-their-processes/",
+          "summary": "Four coffee caterers explain how they quote events, with their methods checked against pricing data from 25,860 bookings. The post How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/10/GrandLadyOpenHouse-scaled-1.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-30T11:57:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Japan’s Coffee Market Evolves with Declining Consumption and Increased Reliance on Vietnam for Instant Coffee",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111249/",
+          "summary": "Japan's coffee market is evolving, with declining consumption and increased reliance on a few key suppliers, notably Vietnam for instant coffee. The post Japan’s Coffee Market Evolves with Declining Consumption and Increased Reliance on Vietnam for Instant Coffee appeared first o",
+          "image": "https://coffeetalk.com/wp-content/uploads/perry-merrity-ii-B2eRHWYNNVY-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T20:08:10+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "LATTE Facility Launches to Bolster Climate Resilience for Colombian Coffee Farmers",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/10-2026/111246/",
+          "summary": "IDH Investment launches a $30 million facility to boost climate resilience for Colombian coffee farmers, addressing urgent financing needs amid climate change threats. The post LATTE Facility Launches to Bolster Climate Resilience for Colombian Coffee Farmers appeared first on Co",
+          "image": "https://coffeetalk.com/wp-content/uploads/projeto-cafe-gato-mourisco-4Neo4jje-Hk-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T20:02:24+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-5",
+          "title": "Kerry Opens Massive Roasting and Extraction Plant in Pennsylvania",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/10/29/kerry-opens-massive-roasting-and-extraction-plant-in-pennsylvania/",
+          "summary": "Global taste and nutrition company Kerry cut the ribbon on a 48,600-square-foot coffee roasting and extraction facility near Bethlehem, Pennsylvania, in September, significantly expanding the company’s North American coffee production...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Kerry-Bethlehem-factory-620x465.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T13:14:28+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Timemore Black Mirror Review: Why the 3 Is the Best Yet",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/timemore-black-mirror-review/",
+          "summary": "The Black Mirror went from a single black square to a whole family of scales. Here is how it evolved, and why the Black Mirror 3 is the best one yet. The post Timemore Black Mirror Review: Why the 3 Is the Best Yet appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2020/04/timemore1small.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-30T10:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "France: Starbucks, Columbus retain lead in the coffee shop market",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1pWQjRMYUtleXdvcWJ6OVo3dXZldGRaOW15ek1vZm02MFhVZG1NY1BMRzRmY25kX0c4OS1hTGNiVW1KbzhJeTFoU0VvT2RtMGR4RDJOak1McWc0dERzQ2pUQlNZcEhGSzR4WGN5MG0yS2ZTZ3dva3NlVkxrVXRwaGRWWktNbW1LaTlVRnRWY3ViblU4LTNaSW1fM2V6VEtwcFZ1ajIxeG03c0hWbXdMY1lJVzRzdEpyaWc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T23:59:35+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "UC Davis joins Feed the Future Innovation Lab for Coffee and Cacao",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHEzS3d2R0E3bXcxTDZuRWRHNE1Qb2phUWtJU2NZa3ItbnlrSEROZ2JfbUQ1anllWHZ0QTNCZ29FTklyRnFDVGZXRXNwU1lrSkxjalVfUGNFTDY2eFBjTVpSa0tXZHJEQVJFSFY2LUFsdnNOM3AxOE1pTFFzak54RnRvN1FZRHd6WFpmdlgyQU52UDJiUENzUEFCdw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-27T23:29:47+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-30T19-57-41",
       "scannedAt": "2026-10-30T19:57:41.322110+00:00",
       "items": [
@@ -2529,67 +2631,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-02.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-02"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-04T18-40-44",
-      "scannedAt": "2026-10-04T18:40:44.298944+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "It’s Two Hands On A Mug Season. Make Sure You’ve Got Coffee",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/its-two-hands-on-a-mug-season-make-sure-youve-got-coffee-1399403.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/devocion-dorado-sprudge-roasters-village.jpg-copy.jpg",
-          "publishedAt": "2026-10-04T12:00:38+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "The Physics of Kettle Streams",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2020/05/23/the-physics-of-kettle-streams/",
-          "summary": "In this post, I discuss the physics of kettle stream and how we can maximize extraction evenness by changing pour rate and height.",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2020/04/kettles_header.png?fit=1200%2C837&ssl=1",
-          "publishedAt": "2020-05-23T14:29:09+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Why Can’t we Grind Coffee Finer for Pour Over ?",
-          "source": "Coffee Ad Astra",
-          "sourceUrl": "https://coffeeadastra.com/2020/04/02/why-cant-we-grind-coffee-finer-for-pour-over/",
-          "summary": "In this post, I discuss issues and possible avenues for grinding finer for filter coffee",
-          "image": "https://i0.wp.com/coffeeadastra.com/wp-content/uploads/2020/02/tds_grind_size_wide-1.png?fit=1200%2C750&ssl=1",
-          "publishedAt": "2020-04-03T02:22:57+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "1Zpresso K-Ultra Review: Three Years Later",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/1zpresso-k-ultra-review/",
-          "summary": "I've used the K-Ultra for more than 3 years. And that has changed my relationship with the grinder. Here's the full explanation. The post 1Zpresso K-Ultra Review: Three Years Later appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/10/K-Ultra-featured-image-2026-scaled.jpeg",
-          "publishedAt": "2026-10-04T11:44:05+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Jura Z10 Super Automatic",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/reviews/firstlooks/jura-z10-bean-to-cup-first-look-review/",
-          "summary": "Is the premium Jura Z10 the ultimate bean to cup machine? We go hands on with its advanced grinder, 32 drink options, and unique technology. The post Jura Z10 Super Automatic appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/02/Jura-Z10-Hero-Alts-6-800x533.jpg",
-          "publishedAt": "2025-10-31T10:30:40+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
