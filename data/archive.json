@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-01T19-43-06",
+      "scannedAt": "2026-11-01T19:43:06.963976+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "What Coffee Pairs Well With Leftover Halloween Candy?",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/what-coffee-pairs-well-with-leftover-halloween-candy-1535407.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/equator-concepcion-huista-sprudge-roasters-village-copy.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-01T13:00:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Coffee Warehouse Stockpiles Are Low, Keeping Futures High",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/need-a-headline/",
+          "summary": "Brazil’s bumper coffee harvest was forecast to ease global prices, which hit record highs last year. However, futures prices remain elevated. As Cole Martin reports for Bloomberg, this can partly be put down to low stockpiles at warehouses monitored by the Intercontinental Exchan",
+          "image": "https://freshcup.com/wp-content/uploads/2026/10/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-22.png",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T12:08:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "You Can Have Exactly One Cigarette With Your Espresso Martini (It’s Fine)",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/you-can-have-exactly-one-cigarette-with-your-espresso-martini-its-fine-1527696.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A bar in Washington DC lets you order one cigarette with your espresso martini.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/smoking-espresso-martini.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T12:00:07+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Why temperature tracking is now important for baristas",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-temperature-tracking-baristas/",
+          "summary": "As more baristas treat temperature as a variable worth managing, tools built to support that shift will likely keep multiplying. What began as a competition habit is becoming a broader service standard, where understanding a coffee's full temperature arc, not just its first sip, ",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/08_09_Article__PDG-EN-FB-post.png",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T06:46:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-5",
+          "title": "Family-Owned Business Brings $400 Million Antitrust Lawsuit Against Keurig, Alleging Stifled Competition in the Single-Serve Coffee Pod Market",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111237/",
+          "summary": "Rogers Family Company has filed a $400 million antitrust lawsuit against Keurig, alleging anti-competitive practices related to single-serve coffee pods. The post Family-Owned Business Brings $400 Million Antitrust Lawsuit Against Keurig, Alleging Stifled Competition in the Singl",
+          "image": "https://coffeetalk.com/wp-content/uploads/cabri-caldwell-1LMMDLlSpHg-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T19:52:47+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-6",
+          "title": "A Lower Brazilian Real and Increased Exports Continue to Push Coffee Prices Down",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/10-2026/111235/",
+          "summary": "Coffee prices drop as Brazilian exports surge and weather conditions improve, raising concerns over future supply and market stability. The post A Lower Brazilian Real and Increased Exports Continue to Push Coffee Prices Down appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/diego-catto-9LqctKiRP5c-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-10-28T19:46:48+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "origin-1",
+          "title": "Candy Canes and Coconuts: Scooter’s Coffee gives holiday traditions a tropical twist",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV2l1ekhET2ZRcnQxLVBJVXg0aDNTU21XdTBrd1NpelB1MzNWSW9yN3lKOS1vUmg1NFo3Q2l6eHdKbjl4WUU4aXEtNWFUREpuTkw4S25GdDVGWVpOeG11T0w3dVNIa0p6QzlEVExaalZRUEF0eVRyMHp5SVFhSklpQWowczZhVEM5WkZHeklxZV9NNF8zQk9wTGpDR0RCUk1qajAwazRMVURsd1JtTk5lVA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-30T12:03:04+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "RICA Cold Brew named Official Coffee Partner of the Florida Panthers",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX2lVN0w1VXRYeXJHclZ0RlczejlqN2YtT3BzNGVncUVtOVBSVnZYNE0zYmYzSnZ3a25uNTJfdl9PN0JscEs5RlFuR2dkaER6TDJxSjYzT3lxcTdxbUFPVGxkLW5PcFBCMmRjMnU3RXZFQnM3cXZBamJPbkU5enVkV3UzZ0RLQ2tuSzFvVDd4MVcxSU1RR3FTd2RVVFhVV29sME5KUk9yUGhBbzM5OXRGSHlWQlE1Uk5pc2hoU2djTGFfMmhPU2FzUnZZRmxUVkJXby1UMVVDNTVNaWFnWm00QjVWZ05Ed0U",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-29T23:25:10+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-10-31T19-20-13",
       "scannedAt": "2026-10-31T19:20:13.934910+00:00",
       "items": [
@@ -2611,26 +2713,6 @@
           "publishedAt": "2025-10-21T06:12:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-02",
-      "scannedAt": "2026-10-04T22:52:31.869Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-02",
-          "rank": 0,
-          "title": "The Beautiful Paradox of Modern Coffee",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "From adaptive espresso profiles to historical terroirs, the fourth wave continues to balance ruthless precision with profound humanity.",
-          "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Mina-Greyscale-1-800x533.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-02.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-02"
         }
       ]
     }
