@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-02T23-08-47",
+      "scannedAt": "2026-11-02T23:08:47.423706+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Researchers Discover Thermotolerant Yeast Strains Produced During Coffee Fermentation that May Benefit Specialty Production",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111273/",
+          "summary": "Researchers at Maestra Chela Farm in Panama discovered diverse thermotolerant yeast strains during coffee fermentation, potentially enhancing specialty coffee production methods. The post Researchers Discover Thermotolerant Yeast Strains Produced During Coffee Fermentation that M",
+          "image": "https://coffeetalk.com/wp-content/uploads/jacques-dillies-QvxtKYg0rZo-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T21:51:57+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Starbucks’ Secret Ingredient to its Seasonal Strategy",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111267/",
+          "summary": "Starbucks unveils its Black Cat Frappuccino and plans a surprise Bearista cup collection, as rivals mimic its seasonal marketing strategy. The post Starbucks’ Secret Ingredient to its Seasonal Strategy appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/aleksander-vlad-sI2TQQlL3Zo-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T21:45:10+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Elliott Lau Of Nice Coffee: The Sprudge Twenty Interview",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/elliott-lau-of-nice-coffee-the-sprudge-twenty-interview-1278651.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with Sprudge 2026 inductee Elliott Lau of Nice Coffee in Los Angeles, California.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_elliotlau.webp",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T18:49:38+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Wilfa Establishes US Operations, Introduces New Home Coffee Equipment",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/02/wilfa-establishes-us-operations-introduces-new-home-coffee-equipment/",
+          "summary": "Norwegian home appliance brand Wilfa is reintroducing itself to the United States, establishing Wilfa USA operations and rolling out new products as part of a broader U.S. expansion. Wilfa presented...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Wilfa-brewer-grinder-620x413.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T18:18:38+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-5",
+          "title": "Here Is Everyone Moving On From The First 2027 US Barista Championship Qualifier",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/here-is-everyone-moving-on-from-the-first-2027-us-barista-championship-qualifier-1541721.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Nine competitors have punched their ticket to Nashville.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/usbc-2027-regional-2-copy.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T16:30:33+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The 6 Best Single Serve Coffee Makers of 2026",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/best-single-serve-coffee-makers/",
+          "summary": "A capsule machine beats a bad barista. But two extra minutes in the morning gets you a much better cup. The post The 6 Best Single Serve Coffee Makers of 2026 appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2024/03/mugen-switch-test-set-up.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T04:55:31+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Matilda café - Luz, Portugal",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mT0ZzT3FHZHV1N3hFaU94ZFp6Zm44TUNjajE5Rm5CUV9GRWhTR2FtU3JNdzNqcHh2eFJMdmxOQkttbTlvSlBGNjlCbmZuQ3ZLeUF1YXNXM1J0NzNqbGlOUGdn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T13:28:16+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Windu Alifart",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/windu-alifart/",
+          "summary": "The Coffee Was Never Just About Winning From a small village in Indonesia to the international coffee community in the UAE, Windu Alifart ’s journey is about mistakes, second chances, and discovering that some of life’s most meaningful victories belong to the people around us. Wi",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/11/windualifart_1565328852_2106453546291924990_1940659640-1010x1024.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T05:27:37+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-29",
       "scannedAt": "2026-11-02T20:53:24.955Z",
       "kind": "editorial_archive",
@@ -2633,67 +2735,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-04.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-04"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-06T20-22-12",
-      "scannedAt": "2026-10-06T20:22:12.105980+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Luciano Repetto Of Graffeo Coffee: The Sprudge Twenty Interview",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/luciano-repetto-of-graffeo-coffee-the-sprudge-twenty-interview-1278697.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Luciano Repetto of Graffeo Coffee.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_luciano-repetto.webp",
-          "publishedAt": "2026-10-06T14:00:39+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Brew Ratio Bloat",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/brew-ratio-bloat/",
-          "summary": "Do you see a correlation between the dramatic changes in how the World Brewers Cup allocates points for ‘Accuracy of Taste Descriptors’ and the trend for increasingly high... The post Brew Ratio Bloat appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2026/07/Brew-Ratio-Bloat-Header-03.jpg",
-          "publishedAt": "2026-07-25T12:07:02+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "The Spent Puck, Puck Filter",
-          "source": "Barista Hustle",
-          "sourceUrl": "https://www.baristahustle.com/the-spent-puck-puck-filter/",
-          "summary": "It’s hard to accept that coffee grinds are worthless once you switch off a shot. I mean, composters like them. You can make MDF out of them and chopping boards. You can even.... The post The Spent Puck, Puck Filter appeared first on Barista Hustle .",
-          "image": "https://www.baristahustle.com/wp-content/uploads/2026/05/PF-Stack-Merge-Header.jpg",
-          "publishedAt": "2026-05-10T07:55:24+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "The Cordless Espresso Grinder Conundrum: Why Torque is Hard",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/opinions/coffee-at-the-moment/the-cordless-espresso-grinder-conundrum-why-torque-is-hard/",
-          "summary": "USB-C charged, cordless espresso grinders should exist. We test hacks and hardware to find out why sustained torque is still an unsolved problem. The post The Cordless Espresso Grinder Conundrum: Why Torque is Hard appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/04/Decaf-Article-2-800x533.jpg",
-          "publishedAt": "2026-09-30T09:57:25+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Kingrinder P2 Manual Coffee Grinder",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/reviews/snapshot/kingrinder-p2-manual-grinder-budget-coffee-clarity-that-surprises/",
-          "summary": "Looking for a high-clarity grinder under $50? The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks. The post Kingrinder P2 Manual Coffee Grinder appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Kingrinder-P2-Handle-Out-1-800x533.jpg",
-          "publishedAt": "2026-08-10T23:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
