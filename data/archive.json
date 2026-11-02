@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-01",
+      "scannedAt": "2026-11-02T23:57:29.280Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-01",
+          "rank": 0,
+          "title": "High Futures, High Drama, and a Single Cigarette",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Balancing meticulous café precision with unapologetic indulgence.",
+          "image": "https://freshcup.com/wp-content/uploads/2026/10/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-22.png",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-01.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-01"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-10-29",
       "scannedAt": "2026-11-02T23:32:37.448Z",
       "kind": "editorial_archive",
@@ -2715,26 +2735,6 @@
           "publishedAt": "2026-10-07T16:13:45+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-04",
-      "scannedAt": "2026-10-07T05:18:56.992Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-04",
-          "rank": 0,
-          "title": "Precision, Prestige, and the Perfect Pour",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "As the seasons shift, we explore record-breaking auctions, the physics of kettle streams, and the hidden gems of the global coffee belt.",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Guatemalan-Coffees.webp",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-04.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-04"
         }
       ]
     }
