@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-29",
+      "scannedAt": "2026-11-02T07:05:23.205Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-29",
+          "rank": 0,
+          "title": "Regulatory Realities and the Evolution of the Daily Grind",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "",
+          "image": "https://coffeetalk.com/wp-content/uploads/diego-catto-1JRQNpbakjM-unsplash.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-29.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-29"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-01T19-43-06",
       "scannedAt": "2026-11-01T19:43:06.963976+00:00",
       "items": [
@@ -2672,45 +2692,6 @@
           "summary": "Looking for a high-clarity grinder under $50? The Kingrinder P2 delivers exceptional pour-over performance and value, despite a few quirks. The post Kingrinder P2 Manual Coffee Grinder appeared first on CoffeeGeek .",
           "image": "https://coffeegeek.com/wp-content/uploads/2025/11/Kingrinder-P2-Handle-Out-1-800x533.jpg",
           "publishedAt": "2026-08-10T23:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-05T20-40-46",
-      "scannedAt": "2026-10-05T20:40:46.449002+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "From Vietnam To Vienna, Exploring The Global World Of Coffee Museums",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/from-vietnam-to-vienna-exploring-the-global-world-of-coffee-museums-1255579.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Exploring the wide world of coffee museums.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/08/coffee-world-museum-indigenous-culture-1.jpg",
-          "publishedAt": "2026-10-05T14:00:21+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Top 50 Coffees of 2026: Countdown Begins November 15",
-          "source": "Coffee Review",
-          "sourceUrl": "https://www.coffeereview.com/top-50-countdown-begins-november-15/",
-          "summary": "Since 2013, Coffee Review has published an annual list of the year’s top coffees, ranking the most exciting coffees from the thousands we cupped over the course of the year. This year, on November 15, we will start counting down the Top 50 Coffees of 2026, our list of the most ex",
-          "image": "https://www.coffeereview.com/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-12.22.13-PM-e1791228189197.png",
-          "publishedAt": "2026-10-05T19:25:10+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Italian Espresso Isn’t What You Think: A Data-Driven guide",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/italian-coffee-culture-history-explained/",
-          "summary": "Italian espresso culture is famous worldwide. But what does it actually look like in 2025? I wanted to find out. The post Italian Espresso Isn’t What You Think: A Data-Driven guide appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/05/napoli-super-strong-shot.jpeg",
-          "publishedAt": "2025-10-21T06:12:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
