@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-10-29",
+      "scannedAt": "2026-11-02T23:32:37.448Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-10-29",
+          "rank": 0,
+          "title": "Regulatory Realities and the Evolution of the Daily Grind",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "",
+          "image": "https://coffeetalk.com/wp-content/uploads/diego-catto-1JRQNpbakjM-unsplash.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-29.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-10-29"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-02T23-08-47",
       "scannedAt": "2026-11-02T23:08:47.423706+00:00",
       "items": [
@@ -99,26 +119,6 @@
           "publishedAt": "2026-11-02T05:27:37+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-29",
-      "scannedAt": "2026-11-02T20:53:24.955Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-29",
-          "rank": 0,
-          "title": "Regulatory Realities and the Evolution of the Daily Grind",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "",
-          "image": "https://coffeetalk.com/wp-content/uploads/diego-catto-1JRQNpbakjM-unsplash.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-29.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-29"
         }
       ]
     },
