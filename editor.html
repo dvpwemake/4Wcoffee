@@ -298,7 +298,7 @@ textarea.fi{min-height:12rem;resize:vertical}
       <button class="btn" onclick="exportEditorial()" style="width:100%">Download editorial.data.js</button>
       <label class="sec-t" for="ghPatEd" style="display:block;margin:0.85rem 0 0.4rem">GitHub PAT</label>
       <input id="ghPatEd" class="gh-pat" type="password" autocomplete="off" spellcheck="false" placeholder="same token as Coffee items" style="width:100%;min-height:var(--touch-min);padding:.65rem .75rem;margin-bottom:.4rem;background:var(--bg-input);border:1px solid var(--border);color:var(--text)">
-      <p class="side-note">Publish writes editorial.data.js plus e/YYYY-MM-DD.html. Previous live piece becomes an Editorial card on Latest Beat. Outline briefs are refused.</p>
+      <p class="side-note">Publish writes one commit: the essay, its page, and the archive card. A different title on a date that already has an essay is refused. Change the date. Outline briefs are refused.</p>
       <p class="side-note">The LinkedIn page token is the GitHub secret <code>LINKEDIN_ACCESS_TOKEN</code> on <code>dvpwemake/4Wcoffee</code>. The button uses this PAT, which also needs the <code>workflow</code> scope. Company 144003245. Fourth Wave pages only.</p>
     </div>
   </aside>
@@ -357,9 +357,10 @@ textarea.fi{min-height:12rem;resize:vertical}
 <script src="signals.data.js"></script>
 <script src="editorial.data.js"></script>
 <script src="editorial.draft.js"></script>
+<script src="scripts/editorial-publish.js?v=20261102a"></script>
 <script src="editor-touchid.js"></script>
 <script src="editor-auth.js?v=20261014b"></script>
-<script src="editor.js?v=20261021a"></script>
+<script src="editor.js?v=20261102a"></script>
 <script type="module">
 // Email sender (outbox/): mounted the first time the Email tab opens; sending runs on GitHub Actions.
 import { OutboxPanel } from "./outbox/panel.mjs?v=20261014a";

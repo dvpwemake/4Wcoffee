@@ -1466,23 +1466,14 @@
     }
 
     mergeHistory(ed) {
-      var hist = (global.EDITORIAL_HISTORY || []).slice();
-      var live = global.EDITORIAL;
-      if (
-        live &&
-        live.publishDate &&
-        live.publishDate !== ed.publishDate &&
-        (live.paragraphs || []).length
-      ) {
-        hist = hist.filter(function (h) {
-          return h.publishDate !== live.publishDate;
-        });
-        hist.unshift(this.slimEditorial(live));
-      }
-      hist = hist.filter(function (h) {
-        return h.publishDate !== ed.publishDate;
-      });
-      return hist.slice(0, 60);
+      if (!global.EditorialPublish) return [];
+      var plan = global.EditorialPublish.historyForPublish(
+        global.EDITORIAL,
+        global.EDITORIAL_HISTORY,
+        ed,
+        this.slimEditorial.bind(this)
+      );
+      return plan.ok ? plan.history : [];
     }
 
     editorialFile(ed, history) {
@@ -1664,6 +1655,10 @@
     }
 
     async publishEditorial() {
+      if (this._publishingEditorial) {
+        this.toast("Publish already in progress.", "info");
+        return;
+      }
       var ed = this.collectEditorial("published");
       if (!ed.title || !ed.body) {
         this.toast("Title and body are required to publish.", "error");
@@ -1673,41 +1668,60 @@
         this.toast("Refuse outline brief. Replace with finished ~300-word prose first.", "error");
         return;
       }
-      var history = this.mergeHistory(ed);
-      global.EDITORIAL = ed;
-      global.EDITORIAL_HISTORY = history;
-      this.toast("Publishing editorial…", "info");
-      var ok = await this.putGithubFile(
-        "editorial.data.js",
-        this.editorialFile(ed, history),
-        "Publish editorial " + ed.publishDate + ": " + ed.title
-      );
-      if (!ok) return;
-      var pageOk = await this.putGithubFile(
-        "e/" + ed.publishDate + ".html",
-        this.permalinkHtml(ed),
-        "Editorial permalink " + ed.publishDate
-      );
-      if (!pageOk) {
-        this.toast("Editorial data is on GitHub. The permalink did not publish, so LinkedIn was not armed.", "error");
+      if (!global.EditorialPublish) {
+        this.toast("Reload the editor. The publish script did not load.", "error");
         return;
       }
-      await this.putGithubFile(
-        "e/index.html",
-        this.archiveIndexHtml(ed, history),
-        "Editorial archive index " + ed.publishDate
+      var plan = global.EditorialPublish.historyForPublish(
+        global.EDITORIAL,
+        global.EDITORIAL_HISTORY,
+        ed,
+        this.slimEditorial.bind(this)
       );
-      this.archivePreviousEditorial(history[0]);
-      if (this.archive) {
-        await this.putGithubFile(
-          "data/archive.json",
-          JSON.stringify(this.archive, null, 2) + "\n",
-          "Archive previous editorial as Latest Beat card"
+      if (!plan.ok) {
+        this.toast(
+          "“" +
+            plan.conflict.liveTitle +
+            "” is already published for " +
+            plan.conflict.date +
+            ". Change the date to publish a different essay. That essay stays on the site.",
+          "error"
         );
+        return;
       }
-      this.log("ok", "Published editorial.data.js + e/" + ed.publishDate + ".html — " + ed.title);
-      this.toast("Editorial published. Home, Latest Beat, and permalink will update after Pages deploys.", "success");
-      await this.armLinkedIn(ed.publishDate, { delayMinutes: 10, quiet: true });
+      this._publishingEditorial = true;
+      var archiveSnapshot = this.archive ? JSON.parse(JSON.stringify(this.archive)) : null;
+      try {
+        var history = plan.history;
+        var files = {};
+        files["editorial.data.js"] = this.editorialFile(ed, history);
+        files["e/" + ed.publishDate + ".html"] = this.permalinkHtml(ed);
+        files["e/index.html"] = this.archiveIndexHtml(ed, history);
+        var previous = history[0];
+        if (previous && previous.publishDate && previous.publishDate !== ed.publishDate) {
+          if (!this.archive) this.archive = { batches: [] };
+          this.archivePreviousEditorial(previous);
+          files["data/archive.json"] = JSON.stringify(this.archive, null, 2) + "\n";
+        }
+        this.toast("Publishing editorial…", "info");
+        var ok = await this.putGithubCommit(
+          files,
+          "Publish editorial " + ed.publishDate + ": " + ed.title,
+          ["index.html", "latestbeat.html", "editor.html"],
+          global.EditorialPublish.stampToken()
+        );
+        if (!ok) {
+          this.archive = archiveSnapshot;
+          return;
+        }
+        global.EDITORIAL = ed;
+        global.EDITORIAL_HISTORY = history;
+        this.log("ok", "Published one commit " + ed.publishDate + " — " + ed.title);
+        this.toast("Editorial published in one commit. Home and Latest Beat update when Pages finishes.", "success");
+        await this.armLinkedIn(ed.publishDate, { delayMinutes: 10, quiet: true });
+      } finally {
+        this._publishingEditorial = false;
+      }
     }
 
     async armLinkedIn(date, opts) {
@@ -2368,6 +2382,121 @@
         bin += String.fromCharCode(b);
       });
       return btoa(bin);
+    }
+
+    b64ToUtf8(b64) {
+      var bin = atob(String(b64 || "").replace(/\s/g, ""));
+      var bytes = new Uint8Array(bin.length);
+      var i;
+      for (i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      return new TextDecoder().decode(bytes);
+    }
+
+    async github(method, path, body) {
+      var token = this.readPat();
+      if (!token) {
+        var field = document.getElementById("ghPat") || document.querySelector(".gh-pat");
+        if (field) field.focus();
+        this.toast("Paste a GitHub PAT with Contents write on dvpwemake/4Wcoffee.", "error");
+        return null;
+      }
+      var res = await fetch("https://api.github.com/repos/dvpwemake/4Wcoffee" + path, {
+        method: method,
+        headers: this.ghHeaders(token, method !== "GET"),
+        body: body ? JSON.stringify(body) : undefined,
+      });
+      var text = await res.text();
+      var json = null;
+      try {
+        json = text ? JSON.parse(text) : null;
+      } catch (e) {
+        json = null;
+      }
+      return { ok: res.ok, status: res.status, json: json, text: text };
+    }
+
+    /* One commit so Pages does not cancel the essay behind a later archive commit.
+       Git data API: create a tree, one commit, fast-forward main. */
+    async putGithubCommit(files, message, stampPaths, stamp) {
+      var attempt = 0;
+      var last = "";
+      while (attempt < 3) {
+        attempt++;
+        try {
+          var ref = await this.github("GET", "/git/ref/heads/main");
+          if (!ref) return false;
+          if (!ref.ok || !ref.json || !ref.json.object) {
+            last = this.ghErrMessage(ref.status, ref.text);
+            if (ref.status === 401 || ref.status === 403) {
+              this.toast(last, "error");
+              return false;
+            }
+            continue;
+          }
+          var head = ref.json.object.sha;
+          var parent = await this.github("GET", "/git/commits/" + head);
+          if (!parent || !parent.ok || !parent.json || !parent.json.tree) {
+            last = parent ? this.ghErrMessage(parent.status, parent.text) : "no parent";
+            continue;
+          }
+          var payload = {};
+          Object.keys(files).forEach(function (p) {
+            payload[p] = files[p];
+          });
+          var i;
+          var stampList = stampPaths || [];
+          for (i = 0; i < stampList.length; i++) {
+            var page = stampList[i];
+            var got = await this.github("GET", "/contents/" + page + "?ref=" + encodeURIComponent(head));
+            if (!got || !got.ok || !got.json || !got.json.content) {
+              this.toast("Could not read " + page + " from main, so nothing was published.", "error");
+              return false;
+            }
+            payload[page] = global.EditorialPublish.stampEditorialSrc(this.b64ToUtf8(got.json.content), stamp);
+          }
+          var treeBody = Object.keys(payload).map(function (p) {
+            return { path: p, mode: "100644", type: "blob", content: payload[p] };
+          });
+          var tree = await this.github("POST", "/git/trees", {
+            base_tree: parent.json.tree.sha,
+            tree: treeBody,
+          });
+          if (!tree || !tree.ok || !tree.json || !tree.json.sha) {
+            last = tree ? this.ghErrMessage(tree.status, tree.text) : "tree failed";
+            this.log("err", "GitHub tree failed: " + last);
+            if (tree && tree.status !== 409 && tree.status !== 422) {
+              this.toast(last, "error");
+              return false;
+            }
+            continue;
+          }
+          var made = await this.github("POST", "/git/commits", {
+            message: message,
+            tree: tree.json.sha,
+            parents: [head],
+          });
+          if (!made || !made.ok || !made.json || !made.json.sha) {
+            last = made ? this.ghErrMessage(made.status, made.text) : "commit failed";
+            this.log("err", "GitHub commit failed: " + last);
+            this.toast(last, "error");
+            return false;
+          }
+          var moved = await this.github("PATCH", "/git/refs/heads/main", { sha: made.json.sha });
+          if (moved && moved.ok) return true;
+          last = moved ? this.ghErrMessage(moved.status, moved.text) : "ref failed";
+          this.log("err", "GitHub ref update failed: " + last);
+          if (moved && (moved.status === 422 || moved.status === 409) && attempt < 3) continue;
+          this.toast(last, "error");
+          return false;
+        } catch (err) {
+          last = err && err.message ? err.message : "network";
+          this.log("err", "GitHub one-commit publish threw: " + last);
+          this.toast("GitHub publish failed: " + last, "error");
+          return false;
+        }
+      }
+      this.toast(last || "GitHub moved during publish. Try again.", "error");
+      return false;
     }
 
     readPat() {
