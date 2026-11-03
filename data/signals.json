@@ -17,7 +17,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-1",
-      "rank": 1
+      "rank": 1,
+      "imageLocked": true
     },
     {
       "title": "Starbucks’ Secret Ingredient to its Seasonal Strategy",
@@ -29,7 +30,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-2",
-      "rank": 2
+      "rank": 2,
+      "imageLocked": true
     },
     {
       "title": "Elliott Lau Of Nice Coffee: The Sprudge Twenty Interview",
@@ -41,7 +43,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-3",
-      "rank": 3
+      "rank": 3,
+      "imageLocked": true
     },
     {
       "title": "Wilfa Establishes US Operations, Introduces New Home Coffee Equipment",
@@ -53,7 +56,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-4",
-      "rank": 4
+      "rank": 4,
+      "imageLocked": true
     },
     {
       "title": "Here Is Everyone Moving On From The First 2027 US Barista Championship Qualifier",
@@ -65,7 +69,8 @@
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-5",
-      "rank": 5
+      "rank": 5,
+      "imageLocked": true
     },
     {
       "title": "The 6 Best Single Serve Coffee Makers of 2026",
@@ -77,7 +82,8 @@
       "category": "reviews",
       "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
       "id": "reviews-1",
-      "rank": 6
+      "rank": 6,
+      "imageLocked": true
     },
     {
       "title": "Matilda café - Luz, Portugal",
@@ -103,7 +109,8 @@
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-2",
-      "rank": 8
+      "rank": 8,
+      "imageLocked": true
     }
   ],
   "byCategory": {
@@ -118,7 +125,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-1",
-        "rank": 1
+        "rank": 1,
+        "imageLocked": true
       },
       {
         "title": "Starbucks’ Secret Ingredient to its Seasonal Strategy",
@@ -130,7 +138,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-2",
-        "rank": 2
+        "rank": 2,
+        "imageLocked": true
       },
       {
         "title": "Elliott Lau Of Nice Coffee: The Sprudge Twenty Interview",
@@ -142,7 +151,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-3",
-        "rank": 3
+        "rank": 3,
+        "imageLocked": true
       },
       {
         "title": "Wilfa Establishes US Operations, Introduces New Home Coffee Equipment",
@@ -154,7 +164,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-4",
-        "rank": 4
+        "rank": 4,
+        "imageLocked": true
       },
       {
         "title": "Here Is Everyone Moving On From The First 2027 US Barista Championship Qualifier",
@@ -166,7 +177,8 @@
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-5",
-        "rank": 5
+        "rank": 5,
+        "imageLocked": true
       }
     ],
     "reviews": [
@@ -180,7 +192,8 @@
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
         "id": "reviews-1",
-        "rank": 6
+        "rank": 6,
+        "imageLocked": true
       }
     ],
     "origin": [
@@ -208,7 +221,8 @@
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-2",
-        "rank": 8
+        "rank": 8,
+        "imageLocked": true
       }
     ]
   },
