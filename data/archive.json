@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-03T21-02-09",
+      "scannedAt": "2026-11-03T21:02:09.796985+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Keurig and Luckin Report Growth Amid Coffee Market Shifts",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/03/keurig-and-luckin-report-growth-amid-coffee-market-shifts/",
+          "summary": "Two of the world’s largest coffee companies, Keurig Dr Pepper and Luckin Coffee, reported quarterly financial results today, Nov. 3, revealing strong overall growth alongside noticeable challenges in key parts...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/coffee-beans-620x414.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-03T20:26:12+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Podium Coffee Club Launches The Podium Index, The First Leaderboard To Rank America’s Coffee Roasters By Competition Results Alone",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/podium-coffee-club-launches-the-podium-index-the-first-leaderboard-to-rank-americas-coffee-roasters-by-competition-results-alone-1527933.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Podium Index aggregates blind-judged results from five major coffee competitions into a single, continuously updated ranking.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/podium-index-coffee-rankings-copy.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-03T17:30:50+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Design Details: The Performance of Pastry and Coffee at Moden Café in Athens",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/03/design-details-the-performance-of-pastry-and-coffee-at-moden-cafe-in-athens/",
+          "summary": "Welcome to Design Details, an ongoing editorial feature in Daily Coffee News focused on individual examples of coffee shop architecture, interior design, packaging design or branding. If you are a...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Moden-Cafe-Athens-Greece-1-620x465.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-03T14:20:13+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Meet The Pivotte, A Cool New Hybrid Immersion Coffee Brewer",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/meet-the-pivotte-a-cool-new-hybrid-immersion-coffee-brewer-1530432.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A flat bottom hybrid immersion brewer is hitting the market.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/pivotte.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-03T13:00:16+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Integrated coffee husk biochar and NPSB fertilizer improve bread wheat productivity in acidic soils",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyVEMyTF9tVEVEU1h2cGIyZGlrVUtHaEJrQWh1THlnSVlNVGxmZUsyX2hTRGdJZ3M1QVRVTDZ3Z3FJbWJXalp3N21WNmVpQWJKSndRQ1hGN0dDQmp5ZnpCbFc0M18",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-02T23:29:20+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Caffeine-related exposure and dry eye disease: a systematic review and meta-analysis of epidemiological associations and tear-related outcomes",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05bnJpREtHQ241TURyMndNbTlQN244MXcybWJFQ05hQURhcTVjX2o1NVBNZmN4cFU3YUV5OWpveTNpRkRPMHZFMTlqSVd6V0pzSHZvTTgzZzhHRk1EcTJjZjFkRjA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-10-30T20:15:51+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Noble Coffee - Człuchowska",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQeF9sY3hFSkotTEx3QXlCLVktRDJpZGdvdXdTY3RVdFA0RXlTcExCZlU4WHAtOWpLeUJzMU83anZSaE1LczBCLUtzMm9yX0xvaHE0MHhvX29KaEdTeWd1YmtfZHRsbkZSRU5Rd2pJQmZfeU91bFE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-03T19:08:11+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Lavanila and Peet’s Coffee brew up the ultimate Vanilla Latte for the Holidays",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSzQyblBsN0N2dHA4bXNsbUhFTkZpMHpVS2hLSnpZTF9QTDgwSkRkbDdKYnI1TmEtV0ctRDRuN2pjaDMzYi0xYVY0Zm40NHNUTjA2Z3Z1QS1FV2NKVDRSc09jaTVJMlo3ODF1S1ZfbUVzSnBhbWxKWEIzWndnampUc0wzMlZaRVZRbjVZeFR2NWhOOUtoN09sS2lteHlybVlIWFkwZm5MZE9xZw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-03T11:46:28+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-01",
       "scannedAt": "2026-11-02T23:57:29.280Z",
       "kind": "editorial_archive",
@@ -2674,67 +2776,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-06.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-06"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-07T20-40-30",
-      "scannedAt": "2026-10-07T20:40:30.092330+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functional Food Design",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111096/",
-          "summary": "Researchers have linked coffee-derived chlorogenic acids to milk peptides using apple juice as a natural enzyme catalyst, paving the way for innovative functional food design. The post Researchers Use Coffee-Derived Chlorogenic Acids in Novel Method That Could Transform Functiona",
-          "image": "https://coffeetalk.com/wp-content/uploads/viktor-talashuk-HZ3DjriWmIA-unsplash-scaled.jpg",
-          "publishedAt": "2026-10-07T20:19:40+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Energy price cap: the cost of your coffee could be about to go up",
-          "source": "The Conversation",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGxtb3I0cmFMYXlTZDVSS2VRMnVwYzltRjdhLWYxSjNfSElJNGY5OGpyZWU5REFMZWQ0dVpGYV9jZUtwaTdIcTA2TktkNGx6NW00TUZEOWJ3SkNJVjhaT19zako1RWw0ZUw0bWw1VExJTU5jUnFRVm9ZX3BVTk5jWkJGTGNiSjhuQktJS1R3eXZhU1pfc0NBbFBGYW9ibXhu",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-07T14:39:52+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "An iced coffee won't predict job performance—but it might reveal hiring bias",
-          "source": "Phys.org",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdGdyb011X3FKR2xSQXNtSVE1OVM0MGZJdGZuOE9yYl90ZWM3LWc0eGJHRmlWbjJQQmFaVnk4cjBMbThHS0JJWjdIZy1WZjI0Vlg0dHY2S0Z6Y0tpWi1IX3dRVEdjcHRGWkR1MlNlVQ",
-          "summary": "",
-          "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/two-people-shaking-han.jpg",
-          "publishedAt": "2026-10-05T22:00:01+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "This Is Breville’s Most Popular Espresso Machine—and It’s On Sale Until Midnight",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOckg1TFVUV3pGRjhWMHIwbjBBN0dJMUI3RE1jb2FxUWV2NzRoVTJfOEQyZVcyNnlZeUtPbm1RSGpHbktBdjRaWm1wTUFnM1hMbThuZVM1UUFOaFFCNU55MjNkMThEYzhidFdpNllfa0dfX0xGQ3pRdEdzVm0wQjJvMldWYkppZUxzR1R1QzVtVnJBdFVPdmdpcEhqdU94M2I1eXNJ",
-          "summary": "",
-          "image": "https://www.seriouseats.com/thmb/qrXHqYk8o0dRmRJCLowFtieU_2Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sea-breville-the-barista-express-espresso-machine-rkilgore-0324-1-ea3500f02e7e4b5d98ec6bd4064705fe.jpeg",
-          "publishedAt": "2026-10-07T17:14:21+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "This Leakproof Owala Coffee Tumbler Is Only $19 for Prime Day",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1VIYkRuSEVGSlpWOW91VEJxcnp3ZVpfYTdLTXdxR0hOcXJhM21nbUdWcmYzbkxLWG81SmpyY05PUm9PR0FHNEhSMl9KY1NpUllULXppTlZHMHZaX2tGQzc4WENkenFjUW5FWUkzclJrUHZ0VHgybjd4aWRpNWtLTWlLMEhnZjV5WHZlaER3",
-          "summary": "",
-          "image": "https://www.seriouseats.com/thmb/XLb9uOCA3XEMjTerDk3ZmhgY60E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/owala-sip-slider-stainless-tumbler-grace-kelly-2-6c5895efe6fd43dfa73d67b1daa2adab.jpg",
-          "publishedAt": "2026-10-07T16:13:45+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
