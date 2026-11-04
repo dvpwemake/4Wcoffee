@@ -46,8 +46,8 @@
     var safe = String(token || "").replace(/[^0-9A-Za-z]/g, "");
     if (!safe) return String(html || "");
     return String(html || "").replace(
-      /editorial\.data\.js(?:\?v=[^"'\\\s>]*)?/g,
-      "editorial.data.js?v=" + safe
+      /(<script\b[^>]*\ssrc=["'])editorial\.data\.js(?:\?v=[^"']*)?(["'])/g,
+      "$1editorial.data.js?v=" + safe + "$2"
     );
   }
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resize catalog product shots to 800px WebP + JPEG thumbs for coffee.html."""
+"""Resize catalog product shots to 800px WebP + JPEG thumbs for the homepage catalog."""
 from __future__ import annotations
 
 import json

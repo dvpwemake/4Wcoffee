@@ -512,17 +512,12 @@
           "</a></p>"
         : "";
       var share = Desk.shareHtml(piece);
-      var homeLink = opts.home
-        ? '<p class="ed-footer-links"><a class="btn btn-outline" href="' +
-          pfx +
-          'latestbeat.html#editorial">Latest Beat</a></p>'
-        : '<p class="ed-footer-links">' +
-          (permRel
-            ? '<a href="' + pfx + permRel + '">Permalink</a>'
-            : "") +
-          '<a href="' +
-          pfx +
-          'e/index.html">All editorials</a></p>';
+      var homeLink =
+        '<p class="ed-footer-links">' +
+        (permRel ? '<a href="' + pfx + permRel + '">Permalink</a>' : "") +
+        '<a href="' +
+        pfx +
+        'e/index.html">All editorials</a></p>';
       el.innerHTML =
         '<div class="ed-kicker">' +
         kicker +
@@ -825,14 +820,6 @@
         });
     },
 
-    mountHome: function () {
-      var host = document.getElementById("home-editorial");
-      if (!host) return;
-      Desk.liveEditorial = hasEditorial(global.EDITORIAL) ? global.EDITORIAL : null;
-      Desk.indexHistory();
-      Desk.activeEditorial = Desk.liveEditorial;
-      Desk.renderEditorial(host, Desk.liveEditorial, { home: true });
-    },
   };
 
   global.Desk = Desk;

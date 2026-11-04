@@ -57,13 +57,16 @@ def main() -> int:
     if 'src="' + " + CatalogView.escape(product.image)" in js.replace("\n", ""):
         errors.append("catalog.js still paints original product.image as img src")
 
-    html = (ROOT / "coffee.html").read_text(encoding="utf-8")
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
     if "image/catalog-thumbs/coffeecol-01-cold-brew-whiskey-aged.webp" not in html:
-        errors.append("coffee.html missing LCP webp preload")
+        errors.append("index.html missing LCP webp preload")
     if "catalog.js?v=20260918a" not in html:
-        errors.append("coffee.html missing catalog.js cache bust")
-    if 'rel="stylesheet" href="site.css?v=20260918a"' not in html:
-        errors.append("coffee.html missing site.css cache bust")
+        errors.append("index.html missing catalog.js cache bust")
+    if 'rel="stylesheet" href="site.css?v=20261104a"' not in html:
+        errors.append("index.html missing site.css cache bust")
+    coffee = (ROOT / "coffee.html").read_text(encoding="utf-8")
+    if 'location.replace("/")' not in coffee or "catalog.js" in coffee:
+        errors.append("coffee.html must redirect to / and not carry a second catalog")
 
     print(
         f"images={len(images)} thumbs_ok={len(images) - missing} "

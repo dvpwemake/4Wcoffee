@@ -60,6 +60,10 @@ check(stamped === '<script src="editorial.data.js?v=111"></script>', "bare scrip
 const restamped = api.stampEditorialSrc(stamped, "222");
 check(restamped === '<script src="editorial.data.js?v=222"></script>', "a second stamp replaces the version");
 check(api.stampEditorialSrc(bare, "???") === bare, "an unsafe token does not rewrite the page");
+const labeled = '<button>Download editorial.data.js</button>\n<script src="editorial.data.js"></script>';
+const labeledOut = api.stampEditorialSrc(labeled, "111");
+check(labeledOut.indexOf(">Download editorial.data.js</button>") !== -1, "a button label is not a script src");
+check(labeledOut.indexOf('src="editorial.data.js?v=111"') !== -1, "only the script src is stamped");
 
 const editor = fs.readFileSync(path.join(__dirname, "..", "editor.js"), "utf8");
 const fn = editor.slice(editor.indexOf("async publishEditorial"), editor.indexOf("async armLinkedIn"));
