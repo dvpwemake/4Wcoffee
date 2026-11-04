@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-04T21-22-21",
+      "scannedAt": "2026-11-04T21:22:21.833191+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Kraft Heinz Announces Divestment of North American Coffee Business, Including Maxwell House and Gevalia",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111286/",
+          "summary": "Kraft Heinz plans to divest its North American coffee business for $650 million, focusing on core products amid rising costs and shifting consumer preferences. The post Kraft Heinz Announces Divestment of North American Coffee Business, Including Maxwell House and Gevalia appeare",
+          "image": "https://coffeetalk.com/wp-content/uploads/tina-guina-obV_LM0KjxY-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T20:48:09+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Survey Shows Consumers Prioritize Recyclability in Coffee Capsule Choices, but Still Want Quality and Convenience",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111283/",
+          "summary": "A survey reveals 34% of coffee capsule buyers prioritize recyclability, but quality and convenience also significantly influence their choices across Europe. The post Survey Shows Consumers Prioritize Recyclability in Coffee Capsule Choices, but Still Want Quality and Convenience",
+          "image": "https://coffeetalk.com/wp-content/uploads/jisu-han-LQJ7fB9amY-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T20:41:16+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Hundreds of Cuppers to Help Build a Kenya Coffee Flavor Atlas",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/04/hundreds-of-cuppers-to-help-build-a-kenya-coffee-flavor-atlas/",
+          "summary": "A new initiative in Kenya plans to document the country’s diverse coffee flavors through a coordinated tasting effort involving more than 500 samples from 34 counties. The Kenya Coffee Flavor...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Kenya-Coffee-Flavor-Map-2-620x346.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T15:52:43+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "How your brain learned to love coffee, chocolate, fat and sugar",
+          "source": "Medical Xpress",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVXZ0VGlFckRDaGxWaUxKUE0xTXRidXVfd0NueWhKOXVzVm9EOEY4YjJqRnR6Q0RORWctTjlMQk42R2M5UFNPRmpHa1dxWXVuUlRjY2FfcVBsbThmRkhqZFU3SEZRVXB0c29faXlqR2dYb3BzcWpzNHlFQ0V3bWJ2akp3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T18:00:13+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Integrated coffee husk biochar and NPSB fertilizer improve bread wheat productivity in acidic soils",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yeG1OdFAxOXRWak1qaFIxaDVaOWdWM3lMVE1KOTdWeFpjd2dmYWx6bXAzYU5fQVI5M0ZkODdGY2VNX1FKcU9wLWluMHJKa3c2dXdkQ2lVMndMekdPbm81X3JkTnlfdFR2RmgyNC03X1BRUQ",
+          "summary": "",
+          "image": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-026-59590-9/MediaObjects/41598_2026_59590_Fig1_HTML.png",
+          "imageLocked": true,
+          "publishedAt": "2026-10-26T07:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Ratio Makes the Best Drip Coffee Maker We’ve Ever Tested—and We Have an Exclusive Discount",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTUc3SG9FcmN0djgzRXJTQ2NVQ3RFT3R4MkRZZjhiZXhWQ1o2UVl3cTFCRkdVcHdUT1FwWlp6S1FPSDFtZmR1ZVk5V1EtU05kSHlqR0FDQ0VPd1ROWlZhRzB5OFZOa2VQMzN2RGl0UXdNY1BDV1ZrME5NRFl0U0Jpdm1aMFVyX0dlN0JGcVFR",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T12:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Barista Stories: Saurabh Goldy Kulkarni of Jampot Coffee Co., London",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE15NE9FdVFoTDJ6SEpsMklUTVhJYm0zR2tSTm5kZnFJZkdVdTR3SGF6RjFBZmdDUDgzeWlzYmdXa0IzWHhRN3o3ZmRIdzFFcHpZMkNhUlF0QzVMRDVFZXYxWmRIZGV3TkdZaVRTQTdmc3RjTWhHcXZva0t3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T14:46:54+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Java Factory Roasters launches “Sweater Weather,” the third season of Flavor52 initiative",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUG94MEJ5andxeXIwVkl0alZRdUwzZy1NOUlYNlRUaGRfU0d3OFhMMzhJSXl3REM5Sm1sSlYzbXZVQW1ra3ZkM1hkSXpLeGZOZXlLSDRCdmNleUxZZWN5UGdjRVFCTDViVkhfNGY3Zk1CN0VmUEhYb2lBMGlFZHg5YnBDN3pET3h3czdlSmRzWEVJRDBIOWFKN01ZLS02VXJDUEhyamNrRE1TU29qTVNEaEJrUVN1Zw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T11:46:39+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-02",
       "scannedAt": "2026-11-04T19:31:51.870Z",
       "kind": "editorial_archive",
@@ -2715,67 +2817,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-07.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-08T20-43-51",
-      "scannedAt": "2026-10-08T20:43:51.753732+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Citing Quality, Nespresso Discontinues Compostable Capsules",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeHcxUm1zV3ZWYksyRWFCNUhHbnRIVEpCcFlLOTlLdlBqaU9HaE0ydHNXdFEydmx3NGhxbG52V3ZMWjFLOG93QWwzNzRNc09uSUdrMTJwemFaYTVsWG9vQm41OHREUkN2MkEyQnYyN2hOcXFjMWoyeENVN05nZWZDcjhoWVU1bEwxaWxkaE5rM2YzaHczZ3JIeXpWRzYwd28",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Nespresso-capsules.jpg",
-          "publishedAt": "2026-10-08T15:13:49+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15RWdGVmFVOVB4M25wYVV0NHB6RzI0LVhaUHFpeDA2SUExZUNMcm1WMkJOaWZRSzk4SDI0LXU1VDFBaEh6aHNiZjBNZ3YyNk5XX2lrTEdFalBmWmloblIw",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "publishedAt": "2026-10-05T19:43:40+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "An iced coffee won’t predict job performance — but it might reveal hiring bias",
-          "source": "The Conversation",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb1ZaNURtbmFKbHRtd2c2THhsTDhIaktSRzBqWXBPSGsyNjlhZk9OUklaRjVwUUNnaDZEVFNwemtTVU9qODRtMktqYkhCdXFpR2xOZjdTWnhydERBcWJsZ0ZYNm83dmFVRTZORDZINVh0OG4tUTJnVWxNVHpLR2RpLUw0T1ZxYmt4eXpfeTVkRmJKQmRxNGNCSVhzM3M1a09VMTNRTkQtYnd5cUVjUm1r",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-7252.jpg",
-          "publishedAt": "2026-10-05T16:25:43+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "The Best Coffee & Espresso Deals for Amazon Prime Day",
-          "source": "Gear Patrol",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR01CUTRubUFyeUZPYXRBd3JMWGp5SlpCZkZmYW11SjBjWUlER0FGcnNval80dEpCdUctYkY4RWJySjVwaWlXbzA2V2NKUlktU1JqTl9ZODdzNEJqVmUxS3VRak9KTzhyN1ZWUnFpdzMwcC00UGFVcmtQVWYxb0FaeVBmZ3doZzh2dndqcDlFUQ",
-          "summary": "",
-          "image": "https://www.gearpatrol.com/wp-content/uploads/sites/2/2026/10/Ninja-Specialty-Coffee-Maker-with-Fold-Away-Frother-CM401-1x1-1.webp?resize=1200,1200",
-          "publishedAt": "2026-10-07T15:28:20+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "The Best Coffee Machine for Americano? Here Are My Picks",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/best-coffee-machine-for-americano/",
-          "summary": "Most people misunderstand the humble Americano. In this post, I explain what equipment you need for a tasty brew. The post The Best Coffee Machine for Americano? Here Are My Picks appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/americano-perfect-scaled.jpg",
-          "publishedAt": "2026-10-07T08:27:15+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
