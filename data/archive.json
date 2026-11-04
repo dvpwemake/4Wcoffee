@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-02",
+      "scannedAt": "2026-11-04T19:31:51.870Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-02",
+          "rank": 0,
+          "title": "High Futures, High Drama, and a Single Cigarette",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Balancing meticulous café precision with unapologetic indulgence.",
+          "image": "https://coffeetalk.com/wp-content/uploads/jacques-dillies-QvxtKYg0rZo-unsplash-scaled.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-02.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-02"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-03T21-02-09",
       "scannedAt": "2026-11-03T21:02:09.796985+00:00",
       "items": [
@@ -2756,26 +2776,6 @@
           "publishedAt": "2026-10-07T08:27:15+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-06",
-      "scannedAt": "2026-10-07T23:37:57.641Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-06",
-          "rank": 0,
-          "title": "The Weight of Legacy: Pushing Boundaries and Preserving Community",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "From the relentless pursuit of portable torque to the sobering realities of those we miss, the coffee industry balances high-minded innovation with deeply human roots.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_luciano-repetto.webp",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-06.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-06"
         }
       ]
     }
