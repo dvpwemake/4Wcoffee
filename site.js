@@ -6,7 +6,7 @@
     static pages() {
       return [
         { href: "4thwave.html", id: "4thwave", label: 'The <span class="nav-accent">4</span>th Wave' },
-        { href: "coffee.html", id: "coffee", label: "Buy Coffee" },
+        { href: "index.html", id: "coffee", label: "Buy Coffee" },
         { href: "latestbeat.html", id: "beat", label: "Latest Beat" },
         { href: "healthbenefits.html", id: "health", label: "Coffee&Health" },
         { href: "americansmile.html", id: "smile", label: "American Smile" },
@@ -29,10 +29,12 @@
 
     static navMarkup() {
       const current = SiteChrome.currentFile();
+      /* coffee.html is the same catalog. The homepage is the one the menu selects. */
+      const here = current === "coffee.html" ? "index.html" : current;
       const pfx = SiteChrome.assetPrefix();
       const links = SiteChrome.pages()
         .map(function (page) {
-          const active = page.href === current ? " is-active" : "";
+          const active = page.href === here ? " is-active" : "";
           return (
             '<a class="' +
             active.trim() +
@@ -726,7 +728,8 @@
 
   class BackToTop {
     static mount() {
-      if (SiteChrome.currentFile() !== "coffee.html") return;
+      const file = SiteChrome.currentFile();
+      if (file !== "index.html" && file !== "coffee.html") return;
       if (document.querySelector(".to-top")) return;
       const btn = document.createElement("button");
       btn.type = "button";

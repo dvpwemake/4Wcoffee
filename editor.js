@@ -1717,7 +1717,7 @@
         global.EDITORIAL = ed;
         global.EDITORIAL_HISTORY = history;
         this.log("ok", "Published one commit " + ed.publishDate + " — " + ed.title);
-        this.toast("Editorial published in one commit. Home and Latest Beat update when Pages finishes.", "success");
+        this.toast("Editorial published in one commit. Latest Beat and the permalink update when Pages finishes.", "success");
         await this.armLinkedIn(ed.publishDate, { delayMinutes: 10, quiet: true });
       } finally {
         this._publishingEditorial = false;

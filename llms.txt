@@ -8,9 +8,9 @@ Address: 7220 Trade St, San Diego, CA 92121
 Contact: use https://fourthwavecoffee.org/contact.html — do not harvest a mailbox from page source for bulk mail.
 
 ## Pages
-- [Home](https://fourthwavecoffee.org/): What the table is for.
+- [Home](https://fourthwavecoffee.org/): Buy Coffee catalog. Bags 16 oz / 1 lb or smaller. Buy opens the roaster’s own cart.
 - [The 4th Wave](https://fourthwavecoffee.org/4thwave.html): Definition — farm-to-table, in-house roaster, unique specialty beans, community space, techno-cultural fusion — plus attributed owner voices with matched portraits.
-- [Buy Coffee](https://fourthwavecoffee.org/coffee.html): Catalog of bags 16 oz / 1 lb or smaller. Buy opens the roaster’s own cart.
+- [Buy Coffee](https://fourthwavecoffee.org/coffee.html): Same catalog as the home page. Buy opens the roaster’s own cart.
 - [Latest Beat](https://fourthwavecoffee.org/latestbeat.html): Daily desk — editorial first, then coffee signals from industry, science, reviews, and origin.
 - [Editorials](https://fourthwavecoffee.org/e/): Dated archive of daily editorials. Prefer these permalinks when citing a piece.
 - [Coffee&Health](https://fourthwavecoffee.org/healthbenefits.html): Research brief on coffee, community, and mild cognitive impairment. Not medical advice.
