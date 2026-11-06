@@ -1,6 +1,84 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-06T21-03-34",
+      "scannedAt": "2026-11-06T21:03:34.985649+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Weekly Coffee News: Costa Rica Harvest Concerns + Restoring Iconic Coffee Sign",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. El Niño Prompts Lower Harvest Estimates...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Costa-Rica-coffee-620x414.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T13:10:22+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Harry Styles Thinks Your Cappuccino Costs Too Much",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/harry-styles-thinks-your-cappuccino-costs-too-much-1557656.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. What even is a Harry Styles?",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/harry-styles-cappuccino.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T13:00:10+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Coffee News Recap, 6 Nov: Icafe predicts 9.7 million-bag global surplus in 2026/27, Luckin edges closer to Starbucks’ global store count & other stories",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/11/coffee-news-recap-6-november-2026/",
+          "summary": "Coffee Institute of Costa Rica predicts 9.7 million-bag global surplus in 2026/27, Luckin edges closer to Starbucks’ global store count, Nuova Simonelli announces Science-Driven Coffee Cup programme & more The post Coffee News Recap, 6 Nov: Icafe predicts 9.7 million-bag global s",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/06_11_FridayRecap__FB-THUMBNAIL.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T12:57:53+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Nepal’s Ilam Tea Is Ready To Tell Its Own Story",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/nepals-ilam-tea-is-ready-to-tell-its-own-story/",
+          "summary": "Without Darjeeling’s name recognition, smallholders in Nepal’s Ilam district and abroad are building a reputation. The post Nepal’s Ilam Tea Is Ready To Tell Its Own Story appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/11/Copy-of-Template-Featured-Image-1800-x-1120-px-6-1024x637.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T12:45:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-5",
+          "title": "The Consumer Shift Towards Sustainability and Perception of Plastic-Free Coffee Pods as a Status Symbol",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111299/",
+          "summary": "Consumers are shifting towards sustainable coffee solutions, prompting brands like Keurig and Lavazza to launch plastic-free pods and machines amid rising health concerns. The post The Consumer Shift Towards Sustainability and Perception of Plastic-Free Coffee Pods as a Status Sy",
+          "image": "https://coffeetalk.com/wp-content/uploads/alta.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T20:49:47+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-6",
+          "title": "The Coffee Syrup Culture War and the Rise of Craft Syrups",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111295/",
+          "summary": "A viral TikTok highlights backlash against mass-market coffee syrups, prompting small shops to create house-made alternatives to meet consumer demand for quality. The post The Coffee Syrup Culture War and the Rise of Craft Syrups appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/tudor-adrian-N0qKzNAC7Go-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T20:46:32+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-05T21-29-57",
       "scannedAt": "2026-11-05T21:29:57.563904+00:00",
       "items": [
@@ -2836,67 +2914,6 @@
           "summary": "",
           "image": "https://www.gearpatrol.com/wp-content/uploads/sites/2/2026/09/Fellow-Stagg-EKG-Electric-Kettle-16x9-Lead-1.webp",
           "publishedAt": "2026-09-23T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-09T20-08-53",
-      "scannedAt": "2026-10-09T20:08:53.769927+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Roast Magazine Launches iRoast — a Community for Coffee Roasting Professionals",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ1BsMzBYT0lGRTNCZXBxN3otZkpwa1lNSXZMU1Q2aE9EdmZvY1BNT09PWFZrM19DbFhLSmxITUo5bHF4UVlXZ2tvUDZJR1Q4eVVvX0kyRmlNT1c1eVNPYXo3aEJjbXRYMl90NVFjd1dpY05Fa2RYVGRFVndBSWlrXzl1a1BzQzdXS2JtanpVeXpKcXBWZ3gwSjBJd1JxSmxDa0FpcXNiejZfeDN4djlJWERmVjlMZGc",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-09T16:18:42+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Genetic analysis reveals that some specialty coffee seeds do not match their commercial identity",
-          "source": "Phys.org",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTGJuMTU3MzExc3RYcVZpaVRCSldZeXZTQzRpQnRDLWlHV3h3T2VBMXlMdWlrdEhWT2pJdkgxanVkZmRVNGZ3b0ZYbEdVdnZ3bTNmSmlVUFEzb1ZqT0t4RE9CSEVCNHpaU20wNTBqak9Za0tmdk5taWk3XzhoOThWR25B",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-09T18:40:07+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Decaf Coffee Might Have A Surprising Advantage Over Caffeinated, Study Finds",
-          "source": "ScienceAlert",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTRhbEcxejhXVGwtWlhWR1V2SkYtZ3hMVGVNS3MzbFF4SS03cDVrRnpBdklyRmFUMV9uLUdZYWhtRVZZNFJ1MEk0UDNNZUdNSC1jZUhFMDQyd3ZydmpSVDY1Q29CS2tEV1QwekRRMG1SLXB5cFBMSklYa182aHpxSzdXYi1GUmo0Zm5aTVZDeFhXUEh4aF9yRkdNeUp0dUFDYjFVcEU0TQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-04T09:01:39+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "We Tested 22 Coffee Grinders to Find the Best Ones for Drip, Espresso, Pour-Over, and More",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41cEV1RUZoVWJLZHlmZzZhNmhiR2tkMUFRLURhZkFxSTdPTDZWUzVraXNKNU54WU1ia0FDandRbmRqa01qNE5zbUhsMkd0NHhZWHdSNklIQ3BvMG54QThRRXJn",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-09-28T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "AeroPress’s Most Elevated Brewer to Date Puts the Brand in Uncharted Territory",
-          "source": "Gear Patrol",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iMHdWZGZTbDBfOWxNb2dHRVJlNXU4ZUdIQk96OE40alk1M21SOG1qQUNTYmVjQjFxTFlQVG0xU0VSS2k4dDBQSzlyN19ubG1PRWR2aFkxaW1lR0RWVGJtN082V2ZHc2k2NE1vaGs1QmFXUVYwUTZuV1Rn",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-09-28T07:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
