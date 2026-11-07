@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-07T19-28-12",
+      "scannedAt": "2026-11-07T19:28:12.254143+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Give It Some Wrist! Brewing With The Comandante Hand Grinders On The Coffee Sprudgecast",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/give-it-some-wrist-brewing-with-the-comandante-hand-grinders-on-the-coffee-sprudgecast-1574318.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A new coffee podcast episode featuring Happy Coffee, Dona, Supremo Coffee, and Comandante hand grinders.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/coffee-sprudgecast-november-2026.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T21:05:05+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Starbucks Contemplates Potential Shift That May Bring it Beyond Just Coffee",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111292/",
+          "summary": "Starbucks CEO hints at potential expansion beyond coffee, considering a multi-brand model, though current focus remains on core business growth. The post Starbucks Contemplates Potential Shift That May Bring it Beyond Just Coffee appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/dat-tran-tuP1QBHj_ok-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T20:41:55+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Vietnam’s Work to Digitize Coffee Farms and Production Data for EUDR Compliance & Traceability",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111289/",
+          "summary": "Son La province is digitizing coffee production data to enhance traceability and meet export regulations, covering over 61,000 hectares across multiple communes. The post Vietnam’s Work to Digitize Coffee Farms and Production Data for EUDR Compliance & Traceability appeared first",
+          "image": "https://coffeetalk.com/wp-content/uploads/sara-hobbs-YpLkgbXjirI-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T20:35:02+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Drinking 2–3 cups of coffee a day linked to dramatically lower dementia risk",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZSW9neWwwRFlrOXlydDR4YlhtLVdNdVVBMjMzV1B5MU55TTFFTjhUTUFWXzJfckJQYXFuemVyTFpDM2pYcEY5UkF3LXpEeGh5RjNreExkNUZmMmU0aW8xTGpVM1lQWFppUTZNVzdpMA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-07T10:17:08+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Birch - Portree, United Kingdom",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HV1ZFZDVwcEk0ZEFzZ0x4eDY3bmw2bEJ3MG90NHRfcG81LUFRUVBiZkM4YlkyMExyWEdoQ0tpR1QzR2R1UHVUTzNvTE9HTHZWTHNycVRIQVpydGtFeUl0dUlB",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T20:52:23+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Coffee futures: Arabica prices extends losses as El Niño and logistics concerns persist",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUUxUMjN2dHg0WGJIWnJYWFVvZmREQVpHZ0lKbjdRQ2tON1QwNjh2dTFoa3FYVGEtcHVXY0hWQzFqX18yQXBLeXhKREYxRm84Y3VaSjR1Y3RzMWpEcUVNMkIxVU9TNHlSRW8yaDh3LVlsUHBRQ0k5NFVLWFBGT0ExWW9PV2hIbVRHZnBubUZsU3FoN3c2TGptTEZlZEZONG1ncHhwMFVMR2dRTDNEVDZiY25WMWxTb3JLTC1ObTV3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T09:53:05+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Fairtrade International’s response to the Coffee Barometer 2026",
+          "source": "Fairtrade.net",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOFlTNjI5Y2wwX2VRb1M1SzFPX0FEOVV2XzZkd3oyb2hpT2RLZVBqU09BdjJQeVBFYklZNmE0SHIyQWxuUGZDcFMzQ2lleXZnaUNKbnQxY0JWaC1UaHNtc2NtYklDZXlJZEFmc2ZjTzRrSTNwUlJFVEpJTFZTMVBUc0lzLWIxbVQzbWd2OUNBYi0tdG81eWJxdDhMYjk0NTZ0SGlSZ2dsR2ZNZzFIOS02c3NycUNZQnZsQlAwVGFn",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T06:59:02+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-4",
+          "title": "Westrock Coffee posts Q3 net sales of $300m, down 15.4%, as gross profit rises 0.2% to $41.5m",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUXpWeEpFRHlENFJoU2RvZkxuSEk4TEp0NHNNXzBYRG4tTkZnVGpfQ0NqVGt1YWZOUGR0VjdhcW9LMjR2UWFSal8yek1iNDJBWDhOMWR6RXV1Q09VV0xNWk0xYmRNNjJ0bDV2ZnIxbWZ5a0JYaFBablV4cEdiQzdvRlVQdDJndXBGUU5iUk1VZkhZN3RBYmRVMlpRREwxRnRhbDFTa0YtSFB0UXRwemcwMmRPM0lWaWM",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T23:40:37+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-06T21-03-34",
       "scannedAt": "2026-11-06T21:03:34.985649+00:00",
       "items": [
@@ -2855,67 +2957,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-08.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-08"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-10T19-18-59",
-      "scannedAt": "2026-10-10T19:18:59.293148+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Feast Your Eyes On This Cornucopia Of Coffee Gear",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/feast-your-eyes-on-this-cornucopia-of-coffee-gear-1417120.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of gear is...",
-          "image": "https://sprudge.com/wp-content/uploads/2025/06/dwell-coffee-gear.jpg",
-          "publishedAt": "2026-10-10T12:00:49+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Altered miR-30c and miR-127 expression and NF-κB/NLRP3-related transcriptional changes are associated with metabolic and inflammatory dysregulation in adult males with sleep deprivation and habitual coffee consumption",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ycGZGTHFRdEZjcVRtSWNJWHBWYXhUdVhnT3NMbnpBRU4xYkRhYVJORFhxdnFLOTRrUl9EdzNPejI2dXl4ZkVTc2xsTXRsUGFSc1g2eUVqdllnazF2cVNB",
-          "summary": "",
-          "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2666354619300316-gr1.jpg",
-          "publishedAt": "2026-10-03T20:23:56+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Choice of Tea or Coffee Might Affect Risk of Osteoporosis in Older Women",
-          "source": "ScienceAlert",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2RFR3FnVzF4ZWZsVVhlTm5FbkFBXzlwOWthVVhubDdrMDRhbHFMYzhmaXJ6U21EZGZ4dmotOUNWM1JoaTE2TENMNm1GeTV2Y083c1BOTzVLaVVJMVBubUdPLXdJUWR2TG01bFVhS25WTDFyR3pobVRfZTJqcnN1SXpFWjB1R2twMHR2c1RXNGM2UXh3M2hQbHlFZk9NVWZ1YUQ0",
-          "summary": "",
-          "image": "https://www.sciencealert.com/images/2026/09/CoffeePour_web-1536x864.jpg",
-          "publishedAt": "2026-10-02T10:03:28+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "9 Cozy Fall Baking Recipes Made for Slow Mornings and Hot Coffee",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6a20xQmpoWGRhZVlkNktSbmdILXJGbGU2UG9MVW9Pb3MzUlJnQ09ITzREdmdUdUlLd0dkMnlMRGNtZGRFemhDQ1ZWQnVxSTVza0JjNlVNakFVdTZpNEt3aFFxaWhEdjR6NUZWaDdYOTIzVHdF",
-          "summary": "",
-          "image": "https://www.seriouseats.com/thmb/CQSXCrTBuTcjc869XPXQ7rHe6q0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20241203-SEA-YeastedCoffeeCake-DebbieWee-Hero1-29-698ca5c2651b4e54b9352fbca0e9e824.jpg",
-          "publishedAt": "2026-09-26T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Costco Is Selling Fellow’s Home Pour-Over Coffee and Tea Essential For a Steal Right Now",
-          "source": "Gear Patrol",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JWnRYeGROdHVDbFFSdmVFTGdaY2NGQ0RvaVVJQmhlbmFsREIxY3gzdkxnVm1RZzBta0VWRk1UTDA4cVdWZ292Q3pSSGRSY0lxX0tXT3VVbXpIc0tXT0J3TllVTTlNOUgwck44YURSM3g3aGYzdkJmS29IYVk",
-          "summary": "",
-          "image": "https://www.gearpatrol.com/wp-content/uploads/sites/2/2026/09/Fellow-Stagg-EKG-Electric-Kettle-16x9-Lead-1.webp",
-          "publishedAt": "2026-09-23T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
         }
       ]
     }
