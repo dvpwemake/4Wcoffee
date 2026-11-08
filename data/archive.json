@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-08T19-44-02",
+      "scannedAt": "2026-11-08T19:44:02.306911+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Coffees So Good Even Harry Styles Doesn’t Mind Paying",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/coffees-so-good-even-harry-styles-doesnt-mind-paying-1574465.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/devocion-holiday-blend-2026-sprudge-roasters-village-copy.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-08T13:00:37+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Are we entering a new era of home espresso?",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/11/a-new-era-home-espresso/",
+          "summary": "Home espresso machines are evolving as specialty coffee reaches more consumers. Prosumers want precise, repeatable control, while newcomers want support as they learn. The post Are we entering a new era of home espresso? appeared first on Perfect Daily Grind .",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/05_11_Article__PDG-EN-FB-post.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T06:26:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111279/",
+          "summary": "Starbucks plans to explore personalized digital menus at drive-thrus, enhancing customer experiences with AI technology, CEO Brian Niccol announced during an earnings call. The post Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus appeare",
+          "image": "https://coffeetalk.com/wp-content/uploads/mahavir-shah-ARKutbbx-GU-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T20:37:48+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Vietnam Hosts Workshop on Protecting Robusta from Extreme Weather",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111277/",
+          "summary": "PVCFC hosts workshop on \"Protecting Robusta from Extreme Weather\" in Gia Lai, Vietnam, integrating science and technology to help farmers adapt to climate challenges in coffee production. The post Vietnam Hosts Workshop on Protecting Robusta from Extreme Weather appeared first on",
+          "image": "https://coffeetalk.com/wp-content/uploads/helena-coffee-vietnam-VPB5U1-QoSQ-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-04T20:34:07+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "reviews-1",
+          "title": "7 Espresso Grinders That’ll Help You Pull Better Shots",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IRl8yeFdLQVVOTzRMS0tzZGlLOTY4eUZBVWQ1VEhqQkhIUEwwd2JaX2JFWC1qRlA4c0tURVlEbVRLVkxMdzI4dGY2RnNqM1VRdTRoazVodTRIcXpEc3dkNXZLSjhnenNGTEE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T08:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Kofyka Roastery - Prague, Czech Republic",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZ1cyNkIzUzlIUkE2TVZEQ3VtMG9VaVBXZkFSQ3d1RkxhVWduQnVwY3JHU1pBb25MNmhoZDdZb1hMM0hHSHlFNFJsTFhqaGowNTlOSUdsZEhrZw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-06T15:10:53+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "trücup Low-Acid Coffee launches new product: Half-Caff Pods",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWG9hUjV3dXdvUEl5eVpYLWtVLTYycWZlXy12bVgzZWtETTJsWmtJZDlzTTNOWllRa1F1VXV3SVUzRGlIZDI2eWIyYTVXd2hzUFRrdldjVDZreXVkOTJrb21WaS1FbHJVS0Rvd0VCa2doYWp1ajFKTXJ2dG5zOGg1MWZfalFvNkFQQUdNRTdpV0Y",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T23:35:22+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Kraft Heinz sells North American coffee business, including iconic Maxwell House brand for $650 mln",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjE1ekNsUnJFSWNnOWpsWlZUcFRUS1FpWmhfX0JCODduZUtfa1Q2alRKMy12T3VaUHRrYTZKSzRSSUdLOHdtQ3UzaGVCZVR1M0hfbnhkQkVSYlM4SnFsSzZHUHJSc051Z1pJbmt1MTJzYmJrSUQ4ZHVqSXpBZFpaWGdGdy1hRlpBM3pmUkhDM3lDcFNpZzJ4TnBjRFdnampEdURPSEZJVDdNeFlqNmE5SkVXOHA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-05T10:27:49+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-07T19-28-12",
       "scannedAt": "2026-11-07T19:28:12.254143+00:00",
       "items": [
@@ -2937,26 +3039,6 @@
           "publishedAt": "2026-10-09T10:39:59+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-08",
-      "scannedAt": "2026-10-11T02:44:33.443Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-08",
-          "rank": 0,
-          "title": "The Filter: From Compostable Promises to Combat Sports",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Sustainability hits a corporate snag, athletes get a caffeinated edge, and the specialty community honors its ubiquitous connectors.",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2025/04/americano-perfect-scaled.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-08.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-08"
         }
       ]
     }
