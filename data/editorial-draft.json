@@ -1,121 +1,120 @@
 {
-  "id": "ed_2026-11-08",
-  "publishDate": "2026-11-08",
+  "id": "ed_2026-11-09",
+  "publishDate": "2026-11-09",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-11-08",
+  "title": "Editorial brief — 2026-11-09",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://sprudge.com/wp-content/uploads/2026/11/devocion-holiday-blend-2026-sprudge-roasters-village-copy.jpg",
-  "heroCredit": "Sprudge",
-  "heroSource": "Sprudge",
-  "heroSourceUrl": "https://sprudge.com/coffees-so-good-even-harry-styles-doesnt-mind-paying-1574465.html",
+  "heroImage": "https://coffeetalk.com/wp-content/uploads/archer-fu-jubCL2DZA9g-unsplash-scaled.jpg",
+  "heroCredit": "Coffee Talk",
+  "heroSource": "Coffee Talk",
+  "heroSourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111310/",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-08\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-09\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Coffees So Good Even Harry Styles Doesn’t Mind Paying\n   Source: Sprudge\n   URL: https://sprudge.com/coffees-so-good-even-harry-styles-doesnt-mind-paying-1574465.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-    "2. [Industry] Are we entering a new era of home espresso?\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/11/a-new-era-home-espresso/\n   Key points:\n   • Home espresso machines are evolving as specialty coffee reaches more consumers.\n   • Prosumers want precise, repeatable control, while newcomers want support as they learn.\n   • The post Are we entering a new era of home espresso?\n   • appeared first on Perfect Daily Grind .",
-    "3. [Industry] Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111279/\n   Key points:\n   • Starbucks plans to explore personalized digital menus at drive-thrus, enhancing customer experiences with AI technology, CEO Brian Niccol announced during an earnings call.\n   • The post Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus appeare",
-    "4. [Industry] Vietnam Hosts Workshop on Protecting Robusta from Extreme Weather\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/from-origin/11-2026/111277/\n   Key points:\n   • PVCFC hosts workshop on \"Protecting Robusta from Extreme Weather\" in Gia Lai, Vietnam, integrating science and technology to help farmers adapt to climate challenges in coffee production.",
-    "5. [Reviews] 7 Espresso Grinders That’ll Help You Pull Better Shots\n   Source: Serious Eats\n   URL: https://news.google.com/rss/articles/CBMiakFVX3lxTE5IRl8yeFdLQVVOTzRMS0tzZGlLOTY4eUZBVWQ1VEhqQkhIUEwwd2JaX2JFWC1qRlA4c0tURVlEbVRLVkxMdzI4dGY2RnNqM1VRdTRoazVodTRIcXpEc3dkNXZLSjhnenNGTEE\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "6. [Origin] Kofyka Roastery - Prague, Czech Republic\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZ1cyNkIzUzlIUkE2TVZEQ3VtMG9VaVBXZkFSQ3d1RkxhVWduQnVwY3JHU1pBb25MNmhoZDdZb1hMM0hHSHlFNFJsTFhqaGowNTlOSUdsZEhrZw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "7. [Origin] trücup Low-Acid Coffee launches new product: Half-Caff Pods\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxOWG9hUjV3dXdvUEl5eVpYLWtVLTYycWZlXy12bVgzZWtETTJsWmtJZDlzTTNOWllRa1F1VXV3SVUzRGlIZDI2eWIyYTVXd2hzUFRrdldjVDZreXVkOTJrb21WaS1FbHJVS0Rvd0VCa2doYWp1ajFKTXJ2dG5zOGg1MWZfalFvNkFQQUdNRTdpV0Y\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "8. [Origin] Kraft Heinz sells North American coffee business, including iconic Maxwell House brand for $650 mln\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxONjE1ekNsUnJFSWNnOWpsWlZUcFRUS1FpWmhfX0JCODduZUtfa1Q2alRKMy12T3VaUHRrYTZKSzRSSUdLOHdtQ3UzaGVCZVR1M0hfbnhkQkVSYlM4SnFsSzZHUHJSc051Z1pJbmt1MTJzYmJrSUQ4ZHVqSXpBZFpaWGdGdy1hRlpBM3pmUkhDM3lDcFNpZzJ4TnBjRFdnampEdURPSEZJVDdNeFlqNmE5SkVXOHA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "— Categories present —\nIndustry · Reviews · Origin",
+    "1. [Industry] Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cups\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/top-news/11-2026/111310/\n   Key points:\n   • University of Waterloo researchers unveil a renewable cellulose coating for coffee cups, offering a sustainable alternative to plastic liners and enhancing recycling efforts.\n   • The post Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cu",
+    "2. [Industry] Starbucks Plans Major UK Expansion Plan with 7,500 New Barista Hires Anticipated Over the Next 5 Years\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111308/\n   Key points:\n   • Starbucks plans to hire 7,500 baristas over five years, focusing on northern UK regions amid rising youth unemployment and economic uncertainty.",
+    "3. [Industry] Cáphê Roasters In Philadelphia Looking Towards Huge Expansion\n   Source: Sprudge\n   URL: https://sprudge.com/caphe-roasters-in-philadelphia-looking-towards-huge-expansion-1586084.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Càphê Roasters South to open in Spring 2027.",
+    "4. [Industry] At Gloom Coffee In Seattle, A Cocktail Menu With Espresso And Cold Brew (Hold The Booze)\n   Source: Sprudge\n   URL: https://sprudge.com/at-gloom-coffee-in-seattle-a-cocktail-menu-with-espresso-and-cold-brew-hold-the-booze-1535386.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • The Side Quest at Gloom in Seattle, Washington.",
+    "5. [Science] Scientists finally discover why we learn to love bitter coffee\n   Source: Science Daily\n   URL: https://news.google.com/rss/articles/CBMibkFVX3lxTFBEcy1UMkNvN1RNY05iRVVHQ1AxT1U2eGRFMkVVVVhjRnRsak04bUpVWnFjZXVmNlBXeTRyZFhWVTdxVUlYTzlONGFIV0pjcVpLeDRtY25kMFVZTmRiM1RneHJObkhZNVNFTTFkY3d3\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "6. [Science] Probabilistic health risk assessment of caffeine intake from milk tea among college students in Wuhan, China by Monte Carlo simulation\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOdldYZnEwTk9JeGxNZGRfMF9qam5xT1NwamkxSlEyX0dZMFktZzF5NFRnem4tVnV4RnlYVk9EOUFwdk00U0kwVzBtR2hzcnBZWExQaEU4SmdJN00wNWVZ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "7. [Origin] Coffee Decoded: Flat vs. Conical Coffee Filters: Does Basket Shape Change Taste?\n   Source: Specialty Coffee Association\n   URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2VMLTN5eE8yRWxSVEVMYUdrRnhicDdHdERSelp5aHJvY3ctMTdsR3F0UE9QYUh2QkpzQ3FDZFVkSEtkN2VVYjVqV2RtZ0JFdHFWTkpndTZWQ2J1X3l6THhlWDhmazVYNTlhT0RwTHptbFdBZlZrRDI2bmpOdVZ6VGRFYnN1OHM\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "8. [Origin] Kafe pro Sebe - Uničov, Czech Republic\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YcFlmZ1k5UUhUWmFuTVZsRnN2WWlWOWVxbjlMeG5pQUlQSU5TZVFRM0lTMWpueEYzYldNQUFFV1Z3dFhfM3duVENGUHdwRlVuSUw1amFBYkpmM0Jpb3FNRQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "— Categories present —\nIndustry · Science · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-08\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Coffees So Good Even Harry Styles Doesn’t Mind Paying\n   Source: Sprudge\n   URL: https://sprudge.com/coffees-so-good-even-harry-styles-doesnt-mind-paying-1574465.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A weekly curated selection of coffees from the Sprudge Roaster's Village.\n\n2. [Industry] Are we entering a new era of home espresso?\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/11/a-new-era-home-espresso/\n   Key points:\n   • Home espresso machines are evolving as specialty coffee reaches more consumers.\n   • Prosumers want precise, repeatable control, while newcomers want support as they learn.\n   • The post Are we entering a new era of home espresso?\n   • appeared first on Perfect Daily Grind .\n\n3. [Industry] Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111279/\n   Key points:\n   • Starbucks plans to explore personalized digital menus at drive-thrus, enhancing customer experiences with AI technology, CEO Brian Niccol announced during an earnings call.\n   • The post Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus appeare\n\n4. [Industry] Vietnam Hosts Workshop on Protecting Robusta from Extreme Weather\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/from-origin/11-2026/111277/\n   Key points:\n   • PVCFC hosts workshop on \"Protecting Robusta from Extreme Weather\" in Gia Lai, Vietnam, integrating science and technology to help farmers adapt to climate challenges in coffee production.\n\n5. [Reviews] 7 Espresso Grinders That’ll Help You Pull Better Shots\n   Source: Serious Eats\n   URL: https://news.google.com/rss/articles/CBMiakFVX3lxTE5IRl8yeFdLQVVOTzRMS0tzZGlLOTY4eUZBVWQ1VEhqQkhIUEwwd2JaX2JFWC1qRlA4c0tURVlEbVRLVkxMdzI4dGY2RnNqM1VRdTRoazVodTRIcXpEc3dkNXZLSjhnenNGTEE\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Origin] Kofyka Roastery - Prague, Czech Republic\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZ1cyNkIzUzlIUkE2TVZEQ3VtMG9VaVBXZkFSQ3d1RkxhVWduQnVwY3JHU1pBb25MNmhoZDdZb1hMM0hHSHlFNFJsTFhqaGowNTlOSUdsZEhrZw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] trücup Low-Acid Coffee launches new product: Half-Caff Pods\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxOWG9hUjV3dXdvUEl5eVpYLWtVLTYycWZlXy12bVgzZWtETTJsWmtJZDlzTTNOWllRa1F1VXV3SVUzRGlIZDI2eWIyYTVXd2hzUFRrdldjVDZreXVkOTJrb21WaS1FbHJVS0Rvd0VCa2doYWp1ajFKTXJ2dG5zOGg1MWZfalFvNkFQQUdNRTdpV0Y\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Kraft Heinz sells North American coffee business, including iconic Maxwell House brand for $650 mln\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxONjE1ekNsUnJFSWNnOWpsWlZUcFRUS1FpWmhfX0JCODduZUtfa1Q2alRKMy12T3VaUHRrYTZKSzRSSUdLOHdtQ3UzaGVCZVR1M0hfbnhkQkVSYlM4SnFsSzZHUHJSc051Z1pJbmt1MTJzYmJrSUQ4ZHVqSXpBZFpaWGdGdy1hRlpBM3pmUkhDM3lDcFNpZzJ4TnBjRFdnampEdURPSEZJVDdNeFlqNmE5SkVXOHA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Reviews · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 450,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-09\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cups\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/top-news/11-2026/111310/\n   Key points:\n   • University of Waterloo researchers unveil a renewable cellulose coating for coffee cups, offering a sustainable alternative to plastic liners and enhancing recycling efforts.\n   • The post Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cu\n\n2. [Industry] Starbucks Plans Major UK Expansion Plan with 7,500 New Barista Hires Anticipated Over the Next 5 Years\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111308/\n   Key points:\n   • Starbucks plans to hire 7,500 baristas over five years, focusing on northern UK regions amid rising youth unemployment and economic uncertainty.\n\n3. [Industry] Cáphê Roasters In Philadelphia Looking Towards Huge Expansion\n   Source: Sprudge\n   URL: https://sprudge.com/caphe-roasters-in-philadelphia-looking-towards-huge-expansion-1586084.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Càphê Roasters South to open in Spring 2027.\n\n4. [Industry] At Gloom Coffee In Seattle, A Cocktail Menu With Espresso And Cold Brew (Hold The Booze)\n   Source: Sprudge\n   URL: https://sprudge.com/at-gloom-coffee-in-seattle-a-cocktail-menu-with-espresso-and-cold-brew-hold-the-booze-1535386.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • The Side Quest at Gloom in Seattle, Washington.\n\n5. [Science] Scientists finally discover why we learn to love bitter coffee\n   Source: Science Daily\n   URL: https://news.google.com/rss/articles/CBMibkFVX3lxTFBEcy1UMkNvN1RNY05iRVVHQ1AxT1U2eGRFMkVVVVhjRnRsak04bUpVWnFjZXVmNlBXeTRyZFhWVTdxVUlYTzlONGFIV0pjcVpLeDRtY25kMFVZTmRiM1RneHJObkhZNVNFTTFkY3d3\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Science] Probabilistic health risk assessment of caffeine intake from milk tea among college students in Wuhan, China by Monte Carlo simulation\n   Source: Nature\n   URL: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOdldYZnEwTk9JeGxNZGRfMF9qam5xT1NwamkxSlEyX0dZMFktZzF5NFRnem4tVnV4RnlYVk9EOUFwdk00U0kwVzBtR2hzcnBZWExQaEU4SmdJN00wNWVZ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Coffee Decoded: Flat vs. Conical Coffee Filters: Does Basket Shape Change Taste?\n   Source: Specialty Coffee Association\n   URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2VMLTN5eE8yRWxSVEVMYUdrRnhicDdHdERSelp5aHJvY3ctMTdsR3F0UE9QYUh2QkpzQ3FDZFVkSEtkN2VVYjVqV2RtZ0JFdHFWTkpndTZWQ2J1X3l6THhlWDhmazVYNTlhT0RwTHptbFdBZlZrRDI2bmpOdVZ6VGRFYnN1OHM\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Kafe pro Sebe - Uničov, Czech Republic\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YcFlmZ1k5UUhUWmFuTVZsRnN2WWlWOWVxbjlMeG5pQUlQSU5TZVFRM0lTMWpueEYzYldNQUFFV1Z3dFhfM3duVENGUHdwRlVuSUw1amFBYkpmM0Jpb3FNRQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 446,
   "headlines": [
     {
-      "title": "Coffees So Good Even Harry Styles Doesn’t Mind Paying",
+      "title": "Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cups",
+      "source": "Coffee Talk",
+      "category": "industry",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111310/",
+      "summary": "University of Waterloo researchers unveil a renewable cellulose coating for coffee cups, offering a sustainable alternative to plastic liners and enhancing recycling efforts. The post Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cu",
+      "image": "https://coffeetalk.com/wp-content/uploads/archer-fu-jubCL2DZA9g-unsplash-scaled.jpg",
+      "keyPoints": [
+        "University of Waterloo researchers unveil a renewable cellulose coating for coffee cups, offering a sustainable alternative to plastic liners and enhancing recycling efforts.",
+        "The post Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cu"
+      ]
+    },
+    {
+      "title": "Starbucks Plans Major UK Expansion Plan with 7,500 New Barista Hires Anticipated Over the Next 5 Years",
+      "source": "Coffee Talk",
+      "category": "industry",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111308/",
+      "summary": "Starbucks plans to hire 7,500 baristas over five years, focusing on northern UK regions amid rising youth unemployment and economic uncertainty. The post Starbucks Plans Major UK Expansion Plan with 7,500 New Barista Hires Anticipated Over the Next 5 Years appeared first on Coffe",
+      "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
+      "keyPoints": [
+        "Starbucks plans to hire 7,500 baristas over five years, focusing on northern UK regions amid rising youth unemployment and economic uncertainty."
+      ]
+    },
+    {
+      "title": "Cáphê Roasters In Philadelphia Looking Towards Huge Expansion",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/coffees-so-good-even-harry-styles-doesnt-mind-paying-1574465.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/11/devocion-holiday-blend-2026-sprudge-roasters-village-copy.jpg",
+      "sourceUrl": "https://sprudge.com/caphe-roasters-in-philadelphia-looking-towards-huge-expansion-1586084.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Càphê Roasters South to open in Spring 2027.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/11/caphe-roasters.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "A weekly curated selection of coffees from the Sprudge Roaster's Village."
+        "Càphê Roasters South to open in Spring 2027."
       ]
     },
     {
-      "title": "Are we entering a new era of home espresso?",
-      "source": "Perfect Daily Grind",
+      "title": "At Gloom Coffee In Seattle, A Cocktail Menu With Espresso And Cold Brew (Hold The Booze)",
+      "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://perfectdailygrind.com/2026/11/a-new-era-home-espresso/",
-      "summary": "Home espresso machines are evolving as specialty coffee reaches more consumers. Prosumers want precise, repeatable control, while newcomers want support as they learn. The post Are we entering a new era of home espresso? appeared first on Perfect Daily Grind .",
-      "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/05_11_Article__PDG-EN-FB-post.png",
+      "sourceUrl": "https://sprudge.com/at-gloom-coffee-in-seattle-a-cocktail-menu-with-espresso-and-cold-brew-hold-the-booze-1535386.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Side Quest at Gloom in Seattle, Washington.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/10/gloom_menu_harry-cheadle.jpg",
       "keyPoints": [
-        "Home espresso machines are evolving as specialty coffee reaches more consumers.",
-        "Prosumers want precise, repeatable control, while newcomers want support as they learn.",
-        "The post Are we entering a new era of home espresso?",
-        "appeared first on Perfect Daily Grind ."
+        "This article is from the coffee website Sprudge at http://sprudge.com .",
+        "This is the RSS feed version.",
+        "The Side Quest at Gloom in Seattle, Washington."
       ]
     },
     {
-      "title": "Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus",
-      "source": "Coffee Talk",
-      "category": "industry",
-      "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111279/",
-      "summary": "Starbucks plans to explore personalized digital menus at drive-thrus, enhancing customer experiences with AI technology, CEO Brian Niccol announced during an earnings call. The post Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus appeare",
-      "image": "https://coffeetalk.com/wp-content/uploads/mahavir-shah-ARKutbbx-GU-unsplash-scaled.jpg",
-      "keyPoints": [
-        "Starbucks plans to explore personalized digital menus at drive-thrus, enhancing customer experiences with AI technology, CEO Brian Niccol announced during an earnings call.",
-        "The post Starbucks Wants to Explore Using AI to Implement Personalized Digital Menus at Drive-Thrus appeare"
-      ]
-    },
-    {
-      "title": "Vietnam Hosts Workshop on Protecting Robusta from Extreme Weather",
-      "source": "Coffee Talk",
-      "category": "industry",
-      "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111277/",
-      "summary": "PVCFC hosts workshop on \"Protecting Robusta from Extreme Weather\" in Gia Lai, Vietnam, integrating science and technology to help farmers adapt to climate challenges in coffee production. The post Vietnam Hosts Workshop on Protecting Robusta from Extreme Weather appeared first on",
-      "image": "https://coffeetalk.com/wp-content/uploads/helena-coffee-vietnam-VPB5U1-QoSQ-unsplash.jpg",
-      "keyPoints": [
-        "PVCFC hosts workshop on \"Protecting Robusta from Extreme Weather\" in Gia Lai, Vietnam, integrating science and technology to help farmers adapt to climate challenges in coffee production."
-      ]
-    },
-    {
-      "title": "7 Espresso Grinders That’ll Help You Pull Better Shots",
-      "source": "Serious Eats",
-      "category": "reviews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IRl8yeFdLQVVOTzRMS0tzZGlLOTY4eUZBVWQ1VEhqQkhIUEwwd2JaX2JFWC1qRlA4c0tURVlEbVRLVkxMdzI4dGY2RnNqM1VRdTRoazVodTRIcXpEc3dkNXZLSjhnenNGTEE",
+      "title": "Scientists finally discover why we learn to love bitter coffee",
+      "source": "Science Daily",
+      "category": "science",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEcy1UMkNvN1RNY05iRVVHQ1AxT1U2eGRFMkVVVVhjRnRsak04bUpVWnFjZXVmNlBXeTRyZFhWVTdxVUlYTzlONGFIV0pjcVpLeDRtY25kMFVZTmRiM1RneHJObkhZNVNFTTFkY3d3",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Kofyka Roastery - Prague, Czech Republic",
+      "title": "Probabilistic health risk assessment of caffeine intake from milk tea among college students in Wuhan, China by Monte Carlo simulation",
+      "source": "Nature",
+      "category": "science",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOdldYZnEwTk9JeGxNZGRfMF9qam5xT1NwamkxSlEyX0dZMFktZzF5NFRnem4tVnV4RnlYVk9EOUFwdk00U0kwVzBtR2hzcnBZWExQaEU4SmdJN00wNWVZ",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
+    },
+    {
+      "title": "Coffee Decoded: Flat vs. Conical Coffee Filters: Does Basket Shape Change Taste?",
+      "source": "Specialty Coffee Association",
+      "category": "origin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2VMLTN5eE8yRWxSVEVMYUdrRnhicDdHdERSelp5aHJvY3ctMTdsR3F0UE9QYUh2QkpzQ3FDZFVkSEtkN2VVYjVqV2RtZ0JFdHFWTkpndTZWQ2J1X3l6THhlWDhmazVYNTlhT0RwTHptbFdBZlZrRDI2bmpOdVZ6VGRFYnN1OHM",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
+    },
+    {
+      "title": "Kafe pro Sebe - Uničov, Czech Republic",
       "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZ1cyNkIzUzlIUkE2TVZEQ3VtMG9VaVBXZkFSQ3d1RkxhVWduQnVwY3JHU1pBb25MNmhoZDdZb1hMM0hHSHlFNFJsTFhqaGowNTlOSUdsZEhrZw",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "keyPoints": []
-    },
-    {
-      "title": "trücup Low-Acid Coffee launches new product: Half-Caff Pods",
-      "source": "Comunicaffe International",
-      "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWG9hUjV3dXdvUEl5eVpYLWtVLTYycWZlXy12bVgzZWtETTJsWmtJZDlzTTNOWllRa1F1VXV3SVUzRGlIZDI2eWIyYTVXd2hzUFRrdldjVDZreXVkOTJrb21WaS1FbHJVS0Rvd0VCa2doYWp1ajFKTXJ2dG5zOGg1MWZfalFvNkFQQUdNRTdpV0Y",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "keyPoints": []
-    },
-    {
-      "title": "Kraft Heinz sells North American coffee business, including iconic Maxwell House brand for $650 mln",
-      "source": "Comunicaffe International",
-      "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjE1ekNsUnJFSWNnOWpsWlZUcFRUS1FpWmhfX0JCODduZUtfa1Q2alRKMy12T3VaUHRrYTZKSzRSSUdLOHdtQ3UzaGVCZVR1M0hfbnhkQkVSYlM4SnFsSzZHUHJSc051Z1pJbmt1MTJzYmJrSUQ4ZHVqSXpBZFpaWGdGdy1hRlpBM3pmUkhDM3lDcFNpZzJ4TnBjRFdnampEdURPSEZJVDdNeFlqNmE5SkVXOHA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YcFlmZ1k5UUhUWmFuTVZsRnN2WWlWOWVxbjlMeG5pQUlQSU5TZVFRM0lTMWpueEYzYldNQUFFV1Z3dFhfM3duVENGUHdwRlVuSUw1amFBYkpmM0Jpb3FNRQ",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     }
   ],
-  "fromScan": "2026-11-08T19:44:02.306911+00:00"
+  "fromScan": "2026-11-09T23:48:51.013170+00:00"
 }

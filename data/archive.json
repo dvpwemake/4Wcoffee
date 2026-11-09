@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-09T23-48-51",
+      "scannedAt": "2026-11-09T23:48:51.013170+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cups",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111310/",
+          "summary": "University of Waterloo researchers unveil a renewable cellulose coating for coffee cups, offering a sustainable alternative to plastic liners and enhancing recycling efforts. The post Researchers Develop Plant-Based Coating as Alternative to Plastic Liners in Disposable Coffee Cu",
+          "image": "https://coffeetalk.com/wp-content/uploads/archer-fu-jubCL2DZA9g-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T21:14:38+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Starbucks Plans Major UK Expansion Plan with 7,500 New Barista Hires Anticipated Over the Next 5 Years",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111308/",
+          "summary": "Starbucks plans to hire 7,500 baristas over five years, focusing on northern UK regions amid rising youth unemployment and economic uncertainty. The post Starbucks Plans Major UK Expansion Plan with 7,500 New Barista Hires Anticipated Over the Next 5 Years appeared first on Coffe",
+          "image": "https://coffeetalk.com/wp-content/uploads/asael-pena-n-HtQS7IgU4-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T21:04:58+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Cáphê Roasters In Philadelphia Looking Towards Huge Expansion",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/caphe-roasters-in-philadelphia-looking-towards-huge-expansion-1586084.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Càphê Roasters South to open in Spring 2027.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/caphe-roasters.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T21:01:45+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "At Gloom Coffee In Seattle, A Cocktail Menu With Espresso And Cold Brew (Hold The Booze)",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/at-gloom-coffee-in-seattle-a-cocktail-menu-with-espresso-and-cold-brew-hold-the-booze-1535386.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Side Quest at Gloom in Seattle, Washington.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/gloom_menu_harry-cheadle.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T18:24:58+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Scientists finally discover why we learn to love bitter coffee",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEcy1UMkNvN1RNY05iRVVHQ1AxT1U2eGRFMkVVVVhjRnRsak04bUpVWnFjZXVmNlBXeTRyZFhWVTdxVUlYTzlONGFIV0pjcVpLeDRtY25kMFVZTmRiM1RneHJObkhZNVNFTTFkY3d3",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T23:21:03+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Probabilistic health risk assessment of caffeine intake from milk tea among college students in Wuhan, China by Monte Carlo simulation",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOdldYZnEwTk9JeGxNZGRfMF9qam5xT1NwamkxSlEyX0dZMFktZzF5NFRnem4tVnV4RnlYVk9EOUFwdk00U0kwVzBtR2hzcnBZWExQaEU4SmdJN00wNWVZ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T15:32:28+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Coffee Decoded: Flat vs. Conical Coffee Filters: Does Basket Shape Change Taste?",
+          "source": "Specialty Coffee Association",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2VMLTN5eE8yRWxSVEVMYUdrRnhicDdHdERSelp5aHJvY3ctMTdsR3F0UE9QYUh2QkpzQ3FDZFVkSEtkN2VVYjVqV2RtZ0JFdHFWTkpndTZWQ2J1X3l6THhlWDhmazVYNTlhT0RwTHptbFdBZlZrRDI2bmpOdVZ6VGRFYnN1OHM",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T20:49:14+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Kafe pro Sebe - Uničov, Czech Republic",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YcFlmZ1k5UUhUWmFuTVZsRnN2WWlWOWVxbjlMeG5pQUlQSU5TZVFRM0lTMWpueEYzYldNQUFFV1Z3dFhfM3duVENGUHdwRlVuSUw1amFBYkpmM0Jpb3FNRQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-09T13:57:48+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-08T19-44-02",
       "scannedAt": "2026-11-08T19:44:02.306911+00:00",
       "items": [
@@ -2956,89 +3058,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-10.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-10"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-11T19-36-13",
-      "scannedAt": "2026-10-11T19:36:13.371112+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Look At All These Coffees. Don’t Look At Them! Drink Them!",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/look-at-all-these-coffees-dont-look-at-them-drink-them-1417089.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/phil-seb-hartmann-maragogype-natural-sprudge-roasters-village-copy.jpg",
-          "publishedAt": "2026-10-11T12:00:11+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "An international multilocation trial reveals genotype-by-environment interactions in Arabica coffee across climate gradients",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IQjhwcEVDUDc4QkpOQ1lRZ0R1eUloRDFFZjdVM0VoUTJBdVBTOEExZGFqMGljUkVNRTdZLXBpaFVTc1hVZXdtTVRuZUstR3pzcHRjUVUwYXpjcHdSdy1z",
-          "summary": "",
-          "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2666154324005866-ga1.jpg",
-          "publishedAt": "2026-10-02T07:00:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Milk matrix-driven structural reorganization modulates oral friction and sensory perception in coffee-milk systems",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZODhPU1AyTjVwYl9yT0NZeng0aDJ0a2F3TFhWR1ZCM2VCOGVmeExzd3VSczVVWWhiM3NWN2JiUVFOTzBKM3pST2RnQlB4SmN2Ykc3OHFzT1AzUTRSbk5YMU1sZUE",
-          "summary": "",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6CzLjzmCZCxSO8oytxBRbo96tRLTAEDMuH16KYXYXw&s=10",
-          "publishedAt": "2026-09-30T14:43:48+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "The Best Coffee & Espresso Scales for Home-Baristas",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/best-digital-scales-for-coffee/",
-          "summary": "If you plan to experiment with pour over coffee and espresso, you need an accurate scale. Here are the top coffee scales. The post The Best Coffee & Espresso Scales for Home-Baristas appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/07/IMG_9256.jpeg",
-          "publishedAt": "2026-10-10T16:42:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "Caraway Takes Its Clean, Design-Forward Ethos Beyond Cookware with Its First-Ever Coffee Maker",
-          "source": "Gear Patrol",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51UnRaOFdoZDRubkJsUjVSLVhkTVFnWlR3d3dXQklXMWpOYjUxNjVYNnNoOWxGUzljZjdZQWxCZUVZd1JVM1Bzb3UyV2FLZ3pBUkFQNGQzUm5NR0VGdkNFSEV4Q0cxc2pha3Jv",
-          "summary": "",
-          "image": "https://www.gearpatrol.com/wp-content/uploads/sites/2/2026/09/Caraway-Home-Coffee-Maker-Lifestyle-Image-6-4x5-Edited-1.webp",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Barista Stories: Michaela Randell of The Ground Up Project, England",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MT1RWT29zUjVvNWc3TWpUZlVJdFg3S0JGdTRjZm53MDVrSGsxN3d0c2l5UURNc2oybXFzdW1lSnNkd09MVzBqc2lpem9IU1VjWFE4dF9oYTRUeXl3VDVGeEpxS3hmRUk0UURoampqaEhZdw",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/2026/10/article_214-Michaela.jpg",
-          "publishedAt": "2026-10-09T12:51:12+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "RoastFinder Coffee Lab",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6RE5ld21JRVRCMGE0SHhMUXNKZllTd3lqUm05R3B5X09rMHdtSU1qVF8xcGlwbE9Vc3BLUGEtSnVOc0ZoYjhHU21GYzJBcGR4LTdnWTNtWElzU0RMY1M4OUlmMDZMUERfbUpHQXRNUmFvZw",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/35577/20261001_132413.jpg",
-          "publishedAt": "2026-10-09T10:39:59+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
