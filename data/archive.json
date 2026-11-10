@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-10T21-20-09",
+      "scannedAt": "2026-11-10T21:20:09.018234+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Dutch Bros Puts CEO and C-Suite Through Barista Bootcamp",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111315/",
+          "summary": "Dutch Bros CEO Christine Barone undergoes hands-on training as a \"broista,\" emphasizing company culture and customer connection in the $7.5 billion coffee chain. The post Dutch Bros Puts CEO and C-Suite Through Barista Bootcamp appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/nicolas-nieves-quiroz-0nEh3mnnDo8-unsplash.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T21:18:24+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Vietnam’s Coffee Crossroads: EU Green Rules Threaten “Cheap Coffee” Era",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111313/",
+          "summary": "Vietnam's coffee exports face challenges as EU tightens sustainability rules, prompting calls for higher quality production to maintain competitiveness, warns Nestlé Vietnam's CEO. The post Vietnam’s Coffee Crossroads: EU Green Rules Threaten “Cheap Coffee” Era appeared first on ",
+          "image": "https://coffeetalk.com/wp-content/uploads/dang-cong-7K64kQrcsxU-unsplash-1.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T21:11:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
+          "summary": "Approximately 69% of green coffee purchased by 14 major coffee roasters and retailers in 2025 met a recognized baseline sustainability standard, down from 75% the previous year, according to the...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/coffee-sacks-620x349.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T17:00:09+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Neon Works SF: Inside The Neon Studio Keeping Vintage Signs Alive",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/neon-works-sf-inside-the-neon-studio-keeping-vintage-signs-alive-1399555.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The Neon Works studio in San Francisco, California.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/10/neon_works_jim_rizzo_tour_jenn_chen_08.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T15:00:02+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Regular coffee consumption alters gut bacteria and digestive physiology",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX1FhdkhsTjR3YVhyR29VSU9GU1M1NlI1MmsyS2hSNDlmU3V1ZEdwN3Fpc2Z4VVF1U2RxWFExREcyeDFuQkFMODU3enNuZVBXb2hiUXBlNGNES19PaVpieFdoOFlLYWpfaVRlWTZtZVhFNDY4dUZJaHUtemZiSTdlcUEyM0NvNHZpcEdQYkpXd0JOOWl5bzZjbVhfWTVXLWhrNmRlNll4T1M4eDcwcjB4NFdSeUVVY3lBT0w4",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T16:11:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Coffee appears to change how the gut functions",
+          "source": "Medical Xpress",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LQldtUmJaSHVvWm9Wa1J2MkZ6NGUtUUFYN3J4X1VpeVpVVEtlOExQeXZpUU1yVlhDVmpJczU1R3pjd3dNd2pUZDZjejdfS21MRjJHdm91YkJ0VFBtOWl4NU1KdDZGcTh4OHRVYXlyY280QQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T14:00:02+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "The Last Grind – An Official Announcement About the Future of MOMENTEM",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/the-last-grind-an-official-announcement-about-the-future-of-momentem/",
+          "summary": "Dear coffee friends, After more than five years of development, countless prototypes, factory visits, sleepless nights, and some of the most challenging moments we’ve experienced at I’M NOT A BARISTA, we’ve made a difficult decision. MOMENTEM Batch #3 will be the final production",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/11/momentem-history-1024x1024.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T17:09:10+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Between Cafe & Healthy Food",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MWjFpV3RVRWxlNU9GQ2xhS3lnc1pTQ21seXdkejdPQ3NMd1FURnhLRVQySTN6UmVFa0FnQnl1QV9SQlEwakNhbk5VS3JodGVKNUU1cTdhMW1hQWRvUTJlU0FuTlo3bk0",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-10T16:33:22+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-09T23-48-51",
       "scannedAt": "2026-11-09T23:48:51.013170+00:00",
       "items": [
@@ -3038,26 +3140,6 @@
           "publishedAt": "2026-10-11T22:45:32+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-10",
-      "scannedAt": "2026-10-11T23:50:32.969Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-10",
-          "rank": 0,
-          "title": "Rituals and Realities: From Futures Markets to the Pour-Over",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "As global coffee futures fluctuate on corporate sale rumors, the industry continues its push into high-end aesthetics, while new research complicates our understanding of caffeine and health",
-          "image": "https://sprudge.com/wp-content/uploads/2025/06/dwell-coffee-gear.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-10.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-10"
         }
       ]
     }
