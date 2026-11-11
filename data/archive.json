@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-03",
+      "scannedAt": "2026-11-11T08:05:17.105Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-03",
+          "rank": 0,
+          "title": "Scoring the Roast and Sowing the Husks",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "From cutthroat competition metrics to circular agriculture, coffee gets analytical.",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/coffee-beans-620x414.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-03.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-03"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-10T21-20-09",
       "scannedAt": "2026-11-10T21:20:09.018234+00:00",
       "items": [
@@ -3055,89 +3075,6 @@
           "summary": "",
           "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/IMG_8417-1.jpg",
           "publishedAt": "2026-10-13T10:17:17+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-12T22-31-57",
-      "scannedAt": "2026-10-12T22:31:57.187612+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "StoneX Acquiring Colombian Coffee Trader Integra",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTF90ZnNKTVdqQk5fc21DUG11NWVjc2U0aUVtS1NXQjBZVnEwZFU1TGY4Y3JoOFBYUV9rZE5GQ0tJb3M1VG9VNjQwdlp4X2xjTHRIcGlXVkdTbGQ5Yl9QVEJwY0dLS19aTzdabFBub3dSZnlOVzk4aTlXR1ZCbHZ5NmlxTGo2V213bVhzVVk3bXVkdw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-12T14:47:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Comparative phytochemical characterization and in vitro biological activities of coffee ( Coffea arabica ) and loquat ( Eriobotrya japonica ) seed extracts",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nekdVVlVLb09jYnpUbURtNjB3aWYySDR3ZENSSHRfaHhYNHdnaUR4RlJHaTI5eFBJekVTbXFSSWlwOFc1WDN0YWo0Z2ozNXlHX3R0dnJrR3VyRkR2dUVr",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-12T03:20:53+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Coffee variety outweighs associated tree identity in shaping disease incidence and fruit load in a large-scale Ugandan Robusta agroforestry system",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jWGhMUXFmeGZWbEMta1NLTDYxeTA3VldJUU9EdHh3TDdkMUV5U0tqYWdGZmlleFpRbHkwcHdjZWJMeHkzdzRYbnNjZnRDQk1vTGRJNm5TUlpNOWRJYlUwQ19yZTc",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-09-28T07:00:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Yeti Quietly Releases New Off-Catalog Versions of Its Fan-Favorite Bottles and Coffee Gear",
-          "source": "Gear Patrol",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wNW1aY2tmYTNtVlFTZHFMeGJTR2k3LTgwVHlYcngxMm9qWjc4UHBjX25hQ051eDBfd0NFUkZ2LXdXbHgwZXNzWDhsSVZuV0lOVkVqMUZfUWNXQ1MxVlZvYkYxM3hBem13N0hiRmJ4dFVVT2hxNXRRVThCQXR3V1E",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-12T20:02:58+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "reviews-2",
-          "title": "The Internet’s Favorite Coffee Mug Is Quietly More Affordable Than Ever Right Now",
-          "source": "Gear Patrol",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY0d5d3hRWHpXRGVZUGhaNFVrVEZYT1Z1LTVXcTdOT2ZnUE5PVmRTVU02NnRfVUprZURSMXkxRHotUEFidjRrT3lLekFaYXBrdElNYU9NTTAzQW1SVkRZUVZBamdXN29yamRRTkQ4eXAyM2p5WWZRaXdxSWx0VGlLWldtUVdyZw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-09-22T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "ICO report: Record Brazilian crop drives coffee prices lower",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPekFNUFZKX1MtckRMV05Fa2VCUnBuSDY3akJpb1FraHNoN0NHYzBiU3cteWVfX0tmR0lrdWN0cnNZQXYxQmNIZ19HNGtBYWVTUExQcHdVdGhQaXVidXE1YUlselJUSDI0WEZKRlEyWTRMY3dLZVdleUl0enFuaFpCUloyQWlxZlYtUWMyREhBT3c1S2FnM3Babk9QRzNlN08zUVp5MElkVU9BUmk5bjczdDl5VE16YTZuZjVUTk9heDdIdERoWXJ3UDVLZERZQQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-11T22:59:40+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Pope Francis' coffee-painted portrait by Erguvan Art & Academy CEO Dr. Ali Karatay presented at the Vatican",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVkJPQ29aUjF1N195U1JyS1BORFJiZnpiZ05tNGo2Y283MGZHZzBjdE4tNVY5NWxET1lYT0k2UHRhN0g2X0V2RmJjUm0xRElVUlpsTThXUGxuRzJCaHg5X3FkTkl3VDhXc2FScUxpT0ZGeUkzYm0wc2ZjMjNwR1RlOGw2ZXJEUnM2eC1NT1R1UHBnZVVHMmdvS3pLd3BvTDlrYkw4SzZ6aTIwQnhSMGYybld5TWlfMzRmZm5DVDJnbDhMTE9DaDhWVlppRXQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-11T22:45:32+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
