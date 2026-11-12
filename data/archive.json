@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-12T22-14-19",
+      "scannedAt": "2026-11-12T22:14:19.214619+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Nominations Are Now Open For The 18th Annual Sprudgie Awards",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/nominations-are-now-open-for-the-18th-annual-sprudgie-awards-1600761.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Nominations close Friday, December 4th at 11:59 PM PST.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/18th-sprudgie-awards.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T21:36:08+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "University of Kentucky Launches New Coffee Science Certificate Program",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111340/",
+          "summary": "The University of Kentucky launches a Coffee Science and Culture Certificate, blending practical skills with insights into the global coffee industry starting spring 2027. The post University of Kentucky Launches New Coffee Science Certificate Program appeared first on CoffeeTalk",
+          "image": "https://coffeetalk.com/wp-content/uploads/blake-verdoorn-gM-RfQsZK98-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T20:49:22+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Robot Barista Outperforms Human Baristas in Speed Competition",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111331/",
+          "summary": "Hi-Dolphin's COFE+ robotic café outperformed baristas in a competition, showcasing speed and consistency in beverage preparation at the Hongqiao Coffee Culture Festival. The post Robot Barista Outperforms Human Baristas in Speed Competition appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/35f5709ded7d4bfba63d48d76c4583c6.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T20:44:15+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "NY-Based Colombian Coffee Roaster Devoción Releases Limited-Edition 2026 Holiday Blend & Unveils Its Holiday Gift Guide",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-releases-limited-edition-2026-holiday-blend-unveils-its-holiday-gift-guide-1600759.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A seasonal blend with notes of milk chocolate, orange marmalade, nutmeg and mulled wine leads a lineup of gifts for every coffee lover on the list, from stocking stuffers to coff",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/holiday-blend-devocion-144724924-copy.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T19:05:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Pumpkin seed protein puts a twist on nondairy coffee creamer",
+          "source": "Phys.org",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OUXBJUzkwMlFWM01pMWhGemhpTDVVOU0zQ1BtSUNjdmY4MVlPV3JMRWczTi14dWpYekE3LVQ3R1NXMkxvT3drajNOX0VwbWx1VWpyQVFRejdJOFQwRjN5SURUYllFWGdRWUljOWtmNThvZXdzeDBVSFlnNA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T17:20:10+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Scientists Developed a Plant-Based Alternative to The Plastic Inside Your Coffee Cup",
+          "source": "ScienceAlert",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaU84RUhfNnFla3FodUV3TUhRWVc5RjczUWM5dk41aG5LWURnem1BMG1VX0pndldYYVdDTVltZWs0QTB3R0QyamM3Rjc5R1J1VlhPRlZjSVlwbmhpWndzYWpqRlczTHJRMWNqZ0JpNHI4NG4tVnFDNGxZeG5Ra0k0c0pKOE15NHlXZ09JUVRhZXdZcU1sTnplSFRkQklMMzZGMXhmUkd2WnVwMXRpaTdQazBmYw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T16:04:36+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Café Hackel",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tVENMcjZ6QWw2bTB2aEpXR0VWeV9JUFJhQmo5eUxDczNrQXhrSDYtU3JIY3ZNRy02cmVBQk5uRDRkMlllMnk2QmdKTFRkY0lIdUdwRUpoTlU1ekFrTnFhYWtpQzVPdw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T15:11:24+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Graphic Design Intern (2 Positions)",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/graphic-design-intern-2-positions/",
+          "summary": "Graphic Design Intern I’M NOT A BARISTA × Local Coffee Partner Location: Guiyang, China Workplace: On-site (In-person internship) Duration: Minimum 3 months Positions Available: 2 Love Coffee? Love Design? Create Something Meaningful With Us. I’M NOT A BARISTA is a not-for-profit",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T05:25:43+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-10",
       "scannedAt": "2026-11-12T21:51:50.870Z",
       "kind": "editorial_archive",
@@ -3011,89 +3113,6 @@
           "summary": "",
           "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/35821/img_8769.jpeg",
           "publishedAt": "2026-10-15T13:00:53+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-14T19-26-39",
-      "scannedAt": "2026-10-14T19:26:39.444664+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "The World Cup Tasters Championship Heads To Bogota In 2027",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-world-cup-tasters-championship-heads-to-bogota-in-2027-1449662.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The 2027 World Cup Tasters Championship takes place September 30th through October 2nd in Bogota, Colombia.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/bogotawocwcccolombia1200x675@4x-copy.jpg",
-          "publishedAt": "2026-10-14T17:16:10+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Niyyah Coffee Brings a Deaf-Owned Cafe to Indianapolis",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa3JWTnAzYU14YWVCR0hRdVh0VmJ6TjNXV0dhRWR1Qy1yMXNhUlYzek51M2ZuQ1RsVHp0ZlllOGk3R3F2ZERyV0ViaFVNZU5GV1duTnozZ3ZiV0M3bU50eUFyOGdkNEgzWWVNX0pvbGE5dW5STDN2TzRGeWJVQ2xrcW1UeHk4VlpmVTlDZ1FLa1R6Y3ktMHpmYmVn",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-14T14:02:13+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Coffee, citrus and genetics: What scientists found inside human breast milk",
-          "source": "News-Medical",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPandBUTdlZlgyR1hfZFB5dUNFdG55UWFvd2N5UU1BWUxRU3hRTl9UR1lUWmlycU5qWW1jcVhudFdsWVlkZUp2bjBDT2JFM0NhYzdZNWgwNWwtWEswYk9DZGluMFg3RnZxalFvVHhVZlhOVDlYTWN4YWpLNmM5QTNBV1NVdWZYMVlRSmhmOHlfaTFOcTFDVlhZdXFqc09iSXNtSDVjUFQ3QThtT0hJSXB5b1NmblhoMEQwWEQxcm5B",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-14T04:24:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Coffee variety outweighs associated tree identity in shaping disease incidence and fruit load in a large-scale Ugandan Robusta a",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rNFlVaHZsNFRCMTlpRG92eFpON1daM1BXOTlBVmozUFl3ZzJlWldQLVlSRF9ZNlh6OXhCbFE3Qk5oUXR3U3lmSHJ4THlVMXg3eFdHaHlyRU9OSV9wbGZ5LV82MHdYQXh0NlNWV3Uyckd5UQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-09-24T07:00:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "27 Tested and Reviewed Coffee Gifts That Say ‘I Love Brew’",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5RFZCdXBnRTFUYkpwZlY2S1Qwdmx0R2t3Qi1VSUhMSVpmWHRBSDlVcVdHSDJnM3pzRWJNNS1QcFE1dW1YeHMyRnRqTGlwdGFqbV9YTXVoamxXOGM4ZTZYc0MxRQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-09-25T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Best Cafés in Kladno - Speciality Coffee Guide to Kladno",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GQTA5OElZT3U0VTctVlpPUFc4WUFwOUJLTTgzMTZnNm9BT2JrVmNHUE16MWhqTVdxQlZRMkJOUlpHMG5wZEJwMjNObG5hNThXZlloOEZUc2Nic3FxbzVLT0VB",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-14T13:06:54+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "San Francisco Bay Coffee introduces 2026 Holiday Blend at Costco",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXphQUxsRlhuZVB5YndpNF9CVG1IZHZuYTYzYzhiQS16VVBwVWcwLWczS2c0S0VTR3ltZ3Z3YzVfSS1kQmVZYkZxNDZheWszN05hdGo0ajV0Q05GT1h0ODBXaERPZDFaVFlTNUJvUnItcHRWdll4cnhEWWFONTh5RXJ3dkowa2pQR2VCSFF5R3VHVGF0dFR2QQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-14T10:18:32+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }

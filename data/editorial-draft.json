@@ -1,116 +1,123 @@
 {
-  "id": "ed_2026-11-11",
-  "publishDate": "2026-11-11",
+  "id": "ed_2026-11-12",
+  "publishDate": "2026-11-12",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-11-11",
+  "title": "Editorial brief — 2026-11-12",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://dailycoffeenews.com/wp-content/uploads/2026/10/coffee-decaf-620x414.jpg",
-  "heroCredit": "Daily Coffee News",
-  "heroSource": "Daily Coffee News",
-  "heroSourceUrl": "https://dailycoffeenews.com/2026/11/11/researchers-make-membrane-that-decaffeinates-liquid-coffee/",
+  "heroImage": "https://sprudge.com/wp-content/uploads/2026/11/18th-sprudgie-awards.jpg",
+  "heroCredit": "Sprudge",
+  "heroSource": "Sprudge",
+  "heroSourceUrl": "https://sprudge.com/nominations-are-now-open-for-the-18th-annual-sprudgie-awards-1600761.html",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-11\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-12\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Researchers Make Membrane That Decaffeinates Liquid Coffee\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/11/researchers-make-membrane-that-decaffeinates-liquid-coffee/\n   Key points:\n   • Researchers in Australia have developed an experimental filter that removes nearly half the caffeine from coffee after it has been prepared, potentially opening a new path for decaffeination after brewing...",
-    "2. [Industry] Seven of the Weirdest Things Coffee Does to Your Body\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/11/seven-of-the-weirdest-things-coffee-does-to-your-body/\n   Key points:\n   • Coffee is best known, and perhaps most valued, for its caffeine and its ability to make us feel more awake and alert.\n   • But coffee is much more than caffeine dissolved...",
-    "3. [Industry] Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee\n   Source: Fresh Cup\n   URL: https://freshcup.com/specialty-robusta-and-mastering-seasonal-launches-w-gabriel-shohet-of-black-sheep-coffee/\n   Key points:\n   • Black Sheep Coffee’s co-founder on believing in robusta, launching seasonal drinks with conviction, and why opening-day influencer hype is a waste of money.",
-    "4. [Industry] 96 to 740 hours: The push for longer coffee fermentation\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/11/the-push-for-longer-coffee-fermentation/\n   Key points:\n   • Whether long fermentation creates lasting value will depend on whether producers can repeat a quality result safely and profitably, harvest after harvest.",
-    "5. [Science] Drinking 2–3 cups of coffee a day? A study of 495,000 adults links it to lower AF risk\n   Source: News-Medical\n   URL: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeTNsZFBpNndNbzgzTXlFOXVnaG1ZQWl5ZXdwRzh2aFdldWJPQmZvcEZBWmR6LTdITDFMWTNvNHAtWGdGeUVqU3N4aFFPckhhVnRmY05QWEgzYW5FWkZBczJxU2VxaWFJNTlXdll1TmJ6SUVDdVhPTWNLSXJyV0RiaUZocHRuZE4zMHFrOE9OMjB5b2szMThaLUlUYndrRjhpa2d2R3Vkc1RUMTVCT2h3ckt1Z2JnZkFNTlBQbDRBOU5RWU51d0ZUU0M0eHFHTlR6NFo0\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "6. [Science] Scientists finally discover why we learn to love bitter coffee\n   Source: Science Daily\n   URL: https://news.google.com/rss/articles/CBMib0FVX3lxTE1EcTNBeHRZcFlpS3k0amlXTmVVRWpUeFh3TlpvdFZDcWJNV0IzWjNCS3gwQXFvd0JIaFR6U0J1WmdBc3pFZDFLUGRNM18tRWdSUWgxbDJMSVBRQ05aRklwdVNZMWlGSkxKdEpuSDlISQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "7. [Origin] Tiny coffee by greengo\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE05TXlkVG1QeFlvb2VFdjhJV0JYV1d1MjMtWGtFVTFhSE1UTDlfeGxiX0NMbWV2OFJKX1ZpRFdVSXNuQnRXaUxYakZ1SnVjTnltNFo5aXMzOHRZOXkzZkh1RTIyeXRRYjRKR2NuYUNoVWd3a0FWOXREWTIwV2g\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "8. [Origin] Love-All Coffee serves up farm-direct specialty coffee for the tennis community\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxOZGR0NnFkVUJRbWZsWkVZdERoX19FTXI2X2hDVnJtdzViek9iZHQ5cUNfYk1iWkllTm5vS2VmNEpWeGUxYmVEeFBzUjlSZGl1NE1oQ094Q2FPT09JelhBV2VLY1oyWS1TUUFKOU5lelh0RlFfd2t5RGZCcHQ5dDIxb2ZjYTdMNXJKSmx4RXlnNkdtZGgtUHFNM3l1bmJuMlBTZHctbkZIbThTUGxh\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "1. [Industry] Nominations Are Now Open For The 18th Annual Sprudgie Awards\n   Source: Sprudge\n   URL: https://sprudge.com/nominations-are-now-open-for-the-18th-annual-sprudgie-awards-1600761.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Nominations close Friday, December 4th at 11:59 PM PST.",
+    "2. [Industry] University of Kentucky Launches New Coffee Science Certificate Program\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/top-news/11-2026/111340/\n   Key points:\n   • The University of Kentucky launches a Coffee Science and Culture Certificate, blending practical skills with insights into the global coffee industry starting spring 2027.",
+    "3. [Industry] Robot Barista Outperforms Human Baristas in Speed Competition\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111331/\n   Key points:\n   • Hi-Dolphin's COFE+ robotic café outperformed baristas in a competition, showcasing speed and consistency in beverage preparation at the Hongqiao Coffee Culture Festival.",
+    "4. [Industry] NY-Based Colombian Coffee Roaster Devoción Releases Limited-Edition 2026 Holiday Blend & Unveils Its Holiday Gift Guide\n   Source: Sprudge\n   URL: https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-releases-limited-edition-2026-holiday-blend-unveils-its-holiday-gift-guide-1600759.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A seasonal blend with notes of milk chocolate, orange marmalade, nutmeg and mulled wine leads a lineup of gifts for every coffee lover on the list, from stocking stuffers to coff",
+    "5. [Science] Pumpkin seed protein puts a twist on nondairy coffee creamer\n   Source: Phys.org\n   URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE9OUXBJUzkwMlFWM01pMWhGemhpTDVVOU0zQ1BtSUNjdmY4MVlPV3JMRWczTi14dWpYekE3LVQ3R1NXMkxvT3drajNOX0VwbWx1VWpyQVFRejdJOFQwRjN5SURUYllFWGdRWUljOWtmNThvZXdzeDBVSFlnNA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "6. [Science] Scientists Developed a Plant-Based Alternative to The Plastic Inside Your Coffee Cup\n   Source: ScienceAlert\n   URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxPaU84RUhfNnFla3FodUV3TUhRWVc5RjczUWM5dk41aG5LWURnem1BMG1VX0pndldYYVdDTVltZWs0QTB3R0QyamM3Rjc5R1J1VlhPRlZjSVlwbmhpWndzYWpqRlczTHJRMWNqZ0JpNHI4NG4tVnFDNGxZeG5Ra0k0c0pKOE15NHlXZ09JUVRhZXdZcU1sTnplSFRkQklMMzZGMXhmUkd2WnVwMXRpaTdQazBmYw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "7. [Origin] Café Hackel\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tVENMcjZ6QWw2bTB2aEpXR0VWeV9JUFJhQmo5eUxDczNrQXhrSDYtU3JIY3ZNRy02cmVBQk5uRDRkMlllMnk2QmdKTFRkY0lIdUdwRUpoTlU1ekFrTnFhYWtpQzVPdw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "8. [Origin] Graphic Design Intern (2 Positions)\n   Source: Not a Barista\n   URL: https://notabarista.org/graphic-design-intern-2-positions/\n   Key points:\n   • Graphic Design Intern I’M NOT A BARISTA × Local Coffee Partner Location: Guiyang, China Workplace: On-site (In-person internship) Duration: Minimum 3 months Positions Available: 2 Love Coffee?\n   • Create Something Meaningful With Us.\n   • I’M NOT A BARISTA is a not-for-profit",
     "— Categories present —\nIndustry · Science · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-11\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Researchers Make Membrane That Decaffeinates Liquid Coffee\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/11/researchers-make-membrane-that-decaffeinates-liquid-coffee/\n   Key points:\n   • Researchers in Australia have developed an experimental filter that removes nearly half the caffeine from coffee after it has been prepared, potentially opening a new path for decaffeination after brewing...\n\n2. [Industry] Seven of the Weirdest Things Coffee Does to Your Body\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/11/seven-of-the-weirdest-things-coffee-does-to-your-body/\n   Key points:\n   • Coffee is best known, and perhaps most valued, for its caffeine and its ability to make us feel more awake and alert.\n   • But coffee is much more than caffeine dissolved...\n\n3. [Industry] Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee\n   Source: Fresh Cup\n   URL: https://freshcup.com/specialty-robusta-and-mastering-seasonal-launches-w-gabriel-shohet-of-black-sheep-coffee/\n   Key points:\n   • Black Sheep Coffee’s co-founder on believing in robusta, launching seasonal drinks with conviction, and why opening-day influencer hype is a waste of money.\n\n4. [Industry] 96 to 740 hours: The push for longer coffee fermentation\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/11/the-push-for-longer-coffee-fermentation/\n   Key points:\n   • Whether long fermentation creates lasting value will depend on whether producers can repeat a quality result safely and profitably, harvest after harvest.\n\n5. [Science] Drinking 2–3 cups of coffee a day? A study of 495,000 adults links it to lower AF risk\n   Source: News-Medical\n   URL: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeTNsZFBpNndNbzgzTXlFOXVnaG1ZQWl5ZXdwRzh2aFdldWJPQmZvcEZBWmR6LTdITDFMWTNvNHAtWGdGeUVqU3N4aFFPckhhVnRmY05QWEgzYW5FWkZBczJxU2VxaWFJNTlXdll1TmJ6SUVDdVhPTWNLSXJyV0RiaUZocHRuZE4zMHFrOE9OMjB5b2szMThaLUlUYndrRjhpa2d2R3Vkc1RUMTVCT2h3ckt1Z2JnZkFNTlBQbDRBOU5RWU51d0ZUU0M0eHFHTlR6NFo0\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Science] Scientists finally discover why we learn to love bitter coffee\n   Source: Science Daily\n   URL: https://news.google.com/rss/articles/CBMib0FVX3lxTE1EcTNBeHRZcFlpS3k0amlXTmVVRWpUeFh3TlpvdFZDcWJNV0IzWjNCS3gwQXFvd0JIaFR6U0J1WmdBc3pFZDFLUGRNM18tRWdSUWgxbDJMSVBRQ05aRklwdVNZMWlGSkxKdEpuSDlISQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Tiny coffee by greengo\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE05TXlkVG1QeFlvb2VFdjhJV0JYV1d1MjMtWGtFVTFhSE1UTDlfeGxiX0NMbWV2OFJKX1ZpRFdVSXNuQnRXaUxYakZ1SnVjTnltNFo5aXMzOHRZOXkzZkh1RTIyeXRRYjRKR2NuYUNoVWd3a0FWOXREWTIwV2g\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Love-All Coffee serves up farm-direct specialty coffee for the tennis community\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxOZGR0NnFkVUJRbWZsWkVZdERoX19FTXI2X2hDVnJtdzViek9iZHQ5cUNfYk1iWkllTm5vS2VmNEpWeGUxYmVEeFBzUjlSZGl1NE1oQ094Q2FPT09JelhBV2VLY1oyWS1TUUFKOU5lelh0RlFfd2t5RGZCcHQ5dDIxb2ZjYTdMNXJKSmx4RXlnNkdtZGgtUHFNM3l1bmJuMlBTZHctbkZIbThTUGxh\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 422,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-12\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Nominations Are Now Open For The 18th Annual Sprudgie Awards\n   Source: Sprudge\n   URL: https://sprudge.com/nominations-are-now-open-for-the-18th-annual-sprudgie-awards-1600761.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Nominations close Friday, December 4th at 11:59 PM PST.\n\n2. [Industry] University of Kentucky Launches New Coffee Science Certificate Program\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/top-news/11-2026/111340/\n   Key points:\n   • The University of Kentucky launches a Coffee Science and Culture Certificate, blending practical skills with insights into the global coffee industry starting spring 2027.\n\n3. [Industry] Robot Barista Outperforms Human Baristas in Speed Competition\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111331/\n   Key points:\n   • Hi-Dolphin's COFE+ robotic café outperformed baristas in a competition, showcasing speed and consistency in beverage preparation at the Hongqiao Coffee Culture Festival.\n\n4. [Industry] NY-Based Colombian Coffee Roaster Devoción Releases Limited-Edition 2026 Holiday Blend & Unveils Its Holiday Gift Guide\n   Source: Sprudge\n   URL: https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-releases-limited-edition-2026-holiday-blend-unveils-its-holiday-gift-guide-1600759.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • A seasonal blend with notes of milk chocolate, orange marmalade, nutmeg and mulled wine leads a lineup of gifts for every coffee lover on the list, from stocking stuffers to coff\n\n5. [Science] Pumpkin seed protein puts a twist on nondairy coffee creamer\n   Source: Phys.org\n   URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE9OUXBJUzkwMlFWM01pMWhGemhpTDVVOU0zQ1BtSUNjdmY4MVlPV3JMRWczTi14dWpYekE3LVQ3R1NXMkxvT3drajNOX0VwbWx1VWpyQVFRejdJOFQwRjN5SURUYllFWGdRWUljOWtmNThvZXdzeDBVSFlnNA\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Science] Scientists Developed a Plant-Based Alternative to The Plastic Inside Your Coffee Cup\n   Source: ScienceAlert\n   URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxPaU84RUhfNnFla3FodUV3TUhRWVc5RjczUWM5dk41aG5LWURnem1BMG1VX0pndldYYVdDTVltZWs0QTB3R0QyamM3Rjc5R1J1VlhPRlZjSVlwbmhpWndzYWpqRlczTHJRMWNqZ0JpNHI4NG4tVnFDNGxZeG5Ra0k0c0pKOE15NHlXZ09JUVRhZXdZcU1sTnplSFRkQklMMzZGMXhmUkd2WnVwMXRpaTdQazBmYw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Café Hackel\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tVENMcjZ6QWw2bTB2aEpXR0VWeV9JUFJhQmo5eUxDczNrQXhrSDYtU3JIY3ZNRy02cmVBQk5uRDRkMlllMnk2QmdKTFRkY0lIdUdwRUpoTlU1ekFrTnFhYWtpQzVPdw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Graphic Design Intern (2 Positions)\n   Source: Not a Barista\n   URL: https://notabarista.org/graphic-design-intern-2-positions/\n   Key points:\n   • Graphic Design Intern I’M NOT A BARISTA × Local Coffee Partner Location: Guiyang, China Workplace: On-site (In-person internship) Duration: Minimum 3 months Positions Available: 2 Love Coffee?\n   • Create Something Meaningful With Us.\n   • I’M NOT A BARISTA is a not-for-profit\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 452,
   "headlines": [
     {
-      "title": "Researchers Make Membrane That Decaffeinates Liquid Coffee",
-      "source": "Daily Coffee News",
+      "title": "Nominations Are Now Open For The 18th Annual Sprudgie Awards",
+      "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://dailycoffeenews.com/2026/11/11/researchers-make-membrane-that-decaffeinates-liquid-coffee/",
-      "summary": "Researchers in Australia have developed an experimental filter that removes nearly half the caffeine from coffee after it has been prepared, potentially opening a new path for decaffeination after brewing...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/coffee-decaf-620x414.jpg",
+      "sourceUrl": "https://sprudge.com/nominations-are-now-open-for-the-18th-annual-sprudgie-awards-1600761.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Nominations close Friday, December 4th at 11:59 PM PST.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/11/18th-sprudgie-awards.jpg",
       "keyPoints": [
-        "Researchers in Australia have developed an experimental filter that removes nearly half the caffeine from coffee after it has been prepared, potentially opening a new path for decaffeination after brewing..."
+        "This article is from the coffee website Sprudge at http://sprudge.com .",
+        "This is the RSS feed version.",
+        "Nominations close Friday, December 4th at 11:59 PM PST."
       ]
     },
     {
-      "title": "Seven of the Weirdest Things Coffee Does to Your Body",
-      "source": "Daily Coffee News",
+      "title": "University of Kentucky Launches New Coffee Science Certificate Program",
+      "source": "Coffee Talk",
       "category": "industry",
-      "sourceUrl": "https://dailycoffeenews.com/2026/11/11/seven-of-the-weirdest-things-coffee-does-to-your-body/",
-      "summary": "Coffee is best known, and perhaps most valued, for its caffeine and its ability to make us feel more awake and alert. But coffee is much more than caffeine dissolved...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/pexels-tima-miroshnichenko-6612350-620x441.jpg",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111340/",
+      "summary": "The University of Kentucky launches a Coffee Science and Culture Certificate, blending practical skills with insights into the global coffee industry starting spring 2027. The post University of Kentucky Launches New Coffee Science Certificate Program appeared first on CoffeeTalk",
+      "image": "https://coffeetalk.com/wp-content/uploads/blake-verdoorn-gM-RfQsZK98-unsplash-scaled.jpg",
       "keyPoints": [
-        "Coffee is best known, and perhaps most valued, for its caffeine and its ability to make us feel more awake and alert.",
-        "But coffee is much more than caffeine dissolved..."
+        "The University of Kentucky launches a Coffee Science and Culture Certificate, blending practical skills with insights into the global coffee industry starting spring 2027."
       ]
     },
     {
-      "title": "Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee",
-      "source": "Fresh Cup",
+      "title": "Robot Barista Outperforms Human Baristas in Speed Competition",
+      "source": "Coffee Talk",
       "category": "industry",
-      "sourceUrl": "https://freshcup.com/specialty-robusta-and-mastering-seasonal-launches-w-gabriel-shohet-of-black-sheep-coffee/",
-      "summary": "Black Sheep Coffee’s co-founder on believing in robusta, launching seasonal drinks with conviction, and why opening-day influencer hype is a waste of money. The post Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee appeared first on Fresh",
-      "image": "https://freshcup.com/wp-content/uploads/2026/11/Website-header-·-1P-text-behind@1x-1024x637.png",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111331/",
+      "summary": "Hi-Dolphin's COFE+ robotic café outperformed baristas in a competition, showcasing speed and consistency in beverage preparation at the Hongqiao Coffee Culture Festival. The post Robot Barista Outperforms Human Baristas in Speed Competition appeared first on CoffeeTalk .",
+      "image": "https://coffeetalk.com/wp-content/uploads/35f5709ded7d4bfba63d48d76c4583c6.jpg",
       "keyPoints": [
-        "Black Sheep Coffee’s co-founder on believing in robusta, launching seasonal drinks with conviction, and why opening-day influencer hype is a waste of money."
+        "Hi-Dolphin's COFE+ robotic café outperformed baristas in a competition, showcasing speed and consistency in beverage preparation at the Hongqiao Coffee Culture Festival."
       ]
     },
     {
-      "title": "96 to 740 hours: The push for longer coffee fermentation",
-      "source": "Perfect Daily Grind",
+      "title": "NY-Based Colombian Coffee Roaster Devoción Releases Limited-Edition 2026 Holiday Blend & Unveils Its Holiday Gift Guide",
+      "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://perfectdailygrind.com/2026/11/the-push-for-longer-coffee-fermentation/",
-      "summary": "Whether long fermentation creates lasting value will depend on whether producers can repeat a quality result safely and profitably, harvest after harvest. The post 96 to 740 hours: The push for longer coffee fermentation appeared first on Perfect Daily Grind .",
-      "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/BUP_11_Article__PDG-EN-FB-post.png",
+      "sourceUrl": "https://sprudge.com/ny-based-colombian-coffee-roaster-devocion-releases-limited-edition-2026-holiday-blend-unveils-its-holiday-gift-guide-1600759.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A seasonal blend with notes of milk chocolate, orange marmalade, nutmeg and mulled wine leads a lineup of gifts for every coffee lover on the list, from stocking stuffers to coff",
+      "image": "https://sprudge.com/wp-content/uploads/2026/11/holiday-blend-devocion-144724924-copy.jpg",
       "keyPoints": [
-        "Whether long fermentation creates lasting value will depend on whether producers can repeat a quality result safely and profitably, harvest after harvest."
+        "This article is from the coffee website Sprudge at http://sprudge.com .",
+        "This is the RSS feed version.",
+        "A seasonal blend with notes of milk chocolate, orange marmalade, nutmeg and mulled wine leads a lineup of gifts for every coffee lover on the list, from stocking stuffers to coff"
       ]
     },
     {
-      "title": "Drinking 2–3 cups of coffee a day? A study of 495,000 adults links it to lower AF risk",
-      "source": "News-Medical",
+      "title": "Pumpkin seed protein puts a twist on nondairy coffee creamer",
+      "source": "Phys.org",
       "category": "science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeTNsZFBpNndNbzgzTXlFOXVnaG1ZQWl5ZXdwRzh2aFdldWJPQmZvcEZBWmR6LTdITDFMWTNvNHAtWGdGeUVqU3N4aFFPckhhVnRmY05QWEgzYW5FWkZBczJxU2VxaWFJNTlXdll1TmJ6SUVDdVhPTWNLSXJyV0RiaUZocHRuZE4zMHFrOE9OMjB5b2szMThaLUlUYndrRjhpa2d2R3Vkc1RUMTVCT2h3ckt1Z2JnZkFNTlBQbDRBOU5RWU51d0ZUU0M0eHFHTlR6NFo0",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OUXBJUzkwMlFWM01pMWhGemhpTDVVOU0zQ1BtSUNjdmY4MVlPV3JMRWczTi14dWpYekE3LVQ3R1NXMkxvT3drajNOX0VwbWx1VWpyQVFRejdJOFQwRjN5SURUYllFWGdRWUljOWtmNThvZXdzeDBVSFlnNA",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Scientists finally discover why we learn to love bitter coffee",
-      "source": "Science Daily",
+      "title": "Scientists Developed a Plant-Based Alternative to The Plastic Inside Your Coffee Cup",
+      "source": "ScienceAlert",
       "category": "science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EcTNBeHRZcFlpS3k0amlXTmVVRWpUeFh3TlpvdFZDcWJNV0IzWjNCS3gwQXFvd0JIaFR6U0J1WmdBc3pFZDFLUGRNM18tRWdSUWgxbDJMSVBRQ05aRklwdVNZMWlGSkxKdEpuSDlISQ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaU84RUhfNnFla3FodUV3TUhRWVc5RjczUWM5dk41aG5LWURnem1BMG1VX0pndldYYVdDTVltZWs0QTB3R0QyamM3Rjc5R1J1VlhPRlZjSVlwbmhpWndzYWpqRlczTHJRMWNqZ0JpNHI4NG4tVnFDNGxZeG5Ra0k0c0pKOE15NHlXZ09JUVRhZXdZcU1sTnplSFRkQklMMzZGMXhmUkd2WnVwMXRpaTdQazBmYw",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Tiny coffee by greengo",
+      "title": "Café Hackel",
       "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05TXlkVG1QeFlvb2VFdjhJV0JYV1d1MjMtWGtFVTFhSE1UTDlfeGxiX0NMbWV2OFJKX1ZpRFdVSXNuQnRXaUxYakZ1SnVjTnltNFo5aXMzOHRZOXkzZkh1RTIyeXRRYjRKR2NuYUNoVWd3a0FWOXREWTIwV2g",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tVENMcjZ6QWw2bTB2aEpXR0VWeV9JUFJhQmo5eUxDczNrQXhrSDYtU3JIY3ZNRy02cmVBQk5uRDRkMlllMnk2QmdKTFRkY0lIdUdwRUpoTlU1ekFrTnFhYWtpQzVPdw",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Love-All Coffee serves up farm-direct specialty coffee for the tennis community",
-      "source": "Comunicaffe International",
+      "title": "Graphic Design Intern (2 Positions)",
+      "source": "Not a Barista",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZGR0NnFkVUJRbWZsWkVZdERoX19FTXI2X2hDVnJtdzViek9iZHQ5cUNfYk1iWkllTm5vS2VmNEpWeGUxYmVEeFBzUjlSZGl1NE1oQ094Q2FPT09JelhBV2VLY1oyWS1TUUFKOU5lelh0RlFfd2t5RGZCcHQ5dDIxb2ZjYTdMNXJKSmx4RXlnNkdtZGgtUHFNM3l1bmJuMlBTZHctbkZIbThTUGxh",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "keyPoints": []
+      "sourceUrl": "https://notabarista.org/graphic-design-intern-2-positions/",
+      "summary": "Graphic Design Intern I’M NOT A BARISTA × Local Coffee Partner Location: Guiyang, China Workplace: On-site (In-person internship) Duration: Minimum 3 months Positions Available: 2 Love Coffee? Love Design? Create Something Meaningful With Us. I’M NOT A BARISTA is a not-for-profit",
+      "image": "image/carosal/cafe-scene-6887.jpg",
+      "keyPoints": [
+        "Graphic Design Intern I’M NOT A BARISTA × Local Coffee Partner Location: Guiyang, China Workplace: On-site (In-person internship) Duration: Minimum 3 months Positions Available: 2 Love Coffee?",
+        "Create Something Meaningful With Us.",
+        "I’M NOT A BARISTA is a not-for-profit"
+      ]
     }
   ],
-  "fromScan": "2026-11-11T22:00:08.674392+00:00"
+  "fromScan": "2026-11-12T22:14:19.214619+00:00"
 }
