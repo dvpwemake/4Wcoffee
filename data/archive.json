@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-10",
+      "scannedAt": "2026-11-12T21:51:50.870Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-10",
+          "rank": 0,
+          "title": "The Supply Chain Gut Check",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "The specialty coffee industry is facing a biological and ethical reckoning.",
+          "image": "https://coffeetalk.com/wp-content/uploads/nicolas-nieves-quiroz-0nEh3mnnDo8-unsplash.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-10.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-10"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-11T22-00-08",
       "scannedAt": "2026-11-11T22:00:08.674392+00:00",
       "items": [
@@ -3076,26 +3096,6 @@
           "publishedAt": "2026-10-14T10:18:32+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-11",
-      "scannedAt": "2026-10-14T05:09:16.822Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-11",
-          "rank": 0,
-          "title": "Beyond the Brew Path: Economics, Equity, and Engineering",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "As Arabica prices cross a historic threshold, the specialty coffee industry finds crucial innovation not just in the cup, but in how we breed, build, and belong.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/phil-seb-hartmann-maragogype-natural-sprudge-roasters-village-copy.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-11.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-11"
         }
       ]
     }
