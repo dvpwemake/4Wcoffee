@@ -1,122 +1,115 @@
 {
-  "id": "ed_2026-11-13",
-  "publishDate": "2026-11-13",
+  "id": "ed_2026-11-14",
+  "publishDate": "2026-11-14",
   "status": "draft",
   "draftKind": "outline",
   "formId": "outline_brief",
   "themeId": "outline",
-  "title": "Editorial brief — 2026-11-13",
+  "title": "Editorial brief — 2026-11-14",
   "dek": "Outline of selected article titles and key points for admin to write the final editorial.",
-  "heroImage": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Branch-Street-Denizen-cafe-4-1-620x406.jpeg",
-  "heroCredit": "Daily Coffee News",
-  "heroSource": "Daily Coffee News",
-  "heroSourceUrl": "https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/",
+  "heroImage": "https://sprudge.com/wp-content/uploads/2026/07/comandante-c60-baracuda-stone-washed-sprudge-coffee-gear.jpg",
+  "heroCredit": "Sprudge",
+  "heroSource": "Sprudge",
+  "heroSourceUrl": "https://sprudge.com/some-coffee-gear-ideas-to-pique-your-holiday-shopping-interest-1605703.html",
   "authorName": "Dr. Wallace Lynch",
   "authorTitle": "Editor in Chief",
   "paragraphs": [
-    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-13\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
+    "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-14\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.",
     "— Selected articles of the day (8) —",
-    "1. [Industry] Ohio’s Branch Street Cafe Becomes Denizen as Managers Take Ownership\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/\n   Key points:\n   • After more than a decade of serving guests at their independent coffee shop in Boardman, Ohio, the owners of Branch Street Coffee Roasters have handed the keys to two longtime...",
-    "2. [Industry] Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/\n   Key points:\n   • Welcome to DCN’s Weekly Coffee News!\n   • Also, check out the latest career opportunities at CoffeeIndustryJobs.com.\n   • Cover Your Assets Unveils Major Software...",
-    "3. [Industry] Our Brains Crave Coffee For More Than Just Flavor\n   Source: Sprudge\n   URL: https://sprudge.com/our-brains-crave-coffee-for-more-than-just-flavor-1591204.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Our bodies may understand coffee's effect better than we realized.",
-    "4. [Industry] Seeds of Change in Colombia’s Caldas Department\n   Source: Fresh Cup\n   URL: https://freshcup.com/seeds-of-change-in-colombias-caldas-department/\n   Key points:\n   • Forest Coffee’s Reforest program pays Colombian producers in Caldas a premium and supplies native tree seedlings while connecting them with specialty buyers.",
-    "5. [Industry] Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28 crop expected to meet predictions, but El Niño threat looms & other stories\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/11/coffee-news-recap-13-november-2026/\n   Key points:\n   • First lots traded under ICE metric arabica futures contracts, Cropster and Algrano launch new integration, Manchester Coffee Festival to begin on 20 November & more.\n   • The post Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28",
-    "6. [Science] Coffee, vegetables and exercise share a surprising connection in your gut\n   Source: News-Medical\n   URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxQc05iVjJ0YW5MMWlkN1JzazhFeU5IRzZUSjhKclE1QzVXdHVVM042anNFX1M0V3VSWUNDZm9hNlN4VVBPeTNKSUQtUDFtcTVvZV9Cc1ItOV9vVEk4aEZZU01yYU8tNGEyaE5aaUZrNklLWFZLNVVjRklWcEp3bHRRMnc1VWVxdW5oRHB4SWFyZlBWRWY5V0ZVU2p6d3lZbmpJbkdqZldPNkdJcGc4ckpYODhPM3ZsenRVck1Fbw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "7. [Origin] Barista Stories: Inger Wieringa of 29 coffees, Fontainebleau/Paris\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMib0FVX3lxTFBCSUhvdVAxUjRwRHZfb0xKQl9mYS1mYWlpYjVMaTdKaTdOa3M3RXpfVG1xNzhOVzUydXBUTHlna19jVmd6OXY3bnRKaTRjWVpYRm1naDVycExhQWJQdlhTZW9zQVhZQVM3Z2gyX0EwQQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
-    "8. [Origin] Three Wilfa Products Earn SCA Certified Home Brewer Status\n   Source: Specialty Coffee Association\n   URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzcxTVRGTjY4RThiY0d2Z1UyMmE2dzZJblQ3ZC1MYlZrMVJ2VnZ6R3dUZW1MZG9aakotWU0xYXFlYUtVNWJhVXNUQW5HVXBzZHFrUkdLLWQ4ZkhtQjJCNGtOWHYyWnF1cUtGRkxvcjB5MndDNnlMVFZuYzBTWlFKZUg5RzdON25XU0swWGY0SnpTS2dEQTVlUG1rdmg\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "1. [Industry] Some Coffee Gear Ideas To Pique Your Holiday Shopping Interest\n   Source: Sprudge\n   URL: https://sprudge.com/some-coffee-gear-ideas-to-pique-your-holiday-shopping-interest-1605703.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • This week's selection of gear is...",
+    "2. [Industry] Pesticides Banned in the EU See Continued Use on Kenyan Coffee Farms\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/from-origin/11-2026/111328/\n   Key points:\n   • Activists warn that hazardous pesticides in Kenya's coffee industry pose serious health risks, despite increasing monitoring efforts and bans in Europe.",
+    "3. [Industry] China’s Zero-Tariff Policy Draws Significant Kenyan Coffee Exports\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/from-origin/11-2026/111326/\n   Key points:\n   • Kenyan coffee exports to China surge under zero-tariff policy, as companies leverage the 9th China International Import Expo to expand partnerships and market presence.",
+    "4. [Science] Scientists discover a surprisingly simple way to turn coffee waste into fuel\n   Source: Science Daily\n   URL: https://news.google.com/rss/articles/CBMibkFVX3lxTE9YMnVWX21MTVpXMkFoM0RFVHpuenBrazVyUjMtVklxRTFJNU9Wd3BmbFFwSDhFWE1hSjhqbUhsbVZtTlZtcWEwWmRCT1FCQmZwZ2xKUktMSklNNldDOHp3WjhPRXMycHZGdEJMallB\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "5. [Origin] L'Odeur de la Brûlerie\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZGI0eVNVLWVadURZN21BM05yOTgweVh5VUhnaFI1X19oZVVYLTdMTlJTdnpuZWJjUm5kT01ZcFF2cHFKZmRTb2xTYlBPTUJZUGw0TUpZQ0E5Nmg3bmc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "6. [Origin] Airstream Café Uzlík Un-di\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Od2dJblh3WXhaREEwdE1ISG44SGpWT1NaY0d1RmJYYlBlMHR3b0p4aEFOV05NemZybkFhYURNY2pWUVNvY0ROM3JleE1aYU4wM0haQi01aXFqSnBLdGFTRTd3dXdOZDJW\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "7. [Origin] Arabica coffee prices rally (+4.2%) despite record Brazilian exports\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT0xsek9jYkhrMDRvYkJWU1UweV9HOGJZNXNoSHIydDN1UHhFSkUtUGhLYjVCSnpNakNjRG01UVVsdFluVDRkb0d4SjEyYjRjS1VoZkxzblVpX0Z6Q0hwTXYzdjd2NzVUb3k0alpKemxjbUxHMkpVODhFYVJOZjFEOWhmcjBhM2NHdHhfMWRWRk5IeVBMRE1mT0Rra1FjQ2FpWGtucnV0RWlyUldKbDJkc1hiQjN1TzNzRGN5THlKM3NfSFZuN1RxbDBDMnNXWEFjTmpxOWJMbDZVdFFPdmZOOGw5WTRHYzBEd0cyUFdlcHBYQQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
+    "8. [Origin] How Kelvin Deviro used AI to select his espresso and win the Indonesia Barista Championship 2026\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHEzM1RqMTB1VUF0YU8yRldiOVNVUG1leXNpdm9XUkNaa1JETG5vUExFR0RvQnBqeFFudW5xd1dsQjNkall5NHYtSzhvbTJibFItWG1HSlY0THRZcDB1a3dUZmQwb0ZTaUZ0U2NJVTBiXzRhUDVta2x1WUFDTUlGaTBaVW80bXE2Sk10UFBQSGRNakd5eGxzWjh3TGlOaVNzdFFxRW9qNmNJbXVoV0JyeG1BN28td2pVNHVhZkZvaGxQUlU\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)",
     "— Categories present —\nIndustry · Science · Origin",
     "— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready"
   ],
-  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-13\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Ohio’s Branch Street Cafe Becomes Denizen as Managers Take Ownership\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/\n   Key points:\n   • After more than a decade of serving guests at their independent coffee shop in Boardman, Ohio, the owners of Branch Street Coffee Roasters have handed the keys to two longtime...\n\n2. [Industry] Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down\n   Source: Daily Coffee News\n   URL: https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/\n   Key points:\n   • Welcome to DCN’s Weekly Coffee News!\n   • Also, check out the latest career opportunities at CoffeeIndustryJobs.com.\n   • Cover Your Assets Unveils Major Software...\n\n3. [Industry] Our Brains Crave Coffee For More Than Just Flavor\n   Source: Sprudge\n   URL: https://sprudge.com/our-brains-crave-coffee-for-more-than-just-flavor-1591204.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • Our bodies may understand coffee's effect better than we realized.\n\n4. [Industry] Seeds of Change in Colombia’s Caldas Department\n   Source: Fresh Cup\n   URL: https://freshcup.com/seeds-of-change-in-colombias-caldas-department/\n   Key points:\n   • Forest Coffee’s Reforest program pays Colombian producers in Caldas a premium and supplies native tree seedlings while connecting them with specialty buyers.\n\n5. [Industry] Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28 crop expected to meet predictions, but El Niño threat looms & other stories\n   Source: Perfect Daily Grind\n   URL: https://perfectdailygrind.com/2026/11/coffee-news-recap-13-november-2026/\n   Key points:\n   • First lots traded under ICE metric arabica futures contracts, Cropster and Algrano launch new integration, Manchester Coffee Festival to begin on 20 November & more.\n   • The post Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28\n\n6. [Science] Coffee, vegetables and exercise share a surprising connection in your gut\n   Source: News-Medical\n   URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxQc05iVjJ0YW5MMWlkN1JzazhFeU5IRzZUSjhKclE1QzVXdHVVM042anNFX1M0V3VSWUNDZm9hNlN4VVBPeTNKSUQtUDFtcTVvZV9Cc1ItOV9vVEk4aEZZU01yYU8tNGEyaE5aaUZrNklLWFZLNVVjRklWcEp3bHRRMnc1VWVxdW5oRHB4SWFyZlBWRWY5V0ZVU2p6d3lZbmpJbkdqZldPNkdJcGc4ckpYODhPM3ZsenRVck1Fbw\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Barista Stories: Inger Wieringa of 29 coffees, Fontainebleau/Paris\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMib0FVX3lxTFBCSUhvdVAxUjRwRHZfb0xKQl9mYS1mYWlpYjVMaTdKaTdOa3M3RXpfVG1xNzhOVzUydXBUTHlna19jVmd6OXY3bnRKaTRjWVpYRm1naDVycExhQWJQdlhTZW9zQVhZQVM3Z2gyX0EwQQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] Three Wilfa Products Earn SCA Certified Home Brewer Status\n   Source: Specialty Coffee Association\n   URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzcxTVRGTjY4RThiY0d2Z1UyMmE2dzZJblQ3ZC1MYlZrMVJ2VnZ6R3dUZW1MZG9aakotWU0xYXFlYUtVNWJhVXNUQW5HVXBzZHFrUkdLLWQ4ZkhtQjJCNGtOWHYyWnF1cUtGRkxvcjB5MndDNnlMVFZuYzBTWlFKZUg5RzdON25XU0swWGY0SnpTS2dEQTVlUG1rdmg\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
-  "wordCount": 463,
+  "body": "EDITORIAL BRIEF (outline only — not for publication as-is)\nPublish date: 2026-11-14\nInstruction: Use the titles and key points below to write the final ~300-word Fourth Wave editorial. Replace this entire brief with your finished prose before publishing.\n\n— Selected articles of the day (8) —\n\n1. [Industry] Some Coffee Gear Ideas To Pique Your Holiday Shopping Interest\n   Source: Sprudge\n   URL: https://sprudge.com/some-coffee-gear-ideas-to-pique-your-holiday-shopping-interest-1605703.html\n   Key points:\n   • This article is from the coffee website Sprudge at http://sprudge.com .\n   • This is the RSS feed version.\n   • This week's selection of gear is...\n\n2. [Industry] Pesticides Banned in the EU See Continued Use on Kenyan Coffee Farms\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/from-origin/11-2026/111328/\n   Key points:\n   • Activists warn that hazardous pesticides in Kenya's coffee industry pose serious health risks, despite increasing monitoring efforts and bans in Europe.\n\n3. [Industry] China’s Zero-Tariff Policy Draws Significant Kenyan Coffee Exports\n   Source: Coffee Talk\n   URL: https://coffeetalk.com/daily-dose/from-origin/11-2026/111326/\n   Key points:\n   • Kenyan coffee exports to China surge under zero-tariff policy, as companies leverage the 9th China International Import Expo to expand partnerships and market presence.\n\n4. [Science] Scientists discover a surprisingly simple way to turn coffee waste into fuel\n   Source: Science Daily\n   URL: https://news.google.com/rss/articles/CBMibkFVX3lxTE9YMnVWX21MTVpXMkFoM0RFVHpuenBrazVyUjMtVklxRTFJNU9Wd3BmbFFwSDhFWE1hSjhqbUhsbVZtTlZtcWEwWmRCT1FCQmZwZ2xKUktMSklNNldDOHp3WjhPRXMycHZGdEJMallB\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n5. [Origin] L'Odeur de la Brûlerie\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZGI0eVNVLWVadURZN21BM05yOTgweVh5VUhnaFI1X19oZVVYLTdMTlJTdnpuZWJjUm5kT01ZcFF2cHFKZmRTb2xTYlBPTUJZUGw0TUpZQ0E5Nmg3bmc\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n6. [Origin] Airstream Café Uzlík Un-di\n   Source: European Coffee Trip\n   URL: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Od2dJblh3WXhaREEwdE1ISG44SGpWT1NaY0d1RmJYYlBlMHR3b0p4aEFOV05NemZybkFhYURNY2pWUVNvY0ROM3JleE1aYU4wM0haQi01aXFqSnBLdGFTRTd3dXdOZDJW\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n7. [Origin] Arabica coffee prices rally (+4.2%) despite record Brazilian exports\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT0xsek9jYkhrMDRvYkJWU1UweV9HOGJZNXNoSHIydDN1UHhFSkUtUGhLYjVCSnpNakNjRG01UVVsdFluVDRkb0d4SjEyYjRjS1VoZkxzblVpX0Z6Q0hwTXYzdjd2NzVUb3k0alpKemxjbUxHMkpVODhFYVJOZjFEOWhmcjBhM2NHdHhfMWRWRk5IeVBMRE1mT0Rra1FjQ2FpWGtucnV0RWlyUldKbDJkc1hiQjN1TzNzRGN5THlKM3NfSFZuN1RxbDBDMnNXWEFjTmpxOWJMbDZVdFFPdmZOOGw5WTRHYzBEd0cyUFdlcHBYQQ\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n8. [Origin] How Kelvin Deviro used AI to select his espresso and win the Indonesia Barista Championship 2026\n   Source: Comunicaffe International\n   URL: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHEzM1RqMTB1VUF0YU8yRldiOVNVUG1leXNpdm9XUkNaa1JETG5vUExFR0RvQnBqeFFudW5xd1dsQjNkall5NHYtSzhvbTJibFItWG1HSlY0THRZcDB1a3dUZmQwb0ZTaUZ0U2NJVTBiXzRhUDVta2x1WUFDTUlGaTBaVW80bXE2Sk10UFBQSGRNakd5eGxzWjh3TGlOaVNzdFFxRW9qNmNJbXVoV0JyeG1BN28td2pVNHVhZkZvaGxQUlU\n   Key points:\n   • (No summary on file — open URL and note 2–3 facts before writing.)\n\n— Categories present —\nIndustry · Science · Origin\n\n— Admin checklist —\n• Draft original title + dek (vary form: not always What… / Convergence of…)\n• Write body (~280–320 words) in Fourth Wave voice\n• Select hero from selected-article head image thumbnails (or paste URL)\n• Mark published when ready",
+  "wordCount": 389,
   "headlines": [
     {
-      "title": "Ohio’s Branch Street Cafe Becomes Denizen as Managers Take Ownership",
-      "source": "Daily Coffee News",
-      "category": "industry",
-      "sourceUrl": "https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/",
-      "summary": "After more than a decade of serving guests at their independent coffee shop in Boardman, Ohio, the owners of Branch Street Coffee Roasters have handed the keys to two longtime...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Branch-Street-Denizen-cafe-4-1-620x406.jpeg",
-      "keyPoints": [
-        "After more than a decade of serving guests at their independent coffee shop in Boardman, Ohio, the owners of Branch Street Coffee Roasters have handed the keys to two longtime..."
-      ]
-    },
-    {
-      "title": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
-      "source": "Daily Coffee News",
-      "category": "industry",
-      "sourceUrl": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
-      "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Cover Your Assets Unveils Major Software...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/CYA-coffee-software-620x349.jpg",
-      "keyPoints": [
-        "Welcome to DCN’s Weekly Coffee News!",
-        "Also, check out the latest career opportunities at CoffeeIndustryJobs.com.",
-        "Cover Your Assets Unveils Major Software..."
-      ]
-    },
-    {
-      "title": "Our Brains Crave Coffee For More Than Just Flavor",
+      "title": "Some Coffee Gear Ideas To Pique Your Holiday Shopping Interest",
       "source": "Sprudge",
       "category": "industry",
-      "sourceUrl": "https://sprudge.com/our-brains-crave-coffee-for-more-than-just-flavor-1591204.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Our bodies may understand coffee's effect better than we realized.",
-      "image": "https://sprudge.com/wp-content/uploads/2021/11/brain_coffee_illo.jpeg",
+      "sourceUrl": "https://sprudge.com/some-coffee-gear-ideas-to-pique-your-holiday-shopping-interest-1605703.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of gear is...",
+      "image": "https://sprudge.com/wp-content/uploads/2026/07/comandante-c60-baracuda-stone-washed-sprudge-coffee-gear.jpg",
       "keyPoints": [
         "This article is from the coffee website Sprudge at http://sprudge.com .",
         "This is the RSS feed version.",
-        "Our bodies may understand coffee's effect better than we realized."
+        "This week's selection of gear is..."
       ]
     },
     {
-      "title": "Seeds of Change in Colombia’s Caldas Department",
-      "source": "Fresh Cup",
+      "title": "Pesticides Banned in the EU See Continued Use on Kenyan Coffee Farms",
+      "source": "Coffee Talk",
       "category": "industry",
-      "sourceUrl": "https://freshcup.com/seeds-of-change-in-colombias-caldas-department/",
-      "summary": "Forest Coffee’s Reforest program pays Colombian producers in Caldas a premium and supplies native tree seedlings while connecting them with specialty buyers. The post Seeds of Change in Colombia’s Caldas Department appeared first on Fresh Cup .",
-      "image": "https://freshcup.com/wp-content/uploads/2026/11/974297CE-2728-4EC3-8497-09764C3352FB-1945-00001FE43EF8DF9D.jpg",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111328/",
+      "summary": "Activists warn that hazardous pesticides in Kenya's coffee industry pose serious health risks, despite increasing monitoring efforts and bans in Europe. The post Pesticides Banned in the EU See Continued Use on Kenyan Coffee Farms appeared first on CoffeeTalk .",
+      "image": "https://coffeetalk.com/wp-content/uploads/michael-starkie-8T8zhNm2fpE-unsplash-scaled.jpg",
       "keyPoints": [
-        "Forest Coffee’s Reforest program pays Colombian producers in Caldas a premium and supplies native tree seedlings while connecting them with specialty buyers."
+        "Activists warn that hazardous pesticides in Kenya's coffee industry pose serious health risks, despite increasing monitoring efforts and bans in Europe."
       ]
     },
     {
-      "title": "Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28 crop expected to meet predictions, but El Niño threat looms & other stories",
-      "source": "Perfect Daily Grind",
+      "title": "China’s Zero-Tariff Policy Draws Significant Kenyan Coffee Exports",
+      "source": "Coffee Talk",
       "category": "industry",
-      "sourceUrl": "https://perfectdailygrind.com/2026/11/coffee-news-recap-13-november-2026/",
-      "summary": "First lots traded under ICE metric arabica futures contracts, Cropster and Algrano launch new integration, Manchester Coffee Festival to begin on 20 November & more. The post Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28",
-      "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/13_11_FridayRecap__FB-THUMBNAIL.png",
+      "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111326/",
+      "summary": "Kenyan coffee exports to China surge under zero-tariff policy, as companies leverage the 9th China International Import Expo to expand partnerships and market presence. The post China’s Zero-Tariff Policy Draws Significant Kenyan Coffee Exports appeared first on CoffeeTalk .",
+      "image": "https://coffeetalk.com/wp-content/uploads/diego-catto-2NiVOHcIx4I-unsplash-1.jpg",
       "keyPoints": [
-        "First lots traded under ICE metric arabica futures contracts, Cropster and Algrano launch new integration, Manchester Coffee Festival to begin on 20 November & more.",
-        "The post Coffee News Recap, 13 Nov: First lots traded under ICE metric arabica futures contracts, Brazil’s 2027/28"
+        "Kenyan coffee exports to China surge under zero-tariff policy, as companies leverage the 9th China International Import Expo to expand partnerships and market presence."
       ]
     },
     {
-      "title": "Coffee, vegetables and exercise share a surprising connection in your gut",
-      "source": "News-Medical",
+      "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
+      "source": "Science Daily",
       "category": "science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc05iVjJ0YW5MMWlkN1JzazhFeU5IRzZUSjhKclE1QzVXdHVVM042anNFX1M0V3VSWUNDZm9hNlN4VVBPeTNKSUQtUDFtcTVvZV9Cc1ItOV9vVEk4aEZZU01yYU8tNGEyaE5aaUZrNklLWFZLNVVjRklWcEp3bHRRMnc1VWVxdW5oRHB4SWFyZlBWRWY5V0ZVU2p6d3lZbmpJbkdqZldPNkdJcGc4ckpYODhPM3ZsenRVck1Fbw",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YMnVWX21MTVpXMkFoM0RFVHpuenBrazVyUjMtVklxRTFJNU9Wd3BmbFFwSDhFWE1hSjhqbUhsbVZtTlZtcWEwWmRCT1FCQmZwZ2xKUktMSklNNldDOHp3WjhPRXMycHZGdEJMallB",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Barista Stories: Inger Wieringa of 29 coffees, Fontainebleau/Paris",
+      "title": "L'Odeur de la Brûlerie",
       "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCSUhvdVAxUjRwRHZfb0xKQl9mYS1mYWlpYjVMaTdKaTdOa3M3RXpfVG1xNzhOVzUydXBUTHlna19jVmd6OXY3bnRKaTRjWVpYRm1naDVycExhQWJQdlhTZW9zQVhZQVM3Z2gyX0EwQQ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZGI0eVNVLWVadURZN21BM05yOTgweVh5VUhnaFI1X19oZVVYLTdMTlJTdnpuZWJjUm5kT01ZcFF2cHFKZmRTb2xTYlBPTUJZUGw0TUpZQ0E5Nmg3bmc",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     },
     {
-      "title": "Three Wilfa Products Earn SCA Certified Home Brewer Status",
-      "source": "Specialty Coffee Association",
+      "title": "Airstream Café Uzlík Un-di",
+      "source": "European Coffee Trip",
       "category": "origin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzcxTVRGTjY4RThiY0d2Z1UyMmE2dzZJblQ3ZC1MYlZrMVJ2VnZ6R3dUZW1MZG9aakotWU0xYXFlYUtVNWJhVXNUQW5HVXBzZHFrUkdLLWQ4ZkhtQjJCNGtOWHYyWnF1cUtGRkxvcjB5MndDNnlMVFZuYzBTWlFKZUg5RzdON25XU0swWGY0SnpTS2dEQTVlUG1rdmg",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Od2dJblh3WXhaREEwdE1ISG44SGpWT1NaY0d1RmJYYlBlMHR3b0p4aEFOV05NemZybkFhYURNY2pWUVNvY0ROM3JleE1aYU4wM0haQi01aXFqSnBLdGFTRTd3dXdOZDJW",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
+    },
+    {
+      "title": "Arabica coffee prices rally (+4.2%) despite record Brazilian exports",
+      "source": "Comunicaffe International",
+      "category": "origin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT0xsek9jYkhrMDRvYkJWU1UweV9HOGJZNXNoSHIydDN1UHhFSkUtUGhLYjVCSnpNakNjRG01UVVsdFluVDRkb0d4SjEyYjRjS1VoZkxzblVpX0Z6Q0hwTXYzdjd2NzVUb3k0alpKemxjbUxHMkpVODhFYVJOZjFEOWhmcjBhM2NHdHhfMWRWRk5IeVBMRE1mT0Rra1FjQ2FpWGtucnV0RWlyUldKbDJkc1hiQjN1TzNzRGN5THlKM3NfSFZuN1RxbDBDMnNXWEFjTmpxOWJMbDZVdFFPdmZOOGw5WTRHYzBEd0cyUFdlcHBYQQ",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "keyPoints": []
+    },
+    {
+      "title": "How Kelvin Deviro used AI to select his espresso and win the Indonesia Barista Championship 2026",
+      "source": "Comunicaffe International",
+      "category": "origin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHEzM1RqMTB1VUF0YU8yRldiOVNVUG1leXNpdm9XUkNaa1JETG5vUExFR0RvQnBqeFFudW5xd1dsQjNkall5NHYtSzhvbTJibFItWG1HSlY0THRZcDB1a3dUZmQwb0ZTaUZ0U2NJVTBiXzRhUDVta2x1WUFDTUlGaTBaVW80bXE2Sk10UFBQSGRNakd5eGxzWjh3TGlOaVNzdFFxRW9qNmNJbXVoV0JyeG1BN28td2pVNHVhZkZvaGxQUlU",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "keyPoints": []
     }
   ],
-  "fromScan": "2026-11-13T21:27:48.973510+00:00"
+  "fromScan": "2026-11-14T19:58:16.405066+00:00"
 }

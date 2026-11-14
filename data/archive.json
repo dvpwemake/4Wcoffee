@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-14T19-58-16",
+      "scannedAt": "2026-11-14T19:58:16.405066+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Some Coffee Gear Ideas To Pique Your Holiday Shopping Interest",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/some-coffee-gear-ideas-to-pique-your-holiday-shopping-interest-1605703.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This week's selection of gear is...",
+          "image": "https://sprudge.com/wp-content/uploads/2026/07/comandante-c60-baracuda-stone-washed-sprudge-coffee-gear.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-14T13:00:39+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Pesticides Banned in the EU See Continued Use on Kenyan Coffee Farms",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111328/",
+          "summary": "Activists warn that hazardous pesticides in Kenya's coffee industry pose serious health risks, despite increasing monitoring efforts and bans in Europe. The post Pesticides Banned in the EU See Continued Use on Kenyan Coffee Farms appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/michael-starkie-8T8zhNm2fpE-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T20:30:13+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "China’s Zero-Tariff Policy Draws Significant Kenyan Coffee Exports",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111326/",
+          "summary": "Kenyan coffee exports to China surge under zero-tariff policy, as companies leverage the 9th China International Import Expo to expand partnerships and market presence. The post China’s Zero-Tariff Policy Draws Significant Kenyan Coffee Exports appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/diego-catto-2NiVOHcIx4I-unsplash-1.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T20:17:23+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YMnVWX21MTVpXMkFoM0RFVHpuenBrazVyUjMtVklxRTFJNU9Wd3BmbFFwSDhFWE1hSjhqbUhsbVZtTlZtcWEwWmRCT1FCQmZwZ2xKUktMSklNNldDOHp3WjhPRXMycHZGdEJMallB",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-14T11:44:21+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "L'Odeur de la Brûlerie",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZGI0eVNVLWVadURZN21BM05yOTgweVh5VUhnaFI1X19oZVVYLTdMTlJTdnpuZWJjUm5kT01ZcFF2cHFKZmRTb2xTYlBPTUJZUGw0TUpZQ0E5Nmg3bmc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-14T12:34:58+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Airstream Café Uzlík Un-di",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Od2dJblh3WXhaREEwdE1ISG44SGpWT1NaY0d1RmJYYlBlMHR3b0p4aEFOV05NemZybkFhYURNY2pWUVNvY0ROM3JleE1aYU4wM0haQi01aXFqSnBLdGFTRTd3dXdOZDJW",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-13T22:18:15+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Arabica coffee prices rally (+4.2%) despite record Brazilian exports",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT0xsek9jYkhrMDRvYkJWU1UweV9HOGJZNXNoSHIydDN1UHhFSkUtUGhLYjVCSnpNakNjRG01UVVsdFluVDRkb0d4SjEyYjRjS1VoZkxzblVpX0Z6Q0hwTXYzdjd2NzVUb3k0alpKemxjbUxHMkpVODhFYVJOZjFEOWhmcjBhM2NHdHhfMWRWRk5IeVBMRE1mT0Rra1FjQ2FpWGtucnV0RWlyUldKbDJkc1hiQjN1TzNzRGN5THlKM3NfSFZuN1RxbDBDMnNXWEFjTmpxOWJMbDZVdFFPdmZOOGw5WTRHYzBEd0cyUFdlcHBYQQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T23:59:09+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-4",
+          "title": "How Kelvin Deviro used AI to select his espresso and win the Indonesia Barista Championship 2026",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHEzM1RqMTB1VUF0YU8yRldiOVNVUG1leXNpdm9XUkNaa1JETG5vUExFR0RvQnBqeFFudW5xd1dsQjNkall5NHYtSzhvbTJibFItWG1HSlY0THRZcDB1a3dUZmQwb0ZTaUZ0U2NJVTBiXzRhUDVta2x1WUFDTUlGaTBaVW80bXE2Sk10UFBQSGRNakd5eGxzWjh3TGlOaVNzdFFxRW9qNmNJbXVoV0JyeG1BN28td2pVNHVhZkZvaGxQUlU",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T23:50:57+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-13T21-27-48",
       "scannedAt": "2026-11-13T21:27:48.973510+00:00",
       "items": [
@@ -3114,26 +3216,6 @@
           "publishedAt": "2026-10-16T14:49:23+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-13",
-      "scannedAt": "2026-10-16T01:30:53.607Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-13",
-          "rank": 0,
-          "title": "Craft, Convergence, and the Mindful Cup",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Reflecting on the evolving intersections of specialty coffee, gut science, and global culture.",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/35750/hetnoordeinde_1791381796_4002723059445851756_2139683154.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-13.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-13"
         }
       ]
     }
