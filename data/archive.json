@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-11",
+      "scannedAt": "2026-11-14T20:49:03.976Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-11",
+          "rank": 0,
+          "title": "Brewing Niches, Nerves, and Novel Biology",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "As extraction methods and long-ferment experiments push the limits of flavor, science is finally unraveling exactly how coffee rewires our bodies.",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/coffee-decaf-620x414.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-11.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-11"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-14T19-58-16",
       "scannedAt": "2026-11-14T19:58:16.405066+00:00",
       "items": [
@@ -3131,89 +3151,6 @@
           "summary": "",
           "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Sofia-Vergara.jpg",
           "publishedAt": "2026-10-16T11:05:24+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-16T18-51-02",
-      "scannedAt": "2026-10-16T18:51:02.125167+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "University of Hawaii to Lead New Federal Coffee and Cacao Research Lab",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUEFyNFJxVUhGc25WcWgzdmEtQXV2bE9lNUo1ZC1RWDg1Y2psSDZyaDFGZ3VibUhBRzFLeUZ1dzYzZTdZUU8zM1VwN3EyWXJhcE5IUXBSOEd5aTRXZi1HZnNlTFMtUHV3TDJhR01zMVBjLUwyYTBuZTk0R3ZhbVFGWTNIUk1ZTk5GX0pwVHp5Y1ZIUmlTemo1S2FFeFgzd3BrdllsNnFUMExRUmoyNG40",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/coffee.jpg",
-          "publishedAt": "2026-10-16T14:58:00+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Coffee News Recap, 16 Oct: Starbucks denies Chipotle merger, Colombia’s 2025/26 coffee production and exports fall by over 12% & other stories",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-16-october-2026/",
-          "summary": "Starbucks quashes reports of Chipotle merger, Madagascar to invest in coffee production, Spain AeroPress Championship final to take place in Madrid on 24 October & more. The post Coffee News Recap, 16 Oct: Starbucks denies Chipotle merger, Colombia’s 2025/26 coffee production and",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/16_10_FridayRecap__FB-THUMBNAIL.png",
-          "publishedAt": "2026-10-16T12:36:46+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "The Nephew Of Dallas Cowboys Owner Jerry Jones Is Opening A Coffee Shop",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-nephew-of-dallas-cowboys-owner-jerry-jones-is-opening-a-coffee-shop-1453811.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This sucks.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/rollin-joes-copy.jpg",
-          "publishedAt": "2026-10-16T12:00:29+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-5",
-          "title": "How Do Roasters Set Wholesale Coffee Prices? 40+ Shared Their Process",
-          "source": "Fresh Cup",
-          "sourceUrl": "https://freshcup.com/how-do-roasters-set-wholesale-coffee-prices-40-shared-their-process/",
-          "summary": "More than 40 roasters shared how they set wholesale coffee prices. We compared their methods with Luke Waite’s pricing lesson in Wholesale for Roasters. The post How Do Roasters Set Wholesale Coffee Prices? 40+ Shared Their Process appeared first on Fresh Cup .",
-          "image": "https://freshcup.com/wp-content/uploads/2026/10/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-16-1024x637.png",
-          "publishedAt": "2026-10-16T11:06:00+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Drinking 'Very' Hot Tea or Coffee Could Triple Your Risk of This Cancer, Huge Study Finds",
-          "source": "ScienceAlert",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONmZqLTVobEI1djdWbDVRUlJ3b0Zzajl1YVZGeVZQZTNNdzJ6V2cyVWdRdnhZaWNyN1ptVmJOWXFrbzVpa0xXME5WQjFFNzNOcm5WN3QySGEtVmpKMlFSc1VvTEwtM1gzQ3Z1ejM5UVV5WFBDUjBhMXY2T2Ytd3lMalhFVDVTdDh5dHhTUVRGY1pNRFpmRkpMcjV4Tk1haTBIcVgtNS1lYk5vMnhTUnZrQzNtN1Z2Zw",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-7252.jpg",
-          "publishedAt": "2026-10-16T13:00:38+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-1",
-          "title": "kolkof - Freiburg im Breisgau, Germany",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qUTdnZEl0SWpGbFZjdmpmbXdJaERkeEg0d2lReGtKd3l2ZW5BZXQ1OV9YWWdKSk1KLXN1Y3YzMFlrcnBBT3h5TUx3bXNmbFRKUURNYzJjc3BKZw",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-7378.jpg",
-          "publishedAt": "2026-10-16T14:55:24+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "East Crema Coffee - Madrid, Spain",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aOVdMMzVaZlh4YkhFc1VBcS1DcXBmcXNMN2ZaWnVWdEJVdmxTOHNZMGNBVVgxR3ljMzY2ZGhOZUlnZHhBOFhLWmFtOU9Fd3N3b2RaR3RmdXpnZTZxT3hxazVmOTRPZw",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-7439.jpg",
-          "publishedAt": "2026-10-16T14:49:23+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
