@@ -48,26 +48,28 @@
       "source": "Nature",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ybFFYc0ZTSWJ5cEppVndWek1Ob1lKUmVUVHZldTNIN1p5S25fdS1JVE5HVUY5M1ZQNXJ2bEdxeXpoNk84cUhZcGp1UlJSY09vS1JXVEh4UjVEeVprOFI4",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2772416625003778-ga1.jpg",
       "publishedAt": "2026-11-15T16:10:42+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
       "id": "science-1",
-      "rank": 4
+      "rank": 4,
+      "imageLocked": true
     },
     {
       "title": "Coffee Doesn't Just Help You Poop. It May Change The Physiology in Your Gut.",
       "source": "ScienceAlert",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVmhtd2p0bWxYZ2wtV3ZkMm9xQ0pMUlRvSVBBMjFvX3pVTl9oM1dJTTY4dDNZbXlWUXU3Y1hqVE00X1l5azVINVhlWkNuV1EtZGR4Q3NHYkdONW4zdnVhdWdWb2g5RkVJeUJ5R2dIQTNWTGZCUTR6NUZSNFB4QnM2YlhwTjNSSUFiZ01jTFFrRmFzSXllcmtLWHRSczMtYWhDbndnZw",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://www.sciencealert.com/images/2026/11/GettyImages-540712457-2560x1440-1-1536x864.jpg",
       "publishedAt": "2026-11-15T02:02:20+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
       "id": "science-2",
-      "rank": 5
+      "rank": 5,
+      "imageLocked": true
     },
     {
       "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
@@ -88,26 +90,28 @@
       "source": "Comunicaffe International",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPckVfYWtsMnE2NExINmNMQTZGSTkzYVRUNGNNSXVDNmNGb1FSbzhpWWFGQ2lGaFVfM0hJV3ZXaXRGdFRPMmlScng4ZUJLeVlkWjZkWDFsZGROSDFKaW1lQnc4MjB6X1AxdFhBbnRXNmI0S2x3NUxRYlEyajFvemEzUDQyYTR2WktpcWphZ3plRTlnZl9fZlozMWt3YXpYeFYyamtaenNqRFdBVDVKbmlIMEhGcFk4eVNTQnNr",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/americano.jpg",
       "publishedAt": "2026-11-12T23:30:29+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-1",
-      "rank": 7
+      "rank": 7,
+      "imageLocked": true
     },
     {
       "title": "The Human Bean’s Coffee for a Cure tops $5 million for breast cancer support",
       "source": "Comunicaffe International",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRV95UzR1ck5YcEFLX1dvaF9xUlg3bHlVSzljTDZuYS15clFvN2IwUmxHV29oUy1XMXpRWXJodGJGYU5WU2dBRlktSmE3cnU0TkxzRXh5NzRIdFdvSGNNa3hkV3FDNXFnYjJwYzJQeFdkOUFvcm9RQURjajY1Y3VfSzVGelE1OWpKbVRGTmNMMHRSU09IdnlsOGduUzlDTks2MFlfSV9R",
       "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "https://www.comunicaffe.com/wp-content/uploads/2022/12/The_Human_Bean_Logo.jpg",
       "publishedAt": "2026-11-12T23:10:19+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-2",
-      "rank": 8
+      "rank": 8,
+      "imageLocked": true
     }
   ],
   "byCategory": {
@@ -155,26 +159,28 @@
         "source": "Nature",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ybFFYc0ZTSWJ5cEppVndWek1Ob1lKUmVUVHZldTNIN1p5S25fdS1JVE5HVUY5M1ZQNXJ2bEdxeXpoNk84cUhZcGp1UlJSY09vS1JXVEh4UjVEeVprOFI4",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2772416625003778-ga1.jpg",
         "publishedAt": "2026-11-15T16:10:42+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
         "id": "science-1",
-        "rank": 4
+        "rank": 4,
+        "imageLocked": true
       },
       {
         "title": "Coffee Doesn't Just Help You Poop. It May Change The Physiology in Your Gut.",
         "source": "ScienceAlert",
         "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVmhtd2p0bWxYZ2wtV3ZkMm9xQ0pMUlRvSVBBMjFvX3pVTl9oM1dJTTY4dDNZbXlWUXU3Y1hqVE00X1l5azVINVhlWkNuV1EtZGR4Q3NHYkdONW4zdnVhdWdWb2g5RkVJeUJ5R2dIQTNWTGZCUTR6NUZSNFB4QnM2YlhwTjNSSUFiZ01jTFFrRmFzSXllcmtLWHRSczMtYWhDbndnZw",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://www.sciencealert.com/images/2026/11/GettyImages-540712457-2560x1440-1-1536x864.jpg",
         "publishedAt": "2026-11-15T02:02:20+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
         "id": "science-2",
-        "rank": 5
+        "rank": 5,
+        "imageLocked": true
       },
       {
         "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
@@ -191,33 +197,34 @@
         "rank": 6
       }
     ],
-    "reviews": [],
     "origin": [
       {
         "title": "Norwegian study links one to two cups of coffee a day to lower risk of a second blood clot",
         "source": "Comunicaffe International",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPckVfYWtsMnE2NExINmNMQTZGSTkzYVRUNGNNSXVDNmNGb1FSbzhpWWFGQ2lGaFVfM0hJV3ZXaXRGdFRPMmlScng4ZUJLeVlkWjZkWDFsZGROSDFKaW1lQnc4MjB6X1AxdFhBbnRXNmI0S2x3NUxRYlEyajFvemEzUDQyYTR2WktpcWphZ3plRTlnZl9fZlozMWt3YXpYeFYyamtaenNqRFdBVDVKbmlIMEhGcFk4eVNTQnNr",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/americano.jpg",
         "publishedAt": "2026-11-12T23:30:29+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-1",
-        "rank": 7
+        "rank": 7,
+        "imageLocked": true
       },
       {
         "title": "The Human Bean’s Coffee for a Cure tops $5 million for breast cancer support",
         "source": "Comunicaffe International",
         "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRV95UzR1ck5YcEFLX1dvaF9xUlg3bHlVSzljTDZuYS15clFvN2IwUmxHV29oUy1XMXpRWXJodGJGYU5WU2dBRlktSmE3cnU0TkxzRXh5NzRIdFdvSGNNa3hkV3FDNXFnYjJwYzJQeFdkOUFvcm9RQURjajY1Y3VfSzVGelE1OWpKbVRGTmNMMHRSU09IdnlsOGduUzlDTks2MFlfSV9R",
         "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://www.comunicaffe.com/wp-content/uploads/2022/12/The_Human_Bean_Logo.jpg",
         "publishedAt": "2026-11-12T23:10:19+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-2",
-        "rank": 8
+        "rank": 8,
+        "imageLocked": true
       }
     ]
   },
@@ -241,245 +248,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sb1A4RzlLSmNIa2Vjd1paT05Cc0lWZUZxd3cwODI5bGljZ0hhUGR4SC02bFRia05FZXNQVmxaWjdaa1lxY0xFRHBRX01uUVRwM1hwZHB6M1F6dw",
       "title": "Patrick Smith - Daily Coffee News",
       "deletedAt": "2026-10-21T16:33:23.431Z"
-    }
-  ],
-  "log": [
-    {
-      "ok": true,
-      "source": "Sprudge",
-      "n": 30,
-      "url": "https://sprudge.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Daily Coffee News",
-      "n": 30,
-      "url": "https://dailycoffeenews.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/feed"
-    },
-    {
-      "ok": false,
-      "source": "Roast Magazine",
-      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
-      "url": "https://roastmagazine.com/feed"
-    },
-    {
-      "ok": true,
-      "source": "Standart",
-      "n": 1,
-      "url": "https://standartmag.com/blogs/journal.atom"
-    },
-    {
-      "ok": false,
-      "source": "Barista Magazine",
-      "error": "<urlopen error timed out>",
-      "url": "https://www.baristamagazine.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Fresh Cup",
-      "n": 30,
-      "url": "https://freshcup.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Talk",
-      "n": 30,
-      "url": "https://www.coffeetalk.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Barista Hustle",
-      "n": 30,
-      "url": "https://www.baristahustle.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Ad Astra",
-      "n": 30,
-      "url": "https://coffeeadastra.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Scott Rao",
-      "n": 0,
-      "url": "https://www.scottrao.com/blog?format=rss"
-    },
-    {
-      "ok": false,
-      "source": "Jim Seven",
-      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
-      "url": "https://www.jimseven.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "World Coffee Research",
-      "n": 0,
-      "url": "https://worldcoffeeresearch.org/news/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Nature",
-      "n": 48,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "News-Medical",
-      "n": 100,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Medical Xpress",
-      "n": 97,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Phys.org",
-      "n": 66,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "The Conversation",
-      "n": 27,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "ScienceDaily",
-      "n": 77,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "ScienceAlert",
-      "n": 8,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Review",
-      "n": 30,
-      "url": "https://www.coffeereview.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "CoffeeGeek",
-      "n": 30,
-      "url": "https://coffeegeek.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Home-Barista",
-      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
-      "url": "https://www.home-barista.com/rss.xml"
-    },
-    {
-      "ok": true,
-      "source": "Coffee Chronicler",
-      "n": 30,
-      "url": "https://coffeechronicler.com/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Espresso My Espresso",
-      "error": "disabled: 403 for every client tried (checked 2026-10-06)",
-      "url": "https://espressomyespresso.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Serious Eats",
-      "n": 99,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Gear Patrol",
-      "n": 100,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": false,
-      "source": "SCA News",
-      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
-      "url": "https://scanews.coffee/feed/"
-    },
-    {
-      "ok": false,
-      "source": "Sweet Maria's",
-      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
-      "url": "https://www.sweetmarias.com/blog/feed"
-    },
-    {
-      "ok": true,
-      "source": "Perfect Daily Grind Origins",
-      "n": 30,
-      "url": "https://perfectdailygrind.com/category/origins/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Cafe Imports",
-      "n": 0,
-      "url": "https://cafeimports.com/feed/"
-    },
-    {
-      "ok": true,
-      "source": "European Coffee Trip",
-      "n": 7,
-      "url": "https://europeancoffeetrip.com/feed/",
-      "via": "google-news",
-      "directError": "HTTP Error 403: Forbidden"
-    },
-    {
-      "ok": true,
-      "source": "Not a Barista",
-      "n": 30,
-      "url": "https://notabarista.org/feed/"
-    },
-    {
-      "ok": true,
-      "source": "Comunicaffe",
-      "n": 64,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Fairtrade",
-      "n": 13,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "International Coffee Organization",
-      "n": 20,
-      "url": "google-news",
-      "via": "google-news"
-    },
-    {
-      "ok": true,
-      "source": "Specialty Coffee Association",
-      "n": 1,
-      "url": "google-news",
-      "via": "google-news"
     }
   ]
 }
