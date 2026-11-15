@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-15T20-25-58",
+      "scannedAt": "2026-11-15T20:25:58.809368+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Your Coffee Is The Prettiest Coffee Of All The Coffee",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/your-coffee-is-the-prettiest-coffee-of-all-the-coffee-1605714.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/perc_holidayhavoc_shop1_2026.png-copy.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-15T13:00:45+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Verena Street Coffee Launches Its Longest Black Friday Sale Yet With “Buy More, Save More” Savings Up to 40% Off",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/announcements/11-2026/111322/",
+          "summary": "Verena Street Coffee Co. launches its longest holiday sale, offering up to 40% off online coffee purchases from November 10 to 30, 2026. The post Verena Street Coffee Launches Its Longest Black Friday Sale Yet With “Buy More, Save More” Savings Up to 40% Off appeared first on Cof",
+          "image": "https://coffeetalk.com/wp-content/plugins/add-as-preferred-source/public/images/light/google-preferred-source-button.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T20:02:11+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Researchers Have Created A Plant-Based To-Go Cup Liner To Keep You From Drinking Microplastics",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/researchers-have-created-a-plant-based-to-go-cup-liner-to-keep-you-from-drinking-microplastics-1586042.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Researchers have created a new plastic-free liner for to-go cups.",
+          "image": "https://sprudge.com/wp-content/uploads/2020/11/microplastics-paper-cup.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T17:41:33+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Tunable surface functionalities in coffee-waste–derived carbon enable high-capacity antibiotic adsorption",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ybFFYc0ZTSWJ5cEppVndWek1Ob1lKUmVUVHZldTNIN1p5S25fdS1JVE5HVUY5M1ZQNXJ2bEdxeXpoNk84cUhZcGp1UlJSY09vS1JXVEh4UjVEeVprOFI4",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-15T16:10:42+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Coffee Doesn't Just Help You Poop. It May Change The Physiology in Your Gut.",
+          "source": "ScienceAlert",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVmhtd2p0bWxYZ2wtV3ZkMm9xQ0pMUlRvSVBBMjFvX3pVTl9oM1dJTTY4dDNZbXlWUXU3Y1hqVE00X1l5azVINVhlWkNuV1EtZGR4Q3NHYkdONW4zdnVhdWdWb2g5RkVJeUJ5R2dIQTNWTGZCUTR6NUZSNFB4QnM2YlhwTjNSSUFiZ01jTFFrRmFzSXllcmtLWHRSczMtYWhDbndnZw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-15T02:02:20+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-3",
+          "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
+          "source": "Science Daily",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZM191UEhYNFZBQmxRQVd3dV9yMWNlYjdMSkIyNktXOU5idU05SWlzRGQyVUJDSTJWZjc0Xy1MZlpERklDMlVnaUlab2RwMHRZNGJJdENDQjVBNjk4aWJpcEhzWDZBYkRCYm95c0tzbw",
+          "summary": "",
+          "image": "https://www.sciencedaily.com/images/1920/used-cone-coffee-filter.webp",
+          "imageLocked": true,
+          "publishedAt": "2026-11-14T11:44:21+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Norwegian study links one to two cups of coffee a day to lower risk of a second blood clot",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPckVfYWtsMnE2NExINmNMQTZGSTkzYVRUNGNNSXVDNmNGb1FSbzhpWWFGQ2lGaFVfM0hJV3ZXaXRGdFRPMmlScng4ZUJLeVlkWjZkWDFsZGROSDFKaW1lQnc4MjB6X1AxdFhBbnRXNmI0S2x3NUxRYlEyajFvemEzUDQyYTR2WktpcWphZ3plRTlnZl9fZlozMWt3YXpYeFYyamtaenNqRFdBVDVKbmlIMEhGcFk4eVNTQnNr",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T23:30:29+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "The Human Bean’s Coffee for a Cure tops $5 million for breast cancer support",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRV95UzR1ck5YcEFLX1dvaF9xUlg3bHlVSzljTDZuYS15clFvN2IwUmxHV29oUy1XMXpRWXJodGJGYU5WU2dBRlktSmE3cnU0TkxzRXh5NzRIdFdvSGNNa3hkV3FDNXFnYjJwYzJQeFdkOUFvcm9RQURjajY1Y3VfSzVGelE1OWpKbVRGTmNMMHRSU09IdnlsOGduUzlDTks2MFlfSV9R",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-12T23:10:19+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-11",
       "scannedAt": "2026-11-14T20:49:03.976Z",
       "kind": "editorial_archive",
@@ -3081,78 +3183,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-15.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-15"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-17T17-53-55",
-      "scannedAt": "2026-10-17T17:53:55.944603+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Coffee Sprudgecast: The One With Pumpkin Spice Caskets",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/coffee-sprudgecast-the-one-with-pumpkin-spice-caskets-1416443.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. T",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/new_diner_mug_matte_black_white_gloss_gray_b2b_lifestyle_motofish_021226_009.jpg",
-          "publishedAt": "2026-10-16T20:03:06+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Effects of coffee thermocycling on surface roughness, microhardness, and color stability of permanent crown materials",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FOC1ncXU4RVk3aDhnNEdQTWptNGFobDJqNEUtcTRMbWFncWs2MW9nNlVrSVlXdjlQeWphd1JYMXo2Mkd4ckRZLUVzay1zVzlZVnVSWlJTVmoybVdDOFNF",
-          "summary": "",
-          "image": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-26531-x/MediaObjects/41598_2025_26531_Fig1_HTML.png",
-          "publishedAt": "2026-10-14T19:28:59+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "I Found 5 Decaf Coffees That Are Actually Worth Brewing",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10cl80b1pnTE9RaGRhYTBkV090Q2pyY29vazBOM0ZXSGdIdHRFc2MxVWtFbnZJZ00ybDk5Q19NNW9MS0ljdWczV1NVN3c1dUJyZlF3b01JT2w5OEpldWEyRFFYRQ",
-          "summary": "",
-          "image": "https://www.seriouseats.com/thmb/7LISXuvSG-_imQYPigPlAkjfI-4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DecafCoffeeLeadImage-319c2803f3404570bf3ba59f16332616.jpg",
-          "publishedAt": "2026-10-14T07:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Meke Coffee Roasters - Sant Joan de Labritja, Spain",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoUUxkTW1DWUtBa3NlQnFLNXIxb0xRUGdOQWh4SlRvSGdBaVBaM3pyMTdYandESm1OWFQ5TWNyRkM2VllIazIwYl9RYlYySm5wVW1rXzdMVWNIUmczZW4zcWUzMmptSVNobWc",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/roasters/525/tostadero-00_00_03_06-still009.png",
-          "publishedAt": "2026-10-16T14:17:08+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Corado Coffee Roasters - Mandal, Norway",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBN0dRcmNiQWJBTFlnLV9GQzFyZlY1OFdMWUtUUTl2S0EyV29tTVNoNlEyRmdhbERlZHpJQlJyUFhLQUs2UGVZTFh4cng0T1FrRDdmTXlQbVZKcmpId0stZm9YaHJXeGtzdEJLbWNlWQ",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-7378.jpg",
-          "publishedAt": "2026-10-16T13:44:58+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Sofía Vergara’s ¡Dios Mío! Coffee expands its U.S. retail presence with exclusive Costco launch",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa0dvV0hnSlFiUU41YzRTcWU4YV9KLWZsWFZCd0l2eGZ5UG1QcFFNNVlTblY3eGtNTklNSUc5T0RFMUJPeS1aWXJBcU9qR1VGZEhWa3o5aHU0SGttbjdzYzVTM1p6NmFrTW5qXzRCNDNHYl9kcm1mMy15eTJSamVEVDBzeXpLbzI5cFd0WW1oMFJRRC1RWkhUaHFFOEFGcTg4Y2NiQkxmcXVYdGtaNmlCRXlMWHptYmhwMUZjMA",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Sofia-Vergara.jpg",
-          "publishedAt": "2026-10-16T11:05:24+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
