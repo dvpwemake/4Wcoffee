@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-14",
+      "scannedAt": "2026-11-15T20:56:35.578Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-14",
+          "rank": 0,
+          "title": "Beyond the Roast: Trade Shifts, AI Espresso, and Origin Realities",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Specialty coffee’s next chapter pairs technical leaps with urgent accountability.",
+          "image": "https://coffeetalk.com/wp-content/uploads/michael-starkie-8T8zhNm2fpE-unsplash-scaled.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-14.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-14"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-15T20-25-58",
       "scannedAt": "2026-11-15T20:25:58.809368+00:00",
       "items": [
@@ -3163,26 +3183,6 @@
           "publishedAt": "2026-10-16T10:20:24+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-15",
-      "scannedAt": "2026-10-18T06:36:55.434Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-15",
-          "rank": 0,
-          "title": "Economics and Physiology in the Modern Cup",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "From in-house roasting cost-cuts to startling medical revelations, exploring specialty coffee’s shifting landscape.",
-          "image": "https://sprudge.com/wp-content/uploads/2023/07/bellwether.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-15.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-15"
         }
       ]
     }
