@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-16T23-46-06",
+      "scannedAt": "2026-11-16T23:46:06.781730+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "BioPouches Expands Flexible Coffee Packaging Solutions As Brands Shift Toward Smaller Production Runs",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/biopouches-expands-flexible-coffee-packaging-solutions-as-brands-shift-toward-smaller-production-runs-1625594.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. BioPouches offers smaller order sizes for coffee packaging.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/factory-birdeye-view-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-16T20:19:17+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Send Us Your Holiday Coffees For A Festive Podcast Cupping!",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/send-us-your-holiday-coffees-for-a-festive-podcast-cupping-1605731.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Friends, Romans, countrymen, lend me your blends.",
+          "image": "https://sprudge.com/wp-content/uploads/2025/12/holiday-blends-guide-buzzy-and-spesh-in-a-coffee-snowstorm.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-16T18:48:51+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Bean-less in Berlin: Lupine Coffee Gets Its Second Win",
+          "source": "Barista Magazine",
+          "sourceUrl": "https://www.baristamagazine.com/bean-less-in-berlin-lupine-coffee-gets-its-second-win/",
+          "summary": "A German coffee substitute with roots reaching back to 1897 is brewing a comeback, and a U.S. brand is carrying it across the Atlantic. BY BHAVI PATEL BARISTA MAGAZINE ONLINE Featured photo courtesy of Kein [...] The post Bean-less in Berlin: Lupine Coffee Gets Its Second Win app",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-16T15:00:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
+          "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/picked-coffee-drying-fermentation-620x414.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-16T14:00:10+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-5",
+          "title": "Crema Coffee Roasters Rises Again in Nashville with New Roastery",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/16/crema-coffee-roasters-rises-again-in-nashville-with-new-roastery/",
+          "summary": "Continually rising like its velvety, golden-brown namesake, Tennessee-based Crema Coffee Roasters recently moved into a 2,400-square-foot standalone roastery in East Nashville. Boosting capacity for its growing wholesale, retail and online...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Crema-Coffee-Roastery-East-Nashville-1-620x414.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-16T13:20:57+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Tunable surface functionalities in coffee-waste–derived carbon enable high-capacity antibiotic adsorption",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLQ0tTZGp3T2J2eU5lM25ld0I5SThPUzFJS2pJQlV0amZpLXhpdkFBZDF3R2JFZDE5WlFEbkg2SzJ3NV8yZTNDVGhzWG53UmhQU1E1YU1SZXNQQ3BmUHlVUndySVFVRG9ua0hGQ05BQ05lQQ",
+          "summary": "",
+          "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2772416625003778-ga1.jpg",
+          "imageLocked": true,
+          "publishedAt": "2026-11-15T22:59:05+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "US coffee shop market: spend per capita reached US$154 in 2025, compared with US$25 in European branded chains",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS1pueTVoZXZtNWppLW9MLUtScGRrZWFXdjd1Nm9iOW5KRmx2M2pZQm4zWUkzOFEtVE9xT29aX1FER3dxVkprYkI5eHo1V2VBaXNFRGdtWmh2Z1VFZWg0MU5nRTh6b0NYOUFNWUFINlBJVGJXbWFoYW5iem1QXzNWOGcwV2FOMFpPaFFtdDAyYXFPLWZuNlZxX2k2V1A5RlBpOUhNSS16UkFuT1VXVTljMzdnamRuU2pUbDJsbHRB",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-15T23:59:13+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Lavazza Calendar 2027: the coffee ritual across three cities through the eyes of Goldberg, Majoli and Pellegrin",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb0ZWTkNOX2FlMmR1MU1wTWotbzVJQ1I3Nl9NQW1IbEJNcUUteGNUMnZ2NFlWaDhhNHhuX0hBSnM0WEZFSVdPOEluSXcyalhFbXNMeVYtYXpJZzBiMHhkSzRQdTY4amotakJGUHJNT2ZybjZpa3hwZDR4cjR0LVlIZC1fbUFDYWNCeFFLeEh3RFFKWmhaeVdMMExPdG9sM09uZ2Y5Qm92RVZoRmZ6SEJlUTQ1anByMzlWdGpaTGxtOWlIX3ZRU3VOV0FMbHllaS1oSzNFSQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-15T23:55:19+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-14",
       "scannedAt": "2026-11-15T20:56:35.578Z",
       "kind": "editorial_archive",
@@ -3111,78 +3213,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-17.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-17"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-18T18-09-01",
-      "scannedAt": "2026-10-18T18:09:01.622848+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "A Coat And A Nice Cup Of Coffee, Is That Really Too Much To Ask For?",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/a-coat-and-a-nice-cup-of-coffee-is-that-really-too-much-to-ask-for-1465213.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/partners-guatemala-santa-elisa-gesha-sprudge-roasters-village-copy.jpg",
-          "publishedAt": "2026-10-18T12:00:32+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Data from Bellwether’s Roasting Calculator Shows Cafés Can Potentially Cut Coffee Costs in Half by Roasting In-House",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111142/",
-          "summary": "Bellwether Coffee unveils a new Shop Roaster, promising cost savings and enhanced branding opportunities for cafés, debuting at Coffee Fest Dallas. The post Data from Bellwether’s Roasting Calculator Shows Cafés Can Potentially Cut Coffee Costs in Half by Roasting In-House appear",
-          "image": "https://coffeetalk.com/wp-content/uploads/bellwether-coffee-roaster-scaled.png",
-          "publishedAt": "2026-10-15T19:08:40+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "Daniel Borrás: The Sprudge Twenty Interview",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/daniel-borras-the-sprudge-twenty-interview-1278717.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Daniel Borrás.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_daniel-borras.webp",
-          "publishedAt": "2026-10-15T14:00:35+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "origin-1",
-          "title": "Barista Stories: Driel Telles de Menezes of Sense of Coffee and The Coffee Bloc, Lisbon",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9femgzSXBKSGhnRWpIamtLRDdiXzRPZVdjSEI2WGhxRE51NjZPNTJueVlDRVhmS3JFS3kxWkdrTUt5X0dWZm80UFljVVhkOWJ3SzhlUW1ZeWJZb2cwTm54RkxkemhocDh3R1UzRDBqTjVzVjFUZU8tY0Fncw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "publishedAt": "2026-10-16T13:27:05+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Tao Coffee - Prague, Czech Republic",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hOURIeTVabGpValJaYWx4OEFNUnl0RzZaRm5yeHdqajgtRlBmLWlKakZmTVpVOWxNbnRHM09NakU4Q21rejFpRnN0eG14N2lHVXdkcHY2dG5vZVloY19GSw",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "publishedAt": "2026-10-16T11:55:44+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Bellwether debuts new Shop Roaster as data shows cafés can cut coffee costs in half by roasting in-house",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRTZSTml4VjBuS1VaeXBBdFdDbGx1bDBuQVc4bGx3VHBkUU5MR19Db3VEb0JyWE1wM3ZEZElDOVFkNGN4RGhXOGVtUDg2X3F0LW1TWDR6V2YtR2NTeW1NZHB2N1BxTTVsN0ZKS29zSXo3MXUwSVI5WVk4VzBOa29SbDlYRnpVVUJYbzM5eXRwOHhZbGFhOTNoUlpoa3JzN2VnY19TRTZFQldNaTNUcWIwc2Y0MVJQZzE1T0xhVFl3akpzNmNhYWpsTlpzekN6Zw",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-7252.jpg",
-          "publishedAt": "2026-10-16T10:20:24+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }

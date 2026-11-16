@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-11-15T20:25:58.809368+00:00",
+  "scannedAt": "2026-11-16T23:46:06.781730+00:00",
   "categories": {
     "industry": "Coffee Industry News & Trade Journals",
     "science": "Coffee Science & Technical",
@@ -8,223 +8,212 @@
   },
   "items": [
     {
-      "title": "Your Coffee Is The Prettiest Coffee Of All The Coffee",
+      "title": "BioPouches Expands Flexible Coffee Packaging Solutions As Brands Shift Toward Smaller Production Runs",
       "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/your-coffee-is-the-prettiest-coffee-of-all-the-coffee-1605714.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/11/perc_holidayhavoc_shop1_2026.png-copy.jpg",
-      "publishedAt": "2026-11-15T13:00:45+00:00",
+      "sourceUrl": "https://sprudge.com/biopouches-expands-flexible-coffee-packaging-solutions-as-brands-shift-toward-smaller-production-runs-1625594.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. BioPouches offers smaller order sizes for coffee packaging.",
+      "image": "https://sprudge.com/wp-content/uploads/2026/11/factory-birdeye-view-scaled.jpg",
+      "publishedAt": "2026-11-16T20:19:17+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-1",
       "rank": 1
     },
     {
-      "title": "Verena Street Coffee Launches Its Longest Black Friday Sale Yet With “Buy More, Save More” Savings Up to 40% Off",
-      "source": "Coffee Talk",
-      "sourceUrl": "https://coffeetalk.com/daily-dose/announcements/11-2026/111322/",
-      "summary": "Verena Street Coffee Co. launches its longest holiday sale, offering up to 40% off online coffee purchases from November 10 to 30, 2026. The post Verena Street Coffee Launches Its Longest Black Friday Sale Yet With “Buy More, Save More” Savings Up to 40% Off appeared first on Cof",
-      "image": "https://coffeetalk.com/wp-content/plugins/add-as-preferred-source/public/images/light/google-preferred-source-button.png",
-      "publishedAt": "2026-11-12T20:02:11+00:00",
+      "title": "Send Us Your Holiday Coffees For A Festive Podcast Cupping!",
+      "source": "Sprudge",
+      "sourceUrl": "https://sprudge.com/send-us-your-holiday-coffees-for-a-festive-podcast-cupping-1605731.html",
+      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Friends, Romans, countrymen, lend me your blends.",
+      "image": "https://sprudge.com/wp-content/uploads/2025/12/holiday-blends-guide-buzzy-and-spesh-in-a-coffee-snowstorm.jpg",
+      "publishedAt": "2026-11-16T18:48:51+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-2",
       "rank": 2
     },
     {
-      "title": "Researchers Have Created A Plant-Based To-Go Cup Liner To Keep You From Drinking Microplastics",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/researchers-have-created-a-plant-based-to-go-cup-liner-to-keep-you-from-drinking-microplastics-1586042.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Researchers have created a new plastic-free liner for to-go cups.",
-      "image": "https://sprudge.com/wp-content/uploads/2020/11/microplastics-paper-cup.jpg",
-      "publishedAt": "2026-11-12T17:41:33+00:00",
+      "title": "Bean-less in Berlin: Lupine Coffee Gets Its Second Win",
+      "source": "Barista Magazine",
+      "sourceUrl": "https://www.baristamagazine.com/bean-less-in-berlin-lupine-coffee-gets-its-second-win/",
+      "summary": "A German coffee substitute with roots reaching back to 1897 is brewing a comeback, and a U.S. brand is carrying it across the Atlantic. BY BHAVI PATEL BARISTA MAGAZINE ONLINE Featured photo courtesy of Kein [...] The post Bean-less in Berlin: Lupine Coffee Gets Its Second Win app",
+      "image": "image/carosal/cafe-scene-6887.jpg",
+      "publishedAt": "2026-11-16T15:00:00+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-3",
       "rank": 3
     },
     {
+      "title": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
+      "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/picked-coffee-drying-fermentation-620x414.jpg",
+      "publishedAt": "2026-11-16T14:00:10+00:00",
+      "category": "industry",
+      "categoryLabel": "Coffee Industry News & Trade Journals",
+      "id": "industry-4",
+      "rank": 4
+    },
+    {
+      "title": "Crema Coffee Roasters Rises Again in Nashville with New Roastery",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/11/16/crema-coffee-roasters-rises-again-in-nashville-with-new-roastery/",
+      "summary": "Continually rising like its velvety, golden-brown namesake, Tennessee-based Crema Coffee Roasters recently moved into a 2,400-square-foot standalone roastery in East Nashville. Boosting capacity for its growing wholesale, retail and online...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Crema-Coffee-Roastery-East-Nashville-1-620x414.jpg",
+      "publishedAt": "2026-11-16T13:20:57+00:00",
+      "category": "industry",
+      "categoryLabel": "Coffee Industry News & Trade Journals",
+      "id": "industry-5",
+      "rank": 5
+    },
+    {
       "title": "Tunable surface functionalities in coffee-waste–derived carbon enable high-capacity antibiotic adsorption",
       "source": "Nature",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ybFFYc0ZTSWJ5cEppVndWek1Ob1lKUmVUVHZldTNIN1p5S25fdS1JVE5HVUY5M1ZQNXJ2bEdxeXpoNk84cUhZcGp1UlJSY09vS1JXVEh4UjVEeVprOFI4",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLQ0tTZGp3T2J2eU5lM25ld0I5SThPUzFJS2pJQlV0amZpLXhpdkFBZDF3R2JFZDE5WlFEbkg2SzJ3NV8yZTNDVGhzWG53UmhQU1E1YU1SZXNQQ3BmUHlVUndySVFVRG9ua0hGQ05BQ05lQQ",
       "summary": "",
       "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2772416625003778-ga1.jpg",
-      "publishedAt": "2026-11-15T16:10:42+00:00",
+      "publishedAt": "2026-11-15T22:59:05+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
       "id": "science-1",
-      "rank": 4,
-      "imageLocked": true
-    },
-    {
-      "title": "Coffee Doesn't Just Help You Poop. It May Change The Physiology in Your Gut.",
-      "source": "ScienceAlert",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVmhtd2p0bWxYZ2wtV3ZkMm9xQ0pMUlRvSVBBMjFvX3pVTl9oM1dJTTY4dDNZbXlWUXU3Y1hqVE00X1l5azVINVhlWkNuV1EtZGR4Q3NHYkdONW4zdnVhdWdWb2g5RkVJeUJ5R2dIQTNWTGZCUTR6NUZSNFB4QnM2YlhwTjNSSUFiZ01jTFFrRmFzSXllcmtLWHRSczMtYWhDbndnZw",
-      "summary": "",
-      "image": "https://www.sciencealert.com/images/2026/11/GettyImages-540712457-2560x1440-1-1536x864.jpg",
-      "publishedAt": "2026-11-15T02:02:20+00:00",
-      "viaGoogleNews": true,
-      "category": "science",
-      "categoryLabel": "Coffee Science & Technical",
-      "id": "science-2",
-      "rank": 5,
-      "imageLocked": true
-    },
-    {
-      "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
-      "source": "Science Daily",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZM191UEhYNFZBQmxRQVd3dV9yMWNlYjdMSkIyNktXOU5idU05SWlzRGQyVUJDSTJWZjc0Xy1MZlpERklDMlVnaUlab2RwMHRZNGJJdENDQjVBNjk4aWJpcEhzWDZBYkRCYm95c0tzbw",
-      "summary": "",
-      "image": "https://www.sciencedaily.com/images/1920/used-cone-coffee-filter.webp",
-      "publishedAt": "2026-11-14T11:44:21+00:00",
-      "viaGoogleNews": true,
-      "category": "science",
-      "categoryLabel": "Coffee Science & Technical",
-      "id": "science-3",
       "imageLocked": true,
       "rank": 6
     },
     {
-      "title": "Norwegian study links one to two cups of coffee a day to lower risk of a second blood clot",
+      "title": "US coffee shop market: spend per capita reached US$154 in 2025, compared with US$25 in European branded chains",
       "source": "Comunicaffe International",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPckVfYWtsMnE2NExINmNMQTZGSTkzYVRUNGNNSXVDNmNGb1FSbzhpWWFGQ2lGaFVfM0hJV3ZXaXRGdFRPMmlScng4ZUJLeVlkWjZkWDFsZGROSDFKaW1lQnc4MjB6X1AxdFhBbnRXNmI0S2x3NUxRYlEyajFvemEzUDQyYTR2WktpcWphZ3plRTlnZl9fZlozMWt3YXpYeFYyamtaenNqRFdBVDVKbmlIMEhGcFk4eVNTQnNr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS1pueTVoZXZtNWppLW9MLUtScGRrZWFXdjd1Nm9iOW5KRmx2M2pZQm4zWUkzOFEtVE9xT29aX1FER3dxVkprYkI5eHo1V2VBaXNFRGdtWmh2Z1VFZWg0MU5nRTh6b0NYOUFNWUFINlBJVGJXbWFoYW5iem1QXzNWOGcwV2FOMFpPaFFtdDAyYXFPLWZuNlZxX2k2V1A5RlBpOUhNSS16UkFuT1VXVTljMzdnamRuU2pUbDJsbHRB",
       "summary": "",
-      "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/americano.jpg",
-      "publishedAt": "2026-11-12T23:30:29+00:00",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-11-15T23:59:13+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-1",
-      "rank": 7,
-      "imageLocked": true
+      "rank": 7
     },
     {
-      "title": "The Human Bean’s Coffee for a Cure tops $5 million for breast cancer support",
+      "title": "Lavazza Calendar 2027: the coffee ritual across three cities through the eyes of Goldberg, Majoli and Pellegrin",
       "source": "Comunicaffe International",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRV95UzR1ck5YcEFLX1dvaF9xUlg3bHlVSzljTDZuYS15clFvN2IwUmxHV29oUy1XMXpRWXJodGJGYU5WU2dBRlktSmE3cnU0TkxzRXh5NzRIdFdvSGNNa3hkV3FDNXFnYjJwYzJQeFdkOUFvcm9RQURjajY1Y3VfSzVGelE1OWpKbVRGTmNMMHRSU09IdnlsOGduUzlDTks2MFlfSV9R",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb0ZWTkNOX2FlMmR1MU1wTWotbzVJQ1I3Nl9NQW1IbEJNcUUteGNUMnZ2NFlWaDhhNHhuX0hBSnM0WEZFSVdPOEluSXcyalhFbXNMeVYtYXpJZzBiMHhkSzRQdTY4amotakJGUHJNT2ZybjZpa3hwZDR4cjR0LVlIZC1fbUFDYWNCeFFLeEh3RFFKWmhaeVdMMExPdG9sM09uZ2Y5Qm92RVZoRmZ6SEJlUTQ1anByMzlWdGpaTGxtOWlIX3ZRU3VOV0FMbHllaS1oSzNFSQ",
       "summary": "",
-      "image": "https://www.comunicaffe.com/wp-content/uploads/2022/12/The_Human_Bean_Logo.jpg",
-      "publishedAt": "2026-11-12T23:10:19+00:00",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-11-15T23:55:19+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-2",
-      "rank": 8,
-      "imageLocked": true
+      "rank": 8
     }
   ],
   "byCategory": {
     "industry": [
       {
-        "title": "Your Coffee Is The Prettiest Coffee Of All The Coffee",
+        "title": "BioPouches Expands Flexible Coffee Packaging Solutions As Brands Shift Toward Smaller Production Runs",
         "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/your-coffee-is-the-prettiest-coffee-of-all-the-coffee-1605714.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/11/perc_holidayhavoc_shop1_2026.png-copy.jpg",
-        "publishedAt": "2026-11-15T13:00:45+00:00",
+        "sourceUrl": "https://sprudge.com/biopouches-expands-flexible-coffee-packaging-solutions-as-brands-shift-toward-smaller-production-runs-1625594.html",
+        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. BioPouches offers smaller order sizes for coffee packaging.",
+        "image": "https://sprudge.com/wp-content/uploads/2026/11/factory-birdeye-view-scaled.jpg",
+        "publishedAt": "2026-11-16T20:19:17+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-1",
         "rank": 1
       },
       {
-        "title": "Verena Street Coffee Launches Its Longest Black Friday Sale Yet With “Buy More, Save More” Savings Up to 40% Off",
-        "source": "Coffee Talk",
-        "sourceUrl": "https://coffeetalk.com/daily-dose/announcements/11-2026/111322/",
-        "summary": "Verena Street Coffee Co. launches its longest holiday sale, offering up to 40% off online coffee purchases from November 10 to 30, 2026. The post Verena Street Coffee Launches Its Longest Black Friday Sale Yet With “Buy More, Save More” Savings Up to 40% Off appeared first on Cof",
-        "image": "https://coffeetalk.com/wp-content/plugins/add-as-preferred-source/public/images/light/google-preferred-source-button.png",
-        "publishedAt": "2026-11-12T20:02:11+00:00",
+        "title": "Send Us Your Holiday Coffees For A Festive Podcast Cupping!",
+        "source": "Sprudge",
+        "sourceUrl": "https://sprudge.com/send-us-your-holiday-coffees-for-a-festive-podcast-cupping-1605731.html",
+        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Friends, Romans, countrymen, lend me your blends.",
+        "image": "https://sprudge.com/wp-content/uploads/2025/12/holiday-blends-guide-buzzy-and-spesh-in-a-coffee-snowstorm.jpg",
+        "publishedAt": "2026-11-16T18:48:51+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-2",
         "rank": 2
       },
       {
-        "title": "Researchers Have Created A Plant-Based To-Go Cup Liner To Keep You From Drinking Microplastics",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/researchers-have-created-a-plant-based-to-go-cup-liner-to-keep-you-from-drinking-microplastics-1586042.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Researchers have created a new plastic-free liner for to-go cups.",
-        "image": "https://sprudge.com/wp-content/uploads/2020/11/microplastics-paper-cup.jpg",
-        "publishedAt": "2026-11-12T17:41:33+00:00",
+        "title": "Bean-less in Berlin: Lupine Coffee Gets Its Second Win",
+        "source": "Barista Magazine",
+        "sourceUrl": "https://www.baristamagazine.com/bean-less-in-berlin-lupine-coffee-gets-its-second-win/",
+        "summary": "A German coffee substitute with roots reaching back to 1897 is brewing a comeback, and a U.S. brand is carrying it across the Atlantic. BY BHAVI PATEL BARISTA MAGAZINE ONLINE Featured photo courtesy of Kein [...] The post Bean-less in Berlin: Lupine Coffee Gets Its Second Win app",
+        "image": "image/carosal/cafe-scene-6887.jpg",
+        "publishedAt": "2026-11-16T15:00:00+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-3",
         "rank": 3
+      },
+      {
+        "title": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
+        "summary": "For years, forced labor import bans have been viewed by many coffee companies as a remote legal concern. That perspective is changing, and quickly. U.S. Customs and Border Protection (CBP)...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/picked-coffee-drying-fermentation-620x414.jpg",
+        "publishedAt": "2026-11-16T14:00:10+00:00",
+        "category": "industry",
+        "categoryLabel": "Coffee Industry News & Trade Journals",
+        "id": "industry-4",
+        "rank": 4
+      },
+      {
+        "title": "Crema Coffee Roasters Rises Again in Nashville with New Roastery",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/11/16/crema-coffee-roasters-rises-again-in-nashville-with-new-roastery/",
+        "summary": "Continually rising like its velvety, golden-brown namesake, Tennessee-based Crema Coffee Roasters recently moved into a 2,400-square-foot standalone roastery in East Nashville. Boosting capacity for its growing wholesale, retail and online...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Crema-Coffee-Roastery-East-Nashville-1-620x414.jpg",
+        "publishedAt": "2026-11-16T13:20:57+00:00",
+        "category": "industry",
+        "categoryLabel": "Coffee Industry News & Trade Journals",
+        "id": "industry-5",
+        "rank": 5
       }
     ],
     "science": [
       {
         "title": "Tunable surface functionalities in coffee-waste–derived carbon enable high-capacity antibiotic adsorption",
         "source": "Nature",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ybFFYc0ZTSWJ5cEppVndWek1Ob1lKUmVUVHZldTNIN1p5S25fdS1JVE5HVUY5M1ZQNXJ2bEdxeXpoNk84cUhZcGp1UlJSY09vS1JXVEh4UjVEeVprOFI4",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLQ0tTZGp3T2J2eU5lM25ld0I5SThPUzFJS2pJQlV0amZpLXhpdkFBZDF3R2JFZDE5WlFEbkg2SzJ3NV8yZTNDVGhzWG53UmhQU1E1YU1SZXNQQ3BmUHlVUndySVFVRG9ua0hGQ05BQ05lQQ",
         "summary": "",
         "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2772416625003778-ga1.jpg",
-        "publishedAt": "2026-11-15T16:10:42+00:00",
+        "publishedAt": "2026-11-15T22:59:05+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
         "id": "science-1",
-        "rank": 4,
-        "imageLocked": true
-      },
-      {
-        "title": "Coffee Doesn't Just Help You Poop. It May Change The Physiology in Your Gut.",
-        "source": "ScienceAlert",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVmhtd2p0bWxYZ2wtV3ZkMm9xQ0pMUlRvSVBBMjFvX3pVTl9oM1dJTTY4dDNZbXlWUXU3Y1hqVE00X1l5azVINVhlWkNuV1EtZGR4Q3NHYkdONW4zdnVhdWdWb2g5RkVJeUJ5R2dIQTNWTGZCUTR6NUZSNFB4QnM2YlhwTjNSSUFiZ01jTFFrRmFzSXllcmtLWHRSczMtYWhDbndnZw",
-        "summary": "",
-        "image": "https://www.sciencealert.com/images/2026/11/GettyImages-540712457-2560x1440-1-1536x864.jpg",
-        "publishedAt": "2026-11-15T02:02:20+00:00",
-        "viaGoogleNews": true,
-        "category": "science",
-        "categoryLabel": "Coffee Science & Technical",
-        "id": "science-2",
-        "rank": 5,
-        "imageLocked": true
-      },
-      {
-        "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
-        "source": "Science Daily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZM191UEhYNFZBQmxRQVd3dV9yMWNlYjdMSkIyNktXOU5idU05SWlzRGQyVUJDSTJWZjc0Xy1MZlpERklDMlVnaUlab2RwMHRZNGJJdENDQjVBNjk4aWJpcEhzWDZBYkRCYm95c0tzbw",
-        "summary": "",
-        "image": "https://www.sciencedaily.com/images/1920/used-cone-coffee-filter.webp",
-        "publishedAt": "2026-11-14T11:44:21+00:00",
-        "viaGoogleNews": true,
-        "category": "science",
-        "categoryLabel": "Coffee Science & Technical",
-        "id": "science-3",
         "imageLocked": true,
         "rank": 6
       }
     ],
+    "reviews": [],
     "origin": [
       {
-        "title": "Norwegian study links one to two cups of coffee a day to lower risk of a second blood clot",
+        "title": "US coffee shop market: spend per capita reached US$154 in 2025, compared with US$25 in European branded chains",
         "source": "Comunicaffe International",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPckVfYWtsMnE2NExINmNMQTZGSTkzYVRUNGNNSXVDNmNGb1FSbzhpWWFGQ2lGaFVfM0hJV3ZXaXRGdFRPMmlScng4ZUJLeVlkWjZkWDFsZGROSDFKaW1lQnc4MjB6X1AxdFhBbnRXNmI0S2x3NUxRYlEyajFvemEzUDQyYTR2WktpcWphZ3plRTlnZl9fZlozMWt3YXpYeFYyamtaenNqRFdBVDVKbmlIMEhGcFk4eVNTQnNr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS1pueTVoZXZtNWppLW9MLUtScGRrZWFXdjd1Nm9iOW5KRmx2M2pZQm4zWUkzOFEtVE9xT29aX1FER3dxVkprYkI5eHo1V2VBaXNFRGdtWmh2Z1VFZWg0MU5nRTh6b0NYOUFNWUFINlBJVGJXbWFoYW5iem1QXzNWOGcwV2FOMFpPaFFtdDAyYXFPLWZuNlZxX2k2V1A5RlBpOUhNSS16UkFuT1VXVTljMzdnamRuU2pUbDJsbHRB",
         "summary": "",
-        "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/americano.jpg",
-        "publishedAt": "2026-11-12T23:30:29+00:00",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-11-15T23:59:13+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-1",
-        "rank": 7,
-        "imageLocked": true
+        "rank": 7
       },
       {
-        "title": "The Human Bean’s Coffee for a Cure tops $5 million for breast cancer support",
+        "title": "Lavazza Calendar 2027: the coffee ritual across three cities through the eyes of Goldberg, Majoli and Pellegrin",
         "source": "Comunicaffe International",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRV95UzR1ck5YcEFLX1dvaF9xUlg3bHlVSzljTDZuYS15clFvN2IwUmxHV29oUy1XMXpRWXJodGJGYU5WU2dBRlktSmE3cnU0TkxzRXh5NzRIdFdvSGNNa3hkV3FDNXFnYjJwYzJQeFdkOUFvcm9RQURjajY1Y3VfSzVGelE1OWpKbVRGTmNMMHRSU09IdnlsOGduUzlDTks2MFlfSV9R",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb0ZWTkNOX2FlMmR1MU1wTWotbzVJQ1I3Nl9NQW1IbEJNcUUteGNUMnZ2NFlWaDhhNHhuX0hBSnM0WEZFSVdPOEluSXcyalhFbXNMeVYtYXpJZzBiMHhkSzRQdTY4amotakJGUHJNT2ZybjZpa3hwZDR4cjR0LVlIZC1fbUFDYWNCeFFLeEh3RFFKWmhaeVdMMExPdG9sM09uZ2Y5Qm92RVZoRmZ6SEJlUTQ1anByMzlWdGpaTGxtOWlIX3ZRU3VOV0FMbHllaS1oSzNFSQ",
         "summary": "",
-        "image": "https://www.comunicaffe.com/wp-content/uploads/2022/12/The_Human_Bean_Logo.jpg",
-        "publishedAt": "2026-11-12T23:10:19+00:00",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-11-15T23:55:19+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-2",
-        "rank": 8,
-        "imageLocked": true
+        "rank": 8
       }
     ]
   },
@@ -248,6 +237,245 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sb1A4RzlLSmNIa2Vjd1paT05Cc0lWZUZxd3cwODI5bGljZ0hhUGR4SC02bFRia05FZXNQVmxaWjdaa1lxY0xFRHBRX01uUVRwM1hwZHB6M1F6dw",
       "title": "Patrick Smith - Daily Coffee News",
       "deletedAt": "2026-10-21T16:33:23.431Z"
+    }
+  ],
+  "log": [
+    {
+      "ok": true,
+      "source": "Sprudge",
+      "n": 30,
+      "url": "https://sprudge.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Daily Coffee News",
+      "n": 30,
+      "url": "https://dailycoffeenews.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Perfect Daily Grind",
+      "n": 30,
+      "url": "https://perfectdailygrind.com/feed"
+    },
+    {
+      "ok": false,
+      "source": "Roast Magazine",
+      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
+      "url": "https://roastmagazine.com/feed"
+    },
+    {
+      "ok": true,
+      "source": "Standart",
+      "n": 1,
+      "url": "https://standartmag.com/blogs/journal.atom"
+    },
+    {
+      "ok": true,
+      "source": "Barista Magazine",
+      "n": 30,
+      "url": "https://www.baristamagazine.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Fresh Cup",
+      "n": 30,
+      "url": "https://freshcup.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Coffee Talk",
+      "error": "HTTP Error 500: Internal Server Error",
+      "url": "https://www.coffeetalk.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Barista Hustle",
+      "n": 30,
+      "url": "https://www.baristahustle.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Ad Astra",
+      "n": 30,
+      "url": "https://coffeeadastra.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Scott Rao",
+      "n": 0,
+      "url": "https://www.scottrao.com/blog?format=rss"
+    },
+    {
+      "ok": false,
+      "source": "Jim Seven",
+      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
+      "url": "https://www.jimseven.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "World Coffee Research",
+      "n": 0,
+      "url": "https://worldcoffeeresearch.org/news/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Nature",
+      "n": 52,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "News-Medical",
+      "n": 100,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Medical Xpress",
+      "n": 99,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Phys.org",
+      "n": 67,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "The Conversation",
+      "n": 29,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "ScienceDaily",
+      "n": 80,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "ScienceAlert",
+      "n": 7,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Coffee Review",
+      "n": 30,
+      "url": "https://www.coffeereview.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "CoffeeGeek",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://coffeegeek.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Home-Barista",
+      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
+      "url": "https://www.home-barista.com/rss.xml"
+    },
+    {
+      "ok": false,
+      "source": "Coffee Chronicler",
+      "error": "HTTP Error 415: Unsupported Media Type",
+      "url": "https://coffeechronicler.com/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Espresso My Espresso",
+      "error": "disabled: 403 for every client tried (checked 2026-10-06)",
+      "url": "https://espressomyespresso.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Serious Eats",
+      "n": 99,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Gear Patrol",
+      "n": 100,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": false,
+      "source": "SCA News",
+      "error": "disabled: times out from here and from GitHub (checked 2026-10-06)",
+      "url": "https://scanews.coffee/feed/"
+    },
+    {
+      "ok": false,
+      "source": "Sweet Maria's",
+      "error": "disabled: feed address returns 404 (checked 2026-10-06); no replacement found",
+      "url": "https://www.sweetmarias.com/blog/feed"
+    },
+    {
+      "ok": true,
+      "source": "Perfect Daily Grind Origins",
+      "n": 30,
+      "url": "https://perfectdailygrind.com/category/origins/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Cafe Imports",
+      "n": 0,
+      "url": "https://cafeimports.com/feed/"
+    },
+    {
+      "ok": true,
+      "source": "European Coffee Trip",
+      "n": 8,
+      "url": "https://europeancoffeetrip.com/feed/",
+      "via": "google-news",
+      "directError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ok": true,
+      "source": "Not a Barista",
+      "n": 30,
+      "url": "https://notabarista.org/feed/"
+    },
+    {
+      "ok": true,
+      "source": "Comunicaffe",
+      "n": 72,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Fairtrade",
+      "n": 12,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "International Coffee Organization",
+      "n": 19,
+      "url": "google-news",
+      "via": "google-news"
+    },
+    {
+      "ok": true,
+      "source": "Specialty Coffee Association",
+      "n": 0,
+      "url": "google-news",
+      "via": "google-news"
     }
   ]
 }
