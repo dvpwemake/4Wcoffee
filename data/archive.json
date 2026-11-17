@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-17T22-54-31",
+      "scannedAt": "2026-11-17T22:54:31.955505+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Caffè Trucillo Pioneers Water-Free Coffee Roasting Method",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111370/",
+          "summary": "Caffè Trucillo adopts a groundbreaking water-free roasting process, enhancing coffee quality while addressing regional water scarcity concerns. The post Caffè Trucillo Pioneers Water-Free Coffee Roasting Method appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/afrah-Qwiwjf3oZ1U-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T21:07:52+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Luckin Shifts to Focus on More than Just Coffee",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111368/",
+          "summary": "Luckin Coffee shifts focus from coffee to a diverse drink menu, aiming to redefine its business model amid growing store density and competition. The post Luckin Shifts to Focus on More than Just Coffee appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/luckin-store3.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T21:03:47+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Turning Coffee Grounds Into Biodiesel And Other Eco-Alternatives",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/turning-coffee-grounds-into-biodiesel-and-other-eco-alternatives-1625139.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A new process allows for the extraction of oils for biodiesel while keeping the remaining structure in tact.",
+          "image": "https://sprudge.com/wp-content/uploads/2022/11/coffee-biodiesel.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T18:36:54+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Study Says Genes May Determine Coffee’s Link to Parkinson’s Risk",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/17/study-says-genes-may-determine-coffees-link-to-parkinsons-risk/",
+          "summary": "While drinking coffee has been occasionally associated with reduced risk of Parkinson’s disease, a new study suggests how and why that association may differ depending on the individual. Researchers analyzing...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/drinking-coffee-620x419.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T18:27:46+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Coffee, salt and exercise: What really matters when lowering blood pressure?",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVk9CbjhLMEZKeEc4Nnh3Wl9hSzVOMTV2UmVvdk5YYXlsZ19OQ2ozZ1BfQkxZYjRkUkYyYVNqcTBVX1h3bmJlaF9pWk1VeXZoZ0J5eGdEUzY1ZTlDQjltYTJvX1drbXh3alk1MWVHOUhlOTZkd2FVbVphaWx4R2NhV0psaE1naTdOdWxjT2JiNmZrTnFlLWFJUTFaVFFGaUktV01qZEtaVVlHX1BPWFhFSHpUNDNJZlpqbzZwc01B",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T00:37:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Tunable surface functionalities in coffee-waste–derived carbon enable high-capacity antibiotic adsorption",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jMzdOczBwSXcxaHc4T3FlakpsVEFVdFNlUHh2ZUJTWF9GTTYtM1pWMFZJelcxZW1Jelc2aF83MlpEX0VENnpGSVJ2czBnejNUMFhGcGFYMnd5cUhXb21ZZDMyWm8",
+          "summary": "",
+          "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2772416625003778-ga1.jpg",
+          "imageLocked": true,
+          "publishedAt": "2026-11-15T22:52:30+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "origin-1",
+          "title": "Simonelli Group teams up with BiosYness to explore new uses for coffee silverskin",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS2UxTk1BS2ZsYW1DZXdSNE5MWC1yQVV6OHA1Smx0Z2VlRjF4aFFhSGgzaXFOV1cxUnhrZDY0RzB2NW8xUHZBLU1qMldlMHNXem1fQU1JNjQ4X3JVLWlvUGpibkZJNExTb0pPMW1iV2lpbExKcE1FQ2Z6MzU4elpMY2otRWlBNFJaVlYzV29PQVNxdXR5aVJWeU5BSGVoRW5SclYyOEh6dVRlUGtFYjZJ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T16:53:47+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "George Peng",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/george-peng/",
+          "summary": "After Becoming World Champion, George Peng Still Has Coffee to Make. George Peng used to deal with pressure by posting strange things on WeChat Moments. Sometimes it was nonsense, sometimes a movie scene, sometimes a Stephen Chow reference that said what he wanted to say without ",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/09/George-Peng-at-competition-1024x640.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T13:00:00+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-16T23-46-06",
       "scannedAt": "2026-11-16T23:46:06.781730+00:00",
       "items": [
@@ -3193,26 +3295,6 @@
           "publishedAt": "2026-10-15T22:35:14+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-17",
-      "scannedAt": "2026-10-18T23:42:06.078Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-17",
-          "rank": 0,
-          "title": "Redefining the Coffee Horizon",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "From unexpected European terroirs to shifting consumer tastes, specialty coffee is redrawing its global boundaries.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/new_diner_mug_matte_black_white_gloss_gray_b2b_lifestyle_motofish_021226_009.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-17.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-17"
         }
       ]
     }
