@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-15",
+      "scannedAt": "2026-11-18T00:51:51.136Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-15",
+          "rank": 0,
+          "title": "Beyond the Brew: Coffee Science, Circular Waste, and Community Impact",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "New research reveals how spent grounds, daily cups, and plastic-free packaging are redefining coffee’s role in health and sustainability.",
+          "image": "https://www.sciencealert.com/images/2026/11/GettyImages-540712457-2560x1440-1-1536x864.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-15.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-15"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-17T22-54-31",
       "scannedAt": "2026-11-17T22:54:31.955505+00:00",
       "items": [
@@ -3212,89 +3232,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-18.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-18"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-19T20-38-08",
-      "scannedAt": "2026-10-19T20:38:08.394495+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Ethiopian Researchers Develop Ultrasound Method to Transform Coffee Parchment Waste to High-Purity Cellulose",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111161/",
-          "summary": "Researchers in Ethiopia have developed a method using ultrasound to transform coffee parchment waste into high-purity cellulose, enhancing sustainability in the coffee industry. The post Ethiopian Researchers Develop Ultrasound Method to Transform Coffee Parchment Waste to High-P",
-          "image": "https://coffeetalk.com/wp-content/uploads/susan-wilkinson-xuGGytlK0-E-unsplash-scaled.jpg",
-          "publishedAt": "2026-10-19T20:27:13+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Mill City Roasters Delivers First All New M-Series 20kg Roasters; The Third New Model Released This Year",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/mill-city-roasters-delivers-first-all-new-m-series-20kg-roasters-the-third-new-model-released-this-year-1485525.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Three M-Series models now in production at Minneapolis facility; 30kg model to begin build in January 2027.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/mcr-image-20kg_1024-copy.jpg",
-          "publishedAt": "2026-10-19T19:12:17+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "Chris Diskin: The Sprudge Twenty Interview",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/chris-diskin-the-sprudge-twenty-interview-1278658.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with Chris Diskin of Oxo.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_chris-diskin.jpg",
-          "publishedAt": "2026-10-19T18:21:21+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Yoghurt, coffee and chocolate have something in common, and researchers mapped it across Europe",
-          "source": "News-Medical",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTRTckIxeVhVLW9ZTnNfTHVBU1VZSEtoUV96UklBdWMxWW9tM1NVMkswVDFQdmVERHg3WXpjZnUxQXlOR0hSVXdCclgxdjVRQ2prZm04MW5JZmNoUmdhSU9SUl85bDlHMWVyclFHLUNaZzJLRWJ2MHdQaGg5eVczM3NWX05XZjlfOFFVVjZ1eXBRWEhEQzJmQWZtRkV1ckhVRUxHZldicDQ0bzl4dVRrQl95cTFIM2ZEMGFiWjNLWVdjTHE4MURFWFBKaWFUbkNhRDhSU2hESDU",
-          "summary": "",
-          "image": "https://www.news-medical.net/image-handler/ts/20261018085512/ri/1350/src/images/news/ImageForNews_848988_17923713107972260.jpg",
-          "publishedAt": "2026-10-19T01:05:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "An international multilocation trial reveals genotype-by-environment interactions in Arabica coffee across climate gradients",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81aWhBQWVkV2ZFS3hjWXM5M3ZRUU5DR0FTM1lQLXdTWllSdmVrcEc5SmQ3elpLSUZyNFBUbGN6Nmp0OXJHNjlsMW5LUzQ3UmRRcVVvQ3BfTmlzSFhKTmFseVdIYUE",
-          "summary": "",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "publishedAt": "2026-10-02T07:00:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-1",
-          "title": "University of Hawai set to receive $40 million to support local coffee, cacao farms, boost production",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWdMMVh4ZUZNbHNTQVIwa3BJVTg0VGVBU1gxcXJBbHRreVo0czBCQ0lUZEhVeHBOck1vbE5FTVJkVExTZVB5c1FqcnhuUm94Y21RUk5ndnRTX2F2VmFZV3Q4V2VxNnloYXlvVFdPOEVrNm9vN1cwQjRkcVZXMkFIOEctU09manZIaDhWMjh3UllSbW9TaXF6OVZoZDVSR25xWUd1OFV6TklWU1B5dTdRWlNjV0s1MlNQNFRHd2NKNENqUjEwOEE",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Kona_Coffee_fruits2.jpg",
-          "publishedAt": "2026-10-19T10:51:08+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "essential COSTA RICA launches anime inspired campaign to promote Costa Rican coffee in Asia",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYzVqNkVkQkxuLXhNajRZRWZJRnFDQTVCNEdmNzBsUy13dFh6MjhJY1RmYUtlSTNFQW41bldHWkFYdjdIX1dQOWQtd05kcjdNNHY0V0Y4dDIxQ0tSTEc1T1duNjBJWndrZm9kVGk3Z2U0TU5BRXBVRzBWU2dXZmtMUjdkc1FMUU13REI2ZHhwa0Y4NTZ3Q25GTHdxTjhTMXprcDk2UW1PdWdNV0pFemU5dTFmZTZMYnFXZmlqYQ",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Producers-of-Wellbeing.jpg",
-          "publishedAt": "2026-10-15T22:35:14+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
