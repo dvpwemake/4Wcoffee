@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-18T22-37-53",
+      "scannedAt": "2026-11-18T22:37:53.603123+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Coffee Waste Transformation: New Research Unlocks Biofuel and Chemical Potential",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111403/",
+          "summary": "Researchers have discovered a method to convert discarded coffee grounds into biodiesel and other valuable products, highlighting their potential as a renewable resource. The post Coffee Waste Transformation: New Research Unlocks Biofuel and Chemical Potential appeared first on C",
+          "image": "https://coffeetalk.com/wp-content/uploads/tamas-pap-RJPrJQXlmng-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T22:02:28+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Freeze-Dried Fruit Brand Releases a Coffee Cube That Dissolves in Hot or Cold Water",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111400/",
+          "summary": "OhCrisp launches OhSip, a new brand offering convenient freeze-dried coffee cubes made from 100% Arabica coffee, designed for easy preparation anywhere. The post Freeze-Dried Fruit Brand Releases a Coffee Cube That Dissolves in Hot or Cold Water appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/ohsip-freeze-dried-coffee-cubes.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T21:58:55+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Bad Bunny, Great Coffee: Brewing On Tour With The International Superstar",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/bad-bunny-great-coffee-brewing-on-tour-with-the-international-superstar-1250962.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Abner Roldan of Café Comunión on serving coffee at the Bad Bunny world tour.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/badbunny-cafe-comunion-1.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T19:38:15+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Rotterdam’s A Matter of Concrete Just Released Their Own Hi-Fi Speaker",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/rotterdams-a-matter-of-concrete-just-released-their-own-hi-fi-speaker-1626371.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. The AMOC-FFF-01 is limited to an initial run of just 10.",
+          "image": "https://sprudge.com/wp-content/uploads/2026/11/a.m.o.c.-×-fff-5.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T16:00:22+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Coffee saucer grading system: a novel method for stratifying corneal trauma in the International Globe and Adnexal Trauma Epidemiology Study (IGATES) registry",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaOHJFXzRFN2I1b2hJUGw5TzFZTEVkNXJLWGp1UF9lQzNiX3B6TVNCVWRUTUtvYjF4RDZ1OTVtc3IwaFVtYUc4dDlSTk9GTWlTdUNSMTBrQVE5YXBZcWRz",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T16:30:45+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "I Tested 10 Gooseneck Kettles to Find Which One Produced the Best Pours",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hcGZad0s3VmU2YzZmUGJQTzNJQ0FsTS03TDk2SXY5M29DcDlzMmRIV0F0U01FY1MyYmFIcUQxQWlmZWRiWkdLZkFqUEg3clJyVnplc1o3WEQzT0l0MWRwMFB2cW9FdlVKNXc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T17:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "BB Kafé",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TcjJzVS1CMGEyb1BqdU9TX2Y5WElIWGV2QndDdUVnekNaMlI5TXZfb3ZwLW04Uy0yZmt0eTZSY0hrZmZmdXRnT1lFSjVHanlwcXpfTHV3ZTRZTjI0TzZQTnQ2MmRsMzg",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T18:54:15+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Unity Coffee Roasters Lisboa",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoVEhGWDNOZlNzRVVYak9DZHBYSmpQbkNpQ2gtcVlsRWFFOVFYc0VFSWdSTElRMV8yQTJYU1ZEdVljR0sxV0tZOTJCTDBBMHF6c1p0N0Q4VzdXUmRyNVoySU5EOTRzNERkYXhnV3RfaF8",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T16:46:10+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-15",
       "scannedAt": "2026-11-18T00:51:51.136Z",
       "kind": "editorial_archive",
@@ -3212,26 +3314,6 @@
           "publishedAt": "2026-10-18T22:55:03+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-18",
-      "scannedAt": "2026-10-20T02:20:45.065Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-18",
-          "rank": 0,
-          "title": "Beyond the Bean: Labor, Climate, and the New Cafe Economics",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "As shifting weather patterns disrupt global markets, the specialty coffee industry is adapting through historic union protections, accessible roasting tech, and radical sustainability.",
-          "image": "https://coffeetalk.com/wp-content/uploads/iStock-528280178.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-18.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-18"
         }
       ]
     }
