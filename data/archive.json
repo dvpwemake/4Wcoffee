@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-19T22-40-52",
+      "scannedAt": "2026-11-19T22:40:52.418266+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
+          "summary": "Brazil’s completed 2026/27 coffee harvest is now estimated at a record-high 72.5 million 60-kilogram bags, up 15.1% from the previous market year, although heavy rains reduced arabica quality, according to...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Brazil-Coffee-Market-report-620x400.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T15:10:49+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Frozen Hot Chocolate Is Having Its Moment",
+          "source": "Barista Magazine",
+          "sourceUrl": "https://www.baristamagazine.com/frozen-hot-chocolate-is-having-its-moment/",
+          "summary": "Sometimes, the most comforting drink is the coolest. BY DELILAH L. MORRIS FOR BARISTA MAGAZINE Featured photo by Patrick Fore What to know: In areas experiencing warmer autumns and winters, cafés are seeing customers looking [...] The post Frozen Hot Chocolate Is Having Its Momen",
+          "image": "image/carosal/cafe-scene-6887.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T15:00:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Bicarbonates extracted from coffee silverskin biochars remediate bacteria from contaminated water",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2alBqYWVVTWFzdG9WUTFNX1BBcTFzNmVBVU9XVXZ1ZG42Ny1iblZXd2h5Q000YjFGYTg2dFYxUnp6X2JhWi0tRkVtQ18ta2tTa0FCZHN0U2hSUFRsM0VJ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T13:14:09+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "science-2",
+          "title": "Scientists trace how cells respond to alcohol, nicotine, and caffeine",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcEk3ZVktbTZtcVNoT211OHVGX1psSlJVWDJBaEltVEFJdVk3MEpwQ2lOX1NPc2Q4UXBYZXltanZLZlhTRVZUWmljS3B1RXlFUzZmTS16NWVYLWF1Y2pqLTlRdWhRV0YzQWlneDhTY1dCN2V4b3JEa21uWnV2aGdJMml4bFF1NVk4RFFsUVlpMHZMOXFFTEZTMHA0eXk5SWJPSDBOZGMzaG5sQnpxVW5hQndWQ2JfZw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-18T18:17:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "I Tested 24 Electric Kettles—This Breville Gets My Tea Just Right",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xMjdja3V5d0ZBbEp0dWZIaHR3dDAxT0ZqeXFDODJ6Y0k2RDNPUGxMYnhmM0pCWlFZbjRDMnl1T0hnVG81cVQyM3hoYXJSNjhaeUJPYk8xcFU1ZThpSElOWlFaSExPWFZRMTRJVkFUSlk1Q0tFTUxvSkdR",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T16:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "The 10 Best Single-Serve Coffee Makers, Including Nespresso, AeroPress, and OutIn",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41YXNmY3hDUFg0eHlzTGdTQVFBWG5LNElCdWFTbktBLWxTbElVWnJGbFN1OWU3OFljUTltdFVhMlBQaURzQUVIdEc3NUFWemVYeU5sVnlVdDdvbnZuWUU5b2hxVVZQT1IwMUdoRFpsUE5INXo1VlE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-17T08:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Tomáš kafebar",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Mdkc2SkpZRmJpeV9YU1BTWUU4WUJacVpGWnd4MXIxNGVpQTlpb0hJRE5HVThDYWJ1Z25jZExiWWJBSDFPZjNiM1BnSUEwdTgyOXl0bXBsX1k1MHB5Tm5QTjFhUjl3cDA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T17:23:06+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "We Didn’t Do This Alone: The Results of GCAG 2026",
+          "source": "Not a Barista",
+          "sourceUrl": "https://notabarista.org/we-didnt-do-this-alone-the-results-of-gcag-2026/",
+          "summary": "From coffee shops around the world to a small village in Indonesia, here’s what our coffee community accomplished together. $4,649 raised. Three days of free coffee education. Eighteen participants. And a lot of people who made it possible. When we started planning GCAG Charity C",
+          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/11/GCAG-2026-Indo-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T09:35:34+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-18T22-37-53",
       "scannedAt": "2026-11-18T22:37:53.603123+00:00",
       "items": [
@@ -3231,89 +3333,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-19.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-19"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-20T19-20-19",
-      "scannedAt": "2026-10-20T19:20:19.334677+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "2027 Roaster of the Year - Daily Coffee News",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sVVc5UThIR3BabFU4eF9CblBOX25DYVZUcHZwcnpPaEl3V2syRlVQN2o4LTI1cElhOVdIekFrNVdZTk9zZ3ZqckRyZkROQkp2LU5STkVxbHl2THB0Y2tyNE8tMmFpMDJP",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/DCN-ROY.jpg",
-          "publishedAt": "2026-10-20T16:39:21+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Phil & Sebastian Announces Second Edition Of Project III, Featuring Ratibor Hartmann, Proud Mary, And MAME",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/phil-sebastian-announces-second-edition-of-project-iii-featuring-ratibor-hartmann-proud-mary-and-mame-1486270.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Three international roasters come together to explore the extraordinary Geisha coffees of one of Panama's most influential producers.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/project-iii-release-2-box-copy.jpg",
-          "publishedAt": "2026-10-20T15:33:03+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "The Analytics Of Autumn: Trends And Surprises From The 2026 Build Outs Of Coffee",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-analytics-of-autumn-trends-and-surprises-from-the-2026-build-outs-of-coffee-1457338.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Looking back at the 2026 Build-Outs of Coffee, by the numbers.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/09/stumptown-la-booc-1.jpg",
-          "publishedAt": "2026-10-20T14:00:38+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "reviews-1",
-          "title": "Timemore S5 Review: Punchy Heavyweight",
-          "source": "Coffee Chronicler",
-          "sourceUrl": "https://coffeechronicler.com/timemore-s5-review/",
-          "summary": "Timemore’s boldest conical burr brings punch to light roasts. But did it land a knockout against the mid-range rivals? The post Timemore S5 Review: Punchy Heavyweight appeared first on The Coffee Chronicler .",
-          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2026/10/IMG_9874-scaled.jpg",
-          "publishedAt": "2026-10-20T14:21:11+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "helisu coffee co.",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2QU9zd25FemFpNUUyakhYZEJ2empnYUFKckZxZzhaanN4dm1PRE1IQUVJNzNmXzlTZ1V4Z0hYUUEyNU5FZjI3VXN5dXp1SHhCUW9XczYyVnNRTm5iSE9QQXhVVTZvVzRXS1NGbg",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/35589/dsc02465-v2.jpg",
-          "publishedAt": "2026-10-20T13:11:57+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Coffee Decoded: The Chemistry of Decaffeination",
-          "source": "Specialty Coffee Association",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yaUlPMUJ5YVNxbkZtV1dQU05vWDZ6MHlpNFFZVjZreEtBb3k1c1pGRGlKSHpEMmR1VDNYX1doWVZYM1N1REFZa1d5Vm95cjNYRVBtQ2xjNGVFOWdjdktDVGhkX0JrcThkcUt6NUlkbkM3dw",
-          "summary": "",
-          "image": "https://images.squarespace-cdn.com/content/v1/69fdd798dd17f065f214726e/6efe55c3-eb35-4d01-bf93-635bf17c1f7f/Issue+21.png?format=2500w",
-          "publishedAt": "2026-10-19T18:09:46+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "TriestEspresso Expo 2026 unites coffee value chain in Trieste with focus on business and innovation",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQjlXYWp2dy0zYTMtYXlXMmJVWHAyZkpwVHJwODFsT3NURmF0V1IzWmZvQnpVc2ZNOE4xeE1ZeS01Y0JDT1VVc2FzLTJqdXMtZ0NCYXdjUWQtMXNCc2hVTV9HQXdjLUZndC03ZGFfdEx1eHZEbU9SRDl6UktrakE4NkF3bEREWllHOHFpR083OV8zQjhqQ3VqcWdnWkxhaVp0X2tWbHQxcEQzVWEzbHI3S1dxLWRXbDk5Q1prVDgzb0s5WGotdjM0",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/foto-conf-stampa-1068x601-1.jpg",
-          "publishedAt": "2026-10-18T22:55:03+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
