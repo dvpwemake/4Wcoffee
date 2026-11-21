@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-11-20T22:16:37.822892+00:00",
+  "scannedAt": "2026-11-21T20:56:01.667568+00:00",
   "categories": {
     "industry": "Coffee Industry News & Trade Journals",
     "science": "Coffee Science & Technical",
@@ -8,83 +8,58 @@
   },
   "items": [
     {
-      "title": "SourceOS Brings the Fractional Model To Green Coffee Sourcing",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/sourceos-brings-the-fractional-model-to-green-coffee-sourcing-1654778.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Like a fractional CFO, SourceOS gives roasters a senior green buyer without a full-time hire.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/11/sourceos_website_sourceos-coffee-copy.jpg",
-      "publishedAt": "2026-11-20T21:29:41+00:00",
+      "title": "New Product: Bellwether’s Updated Shop Roaster Gets Rebuilt On The Inside and Out",
+      "source": "Fresh Cup",
+      "sourceUrl": "https://freshcup.com/new-product-bellwethers-updated-shop-roaster-gets-rebuilt-on-the-inside-and-out/",
+      "summary": "Roasting coffee usually means vents, permits, and construction. Bellwether’s updated Shop Roaster model only needs a standard outlet. The post New Product: Bellwether’s Updated Shop Roaster Gets Rebuilt On The Inside and Out appeared first on Fresh Cup .",
+      "image": "https://freshcup.com/wp-content/uploads/2026/11/DSC09995-roasting-5mb-1-1024x683.jpg",
+      "publishedAt": "2026-11-20T12:50:00+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-1",
       "rank": 1
     },
     {
-      "title": "Tea Huntress’ Bestseller Gets Its Own Brand: Sarah Scarborough Launches Stardust Teas",
-      "source": "Sprudge",
-      "sourceUrl": "https://sprudge.com/tea-huntress-bestseller-gets-its-own-brand-sarah-scarborough-launches-stardust-teas-1654474.html",
-      "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. 30-year tea industry veteran introduces instant ritual beverage line featuring cult-favorite Moon Milk and sister product Sun Chai to make daily wellness effortless.",
-      "image": "https://sprudge.com/wp-content/uploads/2026/11/stardust_teas_product_10.16.26-7-copy.jpg",
-      "publishedAt": "2026-11-20T20:39:22+00:00",
+      "title": "Three Questions with “The Little Bean That Grew to Brew” Author and Artist Wendra Lynne",
+      "source": "Daily Coffee News",
+      "sourceUrl": "https://dailycoffeenews.com/2026/11/19/three-questions-with-the-little-bean-that-grew-to-brew-author-and-artist-wendra-lynne/",
+      "summary": "Author and illustrator Wendra Lynne has released her second picture book, “The Little Bean That Grew to Brew,” following a successful Kickstarter campaign for the independently published project. The story...",
+      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/The-Little-Bean-That-Grew-to-Brew-Wendra-1-620x438.jpeg",
+      "publishedAt": "2026-11-19T13:57:24+00:00",
       "category": "industry",
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-2",
       "rank": 2
     },
     {
-      "title": "Weekly Coffee News: Rocket Showroom in Geneva + New Labor Abuse Case",
-      "source": "Daily Coffee News",
-      "sourceUrl": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
-      "summary": "Rocket Introduces Modular Retail Concept With Chronic Coffee in Geneva Italian espresso machine maker Rocket Espresso has introduced a new retail concept inside Chronic Coffee Roasters at Rue Argand 2...",
-      "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Rocket-Espresso-620x414.jpg",
-      "publishedAt": "2026-11-20T14:26:22+00:00",
-      "category": "industry",
-      "categoryLabel": "Coffee Industry News & Trade Journals",
-      "id": "industry-3",
-      "rank": 3
-    },
-    {
-      "title": "Two to three cups of coffee a day may be the sweet spot for lower stroke risk",
-      "source": "News-Medical",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdDNzSkdMOEpxMVQ1VDF0X3dLSFZkZk9sYV9kVUphVWxFTzh1Vm5TMUFnSWx3SEhfbVJBWXNoMnBObHUxWGtMUDIyOEpOb1RLRC1sVHNwTWlVclV3aGUxdjZRNFJpRUd2NzA4R2haNVA0WU1aV0lQdy1oV3hwMFJtMDRnclhQakpQT00wdlI0a3BSSzJZS2MwUXJlSEJwd094OW5VcnRNdjRaSXBrbFIxSUFrVnhNRS1zQ21QQXdFcTJVbU0",
+      "title": "Functional changes of testicular Sertoli cells induced by prenatal caffeine exposure and their mechanisms",
+      "source": "Nature",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJbjh6bW9ZNXJXbVNfbnFTSGhlbjhMZVQ0dnZnM3hwV3IyLUFETnZZNzF2azlONjNzT091UDFuSjdFSmJ3b2ZGZlhvcmQ4QjdtVktDdWEtRC1vNU5QZWRTeGlhWkhaOWpyRk5IV01lcGlGUQ",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-11-20T00:39:00+00:00",
+      "publishedAt": "2026-11-11T08:00:00+00:00",
       "viaGoogleNews": true,
       "category": "science",
       "categoryLabel": "Coffee Science & Technical",
       "id": "science-1",
-      "rank": 4
+      "rank": 3
     },
     {
-      "title": "Bicarbonates extracted from coffee silverskin biochars remediate bacteria from contaminated water",
-      "source": "Nature",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wOWhLMmpfRzlFQk5ycUVDR2lkQmdYdjJTcTU0eVNyb0FaaTZuYXRQWE55OGVZVEZkOEJEc29hckFhRkxuMkFRVTVqTXhETTF6UTJfZS1Qd0h4aks0XzRmeXlfNno",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-11-19T13:14:09+00:00",
-      "viaGoogleNews": true,
-      "category": "science",
-      "categoryLabel": "Coffee Science & Technical",
-      "id": "science-2",
-      "rank": 5
-    },
-    {
-      "title": "The Mavo Lumicurve: A $100 Coffee Scale With Brew Curves",
-      "source": "CoffeeGeek",
-      "sourceUrl": "https://coffeegeek.com/blog/new-products/meet-the-mavo-lumicurve-a-100-dollar-coffee-scale-with-brew-curves/",
-      "summary": "The specialty coffee equipment market is saturated in a few areas, coffee scales among them. In a field more or less started by the original Acaia Pearl in 2014, we now see a constant influx of digital scales offering minor aesthetic updates while ignoring functional or game-chan",
-      "image": "https://coffeegeek.com/wp-content/uploads/2026/11/Mavo-Lumicurve-Hero-1-800x533.jpg",
-      "publishedAt": "2026-11-19T23:00:00+00:00",
+      "title": "Review: My Thoughts on the Outin Nano Espresso Maker",
+      "source": "Coffee Chronicler",
+      "sourceUrl": "https://coffeechronicler.com/outin-nano-review/",
+      "summary": "The Outin Nano may look like a thermos, but the coffee it produces is close to a real espresso machine. The post Review: My Thoughts on the Outin Nano Espresso Maker appeared first on The Coffee Chronicler .",
+      "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2024/06/featured-image-Outin.jpeg",
+      "publishedAt": "2026-11-20T08:12:00+00:00",
       "category": "reviews",
       "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
       "id": "reviews-1",
-      "rank": 6
+      "rank": 4
     },
     {
-      "title": "Barista Stories: Tristan Bonnet of Cagibi, Marseille",
+      "title": "Magazine",
       "source": "European Coffee Trip",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41ckF6V2F1bUdtd0Y2RE9fc3JGaldrQ09CZWlqbFRlMG5yS3VzYzVBSzNqYjlraEYwdmZjY2EzVGxYc2hEd2lmVzBBa0ljTi1CMUhQVEJaTDZRUE0wNlQ5VkY0NUFUY1A5UVdrTXFIQQ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pdmZfYjlGM3E5QXJXZHEzU1h2ODhJMEx5SXNxRE1iNGM3dEprUHdIcUdDMlRvLWZXOWFvd1ZQV0pCQW9zdmMwR3ZUcnBBek5IWVE",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "publishedAt": "2026-11-20T15:21:55+00:00",
@@ -92,108 +67,109 @@
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-1",
-      "rank": 7
+      "rank": 5
     },
     {
-      "title": "Cagibi",
+      "title": "Swieżo Upieczona Café",
       "source": "European Coffee Trip",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PWUdxWGhFdDFmd2lYN2dkaTNoODQtamxYRUNCRzY5d09OWWZMS25JSEUtc282NnpMRzg2dWFSTnVGM3pRLTNGWjREMlB5aTVxMmxtY2w0Ykp6b2hWQ1dsLWlYSQ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aSkFZSVZmWVRteC10U3VxR0R1YUp4cDloZHZZaDZySWJEbTVvWE9MV0lNR1V0ZGFQUEwza2Jsd3BsNTZlRUs5S2FCU205RlVleDVmX1JTcDNzc0NITktEaHl3UVlObm9pUVNqSUo1VTc",
       "summary": "",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-11-20T14:43:52+00:00",
+      "publishedAt": "2026-11-20T14:43:33+00:00",
       "viaGoogleNews": true,
       "category": "origin",
       "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
       "id": "origin-2",
+      "rank": 6
+    },
+    {
+      "title": "Suffolk-Based Massimo Zanetti Beverage USA powers national hospitality innovation with rollout of Segafredo Cold Espresso",
+      "source": "Comunicaffe International",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVW1LcnEyaEkyQ1RjVm1iNC13Wm9rNG0zeWdNcFRCSTBXcU9aRnltZ1A3eWhDTjk4ampEdU5hd0prMS0tNXQxV3NYTy1XaWkxcU81ajl1UGp4TUxwYUNWSFMyVmdiVU51SzVwVkVHMjE5MXBpeXFZVGZ5eGdlS1UwbFNhdEhwUWwtN2FVV2JWM3NjNWl2YllxQmQ3emNDZF9fNUxfWU5scllfcXZmVzkzengzSEcwNmlIb1hYcm4zM2NKWnprb3l4QTltSjVFU3pBekozLV80U1JYLU9qcTFGd2ctbkM",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-11-19T23:57:35+00:00",
+      "viaGoogleNews": true,
+      "category": "origin",
+      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+      "id": "origin-3",
+      "rank": 7
+    },
+    {
+      "title": "Eight O’Clock Coffee expands portfolio with new Blonde Roast K-Cup pods",
+      "source": "Comunicaffe International",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeE04Q21IZ1BiRGU0Z3VpRFNyQzgxeVNUd1ZGRU9Xa09QaXVjZC1qR1BwbzZwYmpYYnFiSmkxUW9tazVWNWFjNkN3Y0xQSTZza0V2MjgzWEVjdzZlekdrSTRhMVkxRGhUOG85ZWdWRmxnc3N0eF9rODhnWmtkcTlSbWpwLUhJZVpfTllZeVowM21ldHhGUEtTUWNmQWl6OC1x",
+      "summary": "",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "publishedAt": "2026-11-19T23:20:12+00:00",
+      "viaGoogleNews": true,
+      "category": "origin",
+      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+      "id": "origin-4",
       "rank": 8
     }
   ],
   "byCategory": {
     "industry": [
       {
-        "title": "SourceOS Brings the Fractional Model To Green Coffee Sourcing",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/sourceos-brings-the-fractional-model-to-green-coffee-sourcing-1654778.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Like a fractional CFO, SourceOS gives roasters a senior green buyer without a full-time hire.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/11/sourceos_website_sourceos-coffee-copy.jpg",
-        "publishedAt": "2026-11-20T21:29:41+00:00",
+        "title": "New Product: Bellwether’s Updated Shop Roaster Gets Rebuilt On The Inside and Out",
+        "source": "Fresh Cup",
+        "sourceUrl": "https://freshcup.com/new-product-bellwethers-updated-shop-roaster-gets-rebuilt-on-the-inside-and-out/",
+        "summary": "Roasting coffee usually means vents, permits, and construction. Bellwether’s updated Shop Roaster model only needs a standard outlet. The post New Product: Bellwether’s Updated Shop Roaster Gets Rebuilt On The Inside and Out appeared first on Fresh Cup .",
+        "image": "https://freshcup.com/wp-content/uploads/2026/11/DSC09995-roasting-5mb-1-1024x683.jpg",
+        "publishedAt": "2026-11-20T12:50:00+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-1",
         "rank": 1
       },
       {
-        "title": "Tea Huntress’ Bestseller Gets Its Own Brand: Sarah Scarborough Launches Stardust Teas",
-        "source": "Sprudge",
-        "sourceUrl": "https://sprudge.com/tea-huntress-bestseller-gets-its-own-brand-sarah-scarborough-launches-stardust-teas-1654474.html",
-        "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. 30-year tea industry veteran introduces instant ritual beverage line featuring cult-favorite Moon Milk and sister product Sun Chai to make daily wellness effortless.",
-        "image": "https://sprudge.com/wp-content/uploads/2026/11/stardust_teas_product_10.16.26-7-copy.jpg",
-        "publishedAt": "2026-11-20T20:39:22+00:00",
+        "title": "Three Questions with “The Little Bean That Grew to Brew” Author and Artist Wendra Lynne",
+        "source": "Daily Coffee News",
+        "sourceUrl": "https://dailycoffeenews.com/2026/11/19/three-questions-with-the-little-bean-that-grew-to-brew-author-and-artist-wendra-lynne/",
+        "summary": "Author and illustrator Wendra Lynne has released her second picture book, “The Little Bean That Grew to Brew,” following a successful Kickstarter campaign for the independently published project. The story...",
+        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/The-Little-Bean-That-Grew-to-Brew-Wendra-1-620x438.jpeg",
+        "publishedAt": "2026-11-19T13:57:24+00:00",
         "category": "industry",
         "categoryLabel": "Coffee Industry News & Trade Journals",
         "id": "industry-2",
         "rank": 2
-      },
-      {
-        "title": "Weekly Coffee News: Rocket Showroom in Geneva + New Labor Abuse Case",
-        "source": "Daily Coffee News",
-        "sourceUrl": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
-        "summary": "Rocket Introduces Modular Retail Concept With Chronic Coffee in Geneva Italian espresso machine maker Rocket Espresso has introduced a new retail concept inside Chronic Coffee Roasters at Rue Argand 2...",
-        "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Rocket-Espresso-620x414.jpg",
-        "publishedAt": "2026-11-20T14:26:22+00:00",
-        "category": "industry",
-        "categoryLabel": "Coffee Industry News & Trade Journals",
-        "id": "industry-3",
-        "rank": 3
       }
     ],
     "science": [
       {
-        "title": "Two to three cups of coffee a day may be the sweet spot for lower stroke risk",
-        "source": "News-Medical",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdDNzSkdMOEpxMVQ1VDF0X3dLSFZkZk9sYV9kVUphVWxFTzh1Vm5TMUFnSWx3SEhfbVJBWXNoMnBObHUxWGtMUDIyOEpOb1RLRC1sVHNwTWlVclV3aGUxdjZRNFJpRUd2NzA4R2haNVA0WU1aV0lQdy1oV3hwMFJtMDRnclhQakpQT00wdlI0a3BSSzJZS2MwUXJlSEJwd094OW5VcnRNdjRaSXBrbFIxSUFrVnhNRS1zQ21QQXdFcTJVbU0",
+        "title": "Functional changes of testicular Sertoli cells induced by prenatal caffeine exposure and their mechanisms",
+        "source": "Nature",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJbjh6bW9ZNXJXbVNfbnFTSGhlbjhMZVQ0dnZnM3hwV3IyLUFETnZZNzF2azlONjNzT091UDFuSjdFSmJ3b2ZGZlhvcmQ4QjdtVktDdWEtRC1vNU5QZWRTeGlhWkhaOWpyRk5IV01lcGlGUQ",
         "summary": "",
         "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-11-20T00:39:00+00:00",
+        "publishedAt": "2026-11-11T08:00:00+00:00",
         "viaGoogleNews": true,
         "category": "science",
         "categoryLabel": "Coffee Science & Technical",
         "id": "science-1",
-        "rank": 4
-      },
-      {
-        "title": "Bicarbonates extracted from coffee silverskin biochars remediate bacteria from contaminated water",
-        "source": "Nature",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wOWhLMmpfRzlFQk5ycUVDR2lkQmdYdjJTcTU0eVNyb0FaaTZuYXRQWE55OGVZVEZkOEJEc29hckFhRkxuMkFRVTVqTXhETTF6UTJfZS1Qd0h4aks0XzRmeXlfNno",
-        "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-11-19T13:14:09+00:00",
-        "viaGoogleNews": true,
-        "category": "science",
-        "categoryLabel": "Coffee Science & Technical",
-        "id": "science-2",
-        "rank": 5
+        "rank": 3
       }
     ],
     "reviews": [
       {
-        "title": "The Mavo Lumicurve: A $100 Coffee Scale With Brew Curves",
-        "source": "CoffeeGeek",
-        "sourceUrl": "https://coffeegeek.com/blog/new-products/meet-the-mavo-lumicurve-a-100-dollar-coffee-scale-with-brew-curves/",
-        "summary": "The specialty coffee equipment market is saturated in a few areas, coffee scales among them. In a field more or less started by the original Acaia Pearl in 2014, we now see a constant influx of digital scales offering minor aesthetic updates while ignoring functional or game-chan",
-        "image": "https://coffeegeek.com/wp-content/uploads/2026/11/Mavo-Lumicurve-Hero-1-800x533.jpg",
-        "publishedAt": "2026-11-19T23:00:00+00:00",
+        "title": "Review: My Thoughts on the Outin Nano Espresso Maker",
+        "source": "Coffee Chronicler",
+        "sourceUrl": "https://coffeechronicler.com/outin-nano-review/",
+        "summary": "The Outin Nano may look like a thermos, but the coffee it produces is close to a real espresso machine. The post Review: My Thoughts on the Outin Nano Espresso Maker appeared first on The Coffee Chronicler .",
+        "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2024/06/featured-image-Outin.jpeg",
+        "publishedAt": "2026-11-20T08:12:00+00:00",
         "category": "reviews",
         "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities",
         "id": "reviews-1",
-        "rank": 6
+        "rank": 4
       }
     ],
     "origin": [
       {
-        "title": "Barista Stories: Tristan Bonnet of Cagibi, Marseille",
+        "title": "Magazine",
         "source": "European Coffee Trip",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41ckF6V2F1bUdtd0Y2RE9fc3JGaldrQ09CZWlqbFRlMG5yS3VzYzVBSzNqYjlraEYwdmZjY2EzVGxYc2hEd2lmVzBBa0ljTi1CMUhQVEJaTDZRUE0wNlQ5VkY0NUFUY1A5UVdrTXFIQQ",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pdmZfYjlGM3E5QXJXZHEzU1h2ODhJMEx5SXNxRE1iNGM3dEprUHdIcUdDMlRvLWZXOWFvd1ZQV0pCQW9zdmMwR3ZUcnBBek5IWVE",
         "summary": "",
         "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
         "publishedAt": "2026-11-20T15:21:55+00:00",
@@ -201,19 +177,45 @@
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-1",
-        "rank": 7
+        "rank": 5
       },
       {
-        "title": "Cagibi",
+        "title": "Swieżo Upieczona Café",
         "source": "European Coffee Trip",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PWUdxWGhFdDFmd2lYN2dkaTNoODQtamxYRUNCRzY5d09OWWZMS25JSEUtc282NnpMRzg2dWFSTnVGM3pRLTNGWjREMlB5aTVxMmxtY2w0Ykp6b2hWQ1dsLWlYSQ",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aSkFZSVZmWVRteC10U3VxR0R1YUp4cDloZHZZaDZySWJEbTVvWE9MV0lNR1V0ZGFQUEwza2Jsd3BsNTZlRUs5S2FCU205RlVleDVmX1JTcDNzc0NITktEaHl3UVlObm9pUVNqSUo1VTc",
         "summary": "",
         "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-11-20T14:43:52+00:00",
+        "publishedAt": "2026-11-20T14:43:33+00:00",
         "viaGoogleNews": true,
         "category": "origin",
         "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
         "id": "origin-2",
+        "rank": 6
+      },
+      {
+        "title": "Suffolk-Based Massimo Zanetti Beverage USA powers national hospitality innovation with rollout of Segafredo Cold Espresso",
+        "source": "Comunicaffe International",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVW1LcnEyaEkyQ1RjVm1iNC13Wm9rNG0zeWdNcFRCSTBXcU9aRnltZ1A3eWhDTjk4ampEdU5hd0prMS0tNXQxV3NYTy1XaWkxcU81ajl1UGp4TUxwYUNWSFMyVmdiVU51SzVwVkVHMjE5MXBpeXFZVGZ5eGdlS1UwbFNhdEhwUWwtN2FVV2JWM3NjNWl2YllxQmQ3emNDZF9fNUxfWU5scllfcXZmVzkzengzSEcwNmlIb1hYcm4zM2NKWnprb3l4QTltSjVFU3pBekozLV80U1JYLU9qcTFGd2ctbkM",
+        "summary": "",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-11-19T23:57:35+00:00",
+        "viaGoogleNews": true,
+        "category": "origin",
+        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+        "id": "origin-3",
+        "rank": 7
+      },
+      {
+        "title": "Eight O’Clock Coffee expands portfolio with new Blonde Roast K-Cup pods",
+        "source": "Comunicaffe International",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeE04Q21IZ1BiRGU0Z3VpRFNyQzgxeVNUd1ZGRU9Xa09QaXVjZC1qR1BwbzZwYmpYYnFiSmkxUW9tazVWNWFjNkN3Y0xQSTZza0V2MjgzWEVjdzZlekdrSTRhMVkxRGhUOG85ZWdWRmxnc3N0eF9rODhnWmtkcTlSbWpwLUhJZVpfTllZeVowM21ldHhGUEtTUWNmQWl6OC1x",
+        "summary": "",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-11-19T23:20:12+00:00",
+        "viaGoogleNews": true,
+        "category": "origin",
+        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
+        "id": "origin-4",
         "rank": 8
       }
     ]
@@ -256,7 +258,7 @@
     {
       "ok": true,
       "source": "Perfect Daily Grind",
-      "n": 30,
+      "n": 0,
       "url": "https://perfectdailygrind.com/feed"
     },
     {
@@ -286,13 +288,13 @@
     {
       "ok": true,
       "source": "Coffee Talk",
-      "n": 30,
+      "n": 0,
       "url": "https://www.coffeetalk.com/feed/"
     },
     {
       "ok": true,
       "source": "Barista Hustle",
-      "n": 30,
+      "n": 0,
       "url": "https://www.baristahustle.com/feed/"
     },
     {
@@ -322,7 +324,7 @@
     {
       "ok": true,
       "source": "Nature",
-      "n": 56,
+      "n": 54,
       "url": "google-news",
       "via": "google-news"
     },
@@ -336,28 +338,28 @@
     {
       "ok": true,
       "source": "Medical Xpress",
-      "n": 64,
+      "n": 63,
       "url": "google-news",
       "via": "google-news"
     },
     {
       "ok": true,
       "source": "Phys.org",
-      "n": 62,
+      "n": 50,
       "url": "google-news",
       "via": "google-news"
     },
     {
       "ok": true,
       "source": "The Conversation",
-      "n": 34,
+      "n": 32,
       "url": "google-news",
       "via": "google-news"
     },
     {
       "ok": true,
       "source": "ScienceDaily",
-      "n": 83,
+      "n": 100,
       "url": "google-news",
       "via": "google-news"
     },
@@ -375,9 +377,9 @@
       "url": "https://www.coffeereview.com/feed/"
     },
     {
-      "ok": true,
+      "ok": false,
       "source": "CoffeeGeek",
-      "n": 30,
+      "error": "HTTP Error 403: Forbidden",
       "url": "https://coffeegeek.com/feed/"
     },
     {
@@ -427,7 +429,7 @@
     {
       "ok": true,
       "source": "Perfect Daily Grind Origins",
-      "n": 30,
+      "n": 0,
       "url": "https://perfectdailygrind.com/category/origins/feed/"
     },
     {
@@ -453,7 +455,7 @@
     {
       "ok": true,
       "source": "Comunicaffe",
-      "n": 72,
+      "n": 71,
       "url": "google-news",
       "via": "google-news"
     },

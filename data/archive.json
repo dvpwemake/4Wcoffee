@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-21T20-56-01",
+      "scannedAt": "2026-11-21T20:56:01.667568+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "New Product: Bellwether’s Updated Shop Roaster Gets Rebuilt On The Inside and Out",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/new-product-bellwethers-updated-shop-roaster-gets-rebuilt-on-the-inside-and-out/",
+          "summary": "Roasting coffee usually means vents, permits, and construction. Bellwether’s updated Shop Roaster model only needs a standard outlet. The post New Product: Bellwether’s Updated Shop Roaster Gets Rebuilt On The Inside and Out appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/11/DSC09995-roasting-5mb-1-1024x683.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-20T12:50:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Three Questions with “The Little Bean That Grew to Brew” Author and Artist Wendra Lynne",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/19/three-questions-with-the-little-bean-that-grew-to-brew-author-and-artist-wendra-lynne/",
+          "summary": "Author and illustrator Wendra Lynne has released her second picture book, “The Little Bean That Grew to Brew,” following a successful Kickstarter campaign for the independently published project. The story...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/The-Little-Bean-That-Grew-to-Brew-Wendra-1-620x438.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T13:57:24+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Functional changes of testicular Sertoli cells induced by prenatal caffeine exposure and their mechanisms",
+          "source": "Nature",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJbjh6bW9ZNXJXbVNfbnFTSGhlbjhMZVQ0dnZnM3hwV3IyLUFETnZZNzF2azlONjNzT091UDFuSjdFSmJ3b2ZGZlhvcmQ4QjdtVktDdWEtRC1vNU5QZWRTeGlhWkhaOWpyRk5IV01lcGlGUQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-11T08:00:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Review: My Thoughts on the Outin Nano Espresso Maker",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/outin-nano-review/",
+          "summary": "The Outin Nano may look like a thermos, but the coffee it produces is close to a real espresso machine. The post Review: My Thoughts on the Outin Nano Espresso Maker appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2024/06/featured-image-Outin.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-20T08:12:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Magazine",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pdmZfYjlGM3E5QXJXZHEzU1h2ODhJMEx5SXNxRE1iNGM3dEprUHdIcUdDMlRvLWZXOWFvd1ZQV0pCQW9zdmMwR3ZUcnBBek5IWVE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-20T15:21:55+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Swieżo Upieczona Café",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aSkFZSVZmWVRteC10U3VxR0R1YUp4cDloZHZZaDZySWJEbTVvWE9MV0lNR1V0ZGFQUEwza2Jsd3BsNTZlRUs5S2FCU205RlVleDVmX1JTcDNzc0NITktEaHl3UVlObm9pUVNqSUo1VTc",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-20T14:43:33+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Suffolk-Based Massimo Zanetti Beverage USA powers national hospitality innovation with rollout of Segafredo Cold Espresso",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVW1LcnEyaEkyQ1RjVm1iNC13Wm9rNG0zeWdNcFRCSTBXcU9aRnltZ1A3eWhDTjk4ampEdU5hd0prMS0tNXQxV3NYTy1XaWkxcU81ajl1UGp4TUxwYUNWSFMyVmdiVU51SzVwVkVHMjE5MXBpeXFZVGZ5eGdlS1UwbFNhdEhwUWwtN2FVV2JWM3NjNWl2YllxQmQ3emNDZF9fNUxfWU5scllfcXZmVzkzengzSEcwNmlIb1hYcm4zM2NKWnprb3l4QTltSjVFU3pBekozLV80U1JYLU9qcTFGd2ctbkM",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T23:57:35+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-4",
+          "title": "Eight O’Clock Coffee expands portfolio with new Blonde Roast K-Cup pods",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeE04Q21IZ1BiRGU0Z3VpRFNyQzgxeVNUd1ZGRU9Xa09QaXVjZC1qR1BwbzZwYmpYYnFiSmkxUW9tazVWNWFjNkN3Y0xQSTZza0V2MjgzWEVjdzZlekdrSTRhMVkxRGhUOG85ZWdWRmxnc3N0eF9rODhnWmtkcTlSbWpwLUhJZVpfTllZeVowM21ldHhGUEtTUWNmQWl6OC1x",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-19T23:20:12+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-20T22-16-37",
       "scannedAt": "2026-11-20T22:16:37.822892+00:00",
       "items": [
@@ -3313,108 +3415,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-20.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-20"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-21T19-19-55",
-      "scannedAt": "2026-10-21T19:19:55.513042+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Design Details: ‘Elevated Maru’ at Blue Bottle Coffee Busan",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMU5YMFZleTN3X0ViNkxQZDU5aTFiRUlIQlNTU1d3Z29CcDBDUEVOQUZiMlZyT0ZON3RDeUdYanZZQVFRRVNZVTZDVFIycnhnSDlGTTBvM0R3T0xfdmpRWlNiUE1KQUxMWGlZWHgzanZsQlpaanpscU5KY25ZdEh4c0drSi1US2p2RENQM3QyVTJNd1p0eGsxTGFNUjg",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/2026/10/21/design-details-elevated-maru-at-blue-bottle-coffee-busan/blue-bottle-busan-1/",
-          "imageLocked": false,
-          "publishedAt": "2026-10-21T14:52:18+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Three Questions with Kris Carlson of Coffeekris",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbUpSdzJTNlo5UE53V2tCUnJ1blROUVVOSEc1M09kN1lhNFAxalZvUDlQN3ZwbThqVGcwZmpBOERjUXBBZjVJZElGemMwTHFRR0l0c3dic1ZmOUxRSGRBOEJvNFloQWNBRUxpNDREdmhXYUw2b25jVXVhOWhLaktyc1R2cWNzU1lDaW1Kd2IwZ1I",
-          "summary": "",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/09/Taiwan-Cupping.jpeg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-21T14:32:22+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Biohackers Found A Way To Fall Sleep After Coffee (Maybe Forever?)",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/biohackers-found-a-way-to-fall-sleep-after-coffee-maybe-forever-1485380.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. How to turn coffee and Tylenol into a potentially lethally combination.",
-          "image": "https://sprudge.com/wp-content/uploads/2021/09/sleepy_spesh.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-21T12:00:39+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "Your Coffee Shop’s Recipes Will Be Copied, but It Doesn’t Matter",
-          "source": "Fresh Cup",
-          "sourceUrl": "https://freshcup.com/your-coffee-shops-recipes-will-be-copied-but-it-doesnt-matter/",
-          "summary": "Competitors will copy your drinks, your captions, and your menus. So what, if anything, is truly yours? The post Your Coffee Shop’s Recipes Will Be Copied, but It Doesn’t Matter appeared first on Fresh Cup .",
-          "image": "https://freshcup.com/wp-content/uploads/2026/10/Featured-Image-5-1024x637.png",
-          "imageLocked": false,
-          "publishedAt": "2026-10-21T11:15:00+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Americans are putting more additives—and calories—in their coffee",
-          "source": "Medical Xpress",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmktVGxBM3l0OWpodUJIeFh5eHYzT3llWWdGdklwQS1vM0JWNWhXUnpVSk5Bd25qTDZULVhhdWpvMXVVQ3FlWXhhejN1X20tNHRSRV83NElaSEFreWlETjhOWGxVSVZNX0tFQTdPcENiY0E5SVh4aEhQNXA0b3FLZTVsTE9iUQ",
-          "summary": "",
-          "image": "https://scx2.b-cdn.net/gfx/news/2026/americans-are-putting.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-20T22:20:15+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "This Viral Coffee Trend Promises a Smoother, Creamier Cup. After Nearly 20 Years in the Industry, I Had to Test It",
-          "source": "Serious Eats",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTkR6a2JDSTIxd2w3Y21mMHp0alhtbEJGUldxbUp6b3dBaVdKRVoyOUtJT3pCM3g5MVU2R1JOZ1N4blAxc0dlNTdxRGhDTHBQZzlxajczd3U4dmt1eVdDOEluZUpEUklRZktqOQ",
-          "summary": "",
-          "image": "https://www.seriouseats.com/thmb/XG1upAaS9Svzi3f9Iu5imaAjIG4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20261016-SEA-20261006-SEA-coffee-milk-getty-LightStock-02-d5aca1e4fd6e4a34b93de24bb1ced5ef.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-21T03:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Regional Workshop in Costa Rica Paves the Way for Scaling Up Ecoffee in Phase 3 in Latin America",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR0J5SFVwdDBzUnRnU2UzMjdmY3pTM3JKd0dRaFRDLU5XRTNfbnBoTGxJQTdSY3BjNXVSbXNJbWc5OTVYOUlWSFNjVlhaM1U3bDlickZhUFNZTUowUXdzMGtNN1ZLODREOFB0eFJSbnNaQWtvSmRvTXB6R1JmZnpDSDBadlA1V3F4OEpRbGlmVFRaOEZPWmRWcjFtYVVRZVFjRFgtdVdCWTFpSEZNYngxTGFldWRYMFZvXzVOZjdwYnJtYjg",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/ecoffee-logo.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-19T22:29:38+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Kross Coffee Roasters - Pagkrati",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OX0tKcUttRm9WOGQ5SllZSnFEWmJLMzRvUm55eUpIMm9GdnczNExLa2h1V3ZBaTVlWU9URnBzNmQ3bFZZY21GWS1EeHM1dlpaR3ZtR0VCWEVXenJTeEdCZkpoVzl2c3dyT0JxaHIyNnI",
-          "summary": "",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSS2RbdJrNX1UIXndvf14HO0ekLXSSfEmBtRKxTvfug&s",
-          "imageLocked": false,
-          "publishedAt": "2026-10-19T12:30:09+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
