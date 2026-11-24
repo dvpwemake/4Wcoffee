@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-24T23-56-14",
+      "scannedAt": "2026-11-24T23:56:14.007994+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "SourceOS Introduces Fractional Green Coffee Buying for Roasters",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/11-2026/111446/",
+          "summary": "SourceOS launches a fractional green coffee buying service, offering roasters a cost-effective alternative to traditional sourcing methods. The post SourceOS Introduces Fractional Green Coffee Buying for Roasters appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/Screenshot-2026-11-24-at-08-03-56-SourceOS-scaled.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T16:07:26+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Cafe Pop-Up Experiments with Pay-What-You-Want Model",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111444/",
+          "summary": "Poorboy Coffee's new \"Who Gives a Hand\" pop-up series offers free drinks with pay-what-you-want contributions, benefiting local businesses and fostering community goodwill. The post Cafe Pop-Up Experiments with Pay-What-You-Want Model appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/unzer-tEvW6kTBixI-unsplash-scaled.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T15:59:55+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Very Hot Coffee and Tea Linked to Higher Esophageal Cancer Risk",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/24/very-hot-coffee-and-tea-linked-to-higher-esophageal-cancer-risk/",
+          "summary": "People who prefer their coffee or tea very hot may face more than three times the risk of a particular type of esophageal cancer compared to people who drink their...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/very-hot-coffee-620x434.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T14:11:39+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "science-1",
+          "title": "Coffee or chicory: does either improve exercise performance?",
+          "source": "News-Medical",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkJ0QmZ4cG9GZWZGNHZ2Nkp4c19nVUdvUU1QRFk2WFd3SndvWHFPU1dZS0I1ZTVqaGU5b0dldEp6NEFPUG0wOXFHcExvTG0wZ1c5QUtDUklhZUpkUk16bUZVX0luQ09MUENRU01iWG1Ialo3QUJHbnFfRHJiVDBqUW93Vkg5TVNVQ2pPdG0zNzlLaXdrcUZxNGczbkdOd09rY2t3WFVndnhXdw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T11:45:00+00:00",
+          "category": "science",
+          "categoryLabel": "Coffee Science & Technical"
+        },
+        {
+          "id": "reviews-1",
+          "title": "12 Early Black Friday Coffee and Espresso Deals Worth Taking Seriously",
+          "source": "Gear Patrol",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlZvSExyaEMzNHRZWUdUbGpLTTEwUElVMUJ6aWlFZmlyY0t5NE53UVNuZkV0b1pHWHVHZm9Ub0lMR3hlcXdWc2RiRnVXMFlHYS1BN0NrS0UyZm9DZ19kdFNSLXNia2VLQWxhVGxoT2wwUk95RmpUNExnR0pBUG9GUTF5N3I",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T20:58:33+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "The Mid-Century Modern Moccamaster Coffee Maker Is Way Below Retail",
+          "source": "Gear Patrol",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JWmF5SUZHZXZwdkVaV0p2OGdfZWI2N1VKRnliNlJxWW1kNG5jeXFYQmJSSmVLbUpHRldPa2dyVkJYYlhvdVVoRzVjSzZPQ1lUWnVoMVdKZWRSSW45aEtVXzVBUHFMa0V4a1pLM0lfR3pSaElsVV9Ec2lCRUdmUQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T18:09:29+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Café kudos",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mX2xEeVJUajZHLXJFeklUdl9HYnl4RFdSdHZ4aDBYcDBwVHBmSW1xbVRyX2FHcWw2by1MNlFkMFpjUkl5LUE5b0xzejlmWHZ4S2NMWG1fUWhsUmxUR3ZqMQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T16:50:34+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "NEUCAFF Performance Coffee releases limited Run of 500 three-roast gift sets featuring paraxanthine-infused coffee",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZGJUaDNjLTlZdURsQTctNnlOcHNKVG1GQUVYQjltRTU3emJDUndWZTBRaXRUQndybGlITkl0dU1ybGdzUjFDdFFIdGxGMlVBRXRjYkE0WUtwRXdCTmRHLXZNZG9FX0lDN092NlVURS1PUlc0cmVGOWVrOUU3SENwRWxrSTItMS1tRm8tTThpelNWVmJrUV82RW5wSDRGWS01TWxxdDFmcy05Ni1fZDk3Zl91TTlsRVNBdThWeTRCZnJwMzRqdlhmTXJ6alN1VFluRXcwYzdzbW4zYzA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-23T23:30:02+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "editorial_2026-11-22",
       "scannedAt": "2026-11-24T21:16:31.587Z",
       "kind": "editorial_archive",
@@ -3311,108 +3413,6 @@
           "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Flip-Lemon-Sparkling.jpg",
           "imageLocked": false,
           "publishedAt": "2026-10-22T22:16:34+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-24T18-11-47",
-      "scannedAt": "2026-10-24T18:11:47.280610+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Learn More About The Coffee Supply Chain In The Green Room",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/learn-more-about-the-coffee-supply-chain-in-the-green-room-1508648.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An all-access pass to the inner workings of the coffee supply chain.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/green-room-sprudge-lede.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-24T12:00:19+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes",
-          "source": "Fresh Cup",
-          "sourceUrl": "https://freshcup.com/new-product-david-rio-launches-matcha-rio-a-three-blend-matcha-line-for-cafes/",
-          "summary": "Matcha has multiple roles on cafe menus. The new Matcha Rio line aims to address them all with classic, functional, and blendable matcha products. The post New Product: David Rio Launches Matcha Rio, a Three-Blend Matcha Line for Cafes appeared first on Fresh Cup .",
-          "image": "https://freshcup.com/wp-content/uploads/2026/10/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-19-1024x637.png",
-          "imageLocked": false,
-          "publishedAt": "2026-10-23T11:20:00+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Coffee News Recap, 23 Oct: 2026 World Barista Championship takes place in Panama, Clearpath Coffee & M-Cultivo to host Colombia Legends auction & other stories",
-          "source": "Perfect Daily Grind",
-          "sourceUrl": "https://perfectdailygrind.com/2026/10/coffee-news-recap-23-october-2026/",
-          "summary": "2026 World Barista Championship begins in Panama, De’Longhi increases stake in La Marzocco and Eversys SA, arabica futures hit their highest level since late August, Clearpath Coffee & M Cultivo to host Colombia Legends auction on 16 November & more The post Coffee News Recap, 23",
-          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/10/Coffee-News-Recap-23-October-2026-homepage-cover.webp",
-          "imageLocked": false,
-          "publishedAt": "2026-10-23T08:57:31+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111192/",
-          "summary": "Starbucks shifts to a licensing model, reducing direct store investment and expanding globally, while aiming for efficient growth and improved profitability. The post Starbucks Shifts to Model that Minimizes Direct Store Investment with More Licensed Coffee Shops appeared first o",
-          "image": "https://coffeetalk.com/wp-content/uploads/dat-tran-tuP1QBHj_ok-unsplash-scaled.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T17:01:33+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Non-dairy creamer drives up calorie count in coffee cups",
-          "source": "News-Medical",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmJEYV82WlJqeTFpYnhqZDQxc0ROb2d6ejk4UkctUHYxSk5IRGNsTFE5MnpBVTdxTUtQWlpPcVZkazdIbmlTQjZ4LU9WVmsxRTVYcjFVZ0I5NzI3TXNiX2FBUmp4cGRIc0Z2Zy1CMTV4bmg4TEhTRGN1MGN0Smo0UHEwSVVaSjVJTmpwcnB5MG1vOHdCb09uWGhhSklKUEZyMUZ5Z2JmNA",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-24T17:01:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EaS03V0ZOZFh6VlN5SDdZYmxaZUNrS0V0RFpubjNheVdzVHEwZEJjNkRuQ1BWc1BuQ2N6aEhQQVd2ZEJ4UDcxR2dXelZMTXFMX1ZoWnFNV1ZoVVF0WVNUT0ZKZFZfZi12M2VLNU8xd2szQQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-12T07:00:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-1",
-          "title": "Announcing the 2025 SCA Annual Report",
-          "source": "Specialty Coffee Association",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YSlZUV25tTmV2OVRXUWxkSlQzOW54ck1VZE9BRkVkbW5IZGNaeElqcjhiYVNWbVFwMHpfMW14dGo1SUJPMjJuTXVRZUw3Tl90RllhakFBM2xqYXRxblBCdDVWc3d3ZDNEWmY3cWZzZFhaMTg",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T16:30:43+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "Reborn Coffee signs Master Product Supply Agreement with Visvita Corporation",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGdPalkxcVhhdnAxeHQzdExPaGhBdlJ4UnZzcVdObm00Z2kzNml1WnE2SmpNRWZIVUROcnRNMFZxb3o3Q2xQZ2o0eHF1TUJMMVV1cUQySGxyZ2dSRkNfZWZkbElYS0dSMWctMWZvbUE1UkgwRlhCMkgzOUtXNTFPZzNHR3NPdklKUi0yYUtCbjBsWGVpbmlLVFhFWEszR3BKaHJBVmo1NjI",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-21T22:37:48+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
