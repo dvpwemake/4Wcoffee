@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-22",
+      "scannedAt": "2026-11-24T21:16:31.587Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-22",
+          "rank": 0,
+          "title": "Precision at the Edge of Scarcity",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "Tightening global stocks meet science-driven craft and shifting retail tastes.",
+          "image": "https://coffeetalk.com/wp-content/uploads/kia-sheikhy-RfiSobfxtno-unsplash-scaled.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-22.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-22"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-24T02-15-44",
       "scannedAt": "2026-11-24T02:15:44.897787+00:00",
       "items": [
@@ -3395,26 +3415,6 @@
           "publishedAt": "2026-10-21T22:37:48+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-21",
-      "scannedAt": "2026-10-24T05:51:24.719Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-21",
-          "rank": 0,
-          "title": "The Friction of the Modern Cup",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "As the specialty sector leans into hyper-curation and ecological rigor, consumers are chasing viral trends and loading up on non-dairy calories.",
-          "image": "https://scx2.b-cdn.net/gfx/news/2026/americans-are-putting.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-21.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-21"
         }
       ]
     }
