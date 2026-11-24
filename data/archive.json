@@ -1,6 +1,26 @@
 {
   "batches": [
     {
+      "batchId": "editorial_2026-11-17",
+      "scannedAt": "2026-11-24T01:01:18.541Z",
+      "kind": "editorial_archive",
+      "items": [
+        {
+          "id": "editorial_2026-11-17",
+          "rank": 0,
+          "title": "Zero Waste, Precision Science, and the Evolving Cup",
+          "category": "editorial",
+          "categoryLabel": "Editorial",
+          "summary": "From water-free roasting and silverskin biomaterials to genetic nutrition and retail pivots, coffee’s fourth wave is redefining value across the chain.",
+          "image": "https://coffeetalk.com/wp-content/uploads/afrah-Qwiwjf3oZ1U-unsplash-scaled.jpg",
+          "source": "Fourth Wave Coffee · Editorial",
+          "sourceUrl": "https://fourthwavecoffee.org/e/2026-11-17.html",
+          "isEditorialArchive": true,
+          "publishDate": "2026-11-17"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-22T21-06-32",
       "scannedAt": "2026-11-22T21:06:32.892971+00:00",
       "items": [
@@ -3393,108 +3413,6 @@
           "image": "https://europeancoffeetrip.com/wp-content/uploads/2026/10/article_216-Gabriel-Brix-1.jpg",
           "imageLocked": false,
           "publishedAt": "2026-10-23T12:49:18+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-22T19-15-42",
-      "scannedAt": "2026-10-22T19:15:42.019754+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Creativity and Quality in Every Cup",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/top-news/10-2026/111198/",
-          "summary": "Specialty coffee demand surges, with 59% of Americans enjoying premium beverages. As consumer demand for premium espresso and specialty coffee continues to grow, operators need solutions that support both menu innovation and operational performance. The post Creativity and Qualit",
-          "image": "https://coffeetalk.com/wp-content/uploads/Franke-S700.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T17:17:44+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Dutch Bros Tests Walk-Up-Only Windows as the Drive-Thru Chain Experiments with Pedestrian Traffic",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/10-2026/111195/",
-          "summary": "Dutch Bros tests walk-up-only windows in LA, aiming to boost pedestrian traffic as it expands nationwide amid rising competition in the coffee market. The post Dutch Bros Tests Walk-Up-Only Windows as the Drive-Thru Chain Experiments with Pedestrian Traffic appeared first on Coff",
-          "image": "https://coffeetalk.com/wp-content/uploads/nicolas-nieves-quiroz-0nEh3mnnDo8-unsplash.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T17:05:43+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Massive Coffee Variety Trial Reveals Yield and Leaf Rust Winners",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXBQVlRBUnU3UVpwYjNEMWphYTFIalZGdE1SNC1nYWtvcWhKN0NQMXBkdEFyR3VXZ2tYX0kzTVZzSnVIYlBXM1RvSmY4ZEF1RmU0dVdreWtveXdEbk5LTWhFMnFHMVdQdi1iYS14NFZjX3VGcG1GcDVPVy1HUEZMOHMyNjh4eWt5NUo2RUJqT2w1cG93T2E2UlFmZnhBeWN5c1RGdm91SQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T14:04:19+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "Milk Brew & Me: A Skeptic’s Journey Through The Viral Coffee Drink",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/milk-brew-me-a-skeptics-journey-through-the-viral-coffee-drink-1308095.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Jenn Chen tries to make milk brew.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/coffee-milk-sprudge.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T14:00:32+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Morphological, molecular, and pathogenic characterization of five Fusarium species associated with coffee berry rot in Malaysia",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0V0l3SmljaU5hX1k2SXNWOTN4d2dxZF9abzFvdV9tM2ZlWnNCenZzdnBpVld6aWdtSFRXaEREMWJaSEFsTjdFUFRSODh4OW9ici1CblZvTl92QjYxSG9n",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T15:14:20+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "science-2",
-          "title": "Coffee calories have jumped nearly 40%. Sugar isn't the biggest culprit",
-          "source": "Science Daily",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZVFo3VndmbkhqOHQ5cjlsNlo2ckltR0F5eEdhM1FyUThvVUhSZjU1U3NKQ2llWFAwemk2WU9yRUExWHZnZnhKSmRiejc4YWJZVzJrcW1NbzIyM2RodVhqM0d5djM5LUUwekxEczB3",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T11:22:46+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-1",
-          "title": "Wild Stuff",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TnIzRkRMcGdZZV84Mk9PczlPWE5oWGhBR3VZcEl5ZmlTM3M3U1BvcWJlbHF5YWZrWFo2NHA4YUxISWF2SjlkeUVhZEppbzJ6LUNKdHgxNW5sM1VhV3l4Q2ViNE8wd0hk",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T11:57:03+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "180 Wristbands, One Community: Supporting the 2026 China AeroPress Championship",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/180-wristbands-one-community-supporting-the-2026-china-aeropress-championship/",
-          "summary": "Every competitor matters. Every volunteer matters. Every person behind the cup matters. This October, I’M NOT A BARISTA is proud to contribute 180 specially designed charity wristbands to the 2026 China AeroPress Championship, taking place in Guiyang, China, from October 26–28. E",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T05:10:08+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
