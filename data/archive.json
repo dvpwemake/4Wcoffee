@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-25T23-39-55",
+      "scannedAt": "2026-11-25T23:39:55.035210+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Indonesia Coffee Production Down 8.2% Due to Weather",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/25/indonesia-coffee-production-down-8-2-due-to-weather/",
+          "summary": "Indonesia’s green coffee production is forecast to decline 8.2% to 11.35 million 60-kilogram bags in market year 2026/27, due primarily to weather events including flooding and extended dry spells, according...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Indonesia-coffee-market-620x400.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T15:48:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Seattle’s Barometer Coffee Sets Sail with Pressure-Free Local Delivery",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/25/seattles-barometer-coffee-sets-sail-with-pressure-free-local-delivery/",
+          "summary": "By bike, van and even dinghy to boats along Seattle’s waterways, new Ballard roasting company Barometer Coffee is gauging customers’ thirst for affordable, high-quality coffee delivered to their doors. Founder...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Barometer-Delivery-Boat-1-620x422.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T14:14:10+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Black Friday Coffee Deals To Boggle The Mind",
+          "source": "Sprudge",
+          "sourceUrl": "https://sprudge.com/black-friday-coffee-deals-to-boggle-the-mind-1673287.html",
+          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. Dig into deep discounts on coffee and coffee gear.",
+          "image": "https://sprudge.com/wp-content/uploads/2021/11/holiday_deals.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T13:00:45+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "From Cart to Counter: Using the Cart to Test Your Concept",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/from-cart-to-counter-using-the-cart-to-test-your-concept/",
+          "summary": "“Go big or go home” sounds bold, but it’s a risky way to open a shop. A cart can show you if your concept works before you bet on a permanent space. The post From Cart to Counter: Using the Cart to Test Your Concept appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/11/Featured-Image-10-1024x637.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T12:30:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "reviews-1",
+          "title": "Better Coffee Starts With a Better Grinder—Our Pick for Most People Is 25% Off",
+          "source": "Serious Eats",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BSFVKMFFjU21lZ1NfeVloRk9wTVlVN0Q1RFVCUkgtZWJrbzE2WFRpWDBya3lXb2ZIRzFydUhRMTVBamRBdHN3d1p0bFZ6U2M5OHBwemFQaXNDdmRMQnkya0JMNFEzOFIzbk5OZ3ljMFNKQTNSNGpMZHFhR1M5UQ",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T15:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Black Friday 2026 Deals for Canadians",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/deals/black-friday-coffee-and-espresso-deals-2026-for-canadians/",
+          "summary": "It's Black Friday time, and 2026 sees Canucks getting even better deals than our American friends get, on some great coffee and espresso gear! The post Black Friday 2026 Deals for Canadians appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2024/11/Black-Friday-Canada-2024-800x533.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T08:00:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "Ernesto Illy International Coffee Award 2026: Honduras wins Best of the Best",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPY3BwZmFBSEcyeC10amEtQS0wWF9lc2FYT3RLSDRqd3RaSGhKLUVtTTI0azREUS05SVlzbjNKaVZhYTNQdWp2Q0FNdmFkS01IUjYyaEwwdjBKeDZfX1pSYlBKaTBXZHNtaU1oOTAyZ2RPc2dXb3ItNjRPN2JlaDZDWWlrUHZlZXA4WVFvcUc3RVZqRlNPd0NNT1Fsb2w1Zi0tRzBEcGNNQ0FxTkgycUs4WXlJNlVfbmtSOEtqUXhEV3RpTnU3VkUxOHlCelY0S3FrdGxtX1BfRGhBbFZ5b1MxNWFyZDE",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-23T23:57:58+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Robusta futures at three-year low, USDA sees India coffee production down 6.8% at 6.17 million bags",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeXByNGh2b2FmYmg0UUhMNGFVVUFnYU91WjRDMlZ5cE1ORE5OLTZHVWsyNmxIWlpPejJodWR6MkwyZFFtektQMUpFRFRmeWNHWHVmdDE3VzBsclNZdHR1UVc2dDJ6V1d0MGRxc2ZpY1pYY2xLcnBWd2lkeW1UVjFDbzNwUWM1bl9KNU1DckoxQ1JFbklGSUxxOWY3X0lOU0tzM2N2WGFnMUxUNWk5emZ0STd0NW9HeXB5NjB6RVhTVWVtQ1c5",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-23T23:50:36+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-24T23-56-14",
       "scannedAt": "2026-11-24T23:56:14.007994+00:00",
       "items": [
@@ -3313,108 +3415,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-23.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-25T18-26-08",
-      "scannedAt": "2026-10-25T18:26:08.280449+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Is There Anything Scarier Than Running Out Of Coffee?",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/is-there-anything-scarier-than-running-out-of-coffee-1508643.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A weekly curated selection of coffees from the Sprudge Roaster's Village.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/perc-creature-feature.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-25T12:00:09+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/",
-          "summary": "Italy-based De’Longhi Group has paid €662.5 million (US$744 million) to increase its ownership of the professional coffee business containing La Marzocco and Eversys from approximately 61% to 88%. The deal...",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/La-Marzocco-620x414.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-23T14:45:34+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/",
-          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. Mill City Ships First 20-Kilogram M-Series...",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/Mill-City-20-Kilo-M-Series-620x400.png",
-          "imageLocked": false,
-          "publishedAt": "2026-10-23T13:02:40+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "The 2026 World Barista Championship Starts Today. Here’s Everyone Competing",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. A schedule for Round One of the 2026 World Barista Championship.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc2026.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T12:00:29+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Effects of low dose caffeinated coffee consumption on energy system contributions and repeated sprint indices in combat sports athletes",
-          "source": "Nature",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKb3o2Nll6dTlZNTQwRzNXdTl5RXV2b3JkMlhWWFJIUXNiSENQSUxjYUNVWkctVGhzbUp1QzluQkphNXI4NktyVUh6THlNbzRGNWJpLXRMSWpldlhwMXprZjgwcnc",
-          "summary": "",
-          "image": "https://www.tandfonline.com/cms/asset/95d89360-748d-4b84-b6eb-ffd5219d1234/rssn_a_2237952_f0001_b.gif",
-          "imageLocked": false,
-          "publishedAt": "2026-10-05T07:00:00+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "reviews-1",
-          "title": "How to Host a Coffee Tasting Party",
-          "source": "CoffeeGeek",
-          "sourceUrl": "https://coffeegeek.com/guides/howtos/how-to-host-a-home-coffee-cupping-tasting-party/",
-          "summary": "How to make Vietnamese iced coffee with a phin filter. CoffeeGeek's updated guide covers 12 steps, condensed milk ratios, grind, and the history of cà phê sữa đá. The post How to Host a Coffee Tasting Party appeared first on CoffeeGeek .",
-          "image": "https://coffeegeek.com/wp-content/uploads/2026/10/Cupping-Setup-3-800x533.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-25T00:00:00+00:00",
-          "category": "reviews",
-          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-1",
-          "title": "Kelly Coffee Robot officially deployed at Foshan Maternity & Child Healthcare Hospital new campus",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTBPRnhGMU1JRHBfTFhwRmdESHFDN25DYmtKdWhIQy0xTnp4MVZkR0pXV01UQlQ1N0lHXzN2M0xGQTdkc1k5TXNMOWt6RzlFa1hUYXdCczRaem5sb29KNFl1Y1lRNElsRTJYcVhMdWQyMmNoSExLYjg3UWw1Yk1GSWpPcmN2Q2QyaFRaVE1LaEdmS29fQVpNcUx2LWFJQXNKb0hBM3JaYVpfNExtRDhxLWpmd3pLMlZyQTFiSVRkMDc5Zw",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Kelly-Coffee-Robot.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T22:29:40+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "FLIP launches Lemon sparkling coffee for Ontario’s café, retail and hospitality market",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkQ0aG5zODVCNWhCQ0hKVVk1UjJqVzYzVm9KU0dLdkRaQjc0NXlYYTBBWmF2czZFZkRQb3Z0cG5TSTFWSE9FeUVJUjdZQ3ZTNlpPUzRoSWhRdEhydUw1MTVRakt5VXpOTlFtMklaTmZvYlk3NzZpSU1VTGRKUHRpZW5Sa0pJVVJLVDFiTzNSOTBhNzNEcVBSTnFrbk5OSVZMRnpnSXJtYzZIazJEbEhjcndjVQ",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Flip-Lemon-Sparkling.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-22T22:16:34+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
