@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-26T23-53-33",
+      "scannedAt": "2026-11-26T23:53:33.627449+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "What’s in a Name? How Coffee Businesses Shape Their Identity",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/whats-in-a-name-how-coffee-businesses-shape-their-identity/",
+          "summary": "A pet parrot, a beloved town, a fresh start: four coffee business owners share how heritage and craft philosophy shaped the names that extend beyond borders. The post What’s in a Name? How Coffee Businesses Shape Their Identity appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/11/Copy-of-Template-_-Featured-Image-_-1800-x-1120-px-26.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-26T13:30:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "How science is changing our understanding of coffee",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/11/science-changing-understanding-of-coffee/",
+          "summary": "Coffee science now spans chemistry, data, sustainability, and consumer psychology, yet much of it still struggles to leave research centres. But new event formats are giving researchers and businesses a shared space to exchange problems and findings. The post How science is chang",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/Design3_1024x512_science.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-26T00:44:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Chicago Specialty Coffee Shop Closes Amid Alleged ICE Connection",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/25/chicago-specialty-coffee-shop-closes-amid-alleged-ice-connection/",
+          "summary": "Chicago specialty coffee roaster and cafe Tasa Coffee Roasters appears to have permanently closed following an employee walkout and boycott calls over allegations that the owner’s husband works for U.S....",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/Coffee-shop-620x371.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T14:13:31+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Global Coffee Awards names Europe’s best roasters for 2026",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/11/global-coffee-awards-europe-2026-winners/",
+          "summary": "The Global Coffee Awards honour the world’s best roasters and the producers behind their coffees. The Europe edition was held from 26 to 28 October 2026. The post Global Coffee Awards names Europe’s best roasters for 2026 appeared first on Perfect Daily Grind .",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/Europe_FB_post_1024x512.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T09:00:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "reviews-1",
+          "title": "The Best Black Friday Coffee Deals",
+          "source": "Coffee Chronicler",
+          "sourceUrl": "https://coffeechronicler.com/the-best-black-friday-coffee-deals/",
+          "summary": "Here are the best Black Friday deals of 2026. No fillers, only the good stuff. Check them out, before they're gone. The post The Best Black Friday Coffee Deals appeared first on The Coffee Chronicler .",
+          "image": "https://coffeechronicler.b-cdn.net/wp-content/uploads/2018/09/coffeegadget2-1.jpeg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-26T04:04:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "reviews-2",
+          "title": "Black Friday Coffee and Espresso Deals for 2026",
+          "source": "CoffeeGeek",
+          "sourceUrl": "https://coffeegeek.com/blog/deals/black-friday-coffee-and-espresso-deals-for-2026/",
+          "summary": "A curated list of the best deals of 2026 on the best gear for coffee and espresso lovers, including all the top tier brand names. The post Black Friday Coffee and Espresso Deals for 2026 appeared first on CoffeeGeek .",
+          "image": "https://coffeegeek.com/wp-content/uploads/2026/11/Black-Friday-CG-2026-Hero-2-800x533.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-23T02:30:00+00:00",
+          "category": "reviews",
+          "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
+        },
+        {
+          "id": "origin-1",
+          "title": "7:27 coffee shop",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRU0l5Vnk3NndOUG81b3R5NTZlUk5yZkJEekZUM25FSHIxUGJNaXhCTkRvRDVEWHA0OHpFUnpBUW5GTkp4ekJtZ2FMOGxRWUFyVEZjUGRKTnFvTUNFb2h4ZElubEtXalho",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-26T13:19:33+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Espresso costs nearly US$5 on average in Switzerland, but prices vary sharply across regions, Deloitte finds",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEd6anVVYTBkZVJVcXVYd3VoMnV4Z0NWaVZQa2I4XzFLaVJDOXhLYmhlVFBuMUNsdHRHZFUtLTR1MGE5QTFhc1B6RHkxTGlyTl9OMzZTVkd0dXZscWZwamVpcW50TGxYLUdXR0tvU2tGR1pKSkw3RUlWTFdSUmZvUEZQM3U5Rm9xSTRWMWUzdmZsczI2NFk1ZFRISU1qVXZ0bnBIYUx0SkZDRlJmMURnakFPeE16UF80eDVlUllxbW5uTnFTckx2UnkxN3VGZkk",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T16:40:10+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-25T23-39-55",
       "scannedAt": "2026-11-25T23:39:55.035210+00:00",
       "items": [
@@ -3395,26 +3497,6 @@
           "publishedAt": "2026-10-26T11:44:29+00:00",
           "category": "origin",
           "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        }
-      ]
-    },
-    {
-      "batchId": "editorial_2026-10-23",
-      "scannedAt": "2026-10-26T06:08:22.473Z",
-      "kind": "editorial_archive",
-      "items": [
-        {
-          "id": "editorial_2026-10-23",
-          "rank": 0,
-          "title": "Beyond the Counter: Industrial Realignment and the Evolving Everyday Cup",
-          "category": "editorial",
-          "categoryLabel": "Editorial",
-          "summary": "Navigating corporate consolidation, geopolitical headwinds, and shifting consumer habits in specialty coffee.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/milk-brews.jpg",
-          "source": "Fourth Wave Coffee · Editorial",
-          "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-23.html",
-          "isEditorialArchive": true,
-          "publishDate": "2026-10-23"
         }
       ]
     }
