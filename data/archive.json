@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "batchId": "auto_2026-11-27T23-29-42",
+      "scannedAt": "2026-11-27T23:29:42.878510+00:00",
+      "items": [
+        {
+          "id": "industry-1",
+          "title": "Weekly Coffee News: Coffee Barometer Germany + The Lefty Pourover",
+          "source": "Daily Coffee News",
+          "sourceUrl": "https://dailycoffeenews.com/2026/11/27/weekly-coffee-news-coffee-barometer-germany-the-lefty-pourover/",
+          "summary": "Welcome to DCN’s Weekly Coffee News! Subscribe here for all the latest coffee industry news. Also, check out the latest career opportunities at CoffeeIndustryJobs.com. The Coffee Barometer Visits Germany Zooming...",
+          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/11/German-Coffee-Barometer-620x412.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-27T20:06:16+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-2",
+          "title": "Coffee News Recap, 27 Nov: Global Coffee Awards announces best roasters in Europe for 2026, illycaffè reportedly considering IPO in 2027 & other stories",
+          "source": "Perfect Daily Grind",
+          "sourceUrl": "https://perfectdailygrind.com/2026/11/coffee-news-recap-27-november-2026/",
+          "summary": "Global Coffee Awards crowns best roasters in Europe for 2026, Terres de Café hosting Légendes omakase tastings, illycaffè reportedly considering IPO in early 2027 & more The post Coffee News Recap, 27 Nov: Global Coffee Awards announces best roasters in Europe for 2026, illycaffè",
+          "image": "https://perfectdailygrind.com/wp-content/uploads/2026/11/27_11_FridayRecap__FB-THUMBNAIL.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-27T14:01:35+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-3",
+          "title": "Fresh Cup’s 2026 Coffee Gift Guide",
+          "source": "Fresh Cup",
+          "sourceUrl": "https://freshcup.com/fresh-cups-2026-coffee-gift-guide/",
+          "summary": "The Fresh Cup team and contributors share their favorite coffee gifts this year including a buy-it-for-life bottle, a rising star home coffee grinder, and an instant chai. The post Fresh Cup’s 2026 Coffee Gift Guide appeared first on Fresh Cup .",
+          "image": "https://freshcup.com/wp-content/uploads/2026/11/Featured-Image-11.png",
+          "imageLocked": false,
+          "publishedAt": "2026-11-27T13:08:00+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "industry-4",
+          "title": "Optimizing Profitability & Customer Loyalty Through Connected Data",
+          "source": "Coffee Talk",
+          "sourceUrl": "https://coffeetalk.com/daily-dose/for-roasters-retailers/11-2026/111442/",
+          "summary": "Bad Ass Coffee of Hawaii emphasizes the importance of connected data and tailored technology to enhance operations and customer loyalty as it expands. The post Optimizing Profitability & Customer Loyalty Through Connected Data appeared first on CoffeeTalk .",
+          "image": "https://coffeetalk.com/wp-content/uploads/nathan-dumlao-r-KfktlyBL0-unsplash-1.jpg",
+          "imageLocked": false,
+          "publishedAt": "2026-11-24T15:55:55+00:00",
+          "category": "industry",
+          "categoryLabel": "Coffee Industry News & Trade Journals"
+        },
+        {
+          "id": "origin-1",
+          "title": "Sydney Store - Vevey, Switzerland",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pakZ5Q2FYNUFBdGNvQ2xSakdTcmIyRHhpaHpHQVg1ZGEzME9JaTZyRlBoTEhMYkFDSTd4V0dJNXRYUFNxQ21XdERQU2xDNVJOMHc4cXc1cV9IanJkeHpVbUNjSDA",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-27T16:35:16+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-2",
+          "title": "Barista Stories: Vicky Cheng of Fufu Coffee Studio & Mellow Coffee Roasters, Utrecht",
+          "source": "European Coffee Trip",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUDg3UU9LLUo1alR4MlRtaGd3MlpuWEYwbnFXQWFmYXNhbWZXUWFKOWFRNV80eW5hUW8wZC1zaENQUXRpQUxwQUtTb0V3aDM3ZGxmeldFazFZZHFuWnk1WTZiYTV4akhmemU0",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-27T13:34:34+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-3",
+          "title": "Starbucks opens new coffeehouse at San Marino Shopping in Guayaquil",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFNzSDN5UlpxUTUwQ2FFMFY2aHFrdGNlWHl2LVVoRmNEUVdSLUd1UlpUakF4UkRJS1JETGpPNExOb2JWUWhmd3hEZVJRbVBZYzlhS2NOTkQzQnRpcGN5ZTVkWVZjT0NIc0h1a2VFSHJGa1VVTFgxemN2YlhFelJFT3p2NkxYaVMwRzZoV1BlMG9NRV9ZeDQwS1BPcUw",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-26T23:34:27+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        },
+        {
+          "id": "origin-4",
+          "title": "Kenya Coffee Flavor Map & Origin Expo draws 3k visitors as country builds its first National Coffee Flavor Atlas",
+          "source": "Comunicaffe International",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM0pTT1lxNlcwS29Uc1dTekNURlZoQS1HUHpJdjBfaFdyVEN1T2pFRmFjc1Rid21XYVFCcHJQZzhCdzN0bDlCeHA0a3BncllyMEd5bXEtZ1k1V2NqQWl0Q2VYSVZ6TE9WSEN0YUJwSHdpYTZ3QXZlUWltb2Vab1BxWEo2REFJZkNmR1gtSXJIdXpCUGxibkZ5b3hJMi01VklyM2xPbXRMOUN6dGxNRG5fMWc5M3JGU29IcGl4NnplTGhhQ2ZDMGNJb21WS3V6Q3MxdVotVmk3NVI",
+          "summary": "",
+          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+          "imageLocked": false,
+          "publishedAt": "2026-11-25T23:59:22+00:00",
+          "category": "origin",
+          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
+        }
+      ]
+    },
+    {
       "batchId": "auto_2026-11-26T23-53-33",
       "scannedAt": "2026-11-26T23:53:33.627449+00:00",
       "items": [
@@ -3395,108 +3497,6 @@
           "sourceUrl": "https://fourthwavecoffee.org/e/2026-10-25.html",
           "isEditorialArchive": true,
           "publishDate": "2026-10-25"
-        }
-      ]
-    },
-    {
-      "batchId": "auto_2026-10-26T20-31-32",
-      "scannedAt": "2026-10-26T20:31:32.852072+00:00",
-      "items": [
-        {
-          "id": "industry-1",
-          "title": "Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects",
-          "source": "Coffee Talk",
-          "sourceUrl": "https://coffeetalk.com/ctmagazine/10-2026/111208/",
-          "summary": "Coffee prices fell sharply after Brazil's Lula won the election, weakening the real and boosting export prospects for farmers. The post Coffee Prices Fall Following Brazil’s Election Results, Weakening the Real and Boosting Export Prospects appeared first on CoffeeTalk .",
-          "image": "https://coffeetalk.com/wp-content/uploads/kelsen-fernandes-M5EnPWrSbj0-unsplash-scaled.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T20:28:29+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-2",
-          "title": "Seidy Selivanow Of Kafiex Roasters: The Sprudge Twenty Interview",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/seidy-selivanow-of-kafiex-roasters-the-sprudge-twenty-interview-1278632.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. An interview with 2026 Sprudge Twenty inductee Seidy Selivanow of Kafiex Roasters in Vancouver, Washington.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/05/illustration_seidy-selivanow.webp",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T17:38:48+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-3",
-          "title": "Pan Wei Of China Is The 2026 World Barista Champion",
-          "source": "Sprudge",
-          "sourceUrl": "https://sprudge.com/pan-wei-of-china-is-the-2026-world-barista-champion-1523583.html",
-          "summary": "This article is from the coffee website Sprudge at http://sprudge.com . This is the RSS feed version. This is Pan Wei's second year competing at the World Barista Championship.",
-          "image": "https://sprudge.com/wp-content/uploads/2026/10/wbc-panama-–-day-4-awards-jhp07754.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T16:06:30+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-4",
-          "title": "U.S. Coffee Drink Calories Climbed 40% in 15-Year Span",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://dailycoffeenews.com/2026/10/26/u-s-coffee-drink-calories-climbed-40-in-15-year-span/",
-          "summary": "U.S. adults consumed nearly 40% more calories from coffee drinks in 2018 than they did in 2003, despite drinking roughly the same amount of coffee, according to a new study...",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/iced-coffee-cream-1-620x427.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T14:31:04+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "industry-5",
-          "title": "DiFluid RS Extract Expands the Temperature Range for Coffee TDS",
-          "source": "Daily Coffee News",
-          "sourceUrl": "https://dailycoffeenews.com/2026/10/26/difluid-rs-extract-expands-the-temperature-range-for-coffee-tds/",
-          "summary": "Chinese coffee analysis equipment maker DiFluid has rolled out a new professional refractometer called the RS Extract for measuring total dissolved solids (TDS) in brewed coffee. The device can also connect...",
-          "image": "https://dailycoffeenews.com/wp-content/uploads/2026/10/DiFluis-RS-Extract-2-620x349.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T13:09:52+00:00",
-          "category": "industry",
-          "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "science-1",
-          "title": "Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds",
-          "source": "ScienceAlert",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelZOcHc1UU9XQXRUVUdKRnV3VU9fVlNGT1dzc1ZLVmRjWWhpdzNjT0I5ZTJWOV9nRktBTkVjTEpFQnlpeTQxSFVwX1NsMlZpdThxTDNzRThlRE1RaV81WDA2U2lBZXBBYmVNRUNFbnVMWDFvUHJiUWpTWEotQTFTbndkZXU5dE0wWmkyXzNOcmhEeE50T3hxMW9iQVEtU0hTMlFpdnFiRHppOHlXY0MxSlZiWHE",
-          "summary": "",
-          "image": "https://www.sciencealert.com/images/2026/10/LeftoverCoffeeGrinds-1536x864.png",
-          "imageLocked": false,
-          "publishedAt": "2026-10-25T20:01:47+00:00",
-          "category": "science",
-          "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-1",
-          "title": "Nakupenda Coffee House",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPYlNJYl9KUDZWVmxORnN0LUlTV282bG0wM3RPb0FZeDRNcW1iOU1QUWhrbFFEX1JrRzVUQkZXaHkwNGw2SDY4UTJtVDBwVk9wQUJxN0JRVXYwSDljZEdmREpad3E4LXNhdWROZzI0MlYxRDI0TXc",
-          "summary": "",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAV3Lw5CwiUjrBSkxdwt2IlMM6ZMtOn6TSZMqksndG5-1gXJNbIi3KZh8&s=10",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T14:51:08+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-2",
-          "title": "M+ Collagen Cafe",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03TzI3Rzh4Qm9uTHQzNkVMcGVIaVI1eGh2cWhtdWJtSmNWV24wUkZVODZjaGt1Y2xKb2F0Znl3dlVDaGpiMmNNSVpkbXJtdG9ZaXZtY2o3Qi1jY0xQd3NScDUtZEZtRFZfMWNhSA",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/36084/img_2038.jpeg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-26T11:44:29+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     }
