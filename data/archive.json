@@ -51,42 +51,6 @@
           "publishedAt": "2026-11-24T15:55:55+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "origin-2",
-          "title": "Barista Stories: Vicky Cheng of Fufu Coffee Studio & Mellow Coffee Roasters, Utrecht",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUDg3UU9LLUo1alR4MlRtaGd3MlpuWEYwbnFXQWFmYXNhbWZXUWFKOWFRNV80eW5hUW8wZC1zaENQUXRpQUxwQUtTb0V3aDM3ZGxmeldFazFZZHFuWnk1WTZiYTV4akhmemU0",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-27T13:34:34+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Starbucks opens new coffeehouse at San Marino Shopping in Guayaquil",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFNzSDN5UlpxUTUwQ2FFMFY2aHFrdGNlWHl2LVVoRmNEUVdSLUd1UlpUakF4UkRJS1JETGpPNExOb2JWUWhmd3hEZVJRbVBZYzlhS2NOTkQzQnRpcGN5ZTVkWVZjT0NIc0h1a2VFSHJGa1VVTFgxemN2YlhFelJFT3p2NkxYaVMwRzZoV1BlMG9NRV9ZeDQwS1BPcUw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-26T23:34:27+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-4",
-          "title": "Kenya Coffee Flavor Map & Origin Expo draws 3k visitors as country builds its first National Coffee Flavor Atlas",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM0pTT1lxNlcwS29Uc1dTekNURlZoQS1HUHpJdjBfaFdyVEN1T2pFRmFjc1Rid21XYVFCcHJQZzhCdzN0bDlCeHA0a3BncllyMEd5bXEtZ1k1V2NqQWl0Q2VYSVZ6TE9WSEN0YUJwSHdpYTZ3QXZlUWltb2Vab1BxWEo2REFJZkNmR1gtSXJIdXpCUGxibkZ5b3hJMi01VklyM2xPbXRMOUN6dGxNRG5fMWc5M3JGU29IcGl4NnplTGhhQ2ZDMGNJb21WS3V6Q3MxdVotVmk3NVI",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-25T23:59:22+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -165,18 +129,6 @@
           "publishedAt": "2026-11-23T02:30:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Espresso costs nearly US$5 on average in Switzerland, but prices vary sharply across regions, Deloitte finds",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEd6anVVYTBkZVJVcXVYd3VoMnV4Z0NWaVZQa2I4XzFLaVJDOXhLYmhlVFBuMUNsdHRHZFUtLTR1MGE5QTFhc1B6RHkxTGlyTl9OMzZTVkd0dXZscWZwamVpcW50TGxYLUdXR0tvU2tGR1pKSkw3RUlWTFdSUmZvUEZQM3U5Rm9xSTRWMWUzdmZsczI2NFk1ZFRISU1qVXZ0bnBIYUx0SkZDRlJmMURnakFPeE16UF80eDVlUllxbW5uTnFTckx2UnkxN3VGZkk",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-25T16:40:10+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -255,18 +207,6 @@
           "publishedAt": "2026-11-24T08:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Robusta futures at three-year low, USDA sees India coffee production down 6.8% at 6.17 million bags",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeXByNGh2b2FmYmg0UUhMNGFVVUFnYU91WjRDMlZ5cE1ORE5OLTZHVWsyNmxIWlpPejJodWR6MkwyZFFtektQMUpFRFRmeWNHWHVmdDE3VzBsclNZdHR1UVc2dDJ6V1d0MGRxc2ZpY1pYY2xLcnBWd2lkeW1UVjFDbzNwUWM1bl9KNU1DckoxQ1JFbklGSUxxOWY3X0lOU0tzM2N2WGFnMUxUNWk5emZ0STd0NW9HeXB5NjB6RVhTVWVtQ1c5",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-23T23:50:36+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -345,18 +285,6 @@
           "publishedAt": "2026-11-24T18:09:29+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "NEUCAFF Performance Coffee releases limited Run of 500 three-roast gift sets featuring paraxanthine-infused coffee",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZGJUaDNjLTlZdURsQTctNnlOcHNKVG1GQUVYQjltRTU3emJDUndWZTBRaXRUQndybGlITkl0dU1ybGdzUjFDdFFIdGxGMlVBRXRjYkE0WUtwRXdCTmRHLXZNZG9FX0lDN092NlVURS1PUlc0cmVGOWVrOUU3SENwRWxrSTItMS1tRm8tTThpelNWVmJrUV82RW5wSDRGWS01TWxxdDFmcy05Ni1fZDk3Zl91TTlsRVNBdThWeTRCZnJwMzRqdlhmTXJ6alN1VFluRXcwYzdzbW4zYzA",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-23T23:30:02+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -431,42 +359,6 @@
           "publishedAt": "2026-11-23T20:27:47+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "origin-2",
-          "title": "Costa Coffee and NEXT commit to decade-long partnership extension",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ0N2M1dQemxaSUJuU1A5X29yUFFZbjBrWGJ0SkpUOFQ5MlFtVEJla1dqSnQ1T1ZIVUJQcklHUEtWdDdNUjFSdExlZUxYemVmX2trSm4tTm5WcUoyYmdxUlIyMTFTOWp2Wnh4ZnFQUnREdjFrVWdydDZZaHRoNmI1T1FDRlRReXhfN0pzZHVfcTZuVnJ6YjNzbnBn",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2022/03/Costa-Coffee-logo-1068x601.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-23T11:02:56+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Production of Fairtrade Coffee Promotional Film and Photography Package",
-          "source": "Fairtrade.net",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNaHV4YWhSb1lKcHdxSkc1c3VOM0ZDdERtQmxteGJCR19mRmM0U2VUbmNLbGdrU2ZBdnlHOFk5M3hkSy1raGFUMjhvbHFucUc5RS1jM3l5UkdaOHhjMFNLbXd2eUtSa2xUUnVwa2tnbkcyVWJ3dUVSNndPQWlaNjBfX1pfYXBBU1NYeFZpOENCY19RSWpkTGRWd1pQUV9OYXAwU3Z1V1JfZ0wtV3FiV3dweEZOeWxGcmxqWEExM2lTZ0QxRjdUd1ZGYWRBTGZUdzBCc0pPSjhHbm9HQzhEZnFNa1NEQTZXVi13bXNrMjZVcWRsUG5jQ0tSemQ5R1VOaVl2eXl3U3d6cnJuQkxlYkVUX0l3eWRJT3BTVmU2d0RTSQ",
-          "summary": "",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHU23gyQ8LlIao_9CqpuPOuw0LGSgmQrHFvAxz3FS1A&s=10",
-          "imageLocked": false,
-          "publishedAt": "2026-11-20T08:00:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-4",
-          "title": "Coffee exports at all-time high in October, revenue slightly up this season, Cepea",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSENpQzVwN0NacVFLbkwyc3VfaWVfcWVONktXUnM3YXRYS1FnX1RzZlZLQUV1NlZTeXpGY1BwZ3ktRUJiclc5dUIzRnpFcTkyZFJlZDRRZFhLZDl5MjZiRGYwLXN4X20yRVQzcTBkd3pMOXp1dHludS1mRkd0Z2lDazNIbWlrSzVDSElqUTNsaWlRcHFtS1dibnVzVnZaYjN6bGJiaUtUdW1aRUpHNGc",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2021/12/CEPEA-logo-e1657145992645.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-18T23:55:39+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -565,18 +457,6 @@
           "publishedAt": "2026-11-21T21:55:34+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Mellow Coffee Roasters",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sR0tqeG9VcVM0YWQtaFdWZFl4Vzh6b253ZEozQ2dRMUVrRlpZSjhnQ2tURE1YX0dOOEhhN0tQc1R0b0R3bkJFUkR4OGV4OXBvdEpFWG1pR2h6aXFITXhBX3pmQlNsaWFRdTZhVg",
-          "summary": "",
-          "image": "https://pub-ba1a74be17d7442a9f2541946eb9510e.r2.dev/shops/d60350ba-be2e-4ca7-8bc5-d73d0098f535/0.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-20T12:03:45+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -631,42 +511,6 @@
           "publishedAt": "2026-11-20T08:12:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Swieżo Upieczona Café",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aSkFZSVZmWVRteC10U3VxR0R1YUp4cDloZHZZaDZySWJEbTVvWE9MV0lNR1V0ZGFQUEwza2Jsd3BsNTZlRUs5S2FCU205RlVleDVmX1JTcDNzc0NITktEaHl3UVlObm9pUVNqSUo1VTc",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-20T14:43:33+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Suffolk-Based Massimo Zanetti Beverage USA powers national hospitality innovation with rollout of Segafredo Cold Espresso",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVW1LcnEyaEkyQ1RjVm1iNC13Wm9rNG0zeWdNcFRCSTBXcU9aRnltZ1A3eWhDTjk4ampEdU5hd0prMS0tNXQxV3NYTy1XaWkxcU81ajl1UGp4TUxwYUNWSFMyVmdiVU51SzVwVkVHMjE5MXBpeXFZVGZ5eGdlS1UwbFNhdEhwUWwtN2FVV2JWM3NjNWl2YllxQmQ3emNDZF9fNUxfWU5scllfcXZmVzkzengzSEcwNmlIb1hYcm4zM2NKWnprb3l4QTltSjVFU3pBekozLV80U1JYLU9qcTFGd2ctbkM",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-19T23:57:35+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-4",
-          "title": "Eight O’Clock Coffee expands portfolio with new Blonde Roast K-Cup pods",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeE04Q21IZ1BiRGU0Z3VpRFNyQzgxeVNUd1ZGRU9Xa09QaXVjZC1qR1BwbzZwYmpYYnFiSmkxUW9tazVWNWFjNkN3Y0xQSTZza0V2MjgzWEVjdzZlekdrSTRhMVkxRGhUOG85ZWdWRmxnc3N0eF9rODhnWmtkcTlSbWpwLUhJZVpfTllZeVowM21ldHhGUEtTUWNmQWl6OC1x",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-19T23:20:12+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -745,18 +589,6 @@
           "publishedAt": "2026-11-19T23:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Cagibi",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PWUdxWGhFdDFmd2lYN2dkaTNoODQtamxYRUNCRzY5d09OWWZMS25JSEUtc282NnpMRzg2dWFSTnVGM3pRLTNGWjREMlB5aTVxMmxtY2w0Ykp6b2hWQ1dsLWlYSQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-20T14:43:52+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -835,18 +667,6 @@
           "publishedAt": "2026-11-17T08:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "We Didn’t Do This Alone: The Results of GCAG 2026",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/we-didnt-do-this-alone-the-results-of-gcag-2026/",
-          "summary": "From coffee shops around the world to a small village in Indonesia, here’s what our coffee community accomplished together. $4,649 raised. Three days of free coffee education. Eighteen participants. And a lot of people who made it possible. When we started planning GCAG Charity C",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/11/GCAG-2026-Indo-scaled.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-19T09:35:34+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -925,18 +745,6 @@
           "publishedAt": "2026-11-18T17:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Unity Coffee Roasters Lisboa",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoVEhGWDNOZlNzRVVYak9DZHBYSmpQbkNpQ2gtcVlsRWFFOVFYc0VFSWdSTElRMV8yQTJYU1ZEdVljR0sxV0tZOTJCTDBBMHF6c1p0N0Q4VzdXUmRyNVoySU5EOTRzNERkYXhnV3RfaF8",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-18T16:46:10+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1035,18 +843,6 @@
           "publishedAt": "2026-11-15T22:52:30+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "George Peng",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/george-peng/",
-          "summary": "After Becoming World Champion, George Peng Still Has Coffee to Make. George Peng used to deal with pressure by posting strange things on WeChat Moments. Sometimes it was nonsense, sometimes a movie scene, sometimes a Stephen Chow reference that said what he wanted to say without ",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/09/George-Peng-at-competition-1024x640.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-17T13:00:00+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1125,18 +921,6 @@
           "publishedAt": "2026-11-15T22:59:05+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Lavazza Calendar 2027: the coffee ritual across three cities through the eyes of Goldberg, Majoli and Pellegrin",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb0ZWTkNOX2FlMmR1MU1wTWotbzVJQ1I3Nl9NQW1IbEJNcUUteGNUMnZ2NFlWaDhhNHhuX0hBSnM0WEZFSVdPOEluSXcyalhFbXNMeVYtYXpJZzBiMHhkSzRQdTY4amotakJGUHJNT2ZybjZpa3hwZDR4cjR0LVlIZC1fbUFDYWNCeFFLeEh3RFFKWmhaeVdMMExPdG9sM09uZ2Y5Qm92RVZoRmZ6SEJlUTQ1anByMzlWdGpaTGxtOWlIX3ZRU3VOV0FMbHllaS1oSzNFSQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-15T23:55:19+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1235,18 +1019,6 @@
           "publishedAt": "2026-11-14T11:44:21+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "The Human Bean’s Coffee for a Cure tops $5 million for breast cancer support",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRV95UzR1ck5YcEFLX1dvaF9xUlg3bHlVSzljTDZuYS15clFvN2IwUmxHV29oUy1XMXpRWXJodGJGYU5WU2dBRlktSmE3cnU0TkxzRXh5NzRIdFdvSGNNa3hkV3FDNXFnYjJwYzJQeFdkOUFvcm9RQURjajY1Y3VfSzVGelE1OWpKbVRGTmNMMHRSU09IdnlsOGduUzlDTks2MFlfSV9R",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2022/12/The_Human_Bean_Logo.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-12T23:10:19+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1321,42 +1093,6 @@
           "publishedAt": "2026-11-14T11:44:21+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Airstream Café Uzlík Un-di",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Od2dJblh3WXhaREEwdE1ISG44SGpWT1NaY0d1RmJYYlBlMHR3b0p4aEFOV05NemZybkFhYURNY2pWUVNvY0ROM3JleE1aYU4wM0haQi01aXFqSnBLdGFTRTd3dXdOZDJW",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/30669/1000114813.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-13T22:18:15+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Arabica coffee prices rally (+4.2%) despite record Brazilian exports",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT0xsek9jYkhrMDRvYkJWU1UweV9HOGJZNXNoSHIydDN1UHhFSkUtUGhLYjVCSnpNakNjRG01UVVsdFluVDRkb0d4SjEyYjRjS1VoZkxzblVpX0Z6Q0hwTXYzdjd2NzVUb3k0alpKemxjbUxHMkpVODhFYVJOZjFEOWhmcjBhM2NHdHhfMWRWRk5IeVBMRE1mT0Rra1FjQ2FpWGtucnV0RWlyUldKbDJkc1hiQjN1TzNzRGN5THlKM3NfSFZuN1RxbDBDMnNXWEFjTmpxOWJMbDZVdFFPdmZOOGw5WTRHYzBEd0cyUFdlcHBYQQ",
-          "summary": "",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgWJQW92bJ1Q7jkxeMWiCdWrag-3f1edCjIC0E3BcGgiTeocd9jdIelsI&s=10",
-          "imageLocked": false,
-          "publishedAt": "2026-11-12T23:59:09+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-4",
-          "title": "How Kelvin Deviro used AI to select his espresso and win the Indonesia Barista Championship 2026",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHEzM1RqMTB1VUF0YU8yRldiOVNVUG1leXNpdm9XUkNaa1JETG5vUExFR0RvQnBqeFFudW5xd1dsQjNkall5NHYtSzhvbTJibFItWG1HSlY0THRZcDB1a3dUZmQwb0ZTaUZ0U2NJVTBiXzRhUDVta2x1WUFDTUlGaTBaVW80bXE2Sk10UFBQSGRNakd5eGxzWjh3TGlOaVNzdFFxRW9qNmNJbXVoV0JyeG1BN28td2pVNHVhZkZvaGxQUlU",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/11/Kelvin-Deviro-from-CATUR-Coffee-with-ProfilePrints-Mini-Beluga-analyser-2048x1529.jpeg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-12T23:50:57+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1435,18 +1171,6 @@
           "publishedAt": "2026-11-08T23:59:00+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Three Wilfa Products Earn SCA Certified Home Brewer Status",
-          "source": "Specialty Coffee Association",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzcxTVRGTjY4RThiY0d2Z1UyMmE2dzZJblQ3ZC1MYlZrMVJ2VnZ6R3dUZW1MZG9aakotWU0xYXFlYUtVNWJhVXNUQW5HVXBzZHFrUkdLLWQ4ZkhtQjJCNGtOWHYyWnF1cUtGRkxvcjB5MndDNnlMVFZuYzBTWlFKZUg5RzdON25XU0swWGY0SnpTS2dEQTVlUG1rdmg",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-13T14:03:27+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1525,18 +1249,6 @@
           "publishedAt": "2026-11-12T16:04:36+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Graphic Design Intern (2 Positions)",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/graphic-design-intern-2-positions/",
-          "summary": "Graphic Design Intern I’M NOT A BARISTA × Local Coffee Partner Location: Guiyang, China Workplace: On-site (In-person internship) Duration: Minimum 3 months Positions Available: 2 Love Coffee? Love Design? Create Something Meaningful With Us. I’M NOT A BARISTA is a not-for-profit",
-          "image": "image/carosal/cafe-scene-6887.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-12T05:25:43+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1635,18 +1347,6 @@
           "publishedAt": "2026-11-09T23:21:03+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Love-All Coffee serves up farm-direct specialty coffee for the tennis community",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZGR0NnFkVUJRbWZsWkVZdERoX19FTXI2X2hDVnJtdzViek9iZHQ5cUNfYk1iWkllTm5vS2VmNEpWeGUxYmVEeFBzUjlSZGl1NE1oQ094Q2FPT09JelhBV2VLY1oyWS1TUUFKOU5lelh0RlFfd2t5RGZCcHQ5dDIxb2ZjYTdMNXJKSmx4RXlnNkdtZGgtUHFNM3l1bmJuMlBTZHctbkZIbThTUGxh",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/11/sweet-spot-packed-for-a-tennis.jpeg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-11T11:52:14+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1745,18 +1445,6 @@
           "publishedAt": "2026-11-10T14:00:02+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Between Cafe & Healthy Food",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MWjFpV3RVRWxlNU9GQ2xhS3lnc1pTQ21seXdkejdPQ3NMd1FURnhLRVQySTN6UmVFa0FnQnl1QV9SQlEwakNhbk5VS3JodGVKNUU1cTdhMW1hQWRvUTJlU0FuTlo3bk0",
-          "summary": "",
-          "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/36405/imagen-2.JPG",
-          "imageLocked": false,
-          "publishedAt": "2026-11-10T16:33:22+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1835,18 +1523,6 @@
           "publishedAt": "2026-11-09T15:32:28+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Kafe pro Sebe - Uničov, Czech Republic",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YcFlmZ1k5UUhUWmFuTVZsRnN2WWlWOWVxbjlMeG5pQUlQSU5TZVFRM0lTMWpueEYzYldNQUFFV1Z3dFhfM3duVENGUHdwRlVuSUw1amFBYkpmM0Jpb3FNRQ",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-09T13:57:48+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1913,30 +1589,6 @@
           "publishedAt": "2026-11-05T08:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "trücup Low-Acid Coffee launches new product: Half-Caff Pods",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWG9hUjV3dXdvUEl5eVpYLWtVLTYycWZlXy12bVgzZWtETTJsWmtJZDlzTTNOWllRa1F1VXV3SVUzRGlIZDI2eWIyYTVXd2hzUFRrdldjVDZreXVkOTJrb21WaS1FbHJVS0Rvd0VCa2doYWp1ajFKTXJ2dG5zOGg1MWZfalFvNkFQQUdNRTdpV0Y",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-05T23:35:22+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Kraft Heinz sells North American coffee business, including iconic Maxwell House brand for $650 mln",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjE1ekNsUnJFSWNnOWpsWlZUcFRUS1FpWmhfX0JCODduZUtfa1Q2alRKMy12T3VaUHRrYTZKSzRSSUdLOHdtQ3UzaGVCZVR1M0hfbnhkQkVSYlM4SnFsSzZHUHJSc051Z1pJbmt1MTJzYmJrSUQ4ZHVqSXpBZFpaWGdGdy1hRlpBM3pmUkhDM3lDcFNpZzJ4TnBjRFdnampEdURPSEZJVDdNeFlqNmE5SkVXOHA",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-05T10:27:49+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -1991,42 +1643,6 @@
           "publishedAt": "2026-11-07T10:17:08+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Coffee futures: Arabica prices extends losses as El Niño and logistics concerns persist",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUUxUMjN2dHg0WGJIWnJYWFVvZmREQVpHZ0lKbjdRQ2tON1QwNjh2dTFoa3FYVGEtcHVXY0hWQzFqX18yQXBLeXhKREYxRm84Y3VaSjR1Y3RzMWpEcUVNMkIxVU9TNHlSRW8yaDh3LVlsUHBRQ0k5NFVLWFBGT0ExWW9PV2hIbVRHZnBubUZsU3FoN3c2TGptTEZlZEZONG1ncHhwMFVMR2dRTDNEVDZiY25WMWxTb3JLTC1ObTV3",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-06T09:53:05+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-3",
-          "title": "Fairtrade International’s response to the Coffee Barometer 2026",
-          "source": "Fairtrade.net",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOFlTNjI5Y2wwX2VRb1M1SzFPX0FEOVV2XzZkd3oyb2hpT2RLZVBqU09BdjJQeVBFYklZNmE0SHIyQWxuUGZDcFMzQ2lleXZnaUNKbnQxY0JWaC1UaHNtc2NtYklDZXlJZEFmc2ZjTzRrSTNwUlJFVEpJTFZTMVBUc0lzLWIxbVQzbWd2OUNBYi0tdG81eWJxdDhMYjk0NTZ0SGlSZ2dsR2ZNZzFIOS02c3NycUNZQnZsQlAwVGFn",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-06T06:59:02+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
-        },
-        {
-          "id": "origin-4",
-          "title": "Westrock Coffee posts Q3 net sales of $300m, down 15.4%, as gross profit rises 0.2% to $41.5m",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUXpWeEpFRHlENFJoU2RvZkxuSEk4TEp0NHNNXzBYRG4tTkZnVGpfQ0NqVGt1YWZOUGR0VjdhcW9LMjR2UWFSal8yek1iNDJBWDhOMWR6RXV1Q09VV0xNWk0xYmRNNjJ0bDV2ZnIxbWZ5a0JYaFBablV4cEdiQzdvRlVQdDJndXBGUU5iUk1VZkhZN3RBYmRVMlpRREwxRnRhbDFTa0YtSFB0UXRwemcwMmRPM0lWaWM",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-05T23:40:37+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2183,18 +1799,6 @@
           "publishedAt": "2026-11-05T00:43:00+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Coffee Packaging: The 2026 Trends Already Shaping 2027",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QSkppMHNPVHBLNVZ6Q2ttUktCajJHcnEtNTh0ekVtVUlfMEJOY2poTGVyQUxQNmQzaWJ5QXZFSVRnbXM1MnMxQWlYdFQtZnB2SjNzd1VsN01BRG9PdFFZMmZTdzIzc1VkWUgtcml3aWxqb2FFYzM4djVVYXg",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-05T12:42:52+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2273,18 +1877,6 @@
           "publishedAt": "2026-11-04T12:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Java Factory Roasters launches “Sweater Weather,” the third season of Flavor52 initiative",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUG94MEJ5andxeXIwVkl0alZRdUwzZy1NOUlYNlRUaGRfU0d3OFhMMzhJSXl3REM5Sm1sSlYzbXZVQW1ra3ZkM1hkSXpLeGZOZXlLSDRCdmNleUxZZWN5UGdjRVFCTDViVkhfNGY3Zk1CN0VmUEhYb2lBMGlFZHg5YnBDN3pET3h3czdlSmRzWEVJRDBIOWFKN01ZLS02VXJDUEhyamNrRE1TU29qTVNEaEJrUVN1Zw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-11-04T11:46:39+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2383,18 +1975,6 @@
           "publishedAt": "2026-10-30T20:15:51+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Lavanila and Peet’s Coffee brew up the ultimate Vanilla Latte for the Holidays",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSzQyblBsN0N2dHA4bXNsbUhFTkZpMHpVS2hLSnpZTF9QTDgwSkRkbDdKYnI1TmEtV0ctRDRuN2pjaDMzYi0xYVY0Zm40NHNUTjA2Z3Z1QS1FV2NKVDRSc09jaTVJMlo3ODF1S1ZfbUVzSnBhbWxKWEIzWndnampUc0wzMlZaRVZRbjVZeFR2NWhOOUtoN09sS2lteHlybVlIWFkwZm5MZE9xZw",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/11/Lavanila-Peets-Coffee.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-03T11:46:28+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2513,18 +2093,6 @@
           "publishedAt": "2026-11-02T04:55:31+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Windu Alifart",
-          "source": "Not a Barista",
-          "sourceUrl": "https://notabarista.org/windu-alifart/",
-          "summary": "The Coffee Was Never Just About Winning From a small village in Indonesia to the international coffee community in the UAE, Windu Alifart ’s journey is about mistakes, second chances, and discovering that some of life’s most meaningful victories belong to the people around us. Wi",
-          "image": "https://notabarista.b-cdn.net/wp-content/uploads/2026/11/windualifart_1565328852_2106453546291924990_1940659640-1010x1024.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-11-02T05:27:37+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2603,18 +2171,6 @@
           "publishedAt": "2026-10-28T19:46:48+00:00",
           "category": "industry",
           "categoryLabel": "Coffee Industry News & Trade Journals"
-        },
-        {
-          "id": "origin-2",
-          "title": "RICA Cold Brew named Official Coffee Partner of the Florida Panthers",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX2lVN0w1VXRYeXJHclZ0RlczejlqN2YtT3BzNGVncUVtOVBSVnZYNE0zYmYzSnZ3a25uNTJfdl9PN0JscEs5RlFuR2dkaER6TDJxSjYzT3lxcTdxbUFPVGxkLW5PcFBCMmRjMnU3RXZFQnM3cXZBamJPbkU5enVkV3UzZ0RLQ2tuSzFvVDd4MVcxSU1RR3FTd2RVVFhVV29sME5KUk9yUGhBbzM5OXRGSHlWQlE1Uk5pc2hoU2djTGFfMmhPU2FzUnZZRmxUVkJXby1UMVVDNTVNaWFnWm00QjVWZ05Ed0U",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/10/Rica-Cold-Brew-logo.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-29T23:25:10+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2693,18 +2249,6 @@
           "publishedAt": "2026-10-30T10:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "UC Davis joins Feed the Future Innovation Lab for Coffee and Cacao",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHEzS3d2R0E3bXcxTDZuRWRHNE1Qb2phUWtJU2NZa3ItbnlrSEROZ2JfbUQ1anllWHZ0QTNCZ29FTklyRnFDVGZXRXNwU1lrSkxjalVfUGNFTDY2eFBjTVpSa0tXZHJEQVJFSFY2LUFsdnNOM3AxOE1pTFFzak54RnRvN1FZRHd6WFpmdlgyQU52UDJiUENzUEFCdw",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-27T23:29:47+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2783,18 +2327,6 @@
           "publishedAt": "2026-10-27T11:48:45+00:00",
           "category": "science",
           "categoryLabel": "Coffee Science & Technical"
-        },
-        {
-          "id": "origin-2",
-          "title": "Cumulus debuts at Target with the first countertop machine built entirely for cold coffee",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelhqWHVVcFQ2R3g5S1VaRU5aSVZXRTlUN0IxWERtR210cGd4eHF0Y2tTUE5WSkY3dXdxM1pySlFrSlV5akVIVGpnVWJDTnllYjF4dmdTWkd5bHk5SUhiSFZQeldwUlZHV1dDWkRiSzBhaXF1VjZsM3JCZ1NwRG4zeUZsdm1DaEJYeG5fZWN1cEdXcDE3T1hYb2F0REZtMkV5bU42cld5eEl2bmNDd1JwNWFCSGFuTVpzOHc",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-27T23:31:46+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -2893,18 +2425,6 @@
           "publishedAt": "2026-10-27T08:47:41+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "UNIDO and Italy strengthen partnership to advance sustainable coffee value chains in Africa",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUXhPcjZoMmtkSDdTbjlPWFo3MnZuYzFXdjNiRzdwX3puTFVWeEFITThUQXhPdV9jRkJtNl8xNFBERmxmZ3NFTDRqZEdnOFhCOW9FUzdBQ3hZMHk1TXlTbHBra2VBeGUyR2V3S0lKZ1J2V0YyWmFNLS1tNFA0YWxDcS04R0Y1QUZIbjJQTG9lVnZLQ1NHM3RyOUFtMlNwLVFmak1SS1lSdEk1UEEyLTVKX1lGU1pLRE1ycncyRA",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2025/03/Unido-logo.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-29T11:57:51+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -3003,18 +2523,6 @@
           "publishedAt": "2026-10-27T13:35:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "China, Rabobank:coffee accounts for up to 20% of tea chains sales",
-          "source": "Comunicaffe International",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUE5UdHlnTXVwQ05Cczk5ZmpHcFVCWnQyUjF4dm9VMFNfMEZmaHI2YVplYXR1WGNvMkRtWUxKTE5ibFFEZDFyc09JMmlpZ3RPeDZzQk53SXRNOTBuZWI3cjZ6d3E2X0t1QXJIVXEzT1ExYmlEb01VY1hNWTdYc3ZKY2JOSFNKRnh1Z21EcEZSZ29WWFFxbDViOUdwSGJqczBnMnRoTUQ1akc5WE00ZmNvUG9jd3BiR2xvLVNuRUdNVUhxLWVQ",
-          "summary": "",
-          "image": "https://www.comunicaffe.com/wp-content/uploads/2026/09/Chinese_flag_Beijing_-_IMG_1104.jpg",
-          "imageLocked": false,
-          "publishedAt": "2026-10-27T23:59:31+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
@@ -3093,18 +2601,6 @@
           "publishedAt": "2026-10-23T07:00:00+00:00",
           "category": "reviews",
           "categoryLabel": "Coffee Reviews, Gear & Enthusiast Communities"
-        },
-        {
-          "id": "origin-2",
-          "title": "Best Cafés in Podgorica - Speciality Coffee Guide to Podgorica",
-          "source": "European Coffee Trip",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iVVdUTVVHMi1UTnJiSG1wWEo3WVp0clRrbkJzUlBHNWItU3ljN200enhta1RwaElPeVRnS2Vwd245cGRIajBEVHJoNnQydTljVWxPSGdXXy1QdzYxTHBlNzRn",
-          "summary": "",
-          "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-          "imageLocked": false,
-          "publishedAt": "2026-10-27T11:35:13+00:00",
-          "category": "origin",
-          "categoryLabel": "Coffee Origin, Sourcing & Global Culture"
         }
       ]
     },
