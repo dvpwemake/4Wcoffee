@@ -54,45 +54,6 @@
       "categoryLabel": "Coffee Industry News & Trade Journals",
       "id": "industry-4",
       "rank": 4
-    },
-    {
-      "title": "Sydney Store - Vevey, Switzerland",
-      "source": "European Coffee Trip",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUDg3UU9LLUo1alR4MlRtaGd3MlpuWEYwbnFXQWFmYXNhbWZXUWFKOWFRNV80eW5hUW8wZC1zaENQUXRpQUxwQUtTb0V3aDM3ZGxmeldFazFZZHFuWnk1WTZiYTV4akhmemU0",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-11-27T13:34:34+00:00",
-      "viaGoogleNews": true,
-      "category": "origin",
-      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
-      "id": "origin-2",
-      "rank": 6
-    },
-    {
-      "title": "Barista Stories: Vicky Cheng of Fufu Coffee Studio & Mellow Coffee Roasters, Utrecht",
-      "source": "Comunicaffe International",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFNzSDN5UlpxUTUwQ2FFMFY2aHFrdGNlWHl2LVVoRmNEUVdSLUd1UlpUakF4UkRJS1JETGpPNExOb2JWUWhmd3hEZVJRbVBZYzlhS2NOTkQzQnRpcGN5ZTVkWVZjT0NIc0h1a2VFSHJGa1VVTFgxemN2YlhFelJFT3p2NkxYaVMwRzZoV1BlMG9NRV9ZeDQwS1BPcUw",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-11-26T23:34:27+00:00",
-      "viaGoogleNews": true,
-      "category": "origin",
-      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
-      "id": "origin-3",
-      "rank": 7
-    },
-    {
-      "title": "Starbucks opens new coffeehouse at San Marino Shopping in Guayaquil",
-      "source": "Comunicaffe International",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM0pTT1lxNlcwS29Uc1dTekNURlZoQS1HUHpJdjBfaFdyVEN1T2pFRmFjc1Rid21XYVFCcHJQZzhCdzN0bDlCeHA0a3BncllyMEd5bXEtZ1k1V2NqQWl0Q2VYSVZ6TE9WSEN0YUJwSHdpYTZ3QXZlUWltb2Vab1BxWEo2REFJZkNmR1gtSXJIdXpCUGxibkZ5b3hJMi01VklyM2xPbXRMOUN6dGxNRG5fMWc5M3JGU29IcGl4NnplTGhhQ2ZDMGNJb21WS3V6Q3MxdVotVmk3NVI",
-      "summary": "",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "publishedAt": "2026-11-25T23:59:22+00:00",
-      "viaGoogleNews": true,
-      "category": "origin",
-      "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
-      "id": "origin-4",
-      "rank": 8
     }
   ],
   "byCategory": {
@@ -145,47 +106,6 @@
         "id": "industry-4",
         "rank": 4
       }
-    ],
-    "origin": [
-      {
-        "title": "Sydney Store - Vevey, Switzerland",
-        "source": "European Coffee Trip",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUDg3UU9LLUo1alR4MlRtaGd3MlpuWEYwbnFXQWFmYXNhbWZXUWFKOWFRNV80eW5hUW8wZC1zaENQUXRpQUxwQUtTb0V3aDM3ZGxmeldFazFZZHFuWnk1WTZiYTV4akhmemU0",
-        "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-11-27T13:34:34+00:00",
-        "viaGoogleNews": true,
-        "category": "origin",
-        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
-        "id": "origin-2",
-        "rank": 6
-      },
-      {
-        "title": "Barista Stories: Vicky Cheng of Fufu Coffee Studio & Mellow Coffee Roasters, Utrecht",
-        "source": "Comunicaffe International",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFNzSDN5UlpxUTUwQ2FFMFY2aHFrdGNlWHl2LVVoRmNEUVdSLUd1UlpUakF4UkRJS1JETGpPNExOb2JWUWhmd3hEZVJRbVBZYzlhS2NOTkQzQnRpcGN5ZTVkWVZjT0NIc0h1a2VFSHJGa1VVTFgxemN2YlhFelJFT3p2NkxYaVMwRzZoV1BlMG9NRV9ZeDQwS1BPcUw",
-        "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-11-26T23:34:27+00:00",
-        "viaGoogleNews": true,
-        "category": "origin",
-        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
-        "id": "origin-3",
-        "rank": 7
-      },
-      {
-        "title": "Starbucks opens new coffeehouse at San Marino Shopping in Guayaquil",
-        "source": "Comunicaffe International",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM0pTT1lxNlcwS29Uc1dTekNURlZoQS1HUHpJdjBfaFdyVEN1T2pFRmFjc1Rid21XYVFCcHJQZzhCdzN0bDlCeHA0a3BncllyMEd5bXEtZ1k1V2NqQWl0Q2VYSVZ6TE9WSEN0YUJwSHdpYTZ3QXZlUWltb2Vab1BxWEo2REFJZkNmR1gtSXJIdXpCUGxibkZ5b3hJMi01VklyM2xPbXRMOUN6dGxNRG5fMWc5M3JGU29IcGl4NnplTGhhQ2ZDMGNJb21WS3V6Q3MxdVotVmk3NVI",
-        "summary": "",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-        "publishedAt": "2026-11-25T23:59:22+00:00",
-        "viaGoogleNews": true,
-        "category": "origin",
-        "categoryLabel": "Coffee Origin, Sourcing & Global Culture",
-        "id": "origin-4",
-        "rank": 8
-      }
     ]
   },
   "deleted": [
@@ -213,6 +133,21 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pakZ5Q2FYNUFBdGNvQ2xSakdTcmIyRHhpaHpHQVg1ZGEzME9JaTZyRlBoTEhMYkFDSTd4V0dJNXRYUFNxQ21XdERQU2xDNVJOMHc4cXc1cV9IanJkeHpVbUNjSDA",
       "title": "Sydney Store - Vevey, Switzerland",
       "deletedAt": "2026-11-27T23:55:22.141Z"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUDg3UU9LLUo1alR4MlRtaGd3MlpuWEYwbnFXQWFmYXNhbWZXUWFKOWFRNV80eW5hUW8wZC1zaENQUXRpQUxwQUtTb0V3aDM3ZGxmeldFazFZZHFuWnk1WTZiYTV4akhmemU0",
+      "title": "Sydney Store - Vevey, Switzerland",
+      "deletedAt": "2026-11-27T23:55:51.073Z"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFNzSDN5UlpxUTUwQ2FFMFY2aHFrdGNlWHl2LVVoRmNEUVdSLUd1UlpUakF4UkRJS1JETGpPNExOb2JWUWhmd3hEZVJRbVBZYzlhS2NOTkQzQnRpcGN5ZTVkWVZjT0NIc0h1a2VFSHJGa1VVTFgxemN2YlhFelJFT3p2NkxYaVMwRzZoV1BlMG9NRV9ZeDQwS1BPcUw",
+      "title": "Sydney Store - Vevey, Switzerland",
+      "deletedAt": "2026-11-27T23:55:56.940Z"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM0pTT1lxNlcwS29Uc1dTekNURlZoQS1HUHpJdjBfaFdyVEN1T2pFRmFjc1Rid21XYVFCcHJQZzhCdzN0bDlCeHA0a3BncllyMEd5bXEtZ1k1V2NqQWl0Q2VYSVZ6TE9WSEN0YUJwSHdpYTZ3QXZlUWltb2Vab1BxWEo2REFJZkNmR1gtSXJIdXpCUGxibkZ5b3hJMi01VklyM2xPbXRMOUN6dGxNRG5fMWc5M3JGU29IcGl4NnplTGhhQ2ZDMGNJb21WS3V6Q3MxdVotVmk3NVI",
+      "title": "Sydney Store - Vevey, Switzerland",
+      "deletedAt": "2026-11-27T23:56:17.458Z"
     }
   ]
 }
